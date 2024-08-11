@@ -1,0 +1,680 @@
+Q: What is JavaScript?
+A: JavaScript is a high-level, interpreted programming language commonly used for adding interactive features to web pages.
+
+Q: How do you declare a variable in JavaScript?
+A: You can declare a variable using var, let, or const. For example, let x = 10; or const y = 20;.
+
+Q: What is the difference between let and const?
+A: let allows variable reassignment, while const creates a constant variable that cannot be reassigned.
+
+Q: How do you create a function in JavaScript?
+A: You can create a function using the function keyword, e.g., function myFunction() { console.log("Hello"); }.
+
+Q: What is a JavaScript closure?
+A: A closure is a function that retains access to its lexical scope even when the function is executed outside that scope.
+
+Q: How do you add an event listener to an element?
+A: Use the addEventListener method, e.g., element.addEventListener('click', function() { alert('Clicked!'); });.
+
+Q: What is the purpose of the this keyword in JavaScript?
+A: The this keyword refers to the object that is currently executing the code, often used within methods to refer to the object itself.
+
+Q: How do you create an object in JavaScript?
+A: You can create an object using object literals, e.g., let obj = { name: "John", age: 30 };.
+
+Q: What are JavaScript prototypes?
+A: Prototypes are objects that other objects inherit properties and methods from. Each JavaScript object has a prototype.
+
+Q: What is the difference between == and === in JavaScript?
+A: == performs type coercion before comparison, while === checks both value and type without coercion.
+
+Q: How do you convert a string to a number in JavaScript?
+A: Use parseInt() for integers, parseFloat() for floating-point numbers, or the Number() function.
+
+Q: What is an immediately-invoked function expression (IIFE)?
+A: An IIFE is a function that is defined and executed immediately, e.g., (function() { console.log("I am an IIFE"); })();.
+
+Q: How do you handle errors in JavaScript?
+A: Use try...catch blocks to handle exceptions, e.g., try { // code } catch (error) { console.error(error); }.
+
+Q: What is JSON in JavaScript?
+A: JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write, and easy for machines to parse and generate.
+
+Q: How do you parse JSON data in JavaScript?
+A: Use JSON.parse(), e.g., let obj = JSON.parse('{"name":"John","age":30}');.
+
+Q: How do you stringify a JavaScript object into JSON?
+A: Use JSON.stringify(), e.g., let jsonString = JSON.stringify({ name: "John", age: 30 });.
+
+Q: What is a callback function in JavaScript?
+A: A callback function is a function passed into another function as an argument, which is executed after the first function completes.
+
+Q: How do you create a promise in JavaScript?
+A: Use the Promise constructor, e.g., let promise = new Promise((resolve, reject) => { /* code */ });.
+
+Q: What is async/await in JavaScript?
+A: async/await is syntactic sugar for handling asynchronous operations in a more readable way compared to promises. Functions declared with async return a promise, and await pauses execution until the promise is resolved.
+
+Q: How do you create a class in JavaScript?
+A: Use the class keyword, e.g., class Person { constructor(name) { this.name = name; } }.
+
+Q: What is the typeof operator used for?
+A: The typeof operator returns a string indicating the type of a variable, e.g., typeof "Hello" returns "string".
+
+Q: How do you check if an object is an array?
+A: Use Array.isArray(), e.g., Array.isArray([1, 2, 3]) returns true.
+
+Q: What is the map() method in JavaScript?
+A: The map() method creates a new array with the results of calling a provided function on every element in the calling array.
+
+Q: What is the filter() method used for in JavaScript?
+A: The filter() method creates a new array with all elements that pass a test implemented by the provided function.
+
+Q: How do you find the index of an element in an array?
+A: Use the indexOf() method, e.g., let index = array.indexOf(element);.
+
+Q: What is the reduce() method in JavaScript?
+A: The reduce() method executes a reducer function on each element of the array, resulting in a single output value.
+
+Q: How do you create an empty array in JavaScript?
+A: Use array literal syntax, e.g., let arr = [];.
+
+Q: What is the difference between null and undefined in JavaScript?
+A: null represents the intentional absence of any object value, while undefined indicates that a variable has not been assigned a value.
+
+Q: How do you clone an object in JavaScript?
+A: Use Object.assign() or spread syntax, e.g., let clone = { ...original };.
+
+Q: What is the arguments object in JavaScript functions?
+A: The arguments object is an array-like object provided to all non-arrow functions, containing the values of the arguments passed to the function.
+
+Q: What is event delegation in JavaScript?
+A: Event delegation involves using a single event listener on a parent element to manage events for its child elements, often using event bubbling.
+
+Q: How do you access the DOM in JavaScript?
+A: Use methods like document.getElementById(), document.querySelector(), or document.getElementsByClassName().
+
+Q: What is the this keyword in an event handler?
+A: In an event handler, this refers to the element that triggered the event.
+
+Q: How do you prevent the default action of an event in JavaScript?
+A: Use event.preventDefault() within the event handler function.
+
+Q: What is a higher-order function in JavaScript?
+A: A higher-order function is a function that takes other functions as arguments or returns a function as its result.
+
+Q: How do you use the setTimeout() function?
+A: setTimeout() executes a function after a specified delay, e.g., setTimeout(() => { console.log("Hello"); }, 1000);.
+
+Q: How do you use the setInterval() function?
+A: setInterval() repeatedly executes a function at specified intervals, e.g., setInterval(() => { console.log("Hello"); }, 1000);.
+
+Q: What is the parseInt() function used for in JavaScript?
+A: The parseInt() function parses a string argument and returns an integer of the specified radix, e.g., parseInt("10", 10) returns 10.
+
+Q: How do you compare two objects in JavaScript?
+A: Direct comparison of objects checks reference equality, not deep equality. To compare values deeply, you may need a library or custom function.
+
+Q: What is the call() method in JavaScript?
+A: The call() method calls a function with a given this value and arguments provided individually, e.g., func.call(thisArg, arg1, arg2).
+
+Q: What is the apply() method in JavaScript?
+A: The apply() method calls a function with a given this value and arguments provided as an array, e.g., func.apply(thisArg, [arg1, arg2]).
+
+Q: How do you create a new object that inherits from another object?
+A: Use Object.create(), e.g., let newObj = Object.create(protoObj);.
+
+Q: What is the bind() method in JavaScript?
+A: The bind() method creates a new function with a specific this value and initial arguments, e.g., func.bind(thisArg, arg1).
+
+Q: How do you create a private variable in JavaScript?
+A: Use closures to create private variables, e.g., function createCounter() { let count = 0; return function() { return count++; }; }.
+
+Q: What is the spread operator used for in JavaScript?
+A: The spread operator (...) expands an array or object into individual elements or properties, e.g., let arr = [1, 2, 3]; let newArr = [...arr, 4, 5];.
+
+Q: What is the rest parameter in JavaScript functions?
+A: The rest parameter (...) collects all remaining arguments into an array, e.g., function sum(...numbers) { return numbers.reduce((a, b) => a + b, 0); }.
+
+Q: How do you implement inheritance in JavaScript?
+A: Use prototypes or classes. With classes, use the extends keyword, e.g., class Animal { } class Dog extends Animal { }.
+
+Q: What is the typeof operator in JavaScript?
+A: The typeof operator returns a string indicating the type of a variable or expression, e.g., typeof 42 returns "number".
+
+Q: What is the instanceof operator used for?
+A: The instanceof operator tests whether an object is an instance of a specific constructor or class, e.g., obj instanceof Array.
+
+Q: How do you handle asynchronous code in JavaScript?
+A: Use promises with then() and catch(), or async/await syntax for cleaner and more readable code.
+
+Q: What is a JavaScript module?
+A: A JavaScript module is a file that exports functions, objects, or values, which can then be imported into other modules using import and export statements.
+
+Q: How do you export functions or variables from a module?
+A: Use the export keyword, e.g., export function myFunction() { } or export default myFunction;.
+
+Q: How do you import functions or variables from a module?
+A: Use the import keyword, e.g., import { myFunction } from './module.js'; or import myFunction from './module.js';.
+
+Q: What is event bubbling in JavaScript?
+A: Event bubbling is a mechanism where an event starts at the most specific element and bubbles up to the least specific element, usually the document.
+
+Q: How do you stop event bubbling in JavaScript?
+A: Use event.stopPropagation() to prevent the event from bubbling up to parent elements.
+
+Q: What is the Object.assign() method used for?
+A: Object.assign() copies the values of all enumerable own properties from one or more source objects to a target object.
+
+Q: What are JavaScript template literals?
+A: Template literals are string literals that allow embedded expressions and multi-line strings, using backticks (`).
+
+Q: How do you use template literals for string interpolation?
+A: Embed expressions within ${} inside backticks, e.g., `Hello, ${name}!`.
+
+Q: What is the Date object in JavaScript?
+A: The Date object represents dates and times, allowing for operations like getting the current date and time or manipulating date values.
+
+Q: How do you create a new Date object?
+A: Use the Date constructor, e.g., let now = new Date();.
+
+Q: How do you format a date in JavaScript?
+A: Use methods like toLocaleDateString(), toDateString(), or use libraries like moment.js for more advanced formatting.
+
+Q: What is the Array.prototype.forEach() method?
+A: forEach() executes a provided function once for each array element, e.g., arr.forEach(item => console.log(item));.
+
+Q: What is the Array.prototype.find() method?
+A: find() returns the first element in the array that satisfies the provided testing function, e.g., arr.find(item => item > 10);.
+
+Q: How do you concatenate arrays in JavaScript?
+A: Use the concat() method or the spread operator, e.g., let combined = arr1.concat(arr2); or let combined = [...arr1, ...arr2];.
+
+Q: What is the Object.keys() method used for?
+A: Object.keys() returns an array of a given object's property names, e.g., Object.keys({ a: 1, b: 2 }) returns ["a", "b"].
+
+Q: What is the Object.values() method used for?
+A: Object.values() returns an array of a given object's property values, e.g., Object.values({ a: 1, b: 2 }) returns [1, 2].
+
+Q: What is the Object.entries() method used for?
+A: Object.entries() returns an array of a given object's own enumerable string-keyed property [key, value] pairs.
+
+Q: What is the window object in JavaScript?
+A: The window object represents the browser's window and provides access to the browser's features, such as the document, history, and location.
+
+Q: How do you access the current URL in JavaScript?
+A: Use window.location.href, e.g., let url = window.location.href;.
+
+Q: What is the navigator object used for in JavaScript?
+A: The navigator object provides information about the browser and operating system, such as navigator.userAgent.
+
+Q: How do you change the content of an HTML element using JavaScript?
+A: Use the innerHTML property, e.g., element.innerHTML = "New Content";.
+
+Q: How do you remove an element from the DOM using JavaScript?
+A: Use the remove() method on the element, e.g., element.remove();.
+
+Q: What is the querySelector() method?
+A: querySelector() returns the first element that matches a specified CSS selector, e.g., document.querySelector('.class');.
+
+Q: What is the querySelectorAll() method?
+A: querySelectorAll() returns all elements that match a specified CSS selector, e.g., document.querySelectorAll('div');.
+
+Q: What is the localStorage object?
+A: localStorage allows you to store data in the browser with no expiration time, e.g., localStorage.setItem('key', 'value');.
+
+Q: What is the sessionStorage object?
+A: sessionStorage allows you to store data in the browser for the duration of the page session, e.g., sessionStorage.setItem('key', 'value');.
+
+Q: How do you clear all data from localStorage?
+A: Use localStorage.clear(), e.g., localStorage.clear();.
+
+Q: How do you retrieve an item from localStorage?
+A: Use localStorage.getItem(), e.g., let value = localStorage.getItem('key');.
+
+Q: How do you set a cookie in JavaScript?
+A: Use document.cookie, e.g., document.cookie = "username=John; expires=Fri, 31 Dec 2024 23:59:59 GMT";.
+
+Q: How do you retrieve a cookie value in JavaScript?
+A: Parse document.cookie, e.g., let cookieValue = document.cookie.split('; ').find(row => row.startsWith('username=')).split('=')[1];.
+
+Q: What is the fetch API used for in JavaScript?
+A: The fetch API is used for making network requests to servers, e.g., fetch(url).then(response => response.json());.
+
+Q: How do you handle the response of a fetch request?
+A: Use .then() to handle the response, e.g., fetch(url).then(response => response.json()).then(data => console.log(data));.
+
+Q: What is the async function in JavaScript?
+A: An async function always returns a promise and allows the use of await to pause execution until the promise is resolved.
+
+Q: How do you use await in JavaScript?
+A: await pauses the execution of an async function until the promise is resolved, e.g., let result = await fetch(url);.
+
+Q: What is the Event object in JavaScript?
+A: The Event object represents an event that occurs in the DOM, providing properties and methods for handling and responding to the event.
+
+Q: How do you listen for changes on an input element?
+A: Use the input event, e.g., input.addEventListener('input', function() { console.log(this.value); });.
+
+Q: What is the classList property used for in JavaScript?
+A: The classList property provides methods to add, remove, and toggle classes on an element, e.g., element.classList.add('new-class');.
+
+Q: How do you add a class to an element using JavaScript?
+A: Use the classList.add() method, e.g., element.classList.add('my-class');.
+
+Q: How do you remove a class from an element using JavaScript?
+A: Use the classList.remove() method, e.g., element.classList.remove('my-class');.
+
+Q: What is the DOMContentLoaded event?
+A: The DOMContentLoaded event fires when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets or images.
+
+Q: How do you execute code after the page has fully loaded?
+A: Use the window.onload event, e.g., window.onload = function() { console.log('Page loaded'); };.
+
+Q: How do you stop an event from propagating?
+A: Use event.stopPropagation() to prevent further propagation of the event in the event bubbling phase.
+
+Q: What is the addEventListener() method used for?
+A: addEventListener() attaches an event handler to an element, allowing you to specify the event type and callback function.
+
+Q: How do you access the value of an input element?
+A: Use the value property of the input element, e.g., let value = inputElement.value;.
+
+Q: What is the Math object in JavaScript?
+A: The Math object provides mathematical constants and functions, such as Math.PI and Math.sqrt().
+
+Q: How do you generate a random number in JavaScript?
+A: Use Math.random(), e.g., let randomNumber = Math.random();.
+
+Q: How do you round a number to the nearest integer in JavaScript?
+A: Use Math.round(), e.g., let rounded = Math.round(4.7);.
+
+Q: What is a closure in JavaScript?
+A: A closure is a function that retains access to its lexical scope even after the function has finished executing.
+
+Q: How do you create a closure in JavaScript?
+A: Define a function inside another function and access the outer function's variables from the inner function.
+
+Q: What is the this keyword in JavaScript?
+A: The this keyword refers to the object that is currently executing the code or calling the function.
+
+Q: How do you bind a specific context to a function using this?
+A: Use the bind() method to create a new function with a specific this value, e.g., let boundFunction = func.bind(thisValue);.
+
+Q: What is the bind() method in JavaScript?
+A: The bind() method creates a new function with a specific this value and arguments, e.g., let boundFunction = func.bind(thisValue, arg1, arg2);.
+
+Q: How do you define a getter method in a JavaScript class?
+A: Use the get keyword, e.g., get myProperty() { return this._myProperty; }.
+
+Q: How do you define a setter method in a JavaScript class?
+A: Use the set keyword, e.g., set myProperty(value) { this._myProperty = value; }.
+
+Q: What is a Promise in JavaScript?
+A: A Promise is an object representing the eventual completion (or failure) of an asynchronous operation and its resulting value.
+
+Q: How do you create a new Promise?
+A: Use the Promise constructor, e.g., let promise = new Promise((resolve, reject) => { /* async operation */ });.
+
+Q: How do you handle errors in a Promise chain?
+A: Use the .catch() method to handle errors, e.g., promise.then(result => { /* success */ }).catch(error => { /* handle error */ });.
+
+Q: What is async/await syntax in JavaScript?
+A: async/await is a syntax for working with promises that makes asynchronous code look and behave like synchronous code.
+
+Q: How do you handle multiple promises in JavaScript?
+A: Use Promise.all() to run multiple promises in parallel and wait for all to complete, e.g., Promise.all([promise1, promise2]).
+
+Q: What is the EventTarget interface?
+A: EventTarget is an interface implemented by objects that can receive events and may have listeners for them, such as DOM elements and window.
+
+Q: What is the difference between == and === in JavaScript?
+A: == performs type coercion and compares values for equality, while === compares both value and type for equality.
+
+Q: How do you perform type conversion in JavaScript?
+A: Use functions like Number(), String(), and Boolean(), or use methods like toString() and parseInt().
+
+Q: What is the null value in JavaScript?
+A: null is a special value representing the intentional absence of any object value, often used to indicate "no value" or "empty."
+
+Q: What is the undefined value in JavaScript?
+A: undefined is a special value indicating that a variable has been declared but has not yet been assigned a value.
+
+Q: What is a JavaScript function?
+A: A function is a block of code designed to perform a particular task, which can be executed when called.
+
+Q: How do you define a function in JavaScript?
+A: Use the function keyword, e.g., function myFunction() { /* code */ }.
+
+Q: What is the arguments object in JavaScript?
+A: The arguments object is an array-like object available inside functions that contains the values of the arguments passed to the function.
+
+Q: How do you create an arrow function in JavaScript?
+A: Use the => syntax, e.g., const add = (a, b) => a + b;.
+
+Q: What is the difference between var, let, and const in JavaScript?
+A: var declares variables with function scope, let and const declare block-scoped variables. const creates a read-only reference.
+
+Q: What is hoisting in JavaScript?
+A: Hoisting is the behavior where variable and function declarations are moved to the top of their containing scope during compilation.
+
+Q: How do you handle exceptions in JavaScript?
+A: Use try...catch blocks to handle exceptions and finally to execute code regardless of whether an error occurred.
+
+Q: What is the Array.prototype.map() method?
+A: map() creates a new array with the results of applying a provided function to every element in the original array.
+
+Q: How do you use Array.prototype.reduce()?
+A: reduce() executes a reducer function on each element of the array, resulting in a single output value, e.g., arr.reduce((acc, curr) => acc + curr, 0);.
+
+Q: What is the Array.prototype.filter() method?
+A: filter() creates a new array with all elements that pass the test implemented by the provided function.
+
+Q: How do you create a new object in JavaScript?
+A: Use object literals, e.g., let obj = { key: 'value' };, or use the new Object() constructor.
+
+Q: What is a Set in JavaScript?
+A: A Set is a collection of unique values, allowing for the storage of non-duplicate values of any type.
+
+Q: How do you add items to a Set?
+A: Use the add() method, e.g., mySet.add('item');.
+
+Q: How do you remove items from a Set?
+A: Use the delete() method, e.g., mySet.delete('item');.
+
+Q: What is a WeakMap in JavaScript?
+A: A WeakMap is a collection of key-value pairs where keys are objects and are weakly referenced, meaning they can be garbage collected.
+
+Q: What is a WeakSet in JavaScript?
+A: A WeakSet is a collection of objects where objects are weakly referenced, allowing for garbage collection.
+
+Q: What is the Proxy object in JavaScript?
+A: The Proxy object allows you to create a handler for an object to define custom behavior for fundamental operations (e.g., property lookup, assignment).
+
+Q: How do you create a new Proxy object?
+A: Use the Proxy constructor, e.g., let proxy = new Proxy(target, handler);.
+
+Q: What is the Reflect object in JavaScript?
+A: The Reflect object provides methods for interceptable JavaScript operations, complementing Proxy objects for object manipulation.
+
+Q: What is JSON in JavaScript?
+A: JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate.
+
+Q: How do you parse a JSON string in JavaScript?
+A: Use JSON.parse(), e.g., let obj = JSON.parse('{"key": "value"}');.
+
+Q: How do you stringify a JavaScript object to JSON?
+A: Use JSON.stringify(), e.g., let jsonString = JSON.stringify({ key: 'value' });.
+
+Q: What is the Function constructor in JavaScript?
+A: The Function constructor creates a new function object from a string of code, e.g., let func = new Function('a', 'b', 'return a + b;');.
+
+Q: What is the eval() function in JavaScript?
+A: The eval() function evaluates a string as JavaScript code and executes it, which can be a security risk if not used cautiously.
+
+Q: What is a generator function in JavaScript?
+A: A generator function is a function that can be paused and resumed, yielding multiple values over time using the yield keyword.
+
+Q: How do you create a generator function?
+A: Use the function* syntax, e.g., function* myGenerator() { yield 1; yield 2; }.
+
+Q: How do you call a generator function?
+A: Invoke it to get an iterator, e.g., let gen = myGenerator();.
+
+Q: What is the yield keyword in JavaScript?
+A: yield pauses the generator function and returns a value to the caller, resuming from the pause point on the next call.
+
+Q: How do you resume a generator function after a yield?
+A: Call the next() method on the generator object, e.g., gen.next();.
+
+Q: What is JavaScript's event loop?
+A: The event loop is a mechanism that handles asynchronous operations by processing events and executing callbacks in a single-threaded environment.
+
+Q: What are Promises in the context of the event loop?
+A: Promises are objects representing the eventual completion or failure of asynchronous operations, processed in the microtask queue by the event loop.
+
+Q: What is the microtask queue?
+A: The microtask queue holds callbacks from resolved promises and MutationObserver callbacks, processed before the next event loop iteration.
+
+Q: What is the macrotask queue?
+A: The macrotask queue holds tasks like setTimeout and setInterval callbacks, processed after the microtask queue in the event loop.
+
+Q: How do you handle asynchronous operations using callbacks?
+A: Pass a callback function to be executed once the asynchronous operation completes, e.g., fetch(url, (data) => { /* handle data */ });.
+
+Q: What is a callback hell?
+A: Callback hell refers to the difficulty of managing nested callbacks in asynchronous code, leading to complex and hard-to-read code.
+
+Q: How can you avoid callback hell?
+A: Use Promises, async/await, or modularize code to manage asynchronous operations more effectively and improve readability.
+
+Q: What is event delegation in JavaScript?
+A: Event delegation is a technique of attaching a single event listener to a parent element to manage events for its child elements, improving performance and memory usage.
+
+Q: What is the addEventListener method?
+A: addEventListener adds an event handler to an element, allowing you to specify the event type and callback function, e.g., element.addEventListener('click', handler);.
+
+Q: What is the removeEventListener method?
+A: removeEventListener removes an event handler from an element, allowing you to stop listening for specific events, e.g., element.removeEventListener('click', handler);.
+
+Q: What are data attributes in HTML?
+A: Data attributes are custom attributes added to HTML elements that store extra information, accessible via JavaScript, e.g., data-* attributes.
+
+Q: How do you access data attributes in JavaScript?
+A: Use dataset property, e.g., let value = element.dataset.attributeName;.
+
+Q: What is the DOMContentLoaded event?
+A: DOMContentLoaded is an event that fires when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading.
+
+Q: How do you handle the DOMContentLoaded event?
+A: Attach an event listener to the document object, e.g., document.addEventListener('DOMContentLoaded', () => { /* code */ });.
+
+Q: What is localStorage in JavaScript?
+A: localStorage is a web storage API that allows you to store key-value pairs persistently in the browser with no expiration time.
+
+Q: How do you set an item in localStorage?
+A: Use the setItem() method, e.g., localStorage.setItem('key', 'value');.
+
+Q: How do you get an item from localStorage?
+A: Use the getItem() method, e.g., let value = localStorage.getItem('key');.
+
+Q: How do you remove an item from localStorage?
+A: Use the removeItem() method, e.g., localStorage.removeItem('key');.
+
+Q: What is sessionStorage in JavaScript?
+A: sessionStorage is a web storage API that stores key-value pairs for the duration of the page session, which lasts as long as the page is open in the browser tab.
+
+Q: How do you set an item in sessionStorage?
+A: Use the setItem() method, e.g., sessionStorage.setItem('key', 'value');.
+
+Q: How do you get an item from sessionStorage?
+A: Use the getItem() method, e.g., let value = sessionStorage.getItem('key');.
+
+Q: How do you remove an item from sessionStorage?
+A: Use the removeItem() method, e.g., sessionStorage.removeItem('key');.
+
+Q: What is fetch in JavaScript?
+A: fetch is a modern API for making network requests, returning a Promise that resolves with the Response object representing the response to the request.
+
+Q: How do you make a GET request using fetch?
+A: Use fetch(url), e.g., fetch('https://api.example.com/data').then(response => response.json()).then(data => { /* handle data */ });.
+
+Q: How do you handle response errors with fetch?
+A: Check the response.ok property or use .catch() for handling network errors, e.g., fetch(url).then(response => { if (!response.ok) throw new Error('Network response was not ok.'); return response.json(); }).catch(error => { /* handle error */ });.
+
+Q: What is URLSearchParams in JavaScript?
+A: URLSearchParams is a built-in object that provides methods to work with query string parameters in URLs, making it easy to parse and construct query strings.
+
+Q: How do you create a URLSearchParams object?
+A: Use the URLSearchParams constructor, e.g., let params = new URLSearchParams('key=value&key2=value2');.
+
+Q: How do you get the value of a query parameter using URLSearchParams?
+A: Use the get() method, e.g., let value = params.get('key');.
+
+Q: How do you set a query parameter using URLSearchParams?
+A: Use the set() method, e.g., params.set('key', 'newValue');.
+
+Q: What is the navigator object in JavaScript?
+A: The navigator object provides information about the browser and operating system, such as the user agent, platform, and online status.
+
+Q: How do you get the user agent string in JavaScript?
+A: Use navigator.userAgent, e.g., let userAgent = navigator.userAgent;.
+
+Q: What is the window object in JavaScript?
+A: The window object represents the browser's window and provides methods and properties to interact with it, including managing the document, history, and location.
+
+Q: How do you open a new browser window in JavaScript?
+A: Use window.open(), e.g., window.open('https://example.com', '_blank');.
+
+Q: What is the document object in JavaScript?
+A: The document object represents the HTML document loaded in the browser and provides methods to access and manipulate the content and structure of the document.
+
+Q: How do you select an HTML element by its ID in JavaScript?
+A: Use document.getElementById(), e.g., let element = document.getElementById('myId');.
+
+Q: How do you create a new HTML element in JavaScript?
+A: Use document.createElement(), e.g., let newElement = document.createElement('div');.
+
+Q: How do you append a new element to the DOM?
+A: Use appendChild(), e.g., parentElement.appendChild(newElement);.
+
+Q: How do you remove an element from the DOM?
+A: Use removeChild() on the parent element, e.g., parentElement.removeChild(childElement);.
+
+Q: What is document.querySelector()?
+A: document.querySelector() returns the first element that matches a specified CSS selector, e.g., let element = document.querySelector('.myClass');.
+
+Q: What is document.querySelectorAll()?
+A: document.querySelectorAll() returns a static NodeList of all elements that match a specified CSS selector, e.g., let elements = document.querySelectorAll('div.myClass');.
+
+Q: How do you set the text content of an HTML element?
+A: Use the textContent property, e.g., element.textContent = 'New text';.
+
+Q: How do you set the HTML content of an element?
+A: Use the innerHTML property, e.g., element.innerHTML = '<p>New HTML content</p>';.
+
+Q: What is event bubbling in JavaScript?
+A: Event bubbling is the process where an event starts from the target element and bubbles up to the root of the DOM tree, triggering event handlers on parent elements.
+
+Q: What is event capturing in JavaScript?
+A: Event capturing is the process where an event is captured from the root of the DOM tree down to the target element before reaching the target.
+
+Q: How do you prevent an event from bubbling up in JavaScript?
+A: Use the stopPropagation() method on the event object, e.g., event.stopPropagation();.
+
+Q: How do you prevent the default action of an event in JavaScript?
+A: Use the preventDefault() method on the event object, e.g., event.preventDefault();.
+
+Q: What is setTimeout() in JavaScript?
+A: setTimeout() is a function that executes a specified function or code after a delay in milliseconds, e.g., setTimeout(() => { /* code */ }, 1000);.
+
+Q: What is setInterval() in JavaScript?
+A: setInterval() is a function that repeatedly executes a specified function or code at fixed intervals in milliseconds, e.g., setInterval(() => { /* code */ }, 1000);.
+
+Q: What is clearTimeout() in JavaScript?
+A: clearTimeout() is a function that cancels a timeout previously established by setTimeout(), e.g., clearTimeout(timeoutId);.
+
+Q: What is clearInterval() in JavaScript?
+A: clearInterval() is a function that cancels an interval previously established by setInterval(), e.g., clearInterval(intervalId);.
+
+Q: What is the location object in JavaScript?
+A: The location object provides information about the current URL and methods to manipulate it, such as changing the location or reloading the page.
+
+Q: How do you get the current URL in JavaScript?
+A: Use window.location.href, e.g., let currentUrl = window.location.href;.
+
+Q: How do you change the URL in JavaScript?
+A: Set window.location.href to the new URL, e.g., window.location.href = 'https://example.com';.
+
+Q: What is history in JavaScript?
+A: The history object provides methods to manipulate the browser's history, such as navigating backward or forward in the history list.
+
+Q: How do you go back to the previous page in JavaScript?
+A: Use window.history.back(), e.g., window.history.back();.
+
+Q: How do you go forward to the next page in JavaScript?
+A: Use window.history.forward(), e.g., window.history.forward();.
+
+Q: How do you push a new state onto the history stack?
+A: Use window.history.pushState() with the state object, title, and URL, e.g., window.history.pushState(state, title, 'newUrl');.
+
+Q: How do you replace the current state in the history stack?
+A: Use window.history.replaceState() with the state object, title, and URL, e.g., window.history.replaceState(state, title, 'newUrl');.
+
+Q: What is window.navigator?
+A: window.navigator provides information about the browser and the operating system, including capabilities like online status and geolocation.
+
+Q: What is window.performance?
+A: window.performance provides access to performance-related information about the browser and the webpage, including timing and memory usage.
+
+Q: What is window.alert()?
+A: window.alert() displays an alert dialog with a specified message and an OK button, e.g., window.alert('This is an alert!');.
+
+Q: What is window.confirm()?
+A: window.confirm() displays a dialog with a specified message, an OK button, and a Cancel button, and returns a boolean indicating the user's choice, e.g., let result = window.confirm('Are you sure?');.
+
+Q: What is window.prompt()?
+A: window.prompt() displays a dialog with a specified message and an input field, and returns the user's input, e.g., let userInput = window.prompt('Enter your name:');.
+
+Q: What is window.open()?
+A: window.open() opens a new browser window or tab with a specified URL, e.g., window.open('https://example.com', '_blank');.
+
+Q: How do you close a window using JavaScript?
+A: Use window.close(), but it only works on windows opened by window.open(), e.g., window.close();.
+
+Q: What is the window.onload event?
+A: The window.onload event fires when the entire page, including its content (images, scripts, etc.), has fully loaded.
+
+Q: How do you set an event handler for the window.onload event?
+A: Assign a function to window.onload, e.g., window.onload = () => { /* code */ };.
+
+Q: What is the window.onbeforeunload event?
+A: The window.onbeforeunload event fires when the user is about to leave the page, allowing you to prompt them with a confirmation dialog.
+
+Q: How do you set an event handler for the window.onbeforeunload event?
+A: Assign a function to window.onbeforeunload, e.g., window.onbeforeunload = (event) => { event.returnValue = 'Are you sure you want to leave?'; };.
+
+Q: What is document.cookie in JavaScript?
+A: document.cookie provides a way to read and write cookies associated with the current document.
+
+Q: How do you set a cookie in JavaScript?
+A: Assign a string to document.cookie with key-value pairs and optional attributes, e.g., document.cookie = 'key=value; expires=Wed, 01 Jan 2025 00:00:00 GMT; path=/';.
+
+Q: How do you get a cookie value in JavaScript?
+A: Parse document.cookie to find the desired key-value pair, e.g., let value = document.cookie.split('; ').find(row => row.startsWith('key=')).split('=')[1];.
+
+Q: How do you delete a cookie in JavaScript?
+A: Set the cookie's expiration date to a past date, e.g., document.cookie = 'key=value; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/';.
+
+Q: What is document.querySelectorAll()?
+A: document.querySelectorAll() returns a NodeList of all elements that match the specified CSS selector.
+
+Q: What is the window.getComputedStyle() method?
+A: window.getComputedStyle() returns an object containing the computed style properties of an element, e.g., let style = window.getComputedStyle(element);.
+
+Q: How do you get the value of a computed style property?
+A: Use the getPropertyValue() method on the object returned by window.getComputedStyle(), e.g., let color = style.getPropertyValue('color');.
+
+Q: What is document.createDocumentFragment()?
+A: document.createDocumentFragment() creates a lightweight, minimal document object that can be used to group and manipulate DOM nodes before inserting them into the DOM.
+
+Q: What is the MutationObserver object?
+A: The MutationObserver object provides a way to watch for changes to the DOM tree, such as additions or removals of nodes, and respond to those changes.
+
+Q: How do you create a MutationObserver?
+A: Instantiate it with a callback function to handle mutations, e.g., let observer = new MutationObserver(callback);.
+
+Q: How do you start observing for mutations using MutationObserver?
+A: Call the observe() method on the observer instance, specifying the target element and options for what mutations to observe, e.g., observer.observe(target, { attributes: true, childList: true });.
+
+Q: How do you stop observing for mutations using MutationObserver?
+A: Call the disconnect() method on the observer instance, e.g., observer.disconnect();.
+
+Q: What is window.matchMedia()?
+A: window.matchMedia() evaluates a media query string and returns a MediaQueryList object that can be used to determine if the query matches the current viewport.
+
+Q: How do you use window.matchMedia() to listen for media query changes?
+A: Use the addListener() method on the MediaQueryList object, e.g., let mqList = window.matchMedia('(max-width: 600px)'); mqList.addListener(e => { /* handle changes */ });.
+
+Q: How do you get the result of a media query using window.matchMedia()?
+A: Access the matches property of the MediaQueryList object, e.g., let isMatch = mqList.matches;.

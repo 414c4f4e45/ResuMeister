@@ -1,0 +1,467 @@
+Q: What is Redis?
+A: Redis is an open-source, in-memory data structure store that can be used as a database, cache, and message broker.
+
+Q: What data structures does Redis support?
+A: Redis supports strings, lists, sets, sorted sets, hashes, bitmaps, hyperloglogs, and geospatial indexes.
+
+Q: What is the primary use case for Redis?
+A: Redis is commonly used for caching, real-time analytics, session storage, and message brokering.
+
+Q: How does Redis achieve high performance?
+A: Redis achieves high performance by storing data in memory and using efficient data structures and algorithms.
+
+Q: What is the command to set a key-value pair in Redis?
+A: The command is SET key value.
+
+Q: How do you retrieve a value for a specific key in Redis?
+A: The command is GET key.
+
+Q: What command is used to delete a key in Redis?
+A: The command is DEL key.
+
+Q: How do you check if a key exists in Redis?
+A: The command is EXISTS key.
+
+Q: What is the Redis command to increment a key's value?
+A: The command is INCR key.
+
+Q: How do you set a key with an expiration time in Redis?
+A: Use the SET key value EX seconds command to set a key with an expiration time in seconds.
+
+Q: What is the command to get the remaining time to live for a key in Redis?
+A: The command is TTL key.
+
+Q: How do you add an item to a list in Redis?
+A: Use the LPUSH key value or RPUSH key value command to add an item to the beginning or end of a list, respectively.
+
+Q: What command retrieves all the elements of a list in Redis?
+A: The command is LRANGE key start stop.
+
+Q: How do you remove an item from a list in Redis?
+A: Use the LREM key count value command to remove elements from a list.
+
+Q: What is the command to get the length of a list in Redis?
+A: The command is LLEN key.
+
+Q: How do you add a member to a set in Redis?
+A: Use the SADD key member command to add a member to a set.
+
+Q: What command retrieves all members of a set in Redis?
+A: The command is SMEMBERS key.
+
+Q: How do you remove a member from a set in Redis?
+A: Use the SREM key member command to remove a member from a set.
+
+Q: What is the command to get the number of members in a set in Redis?
+A: The command is SCARD key.
+
+Q: How do you add a member to a sorted set in Redis?
+A: Use the ZADD key score member command to add a member with a score to a sorted set.
+
+Q: What command retrieves all members of a sorted set with their scores in Redis?
+A: The command is ZRANGE key start stop WITHSCORES.
+
+Q: How do you remove a member from a sorted set in Redis?
+A: Use the ZREM key member command to remove a member from a sorted set.
+
+Q: What is the command to get the score of a member in a sorted set in Redis?
+A: The command is ZSCORE key member.
+
+Q: How do you increment the score of a member in a sorted set in Redis?
+A: Use the ZINCRBY key increment member command to increment the score of a member.
+
+Q: What command is used to store a hash in Redis?
+A: The command is HSET key field value.
+
+Q: How do you retrieve the value of a specific field in a hash in Redis?
+A: Use the HGET key field command to retrieve the value.
+
+Q: What command retrieves all fields and values of a hash in Redis?
+A: The command is HGETALL key.
+
+Q: How do you remove a field from a hash in Redis?
+A: Use the HDEL key field command to remove a field.
+
+Q: What is the command to get all fields of a hash in Redis?
+A: The command is HKEYS key.
+
+Q: How do you check if a field exists in a hash in Redis?
+A: Use the HEXISTS key field command to check if a field exists.
+
+Q: What command retrieves the length of a hash in Redis?
+A: The command is HLEN key.
+
+Q: How do you set multiple key-value pairs in Redis?
+A: Use the MSET key1 value1 key2 value2 ... command to set multiple pairs.
+
+Q: What command retrieves multiple values for multiple keys in Redis?
+A: The command is MGET key1 key2 ....
+
+Q: How do you delete multiple keys in Redis?
+A: Use the DEL key1 key2 ... command to delete multiple keys.
+
+Q: What is the command to get the type of a value in Redis?
+A: The command is TYPE key.
+
+Q: How do you perform a set intersection in Redis?
+A: Use the SINTER key1 key2 ... command to get the intersection of sets.
+
+Q: What command retrieves the union of multiple sets in Redis?
+A: The command is SUNION key1 key2 ....
+
+Q: How do you get the difference between sets in Redis?
+A: Use the SDIFF key1 key2 ... command to get the difference between sets.
+
+Q: What is the command to perform a set union and store the result in a new set?
+A: Use the SUNIONSTORE destination key1 key2 ... command.
+
+Q: How do you get the length of a string value in Redis?
+A: Use the STRLEN key command to get the length of a string value.
+
+Q: What command sets a key's value only if the key does not already exist?
+A: The command is SETNX key value.
+
+Q: How do you rename a key in Redis?
+A: Use the RENAME oldkey newkey command to rename a key.
+
+Q: What is the command to increment a field in a hash in Redis?
+A: Use the HINCRBY key field increment command to increment a field value.
+
+Q: How do you append a value to an existing string in Redis?
+A: Use the APPEND key value command to append a value to a string.
+
+Q: What is the command to get all keys matching a pattern in Redis?
+A: Use the KEYS pattern command to get all keys matching a pattern.
+
+Q: How do you get the length of a list in Redis?
+A: Use the LLEN key command to get the length of a list.
+
+Q: What command removes and returns the first element of a list in Redis?
+A: The command is LPOP key.
+
+Q: How do you remove and return the last element of a list in Redis?
+A: Use the RPOP key command to remove and return the last element.
+
+Q: What is the command to insert an element before or after another element in a list?
+A: Use the LINSERT key BEFORE|AFTER pivot value command.
+
+Q: How do you sort the elements of a list in Redis?
+A: Use the SORT key command to sort the elements of a list.
+
+Q: What command gets the position of a member in a sorted set in Redis?
+A: Use the ZREVRANK key member command to get the position.
+
+Q: How do you get the rank of a member in a sorted set in Redis?
+A: Use the ZRANK key member command to get the rank.
+
+Q: What is the command to get a range of elements from a sorted set?
+A: Use the ZRANGE key start stop command.
+
+Q: How do you remove all elements from a sorted set with scores within a given range?
+A: Use the ZREMRANGEBYSCORE key min max command.
+
+Q: What command gets the total number of elements in a set in Redis?
+A: The command is SCARD key.
+
+Q: How do you check if a member is part of a set in Redis?
+A: Use the SISMEMBER key member command to check membership.
+
+Q: What is the command to increment the value of a key by a given amount?
+A: Use the INCRBY key increment command.
+
+Q: How do you store the result of a Redis command in a new key?
+A: Use the STORE destination command with a command like SET, GET, etc.
+
+Q: What is the command to get the value of a field from a hash in Redis?
+A: Use the HGET key field command to get the value.
+
+Q: How do you delete multiple keys in Redis?
+A: Use the DEL key1 key2 ... command to delete multiple keys.
+
+Q: What command removes all elements from a set in Redis?
+A: Use the SPOP key command to remove and return a random element, or SREM key member to remove specific members.
+
+Q: How do you get the total number of elements in a hash in Redis?
+A: Use the HLEN key command to get the number of fields in a hash.
+
+Q: What is the command to get all values in a hash in Redis?
+A: Use the HVALS key command to get all values in a hash.
+
+Q: How do you set multiple fields in a hash in Redis?
+A: Use the HMSET key field1 value1 field2 value2 ... command to set multiple fields.
+
+Q: What command gets multiple fields from a hash in Redis?
+A: Use the HMGET key field1 field2 ... command to get multiple fields.
+
+Q: How do you get the length of a string value in Redis?
+A: Use the STRLEN key command to get the length of a string.
+
+Q: What command retrieves a substring of a string in Redis?
+A: Use the GETRANGE key start end command to get a substring.
+
+Q: How do you perform a bitwise operation in Redis?
+A: Use the BITOP command to perform bitwise operations on string values.
+
+Q: What is the command to get the bit value at a specific offset in Redis?
+A: Use the GETBIT key offset command to get the bit value.
+
+Q: How do you set the bit value at a specific offset in Redis?
+A: Use the SETBIT key offset value command to set the bit value.
+
+Q: What command sets a key's value if it does not already exist, or updates it if it does?
+A: Use the SET key value NX to set only if the key does not exist.
+
+Q: How do you retrieve a key's value and delete the key in Redis?
+A: Use the GETDEL key command to retrieve and delete the key.
+
+Q: What is the command to retrieve the value of a key and set a new value in Redis?
+A: Use the GETSET key value command to retrieve the old value and set a new value.
+
+Q: How do you add a member to a set only if it does not already exist?
+A: Use the SADD key member command, which only adds members if they do not already exist.
+
+Q: What is the command to get a member of a set by its index in Redis?
+A: Use the SRANDMEMBER key command to get a random member of a set.
+
+Q: How do you get the difference between multiple sets in Redis?
+A: Use the SDIFF key1 key2 ... command to get the difference.
+
+Q: What is the command to perform a set intersection and store the result in a new set?
+A: Use the SINTERSTORE destination key1 key2 ... command.
+
+Q: How do you remove the last element from a list and return it in Redis?
+A: Use the RPOP key command to remove and return the last element of a list.
+
+Q: What command removes the first element from a list and returns it in Redis?
+A: Use the LPOP key command to remove and return the first element of a list.
+
+Q: How do you insert an element at a specific position in a list in Redis?
+A: Use the LINSERT key BEFORE|AFTER pivot value command to insert at a specific position.
+
+Q: What is the command to perform a hash intersection in Redis?
+A: Redis does not support hash intersection directly. You would need to retrieve the hash fields and perform the intersection logic manually.
+
+Q: How do you remove all elements from a sorted set in Redis?
+A: Use the ZREM key member command to remove specific members, or ZTRIM key to limit the number of elements.
+
+Q: What command sets a key's value and returns its old value in Redis?
+A: Use the GETSET key value command to set a new value and return the old value.
+
+Q: How do you get the rank of a member in a sorted set in Redis?
+A: Use the ZRANK key member command to get the rank.
+
+Q: What is the command to perform a set union and store the result in a new set in Redis?
+A: Use the SUNIONSTORE destination key1 key2 ... command to store the union result.
+
+Q: How do you get the score of a member in a sorted set in Redis?
+A: Use the ZSCORE key member command to get the score of a member.
+
+Q: What command retrieves the number of elements in a sorted set with scores within a specified range?
+A: Use the ZCOUNT key min max command to get the number of elements in a specified score range.
+
+Q: How do you delete a key and its associated value in Redis?
+A: Use the DEL key command to delete a key and its value.
+
+Q: What command checks if a key exists and returns a boolean in Redis?
+A: Use the EXISTS key command to check if a key exists.
+
+Q: How do you set a key with a time-to-live (TTL) in Redis?
+A: Use the SET key value EX seconds command to set a key with an expiration time in seconds.
+
+Q: What is the command to get the remaining time to live for a key in Redis?
+A: Use the TTL key command to get the remaining time to live.
+
+Q: How do you set a key's value only if it does not already exist in Redis?
+A: Use the SETNX key value command to set a key only if it does not exist.
+
+Q: What command gets the value of a key and deletes it in Redis?
+A: Use the GETDEL key command to get and delete a key.
+
+Q: How do you store the result of a Redis operation in a new key?
+A: Use commands like STORE destination with operations like GET, SET, etc.
+
+Q: What is the command to get all fields and values from a hash in Redis?
+A: Use the HGETALL key command to get all fields and values.
+
+Q: How do you get the value of a field from a hash in Redis?
+A: Use the HGET key field command to get the value of a specific field.
+
+Q: What is the command to get the number of elements in a list in Redis?
+A: Use the LLEN key command to get the length of a list.
+
+Q: How do you retrieve multiple values for multiple keys in Redis?
+A: Use the MGET key1 key2 ... command to retrieve multiple values.
+
+Q: What command sets multiple key-value pairs at once in Redis?
+A: Use the MSET key1 value1 key2 value2 ... command to set multiple pairs.
+
+Q: How do you remove a field from a hash in Redis?
+A: Use the HDEL key field command to remove a specific field from a hash.
+
+Q: What command retrieves all fields of a hash in Redis?
+A: Use the HKEYS key command to get all fields in a hash.
+
+Q: How do you retrieve all values from a hash in Redis?
+A: Use the HVALS key command to get all values in a hash.
+
+Q: What command sets multiple fields in a hash in Redis?
+A: Use the HMSET key field1 value1 field2 value2 ... command to set multiple fields.
+
+Q: How do you increment the value of a field in a hash in Redis?
+A: Use the HINCRBY key field increment command to increment the value of a field.
+
+Q: What is the command to remove the last element from a list and return it in Redis?
+A: Use the RPOP key command to remove and return the last element of a list.
+
+Q: How do you get the position of a member in a sorted set in Redis?
+A: Use the ZRANK key member command to get the rank of a member.
+
+Q: What command retrieves all members of a set in Redis?
+A: Use the SMEMBERS key command to get all members of a set.
+
+Q: How do you add a member to a set in Redis?
+A: Use the SADD key member command to add a member to a set.
+
+Q: What is the command to get the intersection of multiple sets in Redis?
+A: Use the SINTER key1 key2 ... command to get the intersection.
+
+Q: How do you get the difference between multiple sets in Redis?
+A: Use the SDIFF key1 key2 ... command to get the difference between sets.
+
+Q: What command gets the union of multiple sets in Redis?
+A: Use the SUNION key1 key2 ... command to get the union.
+
+Q: How do you add a member to a sorted set with a score in Redis?
+A: Use the ZADD key score member command to add a member with a score.
+
+Q: What command retrieves all members of a sorted set with their scores in Redis?
+A: Use the ZRANGE key start stop WITHSCORES command to get members with scores.
+
+Q: How do you remove a member from a sorted set in Redis?
+A: Use the ZREM key member command to remove a member from a sorted set.
+
+Q: What is the command to increment the score of a member in a sorted set?
+A: Use the ZINCRBY key increment member command to increment the score.
+
+Q: How do you get the rank of a member in a sorted set?
+A: Use the ZRANK key member command to get the rank of a member.
+
+Q: What command retrieves the score of a member in a sorted set in Redis?
+A: Use the ZSCORE key member command to get the score of a member.
+
+Q: How do you get the number of elements in a sorted set within a score range?
+A: Use the ZCOUNT key min max command to get the number of elements.
+
+Q: What is the command to perform a set union and store the result in a new set?
+A: Use the SUNIONSTORE destination key1 key2 ... command to store the union result.
+
+Q: How do you retrieve the size of a list in Redis?
+A: Use the LLEN key command to get the length of a list.
+
+Q: What command sets a key's value only if it does not already exist?
+A: Use the SETNX key value command to set a key only if it does not exist.
+
+Q: How do you remove all elements from a list in Redis?
+A: Use the DEL key command to delete a list, which removes all its elements.
+
+Q: What command sets a key's value and returns the old value in Redis?
+A: Use the GETSET key value command to set a new value and return the old value.
+
+Q: How do you get the remaining time to live for a key in Redis?
+A: Use the TTL key command to get the remaining time to live for a key.
+
+Q: What is the command to perform a bitwise OR operation on multiple keys in Redis?
+A: Use the BITOP OR destination key1 key2 ... command to perform a bitwise OR.
+
+Q: How do you get the bit value at a specific offset in a string in Redis?
+A: Use the GETBIT key offset command to retrieve the bit value.
+
+Q: What command removes all elements from a sorted set in Redis?
+A: Use the ZTRIM key command to limit the number of elements, or ZREM key member to remove specific members.
+
+Q: How do you get the value of a specific field in a hash in Redis?
+A: Use the HGET key field command to get the value of a specific field.
+
+Q: What is the command to retrieve the keys in Redis that match a pattern?
+A: Use the SCAN cursor MATCH pattern command to retrieve matching keys.
+
+Q: How do you delete multiple keys in Redis?
+A: Use the DEL key1 key2 ... command to delete multiple keys at once.
+
+Q: What is the command to set a key with an expiration time in Redis?
+A: Use the SET key value EX seconds command to set a key with an expiration time.
+
+Q: How do you get the value of a key if it exists, and set a new value if it does not?
+A: Use the SETNX key value command to set a value only if the key does not exist.
+
+Q: What command sets multiple fields in a hash in Redis?
+A: Use the HMSET key field1 value1 field2 value2 ... command to set multiple fields.
+
+Q: How do you get the size of a hash in Redis?
+A: Use the HLEN key command to get the number of fields in a hash.
+
+Q: What is the command to get the value of a key and then delete it in Redis?
+A: Use the GETDEL key command to get and delete a key.
+
+Q: How do you get the rank of a member in a sorted set?
+A: Use the ZRANK key member command to get the rank of a member.
+
+Q: What command sets a key's value and returns the old value in Redis?
+A: Use the GETSET key value command to set a new value and return the old one.
+
+Q: How do you get the value of a specific field in a hash in Redis?
+A: Use the HGET key field command to get the value of a field in a hash.
+
+Q: What is the command to retrieve all members of a set in Redis?
+A: Use the SMEMBERS key command to get all members of a set.
+
+Q: How do you add a member to a set if it does not already exist?
+A: Use the SADD key member command to add a member to a set.
+
+Q: What command gets the difference between multiple sets in Redis?
+A: Use the SDIFF key1 key2 ... command to get the difference between sets.
+
+Q: How do you retrieve the score of a member in a sorted set?
+A: Use the ZSCORE key member command to get the score of a member.
+
+Q: What is the command to remove a member from a set in Redis?
+A: Use the SREM key member command to remove a member from a set.
+
+Q: How do you add a member to a sorted set with a specific score?
+A: Use the ZADD key score member command to add a member with a score.
+
+Q: What command retrieves all members of a sorted set with their scores in Redis?
+A: Use the ZRANGE key start stop WITHSCORES command to get members with scores.
+
+Q: How do you remove a member from a sorted set in Redis?
+A: Use the ZREM key member command to remove a member from a sorted set.
+
+Q: What is the command to increment the score of a member in a sorted set?
+A: Use the ZINCRBY key increment member command to increment the score.
+
+Q: How do you get the number of elements in a sorted set within a score range?
+A: Use the ZCOUNT key min max command to get the number of elements in a specified range.
+
+Q: What is the command to get the union of multiple sets in Redis?
+A: Use the SUNION key1 key2 ... command to get the union of sets.
+
+Q: How do you set a key with a time-to-live (TTL) in Redis?
+A: Use the SET key value EX seconds command to set a key with an expiration time.
+
+Q: What command retrieves the number of elements in a list?
+A: Use the LLEN key command to get the length of a list.
+
+Q: How do you retrieve a substring of a string value in Redis?
+A: Use the GETRANGE key start end command to get a substring.
+
+Q: What is the command to perform a bitwise operation on multiple keys in Redis?
+A: Use the BITOP command to perform bitwise operations on string values.
+
+Q: How do you get the bit value at a specific offset in Redis?
+A: Use the GETBIT key offset command to retrieve the bit value.
+
+Q: What command sets a key's value only if it does not already exist?
+A: Use the SETNX key value command to set a key only if it does not exist.
+
+Q: How do you remove all fields from a hash in Redis?
+A: Use the HDEL key field1 field2 ... command to remove specific fields from a hash.

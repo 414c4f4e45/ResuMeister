@@ -1,0 +1,524 @@
+Q: What is system design?
+A: System design is the process of defining the architecture, modules, interfaces, and data for a system to satisfy specified requirements. It involves creating a blueprint for how a system will be built and how it will operate.
+
+Q: What are the main goals of system design?
+A: The main goals of system design are to ensure that the system meets the functional and non-functional requirements, is scalable, reliable, maintainable, and performs efficiently.
+
+Q: What is scalability in system design?
+A: Scalability refers to the ability of a system to handle a growing amount of work or its potential to accommodate growth without compromising performance.
+
+Q: What is a load balancer?
+A: A load balancer is a device or software that distributes incoming network or application traffic across multiple servers to ensure no single server becomes overwhelmed, thus improving performance and reliability.
+
+Q: What is a microservices architecture?
+A: Microservices architecture is a design approach where a system is composed of small, independent services that communicate over well-defined APIs. Each service handles a specific business function.
+
+Q: What is the difference between horizontal and vertical scaling?
+A: Horizontal scaling involves adding more machines to handle increased load, while vertical scaling involves adding resources (CPU, RAM) to an existing machine.
+
+Q: What is CAP theorem?
+A: CAP theorem states that a distributed system can only guarantee two out of the following three properties at any given time: Consistency, Availability, and Partition Tolerance.
+
+Q: What is consistency in CAP theorem?
+A: Consistency means that every read receives the most recent write or an error. All nodes in the system have the same data at any given time.
+
+Q: What is availability in CAP theorem?
+A: Availability means that every request receives a response, whether it is the most recent data or not. The system is operational and responsive at all times.
+
+Q: What is partition tolerance in CAP theorem?
+A: Partition tolerance means the system continues to operate despite network partitions that prevent some nodes from communicating with others.
+
+Q: What is a distributed system?
+A: A distributed system is a model where components located on networked computers communicate and coordinate their actions by passing messages. The components interact with each other to achieve a common goal.
+
+Q: What is a database index?
+A: A database index is a data structure that improves the speed of data retrieval operations on a database table at the cost of additional storage and slower write operations.
+
+Q: What is sharding in database systems?
+A: Sharding is a database architecture pattern where data is split across multiple servers or databases to improve performance and scalability. Each shard holds a subset of the data.
+
+Q: What is a caching layer in system design?
+A: A caching layer is used to store frequently accessed data in a temporary storage (cache) to reduce latency and load on the primary data source, thereby improving performance.
+
+Q: What is eventual consistency?
+A: Eventual consistency is a consistency model used in distributed systems where updates to a data store will propagate and converge to a consistent state over time, though not immediately.
+
+Q: What is a message queue?
+A: A message queue is a communication method used in distributed systems to enable asynchronous communication between services by sending messages to a queue that can be processed later.
+
+Q: What is the purpose of a service registry in microservices architecture?
+A: A service registry is used to keep track of available services and their locations, allowing services to dynamically discover and communicate with each other.
+
+Q: What is a circuit breaker pattern?
+A: The circuit breaker pattern is a design pattern used to detect failures and prevent a network or service from performing operations that are likely to fail, improving system resilience.
+
+Q: What is a content delivery network (CDN)?
+A: A CDN is a network of distributed servers that deliver web content and other web services to users based on their geographic location, improving the speed and performance of content delivery.
+
+Q: What is a relational database?
+A: A relational database is a type of database that stores data in tables with rows and columns and allows relationships between tables using foreign keys.
+
+Q: What is a NoSQL database?
+A: A NoSQL database is a non-relational database designed for specific data models and flexible schemas, often used for large-scale data storage and high-performance applications.
+
+Q: What is data normalization?
+A: Data normalization is the process of organizing data in a database to reduce redundancy and improve data integrity by dividing data into related tables and defining relationships.
+
+Q: What is a primary key?
+A: A primary key is a unique identifier for a record in a database table, ensuring that each record can be uniquely identified.
+
+Q: What is a foreign key?
+A: A foreign key is a field (or collection of fields) in one table that uniquely identifies a row of another table, establishing a relationship between the two tables.
+
+Q: What is load balancing?
+A: Load balancing is the process of distributing incoming network traffic across multiple servers to ensure no single server becomes overloaded, improving performance and reliability.
+
+Q: What is high availability?
+A: High availability is a system design approach aimed at ensuring that a system remains operational and accessible even in the event of hardware or software failures.
+
+Q: What is fault tolerance?
+A: Fault tolerance is the ability of a system to continue operating properly in the event of a failure of some of its components.
+
+Q: What is the purpose of a reverse proxy?
+A: A reverse proxy acts as an intermediary between clients and backend servers, handling requests on behalf of the servers, improving security, load balancing, and caching.
+
+Q: What is a load testing tool?
+A: A load testing tool is used to simulate multiple users or processes accessing a system simultaneously to evaluate its performance under load and identify potential bottlenecks.
+
+Q: What is horizontal scaling?
+A: Horizontal scaling involves adding more servers or instances to distribute the load and increase capacity, as opposed to increasing the resources of a single server (vertical scaling).
+
+Q: What is vertical scaling?
+A: Vertical scaling involves adding more resources (CPU, RAM) to an existing server to increase its capacity and performance.
+
+Q: What is a distributed database?
+A: A distributed database is a database that is spread across multiple physical locations, with data distributed across different nodes or servers to improve performance and reliability.
+
+Q: What is data replication?
+A: Data replication is the process of copying and maintaining database objects, such as tables and indexes, across multiple databases to ensure consistency and availability.
+
+Q: What is a consistency model?
+A: A consistency model defines the guarantees provided by a system regarding the visibility of updates to data and how it is managed across distributed components.
+
+Q: What is an API gateway?
+A: An API gateway is a server that acts as an API front-end, providing a single entry point for API requests and handling routing, authentication, and rate limiting.
+
+Q: What is a system bottleneck?
+A: A system bottleneck is a point in a system where the performance is significantly limited or constrained, causing delays or reduced throughput.
+
+Q: What is a database transaction?
+A: A database transaction is a sequence of operations performed as a single logical unit of work, ensuring that either all operations are completed successfully or none are.
+
+Q: What is ACID in database systems?
+A: ACID stands for Atomicity, Consistency, Isolation, and Durability. It is a set of properties that guarantee database transactions are processed reliably.
+
+Q: What is atomicity in ACID?
+A: Atomicity ensures that all operations in a transaction are completed successfully or none are. It is an all-or-nothing approach.
+
+Q: What is consistency in ACID?
+A: Consistency ensures that a transaction brings the database from one valid state to another, maintaining data integrity.
+
+Q: What is isolation in ACID?
+A: Isolation ensures that transactions are executed independently of one another, without interference or visibility into the intermediate states of other transactions.
+
+Q: What is durability in ACID?
+A: Durability guarantees that once a transaction is committed, its effects are permanently stored and not lost, even in the event of a system failure.
+
+Q: What is eventual consistency?
+A: Eventual consistency is a consistency model where data updates will eventually propagate to all nodes in the system, but immediate consistency is not guaranteed.
+
+Q: What is a system architecture diagram?
+A: A system architecture diagram visually represents the components of a system, their interactions, and the relationships between them, providing a high-level view of the system's design.
+
+Q: What is an ORM (Object-Relational Mapping)?
+A: ORM is a programming technique that allows developers to interact with a relational database using object-oriented programming concepts, abstracting away SQL queries.
+
+Q: What is a caching strategy?
+A: A caching strategy defines how data is stored in a cache, how long it is kept, and how it is invalidated, aiming to improve performance by reducing the need to fetch data from slower storage.
+
+Q: What is data partitioning?
+A: Data partitioning is the process of dividing a large dataset into smaller, manageable pieces (partitions) to improve performance and manageability.
+
+Q: What is a consistency check?
+A: A consistency check is a process that verifies the accuracy and integrity of data within a system, ensuring that it adheres to predefined rules and constraints.
+
+Q: What is a distributed cache?
+A: A distributed cache is a caching system that is spread across multiple servers or nodes, allowing for shared caching and improved scalability.
+
+Q: What is a time-series database?
+A: A time-series database is a type of database optimized for storing and querying time-stamped data, such as sensor data or logs, where the primary focus is on time-based queries.
+
+Q: What is a failover mechanism?
+A: A failover mechanism automatically switches to a standby system or component in the event of a failure, ensuring continuous operation and minimizing downtime.
+
+Q: What is a data lake?
+A: A data lake is a centralized repository that stores raw data in its native format until it is needed, allowing for large-scale data storage and processing.
+
+Q: What is an ETL process?
+A: ETL stands for Extract, Transform, Load. It is a process used to extract data from various sources, transform it into a desired format, and load it into a data warehouse or database.
+
+Q: What is the purpose of a database schema?
+A: A database schema defines the structure of a database, including tables, columns, relationships, and constraints, providing a blueprint for organizing and managing data.
+
+Q: What is a service-oriented architecture (SOA)?
+A: SOA is an architectural pattern where services are designed to perform specific functions and communicate over a network, allowing for reusable and loosely coupled components.
+
+Q: What is a distributed ledger technology (DLT)?
+A: DLT is a system for recording transactions across multiple locations or nodes, ensuring transparency and security by maintaining a decentralized record.
+
+Q: What is a container in system design?
+A: A container is a lightweight, standalone executable package that includes everything needed to run an application, including code, runtime, and dependencies, ensuring consistency across different environments.
+
+Q: What is orchestration in container management?
+A: Orchestration involves managing the deployment, scaling, and operation of containers across multiple hosts, typically using tools like Kubernetes.
+
+Q: What is a stateless service?
+A: A stateless service does not maintain any state between requests, meaning each request is independent and contains all the information needed for processing.
+
+Q: What is a stateful service?
+A: A stateful service maintains state between requests, allowing it to remember previous interactions and store session information.
+
+Q: What is a service mesh?
+A: A service mesh is a dedicated infrastructure layer for managing service-to-service communication, providing features like load balancing, service discovery, and security.
+
+Q: What is API throttling?
+A: API throttling is a technique used to limit the number of requests a client can make to an API within a specified time period, preventing abuse and ensuring fair usage.
+
+Q: What is a data warehouse?
+A: A data warehouse is a centralized repository that stores large volumes of historical data from multiple sources, optimized for analysis and reporting.
+
+Q: What is a network partition?
+A: A network partition is a situation where a network is divided into isolated segments, preventing communication between some parts of the system, often due to failures or outages.
+
+Q: What is a service contract?
+A: A service contract defines the interface and behavior of a service, including the methods, inputs, outputs, and any constraints or requirements.
+
+Q: What is a monitoring system in system design?
+A: A monitoring system tracks the performance, health, and status of various components in a system, providing insights and alerts to ensure smooth operation.
+
+Q: What is a log aggregation tool?
+A: A log aggregation tool collects and consolidates logs from multiple sources, allowing for centralized analysis, searching, and troubleshooting.
+
+Q: What is a data model?
+A: A data model defines the structure, relationships, and constraints of data within a system, serving as a blueprint for how data is stored and accessed.
+
+Q: What is a data pipeline?
+A: A data pipeline is a series of data processing steps that move data from source to destination, involving extraction, transformation, and loading (ETL).
+
+Q: What is a network topology?
+A: Network topology refers to the physical and logical arrangement of network devices and connections, affecting performance, reliability, and scalability.
+
+Q: What is the role of a system architect?
+A: A system architect designs the overall structure and components of a system, ensuring it meets requirements, is scalable, and integrates well with other systems.
+
+Q: What is a high-level design document?
+A: A high-level design document provides an overview of the system architecture, including key components, interactions, and design decisions, without detailing implementation specifics.
+
+Q: What is a low-level design document?
+A: A low-level design document provides detailed specifications for each component, including data structures, algorithms, and interfaces, guiding the implementation phase.
+
+Q: What is fault isolation?
+A: Fault isolation is the process of identifying and containing faults within a system to prevent them from affecting other components or services.
+
+Q: What is a deployment pipeline?
+A: A deployment pipeline automates the process of building, testing, and deploying code changes, ensuring a consistent and reliable release process.
+
+Q: What is the role of a system analyst?
+A: A system analyst gathers and analyzes requirements, defines system specifications, and ensures that the system design aligns with business needs and user expectations.
+
+Q: What is a service-oriented architecture (SOA) vs. microservices?
+A: SOA involves designing systems with reusable services that communicate via well-defined interfaces, while microservices break down a system into smaller, independent services with their own data storage and APIs.
+
+Q: What is a data dictionary?
+A: A data dictionary is a centralized repository that defines and describes data elements, their relationships, and constraints within a database or data system.
+
+Q: What is a disaster recovery plan?
+A: A disaster recovery plan outlines procedures for recovering and restoring system operations in the event of a catastrophic failure or disaster.
+
+Q: What is continuous integration (CI)?
+A: Continuous integration is a software development practice where code changes are automatically built, tested, and integrated into the main codebase frequently, ensuring early detection of issues.
+
+Q: What is continuous delivery (CD)?
+A: Continuous delivery is a practice where code changes are automatically built, tested, and prepared for release to production, allowing for frequent and reliable deployments.
+
+Q: What is a service-level agreement (SLA)?
+A: An SLA is a formal agreement between a service provider and a customer that defines the expected level of service, including performance metrics, availability, and response times.
+
+Q: What is a distributed hash table (DHT)?
+A: A distributed hash table is a decentralized data structure that maps keys to values across a distributed network, enabling efficient data retrieval and storage.
+
+Q: What is a data integrity check?
+A: A data integrity check verifies that data remains accurate, consistent, and unaltered during storage, transmission, or processing, ensuring data quality.
+
+Q: What is a backup strategy?
+A: A backup strategy defines the procedures and schedules for creating copies of data to protect against data loss and facilitate recovery in case of failure.
+
+Q: What is a service discovery mechanism?
+A: A service discovery mechanism enables services to locate and communicate with each other dynamically, often using a service registry and discovery protocols.
+
+Q: What is a web server?
+A: A web server is software or hardware that serves web content to clients over the internet, handling requests and delivering HTML, images, and other resources.
+
+Q: What is a database management system (DBMS)?
+A: A DBMS is software that manages databases, providing functionalities for storing, retrieving, and manipulating data while enforcing data integrity and security.
+
+Q: What is a query optimizer?
+A: A query optimizer is a component of a DBMS that analyzes and improves the performance of database queries by selecting the most efficient execution plan.
+
+Q: What is a system health check?
+A: A system health check is a process that monitors and assesses the operational status and performance of system components to ensure they are functioning correctly.
+
+Q: What is a data retention policy?
+A: A data retention policy defines how long data should be kept, how it should be archived or deleted, and how compliance with legal and regulatory requirements will be ensured.
+
+Q: What is a caching mechanism?
+A: A caching mechanism stores frequently accessed data in a temporary storage to reduce retrieval time and improve system performance by minimizing access to slower storage.
+
+Q: What is a rate limiter?
+A: A rate limiter controls the number of requests a client can make to a service within a specified time frame, preventing abuse and ensuring fair usage.
+
+Q: What is a system bottleneck analysis?
+A: System bottleneck analysis involves identifying points in a system where performance limitations occur, causing delays or reduced throughput, and finding ways to alleviate them.
+
+Q: What is a thread pool?
+A: A thread pool is a collection of pre-created threads that can be reused to perform tasks, improving resource management and reducing the overhead of creating and destroying threads.
+
+Q: What is a distributed system's eventual consistency model?
+A: In an eventual consistency model, updates to data will eventually propagate to all nodes in the distributed system, but immediate consistency is not guaranteed.
+
+Q: What is a service bus?
+A: A service bus is a middleware layer that facilitates communication between distributed services by providing message routing, transformation, and integration capabilities.
+
+Q: What is the difference between a monolithic and microservices architecture?
+A: A monolithic architecture involves a single, tightly integrated application, while microservices architecture consists of loosely coupled, independently deployable services.
+
+Q: What is a system's availability?
+A: System availability refers to the proportion of time a system is operational and accessible, typically expressed as a percentage of uptime versus downtime.
+
+Q: What is a system's latency?
+A: System latency is the time it takes for a system to respond to a request or complete a task, including the time between initiating an action and receiving a response.
+
+Q: What is a high-availability cluster?
+A: A high-availability cluster is a group of servers configured to provide continuous service by automatically failing over to standby servers in case of a failure.
+
+Q: What is a system's throughput?
+A: System throughput is the rate at which a system processes requests or transactions over a specific period, indicating its capacity and performance.
+
+Q: What is a load balancer?
+A: A load balancer distributes incoming network traffic across multiple servers to ensure even load distribution, improve performance, and prevent overload on any single server.
+
+Q: What is a microservices architecture?
+A: Microservices architecture is an approach where an application is composed of small, independent services that communicate through APIs, allowing for modular development and scaling.
+
+Q: What is the CAP theorem?
+A: The CAP theorem states that in a distributed data store, you can only achieve at most two out of three properties: Consistency, Availability, and Partition tolerance.
+
+Q: What is data sharding?
+A: Data sharding is the practice of dividing a database into smaller, more manageable pieces (shards) to improve performance and scalability.
+
+Q: What is a reverse proxy?
+A: A reverse proxy is a server that sits between client devices and web servers, forwarding client requests to the appropriate server and handling responses back to the clients.
+
+Q: What is a message broker?
+A: A message broker is a middleware component that facilitates communication between different systems or services by receiving, routing, and delivering messages.
+
+Q: What is a distributed system's consistency model?
+A: A consistency model defines how and when updates to data are visible across different nodes in a distributed system, impacting data accuracy and synchronization.
+
+Q: What is a system's fault tolerance?
+A: Fault tolerance is the ability of a system to continue operating correctly despite the presence of faults or failures, often through redundancy and error-handling mechanisms.
+
+Q: What is a container orchestration tool?
+A: A container orchestration tool manages the deployment, scaling, and operation of containerized applications, often providing features like automated scaling and load balancing.
+
+Q: What is a system's scalability?
+A: Scalability is the ability of a system to handle increased load or demand by adding resources or scaling components, ensuring performance remains consistent as the system grows.
+
+Q: What is a database index?
+A: A database index is a data structure that improves the speed of data retrieval operations by allowing faster search and access to specific records.
+
+Q: What is a system's security model?
+A: A security model defines the policies, mechanisms, and practices used to protect a system from threats, ensuring data confidentiality, integrity, and availability.
+
+Q: What is an API gateway?
+A: An API gateway is a server that acts as an entry point for client requests, handling tasks such as authentication, routing, and rate limiting, and providing a unified API for services.
+
+Q: What is a system's redundancy?
+A: Redundancy involves adding duplicate components or systems to ensure continued operation in case of failure, improving reliability and availability.
+
+Q: What is a system's reliability?
+A: Reliability is the probability that a system will perform its intended functions without failure over a specified period, reflecting its overall stability and dependability.
+
+Q: What is a system's fault detection?
+A: Fault detection is the process of identifying and diagnosing faults or anomalies in a system to enable timely response and corrective actions.
+
+Q: What is a load testing tool?
+A: A load testing tool simulates multiple users or requests to assess how a system performs under high load conditions, identifying performance bottlenecks and capacity limits.
+
+Q: What is a system's maintainability?
+A: Maintainability is the ease with which a system can be modified, updated, or repaired to correct issues or enhance functionality, impacting long-term sustainability.
+
+Q: What is a system's observability?
+A: Observability is the capability to monitor and understand the internal state of a system based on external outputs, including logs, metrics, and traces.
+
+Q: What is a system's fault isolation?
+A: Fault isolation involves identifying and containing faults within specific components or areas of a system to prevent them from impacting other parts of the system.
+
+Q: What is a system's data partitioning?
+A: Data partitioning involves dividing a dataset into smaller, manageable pieces to improve performance and scalability, often used in distributed databases.
+
+Q: What is a system's disaster recovery plan?
+A: A disaster recovery plan outlines strategies and procedures for recovering a system's operations and data following a catastrophic event or failure.
+
+Q: What is a system's backup strategy?
+A: A backup strategy defines how and when data backups are created, stored, and managed to ensure data protection and recovery in case of loss or corruption.
+
+Q: What is a system's data encryption?
+A: Data encryption is the process of converting data into a coded format to prevent unauthorized access and ensure data confidentiality during storage or transmission.
+
+Q: What is a system's performance monitoring?
+A: Performance monitoring involves tracking and analyzing system performance metrics, such as response time and resource utilization, to ensure optimal operation and identify issues.
+
+Q: What is a system's data normalization?
+A: Data normalization is the process of organizing data in a database to reduce redundancy and improve data integrity, typically by dividing data into related tables.
+
+Q: What is a system's data denormalization?
+A: Data denormalization involves combining tables or duplicating data to improve read performance and simplify queries, often used in high-performance systems.
+
+Q: What is a system's security audit?
+A: A security audit is a comprehensive evaluation of a system's security policies, controls, and practices to identify vulnerabilities and ensure compliance with security standards.
+
+Q: What is a system's version control?
+A: Version control is a system for tracking changes to code or documents over time, allowing for collaboration, history tracking, and rollback to previous versions.
+
+Q: What is a system's incident management?
+A: Incident management involves identifying, responding to, and resolving incidents or disruptions in a system, ensuring minimal impact on operations and service quality.
+
+Q: What is a system's capacity planning?
+A: Capacity planning involves forecasting future system requirements and scaling resources accordingly to accommodate growth and ensure continued performance.
+
+Q: What is a system's service dependency?
+A: Service dependency refers to the relationship between services where one service relies on the functionality of another to operate correctly, affecting system integration and reliability.
+
+Q: What is a system's horizontal scaling?
+A: Horizontal scaling involves adding more instances of a service or component to distribute load and increase capacity, typically used in distributed systems.
+
+Q: What is a system's vertical scaling?
+A: Vertical scaling involves increasing the resources (e.g., CPU, memory) of a single instance or component to improve its capacity and performance.
+
+Q: What is a system's data consistency?
+A: Data consistency ensures that data remains accurate and reliable across different parts of a system, maintaining coherence and preventing discrepancies.
+
+Q: What is a system's application-layer firewall?
+A: An application-layer firewall monitors and filters traffic at the application layer, protecting against specific threats and vulnerabilities by inspecting application-level protocols.
+
+Q: What is a system's network-layer firewall?
+A: A network-layer firewall filters traffic based on network layer information, such as IP addresses and port numbers, providing basic protection against unauthorized access.
+
+Q: What is a system's user authentication?
+A: User authentication verifies the identity of users accessing a system, typically using methods such as passwords, biometrics, or tokens to ensure authorized access.
+
+Q: What is a system's user authorization?
+A: User authorization determines the level of access and permissions granted to authenticated users, controlling what actions they can perform within the system.
+
+Q: What is a system's logging strategy?
+A: A logging strategy defines how system events and activities are recorded, stored, and managed to support monitoring, troubleshooting, and auditing.
+
+Q: What is a system's load balancing algorithm?
+A: A load balancing algorithm distributes incoming traffic or requests across multiple servers based on criteria such as round-robin, least connections, or weighted distribution.
+
+Q: What is a system's session management?
+A: Session management involves handling user sessions, including creating, maintaining, and terminating sessions, to manage user interactions and maintain state.
+
+Q: What is a system's data replication?
+A: Data replication involves copying data from one location to another to ensure redundancy, improve availability, and support disaster recovery.
+
+Q: What is a system's event-driven architecture?
+A: Event-driven architecture is a design pattern where components communicate through events, enabling asynchronous processing and decoupling between producers and consumers.
+
+Q: What is a system's API versioning?
+A: API versioning involves managing changes to an API by providing different versions to ensure backward compatibility and accommodate evolving requirements.
+
+Q: What is a system's performance tuning?
+A: Performance tuning involves optimizing system components and configurations to improve efficiency, speed, and resource utilization, often through profiling and adjustments.
+
+Q: What is a system's resource allocation?
+A: Resource allocation involves assigning computing resources, such as CPU, memory, and storage, to different components or processes to ensure optimal performance and balance.
+
+Q: What is a system's data governance?
+A: Data governance encompasses the policies, procedures, and standards for managing data quality, security, and compliance, ensuring effective and responsible data management.
+
+Q: What is a system's data archiving?
+A: Data archiving involves moving older or infrequently accessed data to long-term storage, freeing up primary storage and ensuring data preservation for future use.
+
+Q: What is a system's application performance monitoring (APM)?
+A: Application performance monitoring tracks and analyzes the performance of software applications, providing insights into response times, errors, and resource usage.
+
+Q: What is a system's network latency?
+A: Network latency is the time it takes for data to travel between two points in a network, affecting communication speed and overall system performance.
+
+Q: What is a system's data backup?
+A: Data backup involves creating copies of data to protect against loss or corruption, ensuring that information can be restored in case of a failure or disaster.
+
+Q: What is a system's data integrity?
+A: Data integrity ensures that data remains accurate, consistent, and reliable throughout its lifecycle, preventing unauthorized changes or corruption.
+
+Q: What is a system's database schema?
+A: A database schema defines the structure of a database, including tables, fields, relationships, and constraints, providing a blueprint for organizing and managing data.
+
+Q: What is a system's data modeling?
+A: Data modeling involves creating representations of data and its relationships to support database design, analysis, and understanding of data structures.
+
+Q: What is a system's network topology?
+A: Network topology refers to the arrangement and interconnection of network devices and components, influencing network performance, scalability, and management.
+
+Q: What is a system's software deployment?
+A: Software deployment involves installing, configuring, and making software applications available for use, including managing updates and patches.
+
+Q: What is a system's resource monitoring?
+A: Resource monitoring involves tracking and analyzing the usage of system resources, such as CPU, memory, and disk space, to ensure optimal performance and detect issues.
+
+Q: What is a system's load balancing strategy?
+A: A load balancing strategy defines the approach and criteria for distributing traffic or requests across multiple servers to optimize performance and prevent overload.
+
+Q: What is a system's service level agreement (SLA)?
+A: A service level agreement is a formal agreement between a service provider and a customer that defines the expected level of service, including performance metrics and responsibilities.
+
+Q: What is a system's incident response plan?
+A: An incident response plan outlines the procedures and responsibilities for addressing and managing security incidents or disruptions, ensuring a coordinated and effective response.
+
+Q: What is a system's data synchronization?
+A: Data synchronization involves ensuring that data across multiple locations or systems remains consistent and up-to-date, typically through automated processes or replication.
+
+Q: What is a system's network bandwidth?
+A: Network bandwidth is the maximum rate of data transfer across a network connection, affecting the speed and capacity of data transmission.
+
+Q: What is a system's database normalization?
+A: Database normalization is the process of organizing a database to reduce redundancy and improve data integrity by dividing data into related tables.
+
+Q: What is a system's event logging?
+A: Event logging involves recording significant events and activities within a system, providing a trail of actions for monitoring, troubleshooting, and auditing purposes.
+
+Q: What is a system's access control?
+A: Access control defines the mechanisms for granting or restricting access to system resources and data, ensuring that only authorized users can perform specific actions.
+
+Q: What is a system's load balancing configuration?
+A: Load balancing configuration involves setting up and tuning the parameters for distributing traffic or requests across multiple servers to achieve optimal performance and reliability.
+
+Q: What is a system's performance benchmark?
+A: A performance benchmark is a standardized test or measurement used to evaluate and compare the performance of a system or component against predefined criteria or other systems.
+
+Q: What is a system's network security?
+A: Network security encompasses the practices and technologies used to protect a network from unauthorized access, attacks, and other security threats.
+
+Q: What is a system's data retention policy?
+A: A data retention policy defines the rules and guidelines for how long data should be kept, when it should be archived or deleted, and ensuring compliance with legal and regulatory requirements.
+
+Q: What is a system's system monitoring?
+A: System monitoring involves observing and analyzing the overall performance and health of a system, including tracking metrics, detecting anomalies, and ensuring smooth operation.
+
+Q: What is a system's high availability?
+A: High availability refers to the design and implementation of systems to ensure continuous operation and minimal downtime, often through redundancy and failover mechanisms.
+
+Q: What is a system's disaster recovery?
+A: Disaster recovery involves planning and procedures to restore a system's functionality and data after a major failure or disaster, ensuring business continuity and minimizing impact.

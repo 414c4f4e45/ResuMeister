@@ -1,0 +1,431 @@
+Q: What is React.js?
+A: React.js is a JavaScript library for building user interfaces, developed by Facebook. It allows developers to create reusable UI components and manage the state of complex applications efficiently.
+
+Q: What is a component in React?
+A: A component is a reusable piece of UI that encapsulates its structure, style, and behavior. Components can be either class-based or functional.
+
+Q: What is JSX?
+A: JSX is a syntax extension for JavaScript that allows writing HTML-like code within JavaScript. It makes it easier to create React elements and components.
+
+Q: What is the purpose of render() in a React component?
+A: The render() method returns the JSX or React elements that should be displayed on the screen. It is called every time the component’s state or props change.
+
+Q: What is the difference between a class component and a functional component?
+A: Class components are ES6 classes that extend React.Component and have access to lifecycle methods and local state. Functional components are simpler and use hooks to manage state and lifecycle.
+
+Q: What are React hooks?
+A: Hooks are functions that allow you to use state and other React features in functional components. Common hooks include useState, useEffect, and useContext.
+
+Q: What does the useState hook do?
+A: The useState hook allows functional components to manage state. It returns an array with the current state value and a function to update it.
+
+Q: How does the useEffect hook work?
+A: The useEffect hook allows you to perform side effects in functional components, such as data fetching or DOM manipulation. It runs after every render by default and can be configured to run conditionally.
+
+Q: What is the virtual DOM?
+A: The virtual DOM is an in-memory representation of the real DOM. React uses it to optimize updates by comparing changes and efficiently updating only the parts of the real DOM that have changed.
+
+Q: What is a React key?
+A: A key is a unique identifier assigned to elements in a list to help React efficiently identify which items have changed, been added, or removed during updates.
+
+Q: How do you pass props to a React component?
+A: Props are passed to a component as attributes in JSX, e.g., <ComponentName propName={value} />. The component receives them as an object in its props parameter.
+
+Q: What is state in React?
+A: State is an object that holds data that may change over the lifetime of a component. It determines how the component renders and behaves.
+
+Q: What are controlled components?
+A: Controlled components are form elements whose value is controlled by React state. Their value is set and updated through state changes.
+
+Q: What are uncontrolled components?
+A: Uncontrolled components are form elements that manage their own state internally. You can access their values using refs instead of React state.
+
+Q: What is useRef hook?
+A: The useRef hook returns a mutable object that persists across renders. It is commonly used to access and interact with DOM elements.
+
+Q: What is useContext hook?
+A: The useContext hook allows you to access the value of a React context directly from within a functional component.
+
+Q: What is React Context?
+A: React Context provides a way to share values across the component tree without passing props manually through every level of the hierarchy.
+
+Q: How do you create a context in React?
+A: Create a context using React.createContext(defaultValue) and use the Provider component to supply the context value.
+
+Q: What is a higher-order component (HOC)?
+A: A higher-order component is a function that takes a component and returns a new component with additional props or behavior.
+
+Q: What is a functional component?
+A: A functional component is a JavaScript function that returns JSX. It does not have access to lifecycle methods but can use hooks to manage state and side effects.
+
+Q: What are lifecycle methods in class components?
+A: Lifecycle methods are hooks in class components that allow you to run code at specific points in a component's lifecycle, such as componentDidMount, componentDidUpdate, and componentWillUnmount.
+
+Q: What is componentDidMount?
+A: componentDidMount is a lifecycle method that runs after the component has been rendered to the DOM. It is commonly used for initialization tasks like data fetching.
+
+Q: What is componentWillUnmount?
+A: componentWillUnmount is a lifecycle method that runs just before a component is removed from the DOM. It is used for cleanup tasks such as canceling timers or network requests.
+
+Q: How do you conditionally render components in React?
+A: Use JavaScript conditional statements or operators within JSX to render components conditionally, such as ternary operators or logical &&.
+
+Q: What is React.Fragment?
+A: React.Fragment is a component that allows grouping multiple elements without adding extra nodes to the DOM. It can be used with the shorthand syntax <>...</>.
+
+Q: What is PropTypes in React?
+A: PropTypes is a library for type-checking props in React components. It allows you to specify the expected types of props and provides warnings if the props do not match the expected types.
+
+Q: What is the purpose of React.StrictMode?
+A: React.StrictMode is a wrapper component that helps identify potential problems in an application by activating additional checks and warnings for its descendants.
+
+Q: What is React Router?
+A: React Router is a library for handling routing and navigation in React applications, allowing you to create single-page applications with multiple views.
+
+Q: What is BrowserRouter in React Router?
+A: BrowserRouter is a router component that uses the HTML5 history API to manage the browser history and URL, enabling navigation in a React application.
+
+Q: What is Route in React Router?
+A: Route is a component that defines a mapping between a URL path and a React component. It renders the component when the URL matches the specified path.
+
+Q: What is Link in React Router?
+A: Link is a component that allows navigation to different routes within the application, without causing a full page reload, similar to an anchor (<a>) tag.
+
+Q: What is useHistory hook in React Router?
+A: The useHistory hook provides access to the history object, allowing you to programmatically navigate, go back, or forward in the browser history.
+
+Q: What is useLocation hook in React Router?
+A: The useLocation hook provides access to the current location object, which contains information about the current URL, including the pathname and search parameters.
+
+Q: What is useParams hook in React Router?
+A: The useParams hook returns an object containing the route parameters from the current URL, allowing you to access dynamic segments in the route.
+
+Q: How do you handle form submission in React?
+A: Handle form submission by attaching an onSubmit event handler to the form element and using the event.preventDefault() method to prevent the default form submission behavior.
+
+Q: What is React.lazy?
+A: React.lazy is a function that allows you to dynamically import components and render them lazily, improving performance by splitting the code into smaller chunks.
+
+Q: What is Suspense in React?
+A: Suspense is a component that allows you to handle the loading state of components rendered with React.lazy. It displays a fallback UI while the component is being loaded.
+
+Q: How do you handle errors in React?
+A: Use error boundaries, which are components that catch JavaScript errors anywhere in their child component tree and display a fallback UI.
+
+Q: What is ReactDOM.render()?
+A: ReactDOM.render() is a method that renders a React component tree into a DOM element, typically used to mount the root component of an application.
+
+Q: How do you create a React application from scratch?
+A: Use create-react-app CLI tool to set up a new React application with a preconfigured build setup, development server, and other tools.
+
+Q: What is create-react-app?
+A: create-react-app is a command-line tool that sets up a new React application with a default configuration, including a development server, build tools, and a basic project structure.
+
+Q: What is ReactDOM.hydrate()?
+A: ReactDOM.hydrate() is a method used to attach React to a server-rendered HTML page and manage subsequent updates. It is used for server-side rendering scenarios.
+
+Q: What is the useCallback hook?
+A: The useCallback hook returns a memoized version of a callback function, which is useful for optimizing performance by avoiding unnecessary re-creations of functions on re-renders.
+
+Q: What is the useMemo hook?
+A: The useMemo hook returns a memoized value based on dependencies, optimizing performance by avoiding expensive calculations on every render.
+
+Q: What is useReducer hook?
+A: The useReducer hook is an alternative to useState for managing more complex state logic. It allows you to manage state with a reducer function similar to Redux.
+
+Q: What is the useLayoutEffect hook?
+A: The useLayoutEffect hook is similar to useEffect, but it runs synchronously after all DOM mutations. It is useful for measuring the DOM or synchronously applying layout updates.
+
+Q: What are controlled components in React?
+A: Controlled components are form elements whose values are controlled by React state, making it easier to handle and validate user input.
+
+Q: What are uncontrolled components in React?
+A: Uncontrolled components are form elements that manage their own state internally. React interacts with them through refs, rather than state.
+
+Q: What is React.createElement?
+A: React.createElement is a method that creates a React element, which is a plain JavaScript object representing a DOM node or a component.
+
+Q: How do you use React.createElement to create an element?
+A: Call React.createElement(type, props, children), e.g., React.createElement('div', { className: 'my-div' }, 'Hello World').
+
+Q: What is contextType in class components?
+A: contextType is a property that allows class components to access the context value of a specific context object, enabling access to context within lifecycle methods.
+
+Q: What is ReactDOM.createRoot()?
+A: ReactDOM.createRoot() is a method used in React 18 for creating a root to render a React component tree, enabling concurrent features and automatic batching.
+
+Q: What is React.StrictMode used for?
+A: React.StrictMode is a tool for identifying potential problems in an application, such as deprecated lifecycle methods or unsafe practices, by activating additional checks.
+
+Q: What is React.memo?
+A: React.memo is a higher-order component that memoizes a functional component to prevent unnecessary re-renders if its props have not changed.
+
+Q: What is React.forwardRef?
+A: React.forwardRef is a function that allows a component to forward its ref to a child component, enabling parent components to access the child’s DOM node.
+
+Q: What is a "key" prop in React?
+A: The key prop is a unique identifier used in lists to help React identify which items have changed, are added, or are removed, optimizing list rendering.
+
+Q: How do you handle events in React?
+A: Attach event handlers to elements using camelCase syntax, e.g., <button onClick={handleClick}>Click me</button>, and define the handler function to handle the event.
+
+Q: What is useImperativeHandle hook?
+A: The useImperativeHandle hook allows you to customize the instance value that is exposed when using ref with React.forwardRef.
+
+Q: How do you handle form input validation in React?
+A: Use controlled components to manage input values and implement validation logic within event handlers or use libraries like Formik or React Hook Form.
+
+Q: What are React lifecycle methods used for?
+A: Lifecycle methods are used to run code at specific points in a component’s lifecycle, such as initialization, updating, and unmounting.
+
+Q: What is useEffect with an empty dependency array?
+A: Using useEffect with an empty dependency array means the effect will run only once after the initial render, similar to componentDidMount in class components.
+
+Q: What is useLayoutEffect used for?
+A: useLayoutEffect is used for operations that need to happen synchronously after the DOM has been updated but before the browser has painted, such as measuring layout.
+
+Q: How do you conditionally apply CSS classes in React?
+A: Use JavaScript conditional expressions or libraries like classnames to dynamically apply CSS classes based on component state or props.
+
+Q: What is the purpose of ReactDOM.unmountComponentAtNode()?
+A: ReactDOM.unmountComponentAtNode() removes a React component from the DOM and cleans up its event handlers and other resources.
+
+Q: What are controlled components in React forms?
+A: Controlled components have their values managed by React state, allowing you to control and validate form inputs with React’s state management.
+
+Q: How do you implement routing in a React application?
+A: Use libraries like react-router-dom to handle routing by defining routes, route components, and navigation elements.
+
+Q: What are React fragments and how are they used?
+A: React fragments are used to group multiple elements without adding extra nodes to the DOM. They are created using <React.Fragment> or the shorthand <>...</>.
+
+Q: How do you create a reusable component in React?
+A: Create a functional or class component that encapsulates a specific piece of UI logic, and then use it across your application by importing and including it in other components.
+
+Q: What is useDebugValue hook?
+A: The useDebugValue hook is used to display a label for custom hooks in React DevTools, helping with debugging by providing additional context about the hook’s state.
+
+Q: What is the difference between props and state in React?
+A: props are used to pass data from parent to child components and are immutable. state is used to manage internal component data that can change over time.
+
+Q: How do you handle errors in React using Error Boundaries?
+A: Wrap components with an error boundary component that implements componentDidCatch or static getDerivedStateFromError to catch and handle errors during rendering.
+
+Q: What is the purpose of useEffect cleanup function?
+A: The cleanup function in useEffect is used to clean up side effects, such as canceling network requests or clearing timers, when the component is unmounted or dependencies change.
+
+Q: How do you optimize performance in a React application?
+A: Use techniques such as memoizing components with React.memo, avoiding unnecessary re-renders, using useCallback and useMemo, and lazy loading components.
+
+Q: What is React.StrictMode used for?
+A: React.StrictMode is used to highlight potential problems in an application by activating additional checks and warnings during development.
+
+Q: How do you implement server-side rendering (SSR) in React?
+A: Use frameworks like Next.js or libraries such as react-dom/server to render React components on the server and send the HTML to the client for faster initial load times.
+
+Q: What are "higher-order functions" in React?
+A: Higher-order functions are functions that take other functions as arguments or return them. In React, they are often used for creating higher-order components (HOCs) and custom hooks.
+
+Q: What is useTransition hook?
+A: The useTransition hook is used to manage concurrent rendering and create smooth transitions by allowing updates to be deferred until the screen is idle.
+
+Q: What is ReactDOM.createRoot() used for?
+A: ReactDOM.createRoot() is used in React 18 to enable concurrent features and render the root component of a React application.
+
+Q: What are props.children in React?
+A: props.children is a special prop that contains the child elements or components passed between the opening and closing tags of a component.
+
+Q: How do you use React.lazy and Suspense together?
+A: Use React.lazy to dynamically import a component and Suspense to handle the loading state while the component is being fetched, providing a fallback UI during the load.
+
+Q: What is useImperativeHandle hook used for?
+A: The useImperativeHandle hook is used with React.forwardRef to customize the instance value exposed to parent components when using ref.
+
+Q: How do you manage complex state logic in React?
+A: Use the useReducer hook to manage complex state logic with a reducer function, or use state management libraries like Redux for more scalable solutions.
+
+Q: What is the purpose of React.memo?
+A: React.memo is a higher-order component that optimizes performance by memoizing the result of a functional component and preventing unnecessary re-renders.
+
+Q: How do you handle form validation in React?
+A: Use controlled components to manage form state and validation logic, or use form libraries like Formik or React Hook Form for more advanced validation and handling.
+
+Q: What is the React.Fragment component?
+A: React.Fragment is a component that allows grouping multiple elements without adding extra nodes to the DOM, helping to avoid unnecessary wrapper elements.
+
+Q: What is React.createContext() used for?
+A: React.createContext() is used to create a context object that can be used to pass data through the component tree without passing props manually at every level.
+
+Q: How do you update the state in a React component?
+A: Use the setState method in class components or the state updater function returned by useState in functional components to update the component's state.
+
+Q: What is useDeferredValue hook?
+A: The useDeferredValue hook is used to defer the value of a state variable to improve performance by allowing React to update less critical state updates after more important ones.
+
+Q: How do you handle asynchronous operations in React?
+A: Use hooks like useEffect to handle asynchronous operations, such as fetching data from an API, and manage loading and error states accordingly.
+
+Q: What is React.StrictMode?
+A: React.StrictMode is a wrapper component that activates additional checks and warnings to help identify potential problems in a React application during development.
+
+Q: What is ReactDOM.hydrate() used for?
+A: ReactDOM.hydrate() is used to attach React to an existing server-rendered HTML page and handle updates, typically used in server-side rendering scenarios.
+
+Q: What is React.lazy()?
+A: React.lazy() is a function that allows you to dynamically import components and render them lazily, improving performance by splitting the code into smaller chunks.
+
+Q: How do you handle authentication in a React application?
+A: Use libraries like React Router for handling routes and redirects, manage authentication state with context or state management libraries, and protect routes based on user authentication.
+
+Q: What is useTransition hook used for?
+A: The useTransition hook is used to manage transitions and deferred updates, improving user experience by handling rendering and updates more efficiently.
+
+Q: What is React.useCallback?
+A: React.useCallback is a hook that memoizes a callback function, preventing its recreation on every render unless its dependencies change, optimizing performance.
+
+Q: How do you test React components?
+A: Use testing libraries like Jest and React Testing Library to write unit tests and integration tests for React components, ensuring they render correctly and handle events as expected.
+
+Q: What is React.createRef used for?
+A: React.createRef is used to create a ref object that can be attached to React elements to access their instance or DOM node directly.
+
+Q: What is ReactDOM.render() used for?
+A: ReactDOM.render() is used to render a React component tree into a DOM container, making the component tree visible on the page.
+
+Q: What are the benefits of using TypeScript with React?
+A: TypeScript provides static typing, which helps catch errors early, improves code quality, and enhances development experience with better tooling and autocompletion.
+
+Q: What is useReducer hook?
+A: The useReducer hook is used to manage state in a functional component using a reducer function, suitable for complex state logic and state transitions.
+
+Q: What is the role of ReactDOM?
+A: ReactDOM is a package that provides methods to interact with the DOM, such as rendering React components to the DOM and managing updates.
+
+Q: How do you create a custom hook in React?
+A: Create a function that uses one or more built-in hooks and returns state or functions, allowing you to reuse stateful logic across components.
+
+Q: What is useContext hook?
+A: The useContext hook is used to access the value of a context created with React.createContext() in functional components.
+
+Q: How do you handle side effects in React?
+A: Use the useEffect hook to handle side effects such as data fetching, subscriptions, or manual DOM manipulation in functional components.
+
+Q: What is React.forwardRef used for?
+A: React.forwardRef is used to forward refs from parent components to child components, allowing parent components to directly access child DOM nodes or components.
+
+Q: How do you implement a loading spinner in React?
+A: Implement a loading spinner by conditionally rendering a spinner component based on a loading state variable, and use it to show while data is being fetched or processed.
+
+Q: What is useMemo hook?
+A: The useMemo hook is used to memoize the result of a calculation, preventing unnecessary recalculations on every render if its dependencies haven't changed.
+
+Q: How do you handle errors in functional components?
+A: Use error boundaries to catch errors in class components or implement try-catch blocks within hooks or asynchronous functions in functional components.
+
+Q: What is ReactDOM.createPortal used for?
+A: ReactDOM.createPortal is used to render a component's children into a different part of the DOM tree outside of their parent component’s hierarchy.
+
+Q: How do you manage global state in a React application?
+A: Use context and the useContext hook, or state management libraries like Redux or Zustand, to manage and access global state across the application.
+
+Q: What is the useCallback hook used for?
+A: The useCallback hook is used to memoize a callback function, preventing its recreation on every render unless its dependencies change, optimizing performance.
+
+Q: How do you manage form state in React?
+A: Use controlled components with state management via useState or useReducer, or use form libraries like Formik or React Hook Form for advanced form handling.
+
+Q: What is React.lazy?
+A: React.lazy is a function that allows you to dynamically import a component and render it only when needed, enabling code-splitting and lazy loading.
+
+Q: How do you use useEffect to fetch data in React?
+A: Use the useEffect hook to perform a fetch operation within a functional component and manage loading, error, and data states with local state variables.
+
+Q: What is the purpose of useLayoutEffect?
+A: useLayoutEffect is used for operations that need to happen immediately after the DOM has been updated but before the browser has painted, such as measuring layout.
+
+Q: What is useReducer hook?
+A: useReducer is a hook that manages state in functional components using a reducer function, suitable for handling complex state logic and state transitions.
+
+Q: What are the benefits of using React Hooks?
+A: React Hooks provide a way to use state and other React features in functional components, simplifying component logic and enabling better code reuse and organization.
+
+Q: What is React.useEffect hook?
+A: React.useEffect is a hook that lets you perform side effects in functional components, such as data fetching or subscriptions, and manage cleanup.
+
+Q: How do you handle API requests in React?
+A: Use the useEffect hook to trigger API requests, manage the response with state variables, and handle loading and error states.
+
+Q: What is the purpose of React.StrictMode?
+A: React.StrictMode is used during development to activate additional checks and warnings, helping identify potential problems and unsafe practices in the application.
+
+Q: What is the role of useRef hook?
+A: The useRef hook is used to create a mutable ref object that persists across renders and can be used to access and interact with DOM nodes or store mutable values.
+
+Q: How do you manage side effects in React?
+A: Use the useEffect hook to handle side effects such as data fetching or subscriptions, and clean up side effects when the component unmounts or dependencies change.
+
+Q: What is useDeferredValue used for?
+A: The useDeferredValue hook is used to defer updates to a value, allowing React to prioritize more important updates and improve performance during concurrent rendering.
+
+Q: How do you handle asynchronous data in React?
+A: Use the useEffect hook to manage asynchronous data fetching, update component state based on the fetched data, and handle loading and error states.
+
+Q: What is the role of useCallback hook?
+A: The useCallback hook is used to memoize callback functions, preventing their recreation on every render and improving performance by avoiding unnecessary re-renders.
+
+Q: What is the React.createContext used for?
+A: React.createContext is used to create a context object for passing data through the component tree without prop drilling, allowing for easier state management and access.
+
+Q: How do you implement dynamic imports in React?
+A: Use React.lazy to dynamically import components and Suspense to handle the loading state while the component is being fetched.
+
+Q: What is React.memo used for?
+A: React.memo is a higher-order component that memoizes functional components to prevent unnecessary re-renders if their props have not changed.
+
+Q: How do you create a context in React?
+A: Use React.createContext() to create a context object, then use Context.Provider to provide the context value to components within the provider.
+
+Q: What is useEffect used for in React?
+A: useEffect is a hook used to perform side effects such as data fetching, subscriptions, or manually interacting with the DOM in functional components.
+
+Q: How do you handle component updates in React?
+A: Use lifecycle methods in class components, or hooks like useEffect in functional components, to manage and respond to component updates and side effects.
+
+Q: What is ReactDOM.hydrate used for?
+A: ReactDOM.hydrate is used to attach React to an existing server-rendered HTML page, enabling the React application to take over the server-rendered content and handle updates.
+
+Q: How do you handle component lifecycle in React?
+A: Use lifecycle methods such as componentDidMount, componentDidUpdate, and componentWillUnmount in class components, or useEffect in functional components, to manage component lifecycle.
+
+Q: What are the benefits of using React.memo?
+A: React.memo helps optimize performance by memoizing functional components and preventing unnecessary re-renders when props have not changed.
+
+Q: How do you handle conditional rendering in React?
+A: Use conditional statements or logical operators within the render method or JSX to render different UI elements based on certain conditions.
+
+Q: What is React.forwardRef used for?
+A: React.forwardRef allows you to forward refs from parent components to child components, enabling direct access to the child’s DOM node or component instance.
+
+Q: How do you manage form input values in React?
+A: Use controlled components with useState or useReducer to manage and update form input values based on user interactions.
+
+Q: What is the purpose of useMemo in React?
+A: useMemo is used to memoize expensive calculations and avoid recalculating them on every render, improving performance by returning cached results.
+
+Q: How do you handle component updates in functional components?
+A: Use the useEffect hook to handle updates and side effects in functional components, managing changes based on dependencies.
+
+Q: What is ReactDOM.unstable_batchedUpdates used for?
+A: ReactDOM.unstable_batchedUpdates is used to batch multiple state updates into a single render, optimizing performance by reducing the number of re-renders.
+
+Q: What is the role of useImperativeHandle?
+A: useImperativeHandle is used to customize the instance value that is exposed when using ref with React.forwardRef, allowing you to control the values exposed to parent components.
+
+Q: How do you handle lazy loading of components in React?
+A: Use React.lazy for dynamically importing components and Suspense to manage the loading state while the component is being fetched.
+
+Q: What is React.StrictMode used for?
+A: React.StrictMode activates additional checks and warnings in development mode, helping to identify potential issues and enforce best practices.
+
+Q: How do you handle complex state logic in React?
+A: Use the useReducer hook to manage complex state logic and transitions, providing a more structured approach than useState for handling state updates.

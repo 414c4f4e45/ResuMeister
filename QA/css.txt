@@ -1,0 +1,518 @@
+Q: What is CSS?
+A: CSS stands for Cascading Style Sheets. It is a language used to describe the presentation of a document written in HTML or XML, including layout, colors, and fonts.
+
+Q: How do you include CSS in an HTML document?
+A: CSS can be included in an HTML document via an external stylesheet, internal stylesheet, or inline styles. External stylesheets are linked using the <link> tag, internal styles are included within the <style> tag in the <head>, and inline styles are added using the style attribute directly in HTML elements.
+
+Q: What is the purpose of the class attribute in CSS?
+A: The class attribute is used to assign a class name to an HTML element, allowing you to apply CSS rules to elements with the same class.
+
+Q: How do you select an element by its ID in CSS?
+A: Use the # symbol followed by the ID name, e.g., #myId { color: blue; }.
+
+Q: What is the box-sizing property used for in CSS?
+A: The box-sizing property controls how the total width and height of an element are calculated, including or excluding padding and borders. For example, box-sizing: border-box; includes padding and border in the element's total width and height.
+
+Q: How do you apply styles to all <p> elements in a document?
+A: Use the selector p { color: red; } to apply styles to all <p> elements.
+
+Q: What is the difference between padding and margin in CSS?
+A: Padding is the space between the content of an element and its border, while margin is the space between the border of an element and its surrounding elements.
+
+Q: How do you center a block element horizontally using CSS?
+A: Use margin: 0 auto; on the block element with a specified width, e.g., div { width: 50%; margin: 0 auto; }.
+
+Q: What does the display property do in CSS?
+A: The display property specifies how an element is displayed on the page, such as block, inline, flex, grid, none, etc.
+
+Q: What is the flexbox layout in CSS?
+A: Flexbox is a layout model that allows you to design complex layouts with a simpler and more predictable way of aligning and distributing space among items in a container.
+
+Q: How do you create a CSS rule that applies only when a user hovers over an element?
+A: Use the :hover pseudo-class, e.g., a:hover { color: green; }.
+
+Q: What is the z-index property used for?
+A: The z-index property controls the stack order of positioned elements (elements with position: absolute;, position: relative;, or position: fixed;). Higher values are positioned in front of lower values.
+
+Q: How do you set a background image in CSS?
+A: Use the background-image property, e.g., background-image: url('image.jpg');.
+
+Q: What is the purpose of the float property in CSS?
+A: The float property is used to position an element to the left or right of its container, allowing text and inline elements to wrap around it.
+
+Q: How do you create a CSS grid layout?
+A: Use the display: grid; property on a container element, and define rows and columns using grid-template-rows and grid-template-columns, e.g., grid-template-columns: 1fr 2fr;.
+
+Q: What is the transition property used for in CSS?
+A: The transition property allows you to change property values smoothly over a specified duration, e.g., transition: background-color 0.3s ease;.
+
+Q: How do you apply a CSS style to an element with a specific class?
+A: Use the . symbol followed by the class name, e.g., .myClass { color: red; }.
+
+Q: What is the transform property in CSS?
+A: The transform property allows you to apply 2D or 3D transformations to an element, such as rotate, scale, translate, and skew.
+
+Q: How do you set the font size of an element in CSS?
+A: Use the font-size property, e.g., font-size: 16px;.
+
+Q: What does the position property do in CSS?
+A: The position property determines how an element is positioned in the document, including static, relative, absolute, fixed, and sticky.
+
+Q: How do you create a responsive design using CSS?
+A: Use media queries to apply different styles based on the viewport size or device characteristics, e.g., @media (max-width: 600px) { .container { width: 100%; } }.
+
+Q: What is the overflow property used for in CSS?
+A: The overflow property controls how content that exceeds an element's box is handled, with options like visible, hidden, scroll, and auto.
+
+Q: How do you create rounded corners on an element in CSS?
+A: Use the border-radius property, e.g., border-radius: 10px;.
+
+Q: What is the opacity property in CSS?
+A: The opacity property sets the transparency level of an element, with values ranging from 0 (completely transparent) to 1 (completely opaque).
+
+Q: How do you set the color of text in CSS?
+A: Use the color property, e.g., color: blue;.
+
+Q: What is the text-align property used for in CSS?
+A: The text-align property specifies the horizontal alignment of text within its container, with values such as left, right, center, and justify.
+
+Q: How do you create a CSS rule that applies to all elements of a certain type?
+A: Use the element selector, e.g., h1 { font-size: 24px; } applies styles to all <h1> elements.
+
+Q: What is the purpose of the @import rule in CSS?
+A: The @import rule allows you to import one CSS file into another, e.g., @import url('styles.css');.
+
+Q: How do you create a CSS class that hides an element?
+A: Use the display: none; or visibility: hidden; property to hide an element, e.g., .hidden { display: none; }.
+
+Q: What does the text-decoration property do in CSS?
+A: The text-decoration property specifies decorations added to text, such as underline, overline, line-through, and none.
+
+Q: How do you set the width of an element in CSS?
+A: Use the width property, e.g., width: 100px;.
+
+Q: What is the align-items property in a flex container?
+A: The align-items property aligns flex items along the cross axis (perpendicular to the main axis) in a flex container, with values like flex-start, center, flex-end, stretch, etc.
+
+Q: How do you create a CSS variable?
+A: Define a CSS variable using the -- syntax and access it with the var() function, e.g., :root { --main-color: blue; } and color: var(--main-color);.
+
+Q: What is the justify-content property used for in flexbox?
+A: The justify-content property aligns flex items along the main axis (horizontal or vertical) of a flex container, with values like flex-start, center, space-between, space-around, and space-evenly.
+
+Q: How do you apply a style to an element that has multiple classes?
+A: Use a combined class selector, e.g., .class1.class2 { color: red; }.
+
+Q: What is the grid-template-areas property used for in CSS Grid?
+A: The grid-template-areas property defines named grid areas within a grid container, allowing you to place grid items in specific areas.
+
+Q: How do you create a CSS animation?
+A: Define keyframes with the @keyframes rule and apply the animation using the animation property, e.g., @keyframes myAnimation { from { opacity: 0; } to { opacity: 1; } } and animation: myAnimation 2s ease-in-out;.
+
+Q: What is the text-shadow property used for in CSS?
+A: The text-shadow property adds shadow effects to text, with values for horizontal offset, vertical offset, blur radius, and color, e.g., text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);.
+
+Q: How do you apply styles to an element when it is active or being clicked?
+A: Use the :active pseudo-class, e.g., button:active { background-color: grey; }.
+
+Q: What is the filter property in CSS?
+A: The filter property applies graphical effects such as blur, brightness, contrast, and grayscale to elements, e.g., filter: grayscale(100%);.
+
+Q: How do you create a responsive layout with CSS?
+A: Use media queries to apply different styles based on the viewport size or device characteristics, e.g., @media (max-width: 768px) { .container { width: 100%; } }.
+
+Q: What is the clip-path property used for in CSS?
+A: The clip-path property defines a clipping region for an element, allowing you to create shapes and masks, e.g., clip-path: circle(50%);.
+
+Q: How do you set the border of an element in CSS?
+A: Use the border property with width, style, and color values, e.g., border: 1px solid black;.
+
+Q: What is the background-size property used for?
+A: The background-size property specifies the size of the background image, with values like cover, contain, or specific dimensions, e.g., background-size: cover;.
+
+Q: How do you set the line height of text in CSS?
+A: Use the line-height property, e.g., line-height: 1.5;.
+
+Q: What is the pointer-events property used for in CSS?
+A: The pointer-events property controls under what circumstances (if any) a particular HTML element can become the target of mouse events, e.g., pointer-events: none;.
+
+Q: How do you align text vertically within a container using CSS?
+A: Use vertical-align for inline or table-cell elements and flexbox or grid layout techniques for block elements, e.g., display: flex; align-items: center;.
+
+Q: What is the content property used for in CSS?
+A: The content property is used with pseudo-elements (::before and ::after) to insert generated content before or after an element's content, e.g., content: "Note: ";.
+
+Q: How do you create a CSS rule that applies only to visited links?
+A: Use the :visited pseudo-class, e.g., a:visited { color: purple; }.
+
+Q: What is the box-shadow property used for in CSS?
+A: The box-shadow property adds shadow effects around an element's frame, with values for horizontal offset, vertical offset, blur radius, spread radius, and color, e.g., box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);.
+
+Q: How do you create a CSS rule that applies to the first child element?
+A: Use the :first-child pseudo-class, e.g., p:first-child { font-weight: bold; }.
+
+Q: What is the background-attachment property used for?
+A: The background-attachment property specifies whether a background image is fixed or scrolls with the rest of the page, e.g., background-attachment: fixed;.
+
+Q: How do you apply a CSS style to an element when it is focused?
+A: Use the :focus pseudo-class, e.g., input:focus { border-color: blue; }.
+
+Q: What is the word-wrap property used for in CSS?
+A: The word-wrap property controls how long words are broken and wrapped onto the next line, with values like break-word to prevent overflow.
+
+Q: How do you apply a CSS style to an element that is the last child?
+A: Use the :last-child pseudo-class, e.g., p:last-child { margin-bottom: 0; }.
+
+Q: What is the max-width property used for in CSS?
+A: The max-width property sets the maximum width of an element, ensuring it does not exceed the specified value, e.g., max-width: 100%;.
+
+Q: How do you set a custom font in CSS?
+A: Use the @font-face rule to define a custom font and the font-family property to apply it, e.g., @font-face { font-family: 'MyFont'; src: url('myfont.woff2'); } body { font-family: 'MyFont', sans-serif; }.
+
+Q: What is the text-transform property used for?
+A: The text-transform property controls the capitalization of text, with values like uppercase, lowercase, capitalize, and none.
+
+Q: How do you create a CSS rule that applies only to the last element of a specific type?
+A: Use the :last-of-type pseudo-class, e.g., p:last-of-type { margin-bottom: 0; }.
+
+Q: What is the display: none; property used for in CSS?
+A: The display: none; property hides an element from the document flow, making it not visible and not occupying any space.
+
+Q: How do you apply styles to an element when it is in a specific state, such as when it is checked?
+A: Use the :checked pseudo-class, e.g., input:checked { background-color: green; }.
+
+Q: What is the visibility property used for in CSS?
+A: The visibility property controls the visibility of an element, with values like visible, hidden, and collapse. hidden makes the element invisible but still occupies space.
+
+Q: How do you create a responsive layout with CSS Grid?
+A: Use media queries with CSS Grid properties to adapt the layout based on the viewport size, e.g., @media (max-width: 600px) { .grid-container { grid-template-columns: 1fr; } }.
+
+Q: What is the line-clamp property used for in CSS?
+A: The line-clamp property is used to limit the number of lines of text displayed in a block, with ellipsis added at the end if the text overflows.
+
+Q: How do you create a CSS rule that applies to elements that are not the first child?
+A: Use the :not(:first-child) selector, e.g., div:not(:first-child) { margin-top: 10px; }.
+
+Q: What is the border-collapse property used for in CSS?
+A: The border-collapse property controls whether table borders are collapsed into a single border or separated, with values collapse and separate.
+
+Q: How do you set a gradient background in CSS?
+A: Use the background-image property with a gradient function, e.g., background-image: linear-gradient(to right, red, yellow);.
+
+Q: What is the object-fit property used for in CSS?
+A: The object-fit property specifies how the content of a replaced element (e.g., images or videos) should be resized to fit its container, with values like contain, cover, and fill.
+
+Q: How do you set a background color for an element in CSS?
+A: Use the background-color property, e.g., background-color: lightblue;.
+
+Q: What is the writing-mode property used for in CSS?
+A: The writing-mode property controls the direction and orientation of text, with values like horizontal-tb, vertical-rl, and vertical-lr.
+
+Q: How do you create a CSS rule that targets elements with multiple classes?
+A: Use combined class selectors, e.g., .class1.class2 { color: green; }.
+
+Q: What is the text-overflow property used for in CSS?
+A: The text-overflow property specifies how overflowed text should be signaled when it overflows its container, with values like clip and ellipsis.
+
+Q: How do you create a CSS rule that applies to all elements within a specific container?
+A: Use a descendant selector, e.g., .container * { color: red; }.
+
+Q: What is the transform-origin property used for in CSS?
+A: The transform-origin property sets the origin point for transformations, allowing you to adjust the point around which an element is transformed, e.g., transform-origin: center center;.
+
+Q: How do you set the spacing between lines of text in CSS?
+A: Use the line-height property, e.g., line-height: 1.6;.
+
+Q: What is the border-radius property used for in CSS?
+A: The border-radius property creates rounded corners for an element's border box, e.g., border-radius: 10px;.
+
+Q: How do you set a fixed position for an element in CSS?
+A: Use the position: fixed; property, e.g., position: fixed; top: 0; right: 0;.
+
+Q: What is the background-blend-mode property used for in CSS?
+A: The background-blend-mode property specifies how background images and background colors blend together, with values like multiply, screen, and overlay.
+
+Q: How do you create a CSS rule that applies to the second child of a parent element?
+A: Use the :nth-child(2) pseudo-class, e.g., div:nth-child(2) { color: blue; }.
+
+Q: What is the grid-area property used for in CSS Grid?
+A: The grid-area property assigns an element to a specific area of a grid layout, defined by grid lines or named grid areas.
+
+Q: How do you set the width of an element to be responsive in CSS?
+A: Use percentage values or viewport units, e.g., width: 50%; or width: 80vw;.
+
+Q: What is the filter property used for in CSS?
+A: The filter property applies graphical effects like blur, brightness, or contrast to an element, e.g., filter: blur(5px);.
+
+Q: How do you apply a CSS style to an element when it is hovered over?
+A: Use the :hover pseudo-class, e.g., a:hover { color: red; }.
+
+Q: What is the flex-direction property used for in CSS Flexbox?
+A: The flex-direction property defines the direction in which flex items are placed in the flex container, with values like row, column, row-reverse, and column-reverse.
+
+Q: How do you create a CSS rule that applies to elements with a specific attribute?
+A: Use attribute selectors, e.g., [type="text"] { border: 1px solid black; }.
+
+Q: What is the aspect-ratio property used for in CSS?
+A: The aspect-ratio property specifies the ratio of width to height for an element, maintaining the aspect ratio as the element resizes, e.g., aspect-ratio: 16/9;.
+
+Q: How do you set the opacity of an element in CSS?
+A: Use the opacity property with a value between 0 (fully transparent) and 1 (fully opaque), e.g., opacity: 0.5;.
+
+Q: What is the position: relative; property used for in CSS?
+A: The position: relative; property positions an element relative to its normal position, allowing you to adjust its position using top, right, bottom, and left.
+
+Q: How do you set a fixed height for an element in CSS?
+A: Use the height property with a specific value, e.g., height: 200px;.
+
+Q: What is the overflow property used for in CSS?
+A: The overflow property specifies what happens if content overflows the element's box, with values like visible, hidden, scroll, and auto.
+
+Q: How do you create a CSS rule that applies to an element only if it is not hovered over?
+A: Use the :not(:hover) selector, e.g., div:not(:hover) { color: gray; }.
+
+Q: What is the text-align property used for in CSS?
+A: The text-align property sets the horizontal alignment of text within its container, with values like left, right, center, and justify.
+
+Q: How do you apply styles to elements based on their sibling relationship in CSS?
+A: Use sibling selectors like the general sibling combinator (~) or adjacent sibling combinator (+), e.g., h2 + p { margin-top: 0; }.
+
+Q: What is the filter: grayscale(50%); property used for in CSS?
+A: The filter: grayscale(50%); property applies a grayscale filter to an element, making it 50% grayscale.
+
+Q: How do you create a CSS rule that applies to elements with a specific class?
+A: Use class selectors, e.g., .highlight { background-color: yellow; }.
+
+Q: What is the border-style property used for in CSS?
+A: The border-style property specifies the style of an element's border, with values like solid, dashed, dotted, double, and none.
+
+Q: How do you set the z-index of an element in CSS?
+A: Use the z-index property to control the stacking order of positioned elements, with higher values on top of lower values, e.g., z-index: 10;.
+
+Q: What is the justify-content property used for in CSS Flexbox?
+A: The justify-content property aligns flex items along the main axis of the flex container, with values like flex-start, center, flex-end, space-between, and space-around.
+
+Q: How do you create a CSS rule that applies to elements based on their type?
+A: Use type selectors, e.g., button { background-color: blue; }.
+
+Q: What is the background-position property used for in CSS?
+A: The background-position property sets the initial position of a background image within an element, with values like top left, center center, or specific coordinates, e.g., background-position: center;.
+
+Q: How do you create a CSS rule that applies to elements based on their nth-child position?
+A: Use the :nth-child(n) pseudo-class, e.g., li:nth-child(odd) { background-color: #f2f2f2; }.
+
+Q: What is the scroll-behavior property used for in CSS?
+A: The scroll-behavior property defines the scrolling behavior for a page, with values like auto (default) and smooth, e.g., scroll-behavior: smooth;.
+
+Q: How do you set a custom property (CSS variable) in CSS?
+A: Use the -- prefix to define a custom property and then use var() to apply it, e.g., :root { --main-color: blue; } .box { color: var(--main-color); }.
+
+Q: What is the transform property used for in CSS?
+A: The transform property applies 2D or 3D transformations to an element, such as translation, rotation, scaling, and skewing, e.g., transform: rotate(45deg);.
+
+Q: How do you create a CSS rule that applies to elements that are directly adjacent to a specific element?
+A: Use the adjacent sibling combinator (+), e.g., h2 + p { margin-top: 0; }.
+
+Q: What is the display: inline-block; property used for in CSS?
+A: The display: inline-block; property allows an element to be inline with other elements but still maintain block-level properties, such as width and height.
+
+Q: How do you set a minimum width for an element in CSS?
+A: Use the min-width property, e.g., min-width: 200px;.
+
+Q: What is the grid-template-columns property used for in CSS Grid?
+A: The grid-template-columns property defines the number and size of columns in a grid container, e.g., grid-template-columns: repeat(3, 1fr);.
+
+Q: How do you create a CSS rule that applies to the first element of a specific type within a parent container?
+A: Use the :first-of-type pseudo-class, e.g., div:first-of-type { color: red; }.
+
+Q: What is the object-position property used for in CSS?
+A: The object-position property specifies the position of a replaced element (like an image) within its box, e.g., object-position: center;.
+
+Q: How do you set the text color of an element in CSS?
+A: Use the color property, e.g., color: blue;.
+
+Q: What is the clip property used for in CSS?
+A: The clip property defines a clipping region for an absolutely positioned element, allowing you to display only a portion of the element, e.g., clip: rect(0, 100px, 100px, 0);.
+
+Q: How do you apply styles to an element when it is being active (clicked)?
+A: Use the :active pseudo-class, e.g., button:active { background-color: darkblue; }.
+
+Q: What is the flex-wrap property used for in CSS Flexbox?
+A: The flex-wrap property controls whether flex items should wrap onto multiple lines, with values like nowrap, wrap, and wrap-reverse.
+
+Q: How do you set a background image for an element in CSS?
+A: Use the background-image property, e.g., background-image: url('image.jpg');.
+
+Q: What is the border-spacing property used for in CSS?
+A: The border-spacing property sets the distance between the borders of adjacent cells in a table, with a value like border-spacing: 10px;.
+
+Q: How do you create a CSS rule that applies to elements based on their attribute value?
+A: Use attribute selectors, e.g., [data-status="active"] { color: green; }.
+
+Q: What is the align-items property used for in CSS Flexbox?
+A: The align-items property aligns flex items along the cross axis of the flex container, with values like flex-start, center, flex-end, baseline, and stretch.
+
+Q: How do you create a CSS rule that applies to elements that are not the last child?
+A: Use the :not(:last-child) selector, e.g., div:not(:last-child) { margin-bottom: 10px; }.
+
+Q: What is the background-repeat property used for in CSS?
+A: The background-repeat property defines how background images are repeated, with values like repeat, no-repeat, repeat-x, and repeat-y.
+
+Q: How do you set a maximum height for an element in CSS?
+A: Use the max-height property, e.g., max-height: 300px;.
+
+Q: What is the grid-template-areas property used for in CSS Grid?
+A: The grid-template-areas property defines named grid areas for a grid container, allowing you to place items into specific areas, e.g., grid-template-areas: "header header" "sidebar main";.
+
+Q: How do you create a CSS rule that applies to the last element of a specific type within a parent container?
+A: Use the :last-of-type pseudo-class, e.g., p:last-of-type { font-weight: bold; }.
+
+Q: What is the font-weight property used for in CSS?
+A: The font-weight property sets the thickness of the font, with values like normal, bold, bolder, or numeric values like 400 or 700.
+
+Q: How do you create a CSS rule that applies to elements that are not checked (like checkboxes or radio buttons)?
+A: Use the :not(:checked) selector, e.g., input:not(:checked) { background-color: lightgray; }.
+
+Q: What is the letter-spacing property used for in CSS?
+A: The letter-spacing property adjusts the space between characters in text, e.g., letter-spacing: 1px;.
+
+Q: How do you create a CSS rule that applies to the nth element of a specific type within a parent container?
+A: Use the :nth-of-type(n) pseudo-class, e.g., li:nth-of-type(2) { color: red; }.
+
+Q: What is the visibility property used for in CSS?
+A: The visibility property sets whether an element is visible or hidden, with values like visible, hidden, and collapse.
+
+Q: How do you create a CSS rule that applies to elements that are not the first child?
+A: Use the :not(:first-child) selector, e.g., div:not(:first-child) { margin-top: 20px; }.
+
+Q: What is the min-height property used for in CSS?
+A: The min-height property sets the minimum height of an element, ensuring it is at least a specified height, e.g., min-height: 100px;.
+
+Q: How do you set the background color of an element in CSS?
+A: Use the background-color property, e.g., background-color: lightblue;.
+
+Q: What is the box-shadow property used for in CSS?
+A: The box-shadow property applies shadow effects around an element's frame, with values like box-shadow: 5px 5px 10px gray;.
+
+Q: How do you create a CSS rule that applies to elements based on their nth child position?
+A: Use the :nth-child(n) pseudo-class, e.g., li:nth-child(3) { font-style: italic; }.
+
+Q: What is the white-space property used for in CSS?
+A: The white-space property controls how white space inside an element is handled, with values like normal, nowrap, pre, pre-wrap, and pre-line.
+
+Q: How do you create a CSS rule that applies to the first child of a specific type within a parent container?
+A: Use the :first-of-type pseudo-class, e.g., p:first-of-type { font-size: larger; }.
+
+Q: What is the opacity property used for in CSS?
+A: The opacity property sets the transparency level of an element, with a value between 0 (completely transparent) and 1 (completely opaque).
+
+Q: How do you apply styles to elements that are being hovered over?
+A: Use the :hover pseudo-class, e.g., button:hover { background-color: green; }.
+
+Q: What is the grid-column property used for in CSS Grid?
+A: The grid-column property specifies how many columns an item should span or the starting and ending columns, e.g., grid-column: 1 / 3;.
+
+Q: How do you create a CSS rule that applies to the last child of a specific type within a parent container?
+A: Use the :last-of-type pseudo-class, e.g., li:last-of-type { color: blue; }.
+
+Q: What is the align-self property used for in CSS Flexbox?
+A: The align-self property overrides the align-items property for individual flex items, allowing them to be aligned differently along the cross axis, e.g., align-self: center;.
+
+Q: How do you set the border color of an element in CSS?
+A: Use the border-color property, e.g., border-color: red;.
+
+Q: What is the position: absolute; property used for in CSS?
+A: The position: absolute; property positions an element relative to its closest positioned ancestor (or the initial containing block if none exists), allowing you to place it anywhere in the container.
+
+Q: How do you create a CSS rule that applies to the first element of a specific type within a parent container?
+A: Use the :first-of-type pseudo-class, e.g., div:first-of-type { font-weight: bold; }.
+
+Q: What is the text-transform property used for in CSS?
+A: The text-transform property controls the capitalization of text, with values like uppercase, lowercase, capitalize, and none.
+
+Q: How do you set a custom font for text in CSS?
+A: Use the font-family property, e.g., font-family: 'Arial', sans-serif;.
+
+Q: What is the display: block; property used for in CSS?
+A: The display: block; property makes an element a block-level element, which takes up the full width available and starts on a new line, e.g., display: block;.
+
+Q: How do you create a CSS rule that applies to elements based on their nth child position with a specific interval?
+A: Use the :nth-child(an + b) pseudo-class, e.g., li:nth-child(3n) { color: orange; }.
+
+Q: What is the overflow-x property used for in CSS?
+A: The overflow-x property controls the overflow of content horizontally, with values like visible, hidden, scroll, and auto.
+
+Q: How do you set the font size for text in CSS?
+A: Use the font-size property, e.g., font-size: 16px;.
+
+Q: What is the border-radius property used for in CSS?
+A: The border-radius property rounds the corners of an element's border box, e.g., border-radius: 10px;.
+
+Q: How do you create a CSS rule that applies to elements based on their attribute presence?
+A: Use attribute selectors, e.g., [data-role] { color: blue; }.
+
+Q: What is the grid-gap property used for in CSS Grid?
+A: The grid-gap property sets the space between rows and columns in a grid container, e.g., grid-gap: 10px;.
+
+Q: How do you apply a CSS style to an element when it is focused?
+A: Use the :focus pseudo-class, e.g., input:focus { border-color: green; }.
+
+Q: What is the text-decoration property used for in CSS?
+A: The text-decoration property applies decorations to text, such as underline, overline, line-through, and none.
+
+Q: How do you create a CSS rule that applies to elements based on their direct child relationship?
+A: Use the child combinator (>), e.g., ul > li { margin: 0; }.
+
+Q: What is the background-size property used for in CSS?
+A: The background-size property sets the size of a background image, with values like cover, contain, or specific dimensions, e.g., background-size: 100px 100px;.
+
+Q: How do you create a CSS rule that applies to elements that are not active (not clicked)?
+A: Use the :not(:active) selector, e.g., button:not(:active) { background-color: lightgray; }.
+
+Q: What is the justify-items property used for in CSS Grid?
+A: The justify-items property aligns grid items along the inline (row) axis, with values like start, end, center, and stretch.
+
+Q: How do you set a background color that transitions from one color to another in CSS?
+A: Use the background shorthand property with gradient functions, e.g., background: linear-gradient(to right, red, blue);.
+
+Q: What is the align-content property used for in CSS Flexbox?
+A: The align-content property aligns flex lines within the flex container, with values like flex-start, center, flex-end, space-between, space-around, and stretch.
+
+Q: How do you create a CSS rule that applies to elements based on their nth child position with specific intervals?
+A: Use the :nth-child(an + b) pseudo-class, e.g., div:nth-child(2n + 1) { background-color: lightblue; }.
+
+Q: What is the filter property used for in CSS?
+A: The filter property applies graphical effects like blur, brightness, contrast, and grayscale to an element, e.g., filter: grayscale(50%);.
+
+Q: How do you create a CSS rule that applies to elements that are being dragged?
+A: Use the :drag pseudo-class, e.g., div:drag { border: 2px dashed red; }.
+
+Q: What is the writing-mode property used for in CSS?
+A: The writing-mode property sets the direction in which text is laid out, with values like horizontal-tb, vertical-rl, and vertical-lr.
+
+Q: How do you create a CSS rule that applies to elements based on their position in a flex container?
+A: Use the order property to adjust the position of flex items, e.g., flex-item { order: 2; }.
+
+Q: What is the transform property used for in CSS?
+A: The transform property applies transformations to an element, such as rotate, scale, translate, and skew, e.g., transform: rotate(45deg);.
+
+Q: How do you create a CSS rule that applies to elements based on their state being visited?
+A: Use the :visited pseudo-class, e.g., a:visited { color: purple; }.
+
+Q: What is the animation property used for in CSS?
+A: The animation property specifies keyframes, duration, timing function, and other properties for animating elements, e.g., animation: slide 2s ease-in-out;.
+
+Q: How do you create a CSS rule that applies to elements based on their checked state?
+A: Use the :checked pseudo-class, e.g., input:checked { background-color: green; }.
+
+Q: What is the flex-wrap property used for in CSS Flexbox?
+A: The flex-wrap property controls whether flex items should wrap onto multiple lines, with values like nowrap, wrap, and wrap-reverse.
+
+Q: How do you set a maximum width for an element in CSS?
+A: Use the max-width property, e.g., max-width: 500px;.
+
+Q: What is the z-index property used for in CSS?
+A: The z-index property sets the stacking order of positioned elements, with higher values appearing on top of lower values, e.g., z-index: 10;.
+
+Q: How do you create a CSS rule that applies to elements that are being resized?
+A: Use the :resizing pseudo-class, e.g., div:resizing { border: 1px solid blue; }.

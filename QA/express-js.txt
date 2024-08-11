@@ -1,0 +1,554 @@
+Q: What is Express.js?
+A: Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features for building web and mobile applications.
+
+Q: How do you install Express.js?
+A: Install Express.js using npm with the command npm install express.
+
+Q: How do you create a basic Express application?
+A: Create an instance of an Express application using const express = require('express'); const app = express();.
+
+Q: How do you start an Express server?
+A: Start the server using app.listen(port, callback), where port is the port number and callback is an optional function to execute when the server starts.
+
+Q: What is middleware in Express?
+A: Middleware in Express are functions that have access to the request, response, and the next middleware function in the application’s request-response cycle.
+
+Q: How do you use middleware in Express?
+A: Use app.use(middlewareFunction) to apply middleware to all routes or app.use('/path', middlewareFunction) to apply it to specific routes.
+
+Q: What is the purpose of app.use()?
+A: app.use() is used to mount middleware or routes in an Express application, allowing you to define functions that process requests before they reach route handlers.
+
+Q: How do you handle GET requests in Express?
+A: Handle GET requests using app.get('/route', (req, res) => { /* handler */ });.
+
+Q: How do you handle POST requests in Express?
+A: Handle POST requests using app.post('/route', (req, res) => { /* handler */ });.
+
+Q: How can you handle URL parameters in Express?
+A: Use route parameters in the route path, such as /users/:id, and access them using req.params.id.
+
+Q: How do you handle query parameters in Express?
+A: Access query parameters using req.query, e.g., req.query.name.
+
+Q: What is req.body used for?
+A: req.body contains the data sent in the body of a POST or PUT request, usually parsed by middleware like body-parser.
+
+Q: How do you set up static file serving in Express?
+A: Use app.use(express.static('public')) to serve static files from the public directory.
+
+Q: How do you configure the view engine in Express?
+A: Set the view engine using app.set('view engine', 'ejs') or another template engine like Pug or Handlebars.
+
+Q: What is res.send() used for?
+A: res.send() sends a response to the client, which can be a string, buffer, or object.
+
+Q: How do you send JSON responses in Express?
+A: Use res.json() to send JSON responses, e.g., res.json({ message: 'Hello World' });.
+
+Q: What is res.status() used for?
+A: res.status() sets the HTTP status code for the response, e.g., res.status(404).send('Not Found');.
+
+Q: How do you handle errors in Express?
+A: Use error-handling middleware with four arguments (err, req, res, next) to catch and handle errors in the application.
+
+Q: What is app.route() used for?
+A: app.route() allows you to define multiple handlers for a single route path, supporting different HTTP methods.
+
+Q: How do you use Express Router?
+A: Create a router instance with const router = express.Router();, define routes with router.get(), router.post(), etc., and mount it with app.use('/path', router);.
+
+Q: What is body-parser middleware used for?
+A: body-parser middleware parses incoming request bodies and makes them available in req.body.
+
+Q: How do you install and use body-parser?
+A: Install with npm install body-parser and use it with app.use(bodyParser.json()) or app.use(bodyParser.urlencoded({ extended: true })).
+
+Q: How do you set response headers in Express?
+A: Set headers using res.set(headerName, headerValue) or res.header(headerName, headerValue).
+
+Q: What is the difference between res.send() and res.json()?
+A: res.send() can send any type of response, while res.json() specifically sends a JSON response and sets the Content-Type header to application/json.
+
+Q: How do you handle form data in Express?
+A: Use body-parser middleware to parse form data and access it via req.body.
+
+Q: What is app.listen() used for?
+A: app.listen() starts the server and listens for incoming requests on the specified port.
+
+Q: How do you redirect a request in Express?
+A: Use res.redirect('/new-url') to redirect the request to a different URL.
+
+Q: How do you serve dynamic content in Express?
+A: Use a view engine like EJS or Pug to render dynamic HTML templates, passing data to them using res.render().
+
+Q: How do you use res.render()?
+A: res.render() renders a view template with data, e.g., res.render('index', { title: 'Home' });.
+
+Q: What are route parameters in Express?
+A: Route parameters are placeholders in the route path, such as /users/:id, used to capture dynamic values from the URL.
+
+Q: How do you use app.all() in Express?
+A: app.all() applies middleware or handlers to all HTTP methods for a given route.
+
+Q: What is the purpose of req.params?
+A: req.params contains route parameters extracted from the URL path.
+
+Q: What is req.query used for?
+A: req.query contains query string parameters parsed from the URL.
+
+Q: How do you handle file uploads in Express?
+A: Use middleware like multer to handle file uploads, providing options for storing and processing uploaded files.
+
+Q: How do you use multer for file uploads?
+A: Install multer, configure it with storage options, and use it as middleware for handling multipart/form-data requests.
+
+Q: What is express-session used for?
+A: express-session is used to manage user sessions by storing session data on the server.
+
+Q: How do you use express-session?
+A: Install express-session, configure it with session options, and use it as middleware in your Express application.
+
+Q: How do you handle JSON payloads in Express?
+A: Use express.json() middleware to parse JSON payloads in incoming requests and make them available in req.body.
+
+Q: What is app.use()?
+A: app.use() is a method to register middleware functions or mount routers at specific paths.
+
+Q: How do you implement basic authentication in Express?
+A: Use middleware to check request headers for authentication credentials, or use libraries like basic-auth.
+
+Q: What is express-validator?
+A: express-validator is a library for validating and sanitizing request data in Express applications.
+
+Q: How do you use express-validator?
+A: Install express-validator, use validation and sanitization methods in route handlers, and check for validation results using validationResult().
+
+Q: How do you handle query parameters in Express?
+A: Access query parameters using req.query, e.g., req.query.page for the query string parameter ?page=1.
+
+Q: What is app.get() used for?
+A: app.get() is used to define route handlers for HTTP GET requests.
+
+Q: How do you set up URL rewriting in Express?
+A: Use middleware or route handlers to rewrite URLs, redirecting or modifying request paths as needed.
+
+Q: What is app.use() in the context of middleware?
+A: app.use() is used to apply middleware functions to all routes or specific routes, processing requests before reaching route handlers.
+
+Q: How do you handle multipart form data in Express?
+A: Use multer or formidable middleware to parse multipart form data, including file uploads.
+
+Q: How do you implement request logging in Express?
+A: Use middleware like morgan to log HTTP requests and responses for monitoring and debugging.
+
+Q: What is morgan?
+A: morgan is a logging middleware for Express that provides HTTP request logging for debugging and monitoring.
+
+Q: How do you set up a fallback route in Express?
+A: Define a catch-all route at the end of your routing definitions to handle undefined routes, e.g., app.use((req, res) => res.status(404).send('Not Found'));.
+
+Q: How do you use app.param()?
+A: app.param() is used to define middleware that executes when a route parameter is present in the request URL.
+
+Q: What is app.use(express.json())?
+A: app.use(express.json()) is middleware that parses incoming JSON payloads and makes them available in req.body.
+
+Q: How do you manage environment variables in Express?
+A: Use environment variables for configuration and sensitive data, often managed with a .env file and the dotenv library.
+
+Q: What is express-rate-limit?
+A: express-rate-limit is a middleware for rate-limiting requests, helping to prevent abuse and denial-of-service attacks.
+
+Q: How do you handle cookies in Express?
+A: Use the cookie-parser middleware to parse and manage cookies in requests and responses.
+
+Q: How do you use cookie-parser?
+A: Install cookie-parser, use it as middleware, and access cookies in req.cookies.
+
+Q: What is res.sendFile() used for?
+A: res.sendFile() is used to send a file as a response to a client, specifying the file path.
+
+Q: How do you set up a custom error handler in Express?
+A: Define an error-handling middleware function with four arguments (err, req, res, next) to handle errors in the application.
+
+Q: What is express used for?
+A: express is a web application framework for Node.js that simplifies building web and mobile applications with robust features.
+
+Q: How do you implement route grouping in Express?
+A: Use express.Router() to group related routes and mount them at a specific path.
+
+Q: What is app.locals?
+A: app.locals is an object for storing application-level variables that are accessible throughout the application.
+
+Q: How do you use app.locals?
+A: Set properties on app.locals to store global variables, e.g., app.locals.title = 'My App';.
+
+Q: How do you enable CORS in Express?
+A: Use the cors middleware to enable Cross-Origin Resource Sharing (CORS) for handling requests from different origins.
+
+Q: What is res.sendStatus()?
+A: res.sendStatus() sets the HTTP status code and sends its status message as the response, e.g., res.sendStatus(200).
+
+Q: How do you use app.enable() and app.disable()?
+A: Use app.enable() and app.disable() to enable or disable application settings, such as app.enable('trust proxy');.
+
+Q: What is express.Router()?
+A: express.Router() is a utility to create modular, mountable route handlers, allowing you to define routes and middleware separately from the main application.
+
+Q: How do you define a route parameter in Express?
+A: Define route parameters in the route path using :parameterName, e.g., /users/:userId.
+
+Q: What is app.set() used for?
+A: app.set() is used to set application-level settings, such as the view engine or port number.
+
+Q: How do you handle different HTTP methods for a route?
+A: Define route handlers for different methods using app.get(), app.post(), app.put(), app.delete(), etc.
+
+Q: How do you set up a catch-all route for unmatched URLs?
+A: Define a catch-all route using app.use('*', (req, res) => res.status(404).send('Not Found'));.
+
+Q: How do you use the express.static middleware?
+A: express.static serves static files from a specified directory, e.g., app.use(express.static('public'));.
+
+Q: What is express.Router().route() used for?
+A: express.Router().route() allows you to chain route handlers for the same path, supporting multiple HTTP methods.
+
+Q: How do you handle HTTP request methods other than GET and POST?
+A: Use app.put(), app.delete(), app.patch(), etc., to handle other HTTP request methods.
+
+Q: How do you parse URL-encoded data in Express?
+A: Use express.urlencoded({ extended: true }) middleware to parse URL-encoded data from form submissions.
+
+Q: What is res.send()?
+A: res.send() sends a response to the client, which can be a string, buffer, or object.
+
+Q: How do you access request headers in Express?
+A: Access request headers using req.headers, e.g., req.headers['content-type'].
+
+Q: How do you configure session storage in Express?
+A: Use express-session with a session store like connect-mongo for MongoDB or connect-redis for Redis to persist session data.
+
+Q: What is app.use() with app.get() and app.post()?
+A: app.use() is used for middleware, while app.get() and app.post() define route handlers for specific HTTP methods.
+
+Q: How do you handle asynchronous code in Express routes?
+A: Use async/await or promises to handle asynchronous operations in route handlers.
+
+Q: How do you log request details in Express?
+A: Use middleware like morgan to log request details, including HTTP method, URL, and response status.
+
+Q: How do you use app.param() for route parameters?
+A: Use app.param('paramName', middlewareFunction) to define middleware that processes a route parameter before the route handler.
+
+Q: What is express-async-handler?
+A: express-async-handler is a middleware to handle asynchronous errors in Express route handlers by wrapping them in a try/catch block.
+
+Q: How do you implement rate limiting in Express?
+A: Use express-rate-limit middleware to limit the number of requests from a client within a specified time period.
+
+Q: How do you configure cors in Express?
+A: Install and use cors middleware to allow cross-origin requests, configuring options as needed.
+
+Q: How do you test Express routes?
+A: Use testing frameworks like mocha, chai, or jest, and tools like supertest to send requests and verify responses.
+
+Q: What is res.sendFile() used for?
+A: res.sendFile() sends a file from the server as a response to the client, providing the file path.
+
+Q: How do you handle cookies in Express?
+A: Use cookie-parser middleware to parse cookies and manage them in requests and responses.
+
+Q: What is app.locals used for?
+A: app.locals is an object for storing application-wide variables that can be accessed throughout the application.
+
+Q: How do you implement custom error handling in Express?
+A: Define an error-handling middleware with four arguments (err, req, res, next) to catch and handle errors globally.
+
+Q: What is express-session used for?
+A: express-session is used to manage user sessions by storing session data on the server side.
+
+Q: How do you use app.all()?
+A: app.all() applies middleware or handlers to all HTTP methods for a specific route or path.
+
+Q: How do you handle form submissions in Express?
+A: Use middleware like body-parser to parse form submissions and access data in req.body.
+
+Q: What is app.use() with express.json()?
+A: app.use(express.json()) is middleware that parses JSON request bodies, making them available in req.body.
+
+Q: How do you set up a static file server in Express?
+A: Use express.static() middleware to serve static files from a specified directory.
+
+Q: What is res.json() used for?
+A: res.json() sends a JSON response and sets the Content-Type header to application/json.
+
+Q: How do you implement request validation in Express?
+A: Use libraries like express-validator to validate and sanitize request data before processing it in route handlers.
+
+Q: How do you configure logging in Express?
+A: Use logging middleware like morgan to log request and response details for monitoring and debugging.
+
+Q: How do you handle authentication in Express?
+A: Use middleware libraries like passport or jsonwebtoken to handle user authentication and manage sessions or tokens.
+
+Q: What is express-validator?
+A: express-validator is a library for validating and sanitizing request data in Express applications, providing validation middleware.
+
+Q: How do you use app.set() in Express?
+A: app.set() is used to set application-level settings, such as view engine or port number.
+
+Q: What is the role of res.status()?
+A: res.status() sets the HTTP status code for the response, e.g., res.status(404).send('Not Found');.
+
+Q: How do you implement route grouping in Express?
+A: Use express.Router() to create route groups, allowing you to organize and manage routes in a modular way.
+
+Q: How do you use app.route()?
+A: app.route() allows you to chain route handlers for the same route path, supporting different HTTP methods.
+
+Q: What is app.use() with express.static()?
+A: app.use(express.static()) serves static files from a specified directory, making them accessible via HTTP.
+
+Q: How do you implement request throttling in Express?
+A: Use middleware like express-rate-limit to limit the number of requests from a client within a specific time window.
+
+Q: How do you handle file uploads in Express?
+A: Use middleware like multer to process file uploads, providing features for handling multipart form data.
+
+Q: What is res.send() used for?
+A: res.send() sends a response to the client, which can be a string, buffer, or object.
+
+Q: How do you handle JSON requests in Express?
+A: Use express.json() middleware to parse JSON request bodies and make them available in req.body.
+
+Q: How do you set up URL encoding in Express?
+A: Use express.urlencoded({ extended: true }) middleware to parse URL-encoded form data and access it in req.body.
+
+Q: What is app.get() used for?
+A: app.get() defines route handlers for HTTP GET requests, specifying the path and callback function.
+
+Q: How do you set up middleware in Express?
+A: Use app.use() to apply middleware functions to handle requests and responses globally or for specific routes.
+
+Q: What is app.listen()?
+A: app.listen() starts the Express application and listens for incoming connections on a specified port.
+
+Q: How do you use app.param() for dynamic routing?
+A: Use app.param('paramName', middlewareFunction) to define middleware that processes parameters in dynamic routes.
+
+Q: What is express in Express.js?
+A: express is a web framework for Node.js that simplifies the process of building web and mobile applications.
+
+Q: How do you handle errors globally in Express?
+A: Define a global error-handling middleware function with four arguments (err, req, res, next) to catch and handle errors.
+
+Q: How do you use express-session?
+A: express-session is used to manage user sessions, storing session data on the server and maintaining session state.
+
+Q: What is the purpose of res.sendFile()?
+A: res.sendFile() sends a file from the server as the response to a client request, specifying the file path.
+
+Q: How do you handle multipart form data in Express?
+A: Use multer middleware to handle multipart form data, such as file uploads, in Express applications.
+
+Q: What is express.static() used for?
+A: express.static() serves static files like HTML, CSS, and JavaScript from a specified directory.
+
+Q: How do you configure environment variables in Express?
+A: Use the dotenv package to load environment variables from a .env file into process.env.
+
+Q: What is the role of req.body in Express?
+A: req.body contains data sent in the body of a POST or PUT request, typically parsed by middleware like body-parser.
+
+Q: How do you set response headers in Express?
+A: Use res.set() to set custom headers for the response, e.g., res.set('X-Custom-Header', 'value');.
+
+Q: How do you handle routing in Express?
+A: Define routes using app.get(), app.post(), app.put(), etc., or use express.Router() to organize routes into modular handlers.
+
+Q: What is app.use() in Express?
+A: app.use() is used to apply middleware functions to handle requests and responses, either globally or for specific routes.
+
+Q: How do you serve static files in Express?
+A: Use express.static() middleware to serve static files, such as images and stylesheets, from a directory.
+
+Q: What is res.redirect() used for?
+A: res.redirect() sends a redirect response to the client, allowing you to navigate to a different URL.
+
+Q: How do you use req.query in Express?
+A: req.query contains query string parameters from the URL, e.g., /search?query=term will have req.query.query.
+
+Q: How do you handle route parameters in Express?
+A: Define route parameters in the route path using :paramName and access them in req.params.
+
+Q: What is app.use() for middleware in Express?
+A: app.use() applies middleware functions to handle requests and responses, either globally or for specific routes.
+
+Q: How do you handle different content types in Express?
+A: Use req.get('Content-Type') to check the content type of incoming requests and process data accordingly.
+
+Q: How do you handle form submissions in Express?
+A: Use middleware like body-parser to parse form data from requests and access it in req.body.
+
+Q: What is res.sendFile() in Express?
+A: res.sendFile() sends a file from the server as the response to a client request, specifying the file path.
+
+Q: How do you configure session management in Express?
+A: Use express-session and a session store to manage user sessions, persisting session data on the server.
+
+Q: How do you use res.cookie() in Express?
+A: res.cookie() sets a cookie in the response headers, allowing you to send cookies to the client.
+
+Q: What is express.json() middleware?
+A: express.json() parses incoming JSON request bodies and makes the data available in req.body.
+
+Q: How do you handle errors in Express applications?
+A: Use error-handling middleware with four arguments (err, req, res, next) to catch and respond to errors.
+
+Q: What is app.use() with body-parser?
+A: app.use(body-parser) middleware parses incoming request bodies, making form data available in req.body.
+
+Q: How do you use app.set() to configure settings?
+A: app.set() configures application settings, such as the view engine or port number, by setting key-value pairs.
+
+Q: What is express.Router()?
+A: express.Router() creates modular, mountable route handlers, allowing you to define routes and middleware separately.
+
+Q: How do you handle cookies in Express?
+A: Use cookie-parser middleware to parse and manage cookies in requests and responses.
+
+Q: How do you implement request throttling in Express?
+A: Use middleware like express-rate-limit to limit the number of requests a client can make in a given time period.
+
+Q: How do you configure CORS in Express?
+A: Use cors middleware to enable Cross-Origin Resource Sharing (CORS) and configure allowed origins and methods.
+
+Q: How do you serve static files with Express?
+A: Use express.static() middleware to serve static files from a specified directory.
+
+Q: What is res.status() used for?
+A: res.status() sets the HTTP status code for the response, allowing you to specify status codes like 404 or 500.
+
+Q: How do you handle file uploads in Express?
+A: Use multer middleware to handle file uploads and process multipart form data.
+
+Q: What is the role of req.params in Express?
+A: req.params contains route parameters defined in the URL path, such as /users/:id.
+
+Q: How do you define a route in Express?
+A: Define routes using methods like app.get(), app.post(), and specify the route path and handler function.
+
+Q: How do you set response headers in Express?
+A: Use res.set() or res.header() to set custom response headers.
+
+Q: What is res.send() in Express?
+A: res.send() sends a response to the client, which can be a string, buffer, or object.
+
+Q: How do you handle JSON payloads in Express?
+A: Use express.json() middleware to parse JSON payloads and access data in req.body.
+
+Q: How do you handle different HTTP methods in Express?
+A: Use app.get(), app.post(), app.put(), app.delete(), etc., to handle different HTTP methods for routes.
+
+Q: How do you handle errors in Express applications?
+A: Define an error-handling middleware function with four arguments (err, req, res, next) to catch and handle errors.
+
+Q: How do you use express-rate-limit?
+A: Install and configure express-rate-limit middleware to apply rate limiting and prevent abuse.
+
+Q: How do you implement routing with express.Router()?
+A: Create modular route handlers using express.Router() and mount them at specific paths in the main app.
+
+Q: What is the purpose of res.redirect()?
+A: res.redirect() sends a redirect response to the client, allowing navigation to a different URL.
+
+Q: How do you handle query parameters in Express?
+A: Access query parameters using req.query, which contains key-value pairs from the query string.
+
+Q: How do you define middleware functions in Express?
+A: Define middleware functions with parameters (req, res, next) and use app.use() to apply them.
+
+Q: How do you manage sessions in Express?
+A: Use express-session middleware along with a session store to manage user sessions and session data.
+
+Q: What is express.json() used for?
+A: express.json() is middleware for parsing JSON request bodies and making the data available in req.body.
+
+Q: How do you set global variables in Express?
+A: Use app.locals to set global variables that can be accessed across the application.
+
+Q: What is express in Express.js?
+A: express is a web application framework for Node.js that simplifies building web and mobile applications.
+
+Q: How do you handle different content types in Express?
+A: Use middleware to handle various content types, such as express.json() for JSON and express.urlencoded() for URL-encoded data.
+
+Q: How do you implement request logging in Express?
+A: Use middleware like morgan to log request details, such as HTTP method, URL, and response status.
+
+Q: How do you use res.json()?
+A: res.json() sends a JSON response and sets the Content-Type header to application/json.
+
+Q: How do you use app.listen() in Express?
+A: app.listen() starts the server and listens for incoming connections on the specified port.
+
+Q: How do you use app.route()?
+A: app.route() allows chaining route handlers for the same path, supporting multiple HTTP methods.
+
+Q: How do you serve static files in Express?
+A: Use express.static() middleware to serve static files from a directory.
+
+Q: How do you handle dynamic route parameters?
+A: Define dynamic parameters in the route path with :paramName and access them using req.params.
+
+Q: What is express.Router()?
+A: express.Router() is used to define and modularize routes and middleware, allowing for better organization in Express applications.
+
+Q: How do you handle JSON payloads in Express?
+A: Use express.json() middleware to parse JSON payloads from incoming requests.
+
+Q: How do you define error-handling middleware?
+A: Define a middleware function with four arguments (err, req, res, next) to handle errors in Express.
+
+Q: What is res.sendFile()?
+A: res.sendFile() sends a file as the response to a client request, specifying the file path.
+
+Q: How do you use app.set()?
+A: app.set() is used to configure settings in an Express application, such as the view engine or port number.
+
+Q: How do you use req.query?
+A: req.query contains query string parameters from the URL, allowing access to parameters like /search?term=value.
+
+Q: How do you manage session data in Express?
+A: Use express-session middleware along with a session store to manage and persist session data.
+
+Q: What is app.use() for in Express?
+A: app.use() applies middleware functions to handle requests and responses globally or for specific routes.
+
+Q: How do you handle file uploads in Express?
+A: Use multer middleware to handle file uploads and process multipart form data.
+
+Q: How do you implement request throttling in Express?
+A: Use express-rate-limit middleware to limit the number of requests a client can make within a specified time period.
+
+Q: How do you use res.cookie() in Express?
+A: res.cookie() sets cookies in the response headers, allowing you to send cookies to the client.
+
+Q: How do you configure CORS in Express?
+A: Use cors middleware to enable Cross-Origin Resource Sharing (CORS) and configure allowed origins and methods.
+
+Q: What is express.static() used for?
+A: express.static() serves static files from a directory, such as images, stylesheets, and JavaScript files.
+
+Q: How do you handle errors in Express applications?
+A: Define an error-handling middleware function with four arguments (err, req, res, next) to catch and handle errors.
+
+Q: How do you use app.route()?
+A: app.route() allows chaining route handlers for a specific path and supports multiple HTTP methods.
+
+Q: How do you use res.json()?
+A: res.json() sends a JSON response and sets the Content-Type header to application/json.
+
+Q: What is res.send() in Express?
+A: res.send() sends a response to the client, which can be a string, buffer, or object.

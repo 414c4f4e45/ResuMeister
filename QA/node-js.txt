@@ -1,0 +1,458 @@
+Q: What is Node.js?
+A: Node.js is a runtime environment that allows you to run JavaScript code on the server side, built on Chrome's V8 JavaScript engine.
+
+Q: What is the event-driven architecture in Node.js?
+A: The event-driven architecture in Node.js allows the system to handle multiple operations concurrently by using an event loop that listens for and responds to events.
+
+Q: How does Node.js handle asynchronous operations?
+A: Node.js handles asynchronous operations using callbacks, promises, and async/await, allowing non-blocking execution of code.
+
+Q: What is the purpose of the package.json file in Node.js?
+A: The package.json file manages project metadata, dependencies, scripts, and configuration, making it easier to manage and share Node.js projects.
+
+Q: How do you install Node.js packages?
+A: Use the npm (Node Package Manager) command npm install <package-name> to install packages from the npm registry.
+
+Q: What is npm?
+A: npm (Node Package Manager) is a package manager for Node.js that allows you to install, update, and manage libraries and dependencies in your Node.js projects.
+
+Q: What is the require function used for in Node.js?
+A: The require function is used to import modules and their functionalities into your Node.js application.
+
+Q: What is module.exports?
+A: module.exports is an object used to export functions, objects, or variables from a module so that they can be used in other files.
+
+Q: What is the purpose of the __dirname variable in Node.js?
+A: The __dirname variable provides the absolute path to the directory containing the currently executing script, useful for file path resolution.
+
+Q: How do you handle errors in Node.js?
+A: Handle errors using error-first callbacks, try-catch blocks for synchronous code, and .catch for promises, ensuring proper error management in asynchronous operations.
+
+Q: What is the event loop in Node.js?
+A: The event loop is a core feature of Node.js that handles asynchronous operations by continuously checking for and processing events and callbacks.
+
+Q: How do you create a simple HTTP server in Node.js?
+A: Use the http module and the http.createServer() method to create an HTTP server that listens for requests and sends responses.
+
+Q: What is middleware in the context of Node.js and Express?
+A: Middleware is a function in Express that processes requests and responses, allowing for functionalities such as logging, authentication, and body parsing.
+
+Q: How do you use environment variables in Node.js?
+A: Use the process.env object to access environment variables in Node.js, often used for configuration and sensitive data management.
+
+Q: What is the purpose of the path module in Node.js?
+A: The path module provides utilities for working with file and directory paths, such as joining, resolving, and normalizing paths.
+
+Q: What is a callback function?
+A: A callback function is a function passed as an argument to another function, executed after the completion of an asynchronous operation.
+
+Q: What are streams in Node.js?
+A: Streams are objects that enable reading or writing data in a continuous manner, useful for handling large data volumes efficiently.
+
+Q: What is async/await in Node.js?
+A: async/await is syntactic sugar built on promises, allowing you to write asynchronous code in a more readable and synchronous-looking manner.
+
+Q: What is the purpose of process.nextTick()?
+A: process.nextTick() schedules a callback to be executed in the next iteration of the event loop, allowing you to defer execution until after the current operation completes.
+
+Q: How do you debug a Node.js application?
+A: Use the built-in Node.js debugger with the node inspect command or tools like console.log, and leverage IDE debugging features for a more interactive experience.
+
+Q: What is the difference between process.stdin and process.stdout?
+A: process.stdin is a readable stream for input, and process.stdout is a writable stream for output, used for handling command-line input and output.
+
+Q: How do you handle file operations in Node.js?
+A: Use the fs module to perform file operations such as reading, writing, and deleting files.
+
+Q: What is package-lock.json?
+A: package-lock.json is a file that records the exact versions of dependencies installed, ensuring consistent installations across environments.
+
+Q: How do you handle HTTP requests and responses in Node.js?
+A: Use the http module to create servers, and handle HTTP requests and responses through request and response objects passed to server callback functions.
+
+Q: What are process.env variables used for?
+A: process.env variables are used to store environment-specific configuration and secrets, such as database credentials and API keys.
+
+Q: What is npm run used for?
+A: npm run is used to execute scripts defined in the scripts section of the package.json file, such as build, test, and start commands.
+
+Q: How do you create a RESTful API with Node.js and Express?
+A: Use the Express framework to define routes and handle HTTP methods like GET, POST, PUT, and DELETE to create a RESTful API.
+
+Q: What is express.json() used for?
+A: express.json() is middleware in Express that parses incoming JSON request bodies and makes the data available in req.body.
+
+Q: How do you perform asynchronous operations in Node.js?
+A: Use callbacks, promises, or the async/await syntax to handle asynchronous operations and manage control flow.
+
+Q: What is the role of npm init?
+A: npm init initializes a new Node.js project, creating a package.json file with metadata and configuration options.
+
+Q: How do you install global npm packages?
+A: Use the -g flag with the npm install command to install packages globally, making them available from anywhere on the system.
+
+Q: What is a promise in Node.js?
+A: A promise is an object representing the eventual completion or failure of an asynchronous operation, allowing for chaining and handling results or errors.
+
+Q: How do you handle multiple asynchronous tasks in Node.js?
+A: Use Promise.all() or Promise.allSettled() to handle multiple asynchronous tasks concurrently and wait for all of them to complete.
+
+Q: What is process.exit() used for?
+A: process.exit() is used to terminate the Node.js process with a specified exit code, indicating success or failure.
+
+Q: How do you manage session data in Node.js applications?
+A: Use middleware like express-session to manage session data and store it in memory or external stores such as databases or Redis.
+
+Q: What is the cluster module in Node.js?
+A: The cluster module allows you to create multiple instances of a Node.js application to take advantage of multi-core systems, improving performance and scalability.
+
+Q: How do you use Node.js with databases?
+A: Use database drivers or ORM libraries (e.g., Mongoose for MongoDB, Sequelize for SQL databases) to connect and interact with databases from a Node.js application.
+
+Q: What is node_modules?
+A: node_modules is a directory where npm installs the project's dependencies, containing all the modules and packages required by the project.
+
+Q: How do you handle CORS in a Node.js application?
+A: Use the cors middleware in Express to configure and handle Cross-Origin Resource Sharing (CORS) policies for your API.
+
+Q: What is npm audit?
+A: npm audit is a command that analyzes your project's dependencies for vulnerabilities and provides security recommendations.
+
+Q: How do you use environment-specific configurations in Node.js?
+A: Use environment variables and configuration management libraries like dotenv to handle different configurations for development, testing, and production environments.
+
+Q: What is the purpose of npm cache?
+A: npm cache is used to manage and clear npm's cache, which stores downloaded packages to speed up subsequent installations.
+
+Q: How do you handle file uploads in Node.js?
+A: Use middleware like multer to handle file uploads and manage form data in Node.js applications.
+
+Q: What is npm update used for?
+A: npm update updates the packages in the node_modules directory and the package.json file to their latest compatible versions.
+
+Q: How do you set up a Node.js application for production?
+A: Use process managers like PM2 to manage application processes, configure environment variables, and set up logging, monitoring, and scaling.
+
+Q: What is node inspect used for?
+A: node inspect is used to start a debugging session for Node.js applications, allowing you to step through code and inspect variables.
+
+Q: How do you handle concurrency in Node.js?
+A: Use asynchronous operations, worker threads, or the cluster module to manage concurrent tasks and improve application performance.
+
+Q: What is node --inspect used for?
+A: node --inspect starts a Node.js process with debugging enabled, allowing you to connect debugging tools like Chrome DevTools for interactive debugging.
+
+Q: How do you handle API rate limiting in Node.js?
+A: Implement rate limiting middleware such as express-rate-limit to control the number of requests a client can make to your API within a specified time period.
+
+Q: What is pm2?
+A: pm2 is a process manager for Node.js applications that provides features like process monitoring, auto-restarts, and load balancing.
+
+Q: How do you manage configuration files in Node.js?
+A: Use configuration management libraries like config or dotenv to manage and load configuration settings from files or environment variables.
+
+Q: What is package-lock.json used for?
+A: package-lock.json ensures consistent dependency installations by recording the exact versions of installed packages and their dependencies.
+
+Q: How do you deploy a Node.js application?
+A: Deploy a Node.js application by setting up a production environment on a server, configuring process management, and using deployment tools or services.
+
+Q: What is npm link used for?
+A: npm link creates a symlink to a local package, allowing you to test changes to a package in your project without publishing it to the npm registry.
+
+Q: How do you handle JSON data in Node.js?
+A: Use the built-in JSON object to parse and stringify JSON data, and work with JSON data in requests and responses.
+
+Q: What is npm run-script?
+A: npm run-script executes scripts defined in the scripts section of the package.json file, such as build, test, or start commands.
+
+Q: How do you secure a Node.js application?
+A: Secure a Node.js application by using HTTPS, sanitizing inputs, implementing authentication and authorization, and keeping dependencies up-to-date.
+
+Q: What is the debug module in Node.js?
+A: The debug module provides a simple way to include debugging messages in your Node.js application, which can be enabled or disabled via environment variables.
+
+Q: How do you handle large data streams in Node.js?
+A: Use readable and writable streams to handle large data volumes efficiently, processing data in chunks rather than loading it all into memory.
+
+Q: What is process.env.NODE_ENV used for?
+A: process.env.NODE_ENV is used to specify the environment in which the Node.js application is running, such as development, production, or testing.
+
+Q: How do you manage multiple Node.js versions on the same machine?
+A: Use version managers like nvm (Node Version Manager) to install and switch between multiple Node.js versions on the same machine.
+
+Q: What is npm ci used for?
+A: npm ci installs dependencies from a package-lock.json file, ensuring a clean and consistent installation environment for continuous integration.
+
+Q: How do you handle authentication in Node.js applications?
+A: Implement authentication using libraries such as passport, jsonwebtoken, or OAuth to manage user authentication and authorization.
+
+Q: What is the fs-extra module?
+A: fs-extra is an extension of the built-in fs module that provides additional methods for file system operations, including recursive directory creation and file copying.
+
+Q: How do you use Node.js with WebSockets?
+A: Use the ws library or similar packages to enable WebSocket communication in Node.js, allowing real-time, full-duplex communication between the server and clients.
+
+Q: What is the role of libuv in Node.js?
+A: libuv is a C library that Node.js uses for handling asynchronous I/O operations, including file system operations, networking, and event handling.
+
+Q: How do you test Node.js applications?
+A: Use testing frameworks like Mocha, Jest, or Chai to write and run tests for Node.js applications, ensuring code quality and functionality.
+
+Q: What is node_modules/.bin?
+A: node_modules/.bin is a directory containing executable binaries for packages installed in the node_modules directory, accessible via npm scripts.
+
+Q: How do you handle multi-threading in Node.js?
+A: Use the worker_threads module to create and manage worker threads for parallel execution of tasks, overcoming Node.js's single-threaded nature.
+
+Q: What is express?
+A: express is a popular web application framework for Node.js that simplifies building and managing web servers and APIs with a wide range of middleware and routing features.
+
+Q: How do you handle file system changes in Node.js?
+A: Use the fs.watch() or fs.watchFile() methods to monitor and respond to changes in files or directories.
+
+Q: What is npm publish used for?
+A: npm publish is used to upload a package to the npm registry, making it available for other developers to install and use.
+
+Q: How do you manage application secrets in Node.js?
+A: Use environment variables or secret management services like AWS Secrets Manager or Azure Key Vault to securely manage and store application secrets.
+
+Q: What is process.env.PORT used for?
+A: process.env.PORT is used to specify the port number on which a Node.js server should listen, typically set via environment variables for flexibility.
+
+Q: How do you create a REST API in Node.js?
+A: Use the Express framework to define routes and handle HTTP methods, structuring endpoints to perform CRUD operations and return appropriate responses.
+
+Q: What is the purpose of npm install --save-dev?
+A: npm install --save-dev installs packages as development dependencies, which are only needed during the development phase and not in production.
+
+Q: How do you handle large file uploads in Node.js?
+A: Use middleware like multer with Express to handle file uploads, allowing for handling and storing large files efficiently.
+
+Q: What is nodemon?
+A: nodemon is a utility that monitors for changes in Node.js application files and automatically restarts the server, improving development efficiency.
+
+Q: How do you manage logging in Node.js applications?
+A: Use logging libraries like winston or morgan to manage logging, configure log levels, and store logs in files or external services.
+
+Q: What is node-gyp?
+A: node-gyp is a build tool used for compiling native addon modules for Node.js, which require C++ code to be compiled into binary modules.
+
+Q: How do you handle timeouts in Node.js?
+A: Use timeout options provided by HTTP server or client libraries, such as server.setTimeout() or request.setTimeout(), to manage request and response timeouts.
+
+Q: What is the url module in Node.js?
+A: The url module provides utilities for parsing and manipulating URL strings, including methods for resolving, formatting, and parsing URLs.
+
+Q: How do you manage database connections in Node.js?
+A: Use database client libraries or ORMs to manage database connections, handle connection pooling, and perform CRUD operations.
+
+Q: What is npm shrinkwrap?
+A: npm shrinkwrap creates a npm-shrinkwrap.json file that locks down the versions of dependencies, similar to package-lock.json, for consistent installations.
+
+Q: How do you handle asynchronous file operations in Node.js?
+A: Use the asynchronous methods provided by the fs module, such as fs.readFile() and fs.writeFile(), to perform non-blocking file operations.
+
+Q: What is express-session?
+A: express-session is a middleware for managing sessions in Express applications, allowing for session storage and retrieval.
+
+Q: How do you implement authorization in a Node.js application?
+A: Implement authorization by checking user roles or permissions, using middleware to restrict access to certain routes or resources based on user credentials.
+
+Q: What is the http module used for in Node.js?
+A: The http module is used to create HTTP servers and clients, handle requests and responses, and manage HTTP protocol operations.
+
+Q: How do you handle pagination in a Node.js API?
+A: Implement pagination by accepting parameters like limit and offset or page and perPage in API requests, and use them to query and return paginated data.
+
+Q: What is morgan?
+A: morgan is an HTTP request logger middleware for Node.js, used with Express to log incoming requests and their details for debugging and monitoring purposes.
+
+Q: How do you manage user authentication in a Node.js application?
+A: Use authentication libraries like passport or jsonwebtoken to implement user authentication, manage sessions, and handle secure login processes.
+
+Q: What is cross-env used for?
+A: cross-env is a package that sets environment variables across different operating systems, ensuring consistent environment variable management in npm scripts.
+
+Q: How do you perform rate limiting in a Node.js API?
+A: Use rate limiting middleware like express-rate-limit to control the number of requests a client can make to your API within a specified time frame.
+
+Q: What is node-fetch?
+A: node-fetch is a lightweight library for making HTTP requests in Node.js, providing a simple API similar to the Fetch API available in browsers.
+
+Q: How do you manage concurrency with async functions in Node.js?
+A: Use Promise.all() or Promise.allSettled() to manage multiple concurrent async functions and wait for all of them to complete.
+
+Q: What is the crypto module in Node.js?
+A: The crypto module provides cryptographic functionality, including hashing, encryption, and decryption, for securing data in Node.js applications.
+
+Q: How do you handle cross-origin requests in a Node.js application?
+A: Use the cors middleware to configure and manage Cross-Origin Resource Sharing (CORS) policies, allowing or restricting access from different origins.
+
+Q: What is pm2-runtime?
+A: pm2-runtime is a version of PM2 designed to run as a Docker container or in server environments, providing process management and monitoring capabilities.
+
+Q: How do you use fs.promises?
+A: fs.promises provides promise-based versions of file system methods, allowing for async/await usage with file operations.
+
+Q: What is body-parser?
+A: body-parser is middleware for Express that parses incoming request bodies in various formats, including JSON, URL-encoded, and raw data.
+
+Q: How do you handle application errors in Node.js?
+A: Use error-handling middleware in Express or global error handlers to catch and respond to errors, providing meaningful messages and handling different error types.
+
+Q: What is the assert module used for in Node.js?
+A: The assert module provides a set of assertion functions for writing tests and validating code conditions, helping to ensure code correctness.
+
+Q: How do you implement file uploads with streaming in Node.js?
+A: Use multiparty or formidable libraries to handle file uploads via streaming, processing files in chunks and avoiding large memory usage.
+
+Q: What is node-inspector?
+A: node-inspector is a debugging tool for Node.js that provides a graphical interface for debugging Node.js applications, though it's been replaced by built-in Node.js debugging tools.
+
+Q: How do you manage dependencies in a Node.js project?
+A: Use npm or yarn to install, update, and manage dependencies, and keep track of them in package.json and package-lock.json.
+
+Q: What is jsonwebtoken?
+A: jsonwebtoken is a library for creating and verifying JSON Web Tokens (JWTs), commonly used for handling authentication and authorization in Node.js applications.
+
+Q: How do you use the events module in Node.js?
+A: The events module allows you to work with event-driven programming by creating event emitters, listening for events, and emitting events in your application.
+
+Q: What is supertest?
+A: supertest is a testing library for HTTP assertions, often used with testing frameworks like Mocha to test API endpoints and their responses.
+
+Q: How do you handle process signals in Node.js?
+A: Use process.on('SIGTERM') or process.on('SIGINT') to handle termination signals and perform cleanup tasks before your application exits.
+
+Q: What is node-redis?
+A: node-redis is a client library for interacting with Redis, an in-memory data structure store, providing methods for connecting, querying, and managing Redis data.
+
+Q: How do you use debug for logging in Node.js applications?
+A: Use the debug module to create debugging messages that can be enabled or disabled based on environment variables, providing flexible and granular logging.
+
+Q: What is jsdoc?
+A: jsdoc is a documentation generator for JavaScript, used to create HTML documentation from comments in your code, helping to maintain and share code documentation.
+
+Q: How do you handle user sessions in a Node.js application?
+A: Use session management libraries like express-session to handle user sessions, storing session data on the server or in a database.
+
+Q: What is npx?
+A: npx is a package runner tool that comes with npm, allowing you to execute binaries from npm packages without globally installing them.
+
+Q: How do you handle asynchronous operations in Node.js?
+A: Use callbacks, promises, or async/await syntax to manage asynchronous operations, ensuring non-blocking execution and proper error handling.
+
+Q: What is webpack used for in Node.js applications?
+A: webpack is a module bundler used to bundle and optimize JavaScript files and assets for deployment, commonly used in front-end development with Node.js.
+
+Q: How do you implement file versioning in a Node.js application?
+A: Implement file versioning by appending version numbers or hashes to file names or paths, ensuring clients receive updated versions of files.
+
+Q: What is pm2?
+A: pm2 is a process manager for Node.js applications that provides features like process monitoring, automatic restarts, and load balancing.
+
+Q: How do you use nodemailer for email sending in Node.js?
+A: Use the nodemailer package to send emails by configuring transport options and creating email messages in your Node.js application.
+
+Q: What is the child_process module in Node.js?
+A: The child_process module allows you to spawn and manage child processes, enabling you to run external commands or scripts from within your Node.js application.
+
+Q: How do you perform database migrations in Node.js?
+A: Use migration tools like Knex.js or Sequelize to handle database schema changes, applying and rolling back migrations to maintain database consistency.
+
+Q: What is dotenv used for?
+A: dotenv is a module for loading environment variables from a .env file into process.env, simplifying configuration management in Node.js applications.
+
+Q: How do you use cluster for load balancing in Node.js?
+A: Use the cluster module to create multiple instances of your Node.js application, distributing incoming requests across the instances for improved performance and reliability.
+
+Q: What is request in Node.js?
+A: The request module was a popular HTTP client library for making HTTP requests, though it is now deprecated in favor of node-fetch and other modern libraries.
+
+Q: How do you handle request validation in Node.js?
+A: Use validation libraries like Joi or express-validator to validate and sanitize incoming request data, ensuring it meets specified criteria before processing.
+
+Q: What is npm audit?
+A: npm audit is a command that scans your project’s dependencies for known vulnerabilities and provides recommendations for fixing them.
+
+Q: How do you use mocha for testing Node.js applications?
+A: Install mocha as a dev dependency, write test cases using Mocha's syntax, and run tests using the mocha command to ensure code functionality and correctness.
+
+Q: What is the vm module in Node.js?
+A: The vm module allows you to execute JavaScript code within a virtual machine context, providing isolation and control over the execution environment.
+
+Q: How do you implement caching in a Node.js application?
+A: Use caching libraries like node-cache or external caching services like Redis to store and manage frequently accessed data, improving application performance.
+
+Q: What is http-proxy-middleware?
+A: http-proxy-middleware is a middleware for creating proxy servers and forwarding requests to other servers, often used in development environments to handle API requests.
+
+Q: How do you use puppeteer for web scraping in Node.js?
+A: Use puppeteer to control a headless browser, navigate web pages, and extract data by interacting with page elements and capturing screenshots or content.
+
+Q: What is npm start?
+A: npm start is a command defined in the scripts section of package.json to start your Node.js application, typically running the main file specified in the configuration.
+
+Q: How do you manage multiple environments (development, staging, production) in a Node.js application?
+A: Use environment variables to differentiate between environments and configure your application to load environment-specific settings and resources.
+
+Q: What is express-validator?
+A: express-validator is a middleware library for validating and sanitizing request data in Express applications, providing a set of validators and sanitizers for input validation.
+
+Q: How do you use async_hooks in Node.js?
+A: The async_hooks module provides a way to track asynchronous resources and their lifecycle, useful for debugging and monitoring asynchronous operations.
+
+Q: What is npm-run-all?
+A: npm-run-all is a utility for running multiple npm scripts in parallel or sequentially, simplifying complex build and development workflows.
+
+Q: How do you handle dynamic route parameters in Express?
+A: Define route parameters in Express routes using : syntax, such as /user/:id, and access them using req.params in route handlers.
+
+Q: What is helmet used for in Node.js applications?
+A: helmet is a middleware for securing Express applications by setting various HTTP headers to prevent common security vulnerabilities.
+
+Q: How do you use sequelize for ORM in Node.js?
+A: Use sequelize to define models, manage database connections, and perform CRUD operations with a relational database, providing an abstraction layer for database interactions.
+
+Q: What is babel used for in Node.js?
+A: babel is a JavaScript compiler used to convert modern JavaScript code into a format compatible with older environments, enabling the use of the latest language features.
+
+Q: How do you handle rate limiting in Express?
+A: Use middleware like express-rate-limit to set rate limits for incoming requests, controlling the number of requests allowed from a client within a specified timeframe.
+
+Q: What is eslint?
+A: eslint is a linter tool for identifying and fixing problems in JavaScript code, enforcing coding standards and improving code quality.
+
+Q: How do you handle background jobs in Node.js?
+A: Use job processing libraries like bull or agenda to manage and execute background jobs or tasks, supporting features like scheduling and retries.
+
+Q: What is chai used for in Node.js testing?
+A: chai is an assertion library used with testing frameworks like Mocha to write expressive and readable tests with various assertion styles.
+
+Q: How do you implement file uploads in an Express application?
+A: Use middleware like multer to handle file uploads in Express, providing functionality to parse incoming form data and store uploaded files.
+
+Q: What is repl in Node.js?
+A: repl stands for Read-Eval-Print Loop, and it's a Node.js module that provides an interactive environment for executing JavaScript code and evaluating expressions.
+
+Q: How do you use mongoose with MongoDB?
+A: Use mongoose to define schemas, models, and interact with MongoDB, providing a higher-level API for performing CRUD operations and managing data.
+
+Q: What is pm2-runtime?
+A: pm2-runtime is a lightweight version of pm2 designed for running Node.js applications in production environments, providing process management and monitoring capabilities.
+
+Q: How do you handle file uploads with streaming in Node.js?
+A: Use multer or formidable to handle file uploads with streaming, processing files in chunks and managing file uploads efficiently without excessive memory usage.
+
+Q: What is node-fetch?
+A: node-fetch is a lightweight library for making HTTP requests in Node.js, providing a fetch API similar to the one available in browsers.
+
+Q: How do you use node-schedule for scheduling tasks in Node.js?
+A: Use node-schedule to schedule tasks and run them at specified times or intervals, supporting features like cron-style scheduling and one-time tasks.
+
+Q: What is eslint-config-airbnb?
+A: eslint-config-airbnb is a popular ESLint configuration that enforces Airbnb's JavaScript style guide, providing a set of coding standards and rules for consistent code.
+
+Q: How do you implement authentication in an Express application?
+A: Use authentication middleware like passport or jsonwebtoken to handle user authentication, managing user sessions and protecting routes with authentication checks.

@@ -1,0 +1,647 @@
+Q: What does HTML stand for?
+A: HTML stands for HyperText Markup Language.
+
+Q: What is the purpose of HTML?
+A: HTML is used to create and structure content on the web, including text, images, links, and other elements.
+
+Q: What is an HTML tag?
+A: An HTML tag is a keyword enclosed in angle brackets that defines the structure and content of a webpage.
+
+Q: What is the basic structure of an HTML document?
+A: The basic structure includes <!DOCTYPE html>, <html>, <head>, <title>, and <body> tags.
+
+Q: How do you define a heading in HTML?
+A: Headings are defined using the <h1> to <h6> tags, with <h1> being the largest and <h6> the smallest.
+
+Q: How do you create a paragraph in HTML?
+A: A paragraph is created using the <p> tag.
+
+Q: What tag is used to create a link in HTML?
+A: The <a> tag is used to create a link.
+
+Q: How do you create a hyperlink to an external website?
+A: Use the <a> tag with the href attribute, e.g., <a href="https://www.example.com">Example</a>.
+
+Q: What attribute is used to specify the destination of a link?
+A: The href attribute is used to specify the destination.
+
+Q: How do you add an image to an HTML page?
+A: Use the <img> tag with the src attribute, e.g., <img src="image.jpg" alt="Description">.
+
+Q: What does the alt attribute do in an image tag?
+A: The alt attribute provides alternative text for the image if it cannot be displayed.
+
+Q: What tag is used to create an unordered list?
+A: The <ul> tag is used to create an unordered list, and list items are defined with the <li> tag.
+
+Q: How do you create an ordered list in HTML?
+A: Use the <ol> tag for an ordered list, with list items defined by the <li> tag.
+
+Q: What is the purpose of the <div> tag in HTML?
+A: The <div> tag is used as a container for grouping and styling elements using CSS.
+
+Q: How do you create a table in HTML?
+A: Use the <table> tag, with <tr> for rows, <th> for headers, and <td> for data cells.
+
+Q: What is the difference between <th> and <td> tags?
+A: <th> defines table headers and is bold and centered by default, while <td> defines table data cells.
+
+Q: How do you create a form in HTML?
+A: Use the <form> tag, with various input elements like <input>, <textarea>, and <button>.
+
+Q: What attribute is used to specify the form action?
+A: The action attribute specifies the URL where form data should be sent.
+
+Q: What is the purpose of the method attribute in a form?
+A: The method attribute specifies the HTTP method (GET or POST) used to send form data.
+
+Q: How do you create a text input field in HTML?
+A: Use the <input> tag with the type="text" attribute, e.g., <input type="text" name="username">.
+
+Q: What is the purpose of the <button> tag?
+A: The <button> tag creates a clickable button that can submit forms or trigger JavaScript functions.
+
+Q: How do you create a checkbox input in HTML?
+A: Use the <input> tag with the type="checkbox" attribute, e.g., <input type="checkbox" name="accept">.
+
+Q: What tag is used to define a drop-down list?
+A: The <select> tag is used to create a drop-down list, with options defined by the <option> tag.
+
+Q: How do you define a radio button in HTML?
+A: Use the <input> tag with the type="radio" attribute, e.g., <input type="radio" name="gender" value="male">.
+
+Q: What does the <meta> tag do in the <head> section?
+A: The <meta> tag provides metadata about the HTML document, such as character encoding and viewport settings.
+
+Q: How do you include an external CSS file in an HTML document?
+A: Use the <link> tag with the rel="stylesheet" attribute, e.g., <link rel="stylesheet" href="styles.css">.
+
+Q: What is the purpose of the <script> tag in HTML?
+A: The <script> tag is used to include JavaScript code or link to an external JavaScript file.
+
+Q: How do you add a comment in HTML?
+A: HTML comments are added using <!-- comment -->.
+
+Q: What is the <iframe> tag used for?
+A: The <iframe> tag is used to embed another HTML document within the current page.
+
+Q: How do you specify the dimensions of an image in HTML?
+A: Use the width and height attributes in the <img> tag, e.g., <img src="image.jpg" width="200" height="100">.
+
+Q: What is the purpose of the <title> tag?
+A: The <title> tag defines the title of the HTML document, which appears in the browser's title bar or tab.
+
+Q: How do you create a line break in HTML?
+A: Use the <br> tag to insert a line break.
+
+Q: What is the difference between the <strong> and <b> tags?
+A: <strong> indicates that the text is of strong importance, while <b> simply bolds the text without implying importance.
+
+Q: How do you create a horizontal line in HTML?
+A: Use the <hr> tag to create a horizontal line.
+
+Q: What is the <header> tag used for?
+A: The <header> tag defines a header for a document or section, typically containing introductory content or navigation.
+
+Q: How do you define a section in an HTML document?
+A: Use the <section> tag to define a section of content within a document.
+
+Q: What is the purpose of the <footer> tag?
+A: The <footer> tag defines a footer for a document or section, usually containing contact information or copyright details.
+
+Q: How do you specify a character encoding in HTML?
+A: Use the <meta> tag with the charset attribute, e.g., <meta charset="UTF-8">.
+
+Q: What is the <nav> tag used for?
+A: The <nav> tag is used to define a navigation section, typically containing links to other pages or sections.
+
+Q: How do you create a form control with a label?
+A: Use the <label> tag and associate it with an input element using the for attribute, e.g., <label for="username">Username:</label><input type="text" id="username">.
+
+Q: What is the <aside> tag used for?
+A: The <aside> tag defines content that is tangentially related to the main content, such as sidebars or pull quotes.
+
+Q: How do you create a list item within an unordered list?
+A: Use the <li> tag inside a <ul> tag, e.g., <ul><li>Item 1</li><li>Item 2</li></ul>.
+
+Q: What does the href attribute do?
+A: The href attribute specifies the URL of the page or resource that a link points to.
+
+Q: How do you define an inline frame?
+A: Use the <iframe> tag, e.g., <iframe src="https://www.example.com" width="600" height="400"></iframe>.
+
+Q: What is the purpose of the <blockquote> tag?
+A: The <blockquote> tag is used to indicate a block of text that is a quotation from another source.
+
+Q: How do you create a dropdown menu in HTML?
+A: Use the <select> tag with <option> tags inside it, e.g., <select><option>Option 1</option><option>Option 2</option></select>.
+
+Q: What does the <code> tag represent?
+A: The <code> tag is used to display a single line of code or programming-related text.
+
+Q: How do you specify a default value for an input field?
+A: Use the value attribute in the <input> tag, e.g., <input type="text" value="Default text">.
+
+Q: What is the <small> tag used for?
+A: The <small> tag is used to define text that is smaller than the surrounding text, often for fine print or disclaimers.
+
+Q: How do you add a tooltip to an HTML element?
+A: Use the title attribute, e.g., <button title="Click me">Button</button>.
+
+Q: What does the <bdi> tag do?
+A: The <bdi> (Bi-Directional Isolation) tag isolates a part of text to prevent it from affecting the surrounding text in terms of directionality.
+
+Q: What is the purpose of the <bdo> tag?
+A: The <bdo> (Bi-Directional Override) tag overrides the text direction for a specific portion of text.
+
+Q: How do you create a form for file uploads?
+A: Use the <input> tag with type="file" inside a <form> tag, e.g., <form action="/upload" method="post" enctype="multipart/form-data"><input type="file" name="file"><input type="submit" value="Upload"></form>.
+
+Q: What does the enctype attribute in a form specify?
+A: The enctype attribute specifies how the form data should be encoded when submitting to the server.
+
+Q: How do you make a list item appear as a list in HTML?
+A: Use the <li> tag inside either a <ul> for unordered lists or <ol> for ordered lists.
+
+Q: What is the <main> tag used for?
+A: The <main> tag is used to encapsulate the main content of a document, excluding headers, footers, and sidebars.
+
+Q: How do you create a navigation menu in HTML?
+A: Use the <nav> tag and include a list of links, e.g., <nav><ul><li><a href="#home">Home</a></li><li><a href="#about">About</a></li></ul></nav>.
+
+Q: What is the purpose of the <canvas> tag?
+A: The <canvas> tag is used to draw graphics on the fly via JavaScript, such as charts or animations.
+
+Q: How do you set up a table header in HTML?
+A: Use the <th> tag inside a <tr> tag within a <table>, e.g., <table><tr><th>Header</th></tr></table>.
+
+Q: What does the target attribute in a link specify?
+A: The target attribute specifies where to open the linked document, such as _blank to open in a new tab.
+
+Q: How do you create a clickable button in HTML?
+A: Use the <button> tag, e.g., <button type="button">Click Me</button>.
+
+Q: What is the purpose of the <fieldset> tag in forms?
+A: The <fieldset> tag groups related elements within a form, typically with a <legend> tag to describe the group.
+
+Q: How do you include a video in an HTML page?
+A: Use the <video> tag with the src attribute or nested <source> tags, e.g., <video src="video.mp4" controls></video>.
+
+Q: What is the purpose of the <source> tag in a video or audio element?
+A: The <source> tag specifies multiple media resources for the <video> or <audio> elements to ensure compatibility.
+
+Q: How do you specify a fallback text for an image if it cannot be loaded?
+A: Use the alt attribute in the <img> tag, e.g., <img src="image.jpg" alt="Fallback text">.
+
+Q: What is the <object> tag used for?
+A: The <object> tag is used to embed various types of media, such as images, videos, or other documents.
+
+Q: How do you create a table row in HTML?
+A: Use the <tr> tag within a <table>, e.g., <table><tr><td>Data</td></tr></table>.
+
+Q: What does the colspan attribute do in a table?
+A: The colspan attribute in a <td> or <th> tag specifies the number of columns a cell should span.
+
+Q: What does the rowspan attribute do in a table?
+A: The rowspan attribute in a <td> or <th> tag specifies the number of rows a cell should span.
+
+Q: How do you define a section for navigation links?
+A: Use the <nav> tag to create a section for navigation links.
+
+Q: What is the <details> tag used for?
+A: The <details> tag creates a disclosure widget from which the user can obtain additional information or controls.
+
+Q: How do you create a summary for a <details> element?
+A: Use the <summary> tag inside the <details> tag to provide a summary or heading.
+
+Q: What is the <data> tag used for?
+A: The <data> tag links a piece of content with a machine-readable value.
+
+Q: How do you make an element editable in HTML?
+A: Use the contenteditable attribute, e.g., <div contenteditable="true">Editable content</div>.
+
+Q: What is the <abbr> tag used for?
+A: The <abbr> tag is used to represent an abbreviation or acronym and can include a title attribute to specify the full term.
+
+Q: How do you create a line of code within a paragraph?
+A: Use the <code> tag, e.g., <p>Use the <code>printf</code> function.</p>.
+
+Q: What is the purpose of the <mark> tag?
+A: The <mark> tag highlights text, typically used to denote important or relevant information.
+
+Q: How do you create a block of code in HTML?
+A: Use the <pre> tag to preserve formatting and include <code> for the actual code, e.g., <pre><code>Code here</code></pre>.
+
+Q: What is the <samp> tag used for?
+A: The <samp> tag is used to display sample output from a computer program.
+
+Q: How do you specify a character set in HTML?
+A: Use the <meta> tag with the charset attribute, e.g., <meta charset="UTF-8">.
+
+Q: What is the purpose of the <figcaption> tag?
+A: The <figcaption> tag provides a caption or description for a <figure> element.
+
+Q: How do you define a self-contained piece of content with an optional caption?
+A: Use the <figure> tag with an optional <figcaption> tag.
+
+Q: What is the <time> tag used for?
+A: The <time> tag represents a specific period in time, such as a date or time of day.
+
+Q: How do you create a list of items with a description for each item?
+A: Use the <dl> (description list) tag, with <dt> for the term and <dd> for the description.
+
+Q: What is the <address> tag used for?
+A: The <address> tag is used to provide contact information for the author or owner of a document or section.
+
+Q: How do you specify a default option in a drop-down list?
+A: Use the selected attribute in the <option> tag, e.g., <option selected>Default Option</option>.
+
+Q: What does the disabled attribute do for form elements?
+A: The disabled attribute makes the form element unmodifiable and unclickable.
+
+Q: What is the purpose of the readonly attribute in input fields?
+A: The readonly attribute allows users to view but not modify the value of an input field.
+
+Q: How do you create a navigation menu with horizontal links?
+A: Use inline or block styling with CSS to arrange <a> tags horizontally within a container.
+
+Q: What is the <output> tag used for?
+A: The <output> tag is used to represent the result of a calculation or user action.
+
+Q: How do you include an external JavaScript file in HTML?
+A: Use the <script> tag with the src attribute, e.g., <script src="script.js"></script>.
+
+Q: What is the <progress> tag used for?
+A: The <progress> tag represents the progress of a task or operation.
+
+Q: How do you specify the value and maximum for a progress bar?
+A: Use the value attribute to set the current progress and max attribute to set the maximum value, e.g., <progress value="50" max="100"></progress>.
+
+Q: What does the autocomplete attribute do in form inputs?
+A: The autocomplete attribute specifies whether the browser should automatically complete the input field based on previous entries.
+
+Q: How do you create a button that submits a form?
+A: Use the <button> tag with the type="submit" attribute, e.g., <button type="submit">Submit</button>.
+
+Q: What is the <section> tag used for?
+A: The <section> tag defines a section of content, typically with a heading.
+
+Q: How do you specify a date input field in a form?
+A: Use the <input> tag with type="date", e.g., <input type="date" name="birthday">.
+
+Q: What is the <summary> tag used for within a <details> element?
+A: The <summary> tag provides a summary or heading for the content within the <details> element.
+
+Q: How do you add an external stylesheet to an HTML document?
+A: Use the <link> tag with the rel="stylesheet" attribute to link to an external CSS file.
+
+Q: What is the <video> tag used for in HTML?
+A: The <video> tag is used to embed video content within an HTML document.
+
+Q: How do you create a drop-down menu in HTML?
+A: Use the <select> tag with <option> tags to create a drop-down menu.
+
+Q: What is the purpose of the action attribute in a form?
+A: The action attribute specifies the URL to which the form data should be submitted.
+
+Q: How do you define a form with multiple input types?
+A: Use the <form> tag with various <input> types inside it, such as text, email, password, etc.
+
+Q: What does the method attribute in a form specify?
+A: The method attribute specifies the HTTP method (GET or POST) to be used when submitting the form.
+
+Q: How do you create a form with a text area?
+A: Use the <textarea> tag inside a <form>, e.g., <form><textarea name="message"></textarea></form>.
+
+Q: What is the <iframe> tag used for?
+A: The <iframe> tag is used to embed another HTML document within the current document.
+
+Q: How do you set a default checked state for a checkbox?
+A: Use the checked attribute in the <input> tag with type="checkbox", e.g., <input type="checkbox" checked>.
+
+Q: What is the <kbd> tag used for?
+A: The <kbd> tag represents user input, such as keyboard commands or shortcuts.
+
+Q: How do you create a form with a radio button group?
+A: Use the <input> tag with type="radio" and the same name attribute for the group, e.g., <input type="radio" name="gender" value="male">Male<input type="radio" name="gender" value="female">Female.
+
+Q: What is the <blockquote> tag used for?
+A: The <blockquote> tag is used to indicate a block of text that is a quotation from another source.
+
+Q: How do you create a hidden input field in a form?
+A: Use the <input> tag with type="hidden", e.g., <input type="hidden" name="token" value="abc123">.
+
+Q: What does the href attribute in a link specify?
+A: The href attribute specifies the URL of the page the link goes to.
+
+Q: How do you include an external CSS file in an HTML document?
+A: Use the <link> tag in the <head> section with rel="stylesheet" and href attributes.
+
+Q: What is the purpose of the value attribute in a form input?
+A: The value attribute specifies the initial value of the form input.
+
+Q: How do you create a form with a submit button?
+A: Use the <input> tag with type="submit", e.g., <input type="submit" value="Submit">.
+
+Q: What is the <nav> tag used for?
+A: The <nav> tag is used to define a section of navigation links.
+
+Q: How do you create an ordered list in HTML?
+A: Use the <ol> tag and include <li> tags for each item.
+
+Q: What does the method attribute in a form determine?
+A: The method attribute determines how the form data should be sent to the server (GET or POST).
+
+Q: How do you create an unordered list in HTML?
+A: Use the <ul> tag and include <li> tags for each item.
+
+Q: What is the purpose of the rel attribute in a link?
+A: The rel attribute specifies the relationship between the current document and the linked document.
+
+Q: How do you create a hyperlink in HTML?
+A: Use the <a> tag with the href attribute to define the link URL, e.g., <a href="https://www.example.com">Visit Example</a>.
+
+Q: What does the type attribute specify in a form input?
+A: The type attribute specifies the type of input, such as text, password, or email.
+
+Q: How do you make a link open in a new tab?
+A: Use the target="_blank" attribute in the <a> tag, e.g., <a href="https://www.example.com" target="_blank">Open in New Tab</a>.
+
+Q: What is the <aside> tag used for?
+A: The <aside> tag is used to represent content that is tangentially related to the content around it.
+
+Q: How do you create a section with a heading?
+A: Use the <section> tag with a heading tag, e.g., <section><h1>Heading</h1><p>Content</p></section>.
+
+Q: What is the <header> tag used for?
+A: The <header> tag represents introductory content or navigational links for its nearest ancestor section.
+
+Q: How do you specify a caption for an image?
+A: Use the <figcaption> tag inside a <figure> element.
+
+Q: What is the <footer> tag used for?
+A: The <footer> tag represents the footer of a document or section, typically containing metadata or contact information.
+
+Q: How do you include an audio file in an HTML page?
+A: Use the <audio> tag with the src attribute or nested <source> tags, e.g., <audio src="audio.mp3" controls></audio>.
+
+Q: What is the <template> tag used for?
+A: The <template> tag is used to declare fragments of HTML that can be cloned and inserted into the document by JavaScript.
+
+Q: How do you create a form with a password input field?
+A: Use the <input> tag with type="password", e.g., <input type="password" name="password">.
+
+Q: What is the <span> tag used for?
+A: The <span> tag is used to group inline elements for styling or scripting purposes.
+
+Q: How do you specify a link to an external stylesheet?
+A: Use the <link> tag with rel="stylesheet" and href attributes in the <head> section, e.g., <link rel="stylesheet" href="styles.css">.
+
+Q: What does the action attribute do in a form?
+A: The action attribute specifies the URL where the form data should be sent when submitted.
+
+Q: How do you create a drop-down list with multiple options?
+A: Use the <select> tag with multiple <option> tags inside, e.g., <select><option>Option 1</option><option>Option 2</option></select>.
+
+Q: What is the <input> tag used for in HTML forms?
+A: The <input> tag is used to create various types of input fields, such as text, password, or radio buttons.
+
+Q: How do you create a form with a text input field?
+A: Use the <input> tag with type="text", e.g., <input type="text" name="name">.
+
+Q: What does the required attribute do for form inputs?
+A: The required attribute specifies that the input field must be filled out before submitting the form.
+
+Q: How do you create a form with a number input field?
+A: Use the <input> tag with type="number", e.g., <input type="number" name="quantity">.
+
+Q: What is the <cite> tag used for?
+A: The <cite> tag is used to reference the title of a creative work, such as a book or film.
+
+Q: How do you specify an email input field in a form?
+A: Use the <input> tag with type="email", e.g., <input type="email" name="email">.
+
+Q: What does the placeholder attribute do in a text input?
+A: The placeholder attribute provides a hint or example of what to enter in the input field.
+
+Q: How do you create a form with a date picker?
+A: Use the <input> tag with type="date", e.g., <input type="date" name="date">.
+
+Q: What is the <address> tag used for?
+A: The <address> tag is used to provide contact information for the author or owner of a document.
+
+Q: How do you add a border around an image?
+A: Use CSS with the border property, e.g., <img src="image.jpg" style="border: 1px solid black;">.
+
+Q: What is the <strong> tag used for?
+A: The <strong> tag is used to indicate strong importance, typically rendering text in bold.
+
+Q: How do you specify a URL for an anchor link?
+A: Use the href attribute in the <a> tag, e.g., <a href="https://www.example.com">Link</a>.
+
+Q: What is the <code> tag used for?
+A: The <code> tag is used to display a single line of code or a short piece of programming text.
+
+Q: How do you create a list with nested items?
+A: Use nested <ul> or <ol> tags within <li> tags, e.g., <ul><li>Item 1<ul><li>Subitem 1</li></ul></li></ul>.
+
+Q: What does the checked attribute do for checkboxes?
+A: The checked attribute specifies that a checkbox should be selected by default.
+
+Q: How do you add a background color to a section of text?
+A: Use CSS with the background-color property, e.g., <div style="background-color: yellow;">Text with background color</div>.
+
+Q: What is the <input> tag used for in HTML forms?
+A: The <input> tag is used to create various types of input fields, such as text, password, email, etc.
+
+Q: How do you create a button in HTML?
+A: Use the <button> tag, e.g., <button>Click Me</button>. You can also use the <input> tag with type="button".
+
+Q: What is the <del> tag used for?
+A: The <del> tag is used to indicate text that has been deleted from a document.
+
+Q: How do you specify a background image in CSS?
+A: Use the background-image property in CSS, e.g., background-image: url('image.jpg');.
+
+Q: What is the <small> tag used for?
+A: The <small> tag is used to render text in a smaller font size, typically for fine print.
+
+Q: How do you create a form with a file upload field?
+A: Use the <input> tag with type="file", e.g., <input type="file" name="file">.
+
+Q: What is the <mark> tag used for?
+A: The <mark> tag is used to highlight parts of text, typically rendering it with a yellow background.
+
+Q: How do you create a form with a hidden input field?
+A: Use the <input> tag with type="hidden", e.g., <input type="hidden" name="hiddenField" value="hiddenValue">.
+
+Q: What does the action attribute specify in a form?
+A: The action attribute specifies the URL where the form data should be sent when the form is submitted.
+
+Q: How do you specify a default value for a text input field?
+A: Use the value attribute in the <input> tag, e.g., <input type="text" name="username" value="DefaultUsername">.
+
+Q: What is the <s> tag used for?
+A: The <s> tag is used to represent text that is no longer accurate or relevant, typically rendering it with a strikethrough.
+
+Q: How do you create a form with a range input?
+A: Use the <input> tag with type="range", e.g., <input type="range" name="volume" min="0" max="100">.
+
+Q: What is the <progress> tag used for?
+A: The <progress> tag is used to represent the progress of a task, typically displayed as a progress bar.
+
+Q: How do you create a form with a checkbox?
+A: Use the <input> tag with type="checkbox", e.g., <input type="checkbox" name="subscribe">Subscribe.
+
+Q: What is the <meta> tag used for in the <head> section?
+A: The <meta> tag provides metadata about the HTML document, such as character encoding, viewport settings, and author information.
+
+Q: How do you create a form with a number input field?
+A: Use the <input> tag with type="number", e.g., <input type="number" name="quantity">.
+
+Q: What does the method attribute in a form determine?
+A: The method attribute determines how the form data is sent to the server, either through GET or POST methods.
+
+Q: How do you create a form with a submit button?
+A: Use the <input> tag with type="submit", e.g., <input type="submit" value="Submit">.
+
+Q: What is the <figcaption> tag used for?
+A: The <figcaption> tag provides a caption or legend for the content of a <figure> element.
+
+Q: How do you specify a link to an external JavaScript file?
+A: Use the <script> tag with the src attribute, e.g., <script src="script.js"></script>.
+
+Q: What is the <label> tag used for in HTML forms?
+A: The <label> tag is used to define labels for form elements, improving accessibility and usability.
+
+Q: How do you create a form with a radio button group?
+A: Use the <input> tag with type="radio" and the same name attribute for the group, e.g., <input type="radio" name="gender" value="male">Male<input type="radio" name="gender" value="female">Female.
+
+Q: What does the alt attribute do for images?
+A: The alt attribute provides alternative text for an image, which is displayed if the image cannot be loaded.
+
+Q: How do you create a form with a text input field?
+A: Use the <input> tag with type="text", e.g., <input type="text" name="name">.
+
+Q: What is the <style> tag used for in HTML?
+A: The <style> tag is used to include internal CSS styles within an HTML document.
+
+Q: How do you specify a default value for a select dropdown?
+A: Use the selected attribute in the <option> tag, e.g., <option value="default" selected>Default</option>.
+
+Q: What is the <time> tag used for in HTML?
+A: The <time> tag is used to represent a specific period in time, including dates and times.
+
+Q: How do you include a favicon in an HTML document?
+A: Use the <link> tag with rel="icon" and href attributes in the <head> section, e.g., <link rel="icon" href="favicon.ico">.
+
+Q: What is the <address> tag used for in HTML?
+A: The <address> tag provides contact information for the author or owner of a document.
+
+Q: How do you specify an image source in HTML?
+A: Use the src attribute in the <img> tag, e.g., <img src="image.jpg" alt="Description">.
+
+Q: What is the <strong> tag used for?
+A: The <strong> tag is used to indicate strong importance, typically rendering text in bold.
+
+Q: How do you create a form with a submit button?
+A: Use the <input> tag with type="submit", e.g., <input type="submit" value="Submit">.
+
+Q: What is the <b> tag used for?
+A: The <b> tag is used to make text bold without implying any added importance, unlike <strong>.
+
+Q: How do you create a hyperlink in HTML?
+A: Use the <a> tag with the href attribute to define the link URL, e.g., <a href="https://www.example.com">Link</a>.
+
+Q: What does the type attribute specify in a form input?
+A: The type attribute specifies the type of input, such as text, password, or email.
+
+Q: How do you create a form with a date input field?
+A: Use the <input> tag with type="date", e.g., <input type="date" name="date">.
+
+Q: What is the <button> tag used for?
+A: The <button> tag is used to create a clickable button in an HTML document.
+
+Q: How do you create an HTML element with an id attribute?
+A: Use the id attribute in the HTML tag, e.g., <div id="uniqueID">Content</div>.
+
+Q: What does the placeholder attribute do in a text input?
+A: The placeholder attribute provides a hint or example of what to enter in the input field.
+
+Q: How do you create a form with a checkbox input?
+A: Use the <input> tag with type="checkbox", e.g., <input type="checkbox" name="subscribe">Subscribe.
+
+Q: What is the <dl> tag used for in HTML?
+A: The <dl> tag is used to define a description list, with <dt> for terms and <dd> for definitions.
+
+Q: How do you specify an email input field in a form?
+A: Use the <input> tag with type="email", e.g., <input type="email" name="email">.
+
+Q: What is the <abbr> tag used for?
+A: The <abbr> tag is used to define an abbreviation or acronym, with an optional title attribute to provide the full form.
+
+Q: How do you create a form with a number input field?
+A: Use the <input> tag with type="number", e.g., <input type="number" name="quantity">.
+
+Q: What is the <pre> tag used for?
+A: The <pre> tag is used to display preformatted text with preserved whitespace and line breaks.
+
+Q: How do you create a form with a range input?
+A: Use the <input> tag with type="range", e.g., <input type="range" name="volume" min="0" max="100">.
+
+Q: What is the <object> tag used for?
+A: The <object> tag is used to embed external resources like images, videos, or interactive content.
+
+Q: How do you specify a default value for a select dropdown?
+A: Use the selected attribute in the <option> tag, e.g., <option value="default" selected>Default</option>.
+
+Q: What is the <sub> tag used for in HTML?
+A: The <sub> tag is used to display text as subscript.
+
+Q: How do you create a form with a file upload field?
+A: Use the <input> tag with type="file", e.g., <input type="file" name="file">.
+
+Q: What is the <summary> tag used for?
+A: The <summary> tag is used as a heading for a <details> element, which can be expanded or collapsed.
+
+Q: How do you create a form with a password input field?
+A: Use the <input> tag with type="password", e.g., <input type="password" name="password">.
+
+Q: What is the <bdi> tag used for in HTML?
+A: The <bdi> tag is used to isolate a span of text that might be formatted differently from the surrounding text, preventing it from affecting the surrounding content's directionality.
+
+Q: How do you specify a link to a stylesheet in HTML?
+A: Use the <link> tag with rel="stylesheet" and href attributes in the <head> section, e.g., <link rel="stylesheet" href="styles.css">.
+
+Q: What is the <code> tag used for?
+A: The <code> tag is used to display a single line of code or a piece of computer code.
+
+Q: How do you create a form with a telephone input field?
+A: Use the <input> tag with type="tel", e.g., <input type="tel" name="phone">.
+
+Q: What is the <cite> tag used for in HTML?
+A: The <cite> tag is used to reference the title of a work, such as a book, article, or website.
+
+Q: How do you create a form with a submit button?
+A: Use the <input> tag with type="submit", e.g., <input type="submit" value="Submit">.
+
+Q: What is the <hr> tag used for in HTML?
+A: The <hr> tag is used to create a thematic break or horizontal rule in the document.
+
+Q: How do you specify a background color in CSS?
+A: Use the background-color property, e.g., background-color: #f0f0f0;.
+
+Q: What is the <input> tag used for in HTML forms?
+A: The <input> tag is used to create interactive fields in a form, such as text fields, checkboxes, and radio buttons.
+
+Q: How do you create a form with a date input field?
+A: Use the <input> tag with type="date", e.g., <input type="date" name="date">.
+
+Q: What is the <blockquote> tag used for?
+A: The <blockquote> tag is used to indicate a block of text that is a quotation from another source, typically with indentation.
+
+Q: How do you create a form with a time input field?
+A: Use the <input> tag with type="time", e.g., <input type="time" name="appointment">.
+
+Q: What is the <wbr> tag used for in HTML?
+A: The <wbr> tag is used to suggest an optional line break within text, typically for long words or URLs.
