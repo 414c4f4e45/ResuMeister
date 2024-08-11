@@ -1,0 +1,299 @@
+Q: What is Object-Oriented Programming (OOP)?
+
+A: OOP is a programming paradigm based on the concept of objects, which can contain data in the form of fields and code in the form of methods.
+Q: What are the four basic principles of OOP?
+
+A: The four basic principles are Encapsulation, Abstraction, Inheritance, and Polymorphism.
+Q: What is a class in OOP?
+
+A: A class is a blueprint or template that defines the properties (attributes) and behaviors (methods) that objects created from the class can have.
+Q: What is an object in OOP?
+
+A: An object is an instance of a class. It represents an entity with a state and behavior as defined by its class.
+Q: What is encapsulation in OOP?
+
+A: Encapsulation is the concept of bundling the data (attributes) and the methods that operate on the data into a single unit, typically a class, and restricting access to some of the object's components.
+Q: What is abstraction in OOP?
+
+A: Abstraction is the process of hiding the complex implementation details and showing only the essential features of an object.
+Q: What is inheritance in OOP?
+
+A: Inheritance is a mechanism where a new class, called a subclass, is derived from an existing class, called a superclass, and inherits its properties and behaviors.
+Q: What is polymorphism in OOP?
+
+A: Polymorphism allows objects of different classes to be treated as objects of a common super class. It also allows the same method to behave differently based on the object that invokes it.
+Q: What is a constructor in OOP?
+
+A: A constructor is a special method in a class that is automatically called when an object of the class is created. It is used to initialize the object’s properties.
+Q: What is a destructor in OOP?
+
+A: A destructor is a special method in a class that is called automatically when an object is destroyed. It is used to perform cleanup tasks.
+Q: What is method overloading in OOP?
+
+A: Method overloading is the ability to define multiple methods with the same name in a class, but with different parameters.
+Q: What is method overriding in OOP?
+
+A: Method overriding occurs when a subclass provides a specific implementation of a method that is already defined in its superclass.
+Q: What is a virtual function in OOP?
+
+A: A virtual function is a function in a base class that can be overridden in derived classes. It is used to achieve runtime polymorphism.
+Q: What is an abstract class in OOP?
+
+A: An abstract class is a class that cannot be instantiated on its own and is designed to be subclassed. It can contain abstract methods, which must be implemented by subclasses.
+Q: What is an interface in OOP?
+
+A: An interface is a contract that defines a set of methods that implementing classes must provide. It only contains method signatures and no implementation.
+Q: What is multiple inheritance in OOP?
+
+A: Multiple inheritance is the ability of a class to inherit from more than one base class. Not all OOP languages support this due to potential complexities.
+Q: What is a mixin in OOP?
+
+A: A mixin is a class that provides methods to other classes but is not intended to stand on its own. It is used to add functionality to multiple classes.
+Q: What is composition in OOP?
+
+A: Composition is a design principle where a class is composed of one or more objects from other classes, allowing for complex types by combining objects.
+Q: What is aggregation in OOP?
+
+A: Aggregation is a type of association where one class is a part of another class but can exist independently. It represents a "has-a" relationship.
+Q: What is the difference between composition and aggregation?
+
+A: In composition, the lifecycle of the contained objects is dependent on the container object, while in aggregation, the contained objects can exist independently of the container.
+Q: What is a singleton class in OOP?
+
+A: A singleton class is a class that restricts the instantiation of its objects to one single instance. It is used to manage global state or resources.
+Q: What is a static method in OOP?
+
+A: A static method belongs to the class rather than any object instance and can be called without creating an object of the class.
+Q: What is a static variable in OOP?
+
+A: A static variable is shared among all instances of a class and retains its value across all instances.
+Q: What is dynamic binding in OOP?
+
+A: Dynamic binding is the process of linking a procedure call to the code that will execute only at runtime, allowing for more flexible and extensible code.
+Q: What is the difference between early binding and late binding?
+
+A: Early binding (static binding) occurs at compile-time, while late binding (dynamic binding) occurs at runtime, allowing for polymorphism.
+Q: What is the role of super keyword in OOP?
+
+A: The super keyword is used to refer to the immediate parent class object and is commonly used to access superclass methods and constructors.
+Q: What is a friend function in OOP?
+
+A: A friend function is a function that is not a member of a class but has access to its private and protected members. It is declared using the friend keyword.
+Q: What is a friend class in OOP?
+
+A: A friend class is a class that has access to the private and protected members of another class. It is declared using the friend keyword.
+Q: What is operator overloading in OOP?
+
+A: Operator overloading allows operators to be redefined and used in different ways, depending on their operands, by overloading them in a class.
+Q: What is a copy constructor in OOP?
+
+A: A copy constructor is a constructor that initializes an object using another object of the same class, creating a copy of the original object.
+Q: What is the difference between deep copy and shallow copy in OOP?
+
+A: A shallow copy copies an object’s references but not the objects they point to, while a deep copy creates copies of the objects pointed to by the original.
+Q: What is a virtual destructor in OOP?
+
+A: A virtual destructor ensures that when an object is deleted through a base class pointer, the destructor of the derived class is invoked, preventing memory leaks.
+Q: What is a pure virtual function?
+
+A: A pure virtual function is a function with no implementation that must be overridden by derived classes, making the class abstract.
+Q: What is multiple dispatch in OOP?
+
+A: Multiple dispatch is a feature where a function or method call is dispatched based on the runtime types of more than one of its arguments.
+Q: What is the difference between association and dependency in OOP?
+
+A: Association represents a relationship between two classes where one uses the other, while dependency is a weaker relationship where one class depends on the other for its behavior.
+Q: What is method hiding in OOP?
+
+A: Method hiding occurs when a method in a subclass has the same name as a method in its superclass but does not override it, effectively hiding the superclass method.
+Q: What is an abstract method in OOP?
+
+A: An abstract method is a method declared in an abstract class or interface that has no implementation and must be implemented by subclasses.
+Q: What is the difference between an abstract class and an interface?
+
+A: An abstract class can have implemented methods and member variables, while an interface can only have method signatures (no implementations) and constants.
+Q: What is a sealed class in OOP?
+
+A: A sealed class is a class that cannot be inherited by any other class. This is used to prevent further subclassing.
+Q: What is method resolution order (MRO) in OOP?
+
+A: Method resolution order is the order in which methods are inherited in the presence of multiple inheritance. It determines the method to be called when a method is invoked.
+Q: What is a virtual table (vtable) in OOP?
+
+A: A virtual table is a mechanism used by the compiler to support dynamic dispatch in languages like C++. It stores addresses of virtual functions and is used to resolve function calls at runtime.
+Q: What is a virtual pointer (vptr) in OOP?
+
+A: A virtual pointer is a pointer in an object that points to its class's virtual table. It is used to resolve virtual function calls at runtime.
+Q: What is delegation in OOP?
+
+A: Delegation is a technique where an object handles a request by passing it to a second "delegate" object, which provides the required behavior.
+Q: What is a proxy in OOP?
+
+A: A proxy is an object that acts as an intermediary for another object, controlling access to it, which can be used for various purposes like lazy initialization, access control, or logging.
+Q: What is the law of Demeter in OOP?
+
+A: The law of Demeter is a design guideline that suggests objects should only interact with their immediate "friends" and not deeply nested objects or objects returned by other methods.
+Q: What is an anti-pattern in OOP?
+
+A: An anti-pattern is a common but ineffective and counterproductive solution to a recurring problem, often leading to poor code quality or maintainability.
+Q: What is the difference between == and equals() in OOP?
+
+A: == checks for reference equality, meaning whether two references point to the same object, while equals() checks for value equality, comparing the actual content of objects.
+Q: What is duck typing in OOP?
+
+A: Duck typing is a concept where the type of an object is determined by its behavior (methods and properties) rather than its class. If it quacks like a duck, it's treated as a duck.
+Q: What is a factory method in OOP?
+
+A: A factory method is a design pattern that provides an interface for creating objects, but allows subclasses to alter the type of objects that will be created.
+Q: What is the singleton pattern?
+
+A: The singleton pattern ensures that a class has only one instance and provides a global point of access to it.
+Q: What is a facade in OOP?
+
+A: A facade is a design pattern that provides a simplified interface to a complex subsystem, making it easier to use.
+Q: What is the adapter pattern in OOP?
+
+A: The adapter pattern allows incompatible interfaces to work together by acting as a bridge between them.
+Q: What is the observer pattern in OOP?
+
+A: The observer pattern defines a one-to-many dependency between objects, where when one object changes state, all its dependents are notified and updated automatically.
+Q: What is the strategy pattern in OOP?
+
+A: The strategy pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. It allows the algorithm to vary independently from the clients that use it.
+Q: What is the state pattern in OOP?
+
+A: The state pattern allows an object to change its behavior when its internal state changes, appearing to change its class.
+Q: What is the command pattern in OOP?
+
+A: The command pattern encapsulates a request as an object, allowing for parameterization of clients with queues, requests, and operations.
+Q: What is the chain of responsibility pattern in OOP?
+
+A: The chain of responsibility pattern passes a request along a chain of handlers. Each handler decides either to process the request or pass it on to the next handler in the chain.
+Q: What is the iterator pattern in OOP?
+
+A: The iterator pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+Q: What is the composite pattern in OOP?
+
+A: The composite pattern allows individual objects and compositions of objects to be treated uniformly, typically by using a tree structure to represent part-whole hierarchies.
+Q: What is the decorator pattern in OOP?
+
+A: The decorator pattern allows behavior to be added to an individual object, dynamically, without affecting the behavior of other objects from the same class.
+Q: What is the mediator pattern in OOP?
+
+A: The mediator pattern defines an object that encapsulates how a set of objects interact. It promotes loose coupling by preventing objects from referring to each other explicitly.
+Q: What is the visitor pattern in OOP?
+
+A: The visitor pattern lets you separate algorithms from the objects on which they operate by allowing you to add further operations to classes without having to modify them.
+Q: What is a flyweight pattern in OOP?
+
+A: The flyweight pattern is used to minimize memory usage by sharing as much data as possible with similar objects. It is often used with large numbers of similar objects.
+Q: What is the memento pattern in OOP?
+
+A: The memento pattern provides the ability to restore an object to its previous state by storing and retrieving its internal state, often used for undo operations.
+Q: What is the template method pattern in OOP?
+
+A: The template method pattern defines the skeleton of an algorithm in the superclass but lets subclasses override specific steps of the algorithm without changing its structure.
+Q: What is the builder pattern in OOP?
+
+A: The builder pattern allows for the construction of complex objects step by step, separating the construction process from the representation.
+Q: What is the bridge pattern in OOP?
+
+A: The bridge pattern decouples an abstraction from its implementation so that the two can vary independently, providing flexibility and reducing code complexity.
+Q: What is the prototype pattern in OOP?
+
+A: The prototype pattern creates new objects by cloning an existing object, used when the cost of creating a new object is expensive.
+Q: What is the null object pattern in OOP?
+
+A: The null object pattern provides an object that implements the expected interface but does nothing. It is used to avoid null references.
+Q: What is a data access object (DAO) pattern in OOP?
+
+A: The DAO pattern provides an abstract interface to some type of database or other persistence mechanism, separating the persistence logic from the business logic.
+Q: What is tight coupling in OOP?
+
+A: Tight coupling occurs when classes or modules are highly dependent on each other, making changes difficult and reducing flexibility.
+Q: What is loose coupling in OOP?
+
+A: Loose coupling occurs when classes or modules are designed to be independent of each other, promoting flexibility and ease of maintenance.
+Q: What is cohesion in OOP?
+
+A: Cohesion refers to how closely related and focused the responsibilities of a single module or class are. High cohesion is generally preferred as it improves readability and maintainability.
+Q: What is the DRY principle in OOP?
+
+A: The DRY (Don't Repeat Yourself) principle advocates for reducing repetition of code by abstracting common functionality, which improves maintainability.
+Q: What is the SOLID principle in OOP?
+
+A: The SOLID principles are a set of design principles aimed at making software designs more understandable, flexible, and maintainable. They include: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion.
+Q: What is the Single Responsibility Principle (SRP)?
+
+A: SRP states that a class should have only one reason to change, meaning it should only have one job or responsibility.
+Q: What is the Open/Closed Principle (OCP)?
+
+A: OCP states that software entities should be open for extension but closed for modification, meaning you should be able to add new functionality without changing existing code.
+Q: What is the Liskov Substitution Principle (LSP)?
+
+A: LSP states that objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
+Q: What is the Interface Segregation Principle (ISP)?
+
+A: ISP states that a class should not be forced to implement interfaces it does not use. Instead, smaller, more specific interfaces should be created.
+Q: What is the Dependency Inversion Principle (DIP)?
+
+A: DIP states that high-level modules should not depend on low-level modules. Both should depend on abstractions, and abstractions should not depend on details.
+Q: What is the difference between a class and a struct in OOP?
+
+A: In languages like C++ and C#, a class is a reference type while a struct is a value type. Classes support inheritance, whereas structs typically do not.
+Q: What is a namespace in OOP?
+
+A: A namespace is a container that holds a set of identifiers (names) and allows the organization of code elements and the prevention of name conflicts in larger programs.
+Q: What is the role of a package in OOP?
+
+A: A package is a namespace that organizes classes and interfaces in a logical manner, typically used in Java to group related classes.
+Q: What is reflection in OOP?
+
+A: Reflection is the ability of a program to examine and modify its own structure and behavior at runtime, often used for tasks like inspecting classes, methods, and properties.
+Q: What is late binding in OOP?
+
+A: Late binding refers to the runtime resolution of method calls, where the method to be invoked is determined at runtime based on the object's type.
+Q: What is the difference between compile-time polymorphism and runtime polymorphism in OOP?
+
+A: Compile-time polymorphism (also known as static polymorphism) is achieved through method overloading or operator overloading, where the method to be executed is determined at compile-time. Runtime polymorphism (also known as dynamic polymorphism) is achieved through method overriding, where the method to be executed is determined at runtime.
+Q: What is encapsulation in OOP?
+
+A: Encapsulation is the practice of wrapping data and methods that operate on the data within a single unit or class, and restricting access to some of the object's components.
+Q: What is abstraction in OOP?
+
+A: Abstraction is the concept of hiding the complex implementation details and showing only the essential features of the object.
+Q: What is the difference between an abstract class and an interface in OOP?
+
+A: An abstract class can have both abstract methods (without implementation) and concrete methods (with implementation), while an interface can only have abstract methods (though some languages now allow default implementations). A class can implement multiple interfaces but can inherit from only one abstract class.
+Q: What is the difference between aggregation and composition in OOP?
+
+A: Both are forms of association, but aggregation implies a relationship where the child can exist independently of the parent (a "has-a" relationship), while composition implies a relationship where the child cannot exist independently of the parent (a "part-of" relationship).
+Q: What is method overloading in OOP?
+
+A: Method overloading is a feature that allows a class to have multiple methods with the same name but different parameters (type or number of parameters).
+Q: What is method overriding in OOP?
+
+A: Method overriding allows a subclass to provide a specific implementation of a method that is already defined in its superclass, enabling runtime polymorphism.
+Q: What is a virtual function in OOP?
+
+A: A virtual function is a function in a base class that is declared using the keyword virtual and is meant to be overridden in derived classes. It enables polymorphism.
+Q: What is a pure virtual function in OOP?
+
+A: A pure virtual function is a virtual function that has no implementation in the base class and must be overridden in derived classes. It is declared by assigning = 0 at the end of the function declaration.
+Q: What is a destructor in OOP?
+
+A: A destructor is a special member function of a class that is executed when an object of the class is destroyed. It is used to free resources that were acquired by the object during its lifetime.
+Q: What is operator overloading in OOP?
+
+A: Operator overloading is a feature that allows existing operators to be redefined and used with user-defined types, providing the ability to perform operations on objects as if they were primitive data types.
+Q: What is a final class in OOP?
+
+A: A final class is a class that cannot be inherited. In Java, it is declared using the keyword final.
+Q: What is the difference between a shallow copy and a deep copy in OOP?
+
+A: A shallow copy creates a new object but does not create copies of objects that are referenced by the original object, whereas a deep copy creates a new object and also recursively copies all objects referenced by the original object.
+Q: What is an interface in OOP?
+
+A: An interface is a reference type in OOP that defines a set of abstract methods that a class must implement. It is a way to achieve abstraction and multiple inheritance.
+Q: What is inheritance in OOP?
+- A: Inheritance is an OOP concept where a new class, called a subclass, is created from an existing class, called a superclass. The subclass inherits attributes and methods from the superclass and can also add its own attributes and methods.
