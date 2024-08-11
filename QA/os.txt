@@ -1,0 +1,299 @@
+Q: What is an operating system (OS)?
+
+A: An operating system is system software that manages computer hardware and software resources and provides common services for computer programs.
+Q: What are the main functions of an OS?
+
+A: The main functions include process management, memory management, file system management, device management, and security.
+Q: What is a process?
+
+A: A process is a program in execution, consisting of the program code, current activity, and the process's resources.
+Q: What is multitasking?
+
+A: Multitasking is the ability of an OS to execute multiple processes simultaneously by sharing CPU time.
+Q: What is a kernel?
+
+A: The kernel is the core part of the OS that manages system resources and communication between hardware and software components.
+Q: What is the difference between a monolithic kernel and a microkernel?
+
+A: A monolithic kernel includes all OS services in one large block of code running in a single address space, while a microkernel only includes essential services, with other services running in user space.
+Q: What is process scheduling?
+
+A: Process scheduling is the OS activity that decides which process runs at a given time to optimize CPU usage.
+Q: What is a thread?
+
+A: A thread is the smallest unit of CPU execution within a process, allowing parallel execution within the same process.
+Q: What are the different states of a process?
+
+A: The different states include new, ready, running, waiting, and terminated.
+Q: What is a context switch?
+
+A: A context switch is the process of saving the state of a currently running process and restoring the state of the next process to run.
+Q: What is deadlock?
+
+A: Deadlock is a situation where a set of processes are blocked because each process is waiting for a resource held by another process in the set.
+Q: What are the conditions for deadlock?
+
+A: The conditions include mutual exclusion, hold and wait, no preemption, and circular wait.
+Q: What is memory management?
+
+A: Memory management is the functionality of an OS that handles the allocation and deallocation of memory to processes.
+Q: What is virtual memory?
+
+A: Virtual memory is a memory management technique that gives an application the impression it has contiguous working memory while actually using physical memory fragments.
+Q: What is paging?
+
+A: Paging is a memory management scheme that eliminates the need for contiguous allocation of physical memory, dividing memory into fixed-size pages.
+Q: What is segmentation?
+
+A: Segmentation is a memory management technique that divides the memory into variable-sized segments based on the logical divisions of a program.
+Q: What is a page fault?
+
+A: A page fault occurs when a program tries to access a page not currently mapped to the physical memory, requiring the OS to fetch the page from disk.
+Q: What is a file system?
+
+A: A file system organizes and stores files on storage devices, providing a way to manage data and metadata.
+Q: What are the different types of file systems?
+
+A: Types include FAT, NTFS, ext, HFS, APFS, and more, each with unique features and supported by different OSes.
+Q: What is a device driver?
+
+A: A device driver is software that allows the OS to communicate with hardware devices.
+Q: What is a system call?
+
+A: A system call is a programmed request to the OS to perform a task that the process does not have the direct permission to execute.
+Q: What is a shell?
+
+A: A shell is a command-line interface that allows users to interact with the OS by entering commands.
+Q: What is a GUI?
+
+A: A GUI (Graphical User Interface) provides a visual interface with graphical elements like windows, icons, and menus for users to interact with the OS.
+Q: What is an interrupt?
+
+A: An interrupt is a signal to the CPU indicating an event that needs immediate attention, pausing the current processes to handle the event.
+Q: What is a real-time operating system (RTOS)?
+
+A: An RTOS is an OS designed to serve real-time applications that process data as it comes in, typically with strict timing constraints.
+Q: What is a bootloader?
+
+A: A bootloader is a small program that loads the OS into memory when the computer starts up.
+Q: What is the difference between user mode and kernel mode?
+
+A: User mode is a restricted mode for running application software, while kernel mode has full access to system resources for executing OS code.
+Q: What is the purpose of an OS's security management?
+
+A: Security management protects system resources from unauthorized access and threats, ensuring data integrity and privacy.
+Q: What is a hypervisor?
+
+A: A hypervisor is software that creates and manages virtual machines, allowing multiple OSes to run on a single physical machine.
+Q: What is load balancing?
+
+A: Load balancing distributes workloads across multiple computing resources to optimize resource use, improve performance, and avoid overload.
+Q: What is a distributed operating system?
+
+A: A distributed OS manages a group of distinct computers and makes them appear to be a single computer, providing a unified interface.
+Q: What is a mutex?
+
+A: A mutex is a synchronization primitive used to ensure that only one thread can access a resource at a time.
+Q: What is a semaphore?
+
+A: A semaphore is a synchronization primitive that controls access to a resource by multiple threads, using signaling mechanisms.
+Q: What is a critical section?
+
+A: A critical section is a segment of code that accesses shared resources and must not be executed by more than one thread at a time.
+Q: What is a race condition?
+
+A: A race condition occurs when multiple threads or processes access shared resources concurrently, leading to unexpected and erroneous behavior.
+Q: What is process synchronization?
+
+A: Process synchronization is the coordination of processes to ensure correct sequence and data consistency when accessing shared resources.
+Q: What is a context switch?
+
+A: A context switch is the process of storing the state of a process or thread so that it can be resumed later, allowing the OS to switch to another process or thread.
+Q: What is demand paging?
+
+A: Demand paging loads pages into memory only when they are needed, reducing memory usage and improving efficiency.
+Q: What is a zombie process?
+
+A: A zombie process is a terminated process that has completed execution but still has an entry in the process table, awaiting the parent process to read its exit status.
+Q: What is an orphan process?
+
+A: An orphan process is a child process whose parent process has terminated, typically adopted by the init process in Unix-like systems.
+Q: What is process starvation?
+
+A: Process starvation occurs when a process is perpetually denied necessary resources to proceed, often due to other higher-priority processes.
+Q: What is aging in process scheduling?
+
+A: Aging is a technique used to gradually increase the priority of a process that waits in the ready queue for a long time, helping to prevent starvation.
+Q: What is the difference between preemptive and non-preemptive scheduling?
+
+A: Preemptive scheduling allows the OS to interrupt and switch out a running process, while non-preemptive scheduling allows a process to run until it completes or voluntarily yields control.
+Q: What is the purpose of a process control block (PCB)?
+
+A: A PCB is a data structure that stores information about a process, including its state, program counter, CPU registers, memory limits, and I/O status.
+Q: What is the difference between swapping and paging?
+
+A: Swapping involves moving entire processes between main memory and disk, while paging involves moving fixed-size pages of a process between main memory and disk.
+Q: What is a scheduler?
+
+A: A scheduler is an OS component responsible for deciding which process or thread to execute next based on scheduling algorithms.
+Q: What is a time slice in CPU scheduling?
+
+A: A time slice is the fixed amount of CPU time allocated to a process or thread in round-robin scheduling.
+Q: What is inter-process communication (IPC)?
+
+A: IPC is a set of mechanisms for processes to communicate and synchronize their actions, including pipes, message queues, shared memory, and semaphores.
+Q: What is a pipe in IPC?
+
+A: A pipe is a unidirectional communication channel used to pass information from one process to another.
+Q: What is a system daemon?
+
+A: A system daemon is a background process that runs continuously, performing tasks like managing system resources or handling requests.
+Q: What is the difference between a hard link and a soft link in a file system?
+
+A: A hard link is a direct reference to the file's inode, making it indistinguishable from the original file, while a soft link is a symbolic pointer to another file's location.
+Q: What is a journaling file system?
+
+A: A journaling file system logs changes before they are made, ensuring data integrity and quicker recovery after a crash.
+Q: What is a swap space?
+
+A: Swap space is a reserved area on disk used to extend physical memory by temporarily holding inactive pages from main memory.
+Q: What is the difference between a 32-bit and a 64-bit OS?
+
+A: A 32-bit OS can address up to 4GB of memory, while a 64-bit OS can address significantly more, supporting larger amounts of RAM and more efficient processing.
+Q: What is a virtual machine?
+
+A: A virtual machine is a software emulation of a physical computer that runs an OS and applications as if it were a real machine.
+Q: What is a boot sequence?
+
+A: A boot sequence is the series of steps a computer takes to load the OS, starting from powering on to loading the kernel and starting system services.
+Q: What is the difference between FAT32 and NTFS file systems?
+
+A: FAT32 is an older, simpler file system with a maximum file size of 4GB, while NTFS supports larger files, better security, and more advanced features.
+Q: What is the purpose of an OS's file permissions?
+
+A: File permissions control who can read, write, or execute a file, helping to maintain security and data integrity.
+Q: What is the difference between absolute and relative pathnames?
+
+A: An absolute pathname specifies a file's location from the root directory, while a relative pathname specifies a file's location relative to the current directory.
+Q: What is a device queue?
+
+A: A device queue is a list of I/O requests waiting to be processed by a device, managed by the OS to optimize access.
+Q: What is the purpose of a spooler?
+
+A: A spooler manages print jobs by queuing them for processing, allowing multiple print requests to be handled efficiently.
+Q: What is a virtual address?
+
+A: A virtual address is an address in a process's address space that is mapped to a physical address in memory by the OS.
+Q: What is a buffer?
+
+A: A buffer is a temporary storage area in memory used to hold data while it is being transferred between two devices or processes.
+Q: What is a system log?
+
+A: A system log is a record of events, errors, and messages generated by the OS and applications, useful for troubleshooting and monitoring system health.
+Q: What is a superuser?
+
+A: A superuser is a user account with unrestricted access to all commands and resources on the system, often referred to as root in Unix-like systems.
+Q: What is the difference between a command interpreter and a compiler?
+
+A: A command interpreter, or shell, executes commands entered by the user, while a compiler translates high-level code into machine code that can be executed by the CPU.
+Q: What is a disk partition?
+
+A: A disk partition is a division of a hard disk into separate sections that can be managed independently, each potentially containing its own file system.
+Q: What is thrashing?
+
+A: Thrashing occurs when a system spends more time swapping pages in and out of memory than executing processes, severely degrading performance.
+Q: What is the purpose of a task manager?
+
+A: A task manager provides information about running processes, CPU and memory usage, and allows users to manage tasks, including terminating unresponsive processes.
+Q: What is a memory leak?
+
+A: A memory leak occurs when a program consumes memory without releasing it, leading to decreased available memory and potentially causing system slowdowns or crashes.
+Q: What is a hybrid OS?
+
+A: A hybrid OS combines elements of both monolithic and microkernel architectures to balance performance and modularity.
+Q: What is a command-line interface (CLI)?
+
+A: A CLI allows users to interact with the OS by typing text commands, offering more control and flexibility compared to GUIs.
+Q: What is a batch processing system?
+
+A: A batch processing system executes a series of programs (jobs) without user interaction, typically used for large-scale repetitive tasks.
+Q: What is a soft real-time system?
+
+A: A soft real-time system provides timing guarantees but allows for occasional deadline misses, unlike hard real-time systems where deadlines must always be met.
+Q: What is the difference between symmetric and asymmetric multiprocessing?
+
+A: In symmetric multiprocessing, each processor runs an identical copy of the OS and shares memory, while in asymmetric multiprocessing, each processor is assigned specific tasks by a master processor.
+Q: What is a system call interface (SCI)?
+
+A: An SCI provides a set of functions that user applications can call to request services from the OS, such as file operations and process management.
+Q: What is the difference between internal and external fragmentation?
+
+A: Internal fragmentation occurs when allocated memory blocks have unused space, while external fragmentation occurs when free memory is divided into small, non-contiguous blocks.
+Q: What is a process's priority?
+
+A: A process's priority determines the order in which it is scheduled for execution, with higher-priority processes generally running before lower-priority ones.
+Q: What is the purpose of a bootloader?
+
+A: A bootloader is responsible for loading the OS into memory and starting the boot process when a computer is powered on.
+Q: What is a dual-mode operation in OS?
+
+A: Dual-mode operation refers to the ability of an OS to operate in both user mode and kernel mode, protecting critical system functions from being executed by user applications.
+Q: What is a buffer overflow?
+
+A: A buffer overflow occurs when a program writes more data to a buffer than it can hold, potentially leading to crashes or security vulnerabilities.
+Q: What is a memory-mapped file?
+
+A: A memory-mapped file is a file that is mapped into the virtual address space of a process, allowing it to be accessed like an array in memory.
+Q: What is the difference between a soft and hard reboot?
+
+A: A soft reboot restarts the OS without resetting the hardware, while a hard reboot involves a full system restart, including hardware initialization.
+Q: What is the difference between foreground and background processes?
+
+A: Foreground processes run interactively with user input and output, while background processes run without user interaction, often performing tasks in the background.
+Q: What is an I/O scheduler?
+
+A: An I/O scheduler determines the order in which I/O requests are processed to optimize performance and reduce wait times.
+Q: What is a watchdog timer?
+
+A: A watchdog timer is a hardware or software timer that triggers a system reset or recovery action if the system becomes unresponsive.
+Q: What is the purpose of a page table?
+
+A: A page table maps virtual addresses to physical addresses in memory, enabling the OS to manage memory allocation and translation.
+Q: What is a system call?
+
+A: A system call is a request made by a process to the OS for performing tasks that the process does not have the privilege to execute, such as file operations or memory allocation.
+Q: What is process forking?
+
+A: Process forking is the creation of a new process by duplicating an existing one, commonly used in Unix-like systems to create child processes.
+Q: What is a hotfix?
+
+A: A hotfix is a small software update released to fix a specific issue or vulnerability without requiring a full software update.
+Q: What is a device driver?
+
+A: A device driver is software that allows the OS to communicate with hardware devices, providing an interface between the hardware and the higher-level software.
+Q: What is the difference between time-sharing and real-time systems?
+
+A: Time-sharing systems allow multiple users to share system resources by rapidly switching between them, while real-time systems are designed to process data and respond to events within strict time constraints.
+Q: What is a stack overflow?
+
+A: A stack overflow occurs when a program uses more stack memory than is allocated, leading to program crashes or unpredictable behavior.
+Q: What is a command shell?
+
+A: A command shell is an interface that allows users to interact with the OS by entering commands, such as Bash or PowerShell.
+Q: What is a pipe in OS?
+
+A: A pipe is a method of passing data from one process to another in a unidirectional flow, often used in command-line interfaces for chaining commands.
+Q: What is a context switch?
+
+A: A context switch is the process of saving the state of a currently running process and loading the state of the next process to be executed by the CPU.
+Q: What is a system interrupt?
+
+A: A system interrupt is a signal that causes the CPU to pause its current task and execute a function, such as handling input from a keyboard or mouse.
+Q: What is a dual-boot system?
+
+A: A dual-boot system allows a computer to run two different operating systems, providing a choice at startup of which OS to load.
+Q: What is an OS kernel?
+
+A: The OS kernel is the core component of the operating system, responsible for managing system resources, handling communication between hardware and software, and enforcing security.
+Q: What is an interprocess communication (IPC)?
+A: Interprocess communication (IPC) is a mechanism that allows processes to communicate and share data with each other, using methods like message passing, shared memory, or semaphores.

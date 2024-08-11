@@ -1,0 +1,410 @@
+Q: What is a data structure?
+A: A data structure is a specialized format for organizing and storing data in a computer so that it can be accessed and modified efficiently.
+
+Q: What is an algorithm?
+A: An algorithm is a step-by-step procedure or formula for solving a problem or performing a task.
+
+Q: What is the difference between an array and a linked list?
+A: An array is a collection of elements stored in contiguous memory locations, providing fast access to elements but with a fixed size. A linked list is a collection of nodes where each node points to the next, allowing for dynamic size but slower access.
+
+Q: What is a stack?
+A: A stack is a linear data structure that follows the Last In First Out (LIFO) principle, where the last element added is the first one to be removed.
+
+Q: What operations can be performed on a stack?
+A: Common operations on a stack include push (add an element), pop (remove an element), peek (view the top element), and isEmpty (check if the stack is empty).
+
+Q: What is a queue?
+A: A queue is a linear data structure that follows the First In First Out (FIFO) principle, where the first element added is the first one to be removed.
+
+Q: What operations can be performed on a queue?
+A: Common operations on a queue include enqueue (add an element), dequeue (remove an element), front (view the front element), and isEmpty (check if the queue is empty).
+
+Q: What is a linked list?
+A: A linked list is a linear data structure consisting of a sequence of elements, called nodes, where each node contains a value and a reference to the next node.
+
+Q: What are the types of linked lists?
+A: The types of linked lists are singly linked lists, doubly linked lists, and circular linked lists.
+
+Q: What is a binary tree?
+A: A binary tree is a hierarchical data structure where each node has at most two children, referred to as the left child and the right child.
+
+Q: What is the difference between a binary tree and a binary search tree (BST)?
+A: In a binary tree, there are no specific rules about the arrangement of nodes. In a binary search tree (BST), the left child of a node contains values less than the node's value, and the right child contains values greater than the node's value.
+
+Q: What is a heap?
+A: A heap is a specialized binary tree-based data structure that satisfies the heap property. In a max heap, each parent node's value is greater than or equal to its children's values, while in a min heap, each parent node's value is less than or equal to its children's values.
+
+Q: What is a graph?
+A: A graph is a data structure consisting of a set of nodes (vertices) connected by edges. Graphs can be directed or undirected, weighted or unweighted.
+
+Q: What is a directed graph?
+A: A directed graph (or digraph) is a graph where edges have a direction, indicating a one-way relationship from one vertex to another.
+
+Q: What is an undirected graph?
+A: An undirected graph is a graph where edges have no direction, indicating a two-way relationship between vertices.
+
+Q: What is a weighted graph?
+A: A weighted graph is a graph in which edges have weights or costs associated with them, representing the value or distance between connected vertices.
+
+Q: What is an unweighted graph?
+A: An unweighted graph is a graph where edges do not have weights or costs; all edges are considered equal.
+
+Q: What is a depth-first search (DFS)?
+A: Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures by exploring as far as possible along each branch before backtracking.
+
+Q: What is a breadth-first search (BFS)?
+A: Breadth-first search (BFS) is an algorithm for traversing or searching tree or graph data structures by exploring all neighbors at the present depth level before moving on to nodes at the next depth level.
+
+Q: What is a hash table?
+A: A hash table is a data structure that stores key-value pairs and uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.
+
+Q: What is a hash function?
+A: A hash function is a function that converts input data (keys) into a fixed-size numerical value (hash code) used for indexing in a hash table.
+
+Q: What is collision resolution in a hash table?
+A: Collision resolution is the process of handling situations where two keys hash to the same index in a hash table. Techniques include chaining (using linked lists) and open addressing (probing for alternative slots).
+
+Q: What is a binary search?
+A: Binary search is an efficient algorithm for finding an item from a sorted list of items by repeatedly dividing the search interval in half.
+
+Q: What is the time complexity of binary search?
+A: The time complexity of binary search is O(log n), where n is the number of elements in the list.
+
+Q: What is the difference between a stack and a queue?
+A: A stack follows the Last In First Out (LIFO) principle, while a queue follows the First In First Out (FIFO) principle.
+
+Q: What is a circular queue?
+A: A circular queue is a queue in which the last position is connected to the first position to form a circle, allowing for efficient use of space.
+
+Q: What is the purpose of a priority queue?
+A: A priority queue is a type of queue where elements are dequeued based on priority rather than the order they were enqueued.
+
+Q: What is a doubly linked list?
+A: A doubly linked list is a linked list where each node has references to both the next and previous nodes, allowing for traversal in both directions.
+
+Q: What is a singly linked list?
+A: A singly linked list is a linked list where each node has a reference to the next node, allowing for traversal in one direction only.
+
+Q: What is a circular linked list?
+A: A circular linked list is a linked list where the last node points back to the first node, forming a circle.
+
+Q: What is a depth-first search (DFS) algorithm?
+A: Depth-first search (DFS) is an algorithm that explores as far as possible along each branch before backtracking.
+
+Q: What is a breadth-first search (BFS) algorithm?
+A: Breadth-first search (BFS) is an algorithm that explores all nodes at the present depth level before moving on to nodes at the next depth level.
+
+Q: What is the purpose of dynamic programming?
+A: Dynamic programming is a technique for solving problems by breaking them down into simpler subproblems and storing the results of these subproblems to avoid redundant calculations.
+
+Q: What is a memoization technique in dynamic programming?
+A: Memoization is a technique where previously computed results are stored to avoid redundant calculations in dynamic programming.
+
+Q: What is the purpose of divide and conquer strategy?
+A: Divide and conquer is a strategy for solving problems by breaking them down into smaller subproblems, solving each subproblem independently, and combining their solutions to solve the original problem.
+
+Q: What is the quicksort algorithm?
+A: Quicksort is a divide and conquer algorithm that sorts elements by partitioning the array into smaller subarrays, recursively sorting the subarrays, and then combining the results.
+
+Q: What is the merge sort algorithm?
+A: Merge sort is a divide and conquer algorithm that divides the array into halves, recursively sorts each half, and then merges the sorted halves to produce the final sorted array.
+
+Q: What is the heap sort algorithm?
+A: Heap sort is a comparison-based sorting algorithm that uses a binary heap data structure to sort elements. It involves building a max heap, extracting the maximum element, and then rebuilding the heap.
+
+Q: What is the purpose of backtracking?
+A: Backtracking is a technique for solving problems by trying out different solutions and undoing (backtracking) when a solution fails to meet the problem's requirements.
+
+Q: What is a graph traversal?
+A: Graph traversal is the process of visiting all nodes in a graph systematically. Common methods include depth-first search (DFS) and breadth-first search (BFS).
+
+Q: What is a shortest path algorithm?
+A: A shortest path algorithm is used to find the shortest path between nodes in a graph. Examples include Dijkstra's algorithm and the Bellman-Ford algorithm.
+
+Q: What is Dijkstra's algorithm?
+A: Dijkstra's algorithm is a shortest path algorithm that finds the shortest path from a source node to all other nodes in a weighted graph with non-negative edge weights.
+
+Q: What is the Bellman-Ford algorithm?
+A: The Bellman-Ford algorithm is a shortest path algorithm that can handle graphs with negative edge weights and detects negative weight cycles.
+
+Q: What is the difference between linear and non-linear data structures?
+A: Linear data structures, like arrays and linked lists, have elements arranged in a sequential manner. Non-linear data structures, like trees and graphs, have elements arranged hierarchically or in more complex relationships.
+
+Q: What is a red-black tree?
+A: A red-black tree is a balanced binary search tree with additional properties that ensure the tree remains balanced, providing O(log n) time complexity for insertions, deletions, and lookups.
+
+Q: What is an AVL tree?
+A: An AVL tree is a self-balancing binary search tree where the difference in heights between the left and right subtrees (the balance factor) is at most one for every node.
+
+Q: What is a trie (prefix tree)?
+A: A trie, or prefix tree, is a tree-like data structure used to store a dynamic set of strings where common prefixes are stored only once, facilitating efficient retrieval.
+
+Q: What is a hash map?
+A: A hash map is a data structure that stores key-value pairs and uses a hash function to map keys to indices in an underlying array, providing efficient access and retrieval.
+
+Q: What is a hash set?
+A: A hash set is a data structure that stores unique elements using a hash table, providing efficient operations for adding, removing, and checking the presence of elements.
+
+Q: What is big-O notation?
+A: Big-O notation is a mathematical notation used to describe the upper bound of an algorithm's time or space complexity, indicating how the runtime or memory usage grows relative to the input size.
+
+Q: What is space complexity?
+A: Space complexity is a measure of the amount of memory an algorithm uses relative to the input size.
+
+Q: What is time complexity?
+A: Time complexity is a measure of the amount of time an algorithm takes to complete relative to the input size.
+
+Q: What is bubble sort?
+A: Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
+
+Q: What is selection sort?
+A: Selection sort is a sorting algorithm that repeatedly selects the smallest (or largest) element from the unsorted portion of the list and moves it to the end of the sorted portion.
+
+Q: What is insertion sort?
+A: Insertion sort is a sorting algorithm that builds the final sorted list one item at a time by repeatedly inserting the next item into its correct position in the already sorted part of the list.
+
+Q: What is counting sort?
+A: Counting sort is a non-comparison-based sorting algorithm that counts the occurrences of each distinct element in the input and uses this count to determine the position of each element in the sorted output.
+
+Q: What is radix sort?
+A: Radix sort is a non-comparison-based sorting algorithm that sorts numbers by processing individual digits, starting from the least significant digit to the most significant digit.
+
+Q: What is bucket sort?
+A: Bucket sort is a sorting algorithm that divides the input into a number of buckets, sorts each bucket individually, and then concatenates the sorted buckets to produce the final sorted list.
+
+Q: What is topological sorting in a graph?
+A: Topological sorting is an ordering of the vertices in a directed acyclic graph (DAG) such that for every directed edge (u, v), vertex u comes before vertex v in the ordering.
+
+Q: What is a Kruskal's algorithm?
+A: Kruskal's algorithm is a minimum spanning tree algorithm that finds an edge subset that connects all vertices with the minimum total edge weight and no cycles.
+
+Q: What is Prim's algorithm?
+A: Prim's algorithm is a minimum spanning tree algorithm that grows the spanning tree one edge at a time by adding the smallest edge that connects a vertex in the tree to a vertex outside the tree.
+
+Q: What is the difference between a binary tree and a binary search tree (BST)?
+A: A binary tree has no specific ordering of nodes, while a binary search tree (BST) has an ordering property where the left child of a node contains values less than the node's value, and the right child contains values greater than the node's value.
+
+Q: What is Eulerian path in a graph?
+A: An Eulerian path is a trail in a graph that visits every edge exactly once. If such a path exists, the graph is said to have an Eulerian path.
+
+Q: What is Eulerian circuit in a graph?
+A: An Eulerian circuit is a cycle that visits every edge exactly once and returns to the starting vertex. A graph with an Eulerian circuit is said to have an Eulerian circuit.
+
+Q: What is a Hamiltonian path?
+A: A Hamiltonian path is a path in a graph that visits each vertex exactly once. If such a path exists, the graph is said to have a Hamiltonian path.
+
+Q: What is a Hamiltonian cycle?
+A: A Hamiltonian cycle is a cycle that visits each vertex exactly once and returns to the starting vertex. A graph with a Hamiltonian cycle is said to have a Hamiltonian cycle.
+
+Q: What is dynamic programming?
+A: Dynamic programming is a method for solving complex problems by breaking them down into simpler subproblems and solving each subproblem just once, storing the results for future use.
+
+Q: What is memoization?
+A: Memoization is a technique used in dynamic programming to store the results of expensive function calls and reuse them when the same inputs occur again.
+
+Q: What is the difference between quicksort and merge sort?
+A: Quicksort is an in-place, divide-and-conquer sorting algorithm that has an average time complexity of O(n log n) and performs well with large datasets. Merge sort is a stable, divide-and-conquer sorting algorithm with a time complexity of O(n log n) and requires additional space for merging.
+
+Q: What is binary search?
+A: Binary search is an efficient algorithm for finding a target value within a sorted array by repeatedly dividing the search interval in half.
+
+Q: What is heap in data structures?
+A: A heap is a specialized binary tree-based data structure that satisfies the heap property, which ensures that the key at a parent node is either greater than or equal to (max heap) or less than or equal to (min heap) the keys of its children.
+
+Q: What is backtracking?
+A: Backtracking is a general algorithm for finding solutions by exploring possible solutions and abandoning those that fail to satisfy the problem constraints.
+
+Q: What is graph coloring?
+A: Graph coloring is the assignment of colors to vertices of a graph such that no two adjacent vertices share the same color. The goal is often to minimize the number of colors used.
+
+Q: What is greedy algorithm?
+A: A greedy algorithm is an algorithmic paradigm that makes a sequence of choices, each of which looks best at the moment, with the hope of finding the optimal overall solution.
+
+Q: What is A* search algorithm?
+A: The A* search algorithm is a pathfinding and graph traversal algorithm that uses a heuristic to efficiently find the shortest path between nodes, combining the best features of Dijkstra's algorithm and greedy best-first search.
+
+Q: What is Bellman-Ford algorithm?
+A: The Bellman-Ford algorithm is a shortest path algorithm that can handle graphs with negative edge weights and detect negative weight cycles.
+
+Q: What is Dijkstra's algorithm?
+A: Dijkstra's algorithm is a shortest path algorithm that finds the shortest path from a source node to all other nodes in a weighted graph with non-negative edge weights.
+
+Q: What is Kruskal's algorithm?
+A: Kruskal's algorithm is a minimum spanning tree algorithm that finds an edge subset that connects all vertices with the minimum total edge weight and no cycles.
+
+Q: What is Prim's algorithm?
+A: Prim's algorithm is a minimum spanning tree algorithm that grows the spanning tree one edge at a time by adding the smallest edge that connects a vertex in the tree to a vertex outside the tree.
+
+Q: What is Floyd-Warshall algorithm?
+A: The Floyd-Warshall algorithm is a dynamic programming algorithm used to find the shortest paths between all pairs of nodes in a weighted graph.
+
+Q: What is Topological Sort?
+A: Topological sort is a linear ordering of vertices in a directed acyclic graph (DAG) such that for every directed edge (u, v), vertex u comes before vertex v in the ordering.
+
+Q: What is Knapsack Problem?
+A: The knapsack problem is an optimization problem where you need to determine the maximum value that can be carried in a knapsack with a given weight capacity, given a set of items with specific weights and values.
+
+Q: What is Longest Common Subsequence (LCS)?
+A: The Longest Common Subsequence (LCS) problem involves finding the longest subsequence common to two sequences. It can be solved using dynamic programming.
+
+Q: What is Shortest Common Supersequence (SCS)?
+A: The Shortest Common Supersequence (SCS) problem involves finding the shortest sequence that contains both of the given sequences as subsequences.
+
+Q: What is Edit Distance?
+A: Edit distance is a measure of the similarity between two strings, defined as the minimum number of operations (insertions, deletions, or substitutions) required to transform one string into the other.
+
+Q: What is Fibonacci Sequence?
+A: The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, starting from 0 and 1. It is often used to illustrate recursive algorithms and dynamic programming.
+
+Q: What is Dynamic Programming?
+A: Dynamic programming is a method for solving complex problems by breaking them down into simpler subproblems, solving each subproblem just once, and storing the results to avoid redundant work.
+
+Q: What is Greedy Algorithm?
+A: A greedy algorithm is an algorithmic paradigm that makes a sequence of choices, each of which looks best at the moment, with the hope of finding the optimal overall solution.
+
+Q: What is Graph Traversal?
+A: Graph traversal is the process of visiting all the nodes in a graph in a systematic way. Common methods include Depth-First Search (DFS) and Breadth-First Search (BFS).
+
+Q: What is Depth-First Search (DFS)?
+A: Depth-First Search (DFS) is a graph traversal algorithm that explores as far as possible along each branch before backtracking.
+
+Q: What is Breadth-First Search (BFS)?
+A: Breadth-First Search (BFS) is a graph traversal algorithm that explores all the neighbors at the present depth level before moving on to nodes at the next depth level.
+
+Q: What is Disjoint Set Union (DSU)?
+A: Disjoint Set Union (DSU), or Union-Find, is a data structure used to keep track of a partition of a set into disjoint subsets and supports operations like union and find efficiently.
+
+Q: What is Dijkstra's Algorithm?
+A: Dijkstra's algorithm is a shortest path algorithm that finds the shortest path from a source node to all other nodes in a weighted graph with non-negative edge weights.
+
+Q: What is Longest Increasing Subsequence (LIS)?
+A: The Longest Increasing Subsequence (LIS) problem involves finding the longest subsequence in a sequence of numbers such that all elements of the subsequence are sorted in increasing order.
+
+Q: What is Subset Sum Problem?
+A: The Subset Sum Problem involves finding if there is a subset of a given set of integers that adds up to a specific target sum.
+
+Q: What is Traveling Salesman Problem (TSP)?
+A: The Traveling Salesman Problem (TSP) is an optimization problem where the goal is to find the shortest possible route that visits a set of cities and returns to the origin city.
+
+Q: What is Matrix Chain Multiplication?
+A: Matrix Chain Multiplication is a problem in dynamic programming where the goal is to find the most efficient way to multiply a given sequence of matrices.
+
+Q: What is Bellman-Ford Algorithm?
+A: The Bellman-Ford Algorithm is a shortest path algorithm that can handle graphs with negative edge weights and detect negative weight cycles.
+
+Q: What is Knuth-Morris-Pratt (KMP) Algorithm?
+A: The Knuth-Morris-Pratt (KMP) algorithm is a string searching algorithm that searches for occurrences of a substring within a main string using preprocessing to avoid unnecessary comparisons.
+
+Q: What is Ford-Fulkerson Algorithm?
+A: The Ford-Fulkerson Algorithm is used to find the maximum flow in a flow network and is based on augmenting paths.
+
+Q: What is Tarjan's Algorithm?
+A: Tarjan's Algorithm is used to find strongly connected components (SCCs) in a directed graph and can also be used to find articulation points and bridges.
+
+Q: What is Segment Tree?
+A: A segment tree is a data structure used for storing intervals or segments and allows querying and updating intervals efficiently, typically used in range queries and updates.
+
+Q: What is Fenwick Tree?
+A: A Fenwick Tree, or Binary Indexed Tree (BIT), is a data structure that provides efficient methods for querying prefix sums and updating values in an array.
+
+Q: What is Union-Find data structure?
+A: The Union-Find data structure, also known as Disjoint Set Union (DSU), is used to keep track of a partition of a set into disjoint subsets and supports union and find operations.
+
+Q: What is Kruskal's Algorithm?
+A: Kruskal's Algorithm is a minimum spanning tree algorithm that finds an edge subset that connects all vertices with the minimum total edge weight and no cycles.
+
+Q: What is Prim's Algorithm?
+A: Prim's Algorithm is a minimum spanning tree algorithm that grows the spanning tree one edge at a time by adding the smallest edge that connects a vertex in the tree to a vertex outside the tree.
+
+Q: What is BFS used for?
+A: Breadth-First Search (BFS) is used for finding the shortest path in an unweighted graph, checking connectivity, and traversing nodes level by level.
+
+Q: What is DFS used for?
+A: Depth-First Search (DFS) is used for exploring all possible paths in a graph, finding strongly connected components, and solving problems that require exploration of nodes deeply.
+
+Q: What is the difference between BFS and DFS?
+A: BFS explores nodes level by level using a queue, while DFS explores as far as possible along each branch before backtracking using a stack or recursion.
+
+Q: What is Dijkstra's Algorithm?
+A: Dijkstra's Algorithm is used to find the shortest path from a source node to all other nodes in a graph with non-negative edge weights.
+
+Q: What is Topological Sorting?
+A: Topological Sorting is the linear ordering of vertices in a directed acyclic graph (DAG) such that for every directed edge (u, v), vertex u comes before vertex v in the ordering.
+
+Q: What is Floyd-Warshall Algorithm?
+A: The Floyd-Warshall Algorithm is used to find shortest paths between all pairs of nodes in a weighted graph and can handle negative edge weights.
+
+Q: What is Bellman-Ford Algorithm?
+A: The Bellman-Ford Algorithm is a shortest path algorithm that can handle graphs with negative edge weights and detect negative weight cycles.
+
+Q: What is Kraken's Algorithm?
+A: Kraken's Algorithm is used for finding strongly connected components in a directed graph and uses depth-first search (DFS) to identify these components.
+
+Q: What is Counting Sort?
+A: Counting Sort is a non-comparison-based sorting algorithm that counts the occurrences of each distinct element and uses this count to determine the position of each element in the sorted output.
+
+Q: What is Radix Sort?
+A: Radix Sort is a non-comparison-based sorting algorithm that processes individual digits of numbers, starting from the least significant digit to the most significant digit.
+
+Q: What is Bucket Sort?
+A: Bucket Sort is a sorting algorithm that divides the input into a number of buckets, sorts each bucket individually, and then concatenates the sorted buckets to form the final sorted output.
+
+Q: What is Topological Sorting in a graph?
+A: Topological Sorting is the linear ordering of vertices in a directed acyclic graph (DAG) such that for every directed edge (u, v), vertex u comes before vertex v in the ordering.
+
+Q: What is Bellman-Ford Algorithm?
+A: The Bellman-Ford Algorithm is a shortest path algorithm that can handle graphs with negative edge weights and detect negative weight cycles.
+
+Q: What is Knapsack Problem?
+A: The Knapsack Problem is an optimization problem where you need to determine the maximum value that can be carried in a knapsack with a given weight capacity, given a set of items with specific weights and values.
+
+Q: What is Longest Common Subsequence (LCS)?
+A: The Longest Common Subsequence (LCS) problem involves finding the longest subsequence common to two sequences. It can be solved using dynamic programming.
+
+Q: What is Subset Sum Problem?
+A: The Subset Sum Problem involves finding if there is a subset of a given set of integers that adds up to a specific target sum.
+
+Q: What is Traveling Salesman Problem (TSP)?
+A: The Traveling Salesman Problem (TSP) is an optimization problem where the goal is to find the shortest possible route that visits a set of cities and returns to the origin city.
+
+Q: What is Matrix Chain Multiplication?
+A: Matrix Chain Multiplication is a problem in dynamic programming where the goal is to find the most efficient way to multiply a given sequence of matrices.
+
+Q: What is Ford-Fulkerson Algorithm?
+A: The Ford-Fulkerson Algorithm is used to find the maximum flow in a flow network and is based on augmenting paths.
+
+Q: What is Tarjan's Algorithm?
+A: Tarjan's Algorithm is used to find strongly connected components (SCCs) in a directed graph and can also be used to find articulation points and bridges.
+
+Q: What is Segment Tree?
+A: A segment tree is a data structure used for storing intervals or segments and allows querying and updating intervals efficiently, typically used in range queries and updates.
+
+Q: What is Fenwick Tree?
+A: A Fenwick Tree, or Binary Indexed Tree (BIT), is a data structure that provides efficient methods for querying prefix sums and updating values in an array.
+
+Q: What is Union-Find data structure?
+A: The Union-Find data structure, also known as Disjoint Set Union (DSU), is used to keep track of a partition of a set into disjoint subsets and supports union and find operations.
+
+Q: What is Kruskal's Algorithm?
+A: Kruskal's Algorithm is a minimum spanning tree algorithm that finds an edge subset that connects all vertices with the minimum total edge weight and no cycles.
+
+Q: What is Prim's Algorithm?
+A: Prim's Algorithm is a minimum spanning tree algorithm that grows the spanning tree one edge at a time by adding the smallest edge that connects a vertex in the tree to a vertex outside the tree.
+
+Q: What is BFS used for?
+A: Breadth-First Search (BFS) is used for finding the shortest path in an unweighted graph, checking connectivity, and traversing nodes level by level.
+
+Q: What is DFS used for?
+A: Depth-First Search (DFS) is used for exploring all possible paths in a graph, finding strongly connected components, and solving problems that require exploration of nodes deeply.
+
+Q: What is the difference between BFS and DFS?
+A: BFS explores nodes level by level using a queue, while DFS explores as far as possible along each branch before backtracking using a stack or recursion.
+
+Q: What is Dijkstra's Algorithm?
+A: Dijkstra's Algorithm is used to find the shortest path from a source node to all other nodes in a graph with non-negative edge weights.
+
+Q: What is Topological Sorting?
+A: Topological Sorting is the linear ordering of vertices in a directed acyclic graph (DAG) such that for every directed edge (u, v), vertex u comes before vertex v in the ordering.
+
+Q: What is Floyd-Warshall Algorithm?
+A: The Floyd-Warshall Algorithm is used to find shortest paths between all pairs of nodes in a weighted graph and can handle negative edge weights.

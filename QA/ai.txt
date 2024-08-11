@@ -1,0 +1,431 @@
+Q: What is Artificial Intelligence (AI)?
+A: Artificial Intelligence (AI) is the simulation of human intelligence in machines designed to think and learn like humans, performing tasks such as problem-solving, decision-making, and pattern recognition.
+
+Q: What are the main types of AI?
+A: The main types of AI are Narrow AI (or Weak AI), which is designed for specific tasks, and General AI (or Strong AI), which has generalized human cognitive abilities. There is also Superintelligent AI, which surpasses human intelligence.
+
+Q: What is Machine Learning (ML)?
+A: Machine Learning (ML) is a subset of AI that involves training algorithms to learn from and make predictions or decisions based on data.
+
+Q: What is Deep Learning?
+A: Deep Learning is a subset of Machine Learning that uses neural networks with many layers (deep neural networks) to model complex patterns in large datasets.
+
+Q: What is a Neural Network?
+A: A Neural Network is a computational model inspired by the human brain, consisting of interconnected nodes (neurons) organized in layers, used for tasks such as pattern recognition and classification.
+
+Q: What is Supervised Learning?
+A: Supervised Learning is a type of Machine Learning where the algorithm is trained on labeled data, meaning the input data is paired with the correct output.
+
+Q: What is Unsupervised Learning?
+A: Unsupervised Learning is a type of Machine Learning where the algorithm is trained on unlabeled data, aiming to find hidden patterns or intrinsic structures in the data.
+
+Q: What is Reinforcement Learning?
+A: Reinforcement Learning is a type of Machine Learning where an agent learns to make decisions by performing actions and receiving rewards or penalties, optimizing its strategy through trial and error.
+
+Q: What is a Decision Tree?
+A: A Decision Tree is a supervised learning model that uses a tree-like graph of decisions and their possible consequences to make predictions or decisions.
+
+Q: What is Overfitting in Machine Learning?
+A: Overfitting occurs when a model learns the training data too well, capturing noise and outliers rather than the underlying pattern, leading to poor generalization to new data.
+
+Q: What is Underfitting?
+A: Underfitting occurs when a model is too simple to capture the underlying pattern in the data, resulting in poor performance on both training and test data.
+
+Q: What is a Support Vector Machine (SVM)?
+A: A Support Vector Machine (SVM) is a supervised learning model used for classification and regression tasks that finds the hyperplane that best separates data into different classes.
+
+Q: What is a Convolutional Neural Network (CNN)?
+A: A Convolutional Neural Network (CNN) is a deep learning model specifically designed for processing grid-like data such as images, using convolutional layers to detect spatial hierarchies.
+
+Q: What is a Recurrent Neural Network (RNN)?
+A: A Recurrent Neural Network (RNN) is a type of neural network designed for sequential data, where connections between nodes form a directed graph along a temporal sequence.
+
+Q: What is Natural Language Processing (NLP)?
+A: Natural Language Processing (NLP) is a field of AI that focuses on the interaction between computers and human language, enabling machines to understand, interpret, and generate human language.
+
+Q: What is Transfer Learning?
+A: Transfer Learning is a technique in Machine Learning where a pre-trained model on one task is adapted and fine-tuned for a different but related task, improving learning efficiency and performance.
+
+Q: What is a Generative Adversarial Network (GAN)?
+A: A Generative Adversarial Network (GAN) is a type of deep learning model consisting of two neural networks, a generator and a discriminator, that compete against each other to generate realistic data.
+
+Q: What is a Loss Function?
+A: A Loss Function is a mathematical function used to measure how well a model's predictions match the actual outcomes, guiding the optimization process during training.
+
+Q: What is Gradient Descent?
+A: Gradient Descent is an optimization algorithm used to minimize the loss function by iteratively adjusting the model's parameters in the direction of the steepest decrease in the loss.
+
+Q: What is Backpropagation?
+A: Backpropagation is a method used in neural networks to update weights by propagating the error gradient backward through the network to improve learning.
+
+Q: What is a Hyperparameter?
+A: A Hyperparameter is a parameter whose value is set before the learning process begins and controls the behavior of the learning algorithm, such as learning rate or number of hidden layers.
+
+Q: What is Cross-Validation?
+A: Cross-Validation is a technique used to assess the performance of a model by dividing the dataset into training and validation sets multiple times to ensure robust evaluation.
+
+Q: What is a Confusion Matrix?
+A: A Confusion Matrix is a table used to evaluate the performance of a classification model, showing the true positives, true negatives, false positives, and false negatives.
+
+Q: What is Precision?
+A: Precision is a metric that measures the accuracy of positive predictions made by a model, calculated as the ratio of true positives to the sum of true positives and false positives.
+
+Q: What is Recall?
+A: Recall is a metric that measures the ability of a model to identify all relevant positive instances, calculated as the ratio of true positives to the sum of true positives and false negatives.
+
+Q: What is F1 Score?
+A: The F1 Score is a metric that combines precision and recall into a single measure, calculated as the harmonic mean of precision and recall, useful for imbalanced datasets.
+
+Q: What is a ROC Curve?
+A: A ROC Curve (Receiver Operating Characteristic Curve) is a graphical plot used to evaluate the performance of a binary classification model by plotting the true positive rate against the false positive rate.
+
+Q: What is the Area Under the Curve (AUC)?
+A: The Area Under the Curve (AUC) measures the overall performance of a binary classification model, with higher values indicating better model performance.
+
+Q: What is Feature Engineering?
+A: Feature Engineering is the process of selecting, modifying, or creating new features from raw data to improve the performance of a Machine Learning model.
+
+Q: What is Dimensionality Reduction?
+A: Dimensionality Reduction is a technique used to reduce the number of features in a dataset while retaining important information, often using methods such as Principal Component Analysis (PCA).
+
+Q: What is Principal Component Analysis (PCA)?
+A: Principal Component Analysis (PCA) is a dimensionality reduction technique that transforms data into a new coordinate system, where the greatest variance is captured by the first few principal components.
+
+Q: What is Clustering in Machine Learning?
+A: Clustering is an unsupervised learning technique used to group similar data points together based on their features, with common algorithms including K-Means and DBSCAN.
+
+Q: What is K-Means Clustering?
+A: K-Means Clustering is an algorithm that partitions data into K clusters by minimizing the variance within each cluster, iteratively assigning data points to the nearest cluster center.
+
+Q: What is DBSCAN?
+A: DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a clustering algorithm that groups together closely packed points and identifies noise points that do not belong to any cluster.
+
+Q: What is a Bayesian Network?
+A: A Bayesian Network is a probabilistic graphical model that represents a set of variables and their conditional dependencies using a directed acyclic graph.
+
+Q: What is a Markov Chain?
+A: A Markov Chain is a stochastic process where the future state depends only on the current state and not on the previous states, characterized by transition probabilities.
+
+Q: What is Reinforcement Learning (RL)?
+A: Reinforcement Learning (RL) is a type of Machine Learning where an agent learns to make decisions by receiving rewards or penalties based on its actions in an environment.
+
+Q: What is a Q-Learning Algorithm?
+A: Q-Learning is a model-free reinforcement learning algorithm that learns the value of actions in states to find the optimal policy for decision-making.
+
+Q: What is an Actor-Critic Model?
+A: An Actor-Critic Model is a reinforcement learning approach that uses two separate components: an actor that selects actions and a critic that evaluates the actions based on rewards.
+
+Q: What is the Turing Test?
+A: The Turing Test is a test of a machine's ability to exhibit intelligent behavior indistinguishable from that of a human, proposed by Alan Turing.
+
+Q: What is Natural Language Generation (NLG)?
+A: Natural Language Generation (NLG) is a subfield of Natural Language Processing that focuses on generating human-like text from structured data.
+
+Q: What is Sentiment Analysis?
+A: Sentiment Analysis is the process of analyzing text data to determine the sentiment or emotional tone expressed, often used for understanding opinions and feedback.
+
+Q: What is Named Entity Recognition (NER)?
+A: Named Entity Recognition (NER) is a Natural Language Processing task that identifies and classifies entities such as names, dates, and locations in text.
+
+Q: What is a Transformer Model?
+A: A Transformer Model is a type of deep learning model used in Natural Language Processing, characterized by self-attention mechanisms and parallel processing, as seen in models like BERT and GPT.
+
+Q: What is Attention Mechanism in Neural Networks?
+A: The Attention Mechanism allows neural networks to focus on different parts of the input sequence when generating output, improving performance on tasks such as translation and summarization.
+
+Q: What is Transfer Learning?
+A: Transfer Learning is the process of using a pre-trained model on a new, but related task, leveraging the knowledge gained from the original task to improve learning efficiency.
+
+Q: What is a Reinforcement Learning Policy?
+A: A Reinforcement Learning Policy is a strategy or mapping from states to actions that defines the agent's behavior and decision-making process in the environment.
+
+Q: What is a State Space in Reinforcement Learning?
+A: The State Space is the set of all possible states that an agent can be in within an environment, representing the different situations the agent may encounter.
+
+Q: What is a Reward Function in Reinforcement Learning?
+A: A Reward Function provides feedback to the agent by assigning numerical rewards or penalties based on the actions taken, guiding the agent's learning process.
+
+Q: What is Exploration vs. Exploitation in Reinforcement Learning?
+A: Exploration involves trying new actions to discover their effects, while exploitation focuses on using known actions that yield the highest rewards, balancing the two is crucial for effective learning.
+
+Q: What is an Autoencoder?
+A: An Autoencoder is a type of neural network used for unsupervised learning, consisting of an encoder that compresses input data and a decoder that reconstructs it, often used for dimensionality reduction and denoising.
+
+Q: What is a Variational Autoencoder (VAE)?
+A: A Variational Autoencoder (VAE) is a generative model that learns to encode input data into a probabilistic latent space and generate new data by sampling from this space.
+
+Q: What is Generative Adversarial Network (GAN)?
+A: A Generative Adversarial Network (GAN) consists of a generator that creates data and a discriminator that evaluates it, with both networks competing to improve their performance.
+
+Q: What is the Difference Between AI and Machine Learning?
+A: AI is a broader concept involving the creation of intelligent systems, while Machine Learning is a subset of AI that focuses specifically on training algorithms to learn from data.
+
+Q: What is Deep Reinforcement Learning?
+A: Deep Reinforcement Learning combines deep learning with reinforcement learning to handle complex state and action spaces, using neural networks to approximate value functions and policies.
+
+Q: What is a Hyperparameter Tuning?
+A: Hyperparameter Tuning is the process of optimizing the parameters of a machine learning model, such as learning rate and number of layers, to improve its performance.
+
+Q: What is an Epoch in Machine Learning?
+A: An Epoch is one complete pass through the entire training dataset during the training process of a machine learning model.
+
+Q: What is a Batch Size in Machine Learning?
+A: Batch Size is the number of training examples used in one iteration of the model's training process, affecting the model's convergence and training speed.
+
+Q: What is Dropout in Neural Networks?
+A: Dropout is a regularization technique where randomly selected neurons are ignored during training to prevent overfitting and improve the generalization of the neural network.
+
+Q: What is an Embedding in Machine Learning?
+A: An Embedding is a representation of categorical data in a continuous vector space, often used in natural language processing to represent words or items.
+
+Q: What is a Feature in Machine Learning?
+A: A Feature is an individual measurable property or characteristic of the data used by a machine learning model to make predictions or decisions.
+
+Q: What is a Feature Vector?
+A: A Feature Vector is an array of numerical values representing the features of an instance in a dataset, used as input to machine learning algorithms.
+
+Q: What is Dimensionality Curse?
+A: The Curse of Dimensionality refers to the challenges and issues that arise when working with high-dimensional data, such as increased computational complexity and sparsity.
+
+Q: What is a Training Set in Machine Learning?
+A: A Training Set is a subset of the dataset used to train a machine learning model, consisting of input data and corresponding labels or target values.
+
+Q: What is a Test Set in Machine Learning?
+A: A Test Set is a subset of the dataset used to evaluate the performance of a trained machine learning model, providing an estimate of its generalization ability.
+
+Q: What is a Validation Set?
+A: A Validation Set is a subset of the dataset used during the training process to tune hyperparameters and assess the model's performance before final evaluation.
+
+Q: What is Cross-Validation in Machine Learning?
+A: Cross-Validation is a technique used to assess the performance of a machine learning model by dividing the dataset into multiple folds and evaluating the model on different subsets.
+
+Q: What is Bias-Variance Tradeoff?
+A: The Bias-Variance Tradeoff refers to the balance between a model's ability to fit the training data (bias) and its ability to generalize to new data (variance), aiming to minimize both.
+
+Q: What is a Classifier in Machine Learning?
+A: A Classifier is an algorithm or model used to assign input data to predefined classes or categories based on its features.
+
+Q: What is Regression in Machine Learning?
+A: Regression is a type of supervised learning that predicts continuous numeric values based on input features, with common algorithms including Linear Regression and Polynomial Regression.
+
+Q: What is Logistic Regression?
+A: Logistic Regression is a statistical model used for binary classification tasks that predicts the probability of a class label using a logistic function.
+
+Q: What is a ROC Curve in Classification?
+A: A ROC Curve (Receiver Operating Characteristic Curve) is a graphical plot used to evaluate the performance of a binary classification model, showing the trade-off between true positive rate and false positive rate.
+
+Q: What is Precision-Recall Curve?
+A: A Precision-Recall Curve is a graphical representation of a model's performance by plotting precision against recall for different threshold values.
+
+Q: What is a Loss Function in Machine Learning?
+A: A Loss Function measures the discrepancy between predicted values and actual values, guiding the optimization process during model training.
+
+Q: What is an Activation Function?
+A: An Activation Function is a mathematical function applied to a neuron's output in a neural network, introducing non-linearity and enabling the network to learn complex patterns.
+
+Q: What is Softmax Function?
+A: The Softmax Function is an activation function used in the output layer of a classification model to convert raw scores into probabilities that sum to 1.
+
+Q: What is a Convolutional Layer?
+A: A Convolutional Layer is a layer in a Convolutional Neural Network that applies convolutional filters to the input data to detect local patterns and features.
+
+Q: What is Pooling Layer?
+A: A Pooling Layer is a layer in a Convolutional Neural Network that reduces the spatial dimensions of the input, typically using max pooling or average pooling.
+
+Q: What is a Fully Connected Layer?
+A: A Fully Connected Layer is a layer in a neural network where each neuron is connected to every neuron in the previous layer, used for combining features and making predictions.
+
+Q: What is Transfer Learning?
+A: Transfer Learning is a technique where a pre-trained model on one task is fine-tuned for a different but related task, leveraging learned features and improving learning efficiency.
+
+Q: What is the Difference Between Classification and Regression?
+A: Classification involves predicting categorical labels, while Regression involves predicting continuous numeric values.
+
+Q: What is the Role of a Hyperparameter in Machine Learning?
+A: Hyperparameters are external parameters set before training that control the learning process, such as learning rate, number of layers, and batch size.
+
+Q: What is a Data Pipeline?
+A: A Data Pipeline is a series of data processing steps that extract, transform, and load (ETL) data from source systems to analysis or storage systems.
+
+Q: What is Data Augmentation?
+A: Data Augmentation is a technique used to artificially increase the size and diversity of a dataset by applying transformations such as rotation, scaling, and cropping.
+
+Q: What is the Role of Regularization in Machine Learning?
+A: Regularization is a technique used to prevent overfitting by adding a penalty to the loss function, controlling the complexity of the model and improving generalization.
+
+Q: What is a Neural Network's Weight Initialization?
+A: Weight Initialization refers to the process of setting the initial values of weights in a neural network before training, which can affect the convergence and performance of the model.
+
+Q: What is Batch Normalization?
+A: Batch Normalization is a technique used to normalize the inputs of each layer in a neural network, improving training stability and speed.
+
+Q: What is a Self-Organizing Map (SOM)?
+A: A Self-Organizing Map (SOM) is an unsupervised learning algorithm used to reduce the dimensionality of data and visualize high-dimensional data in lower dimensions.
+
+Q: What is K-Means Clustering?
+A: K-Means Clustering is an unsupervised learning algorithm that partitions data into K clusters by minimizing the variance within each cluster.
+
+Q: What is a Decision Tree?
+A: A Decision Tree is a supervised learning algorithm that uses a tree-like model of decisions and their possible consequences to classify data or make predictions.
+
+Q: What is a Random Forest?
+A: A Random Forest is an ensemble learning method that combines multiple decision trees to improve prediction accuracy and control overfitting.
+
+Q: What is Gradient Boosting?
+A: Gradient Boosting is an ensemble learning technique that builds models sequentially, where each model corrects the errors of its predecessor, improving overall performance.
+
+Q: What is a Support Vector Machine (SVM)?
+A: A Support Vector Machine (SVM) is a supervised learning algorithm that finds the optimal hyperplane to separate different classes in the feature space.
+
+Q: What is an Outlier in a Dataset?
+A: An Outlier is a data point that significantly differs from the other observations in the dataset, potentially indicating anomalies or errors.
+
+Q: What is Feature Engineering?
+A: Feature Engineering is the process of creating new features or modifying existing features to improve the performance of a machine learning model.
+
+Q: What is Principal Component Analysis (PCA)?
+A: Principal Component Analysis (PCA) is a dimensionality reduction technique that transforms data into a lower-dimensional space while preserving as much variance as possible.
+
+Q: What is the Role of a Model's Hyperparameters?
+A: Hyperparameters control the learning process and structure of a model, affecting its training efficiency and performance.
+
+Q: What is an Anomaly Detection?
+A: Anomaly Detection is the process of identifying unusual or unexpected patterns in data that may indicate outliers or anomalies.
+
+Q: What is a Generative Model?
+A: A Generative Model learns to generate new data samples that resemble the training data, with examples including GANs and VAEs.
+
+Q: What is a Discriminative Model?
+A: A Discriminative Model learns to distinguish between different classes or categories in data, focusing on modeling the decision boundary.
+
+Q: What is a Confusion Matrix?
+A: A Confusion Matrix is a table used to evaluate the performance of a classification model by comparing predicted and actual class labels.
+
+Q: What is a ROC Curve?
+A: A ROC Curve (Receiver Operating Characteristic Curve) is a plot that shows the performance of a binary classification model across different threshold values.
+
+Q: What is Cross-Entropy Loss?
+A: Cross-Entropy Loss is a loss function used for classification tasks that measures the difference between the predicted probability distribution and the true distribution.
+
+Q: What is a Model's Precision?
+A: Precision is a metric that measures the proportion of true positive predictions out of all positive predictions made by the model.
+
+Q: What is a Model's Recall?
+A: Recall is a metric that measures the proportion of true positive predictions out of all actual positive instances in the dataset.
+
+Q: What is F1 Score?
+A: The F1 Score is a metric that combines precision and recall into a single value, providing a balanced measure of a model's performance.
+
+Q: What is the Purpose of a Validation Set?
+A: A Validation Set is used to tune hyperparameters and assess the performance of a model during training to avoid overfitting.
+
+Q: What is Overfitting in Machine Learning?
+A: Overfitting occurs when a model learns the training data too well, capturing noise and details that do not generalize to new data.
+
+Q: What is Underfitting in Machine Learning?
+A: Underfitting occurs when a model is too simple to capture the underlying patterns in the data, resulting in poor performance on both training and test sets.
+
+Q: What is Ensemble Learning?
+A: Ensemble Learning is a technique that combines multiple models to improve overall performance and robustness, with methods such as bagging and boosting.
+
+Q: What is Bagging in Ensemble Learning?
+A: Bagging (Bootstrap Aggregating) is an ensemble method that trains multiple models on different subsets of the data and averages their predictions to improve accuracy.
+
+Q: What is Boosting in Ensemble Learning?
+A: Boosting is an ensemble method that sequentially trains models, with each model focusing on correcting the errors of its predecessors to improve performance.
+
+Q: What is a Neural Network's Epoch?
+A: An Epoch is one complete pass through the entire training dataset during the training of a neural network.
+
+Q: What is a Convolutional Neural Network (CNN)?
+A: A Convolutional Neural Network (CNN) is a type of neural network specifically designed for processing grid-like data, such as images, using convolutional layers.
+
+Q: What is a Recurrent Neural Network (RNN)?
+A: A Recurrent Neural Network (RNN) is a type of neural network that is designed for sequential data, with connections that form directed cycles to capture temporal dependencies.
+
+Q: What is Long Short-Term Memory (LSTM)?
+A: Long Short-Term Memory (LSTM) is a type of RNN architecture designed to overcome issues with vanishing gradients and capture long-term dependencies in sequential data.
+
+Q: What is a Gated Recurrent Unit (GRU)?
+A: A Gated Recurrent Unit (GRU) is a type of RNN architecture similar to LSTM but with a simpler gating mechanism, designed to capture dependencies in sequential data.
+
+Q: What is a U-Net Architecture?
+A: U-Net is a convolutional neural network architecture designed for semantic segmentation tasks, with an encoder-decoder structure and skip connections.
+
+Q: What is a Siamese Network?
+A: A Siamese Network is a type of neural network architecture that consists of two or more identical subnetworks sharing the same parameters, used for tasks such as similarity learning.
+
+Q: What is a Self-Attention Mechanism?
+A: Self-Attention Mechanism allows a model to weigh different parts of the input sequence differently, capturing dependencies between elements in a sequence.
+
+Q: What is the Role of a Kernel in Convolutional Neural Networks?
+A: A Kernel (or filter) in Convolutional Neural Networks is a small matrix used to detect features such as edges or textures in the input data.
+
+Q: What is the Function of a Pooling Layer in CNN?
+A: The Pooling Layer reduces the spatial dimensions of the input data, helping to reduce computational complexity and control overfitting.
+
+Q: What is an Activation Function in Neural Networks?
+A: An Activation Function introduces non-linearity into the neural network, allowing it to learn complex patterns and relationships.
+
+Q: What is the Role of a Loss Function in Training a Model?
+A: The Loss Function measures how well the model's predictions match the actual values, guiding the optimization process during training.
+
+Q: What is a Multi-Layer Perceptron (MLP)?
+A: A Multi-Layer Perceptron (MLP) is a type of neural network with multiple layers of neurons, used for a variety of tasks including classification and regression.
+
+Q: What is a Sparse Matrix?
+A: A Sparse Matrix is a matrix in which most of the elements are zero, often used to efficiently store and process large datasets with many zero values.
+
+Q: What is a Dense Layer in a Neural Network?
+A: A Dense Layer is a fully connected layer in a neural network where each neuron is connected to every neuron in the previous layer.
+
+Q: What is Data Normalization?
+A: Data Normalization is the process of scaling features to a standard range or distribution, improving the convergence and performance of machine learning algorithms.
+
+Q: What is the Role of a Hyperparameter Tuning Grid Search?
+A: Grid Search is a technique for hyperparameter tuning that exhaustively searches through a specified set of hyperparameters to find the best combination for model performance.
+
+Q: What is a Decision Boundary?
+A: A Decision Boundary is a surface that separates different classes in the feature space, determined by the classification model.
+
+Q: What is a Tuning Parameter?
+A: Tuning Parameters, or hyperparameters, are parameters set before training that control the learning process, such as learning rate and number of layers.
+
+Q: What is a Precision Metric?
+A: Precision Metric measures the proportion of true positive predictions out of all positive predictions made by the model.
+
+Q: What is a Recall Metric?
+A: Recall Metric measures the proportion of true positive predictions out of all actual positive instances in the dataset.
+
+Q: What is the Purpose of Cross-Validation?
+A: Cross-Validation is used to assess the performance of a model by splitting the data into multiple folds, training and validating the model on different subsets.
+
+Q: What is the Role of a Learning Rate in Training?
+A: The Learning Rate controls how much the model's weights are updated during training, influencing the convergence speed and stability of the optimization process.
+
+Q: What is an Outlier Detection Method?
+A: An Outlier Detection Method is a technique used to identify unusual or anomalous data points that differ significantly from the majority of the data.
+
+Q: What is a Feature Selection Technique?
+A: Feature Selection Techniques are methods used to select the most relevant features for building a model, reducing dimensionality and improving performance.
+
+Q: What is Model Regularization?
+A: Model Regularization is a technique used to prevent overfitting by adding a penalty to the loss function based on the complexity of the model.
+
+Q: What is the Purpose of a Loss Function in Training a Model?
+A: The Loss Function quantifies the difference between the model's predictions and the actual values, guiding the optimization process to improve the model.
+
+Q: What is the Concept of Hyperparameter Optimization?
+A: Hyperparameter Optimization involves finding the best hyperparameters for a model to improve its performance by systematically searching through possible values.
+
+Q: What is a Dropout Layer in Neural Networks?
+A: A Dropout Layer randomly drops a fraction of neurons during training to prevent overfitting and improve generalization.
+
+Q: What is the Role of a Batch Size in Training?
+A: The Batch Size determines the number of samples processed before updating the model's weights, influencing the training speed and stability.
+
+Q: What is a Model's Accuracy?
+A: Accuracy is a metric that measures the proportion of correct predictions made by the model out of all predictions.
+
+Q: What is Data Augmentation?
+A: Data Augmentation is a technique used to artificially increase the size of a dataset by applying transformations such as rotation, scaling, and cropping to the existing data.
