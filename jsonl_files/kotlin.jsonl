@@ -1,0 +1,154 @@
+{"question": "What is Kotlin?", "answer": "Kotlin is a modern, statically typed programming language developed by JetBrains. It is fully interoperable with Java and is officially supported for Android development."}
+{"question": "How do you declare a variable in Kotlin?", "answer": "Use val for immutable variables and var for mutable variables. Example: val x: Int = 10 and var y: String = \"Hello\"."}
+{"question": "What is the difference between val and var in Kotlin?", "answer": "val declares a read-only (immutable) variable, while var declares a mutable variable that can be changed after initialization."}
+{"question": "How do you define a function in Kotlin?", "answer": "Use the fun keyword. Example: fun add(a: Int, b: Int): Int { return a + b }."}
+{"question": "What is a data class in Kotlin?", "answer": "A data class is a class specifically designed to hold data. It automatically generates useful methods such as equals(), hashCode(), and toString()."}
+{"question": "How do you create a data class in Kotlin?", "answer": "Use the data keyword before the class definition. Example: data class Person(val name: String, val age: Int)."}
+{"question": "What is a sealed class in Kotlin?", "answer": "A sealed class is a class that can have a limited set of subclasses. It is used to represent restricted class hierarchies."}
+{"question": "How do you use a sealed class in Kotlin?", "answer": "Define a sealed class and its subclasses within the same file. Example:"}
+{"question": "What is an extension function in Kotlin?", "answer": "An extension function allows you to add new functions to existing classes without modifying their source code."}
+{"question": "How do you define an extension function in Kotlin?", "answer": "Use the fun keyword with the class type as a receiver. Example:"}
+{"question": "What is the purpose of the !! operator in Kotlin?", "answer": "The !! operator asserts that a value is non-null and throws a NullPointerException if it is null."}
+{"question": "How do you handle nullability in Kotlin?", "answer": "Use nullable types with ?, safe calls with ?., and the Elvis operator ?: to provide default values."}
+{"question": "What is the let function in Kotlin?", "answer": "The let function is a scope function that allows you to execute a block of code with the result of the expression as an argument."}
+{"question": "How do you use the let function?", "answer": "Example: val length = \"Hello\".let { it.length }."}
+{"question": "What is the apply function in Kotlin?", "answer": "The apply function is a scope function that applies changes to an object and returns the object itself."}
+{"question": "How do you use the apply function?", "answer": "Example:"}
+{"question": "What is the with function in Kotlin?", "answer": "The with function is a scope function that allows you to execute multiple operations on an object without repeating its reference."}
+{"question": "How do you use the with function?", "answer": "Example:"}
+{"question": "What is the run function in Kotlin?", "answer": "The run function is a scope function that executes a block of code and returns the result of the last expression."}
+{"question": "How do you use the run function?", "answer": "Example:"}
+{"question": "What is a companion object in Kotlin?", "answer": "A companion object is an object declared within a class that allows for defining static methods and properties."}
+{"question": "How do you define a companion object?", "answer": "Example:"}
+{"question": "What is the when expression in Kotlin?", "answer": "The when expression is used as a replacement for the switch statement in other languages. It can be used to execute different code based on the value of an expression."}
+{"question": "How do you use the when expression?", "answer": "Example:"}
+{"question": "What is the in operator in Kotlin?", "answer": "The in operator checks if a value is within a specified range or collection."}
+{"question": "How do you use the in operator?", "answer": "Example: if (x in 1..10) { println(\"x is between 1 and 10\") }."}
+{"question": "What is the out keyword in Kotlin?", "answer": "The out keyword is used to specify that a type parameter is covariant, meaning it can only be used as a return type."}
+{"question": "What is the in keyword in Kotlin?", "answer": "The in keyword specifies that a type parameter is contravariant, meaning it can only be used as an input type."}
+{"question": "What is the difference between out and in variance in Kotlin?", "answer": "out allows a type parameter to be used as a return type, while in allows it to be used as an argument type."}
+{"question": "What is the lateinit modifier in Kotlin?", "answer": "The lateinit modifier is used to initialize a variable later, after its declaration, for non-nullable properties."}
+{"question": "How do you use the lateinit modifier?", "answer": "Example:"}
+{"question": "What is the by keyword used for in Kotlin?", "answer": "The by keyword is used for delegation, allowing one object to delegate its implementation to another."}
+{"question": "How do you use the by keyword for property delegation?", "answer": "Example:"}
+{"question": "What is a lambda expression in Kotlin?", "answer": "A lambda expression is an anonymous function that can be used to pass code blocks as parameters."}
+{"question": "How do you define a lambda expression in Kotlin?", "answer": "Example: { x: Int, y: Int -> x + y }."}
+{"question": "What is a type alias in Kotlin?", "answer": "A type alias allows you to create an alternative name for a type."}
+{"question": "How do you define a type alias?", "answer": "Example: typealias StringList = List<String>."}
+{"question": "What is a higher-order function in Kotlin?", "answer": "A higher-order function is a function that takes other functions as parameters or returns a function."}
+{"question": "How do you define a higher-order function?", "answer": "Example:"}
+{"question": "What is the suspend keyword in Kotlin?", "answer": "The suspend keyword is used to define a coroutine function that can be paused and resumed."}
+{"question": "How do you define a suspend function?", "answer": "Example: suspend fun fetchData(): String { /*...*/ }."}
+{"question": "What is a coroutine in Kotlin?", "answer": "A coroutine is a lightweight thread-like construct that allows for asynchronous programming."}
+{"question": "How do you launch a coroutine in Kotlin?", "answer": "Use the launch function from the kotlinx.coroutines package. Example: GlobalScope.launch { /* code */ }."}
+{"question": "What is CoroutineScope in Kotlin?", "answer": "CoroutineScope is an interface that defines a scope for launching coroutines and managing their lifecycle."}
+{"question": "How do you use CoroutineScope?", "answer": "Example:"}
+{"question": "What is Dispatchers in Kotlin coroutines?", "answer": "Dispatchers is an object that provides different coroutine dispatchers, such as Dispatchers.IO and Dispatchers.Main."}
+{"question": "How do you use Dispatchers?", "answer": "Example: withContext(Dispatchers.IO) { /* code */ }."}
+{"question": "What is withContext in Kotlin coroutines?", "answer": "withContext is a function that changes the context in which a coroutine is executed."}
+{"question": "How do you use withContext?", "answer": "Example:"}
+{"question": "What is the @JvmStatic annotation in Kotlin?", "answer": "The @JvmStatic annotation is used to mark a method or property in a companion object to be static in the JVM bytecode."}
+{"question": "How do you use the @JvmStatic annotation?", "answer": "Example:"}
+{"question": "What is @JvmOverloads in Kotlin?", "answer": "The @JvmOverloads annotation generates overloads for functions with default parameters for Java interoperability."}
+{"question": "How do you use the @JvmOverloads annotation?", "answer": "Example:"}
+{"question": "What is the @Inject annotation in Kotlin?", "answer": "The @Inject annotation is used for dependency injection, marking a constructor, field, or method for injection."}
+{"question": "How do you use the @Inject annotation?", "answer": "Example:"}
+{"question": "What is Kotlinx.serialization?", "answer": "Kotlinx.serialization is a Kotlin library for serializing and deserializing data in various formats, such as JSON."}
+{"question": "How do you use Kotlinx.serialization?", "answer": "Example:"}
+{"question": "What is the @Serializable annotation in Kotlin?", "answer": "The @Serializable annotation marks a class as serializable with Kotlinx.serialization."}
+{"question": "How do you use the @Serializable annotation?", "answer": "Example:"}
+{"question": "What is the @Throws annotation in Kotlin?", "answer": "The @Throws annotation specifies which exceptions a function can throw, useful for Java interoperability."}
+{"question": "How do you use the @Throws annotation?", "answer": "Example:"}
+{"question": "What is a type parameter in Kotlin?", "answer": "A type parameter is a placeholder for a type that is specified when a class, interface, or function is used."}
+{"question": "How do you define a generic class in Kotlin?", "answer": "Example:"}
+{"question": "What is a reified type parameter in Kotlin?", "answer": "A reified type parameter allows you to access the type of a generic parameter at runtime."}
+{"question": "How do you use a reified type parameter?", "answer": "Example:"}
+{"question": "What is the inline keyword in Kotlin?", "answer": "The inline keyword marks a function to be inlined at the call site, reducing the overhead of function calls."}
+{"question": "How do you define an inline function in Kotlin?", "answer": "Example:"}
+{"question": "What is object in Kotlin?", "answer": "The object keyword defines a singleton instance of a class."}
+{"question": "How do you use object in Kotlin?", "answer": "Example:"}
+{"question": "What is a companion object in Kotlin?", "answer": "A companion object allows for defining static members and methods in a class."}
+{"question": "How do you access a companion object member?", "answer": "Example:"}
+{"question": "What is a delegate in Kotlin?", "answer": "A delegate is an object that handles property access or method calls on behalf of another object."}
+{"question": "How do you use delegation in Kotlin?", "answer": "Example:"}
+{"question": "What is a lambda function in Kotlin?", "answer": "A lambda function is an anonymous function that can be defined and passed around as a value."}
+{"question": "How do you create a lambda function in Kotlin?", "answer": "Example: { x: Int, y: Int -> x + y }."}
+{"question": "What is the filter function in Kotlin collections?", "answer": "The filter function creates a new collection containing only elements that match a given predicate."}
+{"question": "How do you use the filter function?", "answer": "Example: val evenNumbers = numbers.filter { it % 2 == 0 }."}
+{"question": "What is map in Kotlin collections?", "answer": "The map function transforms each element of a collection according to a given function."}
+{"question": "How do you use the map function?", "answer": "Example: val lengths = words.map { it.length }."}
+{"question": "What is reduce in Kotlin collections?", "answer": "The reduce function applies a binary operation to elements of a collection, accumulating a result."}
+{"question": "How do you use the reduce function?", "answer": "Example: val sum = numbers.reduce { acc, num -> acc + num }."}
+{"question": "What is flatMap in Kotlin collections?", "answer": "The flatMap function maps each element to a collection and then flattens the result into a single collection."}
+{"question": "How do you use the flatMap function?", "answer": "Example: val combined = lists.flatMap { it }."}
+{"question": "What is fold in Kotlin collections?", "answer": "The fold function accumulates a value starting with an initial value and applying a function to each element."}
+{"question": "How do you use the fold function?", "answer": "Example: val product = numbers.fold(1) { acc, num -> acc * num }."}
+{"question": "What is let in Kotlin?", "answer": "The let function is a scope function that executes a block of code on a non-null value and returns the result."}
+{"question": "How do you use let with nullability?", "answer": "Example: \"Hello\".let { it.length }."}
+{"question": "What is apply in Kotlin?", "answer": "The apply function is a scope function that applies changes to an object and returns the object itself."}
+{"question": "How do you use apply?", "answer": "Example:"}
+{"question": "What is run in Kotlin?", "answer": "The run function is a scope function that executes a block of code and returns the result of the last expression."}
+{"question": "How do you use run?", "answer": "Example: val length = \"Hello\".run { length }."}
+{"question": "What is also in Kotlin?", "answer": "The also function is a scope function that performs an action on an object and returns the object itself."}
+{"question": "How do you use also?", "answer": "Example:"}
+{"question": "What is with in Kotlin?", "answer": "The with function allows you to call multiple methods on an object within a block of code."}
+{"question": "How do you use with?", "answer": "Example:"}
+{"question": "What is Kotlinx.coroutines?", "answer": "Kotlinx.coroutines is a library for asynchronous programming using coroutines, which simplifies concurrent programming."}
+{"question": "How do you define a coroutine in Kotlin?", "answer": "Example: GlobalScope.launch { /* coroutine code */ }."}
+{"question": "What is CoroutineScope?", "answer": "CoroutineScope is an interface that defines a scope for coroutines, providing context and managing their lifecycle."}
+{"question": "How do you use CoroutineScope?", "answer": "Example:"}
+{"question": "What is suspend in Kotlin?", "answer": "The suspend keyword marks a function that can be suspended and resumed later, allowing it to be called from coroutines."}
+{"question": "How do you define a suspend function?", "answer": "Example:"}
+{"question": "What is launch in Kotlin coroutines?", "answer": "launch is a coroutine builder that starts a new coroutine in a given scope."}
+{"question": "How do you use launch?", "answer": "Example:"}
+{"question": "What is async in Kotlin coroutines?", "answer": "async is a coroutine builder that starts a coroutine and returns a Deferred result, which can be awaited."}
+{"question": "How do you use async?", "answer": "Example:"}
+{"question": "What is Deferred in Kotlin coroutines?", "answer": "Deferred is a non-blocking future that represents a result that will be available in the future."}
+{"question": "How do you use Deferred?", "answer": "Example: val result = deferred.await()."}
+{"question": "What is Job in Kotlin coroutines?", "answer": "Job is a handle to a coroutine, used to manage its lifecycle and control its execution."}
+{"question": "How do you use Job?", "answer": "Example:"}
+{"question": "What is CoroutineScope.launch?", "answer": "CoroutineScope.launch starts a new coroutine in the given scope."}
+{"question": "How do you use CoroutineScope.launch?", "answer": "Example: scope.launch { /* coroutine code */ }."}
+{"question": "What is CoroutineScope.async?", "answer": "CoroutineScope.async starts a new coroutine and returns a Deferred result."}
+{"question": "How do you use CoroutineScope.async?", "answer": "Example: val deferred = scope.async { /* coroutine code */ }."}
+{"question": "What is CoroutineContext?", "answer": "CoroutineContext is a set of elements used to configure coroutines, such as the dispatcher and job."}
+{"question": "How do you use CoroutineContext?", "answer": "Example:"}
+{"question": "What is Dispatchers.IO?", "answer": "Dispatchers.IO is a coroutine dispatcher optimized for I/O operations."}
+{"question": "What is Dispatchers.Main?", "answer": "Dispatchers.Main is a coroutine dispatcher that runs coroutines on the main thread."}
+{"question": "How do you switch between dispatchers in coroutines?", "answer": "Example:"}
+{"question": "What is CoroutineExceptionHandler?", "answer": "CoroutineExceptionHandler is an interface for handling exceptions thrown in coroutines."}
+{"question": "How do you use CoroutineExceptionHandler?", "answer": "Example:"}
+{"question": "What is Flow in Kotlin coroutines?", "answer": "Flow is a cold stream of data that can be collected asynchronously."}
+{"question": "How do you create a Flow?", "answer": "Example:"}
+{"question": "What is collect in Kotlin Flow?", "answer": "collect is a terminal operator that collects and processes values from a Flow."}
+{"question": "How do you use collect?", "answer": "Example:"}
+{"question": "What is stateIn in Kotlin Flow?", "answer": "stateIn is an operator that converts a Flow into a StateFlow, which maintains and emits the latest value."}
+{"question": "How do you use stateIn?", "answer": "Example:"}
+{"question": "What is SharedFlow?", "answer": "SharedFlow is a hot stream of data that can be collected by multiple collectors."}
+{"question": "How do you create a SharedFlow?", "answer": "Example:"}
+{"question": "What is collectLatest in Kotlin Flow?", "answer": "collectLatest collects the latest value from a Flow, canceling the previous collector if a new value arrives."}
+{"question": "How do you use collectLatest?", "answer": "Example:"}
+{"question": "What is combine in Kotlin Flow?", "answer": "combine combines multiple Flow sources into a single Flow by applying a transformation function."}
+{"question": "How do you use combine?", "answer": "Example:"}
+{"question": "What is flatMapConcat in Kotlin Flow?", "answer": "flatMapConcat flattens and concatenates multiple Flow sources into a single Flow."}
+{"question": "How do you use flatMapConcat?", "answer": "Example:"}
+{"question": "What is flatMapMerge in Kotlin Flow?", "answer": "flatMapMerge merges multiple Flow sources into a single Flow, allowing concurrent collection."}
+{"question": "How do you use flatMapMerge?", "answer": "Example:"}
+{"question": "What is flatMapLatest in Kotlin Flow?", "answer": "flatMapLatest flattens and collects the latest value from multiple Flow sources."}
+{"question": "How do you use flatMapLatest?", "answer": "Example:"}
+{"question": "What is take in Kotlin Flow?", "answer": "take limits the number of items emitted by a Flow to a specified count."}
+{"question": "How do you use take?", "answer": "Example: flow.take(3).collect { value -> println(value) }."}
+{"question": "What is drop in Kotlin Flow?", "answer": "drop skips a specified number of items from the beginning of a Flow."}
+{"question": "How do you use drop?", "answer": "Example: flow.drop(2).collect { value -> println(value) }."}
+{"question": "What is distinctUntilChanged in Kotlin Flow?", "answer": "distinctUntilChanged ensures that only distinct values are emitted consecutively."}
+{"question": "How do you use distinctUntilChanged?", "answer": "Example: flow.distinctUntilChanged().collect { value -> println(value) }."}
+{"question": "What is debounce in Kotlin Flow?", "answer": "debounce delays emissions from a Flow until a specified time has passed without new values."}
+{"question": "How do you use debounce?", "answer": "Example: flow.debounce(500).collect { value -> println(value) }."}
+{"question": "What is throttleFirst in Kotlin Flow?", "answer": "throttleFirst limits the rate of emissions to one value per specified interval."}
+{"question": "How do you use throttleFirst?", "answer": "Example: flow.throttleFirst(500).collect { value -> println(value) }."}
+{"question": "What is retry in Kotlin Flow?", "answer": "retry retries collecting from a Flow if an exception occurs."}
+{"question": "How do you use retry?", "answer": "Example: flow.retry(3).collect { value -> println(value) }."}
+{"question": "What is catch in Kotlin Flow?", "answer": "catch handles exceptions emitted by a Flow."}
+{"question": "How do you use catch?", "answer": "Example:"}
+{"question": "What is onEach in Kotlin Flow?", "answer": "onEach performs an action on each item emitted by a Flow."}
+{"question": "How do you use onEach?", "answer": "Example: flow.onEach { value -> println(value) }.collect()."}
