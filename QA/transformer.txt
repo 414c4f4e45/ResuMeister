@@ -1,0 +1,359 @@
+Q: What is the main innovation of the Transformer architecture?
+A: The main innovation of the Transformer architecture is the self-attention mechanism, which allows the model to weigh the importance of different words in a sequence relative to each other, enabling better handling of long-range dependencies.
+
+Q: How does self-attention work in Transformers?
+A: Self-attention works by computing a set of attention scores for each word in the sequence relative to all other words. This allows the model to focus on relevant parts of the sequence when encoding each word.
+
+Q: What are the primary components of a Transformer model?
+A: The primary components of a Transformer model are the encoder, decoder, multi-head self-attention mechanism, feed-forward neural networks, and layer normalization.
+
+Q: What is the purpose of the encoder in a Transformer model?
+A: The encoder processes the input sequence and generates a set of contextualized representations that capture the relationships between words in the sequence.
+
+Q: What is the role of the decoder in a Transformer model?
+A: The decoder generates the output sequence based on the encoded representations and previously generated words, utilizing the self-attention and encoder-decoder attention mechanisms.
+
+Q: How does multi-head attention improve the performance of Transformers?
+A: Multi-head attention allows the model to focus on different parts of the sequence simultaneously by using multiple attention heads. This captures various aspects of relationships and dependencies in the data.
+
+Q: What is the function of positional encoding in Transformers?
+A: Positional encoding provides information about the position of each word in the sequence since the self-attention mechanism does not inherently capture positional information.
+
+Q: How does the feed-forward network in a Transformer work?
+A: The feed-forward network consists of two linear transformations with a ReLU activation in between. It applies these transformations to each position independently to enhance the representational capacity of the model.
+
+Q: What is the purpose of layer normalization in Transformers?
+A: Layer normalization stabilizes and speeds up training by normalizing the inputs to each layer, which helps in reducing internal covariate shift and improving model convergence.
+
+Q: What is the difference between encoder-decoder attention and self-attention?
+A: Encoder-decoder attention allows the decoder to focus on specific parts of the encoder’s output, while self-attention allows the encoder (or decoder) to focus on different positions within its own input sequence.
+
+Q: How is the attention score computed in the self-attention mechanism?
+A: The attention score is computed using a dot product between the query and key vectors, followed by a softmax operation to produce a probability distribution over the input sequence.
+
+Q: What is the purpose of the "scaled dot-product attention" mechanism?
+A: Scaled dot-product attention improves numerical stability by scaling the dot product of the query and key vectors by the square root of the dimensionality of the key vectors.
+
+Q: How do Transformers handle variable-length sequences?
+A: Transformers handle variable-length sequences by using positional encodings to represent the position of each word in the sequence, which allows the model to process sequences of different lengths.
+
+Q: What is the role of the dropout mechanism in Transformers?
+A: Dropout helps prevent overfitting by randomly deactivating a subset of neurons during training, which encourages the model to learn more robust representations.
+
+Q: How does the Transformer model differ from traditional RNNs?
+A: Unlike RNNs, Transformers do not rely on sequential processing and instead use self-attention to process all words in parallel, allowing for faster training and better handling of long-range dependencies.
+
+Q: What are the main advantages of using Transformers over LSTMs?
+A: Transformers offer parallel processing, improved handling of long-range dependencies, and faster training due to the absence of sequential operations, compared to the inherently sequential nature of LSTMs.
+
+Q: What is the purpose of the "attention mask" in Transformers?
+A: The attention mask is used to prevent the model from attending to certain positions in the sequence, such as padding tokens or future tokens during autoregressive generation.
+
+Q: How does the "encoder-decoder attention" mechanism work in Transformers?
+A: Encoder-decoder attention allows the decoder to focus on specific parts of the encoder’s output by attending to the encoder's representations, enabling the generation of contextually relevant output.
+
+Q: What is the significance of the "transformer block" in the architecture?
+A: A transformer block consists of multi-head self-attention, feed-forward layers, and layer normalization. Stacking multiple transformer blocks allows the model to learn complex representations and dependencies.
+
+Q: How does the self-attention mechanism handle long-range dependencies?
+A: Self-attention handles long-range dependencies by computing attention scores between all pairs of words, allowing each word to directly attend to any other word in the sequence, regardless of their distance.
+
+Q: What are "transformer layers" and how are they used?
+A: Transformer layers are the building blocks of the Transformer model, each consisting of multi-head attention and feed-forward networks. They are stacked to form the complete encoder and decoder networks.
+
+Q: What is the role of "feed-forward layers" in a Transformer block?
+A: Feed-forward layers apply two linear transformations with an activation function in between to each position independently, enhancing the representational power of the model.
+
+Q: How does "positional encoding" differ from "absolute positional encoding"?
+A: Positional encoding provides relative position information, while absolute positional encoding provides the exact position of each word. Transformers commonly use absolute positional encoding.
+
+Q: What is the purpose of "masked self-attention" in the decoder?
+A: Masked self-attention ensures that the decoder can only attend to previous and current positions during training, preventing information leakage from future tokens.
+
+Q: How do Transformers improve upon traditional sequence-to-sequence models?
+A: Transformers improve traditional sequence-to-sequence models by using self-attention to capture dependencies across the entire sequence, allowing for parallel processing and better long-range dependency modeling.
+
+Q: What is the "transformer encoder" responsible for?
+A: The transformer encoder processes the input sequence and generates contextualized embeddings for each word, which are then used by the decoder to produce the output sequence.
+
+Q: How does "multi-head attention" enhance the model's performance?
+A: Multi-head attention enhances the model's performance by allowing it to capture different types of relationships and dependencies through multiple attention heads, providing a richer representation.
+
+Q: What is the purpose of the "ReLU activation function" in Transformers?
+A: The ReLU activation function introduces non-linearity into the feed-forward network, enabling the model to learn complex patterns and relationships.
+
+Q: How does the "transformer decoder" generate the output sequence?
+A: The transformer decoder generates the output sequence by attending to the encoder's output and previously generated words, producing each word based on the contextual information provided.
+
+Q: What is the role of the "position-wise feed-forward network" in Transformers?
+A: The position-wise feed-forward network applies two linear transformations with a ReLU activation to each position independently, allowing the model to learn complex representations.
+
+Q: How does the "transformer model" handle sequences of varying lengths?
+A: The transformer model handles sequences of varying lengths by using positional encodings to incorporate positional information and by using masking to manage padding tokens.
+
+Q: What is "layer normalization" and why is it used in Transformers?
+A: Layer normalization normalizes the activations within a layer to have zero mean and unit variance. It improves training stability and convergence by reducing internal covariate shift.
+
+Q: What is the purpose of the "softmax function" in the attention mechanism?
+A: The softmax function converts the attention scores into probabilities, allowing the model to weigh the importance of different words when computing the attention output.
+
+Q: How does "self-attention" contribute to the Transformer's performance?
+A: Self-attention allows each word in the sequence to consider all other words, capturing dependencies and contextual relationships more effectively than traditional methods.
+
+Q: What are the key differences between BERT and GPT in terms of Transformer models?
+A: BERT is bidirectional and uses masked language modeling, while GPT is autoregressive and generates text from left to right. BERT focuses on understanding context, while GPT focuses on text generation.
+
+Q: What is the significance of the "transformer architecture" in modern NLP?
+A: The transformer architecture has revolutionized NLP by providing a powerful framework for capturing complex dependencies, enabling models like BERT and GPT to achieve state-of-the-art performance in various tasks.
+
+Q: How does the "scaled dot-product attention" improve the attention mechanism?
+A: Scaled dot-product attention improves the attention mechanism by scaling the dot product of queries and keys, which helps in stabilizing gradients and improving numerical stability.
+
+Q: What is "positional encoding" and how is it implemented in Transformers?
+A: Positional encoding provides information about the position of words in the sequence, typically implemented using sinusoidal functions or learned embeddings to add positional information to the input embeddings.
+
+Q: How does "multi-head self-attention" capture different types of relationships?
+A: Multi-head self-attention captures different types of relationships by using multiple attention heads to focus on various aspects of the input sequence, providing a richer representation of the data.
+
+Q: What is the function of the "transformer attention mask"?
+A: The attention mask controls which positions are attended to in the input sequence, preventing attention to padding tokens or future tokens during training or generation.
+
+Q: What are the main components of the "encoder block" in a Transformer?
+A: The main components of the encoder block are multi-head self-attention, position-wise feed-forward networks, layer normalization, and residual connections.
+
+Q: How does "self-attention" handle long-range dependencies in sequences?
+A: Self-attention handles long-range dependencies by allowing each word to attend to all other words in the sequence, capturing relationships regardless of their distance.
+
+Q: What is "layer normalization" and how is it used in Transformers?
+A: Layer normalization normalizes the activations within a layer to stabilize training and improve convergence. It is applied to the inputs of each sub-layer in the Transformer architecture.
+
+Q: What is the purpose of "multi-head attention" in the Transformer model?
+A: Multi-head attention allows the model to capture various types of relationships and dependencies by using multiple attention heads, each focusing on different parts of the input sequence.
+
+Q: How does the "Transformer model" differ from traditional RNNs and LSTMs?
+A: The Transformer model differs from RNNs and LSTMs by using self-attention instead of sequential processing, allowing for parallel computation and better handling of long-range dependencies.
+
+Q: What is the role of the "feed-forward layer" in a Transformer block?
+A: The feed-forward layer applies two linear transformations with a ReLU activation in between to each position independently, enhancing the model's representational capacity.
+
+Q: How does the "Transformer encoder" process the input sequence?
+A: The Transformer encoder processes the input sequence by applying self-attention and feed-forward layers to generate contextualized embeddings that capture relationships between words.
+
+Q: What is "masking" in the context of Transformer models?
+A: Masking is the process of preventing the model from attending to certain positions, such as padding tokens or future tokens, ensuring that the attention mechanism operates correctly.
+
+Q: How does "positional encoding" help the Transformer model?
+A: Positional encoding provides information about the position of each word in the sequence, allowing the model to incorporate positional information into the embeddings since the self-attention mechanism is position-agnostic.
+
+Q: What are the benefits of using "Transformers" in natural language processing tasks?
+A: Transformers offer benefits such as parallel processing, improved handling of long-range dependencies, and state-of-the-art performance on a wide range of NLP tasks due to their self-attention mechanism.
+
+Q: How does "transformer architecture" enable parallel processing?
+A: The transformer architecture enables parallel processing by removing the sequential nature of RNNs, allowing all words in the sequence to be processed simultaneously through self-attention.
+
+Q: What is the purpose of the "transformer decoder" in sequence-to-sequence tasks?
+A: The transformer decoder generates the output sequence by attending to the encoder's output and previously generated tokens, enabling the model to produce contextually relevant and coherent sequences.
+
+Q: How does the "self-attention mechanism" improve performance in sequence modeling?
+A: The self-attention mechanism improves performance by allowing the model to capture dependencies between all pairs of words in the sequence, regardless of their distance from each other.
+
+Q: What is the role of "residual connections" in the Transformer architecture?
+A: Residual connections allow gradients to flow more easily through the network during training by adding the input of each sub-layer to its output, improving training stability and convergence.
+
+Q: How do "transformer models" handle different input sequence lengths?
+A: Transformer models handle different input sequence lengths by using positional encodings and attention masks to ensure that varying lengths are appropriately managed during training and inference.
+
+Q: What is the significance of "transformer-based pre-trained models" like BERT and GPT?
+A: Transformer-based pre-trained models like BERT and GPT have set new benchmarks in NLP by providing robust language representations that can be fine-tuned for a wide range of downstream tasks.
+
+Q: How does "attention masking" work during training and inference?
+A: Attention masking prevents the model from attending to specific positions, such as padding or future tokens, ensuring that the model generates appropriate outputs and performs correctly during both training and inference.
+
+Q: What are "feed-forward networks" in the context of the Transformer model?
+A: Feed-forward networks are used within each transformer block to apply two linear transformations with a ReLU activation in between, processing each position independently to enhance the model's expressiveness.
+
+Q: How does the "Transformer model" address the issue of vanishing gradients?
+A: The Transformer model addresses the issue of vanishing gradients through the use of residual connections and layer normalization, which help stabilize training and ensure effective gradient flow.
+
+Q: What are "position-wise feed-forward networks" and how are they used?
+A: Position-wise feed-forward networks apply two linear transformations with a ReLU activation to each position in the sequence independently, enhancing the representational capacity of the model.
+
+Q: What is the role of "softmax attention scores" in the Transformer model?
+A: Softmax attention scores convert raw attention weights into probabilities, allowing the model to weigh the importance of different words when computing attention outputs.
+
+Q: How does "multi-head attention" improve the model's ability to capture relationships?
+A: Multi-head attention improves the model's ability to capture relationships by using multiple attention heads to focus on different parts of the input sequence, providing a richer and more nuanced representation.
+
+Q: What is the purpose of "pre-training" and "fine-tuning" in transformer-based models?
+A: Pre-training involves training a model on a large corpus to learn general language representations, while fine-tuning involves adapting the pre-trained model to specific tasks or datasets to improve performance.
+
+Q: How does "self-attention" compare to "cross-attention" in the Transformer model?
+A: Self-attention computes attention within the same sequence, while cross-attention (or encoder-decoder attention) computes attention between different sequences, such as between the encoder and decoder outputs.
+
+Q: What is the importance of "positional encodings" in the Transformer architecture?
+A: Positional encodings are crucial for providing positional information to the model, enabling it to understand the order of words in the sequence, as the self-attention mechanism itself is position-agnostic.
+
+Q: How does "multi-head self-attention" contribute to the model's understanding of context?
+A: Multi-head self-attention contributes to the model's understanding of context by allowing it to capture different aspects of relationships and dependencies through multiple attention heads, leading to a more comprehensive representation.
+
+Q: What are the "advantages" of using Transformers over traditional sequence models?
+A: The advantages of Transformers include parallel processing capabilities, better handling of long-range dependencies, and improved performance due to the self-attention mechanism.
+
+Q: What is the purpose of "transformer embeddings" in NLP tasks?
+A: Transformer embeddings provide contextualized representations of words or tokens, capturing their meanings based on the surrounding context, which enhances the model's ability to understand and generate text.
+
+Q: How does "attention masking" work during autoregressive generation?
+A: During autoregressive generation, attention masking prevents the model from attending to future tokens, ensuring that predictions are based only on previously generated tokens and the context provided by the encoder.
+
+Q: What is the role of "position-wise feed-forward layers" in the Transformer model?
+A: Position-wise feed-forward layers apply two linear transformations with a ReLU activation to each position in the sequence independently, allowing the model to learn complex patterns and enhance its representation.
+
+Q: How does the "Transformer architecture" handle dependencies between words in a sequence?
+A: The Transformer architecture handles dependencies by using self-attention to compute relationships between all pairs of words in the sequence, capturing both local and global dependencies.
+
+Q: What is the function of "residual connections" in the Transformer model?
+A: Residual connections add the input of each sub-layer to its output, facilitating gradient flow and improving training stability by allowing gradients to bypass intermediate layers.
+
+Q: How does the "Transformer model" process variable-length sequences?
+A: The Transformer model processes variable-length sequences by using positional encodings to provide positional information and attention masks to manage padding tokens and ensure proper sequence handling.
+
+Q: What are "Transformers" used for in machine translation tasks?
+A: Transformers are used in machine translation tasks to encode the source sequence into contextual representations and decode these representations into the target sequence, capturing complex language relationships.
+
+Q: How does the "transformer decoder" generate sequences during training?
+A: The transformer decoder generates sequences by attending to the encoder's output and previously generated tokens, using masked self-attention to ensure that predictions are based on past and current context.
+
+Q: What is the significance of "attention weights" in the Transformer model?
+A: Attention weights represent the importance of each word in the sequence relative to others, allowing the model to focus on relevant parts of the sequence and compute contextually informed representations.
+
+Q: How does the "Transformer model" achieve parallelization?
+A: The Transformer model achieves parallelization by processing all words in the sequence simultaneously through self-attention and feed-forward layers, as opposed to the sequential processing of RNNs.
+
+Q: What is the role of "transformer blocks" in the architecture?
+A: Transformer blocks are the building units of the model, consisting of multi-head self-attention and feed-forward layers. Stacking these blocks allows the model to learn complex representations and capture diverse dependencies.
+
+Q: How do "pre-trained Transformer models" like BERT and GPT improve performance on NLP tasks?
+A: Pre-trained Transformer models improve performance by providing robust, contextually rich representations that can be fine-tuned on specific tasks, leading to significant performance gains on various NLP benchmarks.
+
+Q: What is the purpose of "self-attention" in the encoder of a Transformer?
+A: Self-attention in the encoder allows each word to attend to all other words in the input sequence, capturing contextual relationships and generating meaningful embeddings for downstream tasks.
+
+Q: How does "layer normalization" affect the training of Transformers?
+A: Layer normalization stabilizes training by normalizing the inputs to each layer, reducing internal covariate shift and ensuring that activations remain within a suitable range for effective learning.
+
+Q: What is the purpose of "feed-forward layers" in the Transformer model?
+A: Feed-forward layers apply linear transformations and non-linear activations to enhance the representational capacity of the model, allowing it to learn complex patterns and features in the data.
+
+Q: How does "cross-attention" differ from "self-attention" in Transformers?
+A: Cross-attention computes attention between the encoder's output and the decoder's input, while self-attention computes attention within the same sequence, focusing on relationships between words in the same sequence.
+
+Q: What is the role of "transformer encoders" in generating contextual embeddings?
+A: Transformer encoders generate contextual embeddings by applying self-attention and feed-forward layers to the input sequence, producing representations that capture the relationships between words.
+
+Q: How does the "Transformer model" handle long-range dependencies?
+A: The Transformer model handles long-range dependencies effectively through self-attention, which allows each word to attend to all other words in the sequence, capturing both short-range and long-range relationships.
+
+Q: What is the significance of "transformer positional encodings" in the model?
+A: Positional encodings provide information about the position of each word in the sequence, allowing the model to incorporate positional information into its embeddings and understand word order.
+
+Q: How does "multi-head attention" enhance the representational power of the Transformer model?
+A: Multi-head attention enhances representational power by using multiple attention heads to capture different aspects of relationships and dependencies, providing a richer and more nuanced representation of the input sequence.
+
+Q: What are the key components of a "Transformer block"?
+A: The key components of a Transformer block are multi-head self-attention, layer normalization, and position-wise feed-forward layers, which work together to process and represent input sequences effectively.
+
+Q: How does "transformer architecture" address the challenge of parallel processing?
+A: Transformer architecture addresses parallel processing challenges by removing the sequential nature of RNNs, allowing all words in the sequence to be processed simultaneously through self-attention and feed-forward layers.
+
+Q: What is the impact of "pre-training" on transformer models?
+A: Pre-training impacts transformer models by providing them with a broad understanding of language through exposure to large datasets, enabling them to generate robust representations that can be fine-tuned for specific tasks.
+
+Q: How does the "Transformer model" use "positional encoding" to handle sequential data?
+A: The Transformer model uses positional encoding to provide information about the position of each word in the sequence, allowing it to incorporate sequential information into the embeddings despite its position-agnostic self-attention mechanism.
+
+Q: What is the purpose of "attention weights" in the context of Transformer models?
+A: Attention weights determine the importance of each word relative to others when computing attention outputs, allowing the model to focus on relevant parts of the input sequence and capture meaningful relationships.
+
+Q: How do "transformer decoders" generate output sequences?
+A: Transformer decoders generate output sequences by attending to the encoder's output and previously generated tokens, using self-attention and cross-attention mechanisms to produce contextually relevant sequences.
+
+Q: What are the advantages of using "Transformers" over traditional models like RNNs?
+A: Advantages of Transformers over traditional models include improved parallelization, better handling of long-range dependencies, and the ability to capture complex relationships through self-attention.
+
+Q: What is the role of "multi-head attention" in capturing diverse aspects of the input?
+A: Multi-head attention captures diverse aspects of the input by using multiple attention heads to focus on different parts of the sequence, providing a comprehensive representation of relationships and dependencies.
+
+Q: How does "self-attention" contribute to the model's performance?
+A: Self-attention contributes to the model's performance by allowing it to capture dependencies between all pairs of words in the sequence, regardless of their distance, leading to a more accurate understanding of context.
+
+Q: What is the significance of "layer normalization" in the Transformer model?
+A: Layer normalization is significant in the Transformer model as it stabilizes training by normalizing activations within each layer, reducing internal covariate shift and improving convergence.
+
+Q: How does "transformer architecture" improve handling of long-range dependencies compared to RNNs?
+A: Transformer architecture improves handling of long-range dependencies through self-attention, which allows each word to attend to all others in the sequence, overcoming the limitations of sequential processing in RNNs.
+
+Q: What is the purpose of "position-wise feed-forward networks" in Transformers?
+A: Position-wise feed-forward networks apply linear transformations and non-linear activations to each position independently, enhancing the model's ability to learn complex patterns and features in the data.
+
+Q: How does "cross-attention" facilitate sequence-to-sequence tasks in Transformers?
+A: Cross-attention facilitates sequence-to-sequence tasks by allowing the decoder to attend to the encoder's output, enabling the generation of output sequences based on the encoded context.
+
+Q: What is the role of "feed-forward layers" in the Transformer model?
+A: Feed-forward layers enhance the model's representational capacity by applying two linear transformations with a ReLU activation in between, processing each position independently to capture complex features.
+
+Q: How does "transformer self-attention" improve model performance?
+A: Transformer self-attention improves model performance by capturing relationships between all pairs of words in the sequence, allowing the model to understand context more effectively than traditional sequential models.
+
+Q: What are the key features of "Transformers" that differentiate them from traditional sequence models?
+A: Key features of Transformers include self-attention mechanisms, parallel processing capabilities, and the ability to capture long-range dependencies without relying on sequential processing.
+
+Q: How does "layer normalization" contribute to training stability in Transformers?
+A: Layer normalization contributes to training stability by normalizing activations within each layer, reducing internal covariate shift and ensuring that gradients flow effectively during training.
+
+Q: What is the significance of "positional encodings" in the Transformer model?
+A: Positional encodings are significant as they provide information about the position of each word in the sequence, allowing the model to incorporate sequential information into the embeddings despite its position-agnostic self-attention mechanism.
+
+Q: How does the "Transformer model" handle different sequence lengths during training and inference?
+A: The Transformer model handles different sequence lengths by using positional encodings and attention masks to manage padding tokens and ensure proper sequence processing.
+
+Q: What are the advantages of "multi-head attention" in the Transformer architecture?
+A: Advantages of multi-head attention include capturing diverse aspects of relationships and dependencies through multiple attention heads, leading to a richer and more nuanced representation of the input sequence.
+
+Q: How does "transformer architecture" improve over traditional RNNs in terms of parallelization?
+A: Transformer architecture improves parallelization by processing all words in the sequence simultaneously through self-attention and feed-forward layers, avoiding the sequential processing constraints of RNNs.
+
+Q: What is the purpose of "residual connections" in the Transformer model?
+A: Residual connections add the input of each sub-layer to its output, facilitating gradient flow and improving training stability by allowing gradients to bypass intermediate layers.
+
+Q: How does "transformer architecture" address the challenge of capturing long-range dependencies?
+A: Transformer architecture addresses the challenge of capturing long-range dependencies through self-attention, which allows each word to attend to all other words in the sequence, capturing both short-range and long-range relationships.
+
+Q: What is the role of "feed-forward networks" in the context of the Transformer model?
+A: Feed-forward networks apply linear transformations and non-linear activations to each position independently, enhancing the model's representational capacity and ability to learn complex patterns.
+
+Q: How does "attention masking" work in the context of training transformer models?
+A: Attention masking prevents the model from attending to certain positions, such as padding tokens or future tokens, ensuring that the attention mechanism operates correctly during training.
+
+Q: What is the significance of "pre-training" and "fine-tuning" in the use of transformer models?
+A: Pre-training provides the model with general language representations through exposure to large datasets, while fine-tuning adapts these representations to specific tasks, leading to improved performance.
+
+Q: How does "self-attention" contribute to the model's ability to understand context?
+A: Self-attention contributes by allowing the model to compute relationships between all pairs of words in the sequence, capturing dependencies and contextual information effectively.
+
+Q: What are "transformer embeddings" and their role in NLP tasks?
+A: Transformer embeddings provide contextualized representations of words or tokens, capturing their meanings based on surrounding context, which enhances the model's understanding and generation of text.
+
+Q: How does "multi-head attention" enhance the model's ability to capture relationships?
+A: Multi-head attention enhances the model's ability by using multiple attention heads to focus on different parts of the input sequence, providing a more comprehensive representation of relationships and dependencies.
+
+Q: What is the role of "transformer decoders" in sequence generation?
+A: Transformer decoders generate sequences by attending to the encoder's output and previously generated tokens, using self-attention and cross-attention mechanisms to produce contextually relevant outputs.
+
+Q: How does "layer normalization" affect the performance of transformer models?
+A: Layer normalization affects performance by stabilizing training through normalization of activations within each layer, reducing internal covariate shift and improving convergence.
+
+Q: What are the key components of the "Transformer model" architecture?
+A: Key components include multi-head self-attention, layer normalization, feed-forward layers, and positional encodings, which work together to process and represent input sequences effectively.
+
+Q: How does the "Transformer model" address issues related to long-range dependencies?
+A: The Transformer model addresses long-range dependencies through self-attention, which allows each word to attend to all other words in the sequence, capturing both short-range and long-range relationships.

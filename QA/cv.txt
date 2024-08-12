@@ -1,0 +1,416 @@
+Q: What is Computer Vision?
+A: Computer Vision is a field of artificial intelligence that enables computers to interpret and understand visual information from the world, such as images and videos.
+
+Q: What is the purpose of image classification?
+A: Image classification aims to assign a label or category to an entire image based on its content, such as identifying objects, scenes, or activities.
+
+Q: What is an object detection task in computer vision?
+A: Object detection involves identifying and locating objects within an image by drawing bounding boxes around them and classifying them.
+
+Q: What is the difference between image classification and object detection?
+A: Image classification assigns a single label to an entire image, while object detection identifies and locates multiple objects within an image with bounding boxes and labels.
+
+Q: What is a convolutional neural network (CNN)?
+A: A Convolutional Neural Network (CNN) is a type of deep learning model specifically designed for processing and analyzing visual data, such as images, by using convolutional layers.
+
+Q: What are convolutional layers in a CNN?
+A: Convolutional layers apply convolutional filters to input images, extracting features such as edges, textures, and patterns.
+
+Q: What is pooling in a CNN?
+A: Pooling is a downsampling operation that reduces the spatial dimensions of feature maps, decreasing the computational load and capturing essential features.
+
+Q: What is the purpose of activation functions in CNNs?
+A: Activation functions introduce non-linearity into the model, allowing CNNs to learn complex patterns and relationships in visual data.
+
+Q: What is the ReLU activation function?
+A: The Rectified Linear Unit (ReLU) activation function outputs the input value if positive; otherwise, it outputs zero, introducing non-linearity while maintaining computational efficiency.
+
+Q: What is a fully connected layer in a CNN?
+A: A Fully Connected Layer connects every neuron in one layer to every neuron in the next layer, combining features learned by previous layers to make final predictions.
+
+Q: What is the purpose of data augmentation in computer vision?
+A: Data augmentation involves creating variations of training images, such as rotations or flips, to increase the diversity of the dataset and improve model generalization.
+
+Q: What is transfer learning in computer vision?
+A: Transfer learning involves using a pre-trained model on a new task, leveraging learned features from a related domain to improve performance on the new task.
+
+Q: What is the role of a loss function in training a CNN?
+A: The loss function measures the difference between the model's predictions and the actual labels, guiding the optimization process to minimize errors.
+
+Q: What is the YOLO algorithm in object detection?
+A: YOLO (You Only Look Once) is an object detection algorithm that performs object detection in a single forward pass through the network, predicting bounding boxes and class labels simultaneously.
+
+Q: What is the purpose of the bounding box in object detection?
+A: The bounding box identifies the location of an object within an image, typically represented by its coordinates and dimensions.
+
+Q: What is semantic segmentation?
+A: Semantic segmentation assigns a class label to each pixel in an image, segmenting the image into regions corresponding to different object classes.
+
+Q: What is the difference between semantic segmentation and instance segmentation?
+A: Semantic segmentation labels each pixel with a class, while instance segmentation also differentiates between individual object instances within each class.
+
+Q: What is a Region-based CNN (R-CNN)?
+A: R-CNN is an object detection method that uses region proposals to identify potential object locations and then classifies these regions using a CNN.
+
+Q: What is a mask in instance segmentation?
+A: A mask is a binary image that represents the precise shape and location of an object instance, used to segment objects at the pixel level.
+
+Q: What is the role of a feature extractor in computer vision?
+A: A feature extractor processes raw image data to extract meaningful features or patterns, which are then used for tasks like classification or detection.
+
+Q: What is image preprocessing?
+A: Image preprocessing involves techniques such as resizing, normalization, and noise reduction to prepare images for analysis and improve model performance.
+
+Q: What is image segmentation?
+A: Image segmentation involves dividing an image into distinct regions or segments based on attributes like color, texture, or object boundaries.
+
+Q: What is the purpose of edge detection in computer vision?
+A: Edge detection identifies boundaries or changes in intensity within an image, helping to delineate objects and features.
+
+Q: What is a feature map in a CNN?
+A: A feature map is the output of a convolutional layer, representing the presence of specific features detected by the convolutional filters.
+
+Q: What is the difference between a shallow and deep neural network?
+A: A shallow neural network has a small number of layers, while a deep neural network has many layers, allowing it to learn more complex features.
+
+Q: What is an autoencoder in computer vision?
+A: An autoencoder is a neural network used for unsupervised learning, compressing input data into a lower-dimensional representation and then reconstructing it.
+
+Q: What is the role of normalization in deep learning?
+A: Normalization techniques, such as Batch Normalization, stabilize and accelerate training by adjusting and scaling activations within the network.
+
+Q: What is the purpose of dropout in neural networks?
+A: Dropout is a regularization technique that randomly disables neurons during training to prevent overfitting and improve generalization.
+
+Q: What is the difference between supervised and unsupervised learning in computer vision?
+A: Supervised learning uses labeled data for training, while unsupervised learning discovers patterns or features in unlabeled data.
+
+Q: What is the role of gradient descent in training neural networks?
+A: Gradient descent is an optimization algorithm that adjusts the model's parameters by minimizing the loss function using gradients of the loss.
+
+Q: What is the purpose of a convolutional filter?
+A: Convolutional filters detect specific features or patterns in an image by sliding over the input and performing element-wise multiplication and summation.
+
+Q: What is the concept of overfitting in machine learning?
+A: Overfitting occurs when a model performs well on training data but poorly on unseen data, often due to excessive complexity or lack of generalization.
+
+Q: What is the purpose of cross-validation in model evaluation?
+A: Cross-validation assesses the model's performance by splitting the data into multiple subsets, training and validating the model on different subsets to ensure robustness.
+
+Q: What is an image histogram?
+A: An image histogram represents the distribution of pixel intensities in an image, useful for analyzing contrast, brightness, and image quality.
+
+Q: What is the concept of feature scaling?
+A: Feature scaling adjusts the range of feature values to ensure they contribute equally to model training, improving convergence and performance.
+
+Q: What is a support vector machine (SVM) in computer vision?
+A: SVM is a supervised learning algorithm used for classification and regression tasks, finding the optimal hyperplane that separates different classes in the feature space.
+
+Q: What is an ensemble method in machine learning?
+A: Ensemble methods combine multiple models to improve performance and robustness, such as using techniques like bagging, boosting, or stacking.
+
+Q: What is the concept of object tracking?
+A: Object tracking involves following the movement of an object across a sequence of frames in video data, maintaining its identity over time.
+
+Q: What is a generative adversarial network (GAN)?
+A: A GAN is a neural network architecture consisting of a generator and a discriminator, used to generate realistic data by learning from a training dataset.
+
+Q: What is the role of the generator in a GAN?
+A: The generator creates synthetic data samples to mimic real data, aiming to fool the discriminator into classifying them as real.
+
+Q: What is the role of the discriminator in a GAN?
+A: The discriminator evaluates data samples, distinguishing between real and generated data, guiding the generator to improve its output.
+
+Q: What is image denoising?
+A: Image denoising removes noise from images, improving visual quality and clarity, often using techniques like filters or neural networks.
+
+Q: What is the concept of image registration?
+A: Image registration aligns multiple images of the same scene taken at different times or from different viewpoints, facilitating analysis and comparison.
+
+Q: What is a bounding box regression in object detection?
+A: Bounding box regression predicts the precise coordinates of bounding boxes around objects, refining their location and size.
+
+Q: What is a feature descriptor?
+A: A feature descriptor represents key characteristics of an image feature, such as texture or shape, used for matching and recognition tasks.
+
+Q: What is the difference between grayscale and color images?
+A: Grayscale images contain only intensity values, while color images include additional channels (e.g., RGB) representing color information.
+
+Q: What is the concept of spatial resolution in images?
+A: Spatial resolution refers to the amount of detail an image holds, defined by the number of pixels and their arrangement.
+
+Q: What is the role of histogram equalization in image processing?
+A: Histogram equalization improves image contrast by redistributing pixel intensity values, enhancing visibility of features.
+
+Q: What is a deep learning-based image classifier?
+A: A deep learning-based image classifier uses neural networks, such as CNNs, to categorize images into predefined classes based on learned features.
+
+Q: What is the purpose of image augmentation?
+A: Image augmentation artificially increases the diversity of the training dataset by applying transformations like rotations, translations, or color changes.
+
+Q: What is object segmentation?
+A: Object segmentation divides an image into regions corresponding to different objects or parts, often used in tasks like medical imaging or autonomous driving.
+
+Q: What is a convolutional neural network's receptive field?
+A: The receptive field is the region of the input image that influences the activation of a particular neuron in a convolutional layer.
+
+Q: What is a semantic map in computer vision?
+A: A semantic map assigns class labels to each pixel in an image, used in semantic segmentation to represent object regions.
+
+Q: What is the concept of feature extraction in image processing?
+A: Feature extraction involves identifying and representing important aspects of an image, such as edges or textures, for further analysis or classification.
+
+Q: What is the role of the pooling layer in a CNN?
+A: The pooling layer reduces the spatial dimensions of feature maps, simplifying the data while preserving essential features.
+
+Q: What is a transfer learning technique for computer vision?
+A: Transfer learning involves adapting a pre-trained model to a new task or domain, leveraging previously learned features to improve performance.
+
+Q: What is the concept of object localization?
+A: Object localization involves identifying the position of objects within an image, typically represented by bounding boxes or coordinates.
+
+Q: What is the purpose of data normalization in image processing?
+A: Data normalization scales pixel values to a standard range, improving model training stability and performance.
+
+Q: What is a deep learning model's feature map visualization?
+A: Feature map visualization shows the activations of intermediate layers in a deep learning model, helping to understand learned features and patterns.
+
+Q: What is an image classifier's accuracy metric?
+A: Accuracy measures the proportion of correctly classified images out of the total number of images, assessing the model's overall performance.
+
+Q: What is an anomaly detection task in computer vision?
+A: Anomaly detection identifies unusual or unexpected patterns in images, useful for tasks like fraud detection or quality control.
+
+Q: What is a generative model in computer vision?
+A: A generative model learns to create new data samples by modeling the underlying distribution of the training data, such as in GANs or VAEs.
+
+Q: What is the role of feature fusion in multi-modal learning?
+A: Feature fusion combines features from different modalities (e.g., images and text) to improve model performance and enable more comprehensive analysis.
+
+Q: What is image super-resolution?
+A: Image super-resolution enhances the resolution of low-quality images, creating high-resolution versions with finer details.
+
+Q: What is a multi-scale feature extraction technique?
+A: Multi-scale feature extraction captures features at different scales or resolutions, allowing models to detect objects of varying sizes.
+
+Q: What is an image segmentation mask?
+A: An image segmentation mask is a binary or multi-class image representing segmented regions, used to delineate different objects or areas.
+
+Q: What is the purpose of edge detection algorithms?
+A: Edge detection algorithms identify boundaries or transitions in an image, aiding in object recognition and feature extraction.
+
+Q: What is the role of activation functions in neural networks?
+A: Activation functions introduce non-linearity into neural networks, enabling them to learn and model complex patterns and relationships.
+
+Q: What is a feature pyramid network (FPN)?
+A: A Feature Pyramid Network (FPN) is a model architecture that generates multi-scale feature representations, improving object detection across different scales.
+
+Q: What is the concept of object re-identification?
+A: Object re-identification involves recognizing and matching the same object across different images or video frames, often used in surveillance and tracking.
+
+Q: What is the role of regularization in deep learning?
+A: Regularization techniques, such as dropout or weight decay, prevent overfitting by imposing constraints on model complexity.
+
+Q: What is a Region Proposal Network (RPN)?
+A: A Region Proposal Network (RPN) generates candidate regions for object detection by predicting bounding boxes and objectness scores from feature maps.
+
+Q: What is the purpose of a decoder in an image-to-image translation task?
+A: The decoder generates the final output image from encoded feature representations, used in tasks like image translation or style transfer.
+
+Q: What is a deep learning model's validation loss?
+A: Validation loss measures the model's performance on a separate validation dataset, providing insight into its generalization ability.
+
+Q: What is a convolutional autoencoder?
+A: A Convolutional Autoencoder is a neural network that learns to compress and reconstruct images using convolutional layers, often used for tasks like denoising or feature learning.
+
+Q: What is a k-means clustering algorithm?
+A: K-means clustering is an unsupervised learning algorithm that partitions data into k clusters by minimizing the distance between data points and cluster centroids.
+
+Q: What is a deep learning-based image generation model?
+A: A deep learning-based image generation model creates new images by learning from a dataset, such as Generative Adversarial Networks (GANs) or Variational Autoencoders (VAEs).
+
+Q: What is the role of spatial transformers in computer vision?
+A: Spatial transformers perform spatial transformations on input images, such as rotations or scaling, to improve the model's robustness to geometric variations.
+
+Q: What is a keypoint detection task?
+A: Keypoint detection involves identifying specific points of interest in an image, such as facial landmarks or object corners, used in tasks like pose estimation.
+
+Q: What is the concept of image feature matching?
+A: Image feature matching involves comparing and aligning features between images, used in tasks like image stitching or object recognition.
+
+Q: What is the purpose of data augmentation in training deep learning models?
+A: Data augmentation artificially increases the size and diversity of the training dataset, improving the model's ability to generalize to new data.
+
+Q: What is a Siamese network in computer vision?
+A: A Siamese network is a neural network architecture with twin networks that share weights, used for tasks like similarity learning and metric learning.
+
+Q: What is a deep learning model's epoch?
+A: An epoch is one complete pass through the entire training dataset during the model's training process, used to update the model's parameters.
+
+Q: What is a fully convolutional network (FCN)?
+A: A Fully Convolutional Network (FCN) is a type of CNN designed for pixel-wise prediction tasks, such as semantic segmentation, where each pixel is classified.
+
+Q: What is the role of the attention mechanism in computer vision?
+A: The attention mechanism allows the model to focus on relevant parts of the input image, enhancing performance in tasks like image captioning or visual question answering.
+
+Q: What is the concept of style transfer in computer vision?
+A: Style transfer involves applying the artistic style of one image to the content of another, creating a new image that combines both styles and contents.
+
+Q: What is a deep learning model's training loss?
+A: Training loss measures the difference between the model's predictions and the true labels during training, guiding the optimization process to minimize errors.
+
+Q: What is the role of an object detection algorithm's anchor boxes?
+A: Anchor boxes are predefined bounding boxes of different shapes and sizes used to generate object proposals and improve detection accuracy.
+
+Q: What is a generative model's latent space?
+A: Latent space is a lower-dimensional representation learned by a generative model, capturing essential features and patterns from the input data.
+
+Q: What is a convolutional neural network's stride?
+A: Stride refers to the step size with which a convolutional filter moves across the input image, affecting the spatial dimensions of the output feature map.
+
+Q: What is the purpose of a classifier's confusion matrix?
+A: A confusion matrix summarizes the performance of a classifier by showing the counts of true positives, true negatives, false positives, and false negatives.
+
+Q: What is the role of a deep learning model's hyperparameters?
+A: Hyperparameters are settings that control the training process, such as learning rate or batch size, affecting the model's performance and convergence.
+
+Q: What is a semantic segmentation task's ground truth?
+A: Ground truth refers to the accurate, manually annotated labels for each pixel in an image, used to train and evaluate semantic segmentation models.
+
+Q: What is a neural network's backpropagation algorithm?
+A: Backpropagation is an optimization algorithm used to compute gradients of the loss function with respect to the model's parameters, guiding weight updates during training.
+
+Q: What is a feature pyramid network's purpose?
+A: Feature Pyramid Networks (FPN) improve object detection by generating feature maps at multiple scales, enabling detection of objects of various sizes.
+
+Q: What is an object detection model's precision?
+A: Precision measures the proportion of true positive detections out of all positive detections, assessing the accuracy of the model's object detection.
+
+Q: What is a Variational Autoencoder (VAE)?
+A: A Variational Autoencoder (VAE) is a generative model that learns to encode data into a latent space and decode it back, used for tasks like data generation and reconstruction.
+
+Q: What is the purpose of object localization in autonomous vehicles?
+A: Object localization helps autonomous vehicles detect and pinpoint the position of objects, such as pedestrians or other vehicles, crucial for navigation and safety.
+
+Q: What is an image classification model's recall?
+A: Recall measures the proportion of true positive detections out of all actual positive instances, assessing the model's ability to identify relevant objects.
+
+Q: What is an image processing technique for noise reduction?
+A: Noise reduction techniques, such as Gaussian blur or median filtering, remove unwanted noise from images, improving visual quality and analysis.
+
+Q: What is an object tracking algorithm's Kalman filter?
+A: The Kalman filter is an algorithm used for tracking and predicting the position of moving objects based on noisy measurements and a dynamic model.
+
+Q: What is the concept of image normalization?
+A: Image normalization adjusts pixel values to a standard range or distribution, improving the consistency and effectiveness of image processing and analysis.
+
+Q: What is a deep learning model's learning rate?
+A: The learning rate controls the size of weight updates during training, influencing the convergence speed and stability of the optimization process.
+
+Q: What is an image denoising task?
+A: Image denoising removes unwanted noise from images, improving their quality and clarity for subsequent analysis or processing.
+
+Q: What is a generative adversarial network's (GAN) discriminator?
+A: The discriminator is a component of a GAN that evaluates the authenticity of generated images, guiding the generator to produce more realistic samples.
+
+Q: What is the role of data augmentation in image classification?
+A: Data augmentation increases the diversity of the training dataset by applying transformations, such as rotations or flips, improving the model's generalization ability.
+
+Q: What is the concept of semantic segmentation in computer vision?
+A: Semantic segmentation assigns class labels to each pixel in an image, allowing the model to understand and distinguish different regions or objects.
+
+Q: What is a convolutional neural network's kernel?
+A: A kernel (or filter) is a matrix used to perform convolution operations on an image, extracting features like edges or textures.
+
+Q: What is the purpose of a feature map in a CNN?
+A: Feature maps represent the output of convolutional layers, capturing different aspects of the input image and enabling further analysis.
+
+Q: What is the role of dropout in a neural network?
+A: Dropout is a regularization technique that randomly deactivates neurons during training, preventing overfitting and improving model generalization.
+
+Q: What is a neural network's epoch?
+A: An epoch is a single pass through the entire training dataset, during which the model's weights are updated based on the training data.
+
+Q: What is the concept of multi-class classification in computer vision?
+A: Multi-class classification involves categorizing images into one of several classes, with each image belonging to a single class from multiple options.
+
+Q: What is the purpose of the activation function in a neural network?
+A: Activation functions introduce non-linearity into the network, allowing it to model complex relationships and patterns in the data.
+
+Q: What is the role of a convolutional layer in a CNN?
+A: The convolutional layer applies filters to the input image, extracting features like edges or textures, which are then used for further processing.
+
+Q: What is a neural network's learning rate schedule?
+A: A learning rate schedule adjusts the learning rate over time, typically decreasing it as training progresses to refine the model's performance.
+
+Q: What is the concept of object detection in computer vision?
+A: Object detection involves identifying and locating objects within an image, often using bounding boxes and class labels.
+
+Q: What is a convolutional neural network's pooling layer?
+A: The pooling layer reduces the spatial dimensions of feature maps, summarizing information and making the model more invariant to small translations.
+
+Q: What is the role of the gradient descent algorithm in training neural networks?
+A: Gradient descent optimizes the model's weights by minimizing the loss function through iterative updates based on the gradient of the loss with respect to the weights.
+
+Q: What is a deep learning model's batch size?
+A: Batch size refers to the number of samples processed together in one forward/backward pass during training, affecting the model's convergence and training efficiency.
+
+Q: What is the concept of object segmentation?
+A: Object segmentation involves dividing an image into regions corresponding to different objects or parts, providing detailed information about object boundaries.
+
+Q: What is a neural network's weight initialization?
+A: Weight initialization sets the starting values of the model's weights, influencing the training dynamics and convergence of the neural network.
+
+Q: What is the role of the loss function in training a deep learning model?
+A: The loss function measures the difference between the model's predictions and the actual values, guiding the optimization process to minimize errors.
+
+Q: What is a deep learning model's overfitting?
+A: Overfitting occurs when a model performs well on the training data but poorly on unseen data, often due to excessive model complexity or insufficient training data.
+
+Q: What is the concept of image augmentation?
+A: Image augmentation involves applying transformations to images, such as rotations or scaling, to artificially expand the training dataset and improve model robustness.
+
+Q: What is the role of a neural network's activation function?
+A: Activation functions introduce non-linearity into the network, enabling it to learn complex patterns and relationships in the data.
+
+Q: What is a computer vision task's precision-recall curve?
+A: The precision-recall curve plots the trade-off between precision and recall for different threshold values, evaluating the performance of binary classifiers.
+
+Q: What is the purpose of a convolutional neural network's stride?
+A: Stride controls the step size of the convolutional filter as it moves across the image, affecting the size of the output feature map.
+
+Q: What is the concept of an image's histogram equalization?
+A: Histogram equalization adjusts the contrast of an image by redistributing pixel intensity values, enhancing details and improving visibility.
+
+Q: What is a neural network's dropout rate?
+A: Dropout rate specifies the proportion of neurons deactivated during training, used to prevent overfitting and improve generalization.
+
+Q: What is a region-based convolutional neural network (R-CNN)?
+A: An R-CNN is a type of object detection model that combines region proposals with CNN features to identify and classify objects within images.
+
+Q: What is the role of feature scaling in image preprocessing?
+A: Feature scaling standardizes pixel values to a common range, improving the performance and stability of machine learning models.
+
+Q: What is a deep learning model's early stopping technique?
+A: Early stopping halts training when the model's performance on a validation set no longer improves, preventing overfitting and saving computational resources.
+
+Q: What is a convolutional layer's receptive field?
+A: The receptive field is the region of the input image that a neuron in the convolutional layer is sensitive to, influencing its activation.
+
+Q: What is the concept of image denoising?
+A: Image denoising removes noise from images to improve their quality and clarity, often using techniques like filtering or neural networks.
+
+Q: What is the role of a model's hyperparameters?
+A: Hyperparameters control various aspects of model training and architecture, such as learning rate and batch size, affecting the model's performance and convergence.
+
+Q: What is the purpose of a convolutional neural network's kernel size?
+A: Kernel size determines the dimensions of the convolutional filters used to extract features from the input image, influencing the level of detail captured.
+
+Q: What is the concept of object tracking in computer vision?
+A: Object tracking involves following the movement of objects across video frames, used in applications like surveillance and autonomous vehicles.
+
+Q: What is an image classification task's precision?
+A: Precision measures the accuracy of positive predictions, indicating the proportion of correctly identified positive instances out of all predicted positives.
+
+Q: What is the role of data augmentation in improving deep learning models?
+A: Data augmentation enhances the diversity of training data by applying transformations, which helps improve the model's robustness and generalization.

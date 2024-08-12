@@ -1,0 +1,502 @@
+Q: What is a neural network?
+A: A neural network is a computational model inspired by the human brain, consisting of interconnected nodes (neurons) organized in layers. It is used to recognize patterns, classify data, and make predictions based on input data.
+
+Q: What are the main components of a neural network?
+A: The main components of a neural network are neurons (nodes), layers (input layer, hidden layers, output layer), weights, biases, and activation functions.
+
+Q: What is an activation function?
+A: An activation function is a mathematical function applied to the output of each neuron in a neural network layer. It introduces non-linearity into the model, allowing it to learn complex patterns. Common activation functions include ReLU, Sigmoid, and Tanh.
+
+Q: What is the role of the input layer in a neural network?
+A: The input layer is the first layer of a neural network that receives and processes the raw input data before passing it to the subsequent hidden layers for further processing.
+
+Q: What is a hidden layer?
+A: A hidden layer is a layer between the input layer and the output layer in a neural network. It performs intermediate computations and feature extraction to help the network learn complex patterns.
+
+Q: What is the output layer?
+A: The output layer is the final layer in a neural network that produces the prediction or classification result based on the processed input data from the hidden layers.
+
+Q: What is the purpose of weights in a neural network?
+A: Weights are parameters that determine the strength of the connection between neurons in different layers. They are adjusted during training to minimize the error between the predicted output and the actual target.
+
+Q: What is a bias in a neural network?
+A: A bias is an additional parameter added to the weighted sum of inputs in a neuron. It allows the activation function to shift and helps the network learn more complex patterns by providing more flexibility.
+
+Q: What is backpropagation?
+A: Backpropagation is a supervised learning algorithm used to train neural networks by adjusting weights and biases through gradient descent. It involves computing the gradient of the loss function with respect to each weight and bias and updating them to minimize the loss.
+
+Q: What is a loss function?
+A: A loss function, also known as a cost function or objective function, measures the difference between the predicted output and the actual target. It guides the training process by quantifying the error to be minimized.
+
+Q: What is gradient descent?
+A: Gradient descent is an optimization algorithm used to minimize the loss function by iteratively adjusting the weights and biases of a neural network in the direction of the negative gradient of the loss function.
+
+Q: What is the role of the ReLU activation function?
+A: The ReLU (Rectified Linear Unit) activation function introduces non-linearity by outputting the input value if it is positive and zero otherwise. It helps prevent the vanishing gradient problem and speeds up training.
+
+Q: What is the vanishing gradient problem?
+A: The vanishing gradient problem occurs when gradients of the loss function become very small during backpropagation, causing slow or stalled learning. It is common in deep networks with certain activation functions like Sigmoid or Tanh.
+
+Q: What is overfitting in a neural network?
+A: Overfitting occurs when a neural network learns the training data too well, including noise and outliers, resulting in poor generalization to new, unseen data. It often leads to high accuracy on training data but low accuracy on validation or test data.
+
+Q: What is regularization?
+A: Regularization is a technique used to prevent overfitting by adding a penalty to the loss function based on the complexity of the model. Common regularization methods include L1 and L2 regularization, dropout, and early stopping.
+
+Q: What is dropout in neural networks?
+A: Dropout is a regularization technique that randomly "drops out" or deactivates a fraction of neurons during training to prevent the network from becoming too reliant on specific neurons, thereby improving generalization.
+
+Q: What is a convolutional neural network (CNN)?
+A: A convolutional neural network (CNN) is a type of neural network specifically designed for processing grid-like data, such as images. It uses convolutional layers to automatically extract features and patterns from the input data.
+
+Q: What is a pooling layer in a CNN?
+A: A pooling layer in a CNN reduces the spatial dimensions of the input data by applying a pooling operation, such as max pooling or average pooling, to extract the most important features and reduce computational complexity.
+
+Q: What is a recurrent neural network (RNN)?
+A: A recurrent neural network (RNN) is a type of neural network designed to handle sequential data by maintaining a memory of previous inputs through feedback connections, making it suitable for tasks like time series forecasting and natural language processing.
+
+Q: What is a long short-term memory (LSTM) network?
+A: A long short-term memory (LSTM) network is a type of RNN designed to overcome the vanishing gradient problem and capture long-term dependencies in sequential data by using special memory cells and gating mechanisms.
+
+Q: What is a gated recurrent unit (GRU)?
+A: A gated recurrent unit (GRU) is a type of RNN similar to LSTM but with a simplified architecture. It uses gating mechanisms to control the flow of information and capture dependencies in sequential data.
+
+Q: What is transfer learning?
+A: Transfer learning is a technique where a pre-trained neural network model is adapted and fine-tuned for a new, related task. It leverages the knowledge gained from one task to improve performance on another.
+
+Q: What is fine-tuning in neural networks?
+A: Fine-tuning is the process of taking a pre-trained neural network and making small adjustments to its weights and biases for a specific task or dataset, improving its performance on the new task.
+
+Q: What is the difference between supervised and unsupervised learning?
+A: Supervised learning involves training a neural network on labeled data where the target output is known, while unsupervised learning involves training on unlabeled data to identify patterns or structures without predefined labels.
+
+Q: What is semi-supervised learning?
+A: Semi-supervised learning is a technique that combines a small amount of labeled data with a large amount of unlabeled data during training. It aims to improve model performance when labeled data is scarce.
+
+Q: What is a batch normalization layer?
+A: A batch normalization layer normalizes the activations of a neural network layer by adjusting the mean and variance of the inputs. It helps stabilize and accelerate training by reducing internal covariate shift.
+
+Q: What is a neural network hyperparameter?
+A: A neural network hyperparameter is a configuration setting that is set before training and affects the model's performance, such as learning rate, number of layers, number of neurons per layer, and activation functions.
+
+Q: What is a weight initialization?
+A: Weight initialization refers to the method of setting initial values for the weights in a neural network before training begins. Proper initialization helps prevent issues like vanishing gradients and improves convergence.
+
+Q: What is the purpose of a learning rate in neural networks?
+A: The learning rate is a hyperparameter that controls the step size taken during the weight update process in gradient descent. It determines how quickly or slowly the model learns and converges.
+
+Q: What is early stopping?
+A: Early stopping is a regularization technique that involves monitoring the performance of a neural network on a validation set during training and stopping the training process when performance starts to degrade, preventing overfitting.
+
+Q: What is a feedforward neural network?
+A: A feedforward neural network is a type of neural network where the connections between neurons only move in one direction, from input to output, without any feedback loops or recurrent connections.
+
+Q: What is a multi-layer perceptron (MLP)?
+A: A multi-layer perceptron (MLP) is a type of feedforward neural network with one or more hidden layers between the input and output layers. It is used for various tasks, including classification and regression.
+
+Q: What is the difference between a shallow and deep neural network?
+A: A shallow neural network has a single hidden layer, while a deep neural network has multiple hidden layers. Deep networks can learn more complex patterns due to their increased depth and capacity.
+
+Q: What is a generative adversarial network (GAN)?
+A: A generative adversarial network (GAN) is a type of neural network architecture consisting of two networks, a generator and a discriminator, that compete against each other. The generator creates data, and the discriminator evaluates its authenticity.
+
+Q: What is a self-organizing map (SOM)?
+A: A self-organizing map (SOM) is an unsupervised neural network that uses competitive learning to cluster and visualize high-dimensional data in a lower-dimensional space, often used for dimensionality reduction and data visualization.
+
+Q: What is the role of the loss function in neural networks?
+A: The loss function measures the difference between the predicted output and the actual target value. It provides a quantitative measure of model performance and guides the optimization process during training.
+
+Q: What is the purpose of the bias term in a neural network?
+A: The bias term allows the activation function to be shifted and helps the model learn more complex patterns by providing more flexibility in the decision boundary.
+
+Q: What is a training epoch?
+A: A training epoch is one complete pass through the entire training dataset during the training process. Multiple epochs are typically required for the model to converge and learn effectively.
+
+Q: What is mini-batch gradient descent?
+A: Mini-batch gradient descent is an optimization technique that updates the model's weights using a small, randomly selected subset of the training data (mini-batch) rather than the entire dataset. It balances the advantages of both batch and stochastic gradient descent.
+
+Q: What is stochastic gradient descent (SGD)?
+A: Stochastic gradient descent (SGD) is an optimization algorithm that updates the model's weights using a single data point at a time rather than the entire dataset. It introduces randomness and can help escape local minima.
+
+Q: What is the purpose of dropout regularization?
+A: Dropout regularization helps prevent overfitting by randomly deactivating a fraction of neurons during training, forcing the network to rely on multiple neurons and learn more robust features.
+
+Q: What is a kernel in a convolutional neural network?
+A: A kernel, also known as a filter, is a small matrix used in convolutional layers to detect specific features or patterns in the input data. It slides across the input to perform convolution operations.
+
+Q: What is the role of padding in a convolutional layer?
+A: Padding adds extra pixels around the edges of the input data to maintain the spatial dimensions after applying convolution operations. It helps preserve important features and avoid dimensionality reduction.
+
+Q: What is the purpose of the softmax function in the output layer?
+A: The softmax function converts the raw output scores of a neural network into probabilities by normalizing the scores. It is commonly used for classification tasks with multiple classes.
+
+Q: What is a confusion matrix?
+A: A confusion matrix is a table used to evaluate the performance of a classification model. It shows the true positive, true negative, false positive, and false negative predictions, providing insights into the model's accuracy and error rates.
+
+Q: What is the purpose of using a validation set?
+A: A validation set is used to evaluate the performance of a neural network during training and tune hyperparameters. It helps ensure that the model generalizes well to new, unseen data and prevents overfitting.
+
+Q: What is cross-validation?
+A: Cross-validation is a technique for assessing the performance of a neural network by dividing the dataset into multiple subsets (folds) and training/testing the model on different combinations of these subsets. It helps ensure robust evaluation and reduces overfitting.
+
+Q: What is the role of weight decay in regularization?
+A: Weight decay, also known as L2 regularization, adds a penalty term to the loss function based on the magnitude of the weights. It helps prevent overfitting by discouraging large weights and promoting simpler models.
+
+Q: What is the difference between L1 and L2 regularization?
+A: L1 regularization (Lasso) adds a penalty proportional to the absolute values of weights, promoting sparsity. L2 regularization (Ridge) adds a penalty proportional to the squared values of weights, promoting smaller weights but not necessarily sparsity.
+
+Q: What is a neural network hyperparameter tuning?
+A: Hyperparameter tuning involves selecting the optimal values for hyperparameters (e.g., learning rate, number of layers) to improve the performance of a neural network. Techniques include grid search, random search, and Bayesian optimization.
+
+Q: What is a batch size in neural network training?
+A: Batch size is the number of training samples processed before updating the model's weights. Smaller batch sizes lead to more frequent updates, while larger batch sizes provide more stable gradients.
+
+Q: What is the purpose of an optimizer in a neural network?
+A: An optimizer is an algorithm that adjusts the weights and biases of a neural network to minimize the loss function. Common optimizers include SGD, Adam, and RMSprop.
+
+Q: What is the Adam optimizer?
+A: The Adam (Adaptive Moment Estimation) optimizer is an optimization algorithm that combines the benefits of both SGD and momentum. It adapts the learning rate based on the first and second moments of the gradients.
+
+Q: What is the purpose of a learning rate scheduler?
+A: A learning rate scheduler adjusts the learning rate during training to improve convergence and model performance. It can reduce the learning rate gradually or adapt it based on certain criteria.
+
+Q: What is a neural network's capacity?
+A: A neural network's capacity refers to its ability to learn and represent complex patterns in data. It is determined by factors such as the number of layers, neurons, and the type of activation functions used.
+
+Q: What is model ensemble?
+A: Model ensemble is a technique that combines the predictions of multiple neural network models to improve overall performance. Common ensemble methods include bagging, boosting, and stacking.
+
+Q: What is bagging?
+A: Bagging (Bootstrap Aggregating) is an ensemble method that trains multiple models on different subsets of the training data and combines their predictions to improve accuracy and reduce variance.
+
+Q: What is boosting?
+A: Boosting is an ensemble method that trains multiple models sequentially, with each model focusing on correcting the errors made by the previous models. It combines their predictions to improve performance and reduce bias.
+
+Q: What is stacking?
+A: Stacking is an ensemble method that combines predictions from multiple models using a meta-model to make the final prediction. It leverages the strengths of different models to improve overall performance.
+
+Q: What is a Siamese network?
+A: A Siamese network is a type of neural network that consists of two or more identical subnetworks sharing the same weights. It is used for tasks like similarity learning and verification by comparing the outputs of the subnetworks.
+
+Q: What is a capsule network?
+A: A capsule network is a type of neural network that uses capsules—groups of neurons—to represent and capture spatial relationships and patterns in data. It aims to address limitations of traditional CNNs, such as handling rotations and viewpoint changes.
+
+Q: What is the difference between a classification and a regression problem?
+A: Classification problems involve predicting categorical labels or classes, while regression problems involve predicting continuous numerical values. Neural networks can be used for both types of problems depending on the output layer and loss function.
+
+Q: What is the purpose of the activation function in a neural network?
+A: The activation function introduces non-linearity into the network, allowing it to learn and model complex relationships in the data. It determines the output of each neuron and affects the overall network's ability to represent various patterns.
+
+Q: What is a recurrent connection in a neural network?
+A: A recurrent connection is a connection that feeds the output of a neuron back into itself or another neuron in the same layer, allowing the network to maintain and use information from previous time steps or iterations.
+
+Q: What is the purpose of normalization in neural networks?
+A: Normalization techniques, such as batch normalization, are used to standardize the inputs to each layer, improving training stability, accelerating convergence, and reducing the impact of internal covariate shift.
+
+Q: What is a neural network's training process?
+A: The training process involves feeding input data through the network, calculating the loss, performing backpropagation to compute gradients, updating weights and biases using an optimizer, and repeating this process over multiple epochs.
+
+Q: What is model interpretability?
+A: Model interpretability refers to the ability to understand and explain the predictions and decisions made by a neural network. It involves techniques and tools to make the model's behavior more transparent and comprehensible.
+
+Q: What is a confusion matrix?
+A: A confusion matrix is a table used to evaluate the performance of a classification model by showing the counts of true positives, true negatives, false positives, and false negatives.
+
+Q: What is a dropout rate?
+A: The dropout rate is the proportion of neurons randomly deactivated during dropout regularization. It determines the fraction of neurons to be dropped out and helps prevent overfitting by promoting robustness.
+
+Q: What is a neural network's learning curve?
+A: A learning curve is a plot that shows the performance of a neural network (e.g., accuracy or loss) over time or epochs. It helps visualize how well the model is learning and if it is overfitting or underfitting.
+
+Q: What is the difference between a feedforward network and a recurrent network?
+A: A feedforward network processes data in one direction from input to output without feedback loops, while a recurrent network has feedback connections that allow it to maintain and use information from previous inputs.
+
+Q: What is a model's bias?
+A: A model's bias refers to the error introduced by approximating a real-world problem with a simplified model. It can lead to systematic errors if the model is too rigid or simplistic.
+
+Q: What is a model's variance?
+A: A model's variance refers to the sensitivity of the model to small fluctuations in the training data. High variance can lead to overfitting, where the model performs well on training data but poorly on new, unseen data.
+
+Q: What is an autoencoder?
+A: An autoencoder is a type of neural network used for unsupervised learning, consisting of an encoder that compresses the input data into a lower-dimensional representation and a decoder that reconstructs the original data from this representation.
+
+Q: What is a variational autoencoder (VAE)?
+A: A variational autoencoder (VAE) is an extension of the autoencoder that learns a probabilistic representation of the input data. It combines principles from autoencoders and variational inference to generate new samples from learned distributions.
+
+Q: What is a neural network's generalization ability?
+A: A neural network's generalization ability refers to its capacity to perform well on new, unseen data that was not part of the training set. It indicates how well the model has learned to generalize from the training examples.
+
+Q: What is an embedding layer?
+A: An embedding layer is a neural network layer used to map discrete, categorical data (e.g., words) into continuous, dense vector representations. It is commonly used in natural language processing tasks to capture semantic relationships.
+
+Q: What is a Siamese network used for?
+A: A Siamese network is used for tasks that involve measuring the similarity or dissimilarity between two inputs, such as face verification, signature verification, and one-shot learning.
+
+Q: What is the purpose of a kernel size in convolutional layers?
+A: The kernel size in convolutional layers determines the dimensions of the filter applied to the input data. It affects the size of the receptive field and the level of detail captured by the convolutional operation.
+
+Q: What is a skip connection in a neural network?
+A: A skip connection, also known as a residual connection, allows the output of a previous layer to bypass one or more intermediate layers and be added directly to the output of a later layer. It helps improve training and gradient flow in deep networks.
+
+Q: What is a neural network's learning rate?
+A: The learning rate is a hyperparameter that controls the size of the steps taken during gradient descent optimization. It affects how quickly the model's weights are updated and can impact the convergence rate and stability of training.
+
+Q: What is a deep neural network?
+A: A deep neural network is a type of neural network with multiple hidden layers between the input and output layers. It is capable of learning complex and hierarchical representations of data.
+
+Q: What is a convolutional neural network (CNN)?
+A: A convolutional neural network (CNN) is a type of neural network designed for processing grid-like data, such as images. It uses convolutional layers to automatically learn spatial hierarchies of features.
+
+Q: What is the vanishing gradient problem?
+A: The vanishing gradient problem occurs when gradients become very small during backpropagation, causing slow or stalled learning. It is common in deep networks with certain activation functions, such as sigmoid or tanh.
+
+Q: What is the exploding gradient problem?
+A: The exploding gradient problem occurs when gradients become very large during backpropagation, leading to unstable training and potentially causing the weights to become excessively large. It is often mitigated using gradient clipping.
+
+Q: What is a generative adversarial network (GAN)?
+A: A generative adversarial network (GAN) is a type of neural network consisting of two models: a generator and a discriminator. The generator creates data samples, while the discriminator evaluates their authenticity, and they are trained adversarially to improve each other.
+
+Q: What is the purpose of a loss function?
+A: The loss function measures the difference between the predicted output and the actual target values. It quantifies the error of the model's predictions and is used to guide the optimization process during training.
+
+Q: What is a neural network's overfitting?
+A: Overfitting occurs when a neural network learns to perform very well on the training data but fails to generalize to new, unseen data. It usually happens when the model is too complex relative to the amount of training data.
+
+Q: What is a neural network's underfitting?
+A: Underfitting occurs when a neural network fails to learn the underlying patterns in the training data and performs poorly on both training and testing data. It usually happens when the model is too simple or lacks sufficient capacity.
+
+Q: What is an attention mechanism in neural networks?
+A: An attention mechanism allows the network to focus on specific parts of the input data when making predictions. It assigns different weights to different parts of the input, improving performance on tasks like sequence-to-sequence learning.
+
+Q: What is a long short-term memory (LSTM) network?
+A: A long short-term memory (LSTM) network is a type of recurrent neural network (RNN) designed to address the vanishing gradient problem and capture long-range dependencies in sequential data. It uses memory cells and gating mechanisms to manage information flow.
+
+Q: What is a gated recurrent unit (GRU)?
+A: A gated recurrent unit (GRU) is a type of recurrent neural network (RNN) that is similar to an LSTM but with a simplified architecture. It uses gating mechanisms to control the flow of information and capture dependencies in sequential data.
+
+Q: What is transfer learning?
+A: Transfer learning is a technique where a pre-trained neural network model is used as a starting point for a new task. It leverages knowledge learned from one task to improve performance on a different but related task.
+
+Q: What is a neural network's backpropagation algorithm?
+A: The backpropagation algorithm is used to train neural networks by computing gradients of the loss function with respect to the model's weights and biases. It updates the weights using gradient descent to minimize the loss.
+
+Q: What is the purpose of a pooling layer in a CNN?
+A: The pooling layer in a convolutional neural network (CNN) reduces the spatial dimensions of the input data while retaining important features. It helps decrease computation, control overfitting, and extract hierarchical features.
+
+Q: What is a batch normalization layer?
+A: A batch normalization layer normalizes the inputs to each layer by adjusting and scaling the activations. It improves training stability and speed by reducing internal covariate shift and allowing higher learning rates.
+
+Q: What is a ReLU activation function?
+A: The ReLU (Rectified Linear Unit) activation function is defined as 
+ReLU
+(
+𝑥
+)
+=
+max
+⁡
+(
+0
+,
+𝑥
+)
+ReLU(x)=max(0,x). It introduces non-linearity by allowing only positive values to pass through while setting negative values to zero.
+
+Q: What is a sigmoid activation function?
+A: The sigmoid activation function maps input values to a range between 0 and 1 using the formula 
+𝜎
+(
+𝑥
+)
+=
+1
+1
++
+𝑒
+−
+𝑥
+σ(x)= 
+1+e 
+−x
+ 
+1
+​
+ . It is commonly used in binary classification problems.
+
+Q: What is a tanh activation function?
+A: The tanh (hyperbolic tangent) activation function maps input values to a range between -1 and 1 using the formula 
+tanh
+⁡
+(
+𝑥
+)
+=
+𝑒
+𝑥
+−
+𝑒
+−
+𝑥
+𝑒
+𝑥
++
+𝑒
+−
+𝑥
+tanh(x)= 
+e 
+x
+ +e 
+−x
+ 
+e 
+x
+ −e 
+−x
+ 
+​
+ . It is used to introduce non-linearity and center the output around zero.
+
+Q: What is the purpose of a neural network's dropout layer?
+A: The dropout layer randomly deactivates a fraction of neurons during training to prevent overfitting. It forces the network to rely on different subsets of neurons, improving generalization.
+
+Q: What is an encoder-decoder architecture?
+A: An encoder-decoder architecture is a neural network design where the encoder processes the input data into a fixed-size representation and the decoder generates the output from this representation. It is commonly used in sequence-to-sequence tasks like machine translation.
+
+Q: What is a generative model?
+A: A generative model learns to generate new data samples that resemble the training data. It captures the underlying distribution of the data and can create new instances similar to the training examples.
+
+Q: What is a discriminative model?
+A: A discriminative model learns to distinguish between different classes or categories in the data. It models the decision boundary between classes and is used for classification tasks.
+
+Q: What is a neural network's layer normalization?
+A: Layer normalization normalizes the activations of each layer across all features in a single data instance. It improves training stability and performance by reducing internal covariate shift.
+
+Q: What is a learning rate in gradient descent?
+A: The learning rate is a hyperparameter that determines the step size during the gradient descent optimization process. It controls how quickly or slowly the model's weights are updated.
+
+Q: What is the purpose of a neural network's weight initialization?
+A: Weight initialization sets the starting values of the model's weights before training. Proper initialization helps prevent issues like vanishing or exploding gradients and improves the convergence of the training process.
+
+Q: What is a neural network's weight sharing?
+A: Weight sharing is a technique where the same weights are used across different parts of the network. It reduces the number of parameters and can improve generalization, as seen in convolutional layers.
+
+Q: What is a neural network's hyperparameter?
+A: A hyperparameter is a parameter that is set before the training process begins, such as learning rate, number of layers, and batch size. It controls various aspects of the model and training process.
+
+Q: What is a neural network's activation map?
+A: An activation map, also known as a feature map, is the output of a convolutional layer that represents the presence of specific features detected by the convolutional filters. It captures spatial hierarchies in the input data.
+
+Q: What is a neural network's receptive field?
+A: The receptive field refers to the region of the input data that a particular neuron or filter in the network is responsive to. It determines how much of the input data affects the neuron's output.
+
+Q: What is the purpose of a neural network's loss function?
+A: The loss function measures the discrepancy between the predicted output and the actual target values. It provides a quantitative measure of the model's performance and guides the optimization process.
+
+Q: What is a neural network's gradient descent?
+A: Gradient descent is an optimization algorithm used to minimize the loss function by iteratively adjusting the model's weights in the direction of the negative gradient of the loss.
+
+Q: What is a neural network's training epoch?
+A: An epoch is one complete pass through the entire training dataset during the training process. Multiple epochs are used to iteratively improve the model's performance.
+
+Q: What is a neural network's mini-batch?
+A: A mini-batch is a subset of the training data used to update the model's weights during one iteration of training. It balances the benefits of both batch and stochastic gradient descent.
+
+Q: What is a neural network's test set?
+A: A test set is a separate portion of the data used to evaluate the final performance of the trained model. It provides an unbiased assessment of the model's generalization ability.
+
+Q: What is a neural network's validation set?
+A: A validation set is a subset of the data used to tune hyperparameters and monitor the model's performance during training. It helps in selecting the best model and preventing overfitting.
+
+Q: What is a neural network's cross-validation?
+A: Cross-validation is a technique for evaluating the performance of a model by splitting the data into multiple subsets (folds) and training/testing the model on different combinations of these subsets.
+
+Q: What is a neural network's dropout rate?
+A: The dropout rate is the fraction of neurons that are randomly deactivated during each training iteration. It is a regularization technique to prevent overfitting.
+
+Q: What is a neural network's early stopping?
+A: Early stopping is a regularization technique where training is halted when the model's performance on the validation set starts to deteriorate, preventing overfitting and saving computation.
+
+Q: What is a neural network's weight decay?
+A: Weight decay, also known as L2 regularization, is a technique that adds a penalty to the loss function based on the magnitude of the weights. It helps prevent overfitting by discouraging large weights.
+
+Q: What is the purpose of a neural network's batch size?
+A: The batch size is the number of training examples used in one iteration of the training process. It affects the stability of training and the convergence rate of the optimization algorithm.
+
+Q: What is a neural network's learning rate scheduler?
+A: A learning rate scheduler adjusts the learning rate during training according to a predefined schedule or based on the model's performance. It helps improve training efficiency and convergence.
+
+Q: What is a neural network's model checkpoint?
+A: A model checkpoint is a saved version of the model's weights and training state at a specific point during training. It allows resuming training or restoring the model from a previous state.
+
+Q: What is a neural network's regularization?
+A: Regularization is a technique used to prevent overfitting by adding constraints or penalties to the model's complexity, such as dropout, weight decay, and data augmentation.
+
+Q: What is the purpose of a neural network's feature extraction?
+A: Feature extraction involves transforming raw data into a set of relevant features that can be used by the neural network to make predictions. It helps in reducing the dimensionality and focusing on important aspects of the data.
+
+Q: What is a neural network's attention mechanism?
+A: An attention mechanism allows the network to focus on different parts of the input data when making predictions. It assigns different weights to different parts of the input to improve performance on tasks like sequence-to-sequence learning.
+
+Q: What is a neural network's gradient clipping?
+A: Gradient clipping is a technique used to prevent the exploding gradient problem by limiting the magnitude of the gradients during backpropagation. It ensures that gradients remain within a specified range.
+
+Q: What is a neural network's transfer function?
+A: A transfer function is a mathematical function that defines the relationship between the input and output of a neuron or layer in the neural network. It determines the activation of the neuron.
+
+Q: What is a neural network's optimizer?
+A: An optimizer is an algorithm used to adjust the weights of the neural network to minimize the loss function. Common optimizers include SGD, Adam, and RMSprop.
+
+Q: What is a neural network's activation function?
+A: An activation function introduces non-linearity into the network by applying a transformation to the neuron's input. It helps the network learn complex patterns and relationships in the data.
+
+Q: What is a neural network's loss landscape?
+A: The loss landscape refers to the surface of the loss function with respect to the model's parameters. It represents how the loss changes as the model's weights are adjusted.
+
+Q: What is the purpose of a neural network's gradient check?
+A: Gradient check is a technique used to verify the correctness of the gradients computed during backpropagation. It involves comparing the analytical gradients with numerical approximations to ensure proper implementation.
+
+Q: What is a neural network's residual block?
+A: A residual block is a building unit in deep neural networks that includes skip connections or residual connections. It helps in training very deep networks by allowing gradients to flow more easily through the network.
+
+Q: What is the purpose of a neural network's batch normalization?
+A: Batch normalization normalizes the activations of each layer across the mini-batch to improve training stability and speed. It reduces internal covariate shift and allows for higher learning rates.
+
+Q: What is a neural network's learning rate decay?
+A: Learning rate decay is a technique where the learning rate is gradually reduced during training. It helps in fine-tuning the model as it approaches convergence and can improve the final performance.
+
+Q: What is a neural network's convolutional layer?
+A: A convolutional layer is a type of layer in a neural network that applies convolutional filters to the input data to detect local patterns and features. It is commonly used in image processing tasks.
+
+Q: What is the purpose of a neural network's pooling layer?
+A: The pooling layer reduces the spatial dimensions of the input data while retaining important features. It helps in reducing computation, controlling overfitting, and extracting hierarchical features.
+
+Q: What is a neural network's recurrent layer?
+A: A recurrent layer is a type of layer that processes sequential data by maintaining a hidden state that is updated at each time step. It is used in tasks involving time-series or sequence data.
+
+Q: What is a neural network's feature map?
+A: A feature map is the output of a convolutional layer that represents the presence of specific features detected by the convolutional filters. It captures spatial hierarchies in the input data.
+
+Q: What is a neural network's weight matrix?
+A: A weight matrix is a set of parameters in a neural network layer that is used to transform the input data. It defines the connections and strength of connections between neurons in adjacent layers.
+
+Q: What is a neural network's bias term?
+A: A bias term is an additional parameter added to the neuron's output before applying the activation function. It allows the network to fit the data better by providing an offset.
+
+Q: What is a neural network's kernel?
+A: A kernel, or filter, is a small matrix used in convolutional layers to detect specific patterns or features in the input data. It slides over the input to perform convolution operations.
+
+Q: What is a neural network's fully connected layer?
+A: A fully connected layer, also known as a dense layer, is a type of layer where each neuron is connected to every neuron in the previous layer. It is used for combining features learned by previous layers and making final predictions.
+
+Q: What is a neural network's activation function?
+A: An activation function is a mathematical function applied to the output of a neuron to introduce non-linearity into the network. It helps the network learn complex patterns and relationships in the data.
+
+Q: What is a neural network's dropout layer?
+A: A dropout layer randomly deactivates a fraction of neurons during training to prevent overfitting. It forces the network to rely on different subsets of neurons, improving generalization.
+
+Q: What is a neural network's gradient descent?
+A: Gradient descent is an optimization algorithm used to minimize the loss function by iteratively adjusting the model's weights in the direction of the negative gradient of the loss.
+
+Q: What is a neural network's mini-batch gradient descent?
+A: Mini-batch gradient descent is an optimization technique that uses a small subset (mini-batch) of the training data to update the model's weights. It combines the advantages of both batch and stochastic gradient descent.
