@@ -1,0 +1,620 @@
+Q: What does SQL stand for?
+A: SQL stands for Structured Query Language.
+
+Q: What is the purpose of SQL?
+A: SQL is used for managing and manipulating relational databases. It allows users to query, insert, update, and delete data in a database.
+
+Q: What is a database?
+A: A database is an organized collection of structured information or data, typically stored electronically in a computer system.
+
+Q: What is a table in SQL?
+A: A table is a collection of related data organized in rows and columns within a database.
+
+Q: What is a primary key?
+A: A primary key is a unique identifier for a record in a table. It ensures that each record can be uniquely identified.
+
+Q: What is a foreign key?
+A: A foreign key is a field (or collection of fields) in one table that refers to the primary key in another table. It establishes a relationship between the two tables.
+
+Q: What is a SQL query?
+A: A SQL query is a request made to a database to retrieve or manipulate data.
+
+Q: What is the difference between INNER JOIN and OUTER JOIN?
+A: INNER JOIN returns records that have matching values in both tables, while OUTER JOIN returns all records from one table and the matched records from the other table, with NULLs for non-matching rows.
+
+Q: What does the SELECT statement do?
+A: The SELECT statement is used to retrieve data from a database. It can specify which columns to retrieve and can include conditions to filter the results.
+
+Q: What is the purpose of the WHERE clause?
+A: The WHERE clause is used to filter records that meet certain conditions in a SQL query.
+
+Q: What does the GROUP BY clause do?
+A: The GROUP BY clause groups rows that have the same values into summary rows, often used with aggregate functions like COUNT, SUM, AVG, etc.
+
+Q: What is an aggregate function?
+A: Aggregate functions perform a calculation on a set of values and return a single value. Examples include COUNT, SUM, AVG, MIN, and MAX.
+
+Q: What is the ORDER BY clause used for?
+A: The ORDER BY clause is used to sort the result set of a query in ascending or descending order based on one or more columns.
+
+Q: What does the INSERT INTO statement do?
+A: The INSERT INTO statement is used to add new rows of data into a table.
+
+Q: What is the UPDATE statement used for?
+A: The UPDATE statement is used to modify existing records in a table.
+
+Q: What does the DELETE statement do?
+A: The DELETE statement is used to remove rows from a table.
+
+Q: What is a VIEW in SQL?
+A: A VIEW is a virtual table based on the result of a query. It does not store data itself but provides a way to simplify complex queries.
+
+Q: What is the purpose of the CREATE TABLE statement?
+A: The CREATE TABLE statement is used to create a new table in a database.
+
+Q: What is normalization in databases?
+A: Normalization is the process of organizing data to reduce redundancy and improve data integrity by dividing a database into two or more tables.
+
+Q: What is a NULL value?
+A: A NULL value represents missing or unknown data. It is different from an empty string or zero.
+
+Q: How do you handle NULL values in SQL queries?
+A: You can handle NULL values using the IS NULL or IS NOT NULL operators and functions like COALESCE to provide default values.
+
+Q: What is the HAVING clause?
+A: The HAVING clause is used to filter groups of records after the GROUP BY clause has been applied, similar to the WHERE clause but for aggregated data.
+
+Q: What is the ALTER TABLE statement used for?
+A: The ALTER TABLE statement is used to modify an existing table structure, such as adding or dropping columns or changing column data types.
+
+Q: What is the DROP TABLE statement?
+A: The DROP TABLE statement is used to delete a table and all of its data from the database permanently.
+
+Q: What does the DISTINCT keyword do?
+A: The DISTINCT keyword is used to remove duplicate rows from the result set of a query.
+
+Q: What is a subquery?
+A: A subquery is a query nested inside another query. It can be used to retrieve intermediate results that are then used by the outer query.
+
+Q: What is the LIKE operator used for?
+A: The LIKE operator is used in the WHERE clause to search for a specified pattern in a column.
+
+Q: What is the difference between CHAR and VARCHAR data types?
+A: CHAR is a fixed-length string data type, while VARCHAR is a variable-length string data type. VARCHAR uses storage based on the actual length of the data.
+
+Q: What is a constraint in SQL?
+A: A constraint is a rule applied to columns or tables to ensure data integrity, such as PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, and NOT NULL.
+
+Q: What does the TRUNCATE TABLE statement do?
+A: The TRUNCATE TABLE statement removes all rows from a table quickly without logging individual row deletions, but the table structure remains intact.
+
+Q: What is the UNION operator?
+A: The UNION operator combines the result sets of two or more queries into a single result set, removing duplicate rows.
+
+Q: What is the UNION ALL operator?
+A: The UNION ALL operator combines the result sets of two or more queries into a single result set, including duplicate rows.
+
+Q: What is a transaction in SQL?
+A: A transaction is a sequence of SQL operations performed as a single unit of work. It ensures that either all operations are completed successfully or none are applied.
+
+Q: What does the COMMIT statement do?
+A: The COMMIT statement saves all changes made during the current transaction to the database.
+
+Q: What is the purpose of the ROLLBACK statement?
+A: The ROLLBACK statement undoes changes made during the current transaction and reverts the database to its previous state.
+
+Q: What is an index in SQL?
+A: An index is a database object that improves the speed of data retrieval operations on a table by providing a quick way to look up rows based on indexed columns.
+
+Q: What is the EXISTS operator?
+A: The EXISTS operator is used to test for the existence of rows returned by a subquery and returns TRUE if the subquery returns one or more rows.
+
+Q: What is a stored procedure?
+A: A stored procedure is a precompiled collection of SQL statements and optional control-flow statements stored under a name and executed as a unit.
+
+Q: What is a trigger in SQL?
+A: A trigger is a database object that automatically executes a specified set of SQL statements in response to certain events, such as INSERT, UPDATE, or DELETE operations.
+
+Q: What is a cursor in SQL?
+A: A cursor is a database object used to retrieve and manipulate rows in a result set one at a time.
+
+Q: What does the BETWEEN operator do?
+A: The BETWEEN operator is used to filter results within a specified range, inclusive of the boundary values.
+
+Q: What is a self-join?
+A: A self-join is a join where a table is joined with itself to combine rows based on related data within the same table.
+
+Q: What does the IN operator do?
+A: The IN operator is used to filter results based on a list of specified values or a subquery result.
+
+Q: What is the CASE statement used for?
+A: The CASE statement allows for conditional logic within SQL queries, returning different values based on specified conditions.
+
+Q: What is a data type in SQL?
+A: A data type specifies the type of data that can be stored in a column, such as INT, VARCHAR, DATE, FLOAT, etc.
+
+Q: What is the DATEPART function?
+A: The DATEPART function extracts a specific part (such as year, month, day) from a date value.
+
+Q: What is the COALESCE function?
+A: The COALESCE function returns the first non-null value from a list of expressions.
+
+Q: What is the SUBSTRING function?
+A: The SUBSTRING function extracts a portion of a string from a specified starting position and length.
+
+Q: What is the LEN function?
+A: The LEN function returns the number of characters in a string.
+
+Q: What does the CAST function do?
+A: The CAST function converts an expression from one data type to another.
+
+Q: What is the CONVERT function used for?
+A: The CONVERT function converts an expression from one data type to another with optional formatting.
+
+Q: What is SQL injection?
+A: SQL injection is a security vulnerability that allows attackers to execute arbitrary SQL commands by injecting malicious input into SQL queries.
+
+Q: How can you prevent SQL injection attacks?
+A: You can prevent SQL injection attacks by using prepared statements, parameterized queries, and input validation.
+
+Q: What is the GROUP_CONCAT function?
+A: The GROUP_CONCAT function concatenates values from multiple rows into a single string, with a specified delimiter.
+
+Q: What is a recursive query?
+A: A recursive query is a query that references itself, often used to retrieve hierarchical or tree-structured data.
+
+Q: What is the ROW_NUMBER function?
+A: The ROW_NUMBER function assigns a unique sequential integer to rows within a partition of a result set.
+
+Q: What does the PARTITION BY clause do?
+A: The PARTITION BY clause divides the result set into partitions to perform calculations over each partition independently.
+
+Q: What is the RANK function used for?
+A: The RANK function assigns a unique rank to each row within a partition, with gaps in the rank values if there are ties.
+
+Q: What is the DENSE_RANK function?
+A: The DENSE_RANK function assigns a unique rank to each row within a partition, without gaps in rank values.
+
+Q: What does the NTILE function do?
+A: The NTILE function divides the result set into a specified number of roughly equal parts and assigns a unique integer to each part.
+
+Q: What is a window function?
+A: A window function performs a calculation across a set of table rows related to the current row within a defined window or partition.
+
+Q: What is the MERGE statement?
+A: The MERGE statement is used to perform INSERT, UPDATE, or DELETE operations based on the results of a join between a target table and a source table.
+
+Q: What does the TRIM function do?
+A: The TRIM function removes specified characters (typically spaces) from the beginning and end of a string.
+
+Q: What is a pivot table in SQL?
+A: A pivot table transforms data from rows into columns, aggregating values to summarize data in a more readable format.
+
+Q: What is a dynamic SQL query?
+A: A dynamic SQL query is generated and executed at runtime based on variable input or user-defined conditions.
+
+Q: What is the EXPLAIN statement?
+A: The EXPLAIN statement provides information about how a SQL query will be executed, including the query plan and performance details.
+
+Q: What does the FETCH statement do?
+A: The FETCH statement retrieves rows from a cursor after it has been opened.
+
+Q: What is the DBMS_STATS package?
+A: The DBMS_STATS package is used to collect and manage statistics about database objects to optimize query performance.
+
+Q: What is the RENAME statement used for?
+A: The RENAME statement changes the name of a table or column in a database.
+
+Q: What is the SHOW TABLES command?
+A: The SHOW TABLES command lists all tables in the current database.
+
+Q: What is a schema in SQL?
+A: A schema is a collection of database objects, such as tables, views, and indexes, that define the structure of a database.
+
+Q: What is the ALTER DATABASE statement used for?
+A: The ALTER DATABASE statement is used to modify database-level properties or configuration settings.
+
+Q: What does the BACKUP DATABASE statement do?
+A: The BACKUP DATABASE statement creates a copy of the database to ensure data recovery in case of failure or data loss.
+
+Q: What is the RESTORE DATABASE statement?
+A: The RESTORE DATABASE statement restores a database from a backup file to recover data lost due to failure or corruption.
+
+Q: What is the CREATE INDEX statement used for?
+A: The CREATE INDEX statement creates an index on one or more columns of a table to improve query performance.
+
+Q: What is the DROP INDEX statement?
+A: The DROP INDEX statement removes an existing index from a table.
+
+Q: What does the DESCRIBE statement do?
+A: The DESCRIBE statement provides information about the structure of a table, including column names, data types, and constraints.
+
+Q: What is the EXISTS operator used for?
+A: The EXISTS operator is used to test whether a subquery returns any rows, often used to check for the existence of data.
+
+Q: What is a temporary table?
+A: A temporary table is a table that exists temporarily during the session or transaction and is automatically dropped when the session ends.
+
+Q: What is the SPLIT function?
+A: The SPLIT function divides a string into substrings based on a delimiter and returns the substrings as an array.
+
+Q: What does the REPLACE function do?
+A: The REPLACE function substitutes occurrences of a specified substring within a string with another substring.
+
+Q: What is a data warehouse?
+A: A data warehouse is a centralized repository that stores integrated data from multiple sources for reporting and analysis.
+
+Q: What is an ETL process?
+A: ETL stands for Extract, Transform, Load. It refers to the process of extracting data from sources, transforming it into a suitable format, and loading it into a data warehouse.
+
+Q: What is a foreign key constraint?
+A: A foreign key constraint ensures that the value in a column or set of columns in one table matches values in the primary key column of another table.
+
+Q: What is the INFORMATION_SCHEMA?
+A: The INFORMATION_SCHEMA is a system database that contains metadata about the database objects, such as tables, columns, and constraints.
+
+Q: What does the CONCAT function do?
+A: The CONCAT function combines two or more strings into a single string.
+
+Q: What is a composite key?
+A: A composite key is a primary key that consists of two or more columns used together to uniquely identify a record in a table.
+
+Q: What is a database trigger?
+A: A database trigger is a set of instructions automatically executed in response to certain events on a table or view, such as INSERT, UPDATE, or DELETE.
+
+Q: What is a temporary table?
+A: A temporary table is a table that exists only during the session or transaction in which it was created and is automatically dropped afterward.
+
+Q: What is the CREATE VIEW statement?
+A: The CREATE VIEW statement creates a virtual table based on the result of a query.
+
+Q: What is a non-clustered index?
+A: A non-clustered index is an index that creates a separate structure from the data table to improve query performance, allowing for multiple indexes on a table.
+
+Q: What does the ALTER COLUMN statement do?
+A: The ALTER COLUMN statement modifies the definition of an existing column, such as changing its data type or size.
+
+Q: What is the SET statement used for in SQL?
+A: The SET statement is used to assign a value to a variable or modify session-level settings.
+
+Q: What is the EXPLAIN PLAN statement?
+A: The EXPLAIN PLAN statement shows the execution plan for a query, including the steps and access paths used by the database engine.
+
+Q: What is a hierarchical query?
+A: A hierarchical query retrieves data with a parent-child relationship, such as organizational charts or bill-of-materials structures.
+
+Q: What does the UNIQUE constraint do?
+A: The UNIQUE constraint ensures that all values in a column or set of columns are distinct across the table.
+
+Q: What is the CASE WHEN statement used for?
+A: The CASE WHEN statement allows for conditional logic within a SQL query, returning different results based on specified conditions.
+
+Q: What is the DATEADD function?
+A: The DATEADD function adds a specified time interval to a date value.
+
+Q: What is a bitmap index?
+A: A bitmap index is an index type that uses bitmaps to represent the presence or absence of values, often used for columns with a limited number of distinct values.
+
+Q: What is a data mart?
+A: A data mart is a subset of a data warehouse, focused on a specific business area or department, designed to support data analysis and reporting.
+
+Q: What is sharding in databases?
+A: Sharding is a method of distributing data across multiple database servers or instances to improve performance and scalability.
+
+Q: What does the WITH clause do?
+A: The WITH clause defines a Common Table Expression (CTE) that can be referenced within the main query, improving readability and reusability.
+
+Q: What is data partitioning?
+A: Data partitioning divides large tables into smaller, manageable pieces based on certain criteria, improving query performance and manageability.
+
+Q: What is the ROW_NUMBER function used for?
+A: The ROW_NUMBER function assigns a unique sequential integer to rows within a partition of a result set, useful for pagination and ranking.
+
+Q: What is a data lineage?
+A: Data lineage refers to the tracking and visualization of data as it moves through the data lifecycle, from source to destination.
+
+Q: What is a materialized view?
+A: A materialized view is a database object that stores the result of a query physically, improving query performance by pre-computing and storing aggregated data.
+
+Q: What is query optimization?
+A: Query optimization involves improving the performance of SQL queries through techniques such as indexing, rewriting queries, and analyzing execution plans.
+
+Q: What is the COALESCE function?
+A: The COALESCE function returns the first non-null expression from a list of expressions.
+
+Q: What is the CROSS APPLY operator used for?
+A: The CROSS APPLY operator is used to join a table with a table-valued function, allowing for correlated subqueries and row-by-row operations.
+
+Q: What is a data type in SQL?
+A: A data type defines the kind of data that can be stored in a column, such as integer, varchar, date, or boolean.
+
+Q: What is the NULLIF function?
+A: The NULLIF function returns NULL if the two specified expressions are equal; otherwise, it returns the first expression.
+
+Q: What is a stored procedure?
+A: A stored procedure is a precompiled collection of SQL statements and optional control-of-flow statements stored under a name, allowing for modular programming and code reuse.
+
+Q: What is a database cursor?
+A: A database cursor is a database object used to retrieve, manipulate, and navigate through a result set row-by-row.
+
+Q: What is a database schema?
+A: A database schema is the structure that defines the organization of data within a database, including tables, columns, relationships, and constraints.
+
+Q: What does the TRUNCATE TABLE statement do?
+A: The TRUNCATE TABLE statement removes all rows from a table, but does not log individual row deletions and does not affect the table structure.
+
+Q: What is the USING clause in a JOIN operation?
+A: The USING clause simplifies the JOIN operation by specifying the column that the tables share and should be used for the join.
+
+Q: What is the ALTER VIEW statement?
+A: The ALTER VIEW statement modifies an existing view by changing its definition.
+
+Q: What is the GROUP BY clause used for?
+A: The GROUP BY clause groups rows that have the same values into summary rows, such as calculating aggregate functions.
+
+Q: What is the HAVING clause used for?
+A: The HAVING clause filters groups of rows based on a condition, similar to the WHERE clause but for aggregate data.
+
+Q: What is the LIMIT clause used for in SQL?
+A: The LIMIT clause restricts the number of rows returned by a query, often used for pagination.
+
+Q: What does the OFFSET clause do?
+A: The OFFSET clause skips a specified number of rows before returning the remaining rows, useful for pagination.
+
+Q: What is a subquery?
+A: A subquery is a query nested inside another query, used to return data that can be used by the outer query.
+
+Q: What is the UNION operator used for?
+A: The UNION operator combines the results of two or more queries into a single result set, removing duplicate rows.
+
+Q: What is the INTERSECT operator used for?
+A: The INTERSECT operator returns only the rows that are present in both of the queries being combined.
+
+Q: What is the EXCEPT operator used for?
+A: The EXCEPT operator returns rows from the first query that are not present in the second query.
+
+Q: What is the DISTINCT keyword used for?
+A: The DISTINCT keyword removes duplicate rows from the result set of a query.
+
+Q: What is the INSERT INTO statement used for?
+A: The INSERT INTO statement adds new rows to a table.
+
+Q: What is the UPDATE statement used for?
+A: The UPDATE statement modifies existing rows in a table based on specified conditions.
+
+Q: What does the DELETE statement do?
+A: The DELETE statement removes rows from a table based on specified conditions.
+
+Q: What is a transaction in SQL?
+A: A transaction is a sequence of SQL operations that are executed as a single unit of work, ensuring data integrity and consistency.
+
+Q: What does the COMMIT statement do?
+A: The COMMIT statement saves all changes made during the current transaction to the database.
+
+Q: What does the ROLLBACK statement do?
+A: The ROLLBACK statement undoes changes made during the current transaction and reverts the database to its previous state.
+
+Q: What is a primary key?
+A: A primary key is a column or set of columns that uniquely identifies each row in a table.
+
+Q: What is a unique key?
+A: A unique key is a constraint that ensures all values in a column or set of columns are unique across the table.
+
+Q: What is the FOREIGN KEY constraint?
+A: The FOREIGN KEY constraint ensures that values in a column or set of columns match values in the primary key column of another table.
+
+Q: What is the AUTO_INCREMENT attribute?
+A: The AUTO_INCREMENT attribute automatically generates a unique number for a primary key column when a new row is inserted.
+
+Q: What is the INDEX keyword used for?
+A: The INDEX keyword creates an index on one or more columns of a table to speed up query performance.
+
+Q: What is the SHOW CREATE TABLE statement used for?
+A: The SHOW CREATE TABLE statement displays the SQL statement used to create a table, including its structure and constraints.
+
+Q: What is the ALTER TABLE statement used for?
+A: The ALTER TABLE statement modifies the structure of an existing table, such as adding, deleting, or modifying columns.
+
+Q: What is a constraint in SQL?
+A: A constraint is a rule applied to table columns to enforce data integrity and consistency.
+
+Q: What is a view in SQL?
+A: A view is a virtual table based on the result of a query, providing a way to simplify complex queries and control data access.
+
+Q: What is the SHOW DATABASES command used for?
+A: The SHOW DATABASES command lists all databases available in the SQL server.
+
+Q: What does the TRUNCATE statement do?
+A: The TRUNCATE statement removes all rows from a table but does not remove the table structure or log individual row deletions.
+
+Q: What is data normalization?
+A: Data normalization is the process of organizing data to reduce redundancy and improve data integrity.
+
+Q: What is a join operation in SQL?
+A: A join operation combines rows from two or more tables based on related columns, allowing for complex queries involving multiple tables.
+
+Q: What is an INNER JOIN?
+A: An INNER JOIN returns only the rows that have matching values in both joined tables.
+
+Q: What is a LEFT JOIN?
+A: A LEFT JOIN returns all rows from the left table and matching rows from the right table; non-matching rows from the right table will have NULL values.
+
+Q: What is a RIGHT JOIN?
+A: A RIGHT JOIN returns all rows from the right table and matching rows from the left table; non-matching rows from the left table will have NULL values.
+
+Q: What is a FULL JOIN?
+A: A FULL JOIN returns all rows when there is a match in either table, with NULL values in place where there is no match.
+
+Q: What is a SELF JOIN?
+A: A SELF JOIN is a join operation where a table is joined with itself to compare rows within the same table.
+
+Q: What is a data definition language (DDL)?
+A: DDL is a subset of SQL used for defining and modifying database structures, including CREATE, ALTER, and DROP statements.
+
+Q: What is a data manipulation language (DML)?
+A: DML is a subset of SQL used for manipulating data within tables, including SELECT, INSERT, UPDATE, and DELETE statements.
+
+Q: What is a data control language (DCL)?
+A: DCL is a subset of SQL used for controlling access to data, including GRANT and REVOKE statements.
+
+Q: What is a user-defined function (UDF) in SQL?
+A: A UDF is a function created by users to perform custom operations and return a value within a SQL query.
+
+Q: What is a temporary table in SQL?
+A: A temporary table is a table that exists only during the session or transaction in which it was created and is automatically dropped afterward.
+
+Q: What does the CAST function do?
+A: The CAST function converts an expression from one data type to another.
+
+Q: What does the CONVERT function do?
+A: The CONVERT function converts a value from one data type to another, with additional formatting options.
+
+Q: What is a trigger in SQL?
+A: A trigger is a set of SQL statements automatically executed in response to specific events on a table or view.
+
+Q: What is a stored procedure?
+A: A stored procedure is a precompiled collection of SQL statements and optional control-of-flow statements stored under a name, allowing for modular programming and code reuse.
+
+Q: What is a common table expression (CTE)?
+A: A CTE is a temporary result set that can be referenced within a SELECT, INSERT, UPDATE, or DELETE statement, defined using the WITH clause.
+
+Q: What is the ROW_NUMBER() function?
+A: The ROW_NUMBER() function assigns a unique sequential integer to rows within a partition of a result set.
+
+Q: What is the RANK() function?
+A: The RANK() function assigns a rank to rows within a partition, with gaps in ranking values for ties.
+
+Q: What is the DENSE_RANK() function?
+A: The DENSE_RANK() function assigns a rank to rows within a partition without gaps in ranking values for ties.
+
+Q: What is the NTILE() function?
+A: The NTILE() function divides the result set into a specified number of approximately equal parts and assigns a unique bucket number to each row.
+
+Q: What is the PARTITION BY clause used for?
+A: The PARTITION BY clause is used to divide a result set into partitions to perform calculations on each partition separately.
+
+Q: What is the OVER() clause used for?
+A: The OVER() clause is used with window functions to define the window of rows for the function to operate on.
+
+Q: What is a window function in SQL?
+A: A window function performs a calculation across a set of table rows related to the current row, without collapsing the result set.
+
+Q: What is a materialized view?
+A: A materialized view is a database object that stores the result of a query physically, improving query performance by pre-computing and storing aggregated data.
+
+Q: What is the EXISTS operator used for?
+A: The EXISTS operator is used to check if a subquery returns any rows, typically used in combination with a WHERE clause.
+
+Q: What is the CASE statement used for?
+A: The CASE statement allows conditional logic within SQL queries, returning different values based on specified conditions.
+
+Q: What is a recursive query?
+A: A recursive query is a query that refers to itself to retrieve hierarchical or recursive data, typically using a WITH clause and a UNION ALL operator.
+
+Q: What is the PIVOT operator used for?
+A: The PIVOT operator transforms rows into columns, allowing for the aggregation and restructuring of data.
+
+Q: What is the UNPIVOT operator used for?
+A: The UNPIVOT operator transforms columns into rows, allowing for the normalization of data.
+
+Q: What is the TRUNCATE TABLE statement used for?
+A: The TRUNCATE TABLE statement removes all rows from a table without logging individual row deletions and is faster than DELETE.
+
+Q: What is data integrity?
+A: Data integrity refers to the accuracy, consistency, and reliability of data throughout its lifecycle.
+
+Q: What is a composite key?
+A: A composite key is a primary key composed of two or more columns used to uniquely identify a row in a table.
+
+Q: What is a candidate key?
+A: A candidate key is a column or set of columns that can uniquely identify each row in a table and can be selected as the primary key.
+
+Q: What is a surrogate key?
+A: A surrogate key is an artificially created key used to uniquely identify a row in a table, often used when natural keys are not suitable.
+
+Q: What is a natural key?
+A: A natural key is a key that is derived from existing data and uniquely identifies a row in a table based on real-world attributes.
+
+Q: What is data denormalization?
+A: Data denormalization is the process of intentionally introducing redundancy into a database to improve query performance or simplify data access.
+
+Q: What is a domain constraint?
+A: A domain constraint specifies the permissible values for a column, such as data type, length, and format.
+
+Q: What is a referential integrity constraint?
+A: A referential integrity constraint ensures that relationships between tables remain consistent, typically enforced by foreign keys.
+
+Q: What is a check constraint?
+A: A check constraint ensures that all values in a column satisfy a specified condition or rule.
+
+Q: What is the WITH ROLLUP modifier used for?
+A: The WITH ROLLUP modifier is used with the GROUP BY clause to provide subtotals and grand totals in aggregated query results.
+
+Q: What is the WITH CUBE modifier used for?
+A: The WITH CUBE modifier is used with the GROUP BY clause to generate a result set that includes all possible combinations of groupings and subtotals.
+
+Q: What is data warehousing?
+A: Data warehousing is the process of collecting and managing data from various sources to provide meaningful business insights and support decision-making.
+
+Q: What is ETL in data warehousing?
+A: ETL stands for Extract, Transform, Load, and refers to the process of extracting data from sources, transforming it into a suitable format, and loading it into a data warehouse.
+
+Q: What is OLAP?
+A: OLAP stands for Online Analytical Processing, and it refers to tools and techniques used for multidimensional analysis of data stored in a data warehouse.
+
+Q: What is OLTP?
+A: OLTP stands for Online Transaction Processing, and it refers to systems designed to manage transactional data and support day-to-day operations.
+
+Q: What is data modeling?
+A: Data modeling is the process of creating a conceptual representation of data and its relationships to design a database structure that meets business requirements.
+
+Q: What is a star schema in data warehousing?
+A: A star schema is a data warehouse schema design that consists of a central fact table connected to multiple dimension tables, resembling a star.
+
+Q: What is a snowflake schema in data warehousing?
+A: A snowflake schema is a data warehouse schema design that normalizes dimension tables into multiple related tables, creating a snowflake-like structure.
+
+Q: What is data mining?
+A: Data mining is the process of discovering patterns, correlations, and insights from large sets of data using statistical and machine learning techniques.
+
+Q: What is business intelligence (BI)?
+A: Business intelligence refers to technologies, tools, and practices used to collect, analyze, and present business data to support decision-making and strategic planning.
+
+Q: What is a fact table in data warehousing?
+A: A fact table is a central table in a star or snowflake schema that contains quantitative data for analysis, such as sales or revenue.
+
+Q: What is a dimension table in data warehousing?
+A: A dimension table is a table in a star or snowflake schema that contains descriptive attributes related to the fact table, such as product names or customer details.
+
+Q: What is data partitioning?
+A: Data partitioning is the process of dividing a large database table into smaller, more manageable pieces to improve performance and manageability.
+
+Q: What is sharding?
+A: Sharding is a method of database partitioning that distributes data across multiple servers or nodes to improve scalability and performance.
+
+Q: What is data replication?
+A: Data replication is the process of copying and maintaining database objects, such as tables, across multiple locations to ensure data availability and reliability.
+
+Q: What is a backup in database management?
+A: A backup is a copy of database data and objects taken at a specific point in time, used for recovery in case of data loss or corruption.
+
+Q: What is point-in-time recovery?
+A: Point-in-time recovery is the process of restoring a database to a specific moment in time, often used to recover from accidental data loss or corruption.
+
+Q: What is a restore operation in database management?
+A: A restore operation involves recovering data from a backup to return a database to a previous state or recover lost data.
+
+Q: What is data encryption?
+A: Data encryption is the process of converting data into a secure format that is unreadable without proper authorization or decryption keys.
+
+Q: What is SQL injection?
+A: SQL injection is a security vulnerability that allows attackers to execute arbitrary SQL code on a database by manipulating input data.
+
+Q: What is database indexing?
+A: Database indexing is the creation of data structures that improve the speed of data retrieval operations on a database table.
+
+Q: What is database normalization?
+A: Database normalization is the process of organizing data in a database to reduce redundancy and improve data integrity by dividing large tables into smaller, related tables.
+
+Q: What is data integrity?
+A: Data integrity refers to the accuracy and consistency of data stored in a database, ensuring that it remains reliable and unaltered from its intended state.

@@ -1,0 +1,473 @@
+Q: What is Git?
+A: Git is a distributed version control system used to track changes in source code during software development. It allows multiple developers to collaborate on the same project efficiently.
+
+Q: What is a repository in Git?
+A: A repository (or repo) is a storage space where your project’s files and the history of changes to those files are stored. It can be local or remote.
+
+Q: What is the difference between a local and a remote repository?
+A: A local repository is on your local machine, while a remote repository is hosted on a server or a service like GitHub, GitLab, or Bitbucket.
+
+Q: What is a commit in Git?
+A: A commit is a snapshot of the changes made to the files in a repository. It represents a point in the project's history and includes a commit message describing the changes.
+
+Q: How do you create a new Git repository?
+A: You create a new Git repository by running git init in the directory where you want to initialize the repository.
+
+Q: What is the git clone command used for?
+A: The git clone command is used to create a copy of an existing remote repository on your local machine.
+
+Q: What does the git add command do?
+A: The git add command stages changes made to files in your working directory, preparing them to be committed.
+
+Q: What is the purpose of the git commit command?
+A: The git commit command saves the staged changes to the repository's history with a descriptive message.
+
+Q: What does the git status command do?
+A: The git status command shows the status of changes in the working directory and staging area, including which files are modified, staged, or untracked.
+
+Q: What is a branch in Git?
+A: A branch in Git is a separate line of development that allows you to work on different features or fixes without affecting the main codebase.
+
+Q: How do you create a new branch in Git?
+A: You create a new branch using the command git branch branch-name.
+
+Q: How do you switch between branches in Git?
+A: You switch between branches using the command git checkout branch-name.
+
+Q: What does the git merge command do?
+A: The git merge command combines changes from one branch into another, integrating the changes into the target branch.
+
+Q: What is a pull request?
+A: A pull request is a request to merge changes from one branch into another, often used in collaborative workflows to review and discuss changes before merging.
+
+Q: What does git fetch do?
+A: The git fetch command downloads changes from a remote repository without merging them into your local repository.
+
+Q: What is the purpose of the git pull command?
+A: The git pull command fetches changes from a remote repository and merges them into your current branch.
+
+Q: How do you delete a branch in Git?
+A: You delete a branch using the command git branch -d branch-name for a local branch or git push origin --delete branch-name for a remote branch.
+
+Q: What is a Git tag?
+A: A Git tag is a reference to a specific commit, often used to mark release points or important milestones in a project.
+
+Q: How do you create a new Git tag?
+A: You create a new Git tag using the command git tag tag-name.
+
+Q: What is the git log command used for?
+A: The git log command displays the commit history of the current branch, including commit messages, author information, and commit IDs.
+
+Q: What does git diff do?
+A: The git diff command shows the differences between files or commits, helping you understand what changes have been made.
+
+Q: How do you undo changes in Git?
+A: You can undo changes using commands like git checkout -- file to discard changes in the working directory or git reset to unstage changes.
+
+Q: What is the git stash command?
+A: The git stash command temporarily saves changes that are not yet committed, allowing you to work on a different task without losing your progress.
+
+Q: How do you apply stashed changes in Git?
+A: You apply stashed changes using the command git stash apply.
+
+Q: What does the git reset command do?
+A: The git reset command resets the current branch's history to a specific commit, and optionally updates the working directory and staging area.
+
+Q: What is the difference between git reset and git revert?
+A: git reset changes the commit history and can affect the working directory, while git revert creates a new commit that undoes changes made by a previous commit.
+
+Q: What is a merge conflict?
+A: A merge conflict occurs when Git cannot automatically resolve differences between branches during a merge, requiring manual intervention to resolve.
+
+Q: How do you resolve a merge conflict?
+A: You resolve a merge conflict by editing the conflicted files, choosing which changes to keep, and then committing the resolved changes.
+
+Q: What is a fork in Git?
+A: A fork is a copy of a repository that allows you to make changes independently of the original repository, often used in open-source projects for contributions.
+
+Q: How do you contribute to a repository using Git?
+A: You contribute to a repository by forking it, making changes on your fork, and then submitting a pull request to merge your changes into the original repository.
+
+Q: What is the purpose of the .gitignore file?
+A: The .gitignore file specifies which files or directories Git should ignore and not track in the repository.
+
+Q: How do you view the commit history of a file?
+A: You view the commit history of a file using the command git log -- file.
+
+Q: What is a remote in Git?
+A: A remote is a version of your repository that is hosted on a server or service, allowing collaboration and synchronization between different machines.
+
+Q: How do you add a remote repository in Git?
+A: You add a remote repository using the command git remote add remote-name repository-url.
+
+Q: What does the git remote -v command do?
+A: The git remote -v command displays the URLs of the remote repositories associated with your local repository.
+
+Q: What is the git config command used for?
+A: The git config command is used to set and manage Git configuration options, such as user name, email, and repository settings.
+
+Q: How do you view the current Git configuration?
+A: You view the current Git configuration using the command git config --list.
+
+Q: What is a Git alias?
+A: A Git alias is a shorthand command that you can define to simplify frequently used Git commands.
+
+Q: How do you create a Git alias?
+A: You create a Git alias using the command git config --global alias.alias-name command.
+
+Q: What is git rebase used for?
+A: The git rebase command is used to reapply commits from one branch onto another, often used to maintain a clean project history.
+
+Q: What is the difference between git rebase and git merge?
+A: git rebase re-applies commits on top of another branch, changing commit history, while git merge combines branches without altering commit history.
+
+Q: What does git cherry-pick do?
+A: The git cherry-pick command applies changes from a specific commit to the current branch, allowing you to incorporate individual commits from other branches.
+
+Q: What is a submodule in Git?
+A: A submodule is a Git repository embedded within another Git repository, allowing you to manage dependencies and external libraries.
+
+Q: How do you add a submodule to a Git repository?
+A: You add a submodule using the command git submodule add repository-url path.
+
+Q: What does git submodule update do?
+A: The git submodule update command initializes and updates submodules to match the commit specified in the superproject.
+
+Q: How do you remove a submodule from a Git repository?
+A: You remove a submodule by deleting its entry from .gitmodules, removing its directory, and then running git rm --cached path/to/submodule.
+
+Q: What is Git LFS?
+A: Git Large File Storage (LFS) is an extension for Git that handles large files by replacing them with text pointers and storing the actual file contents in a separate location.
+
+Q: How do you install Git LFS?
+A: You install Git LFS by downloading and installing the Git LFS binary from the official website and then initializing it with git lfs install.
+
+Q: What is the purpose of the git tag command?
+A: The git tag command is used to create, list, delete, or verify tags in a Git repository, often used to mark important points in the repository's history.
+
+Q: How do you list all tags in a Git repository?
+A: You list all tags using the command git tag.
+
+Q: What is git bisect used for?
+A: The git bisect command is used to identify the commit that introduced a bug by performing a binary search through the commit history.
+
+Q: What is the git blame command used for?
+A: The git blame command shows who made changes to each line of a file, along with the commit hash and timestamp, helping to track the origin of changes.
+
+Q: How do you view the differences between two commits?
+A: You view the differences between two commits using the command git diff commit1 commit2.
+
+Q: What is the purpose of the git rebase -i command?
+A: The git rebase -i (interactive rebase) command allows you to edit, reorder, or squash commits in your branch, giving you control over the commit history.
+
+Q: What does the git reflog command do?
+A: The git reflog command shows a log of all changes to the tip of branches and other references, including commits and operations like rebase or reset.
+
+Q: How do you undo a commit but keep the changes in your working directory?
+A: You undo a commit but keep the changes using the command git reset --soft HEAD~1.
+
+Q: What does the git clean command do?
+A: The git clean command removes untracked files and directories from the working directory, helping to clean up your project.
+
+Q: How do you view the configuration for a specific Git repository?
+A: You view the configuration for a specific repository using the command git config --get-regexp.
+
+Q: What is the purpose of the git worktree command?
+A: The git worktree command allows you to work with multiple working directories attached to a single repository, useful for working on multiple branches simultaneously.
+
+Q: How do you add a file to the Git index (staging area)?
+A: You add a file to the Git index using the command git add file.
+
+Q: What is the purpose of the .git directory?
+A: The .git directory contains all the metadata and configuration files for a Git repository, including information about commits, branches, and history.
+
+Q: How do you check the remote URL of your Git repository?
+A: You check the remote URL using the command git remote -v.
+
+Q: What does git pull --rebase do?
+A: The git pull --rebase command fetches changes from a remote repository and re-applies your local commits on top of the fetched changes, maintaining a linear history.
+
+Q: What is the git merge --no-ff option used for?
+A: The git merge --no-ff option forces a merge commit to be created, even if the merge could be fast-forwarded, preserving the history of the branch.
+
+Q: What is the purpose of the git ls-files command?
+A: The git ls-files command lists all files that are currently tracked by Git in the working directory.
+
+Q: How do you view the differences between staged and unstaged changes?
+A: You view the differences between staged and unstaged changes using the command git diff for unstaged changes and git diff --cached for staged changes.
+
+Q: What is the purpose of the git gc command?
+A: The git gc (garbage collect) command cleans up unnecessary files and optimizes the local repository to improve performance.
+
+Q: How do you create a Git patch file?
+A: You create a Git patch file using the command git diff > patch-file.patch for uncommitted changes or git format-patch for commits.
+
+Q: What is the purpose of the git tag -a option?
+A: The git tag -a option creates an annotated tag with a message and additional metadata, providing more context than a lightweight tag.
+
+Q: How do you delete a local Git tag?
+A: You delete a local Git tag using the command git tag -d tag-name.
+
+Q: What does the git tag -d option do?
+A: The git tag -d option deletes a tag from the local repository.
+
+Q: What is a git hook?
+A: A Git hook is a script that Git executes automatically at certain points in the workflow, allowing you to customize and automate tasks like pre-commit checks or post-merge actions.
+
+Q: How do you set up a Git hook?
+A: You set up a Git hook by placing a script in the .git/hooks directory and making it executable.
+
+Q: What is the purpose of the git config --global option?
+A: The git config --global option sets configuration values for all repositories on your system, such as user name and email.
+
+Q: How do you view detailed information about a specific commit?
+A: You view detailed information about a specific commit using the command git show commit-id.
+
+Q: What does the git diff --name-only command do?
+A: The git diff --name-only command lists only the names of files that have been changed between commits or between the working directory and the index.
+
+Q: What is a rebase conflict?
+A: A rebase conflict occurs when Git cannot automatically reapply commits during a rebase, requiring manual resolution of conflicts before continuing.
+
+Q: How do you resolve a rebase conflict?
+A: You resolve a rebase conflict by editing the conflicted files, choosing the correct changes, and then continuing the rebase with git rebase --continue.
+
+Q: What does the git diff --staged command do?
+A: The git diff --staged command shows the differences between the staged changes and the last commit.
+
+Q: How do you remove a file from the staging area?
+A: You remove a file from the staging area using the command git reset file.
+
+Q: What is the git mv command used for?
+A: The git mv command renames or moves files in the repository, updating the index to reflect the changes.
+
+Q: How do you show a graphical representation of your Git repository’s history?
+A: You show a graphical representation of your Git repository’s history using the command git log --graph.
+
+Q: What is the git branch -a command used for?
+A: The git branch -a command lists all branches, including both local and remote branches.
+
+Q: How do you create an empty Git repository?
+A: You create an empty Git repository with no initial files using the command git init --bare.
+
+Q: What is a bare repository?
+A: A bare repository is a Git repository that does not have a working directory and is typically used as a central repository for collaboration.
+
+Q: How do you initialize a Git repository with a README file?
+A: You initialize a Git repository with a README file using the command git init followed by echo "# Project" > README.md and git add README.md and git commit -m "initial commit".
+
+Q: What does the git ls-tree command do?
+A: The git ls-tree command displays the contents of a tree object, showing the files and directories in a commit.
+
+Q: What is the purpose of the git archive command?
+A: The git archive command creates a compressed archive file of files in a Git repository, useful for distributing a snapshot of the project.
+
+Q: How do you view a commit’s content without checking out the commit?
+A: You view a commit’s content without checking out the commit using the command git show commit-id.
+
+Q: What does the git status --short command do?
+A: The git status --short command provides a concise summary of the working directory and staging area status.
+
+Q: How do you undo the last commit but keep the changes in the staging area?
+A: You undo the last commit but keep the changes in the staging area using the command git reset --soft HEAD~1.
+
+Q: What is the purpose of the git remote set-url command?
+A: The git remote set-url command changes the URL of a remote repository, useful for updating the repository location.
+
+Q: How do you check for differences between the local and remote repository?
+A: You check for differences between the local and remote repository using the command git fetch followed by git diff origin/branch-name.
+
+Q: What does the git commit --amend command do?
+A: The git commit --amend command modifies the most recent commit, allowing you to change the commit message or add additional changes.
+
+Q: How do you view the commit history with a specific number of commits?
+A: You view the commit history with a specific number of commits using the command git log -n number.
+
+Q: What is the purpose of the git clean -fd command?
+A: The git clean -fd command removes untracked files and directories from the working directory, forcing the removal without prompting.
+
+Q: How do you view the commit history for a specific file?
+A: You view the commit history for a specific file using the command git log -- file.
+
+Q: What does the git diff --color-words command do?
+A: The git diff --color-words command shows the differences between files with color highlighting for added and removed words.
+
+Q: How do you create a patch from a specific commit?
+A: You create a patch from a specific commit using the command git format-patch commit-id.
+
+Q: What is the git grep command used for?
+A: The git grep command searches for a specific pattern in the files tracked by Git.
+
+Q: How do you squash multiple commits into a single commit?
+A: You squash multiple commits into a single commit using the interactive rebase command git rebase -i HEAD~n and then combining the commits.
+
+Q: What does the git submodule command do?
+A: The git submodule command manages external repositories within a Git repository, allowing you to include other projects as submodules.
+
+Q: How do you update a submodule to the latest commit?
+A: You update a submodule to the latest commit using the commands git submodule update --remote and git add submodule-directory.
+
+Q: What does the git diff --stat command do?
+A: The git diff --stat command shows a summary of changes with a summary of the number of lines added and removed.
+
+Q: How do you create a Git alias?
+A: You create a Git alias using the command git config --global alias.alias-name 'command', where alias-name is the name of the alias and command is the Git command.
+
+Q: What is the purpose of the git commit --allow-empty command?
+A: The git commit --allow-empty command creates a commit with no changes, useful for making a commit with a message or to trigger hooks.
+
+Q: How do you get a list of all branches, including remote ones, with their last commit messages?
+A: You get a list of all branches with their last commit messages using the command git branch -v or git for-each-ref --format '%(refname:short) %(objectname) %(contents:subject)' refs/heads/.
+
+Q: What does the git blame command do?
+A: The git blame command shows who last modified each line of a file and when the modification was made.
+
+Q: How do you create a Git repository with a specific branch as default?
+A: You create a Git repository with a specific branch as default using git init -b branch-name.
+
+Q: What is the purpose of the git cherry-pick command?
+A: The git cherry-pick command applies the changes from a specific commit to the current branch, allowing you to include specific commits without merging.
+
+Q: How do you view the logs of a specific branch in a Git repository?
+A: You view the logs of a specific branch using the command git log branch-name.
+
+Q: What does the git reflog expire command do?
+A: The git reflog expire command cleans up older reflog entries, helping to free up space and maintain repository performance.
+
+Q: How do you switch to a new branch and create it in one command?
+A: You switch to a new branch and create it in one command using git checkout -b branch-name.
+
+Q: What is the git stash pop command used for?
+A: The git stash pop command re-applies the most recent stashed changes and removes them from the stash list.
+
+Q: How do you show a specific commit’s details in a graphical format?
+A: You show a specific commit’s details in a graphical format using git log --graph --oneline commit-id.
+
+Q: What is the purpose of the git remote rename command?
+A: The git remote rename command changes the name of a remote repository, useful for reorganizing remote names.
+
+Q: How do you check out a remote branch?
+A: You check out a remote branch using git checkout -b branch-name origin/branch-name.
+
+Q: What is the purpose of the git reset --hard command?
+A: The git reset --hard command resets the working directory and index to match the specified commit, discarding all changes.
+
+Q: How do you list all Git aliases?
+A: You list all Git aliases using the command git config --get-regexp alias.
+
+Q: What does the git stash list command do?
+A: The git stash list command shows a list of all stashed changes.
+
+Q: How do you create a new Git repository from an existing one?
+A: You create a new Git repository from an existing one using git clone followed by the URL or path to the existing repository.
+
+Q: What is the git fetch command used for?
+A: The git fetch command retrieves new commits and updates from a remote repository without merging them into the current branch.
+
+Q: How do you remove all local branches that have been merged into the current branch?
+A: You remove all local branches that have been merged into the current branch using git branch --merged | grep -v '\*' | xargs git branch -d.
+
+Q: What does the git shortlog command do?
+A: The git shortlog command provides a summary of commits grouped by author, showing the number of commits and the commit messages.
+
+Q: How do you rename a Git branch?
+A: You rename a Git branch using git branch -m old-branch-name new-branch-name.
+
+Q: What is the purpose of the git describe command?
+A: The git describe command gives a human-readable name to a commit by describing it relative to the most recent tag.
+
+Q: How do you view the history of a file?
+A: You view the history of a file using git log -- file.
+
+Q: What does the git diff --word-diff command do?
+A: The git diff --word-diff command shows changes between files word-by-word rather than line-by-line.
+
+Q: How do you resolve a conflict that has been marked as resolved but still shows up in git status?
+A: You resolve a conflict that has been marked as resolved by running git add on the conflicted files and then completing the merge or rebase process.
+
+Q: What does the git merge --abort command do?
+A: The git merge --abort command aborts a merge operation and returns the repository to its state before the merge began.
+
+Q: How do you delete a remote branch?
+A: You delete a remote branch using git push origin --delete branch-name.
+
+Q: What is the purpose of the git config --list command?
+A: The git config --list command lists all configuration settings for the current Git repository or global Git configuration.
+
+Q: How do you add a file to the Git ignore list?
+A: You add a file to the Git ignore list by adding its name or pattern to the .gitignore file.
+
+Q: What does the git remote show command do?
+A: The git remote show command displays detailed information about a remote repository, including its URL and branch tracking details.
+
+Q: How do you set the default push behavior in Git?
+A: You set the default push behavior using git config --global push.default behavior, where behavior can be matching, simple, or current.
+
+Q: What does the git diff --no-index command do?
+A: The git diff --no-index command compares two files or directories outside of the Git repository, ignoring Git’s index.
+
+Q: How do you create a new branch and switch to it in one command?
+A: You create a new branch and switch to it in one command using git checkout -b branch-name.
+
+Q: What is the git init command used for?
+A: The git init command initializes a new Git repository in the current directory, creating a .git directory.
+
+Q: How do you revert a specific file to its state in a previous commit?
+A: You revert a specific file to its state in a previous commit using git checkout commit-id -- file.
+
+Q: What does the git cherry command do?
+A: The git cherry command shows which commits in your branch are not in the upstream branch, useful for finding commits that need to be applied.
+
+Q: How do you view all commits that are not yet in the remote repository?
+A: You view all commits that are not yet in the remote repository using git log origin/branch-name..branch-name.
+
+Q: What is the purpose of the git commit --no-verify command?
+A: The git commit --no-verify command bypasses pre-commit and commit-msg hooks, allowing you to commit changes without running these checks.
+
+Q: How do you view the commit history for a specific author?
+A: You view the commit history for a specific author using git log --author="author-name".
+
+Q: What does the git ls-tree -r HEAD command do?
+A: The git ls-tree -r HEAD command lists all files and directories in the working directory at the current HEAD commit.
+
+Q: How do you undo the last commit and delete the changes from the working directory?
+A: You undo the last commit and delete the changes from the working directory using git reset --hard HEAD~1.
+
+Q: What does the git stash apply command do?
+A: The git stash apply command re-applies stashed changes to your working directory without removing them from the stash list.
+
+Q: How do you list all remote branches in a Git repository?
+A: You list all remote branches using git branch -r.
+
+Q: What is the git rebase --interactive command used for?
+A: The git rebase --interactive command allows you to interactively rebase commits, offering options to edit, squash, or reorder commits.
+
+Q: How do you show the difference between two branches?
+A: You show the difference between two branches using git diff branch1..branch2.
+
+Q: What does the git config --global core.editor command do?
+A: The git config --global core.editor command sets the default text editor for Git commands that require text input, like commit messages.
+
+Q: How do you remove untracked files from the working directory?
+A: You remove untracked files from the working directory using git clean -f.
+
+Q: What does the git log --oneline command do?
+A: The git log --oneline command displays the commit history in a concise format with each commit on a single line.
+
+Q: How do you check out a file from a specific commit without changing branches?
+A: You check out a file from a specific commit using git checkout commit-id -- file.
+
+Q: What is the purpose of the git tag command?
+A: The git tag command is used to create, list, or delete tags in the repository, which are often used to mark specific points in the commit history.
+
+Q: How do you merge a branch into the current branch?
+A: You merge a branch into the current branch using git merge branch-name.
+
+Q: What does the git stash drop command do?
+A: The git stash drop command removes a specific stash from the stash list.
+
+Q: How do you show the commit history in a graphical format?
+A: You show the commit history in a graphical format using git log --graph.
+
+Q: What does the git log --pretty=format:"%h %s" command do?
+A: The git log --pretty=format:"%h %s" command displays the commit history with abbreviated commit hashes and commit messages.
