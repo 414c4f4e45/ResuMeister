@@ -1,0 +1,735 @@
+Q: What is Swift?
+A: Swift is a powerful, open-source programming language developed by Apple for iOS, macOS, watchOS, and tvOS app development.
+
+Q: What are the primary features of Swift?
+A: Swift features include type safety, optionals, type inference, closures, generics, and modern syntax that makes code easier to read and maintain.
+
+Q: How do you declare a variable in Swift?
+A: You declare a variable in Swift using the var keyword. For example: var name = "John"
+
+Q: How do you declare a constant in Swift?
+A: You declare a constant using the let keyword. For example: let pi = 3.14159
+
+Q: What is type inference in Swift?
+A: Type inference allows Swift to automatically deduce the type of a variable or constant based on its initial value, reducing the need for explicit type declarations.
+
+Q: What are optionals in Swift?
+A: Optionals are a type that can hold either a value or nil to indicate that a value is missing. They are used to handle the absence of a value in a type-safe way.
+
+Q: How do you unwrap an optional in Swift?
+A: You can unwrap an optional using optional binding (if let or guard let), forced unwrapping (!), or optional chaining.
+
+Q: What is optional chaining?
+A: Optional chaining is a way to call properties, methods, and subscripts on optional that might currently be nil without having to check explicitly for nil.
+
+Q: What is a tuple in Swift?
+A: A tuple is a group of multiple values combined into a single compound value. Tuples can contain values of different types and are used to return multiple values from a function.
+
+Q: How do you define a function in Swift?
+A: You define a function using the func keyword. For example:
+
+swift
+Copy code
+func greet(name: String) -> String {
+    return "Hello, \(name)!"
+}
+Q: What is a closure in Swift?
+A: A closure is a self-contained block of code that can be passed around and used in your code. Closures capture and store references to variables and constants from the context in which they are defined.
+
+Q: What are the three types of closures in Swift?
+A: The three types of closures are global functions, nested functions, and closure expressions.
+
+Q: What is the difference between struct and class in Swift?
+A: struct is a value type that is copied when passed around, while class is a reference type that is passed by reference. Classes support inheritance, while structs do not.
+
+Q: What is inheritance in Swift?
+A: Inheritance allows one class (subclass) to inherit the properties, methods, and other characteristics of another class (superclass), promoting code reuse.
+
+Q: What is a protocol in Swift?
+A: A protocol is a blueprint of methods, properties, and other requirements that suit a particular piece of functionality. Classes, structs, and enums can adopt and conform to protocols.
+
+Q: How do you define a protocol in Swift?
+A: You define a protocol using the protocol keyword. For example:
+
+swift
+Copy code
+protocol Drivable {
+    func drive()
+}
+Q: What is an extension in Swift?
+A: An extension allows you to add new functionality to an existing class, struct, enum, or protocol, including methods, computed properties, and initializers.
+
+Q: What is a computed property in Swift?
+A: A computed property calculates and returns a value every time it is accessed, rather than storing a value. It is defined using the var keyword with a getter and optional setter.
+
+Q: What are generics in Swift?
+A: Generics enable you to write flexible, reusable code that can work with any type. They allow you to create functions, methods, and types that can operate on any type without knowing specifics.
+
+Q: What is a generic function in Swift?
+A: A generic function uses placeholder types that are specified when the function is called. For example:
+
+swift
+Copy code
+func swap<T>(a: inout T, b: inout T) {
+    let temp = a
+    a = b
+    b = temp
+}
+Q: What is error handling in Swift?
+A: Error handling in Swift uses do-catch blocks to handle errors that are thrown by functions. You can catch and handle different types of errors using catch clauses.
+
+Q: How do you throw an error in Swift?
+A: You throw an error using the throw keyword. For example:
+
+swift
+Copy code
+enum MyError: Error {
+    case runtimeError
+}
+
+func riskyFunction() throws {
+    throw MyError.runtimeError
+}
+Q: What is the difference between throw and try in Swift?
+A: throw is used to throw an error, while try is used to call a function that can throw an error and handle it using do-catch blocks.
+
+Q: What is the defer statement in Swift?
+A: The defer statement is used to execute a block of code just before transferring control out of the scope where it is defined, allowing for clean-up actions.
+
+Q: How do you create a Swift class?
+A: You create a class using the class keyword. For example:
+
+swift
+Copy code
+class Car {
+    var make: String
+    init(make: String) {
+        self.make = make
+    }
+}
+Q: What is a lazy property in Swift?
+A: A lazy property is a property whose initial value is not calculated until the first time it is accessed. It is defined using the lazy keyword.
+
+Q: How do you create an enumeration in Swift?
+A: You create an enumeration using the enum keyword. For example:
+
+swift
+Copy code
+enum Direction {
+    case north
+    case south
+    case east
+    case west
+}
+Q: What is type casting in Swift?
+A: Type casting is used to check and convert the type of an instance at runtime using as? for conditional casting or as! for forced casting.
+
+Q: What is the purpose of guard in Swift?
+A: guard is used for early exits from a function or loop if certain conditions are not met, ensuring that the remaining code runs only when the conditions are satisfied.
+
+Q: What are Swift protocols used for?
+A: Swift protocols are used to define a set of methods and properties that a conforming type must implement, allowing for flexible and reusable code.
+
+Q: What is a closure capture list in Swift?
+A: A closure capture list allows you to define how values are captured by a closure, including specifying strong, weak, or unowned references to prevent retain cycles.
+
+Q: What is the difference between weak and unowned references in Swift?
+A: weak references do not prevent their object from being deallocated, whereas unowned references assume the object will not be deallocated while it is in use.
+
+Q: What is the purpose of the @objc attribute in Swift?
+A: The @objc attribute exposes Swift code to Objective-C and allows interoperability between Swift and Objective-C codebases.
+
+Q: How do you perform a type check in Swift?
+A: You use the is keyword to check if an instance is of a certain type and as? to attempt casting to a specific type.
+
+Q: What is a set in Swift?
+A: A set is an unordered collection of unique values in Swift, similar to sets in mathematics, where duplicate elements are not allowed.
+
+Q: What is the purpose of the @escaping attribute in Swift?
+A: The @escaping attribute is used to indicate that a closure passed as an argument to a function can outlive the function's scope, such as when stored in a property.
+
+Q: How do you handle optional chaining in Swift?
+A: Optional chaining is used to call properties, methods, and subscripts on optional that might be nil and will return nil if any part of the chain is nil.
+
+Q: What is a Swift struct used for?
+A: A struct is used to define a data structure that encapsulates related properties and methods, and it is a value type, meaning it is copied when passed around.
+
+Q: How do you initialize a Swift struct?
+A: You initialize a struct using its initializer, which is automatically generated if no custom initializer is provided. For example:
+
+swift
+Copy code
+struct Person {
+    var name: String
+}
+
+let person = Person(name: "Alice")
+Q: What are computed properties in Swift?
+A: Computed properties provide a getter and an optional setter to calculate and return a value dynamically rather than storing it.
+
+Q: What is a Swift enum and how is it different from a struct or class?
+A: An enum is a type that defines a group of related values. Unlike structs and classes, enums do not support inheritance and are typically used for defining a fixed set of related values.
+
+Q: How do you handle errors in Swift using do-catch blocks?
+A: You use a do block to execute code that may throw an error, and catch blocks to handle specific errors. For example:
+
+swift
+Copy code
+do {
+    try someFunction()
+} catch {
+    print("An error occurred: \(error)")
+}
+Q: What is a final class in Swift?
+A: A final class cannot be subclassed, meaning no other class can inherit from it. This is used to prevent further inheritance and to optimize performance.
+
+Q: How do you define a class property in Swift?
+A: A class property is defined using the static keyword for structs and enums, or the class keyword for class properties. For example:
+
+swift
+Copy code
+class MyClass {
+    class var classProperty: String {
+        return "Class Property"
+    }
+}
+Q: What are Swift optionals used for?
+A: Swift optionals are used to represent a value that may or may not be present, allowing safe handling of the absence of a value.
+
+Q: What is a protocol extension in Swift?
+A: A protocol extension allows you to provide default implementations for methods and properties defined in a protocol, making it easier to adopt protocols with shared behavior.
+
+Q: How do you define a lazy property in Swift?
+A: You define a lazy property using the lazy keyword, and its value is initialized only when it is first accessed. For example:
+
+swift
+Copy code
+lazy var largeData = loadLargeData()
+Q: What is the @escaping keyword in Swift?
+A: The @escaping keyword indicates that a closure passed as a function argument can be called after the function has returned, which is commonly used with asynchronous tasks.
+
+Q: What is a guard statement used for in Swift?
+A: The guard statement is used to exit a function early if certain conditions are not met, ensuring that code continues only when conditions are satisfied.
+
+Q: How do you use guard with optional binding?
+A: You use guard let or guard var to safely unwrap optionals and ensure that a condition is met. For example:
+
+swift
+Copy code
+guard let name = name else {
+    return
+}
+Q: What is nil-coalescing operator in Swift?
+A: The nil-coalescing operator (??) provides a default value if an optional is nil. For example:
+
+swift
+Copy code
+let name = optionalName ?? "Default Name"
+Q: How do you define a computed property in Swift?
+A: A computed property provides a getter and an optional setter to dynamically calculate a value. For example:
+
+swift
+Copy code
+var fullName: String {
+    return "\(firstName) \(lastName)"
+}
+Q: What is the purpose of the @objc attribute in Swift?
+A: The @objc attribute allows Swift code to be used in Objective-C codebases and makes Swift classes and methods available to Objective-C runtime.
+
+Q: How do you define an initializer in Swift?
+A: You define an initializer using the init keyword. For example:
+
+swift
+Copy code
+init(name: String) {
+    self.name = name
+}
+Q: What is a protocol in Swift?
+A: A protocol is a set of methods and properties that a type must implement, allowing different types to provide specific implementations of the required functionality.
+
+Q: What are the benefits of using enum in Swift?
+A: Enums in Swift provide a way to define a group of related values and make code more readable, safe, and manageable by using type-safe constants.
+
+Q: How do you use typealias in Swift?
+A: typealias is used to define a new name for an existing type, making code more readable. For example:
+
+swift
+Copy code
+typealias StringArray = [String]
+Q: What is the difference between class and struct in Swift?
+A: class is a reference type that supports inheritance, while struct is a value type that is copied when passed around and does not support inheritance.
+
+Q: What is a didSet observer in Swift?
+A: The didSet observer is used to respond to changes in a property’s value, allowing you to execute code immediately after the property is set.
+
+Q: What is @escaping and why is it important?
+A: @escaping is used to indicate that a closure may outlive the scope in which it was created, important for asynchronous operations and callbacks.
+
+Q: How do you create a singleton in Swift?
+A: A singleton is created by defining a class with a static constant instance and a private initializer. For example:
+
+swift
+Copy code
+class Singleton {
+    static let shared = Singleton()
+    private init() {}
+}
+Q: What is type casting in Swift?
+A: Type casting is used to check and convert an instance to a different type at runtime using is for checking and as for casting.
+
+Q: How do you handle strong, weak, and unowned references in Swift?
+A: strong references keep an object alive, weak references do not prevent deallocation, and unowned references assume the object will always be present.
+
+Q: What is ARC in Swift?
+A: Automatic Reference Counting (ARC) is a memory management feature in Swift that automatically keeps track of the references to objects to manage their memory.
+
+Q: What is the purpose of deinit in Swift?
+A: deinit is a special method that is called when an instance of a class is deallocated, allowing for cleanup and resource management before the instance is destroyed.
+
+Q: How do you perform string interpolation in Swift?
+A: String interpolation is done by embedding variables or expressions within a string using \(). For example: let message = "Hello, \(name)!"
+
+Q: What is @available in Swift?
+A: @available is an attribute used to indicate that a particular API is available on certain platforms or versions, and can be used to conditionally compile code.
+
+Q: How do you use @IBDesignable in Swift?
+A: @IBDesignable allows you to create custom views that can be rendered in Interface Builder, making it easier to design and preview UI components.
+
+Q: What is the @IBInspectable attribute in Swift?
+A: @IBInspectable exposes properties of a custom view to Interface Builder, allowing you to configure them directly in the Interface Builder inspector.
+
+Q: What is SwiftUI?
+A: SwiftUI is a framework introduced by Apple for building user interfaces in a declarative way, allowing for simpler and more intuitive UI development across all Apple platforms.
+
+Q: What is the difference between @State and @Binding in SwiftUI?
+A: @State is used for local state management within a view, while @Binding creates a two-way connection between a parent and child view to manage state across multiple views.
+
+Q: What are structs and classes used for in Swift?
+A: structs are used for value types with no inheritance, while classes are used for reference types that support inheritance and dynamic dispatch.
+
+Q: What is @EnvironmentObject in SwiftUI?
+A: @EnvironmentObject is used to inject data into the SwiftUI environment, allowing views to access shared data across the app without passing it explicitly.
+
+Q: How do you use @ObservedObject in SwiftUI?
+A: @ObservedObject is used to observe an object that conforms to the ObservableObject protocol and automatically update the view when the object’s state changes.
+
+Q: What is the purpose of @Published in SwiftUI?
+A: @Published is used in conjunction with ObservableObject to automatically notify subscribers of changes to the property’s value, triggering UI updates.
+
+Q: What is @UIApplicationDelegateAdaptor in Swift?
+A: @UIApplicationDelegateAdaptor allows you to use SwiftUI lifecycle features in apps that need to adopt the UIApplicationDelegate protocol for compatibility.
+
+Q: How do you define a protocol in Swift?
+A: You define a protocol using the protocol keyword, specifying the methods and properties that conforming types must implement.
+
+Q: What is @escaping closure and when is it used?
+A: An @escaping closure is one that is allowed to outlive the scope of the function it was passed to, commonly used in asynchronous operations like network requests.
+
+Q: What is the @objcMembers attribute in Swift?
+A: The @objcMembers attribute exposes all members of a class to Objective-C, making it easier to work with Objective-C code and APIs.
+
+Q: How do you create a custom operator in Swift?
+A: You define a custom operator using the operator keyword and implement its functionality. For example:
+
+swift
+Copy code
+infix operator **: MultiplicationPrecedence
+func **(lhs: Int, rhs: Int) -> Int {
+    return Int(pow(Double(lhs), Double(rhs)))
+}
+Q: What are closure capture lists used for in Swift?
+A: Capture lists are used to control how closures capture and store references to variables and constants from their surrounding context, managing memory and avoiding retain cycles.
+
+Q: How do you handle asynchronous tasks in Swift?
+A: You handle asynchronous tasks using async and await keywords, as well as DispatchQueue for executing tasks on background threads.
+
+Q: What is the purpose of the combine framework in Swift?
+A: The Combine framework provides a declarative Swift API for processing values over time, allowing you to handle asynchronous events and data streams.
+
+Q: How do you use Swift Package Manager?
+A: The Swift Package Manager is used to manage and distribute Swift code, allowing you to include packages in your projects and manage dependencies via Package.swift.
+
+Q: What is @escaping closure and when is it used?
+A: An @escaping closure is one that can be called after the function it was passed to has returned, often used in asynchronous operations to handle callbacks or completion handlers.
+
+Q: How do you work with Swift and Core Data?
+A: You work with Core Data in Swift by defining data models, setting up managed object contexts, and performing fetch, insert, update, and delete operations.
+
+Q: What are @StateObject and @ObservedObject used for in SwiftUI?
+A: @StateObject is used to create and manage the lifecycle of an observable object within a view, while @ObservedObject is used to observe an existing observable object.
+
+Q: How do you use SwiftUI to create a list of items?
+A: You use the List view to display a collection of data items. For example:
+
+swift
+Copy code
+List(items) { item in
+    Text(item.name)
+}
+Q: What is @Environment used for in SwiftUI?
+A: @Environment is used to access environment values that are passed down the view hierarchy, such as system settings or app-wide configurations.
+
+Q: How do you handle asynchronous code with Combine framework?
+A: You use publishers and subscribers to handle asynchronous code with Combine, enabling you to react to data changes and handle asynchronous operations in a declarative way.
+
+Q: What is the @main attribute in Swift?
+A: The @main attribute designates the entry point of the program, indicating where the program execution begins.
+
+Q: How do you define a default value for a parameter in Swift?
+A: You define a default value for a parameter by assigning a value in the function definition. For example:
+
+swift
+Copy code
+func greet(name: String = "Guest") {
+    print("Hello, \(name)!")
+}
+Q: What is the purpose of @discardableResult in Swift?
+A: The @discardableResult attribute indicates that the result of a function can be ignored without a compiler warning, useful for functions where the return value is not always needed.
+
+Q: How do you handle multiple conditions in a switch statement in Swift?
+A: You can handle multiple conditions by using comma-separated cases in a switch statement. For example:
+
+swift
+Copy code
+switch value {
+case .a, .b:
+    print("Matched case a or b")
+default:
+    print("Other case")
+}
+Q: What is the @escaping closure in Swift?
+A: An @escaping closure is one that is allowed to be called after the function it was passed to has returned, often used in asynchronous operations to handle completion handlers.
+
+Q: How do you create a UIViewController in Swift?
+A: You create a UIViewController subclass and override its methods to manage views and handle user interactions. For example:
+
+swift
+Copy code
+class MyViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Setup view
+    }
+}
+Q: What is the purpose of @UIApplicationDelegateAdaptor in Swift?
+A: @UIApplicationDelegateAdaptor allows you to use the SwiftUI lifecycle while still conforming to the UIApplicationDelegate protocol for additional app setup.
+
+Q: How do you implement a custom view modifier in SwiftUI?
+A: You implement a custom view modifier by creating a struct that conforms to the ViewModifier protocol and defining its body method. For example:
+
+swift
+Copy code
+struct RedBackground: ViewModifier {
+    func body(content: Content) -> some View {
+        content.background(Color.red)
+    }
+}
+Q: How do you define a view in SwiftUI?
+A: You define a view by creating a struct that conforms to the View protocol and implementing its body property. For example:
+
+swift
+Copy code
+struct ContentView: View {
+    var body: some View {
+        Text("Hello, World!")
+    }
+}
+Q: What is the purpose of @Binding in SwiftUI?
+A: @Binding is used to create a two-way connection between a parent view and a child view, allowing changes in one view to be reflected in the other.
+
+Q: How do you use Swift enums with associated values?
+A: You use enums with associated values to store additional data with each case. For example:
+
+swift
+Copy code
+enum NetworkResponse {
+    case success(data: Data)
+    case failure(error: Error)
+}
+Q: How do you use Optional Chaining in Swift?
+A: Optional chaining allows you to call properties, methods, and subscripts on optional that might currently be nil. For example:
+
+swift
+Copy code
+let length = person?.address?.street?.count
+Q: What is @State in SwiftUI?
+A: @State is used to create a mutable state property within a SwiftUI view, allowing the view to automatically update when the state changes.
+
+Q: How do you use SwiftUI with UIKit?
+A: You can use SwiftUI within UIKit by wrapping SwiftUI views in UIHostingController and presenting or embedding it within UIKit-based applications.
+
+Q: What is a Computed Property in Swift?
+A: A computed property calculates its value each time it is accessed, rather than storing a value. It is defined with a getter and optionally a setter.
+
+Q: How do you handle NSError in Swift?
+A: You handle NSError by using Swift’s error handling mechanisms such as do-catch blocks, and by casting NSError to Swift’s Error protocol.
+
+Q: What are SwiftUI view modifiers?
+A: View modifiers are methods that return a new view with additional styling or behavior applied. They are used to customize and configure views in SwiftUI.
+
+Q: How do you create a protocol with default implementations in Swift?
+A: You use a protocol extension to provide default implementations for methods and properties defined in a protocol. For example:
+
+swift
+Copy code
+protocol Greetable {
+    func greet()
+}
+
+extension Greetable {
+    func greet() {
+        print("Hello!")
+    }
+}
+Q: How do you use Codable in Swift?
+A: Codable is a type alias for Encodable and Decodable, allowing you to easily encode and decode data to and from formats like JSON. For example:
+
+swift
+Copy code
+struct User: Codable {
+    var name: String
+    var age: Int
+}
+Q: What is lazy property initialization in Swift?
+A: A lazy property is initialized only when it is first accessed, which can improve performance and avoid unnecessary initialization.
+
+Q: How do you implement ObservableObject in SwiftUI?
+A: You implement ObservableObject by creating a class that conforms to the ObservableObject protocol and uses @Published to notify changes.
+
+Q: What is @Published property wrapper used for?
+A: @Published is used to mark a property as one that will publish changes to subscribers, automatically notifying views that use @ObservedObject or @StateObject.
+
+Q: What are Generic Types in Swift?
+A: Generic types allow you to define functions and types that can work with any type, providing flexibility and code reusability. For example:
+
+swift
+Copy code
+func swap<T>(a: inout T, b: inout T) {
+    let temp = a
+    a = b
+    b = temp
+}
+Q: How do you define a nested type in Swift?
+A: You define a nested type within another type by including it inside the outer type’s definition. For example:
+
+swift
+Copy code
+struct Outer {
+    struct Inner {
+        var value: Int
+    }
+}
+Q: What is the @ViewBuilder in SwiftUI?
+A: @ViewBuilder is used to build complex view hierarchies by allowing multiple views to be returned from a closure.
+
+Q: How do you use guard statements in Swift?
+A: You use guard statements to exit early from a function or loop if a condition is not met, ensuring that necessary conditions are satisfied before proceeding.
+
+Q: What is Result type in Swift?
+A: The Result type represents either a success with a value or a failure with an error, providing a way to handle operations that can succeed or fail.
+
+Q: How do you work with SwiftUI List and ForEach?
+A: You use List to create a scrollable list of data, and ForEach to iterate over a collection and create views for each item. For example:
+
+swift
+Copy code
+List(items) { item in
+    Text(item.name)
+}
+Q: How do you implement a Custom Operator in Swift?
+A: You implement a custom operator by defining its symbol and providing an implementation. For example:
+
+swift
+Copy code
+infix operator ++: AdditionPrecedence
+func ++(lhs: Int, rhs: Int) -> Int {
+    return lhs + rhs + 1
+}
+Q: How do you handle Nil-Coalescing Operator in Swift?
+A: The nil-coalescing operator (??) provides a default value if an optional is nil. For example:
+
+swift
+Copy code
+let name = userName ?? "Guest"
+Q: What is @ViewBuilder and how is it used in SwiftUI?
+A: @ViewBuilder is used to create views from a closure with multiple view types, allowing conditional view construction in SwiftUI. For example:
+
+swift
+Copy code
+@ViewBuilder
+var body: some View {
+    if condition {
+        Text("Condition met")
+    } else {
+        Text("Condition not met")
+    }
+}
+Q: What is @EnvironmentObject in SwiftUI?
+A: @EnvironmentObject is used to inject and access shared data across the view hierarchy, allowing views to access and modify the data provided by a parent view.
+
+Q: How do you perform unit testing in Swift?
+A: You perform unit testing using XCTest framework, writing test cases to verify the behavior of your code, and using assertions to check the correctness of the results.
+
+Q: What is SwiftUI Environment used for?
+A: Environment is used to access environment values that are provided by the system or parent views, such as color schemes, locale, or font sizes.
+
+Q: How do you use Swift enums with raw values?
+A: Enums with raw values allow each case to be associated with a specific value, such as integers or strings. For example:
+
+swift
+Copy code
+enum Direction: String {
+    case north
+    case south
+    case east
+    case west
+}
+Q: How do you handle Multi-Threading in Swift?
+A: You handle multi-threading using DispatchQueue, OperationQueue, or concurrency features like async/await to execute code concurrently or asynchronously.
+
+Q: What is the @objc attribute in Swift?
+A: The @objc attribute exposes Swift code to Objective-C, allowing interoperability between Swift and Objective-C code.
+
+Q: How do you create a UIView programmatically in Swift?
+A: You create a UIView programmatically by initializing it and setting its frame, then adding it to a view hierarchy. For example:
+
+swift
+Copy code
+let myView = UIView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
+myView.backgroundColor = .blue
+view.addSubview(myView)
+Q: What are Swift Protocol Extensions used for?
+A: Protocol extensions provide default implementations for methods and properties in a protocol, allowing you to add functionality to conforming types without requiring changes to the types themselves.
+
+Q: How do you use KeyPath in Swift?
+A: KeyPath represents a path to a property on a type, allowing you to refer to properties programmatically. For example:
+
+swift
+Copy code
+let nameKeyPath = \Person.name
+Q: How do you define a singleton pattern in Swift?
+A: You define a singleton pattern by creating a shared instance of a class and ensuring it cannot be instantiated multiple times. For example:
+
+swift
+Copy code
+class Singleton {
+    static let shared = Singleton()
+    private init() {}
+}
+Q: What is @escaping closure in Swift?
+A: An @escaping closure is one that is allowed to be called after the function it was passed to has returned, often used in asynchronous operations to handle completion handlers.
+
+Q: How do you handle protocol conformance in Swift?
+A: You handle protocol conformance by implementing all required methods and properties defined in the protocol within a class or struct.
+
+Q: How do you use SwiftUI Form?
+A: Form is used to create a scrollable view with input controls, such as text fields and toggles, typically used for user input and settings.
+
+Q: What is Codable in Swift?
+A: Codable is a type alias for Encodable and Decodable, allowing types to be easily encoded and decoded between different formats like JSON.
+
+Q: How do you handle Optional in Swift?
+A: You handle Optional by safely unwrapping it using optional binding (if let or guard let), optional chaining, or force unwrapping (if you are certain it contains a value).
+
+Q: How do you work with Swift Structs and Classes?
+A: Structs are value types that are copied when assigned, while Classes are reference types that are shared among references. Use Structs for lightweight data structures and Classes for more complex behaviors and inheritance.
+
+Q: What is @EnvironmentObject in SwiftUI?
+A: @EnvironmentObject is used to inject and access shared data throughout the view hierarchy, allowing views to observe and modify the data provided by a parent view.
+
+Q: How do you use SwiftUI NavigationView?
+A: NavigationView is used to create a navigation-based user interface, allowing views to navigate to other views with a navigation bar. For example:
+
+swift
+Copy code
+NavigationView {
+    Text("Hello, World!")
+        .navigationTitle("Home")
+}
+Q: What is SwiftUI GeometryReader used for?
+A: GeometryReader is used to get the size and position of views and perform layout calculations based on their dimensions.
+
+Q: How do you use Swift Optional binding?
+A: Optional binding is used to safely unwrap optionals by checking if they contain a value and then assigning it to a temporary constant or variable. For example:
+
+swift
+Copy code
+if let name = userName {
+    print("User name is \(name)")
+} else {
+    print("No user name available")
+}
+Q: What is @State property wrapper in SwiftUI?
+A: @State is used to create a mutable state property within a view, allowing the view to automatically update when the state changes.
+
+Q: How do you use SwiftUI List to display dynamic data?
+A: You use List to create a scrollable list of items, often with dynamic data provided by a collection or an array. For example:
+
+swift
+Copy code
+List(items) { item in
+    Text(item.name)
+}
+Q: What is @Binding in SwiftUI?
+A: @Binding creates a two-way connection between a parent view and a child view, allowing changes in one to reflect in the other.
+
+Q: How do you handle Error handling in Swift?
+A: You handle errors using do-catch blocks to catch and manage exceptions thrown by functions or methods that conform to the Error protocol.
+
+Q: What is the defer statement in Swift?
+A: The defer statement is used to execute code just before the scope exits, useful for cleanup tasks or finalizing operations.
+
+Q: How do you create a Custom View in SwiftUI?
+A: You create a custom view by defining a struct that conforms to the View protocol and implementing its body property. For example:
+
+swift
+Copy code
+struct CustomView: View {
+    var body: some View {
+        Text("This is a custom view")
+    }
+}
+Q: What is the didSet property observer in Swift?
+A: The didSet property observer is called immediately after a property’s value is set, allowing you to perform actions in response to changes.
+
+Q: How do you use Swift DispatchQueue for multi-threading?
+A: You use DispatchQueue to manage tasks and execute code concurrently or serially on different threads. For example:
+
+swift
+Copy code
+DispatchQueue.global().async {
+    // Perform background task
+}
+Q: How do you handle URLSession in Swift for network requests?
+A: You use URLSession to perform network requests, handle responses, and process data asynchronously. For example:
+
+swift
+Copy code
+URLSession.shared.dataTask(with: url) { data, response, error in
+    // Handle data, response, or error
+}.resume()
+Q: What is @Published in SwiftUI?
+A: @Published is used in combination with ObservableObject to mark properties that, when changed, will trigger updates in the view hierarchy.
+
+Q: How do you use Swift Closure with completion handlers?
+A: You use closures as completion handlers to execute code after an asynchronous task finishes. For example:
+
+swift
+Copy code
+func fetchData(completion: @escaping (Result<Data, Error>) -> Void) {
+    // Perform network request
+    completion(.success(data))
+}
+Q: What is the difference between struct and class in Swift?
+A: struct is a value type that is copied when assigned, while class is a reference type that shares the same instance across multiple references. struct does not support inheritance, while class does.
+
+Q: How do you use SwiftUI Modifier to customize views?
+A: You use view modifiers to apply styles and behavior to views. For example:
+
+swift
+Copy code
+Text("Hello, World!")
+    .font(.title)
+    .foregroundColor(.blue)
+Q: What is @MainActor in Swift?
+A: @MainActor is used to ensure that the code executes on the main thread, typically for updating UI elements from background tasks.

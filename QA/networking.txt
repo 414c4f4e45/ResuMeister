@@ -1,0 +1,479 @@
+Q: What is a network?
+A: A network is a collection of computers, servers, mainframes, network devices, and other devices connected to one another for sharing data and resources.
+
+Q: What is an IP address?
+A: An IP address is a unique identifier assigned to each device connected to a network that uses the Internet Protocol for communication.
+
+Q: What is the difference between IPv4 and IPv6?
+A: IPv4 uses a 32-bit address scheme allowing for 4.3 billion unique addresses, while IPv6 uses a 128-bit scheme allowing for a vastly larger number of addresses.
+
+Q: What is a subnet mask?
+A: A subnet mask is used to divide an IP address into network and host portions, helping to identify the subnet to which an IP address belongs.
+
+Q: What is a gateway?
+A: A gateway is a network device that routes traffic between different networks, often connecting a local network to the Internet.
+
+Q: What is a DNS server?
+A: A DNS server translates domain names into IP addresses, allowing users to access websites using human-readable addresses.
+
+Q: What is DHCP?
+A: DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses and other network configuration settings to devices on a network.
+
+Q: What is a router?
+A: A router is a network device that forwards data packets between computer networks, typically connecting different network segments.
+
+Q: What is a switch?
+A: A switch is a network device that connects devices within a single network, forwarding data based on MAC addresses.
+
+Q: What is a hub?
+A: A hub is a basic network device that connects multiple devices in a network but does not manage traffic, broadcasting data to all connected devices.
+
+Q: What is a firewall?
+A: A firewall is a security device or software that monitors and controls incoming and outgoing network traffic based on predetermined security rules.
+
+Q: What is NAT?
+A: NAT (Network Address Translation) is a technique used to modify IP address information in packet headers while in transit, often used to allow multiple devices to share a single public IP address.
+
+Q: What is a VPN?
+A: A VPN (Virtual Private Network) creates a secure, encrypted connection over a less secure network, such as the Internet.
+
+Q: What is a LAN?
+A: A LAN (Local Area Network) is a network that connects devices within a limited area, such as a home or office.
+
+Q: What is a WAN?
+A: A WAN (Wide Area Network) spans a large geographical area, connecting multiple LANs across cities, countries, or even continents.
+
+Q: What is a VLAN?
+A: A VLAN (Virtual Local Area Network) is a network configuration that segments a physical network into multiple logical networks.
+
+Q: What is network latency?
+A: Network latency is the time it takes for data to travel from the source to the destination across a network.
+
+Q: What is bandwidth?
+A: Bandwidth is the maximum rate of data transfer across a network path, measured in bits per second (bps).
+
+Q: What is a MAC address?
+A: A MAC address (Media Access Control address) is a unique identifier assigned to network interfaces for communications on the physical network segment.
+
+Q: What is a network topology?
+A: Network topology refers to the arrangement of different elements (links, nodes, etc.) in a computer network, such as star, ring, mesh, or bus topologies.
+
+Q: What is a protocol?
+A: A protocol is a set of rules and conventions for communication between network devices, ensuring proper data exchange.
+
+Q: What is the OSI model?
+A: The OSI (Open Systems Interconnection) model is a conceptual framework used to understand and design network protocols and systems, consisting of seven layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application.
+
+Q: What is TCP/IP?
+A: TCP/IP (Transmission Control Protocol/Internet Protocol) is a suite of communication protocols used to interconnect network devices on the Internet.
+
+Q: What is the difference between TCP and UDP?
+A: TCP (Transmission Control Protocol) provides reliable, connection-oriented communication with error checking and correction, while UDP (User Datagram Protocol) offers faster, connectionless communication without error recovery.
+
+Q: What is a ping test?
+A: A ping test is a network diagnostic tool used to check the reachability of a host on an IP network and measure round-trip time for messages sent to the destination.
+
+Q: What is traceroute?
+A: Traceroute is a network diagnostic tool used to trace the path data packets take from the source to the destination, showing each hop along the way.
+
+Q: What is ARP?
+A: ARP (Address Resolution Protocol) is used to map an IP address to a MAC address on a local network.
+
+Q: What is an SSL/TLS certificate?
+A: An SSL/TLS certificate is a digital certificate used to secure communications between a web server and a browser by encrypting data transmitted over HTTPS.
+
+Q: What is QoS?
+A: QoS (Quality of Service) refers to the prioritization of network traffic to ensure the performance of critical applications and services.
+
+Q: What is network segmentation?
+A: Network segmentation involves dividing a network into smaller segments to improve performance, security, and manageability.
+
+Q: What is a subnet?
+A: A subnet (subnetwork) is a logically visible subdivision of an IP network, created to improve network management and performance.
+
+Q: What is port forwarding?
+A: Port forwarding is a network configuration that redirects traffic from a specific port on a router to a designated internal IP address and port.
+
+Q: What is a proxy server?
+A: A proxy server acts as an intermediary between a client and a destination server, providing anonymity, security, and caching.
+
+Q: What is a load balancer?
+A: A load balancer distributes incoming network traffic across multiple servers to ensure no single server becomes overwhelmed.
+
+Q: What is DHCP leasing?
+A: DHCP leasing is the process by which a DHCP server assigns a temporary IP address to a device for a specified period.
+
+Q: What is an intranet?
+A: An intranet is a private network that uses Internet protocols and technologies to securely share information within an organization.
+
+Q: What is an extranet?
+A: An extranet is a controlled private network that allows access to external users, such as business partners or customers, to specific parts of an organization’s network.
+
+Q: What is a network interface card (NIC)?
+A: A NIC (Network Interface Card) is a hardware component that enables a computer or other device to connect to a network.
+
+Q: What is a network socket?
+A: A network socket is an endpoint for sending or receiving data across a network, often defined by an IP address and port number.
+
+Q: What is a network interface?
+A: A network interface is a point of connection between a device and a network, including hardware interfaces like NICs and software interfaces like virtual adapters.
+
+Q: What is a broadcast domain?
+A: A broadcast domain is a network segment in which any broadcast packet sent by a device is received by all other devices within the same domain.
+
+Q: What is a collision domain?
+A: A collision domain is a network segment where data packets can collide with each other, often found in Ethernet networks.
+
+Q: What is network address translation (NAT)?
+A: NAT (Network Address Translation) modifies IP address information in packet headers while in transit, allowing multiple devices to share a single public IP address.
+
+Q: What is a VLAN trunking protocol (VTP)?
+A: VTP (VLAN Trunking Protocol) is used to manage VLANs across multiple switches, allowing for the propagation of VLAN information throughout a network.
+
+Q: What is SNMP?
+A: SNMP (Simple Network Management Protocol) is used for managing and monitoring network devices, such as routers, switches, and servers.
+
+Q: What is the difference between a public and private IP address?
+A: Public IP addresses are assigned to devices that need to be accessible over the Internet, while private IP addresses are used within a local network and are not routable over the Internet.
+
+Q: What is an access control list (ACL)?
+A: An ACL (Access Control List) is a set of rules that defines what traffic is allowed or denied on a network device, such as a router or switch.
+
+Q: What is a demilitarized zone (DMZ)?
+A: A DMZ is a network segment that separates an internal network from external networks, such as the Internet, providing an additional layer of security.
+
+Q: What is a network topology diagram?
+A: A network topology diagram visually represents the layout and connections of devices within a network, including their interconnections and relationships.
+
+Q: What is an IP subnet?
+A: An IP subnet is a segment of an IP network with its own network address, used to organize and manage IP addresses.
+
+Q: What is BGP?
+A: BGP (Border Gateway Protocol) is a routing protocol used to exchange routing information between different autonomous systems on the Internet.
+
+Q: What is OSPF?
+A: OSPF (Open Shortest Path First) is a link-state routing protocol used to find the best path for data packets within a large network.
+
+Q: What is a ping of death attack?
+A: A ping of death attack is a denial-of-service (DoS) attack that involves sending oversized ping packets to crash or destabilize a target system.
+
+Q: What is an EIGRP?
+A: EIGRP (Enhanced Interior Gateway Routing Protocol) is a dynamic routing protocol used to efficiently exchange routing information within an autonomous system.
+
+Q: What is a network switch’s MAC address table?
+A: A network switch’s MAC address table maps MAC addresses to switch ports, enabling the switch to forward data to the correct destination.
+
+Q: What is a network sniffing tool?
+A: A network sniffing tool captures and analyzes network traffic to monitor and troubleshoot network issues or security threats.
+
+Q: What is port scanning?
+A: Port scanning is a technique used to identify open ports and services on a network device to assess security and network configuration.
+
+Q: What is a man-in-the-middle attack?
+A: A man-in-the-middle attack occurs when an attacker intercepts and possibly alters communication between two parties without their knowledge.
+
+Q: What is DNS poisoning?
+A: DNS poisoning is an attack that corrupts DNS cache data, redirecting users to malicious sites instead of the intended domain.
+
+Q: What is a network topology?
+A: Network topology describes the physical or logical arrangement of network devices and connections, influencing performance and scalability.
+
+Q: What is a network protocol?
+A: A network protocol is a set of rules and conventions for communication between devices in a network, ensuring data is transmitted and received correctly.
+
+Q: What is network redundancy?
+A: Network redundancy involves implementing multiple network paths or devices to ensure continuous network operation in case of failures or outages.
+
+Q: What is a proxy server?
+A: A proxy server intermediates between a client and a destination server, providing features such as caching, filtering, and anonymity.
+
+Q: What is a denial-of-service (DoS) attack?
+A: A DoS attack aims to disrupt the normal functioning of a network or server by overwhelming it with excessive traffic or resource requests.
+
+Q: What is a Distributed Denial-of-Service (DDoS) attack?
+A: A DDoS attack involves multiple compromised systems attacking a single target, overwhelming it with traffic to disrupt services.
+
+Q: What is a network bridge?
+A: A network bridge connects and filters traffic between two or more network segments, enabling communication between them.
+
+Q: What is a repeater?
+A: A repeater amplifies or regenerates network signals to extend the range of a network and maintain signal strength.
+
+Q: What is a packet switch?
+A: A packet switch is a network device that routes data packets based on their destination address, used in packet-switched networks like the Internet.
+
+Q: What is an IPsec?
+A: IPsec (Internet Protocol Security) is a suite of protocols used to secure IP communications by authenticating and encrypting each IP packet.
+
+Q: What is a network interface?
+A: A network interface is the point of connection between a device and a network, enabling communication over the network.
+
+Q: What is an MPLS?
+A: MPLS (Multiprotocol Label Switching) is a technique used to manage network traffic and improve performance by labeling and directing data packets.
+
+Q: What is a Tunneling Protocol?
+A: A Tunneling Protocol encapsulates network packets within other packets to securely transmit data over a network, often used in VPNs.
+
+Q: What is a security group?
+A: A security group is a set of firewall rules that control inbound and outbound traffic for resources within a network, such as virtual machines.
+
+Q: What is a NAT gateway?
+A: A NAT gateway provides network address translation services for instances within a private network to access external networks, such as the Internet.
+
+Q: What is a network management system (NMS)?
+A: An NMS is a system used to monitor, manage, and maintain network infrastructure, ensuring optimal performance and reliability.
+
+Q: What is a network service?
+A: A network service is a functional component provided by a network, such as DNS, DHCP, or email services.
+
+Q: What is a network access control (NAC) system?
+A: A NAC system enforces security policies by controlling and monitoring device access to a network based on predefined rules.
+
+Q: What is a network performance monitoring tool?
+A: A network performance monitoring tool tracks and analyzes network performance metrics, such as bandwidth usage, latency, and packet loss.
+
+Q: What is a VPN gateway?
+A: A VPN gateway is a network device that manages and secures VPN connections, providing encrypted access to a private network over the Internet.
+
+Q: What is a demilitarized zone (DMZ)?
+A: A DMZ is a network segment that separates an organization's internal network from external networks, providing an additional layer of security.
+
+Q: What is a network topology diagram?
+A: A network topology diagram visually represents the layout and connections of devices within a network, including their interconnections and relationships.
+
+Q: What is the role of ARP in networking?
+A: ARP (Address Resolution Protocol) maps an IP address to a MAC address on a local network, enabling communication between devices.
+
+Q: What is a load balancer?
+A: A load balancer distributes incoming network traffic across multiple servers to ensure no single server becomes overwhelmed and to improve performance.
+
+Q: What is network monitoring?
+A: Network monitoring involves continuously observing and analyzing network traffic and performance to detect issues and ensure optimal operation.
+
+Q: What is a network switch’s MAC address table?
+A: A network switch’s MAC address table maps MAC addresses to switch ports, enabling the switch to forward data to the correct destination.
+
+Q: What is an intrusion detection system (IDS)?
+A: An IDS monitors network traffic for suspicious activities and potential threats, alerting administrators of potential security breaches.
+
+Q: What is an intrusion prevention system (IPS)?
+A: An IPS actively monitors and blocks suspicious activities or threats on a network to prevent potential security breaches.
+
+Q: What is a network segment?
+A: A network segment is a portion of a network that is separated from other segments by routers, switches, or other devices, often used to improve performance and security.
+
+Q: What is an Ethernet frame?
+A: An Ethernet frame is a data packet used in Ethernet networks that includes a header with source and destination MAC addresses, as well as the data payload.
+
+Q: What is the function of a network firewall?
+A: A network firewall controls and monitors incoming and outgoing network traffic based on predefined security rules, protecting the network from unauthorized access.
+
+Q: What is a network security policy?
+A: A network security policy is a set of guidelines and rules designed to protect a network and its data from unauthorized access and threats.
+
+Q: What is a wireless access point (WAP)?
+A: A wireless access point (WAP) provides wireless connectivity to devices, allowing them to connect to a wired network without physical cables.
+
+Q: What is a network bridge?
+A: A network bridge connects and filters traffic between two or more network segments, enabling communication between them.
+
+Q: What is a network packet?
+A: A network packet is a unit of data transmitted across a network, consisting of a header with control information and a payload with the data being sent.
+
+Q: What is a VLAN?
+A: A VLAN (Virtual Local Area Network) is a logical grouping of devices within a physical network that can communicate as if they were on the same local network.
+
+Q: What is bandwidth throttling?
+A: Bandwidth throttling is the deliberate slowing down of network traffic to manage bandwidth usage and prevent network congestion.
+
+Q: What is a network throughput?
+A: Network throughput is the rate at which data is successfully transmitted over a network, usually measured in bits per second (bps).
+
+Q: What is an IP packet?
+A: An IP packet is a formatted unit of data carried by IP networks, containing a header with routing information and a payload with the data.
+
+Q: What is a routing table?
+A: A routing table is a database maintained by routers and switches that contains information on how to forward packets to their destinations.
+
+Q: What is the purpose of network segmentation?
+A: Network segmentation improves security, performance, and management by dividing a network into smaller, isolated segments.
+
+Q: What is a digital certificate?
+A: A digital certificate is a cryptographic credential that verifies the identity of an entity and enables secure communication over networks.
+
+Q: What is a DMZ in network security?
+A: A DMZ (Demilitarized Zone) is a network segment that separates an internal network from external networks, providing an additional layer of security.
+
+Q: What is the role of ICMP in networking?
+A: ICMP (Internet Control Message Protocol) is used for network diagnostics and error reporting, such as sending ping requests and responses.
+
+Q: What is a MAC address?
+A: A MAC address (Media Access Control address) is a unique identifier assigned to a network interface card (NIC) for communication on a local network.
+
+Q: What is the purpose of DHCP?
+A: DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses and other network configuration settings to devices on a network.
+
+Q: What is an IP address?
+A: An IP address (Internet Protocol address) is a unique identifier assigned to each device on a network, allowing them to communicate with each other.
+
+Q: What is the OSI model?
+A: The OSI (Open Systems Interconnection) model is a conceptual framework that standardizes the functions of a network into seven layers.
+
+Q: What is a packet-switching network?
+A: A packet-switching network divides data into packets and routes each packet independently to its destination, improving efficiency and reliability.
+
+Q: What is a hub?
+A: A hub is a network device that connects multiple devices in a network and broadcasts incoming data packets to all connected devices.
+
+Q: What is a router?
+A: A router is a network device that forwards data packets between different networks based on their IP addresses, facilitating communication.
+
+Q: What is a network interface card (NIC)?
+A: A NIC (Network Interface Card) is a hardware component that connects a device to a network, enabling data transmission and reception.
+
+Q: What is a subnet mask?
+A: A subnet mask defines the range of IP addresses within a subnet, helping routers and switches determine how to route data.
+
+Q: What is the purpose of NAT?
+A: NAT (Network Address Translation) allows multiple devices on a private network to share a single public IP address for Internet access.
+
+Q: What is the function of DNS?
+A: DNS (Domain Name System) translates human-readable domain names into IP addresses, enabling users to access websites using easy-to-remember names.
+
+Q: What is a network attack surface?
+A: The network attack surface refers to the various points in a network that could be exploited by attackers to gain unauthorized access or cause damage.
+
+Q: What is a VLAN trunk?
+A: A VLAN trunk is a network link that carries traffic from multiple VLANs, allowing different VLANs to communicate over the same physical connection.
+
+Q: What is QoS?
+A: QoS (Quality of Service) is a set of technologies and techniques used to manage network traffic and ensure that critical applications receive the necessary bandwidth and performance.
+
+Q: What is an IP subnet?
+A: An IP subnet is a segment of an IP network created by dividing a larger network into smaller, manageable parts to improve performance and security.
+
+Q: What is an ARP cache?
+A: An ARP cache stores recent mappings of IP addresses to MAC addresses, reducing the need for repeated ARP requests and improving network efficiency.
+
+Q: What is network segmentation?
+A: Network segmentation involves dividing a network into smaller, isolated segments to enhance performance, security, and manageability.
+
+Q: What is a network address?
+A: A network address is a unique identifier assigned to a device on a network, used for routing and delivering data.
+
+Q: What is a broadcast domain?
+A: A broadcast domain is a network segment where all devices can receive broadcast packets sent by any other device within the same segment.
+
+Q: What is a collision domain?
+A: A collision domain is a network segment where data packets can collide with each other if multiple devices transmit simultaneously.
+
+Q: What is a network firewall?
+A: A network firewall is a security device that monitors and controls incoming and outgoing network traffic based on predefined security rules.
+
+Q: What is an IP gateway?
+A: An IP gateway is a network device that serves as an entry and exit point for data traffic between different networks or subnets.
+
+Q: What is a network hub?
+A: A network hub is a basic networking device that connects multiple devices in a network and broadcasts data to all connected devices.
+
+Q: What is a network cable?
+A: A network cable is a physical medium used to connect network devices, such as Ethernet cables, to facilitate data transmission.
+
+Q: What is an IP packet header?
+A: An IP packet header contains routing information and metadata about the packet, such as source and destination IP addresses, and control flags.
+
+Q: What is an IP address range?
+A: An IP address range is a set of IP addresses within a subnet, used to allocate addresses to devices and manage network resources.
+
+Q: What is network latency?
+A: Network latency is the delay between sending and receiving data across a network, often measured in milliseconds (ms).
+
+Q: What is an IP address class?
+A: An IP address class is a category of IP addresses defined by their range and purpose, such as Class A, B, C, D, and E.
+
+Q: What is a network data packet?
+A: A network data packet is a formatted unit of data transmitted over a network, containing a header with control information and a payload with the actual data.
+
+Q: What is a broadcast packet?
+A: A broadcast packet is a network packet sent to all devices within a broadcast domain, allowing communication with multiple devices simultaneously.
+
+Q: What is a network topology?
+A: Network topology is the arrangement of network devices and connections, influencing how data flows and how the network is managed.
+
+Q: What is a switch port?
+A: A switch port is a physical connection point on a network switch where network devices are connected, allowing them to communicate with each other.
+
+Q: What is a routing protocol?
+A: A routing protocol is a set of rules used by routers to determine the best path for forwarding data packets to their destination.
+
+Q: What is a network address translation (NAT) table?
+A: A NAT table maintains mappings between private IP addresses and public IP addresses, enabling devices on a private network to communicate with external networks.
+
+Q: What is a subnet?
+A: A subnet is a segment of a larger network that is divided into smaller, manageable parts to improve performance and security.
+
+Q: What is a network protocol stack?
+A: A network protocol stack is a set of protocols layered on top of each other, each providing specific functions required for network communication.
+
+Q: What is a VPN tunnel?
+A: A VPN tunnel is a secure, encrypted connection between a client and a VPN server, allowing private network access over the Internet.
+
+Q: What is an IP address assignment?
+A: IP address assignment is the process of allocating IP addresses to devices on a network, either manually or through automated methods like DHCP.
+
+Q: What is an IP address lease?
+A: An IP address lease is a temporary assignment of an IP address to a device, typically managed by a DHCP server.
+
+Q: What is a network switch’s VLAN configuration?
+A: A network switch’s VLAN configuration sets up and manages virtual LANs on the switch, allowing for network segmentation and improved performance.
+
+Q: What is an IP address reservation?
+A: An IP address reservation is a DHCP feature that ensures a specific IP address is always assigned to a particular device based on its MAC address.
+
+Q: What is a firewall rule?
+A: A firewall rule defines criteria for allowing or blocking network traffic based on attributes such as source IP, destination IP, and port number.
+
+Q: What is a network layer?
+A: The network layer is responsible for routing data packets between devices across different networks, using protocols like IP.
+
+Q: What is a data link layer?
+A: The data link layer handles communication between devices on the same network segment, including error detection and correction.
+
+Q: What is a physical layer?
+A: The physical layer is the lowest layer in the OSI model, responsible for transmitting raw bits over a physical medium.
+
+Q: What is a network address?
+A: A network address is a unique identifier assigned to a device on a network, used to route and deliver data packets.
+
+Q: What is a network interface card (NIC)?
+A: A NIC (Network Interface Card) is a hardware component that enables a device to connect to a network and communicate with other devices.
+
+Q: What is a gateway?
+A: A gateway is a network device that connects different networks and manages communication between them, often handling protocol translation.
+
+Q: What is a network intrusion detection system (NIDS)?
+A: A NIDS monitors network traffic for suspicious activities and potential threats, alerting administrators of potential security breaches.
+
+Q: What is a network intrusion prevention system (NIPS)?
+A: A NIPS actively monitors and blocks suspicious activities or threats on a network to prevent potential security breaches.
+
+Q: What is a network port?
+A: A network port is a logical endpoint for communication between devices, defined by a number and used to route data to specific applications or services.
+
+Q: What is a load balancer?
+A: A load balancer distributes network traffic across multiple servers to ensure balanced load, improve performance, and enhance reliability.
+
+Q: What is a network protocol?
+A: A network protocol is a set of rules and conventions for communication between network devices, ensuring proper data exchange.
+
+Q: What is a wireless access point (WAP)?
+A: A WAP is a device that provides wireless connectivity to a wired network, allowing wireless devices to connect and communicate.
+
+Q: What is a network diagram?
+A: A network diagram visually represents the layout of a network, including devices, connections, and communication paths.
+
+Q: What is a static IP address?
+A: A static IP address is a fixed IP address manually assigned to a device, providing a consistent address that does not change.
+
+Q: What is a dynamic IP address?
+A: A dynamic IP address is an IP address assigned automatically by a DHCP server, which can change each time the device connects to the network.

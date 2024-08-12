@@ -1,0 +1,446 @@
+Q: What is a statistic?
+A: A statistic is a numerical measurement describing some characteristic of a data set, such as the mean, median, or standard deviation.
+
+Q: What is descriptive statistics?
+A: Descriptive statistics involves methods for summarizing and describing the essential features of a data set, such as measures of central tendency and dispersion.
+
+Q: What is inferential statistics?
+A: Inferential statistics involves methods for making predictions or inferences about a population based on a sample of data.
+
+Q: What is a population in statistics?
+A: A population in statistics refers to the entire set of individuals or items that are of interest in a study.
+
+Q: What is a sample?
+A: A sample is a subset of individuals or items selected from a population, used to make inferences about the entire population.
+
+Q: What is a parameter?
+A: A parameter is a numerical value that summarizes a characteristic of a population, such as the population mean or variance.
+
+Q: What is a statistic (in the context of sample data)?
+A: A statistic is a numerical value that summarizes a characteristic of a sample, such as the sample mean or sample variance.
+
+Q: What is the mean of a data set?
+A: The mean is the average value of a data set, calculated by summing all the data points and dividing by the number of data points.
+
+Q: What is the median?
+A: The median is the middle value in a data set when it is ordered from smallest to largest. If there is an even number of data points, the median is the average of the two middle values.
+
+Q: What is the mode?
+A: The mode is the value that occurs most frequently in a data set.
+
+Q: What is the range of a data set?
+A: The range is the difference between the maximum and minimum values in a data set.
+
+Q: What is variance?
+A: Variance measures the average squared deviation of each data point from the mean of the data set, indicating the spread or dispersion of the data.
+
+Q: What is standard deviation?
+A: Standard deviation is the square root of the variance, providing a measure of the average distance of each data point from the mean.
+
+Q: What is a normal distribution?
+A: A normal distribution is a continuous probability distribution that is symmetric around the mean, with most of the data points falling close to the mean and fewer points further away.
+
+Q: What is the empirical rule?
+A: The empirical rule states that for a normal distribution, approximately 68% of the data falls within one standard deviation of the mean, 95% within two standard deviations, and 99.7% within three standard deviations.
+
+Q: What is a z-score?
+A: A z-score measures how many standard deviations a data point is from the mean of the data set.
+
+Q: What is a probability distribution?
+A: A probability distribution describes the likelihood of different outcomes in a random experiment, representing how probabilities are distributed over possible values.
+
+Q: What is a binomial distribution?
+A: A binomial distribution models the number of successes in a fixed number of independent Bernoulli trials, each with the same probability of success.
+
+Q: What is a Poisson distribution?
+A: A Poisson distribution models the number of events occurring within a fixed interval of time or space, given the events happen with a known constant mean rate and independently of the time since the last event.
+
+Q: What is a hypothesis test?
+A: A hypothesis test is a statistical method used to determine whether there is enough evidence in a sample of data to infer that a certain condition is true for the population.
+
+Q: What is the null hypothesis (H0)?
+A: The null hypothesis is a statement that there is no effect or no difference, and it serves as the default or baseline assumption in a hypothesis test.
+
+Q: What is the alternative hypothesis (H1 or Ha)?
+A: The alternative hypothesis is a statement that indicates the presence of an effect or a difference, opposing the null hypothesis.
+
+Q: What is a p-value?
+A: A p-value is the probability of obtaining a test statistic at least as extreme as the one observed, assuming that the null hypothesis is true.
+
+Q: What is statistical significance?
+A: Statistical significance refers to the likelihood that a result or effect is not due to chance, typically determined by comparing the p-value to a predefined significance level (alpha).
+
+Q: What is a confidence interval?
+A: A confidence interval is a range of values, derived from a data sample, that is likely to contain the true parameter of the population with a specified level of confidence.
+
+Q: What is the Central Limit Theorem?
+A: The Central Limit Theorem states that the distribution of the sample mean approaches a normal distribution as the sample size becomes large, regardless of the original distribution of the population.
+
+Q: What is a correlation coefficient?
+A: A correlation coefficient measures the strength and direction of the linear relationship between two variables.
+
+Q: What is the difference between correlation and causation?
+A: Correlation indicates a relationship between two variables, while causation implies that one variable directly affects the other. Correlation alone does not imply causation.
+
+Q: What is regression analysis?
+A: Regression analysis is a statistical technique used to examine the relationship between a dependent variable and one or more independent variables, often to predict the dependent variable.
+
+Q: What is a linear regression model?
+A: A linear regression model estimates the relationship between a dependent variable and one or more independent variables using a linear equation.
+
+Q: What is a residual?
+A: A residual is the difference between the observed value and the predicted value from a regression model.
+
+Q: What is multicollinearity?
+A: Multicollinearity refers to the situation where two or more independent variables in a regression model are highly correlated, potentially causing problems in estimating the coefficients.
+
+Q: What is a chi-square test?
+A: A chi-square test is a statistical test used to determine if there is a significant association between categorical variables.
+
+Q: What is a t-test?
+A: A t-test is a statistical test used to compare the means of two groups and determine if the observed differences are statistically significant.
+
+Q: What is an ANOVA test?
+A: ANOVA (Analysis of Variance) is a statistical test used to compare the means of three or more groups to determine if there are any statistically significant differences among them.
+
+Q: What is a non-parametric test?
+A: A non-parametric test is a statistical test that does not assume a specific distribution for the data and is used when data do not meet the assumptions of parametric tests.
+
+Q: What is the Mann-Whitney U test?
+A: The Mann-Whitney U test is a non-parametric test used to compare differences between two independent groups when the data are not normally distributed.
+
+Q: What is the Kruskal-Wallis test?
+A: The Kruskal-Wallis test is a non-parametric test used to compare differences between three or more independent groups when the data do not meet the assumptions of ANOVA.
+
+Q: What is a survival analysis?
+A: Survival analysis is a statistical technique used to analyze the time until an event of interest occurs, such as failure or death, and is commonly used in medical research and reliability studies.
+
+Q: What is a Kaplan-Meier curve?
+A: A Kaplan-Meier curve is a graphical representation of the survival function, showing the probability of survival over time for a group of individuals.
+
+Q: What is Cox proportional hazards model?
+A: The Cox proportional hazards model is a statistical technique used to explore the relationship between the survival time of individuals and one or more predictor variables.
+
+Q: What is Bayesian statistics?
+A: Bayesian statistics is a statistical approach that uses Bayes' theorem to update the probability of a hypothesis based on new evidence or data.
+
+Q: What is Bayes' theorem?
+A: Bayes' theorem is a mathematical formula that describes how to update the probability of a hypothesis based on prior knowledge and new evidence.
+
+Q: What is a prior probability?
+A: A prior probability is the initial probability of an event or hypothesis before observing any new data or evidence.
+
+Q: What is a posterior probability?
+A: A posterior probability is the updated probability of an event or hypothesis after taking into account new data or evidence.
+
+Q: What is the purpose of data normalization?
+A: Data normalization is the process of adjusting data to a common scale, typically to improve the performance of statistical models and make comparisons between different variables easier.
+
+Q: What is a box plot?
+A: A box plot is a graphical representation of a data set that shows the median, quartiles, and outliers, providing a summary of the data's distribution.
+
+Q: What is an outlier?
+A: An outlier is a data point that significantly differs from other observations in a data set, often considered an anomaly or extreme value.
+
+Q: What is a scatter plot?
+A: A scatter plot is a graphical representation of the relationship between two continuous variables, with data points plotted on a Cartesian plane.
+
+Q: What is a histogram?
+A: A histogram is a graphical representation of the distribution of a continuous variable, with data grouped into bins or intervals.
+
+Q: What is a bar chart?
+A: A bar chart is a graphical representation of categorical data, with bars representing the frequency or proportion of each category.
+
+Q: What is a pie chart?
+A: A pie chart is a circular statistical graphic divided into slices to illustrate the proportion of different categories within a whole.
+
+Q: What is sampling bias?
+A: Sampling bias occurs when a sample is not representative of the population from which it is drawn, leading to inaccurate or misleading results.
+
+Q: What is random sampling?
+A: Random sampling is a method of selecting a sample from a population where each individual has an equal chance of being chosen, helping to ensure representativeness.
+
+Q: What is stratified sampling?
+A: Stratified sampling involves dividing a population into subgroups or strata based on specific characteristics and then randomly sampling from each stratum.
+
+Q: What is a sampling distribution?
+A: A sampling distribution is the probability distribution of a statistic (such as the mean or variance) obtained from multiple samples of the same size drawn from a population.
+
+Q: What is bootstrapping in statistics?
+A: Bootstrapping is a resampling technique used to estimate the distribution of a statistic by repeatedly drawing random samples with replacement from the original data.
+
+Q: What is a statistical power?
+A: Statistical power is the probability of correctly rejecting the null hypothesis when it is false, reflecting the ability of a test to detect an effect if there is one.
+
+Q: What is a type I error?
+A: A type I error occurs when the null hypothesis is incorrectly rejected when it is actually true, also known as a false positive.
+
+Q: What is a type II error?
+A: A type II error occurs when the null hypothesis is not rejected when it is actually false, also known as a false negative.
+
+Q: What is an effect size?
+A: Effect size measures the magnitude of a difference or relationship in a statistical analysis, providing an indication of the practical significance of the results.
+
+Q: What is the purpose of exploratory data analysis (EDA)?
+A: Exploratory data analysis (EDA) is used to investigate and summarize the main characteristics of a data set, often using visualizations and descriptive statistics to uncover patterns, trends, and anomalies.
+
+Q: What is a contingency table?
+A: A contingency table is a table used to display the frequency distribution of two categorical variables, often used to analyze the association between them.
+
+Q: What is a regression coefficient?
+A: A regression coefficient represents the relationship between an independent variable and the dependent variable in a regression model, indicating the amount of change in the dependent variable for a one-unit change in the independent variable.
+
+Q: What is a dummy variable?
+A: A dummy variable is a binary variable used in regression analysis to represent categorical data, allowing the inclusion of categorical predictors in a model.
+
+Q: What is a latent variable?
+A: A latent variable is an unobserved variable that is inferred from observed variables and represents underlying constructs or factors.
+
+Q: What is factor analysis?
+A: Factor analysis is a statistical method used to identify underlying factors or dimensions that explain the correlations among a set of observed variables.
+
+Q: What is principal component analysis (PCA)?
+A: Principal component analysis (PCA) is a dimensionality reduction technique used to transform a set of correlated variables into a set of uncorrelated principal components, capturing the maximum variance in the data.
+
+Q: What is a time series analysis?
+A: Time series analysis involves analyzing data collected over time to identify patterns, trends, and seasonal effects, and to make forecasts or predictions.
+
+Q: What is autocorrelation in time series?
+A: Autocorrelation measures the correlation between a time series and a lagged version of itself, indicating how past values influence future values.
+
+Q: What is a moving average?
+A: A moving average is a statistical technique used to smooth out fluctuations in a time series by averaging data points within a specific window or period.
+
+Q: What is a seasonality in time series data?
+A: Seasonality refers to periodic fluctuations or patterns in a time series data that occur at regular intervals, such as daily, monthly, or yearly.
+
+Q: What is a trend in time series data?
+A: A trend represents the long-term movement or direction in a time series data, showing the overall increase or decrease over time.
+
+Q: What is a Box-Jenkins method?
+A: The Box-Jenkins method refers to a set of techniques for modeling and forecasting time series data using autoregressive integrated moving average (ARIMA) models.
+
+Q: What is a Gantt chart?
+A: A Gantt chart is a type of bar chart used to represent a project schedule, showing the start and end dates of various tasks and their dependencies.
+
+Q: What is the difference between a sample mean and a population mean?
+A: The sample mean is the average of a subset of data drawn from a population, while the population mean is the average of the entire population.
+
+Q: What is the purpose of hypothesis testing in statistics?
+A: Hypothesis testing is used to make decisions or draw conclusions about a population based on sample data, assessing the evidence against a null hypothesis.
+
+Q: What is a statistical model?
+A: A statistical model is a mathematical representation of relationships between variables used to analyze data, make predictions, and infer properties of a population.
+
+Q: What is a power analysis?
+A: Power analysis is used to determine the sample size needed to detect an effect with a given level of confidence and power, helping to design studies and avoid type II errors.
+
+Q: What is a Pareto chart?
+A: A Pareto chart is a type of bar chart that displays the frequency or impact of problems in descending order, combined with a line graph representing the cumulative total.
+
+Q: What is a ROC curve?
+A: A ROC (Receiver Operating Characteristic) curve is a graphical representation of the performance of a binary classification model, plotting the true positive rate against the false positive rate.
+
+Q: What is the AUC in the context of a ROC curve?
+A: The AUC (Area Under the Curve) represents the overall ability of a classification model to discriminate between positive and negative cases, with higher values indicating better performance.
+
+Q: What is a likelihood function?
+A: A likelihood function is a function of the parameters of a statistical model that measures the probability of observing the given data under those parameters.
+
+Q: What is the difference between a parametric and a non-parametric test?
+A: Parametric tests assume a specific distribution for the data and use parameters (such as mean and variance), while non-parametric tests do not assume a specific distribution and are often used with ordinal or non-normally distributed data.
+
+Q: What is the difference between a type I and a type II error?
+A: A type I error (false positive) occurs when the null hypothesis is wrongly rejected, while a type II error (false negative) occurs when the null hypothesis is wrongly accepted.
+
+Q: What is a sample space in probability?
+A: The sample space is the set of all possible outcomes of a random experiment or event.
+
+Q: What is the law of large numbers?
+A: The law of large numbers states that as the size of a sample increases, the sample mean will tend to get closer to the population mean.
+
+Q: What is a Bernoulli distribution?
+A: A Bernoulli distribution models a single binary trial with two possible outcomes: success or failure, with a fixed probability of success.
+
+Q: What is a geometric distribution?
+A: A geometric distribution models the number of trials needed to achieve the first success in a series of independent Bernoulli trials.
+
+Q: What is a negative binomial distribution?
+A: A negative binomial distribution models the number of trials required to achieve a fixed number of successes in a series of independent Bernoulli trials.
+
+Q: What is a uniform distribution?
+A: A uniform distribution is a probability distribution where all outcomes are equally likely, and the probability is constant across the range of possible values.
+
+Q: What is a beta distribution?
+A: A beta distribution is a continuous probability distribution defined on the interval [0, 1], often used to model the distribution of a probability or proportion.
+
+Q: What is a gamma distribution?
+A: A gamma distribution is a continuous probability distribution often used to model waiting times or the time until an event occurs, characterized by its shape and scale parameters.
+
+Q: What is a Weibull distribution?
+A: A Weibull distribution is a continuous probability distribution used to model life data, reliability, and failure times, characterized by its shape and scale parameters.
+
+Q: What is the Chi-square test of independence?
+A: The Chi-square test of independence assesses whether two categorical variables are independent or associated by comparing observed and expected frequencies.
+
+Q: What is the purpose of data cleaning?
+A: Data cleaning involves identifying and correcting errors or inconsistencies in data to ensure its accuracy and reliability for analysis.
+
+Q: What is a z-score?
+A: A z-score measures the number of standard deviations a data point is from the mean of its distribution, providing a standardized way to compare values from different distributions.
+
+Q: What is a t-distribution?
+A: A t-distribution is a probability distribution used in hypothesis testing when the sample size is small and the population standard deviation is unknown, characterized by its degrees of freedom.
+
+Q: What is the purpose of a confidence interval?
+A: A confidence interval provides a range of values within which the true population parameter is expected to lie, with a certain level of confidence.
+
+Q: What is a p-value?
+A: A p-value is the probability of obtaining a test statistic at least as extreme as the one observed, assuming the null hypothesis is true, used to assess the evidence against the null hypothesis.
+
+Q: What is a correlation coefficient?
+A: A correlation coefficient measures the strength and direction of the linear relationship between two variables, ranging from -1 to 1.
+
+Q: What is the difference between correlation and causation?
+A: Correlation indicates a relationship between two variables, while causation implies that one variable directly affects the other.
+
+Q: What is a scatter plot?
+A: A scatter plot is a graphical representation of the relationship between two continuous variables, showing data points plotted along two axes.
+
+Q: What is a residual plot?
+A: A residual plot is a graph that displays the residuals (differences between observed and predicted values) of a regression analysis, used to assess the fit of the model.
+
+Q: What is an outlier?
+A: An outlier is an observation that significantly differs from other observations in a data set, potentially indicating variability or an anomaly.
+
+Q: What is a box plot?
+A: A box plot is a graphical representation of data distribution, showing the median, quartiles, and potential outliers using a box-and-whisker plot.
+
+Q: What is a normal distribution?
+A: A normal distribution is a continuous probability distribution characterized by its bell-shaped curve, where the mean, median, and mode are equal and symmetric.
+
+Q: What is skewness?
+A: Skewness measures the asymmetry of a probability distribution, indicating whether data values are skewed to the left or right of the mean.
+
+Q: What is kurtosis?
+A: Kurtosis measures the "tailedness" of a probability distribution, indicating the presence of outliers or extreme values in the tails.
+
+Q: What is a permutation?
+A: A permutation is an arrangement of a set of items in a specific order, used in probability and combinatorics to count possible arrangements.
+
+Q: What is a combination?
+A: A combination is a selection of items from a set where the order does not matter, used to count possible groupings without regard to order.
+
+Q: What is Bayes' theorem?
+A: Bayes' theorem is a mathematical formula used to update the probability of a hypothesis based on new evidence, incorporating prior probabilities and likelihoods.
+
+Q: What is a hypothesis test?
+A: A hypothesis test is a statistical procedure used to determine whether there is enough evidence to reject a null hypothesis in favor of an alternative hypothesis.
+
+Q: What is an F-test?
+A: An F-test is used to compare variances between two or more groups to determine if they are significantly different from each other.
+
+Q: What is the Central Limit Theorem?
+A: The Central Limit Theorem states that the distribution of the sample mean approaches a normal distribution as the sample size increases, regardless of the population distribution.
+
+Q: What is a confidence level?
+A: A confidence level is the probability that a confidence interval will contain the true population parameter, typically expressed as a percentage (e.g., 95% confidence level).
+
+Q: What is a discrete probability distribution?
+A: A discrete probability distribution describes the probabilities of outcomes for a discrete random variable, where outcomes are countable and finite.
+
+Q: What is a continuous probability distribution?
+A: A continuous probability distribution describes the probabilities of outcomes for a continuous random variable, where outcomes are uncountable and range over an interval.
+
+Q: What is the law of total probability?
+A: The law of total probability states that the probability of an event can be found by summing the probabilities of the event occurring within different partitions of the sample space.
+
+Q: What is the expected value?
+A: The expected value is the average or mean value of a random variable, calculated as the sum of all possible values weighted by their probabilities.
+
+Q: What is variance?
+A: Variance measures the dispersion or spread of a set of data points around the mean, calculated as the average of the squared deviations from the mean.
+
+Q: What is standard deviation?
+A: Standard deviation is the square root of the variance, providing a measure of the dispersion or spread of data points around the mean in the same units as the data.
+
+Q: What is a random variable?
+A: A random variable is a numerical outcome of a random experiment, which can take on different values based on the outcome of the experiment.
+
+Q: What is a joint probability distribution?
+A: A joint probability distribution describes the probability of two or more random variables occurring simultaneously, representing their combined probability.
+
+Q: What is conditional probability?
+A: Conditional probability is the probability of an event occurring given that another event has already occurred, calculated as the ratio of the joint probability to the marginal probability.
+
+Q: What is a probability density function (PDF)?
+A: A probability density function (PDF) describes the likelihood of a continuous random variable taking on a particular value, with the area under the curve representing probabilities.
+
+Q: What is a cumulative distribution function (CDF)?
+A: A cumulative distribution function (CDF) represents the probability that a random variable will take on a value less than or equal to a given value, providing a cumulative probability.
+
+Q: What is a Markov chain?
+A: A Markov chain is a stochastic process where the probability of transitioning to the next state depends only on the current state and not on the previous states.
+
+Q: What is a Poisson distribution?
+A: A Poisson distribution models the number of events occurring within a fixed interval of time or space, given a constant mean rate of occurrence.
+
+Q: What is a chi-square test for goodness of fit?
+A: A chi-square test for goodness of fit assesses how well observed data fits a specified theoretical distribution, comparing the observed frequencies with the expected frequencies.
+
+Q: What is a survival function?
+A: A survival function represents the probability that a time-to-event variable is greater than a given value, often used in survival analysis and reliability studies.
+
+Q: What is a hazard function?
+A: A hazard function describes the instantaneous risk of an event occurring at a given time, conditional on survival up to that time.
+
+Q: What is a Kaplan-Meier estimator?
+A: The Kaplan-Meier estimator is a non-parametric method used to estimate the survival function from observed survival times, often used in medical research and reliability analysis.
+
+Q: What is a Cox proportional hazards model?
+A: The Cox proportional hazards model is a statistical technique used to investigate the effect of several variables on the time it takes for a specific event to occur, assuming that the effect of each variable is proportional over time.
+
+Q: What is the difference between descriptive and inferential statistics?
+A: Descriptive statistics summarize and describe the features of a data set, while inferential statistics use sample data to make inferences or predictions about a population.
+
+Q: What is a statistical inference?
+A: Statistical inference involves using sample data to make conclusions or predictions about a population parameter, often involving hypothesis testing and estimation.
+
+Q: What is a p-value in hypothesis testing?
+A: A p-value in hypothesis testing represents the probability of observing results as extreme as, or more extreme than, the results obtained, assuming the null hypothesis is true.
+
+Q: What is a multinomial distribution?
+A: A multinomial distribution generalizes the binomial distribution to scenarios where there are more than two possible outcomes for each trial.
+
+Q: What is a t-test?
+A: A t-test is a statistical test used to compare the means of two groups or to test if the mean of a single group is significantly different from a hypothesized value, especially when the sample size is small.
+
+Q: What is a Mann-Whitney U test?
+A: The Mann-Whitney U test is a non-parametric test used to compare differences between two independent groups when the data does not meet the assumptions of a t-test.
+
+Q: What is a Kruskal-Wallis test?
+A: The Kruskal-Wallis test is a non-parametric test used to compare differences between three or more independent groups when the assumptions of one-way ANOVA are not met.
+
+Q: What is a Friedman test?
+A: The Friedman test is a non-parametric test used to detect differences in treatments across multiple test attempts, suitable for repeated measures or matched groups.
+
+Q: What is a Spearman's rank correlation coefficient?
+A: Spearman's rank correlation coefficient measures the strength and direction of the association between two ranked variables, providing a non-parametric alternative to Pearson's correlation.
+
+Q: What is a G-test?
+A: A G-test is a statistical test used to compare observed frequencies with expected frequencies, similar to the chi-square test, often used in genetics and categorical data analysis.
+
+Q: What is a likelihood ratio test?
+A: A likelihood ratio test compares the goodness of fit of two models, one of which is nested within the other, by evaluating the ratio of their likelihoods.
+
+Q: What is a Bayesian network?
+A: A Bayesian network is a graphical model that represents probabilistic relationships among variables using directed acyclic graphs, enabling inference and prediction based on conditional dependencies.
+
+Q: What is a latent variable?
+A: A latent variable is a hidden or unobserved variable that influences observed variables, often used in statistical models to explain complex relationships.
+
+Q: What is the purpose of bootstrapping in statistics?
+A: Bootstrapping is a resampling technique used to estimate the distribution of a statistic by repeatedly sampling with replacement from the observed data, often used for constructing confidence intervals and hypothesis testing.
+
+Q: What is the concept of the law of large numbers?
+A: The law of large numbers states that as the sample size increases, the sample mean converges to the population mean, ensuring that the average of the sample approximates the expected value of the population.

@@ -1,0 +1,263 @@
+Q: What is DevOps?
+A: DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to shorten the development lifecycle and deliver high-quality software continuously.
+
+Q: What are the key principles of DevOps?
+A: The key principles of DevOps include collaboration, automation, continuous integration and delivery (CI/CD), monitoring, and feedback.
+
+Q: What is Continuous Integration (CI)?
+A: Continuous Integration is a DevOps practice where developers frequently integrate code into a shared repository, automatically testing it to detect issues early.
+
+Q: What is Continuous Delivery (CD)?
+A: Continuous Delivery is a DevOps practice where code changes are automatically prepared for release to production, ensuring that software can be released at any time.
+
+Q: What is Continuous Deployment?
+A: Continuous Deployment is an extension of Continuous Delivery where every code change that passes automated testing is automatically deployed to production.
+
+Q: What is Infrastructure as Code (IaC)?
+A: Infrastructure as Code is a DevOps practice where infrastructure is provisioned and managed using code and software development techniques, rather than manual processes.
+
+Q: What tools are commonly used for Continuous Integration?
+A: Common CI tools include Jenkins, Travis CI, CircleCI, GitLab CI, and Bamboo.
+
+Q: What is a CI/CD pipeline?
+A: A CI/CD pipeline is an automated sequence of processes for building, testing, and deploying code, ensuring consistent and reliable software delivery.
+
+Q: What is version control?
+A: Version control is a system that records changes to files over time, allowing developers to track history, collaborate, and revert to previous versions if necessary.
+
+Q: What are popular version control systems used in DevOps?
+A: Popular version control systems include Git, Subversion (SVN), and Mercurial.
+
+Q: What is Git?
+A: Git is a distributed version control system that allows multiple developers to work on a project simultaneously, tracking changes and managing code versions.
+
+Q: What is a repository in the context of version control?
+A: A repository is a storage location for code and its version history, where developers can collaborate and manage changes.
+
+Q: What is branching in version control?
+A: Branching is the process of creating a separate line of development within a repository, allowing developers to work on features, fixes, or experiments without affecting the main codebase.
+
+Q: What is merging in version control?
+A: Merging is the process of integrating changes from one branch into another, combining different lines of development into a single codebase.
+
+Q: What is a pull request?
+A: A pull request is a request to merge code changes from one branch into another, typically reviewed by other developers before integration.
+
+Q: What is Continuous Testing?
+A: Continuous Testing is the practice of automatically running tests as part of the CI/CD pipeline to detect and fix issues early in the development process.
+
+Q: What is a build in the context of DevOps?
+A: A build is the process of converting source code into a running application, typically involving compilation, linking, and packaging.
+
+Q: What is a build server?
+A: A build server is a machine that automates the process of building and testing code, typically used in CI pipelines.
+
+Q: What is automated testing?
+A: Automated testing involves using software tools to execute tests on code automatically, ensuring that it behaves as expected without manual intervention.
+
+Q: What are the types of automated testing in DevOps?
+A: Types of automated testing include unit testing, integration testing, functional testing, performance testing, and acceptance testing.
+
+Q: What is a deployment in DevOps?
+A: Deployment is the process of delivering a software application to a production environment, making it available for use.
+
+Q: What is blue-green deployment?
+A: Blue-green deployment is a DevOps strategy where two identical production environments (blue and green) are used, with one receiving live traffic while the other is updated, minimizing downtime.
+
+Q: What is canary deployment?
+A: Canary deployment is a DevOps strategy where a new software version is gradually rolled out to a small subset of users before a full deployment, reducing the risk of widespread issues.
+
+Q: What is a microservices architecture?
+A: Microservices architecture is a design approach where a software application is composed of small, independent services that communicate over a network, allowing for flexibility and scalability.
+
+Q: What is containerization?
+A: Containerization is a method of packaging an application and its dependencies into a container, ensuring it runs consistently across different environments.
+
+Q: What are popular containerization tools?
+A: Popular containerization tools include Docker, Kubernetes, and OpenShift.
+
+Q: What is Docker?
+A: Docker is a platform that enables developers to create, deploy, and run applications in containers, providing a consistent environment for development and production.
+
+Q: What is a Dockerfile?
+A: A Dockerfile is a script that contains instructions for building a Docker image, specifying the base image, dependencies, and commands to run.
+
+Q: What is a Docker container?
+A: A Docker container is a lightweight, portable, and self-sufficient runtime environment that includes everything needed to run an application.
+
+Q: What is Kubernetes?
+A: Kubernetes is an open-source platform for automating the deployment, scaling, and management of containerized applications.
+
+Q: What is a Kubernetes pod?
+A: A Kubernetes pod is the smallest and simplest unit in Kubernetes, representing a single instance of a running process in a cluster, often containing one or more containers.
+
+Q: What is a Kubernetes cluster?
+A: A Kubernetes cluster is a set of nodes that run containerized applications, managed by Kubernetes to ensure availability and scalability.
+
+Q: What is Helm in Kubernetes?
+A: Helm is a package manager for Kubernetes that simplifies the deployment and management of applications by using reusable charts.
+
+Q: What is a CI/CD toolchain?
+A: A CI/CD toolchain is a set of tools that work together to automate the software development process, including coding, building, testing, and deploying applications.
+
+Q: What is monitoring in DevOps?
+A: Monitoring involves tracking the performance, health, and usage of applications and infrastructure, allowing teams to detect and resolve issues proactively.
+
+Q: What are popular monitoring tools in DevOps?
+A: Popular monitoring tools include Prometheus, Grafana, Nagios, New Relic, and Datadog.
+
+Q: What is observability in DevOps?
+A: Observability is the ability to measure a system's internal state by analyzing its outputs, such as logs, metrics, and traces, to gain insights into its behavior.
+
+Q: What is log management?
+A: Log management involves collecting, storing, and analyzing log data from applications and infrastructure to monitor activity, troubleshoot issues, and ensure compliance.
+
+Q: What are popular log management tools?
+A: Popular log management tools include ELK Stack (Elasticsearch, Logstash, Kibana), Splunk, and Graylog.
+
+Q: What is an incident in DevOps?
+A: An incident is an unplanned event or issue that disrupts the normal operation of a system, requiring immediate attention to restore services.
+
+Q: What is incident management?
+A: Incident management is the process of identifying, responding to, and resolving incidents to minimize their impact on users and business operations.
+
+Q: What is a post-mortem in DevOps?
+A: A post-mortem is a review conducted after an incident or outage to analyze what went wrong, identify root causes, and implement improvements to prevent future occurrences.
+
+Q: What is configuration management?
+A: Configuration management is the practice of maintaining and controlling the configuration of systems and software, ensuring consistency and compliance with defined standards.
+
+Q: What are popular configuration management tools?
+A: Popular configuration management tools include Ansible, Puppet, Chef, and SaltStack.
+
+Q: What is a playbook in Ansible?
+A: A playbook in Ansible is a YAML file that defines a set of tasks to be executed on remote systems, automating configuration and deployment processes.
+
+Q: What is Infrastructure as a Service (IaaS)?
+A: Infrastructure as a Service is a cloud computing model that provides virtualized computing resources over the internet, allowing users to manage servers, storage, and networking.
+
+Q: What is Platform as a Service (PaaS)?
+A: Platform as a Service is a cloud computing model that provides a platform for developing, running, and managing applications without managing the underlying infrastructure.
+
+Q: What is Software as a Service (SaaS)?
+A: Software as a Service is a cloud computing model that delivers software applications over the internet, typically on a subscription basis, without requiring installation or maintenance.
+
+Q: What is cloud computing in the context of DevOps?
+A: Cloud computing provides on-demand access to computing resources, such as servers, storage, and databases, enabling scalable and flexible infrastructure for DevOps practices.
+
+Q: What are the major cloud service providers?
+A: Major cloud service providers include Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), and IBM Cloud.
+
+Q: What is serverless computing?
+A: Serverless computing is a cloud computing model where the cloud provider dynamically manages the infrastructure, allowing developers to focus on writing code without managing servers.
+
+Q: What is a function in serverless computing?
+A: A function in serverless computing is a piece of code that runs in response to events, such as HTTP requests or database changes, without provisioning or managing servers.
+
+Q: What is an API gateway?
+A: An API gateway is a server that acts as an entry point for APIs, managing requests, routing them to the appropriate services, and handling tasks like authentication and rate limiting.
+
+Q: What is a service mesh?
+A: A service mesh is a dedicated infrastructure layer for managing service-to-service communication in a microservices architecture, providing features like load balancing, security, and observability.
+
+Q: What is a virtual machine (VM)?
+A: A virtual machine is a software-based emulation of a physical computer, running an operating system and applications just like a physical machine but isolated from the host system.
+
+Q: What is a container orchestration platform?
+A: A container orchestration platform is a system for automating the deployment, scaling, and management of containerized applications, typically using tools like Kubernetes.
+
+Q: What is a load balancer?
+A: A load balancer is a device or software that distributes incoming network traffic across multiple servers to ensure reliability, availability, and performance.
+
+Q: What is high availability in DevOps?
+A: High availability refers to a system's ability to remain operational and accessible for long periods, minimizing downtime through redundancy and failover mechanisms.
+
+Q: What is disaster recovery?
+A: Disaster recovery is a set of strategies and processes for restoring a system to a functional state after a catastrophic event, such as a data center failure or cyberattack.
+
+Q: What is a rollback?
+A: A rollback is the process of reverting a system to a previous state, typically used to undo changes that have caused issues or instability.
+
+Q: What is a rolling update?
+A: A rolling update is a deployment strategy where software updates are applied gradually to different parts of the system, reducing downtime and minimizing disruption to users.
+
+Q: What is a feature toggle?
+A: A feature toggle is a technique that allows features to be turned on or off at runtime, enabling controlled rollouts, A/B testing, and quick rollbacks.
+
+Q: What is DevSecOps?
+A: DevSecOps is the integration of security practices into the DevOps process, ensuring that security is considered and implemented at every stage of the software development lifecycle.
+
+Q: What is the goal of DevSecOps?
+A: The goal of DevSecOps is to deliver secure software faster by automating security testing, incorporating security into CI/CD pipelines, and fostering a culture of shared responsibility for security.
+
+Q: What is shift-left testing?
+A: Shift-left testing is a practice of moving testing earlier in the software development process, allowing for earlier detection of defects and reducing the cost and effort of fixing them.
+
+Q: What is a security vulnerability?
+A: A security vulnerability is a weakness in a system that can be exploited by attackers to gain unauthorized access, cause harm, or steal sensitive information.
+
+Q: What is an artifact in DevOps?
+A: An artifact in DevOps refers to any file, binary, or package produced as a result of the build process, typically stored in a repository for deployment.
+
+Q: What is an artifact repository?
+A: An artifact repository is a centralized storage location for managing, versioning, and distributing build artifacts, commonly used in CI/CD pipelines.
+
+Q: What is an SRE (Site Reliability Engineer)?
+A: An SRE (Site Reliability Engineer) is a role that applies software engineering practices to IT operations, focusing on reliability, scalability, and automation of system operations.
+
+Q: What is mean time to recovery (MTTR)?
+A: Mean time to recovery (MTTR) is a metric that measures the average time taken to restore a system to normal operation after a failure.
+
+Q: What is mean time between failures (MTBF)?
+A: Mean time between failures (MTBF) is a metric that measures the average time between two consecutive failures of a system, indicating its reliability.
+
+Q: What is a playbook in DevOps?
+A: A playbook in DevOps is a set of instructions or runbooks that guide the response to specific operational scenarios, such as incidents, deployments, or system configurations.
+
+Q: What is the role of automation in DevOps?
+A: Automation in DevOps reduces manual effort, increases consistency, speeds up processes, and minimizes errors by automating tasks like building, testing, deployment, and monitoring.
+
+Q: What is a pipeline in DevOps?
+A: A pipeline in DevOps is a series of automated steps that code goes through from development to production, including building, testing, and deployment.
+
+Q: What is the importance of feedback loops in DevOps?
+A: Feedback loops in DevOps are crucial for improving software quality and development processes by providing continuous insights and allowing for quick adjustments based on real-time data.
+
+Q: What is scalability in DevOps?
+A: Scalability in DevOps refers to the ability of a system to handle increased load or growth by adding resources or optimizing performance, ensuring the system can meet demand without degradation.
+
+Q: What is a deployment environment?
+A: A deployment environment is a specific configuration of hardware, software, and settings where applications are deployed, tested, and run, such as development, staging, and production environments.
+
+Q: What is the difference between a development environment and a production environment?
+A: A development environment is used for coding, testing, and experimentation, while a production environment is the live environment where the application is available to end users.
+
+Q: What is A/B testing in DevOps?
+A: A/B testing is a technique where two versions of a feature or application are tested simultaneously with different user groups to compare performance and user response.
+
+Q: What is synthetic monitoring?
+A: Synthetic monitoring involves simulating user interactions with an application to test its performance and availability, providing proactive insights before real users are affected.
+
+Q: What is real-user monitoring (RUM)?
+A: Real-user monitoring (RUM) is a practice that collects and analyzes data from real users interacting with an application, providing insights into actual performance and user experience.
+
+Q: What is chaos engineering?
+A: Chaos engineering is a practice of deliberately injecting failures into a system to test its resilience, identify weaknesses, and improve its ability to withstand unexpected issues.
+
+Q: What is a runbook?
+A: A runbook is a document that provides step-by-step instructions for performing specific tasks or handling incidents, often used by IT and DevOps teams for consistent operations.
+
+Q: What is a service level agreement (SLA)?
+A: A service level agreement (SLA) is a contract between a service provider and a customer that defines the expected level of service, including uptime, response times, and other performance metrics.
+
+Q: What is a service level objective (SLO)?
+A: A service level objective (SLO) is a specific measurable goal within an SLA that defines the target performance level for a service, such as 99.9% uptime.
+
+Q: What is a service level indicator (SLI)?
+A: A service level indicator (SLI) is a metric used to measure the performance of a service against its SLOs, such as response time or error rate.
+
+Q: What is a change management process?
+A: A change management process is a structured approach for managing changes to systems and software, ensuring that changes are made safely, efficiently, and with minimal disruption.
+
+Q: What is the role of communication in DevOps?
+A: Communication in DevOps is essential for fostering collaboration between development and operations teams, ensuring alignment, and resolving issues quickly.

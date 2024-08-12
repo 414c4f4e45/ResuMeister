@@ -1,0 +1,281 @@
+Q: What is cloud computing?
+A: Cloud computing is the delivery of computing services such as servers, storage, databases, networking, software, and analytics over the internet (the cloud) to offer faster innovation, flexible resources, and economies of scale.
+
+Q: What are the different types of cloud computing?
+A: The three main types of cloud computing are Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).
+
+Q: What is Infrastructure as a Service (IaaS)?
+A: IaaS is a form of cloud computing that provides virtualized computing resources over the internet. It offers basic infrastructure like virtual machines, storage, and networking.
+
+Q: What is Platform as a Service (PaaS)?
+A: PaaS is a cloud computing service that provides a platform allowing customers to develop, run, and manage applications without the complexity of building and maintaining the underlying infrastructure.
+
+Q: What is Software as a Service (SaaS)?
+A: SaaS is a cloud computing service where users access software applications over the internet, typically through a web browser, without needing to install and maintain the software locally.
+
+Q: What is a public cloud?
+A: A public cloud is a cloud computing model where services are offered over the public internet and shared across multiple users or organizations.
+
+Q: What is a private cloud?
+A: A private cloud is a cloud computing environment that is exclusively used by one organization, offering greater control and security over the infrastructure.
+
+Q: What is a hybrid cloud?
+A: A hybrid cloud is a computing environment that combines a private cloud with one or more public cloud services, allowing data and applications to be shared between them.
+
+Q: What is a multi-cloud strategy?
+A: A multi-cloud strategy involves using multiple cloud computing services from different providers to avoid vendor lock-in and increase flexibility and reliability.
+
+Q: What is cloud storage?
+A: Cloud storage is a service model in which data is stored on remote servers accessed from the internet, providing scalable and secure storage solutions.
+
+Q: What is a cloud service provider (CSP)?
+A: A cloud service provider is a company that offers cloud computing services, such as Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP).
+
+Q: What is serverless computing?
+A: Serverless computing is a cloud computing model where the cloud provider manages the infrastructure and dynamically allocates resources, allowing developers to focus on writing code without managing servers.
+
+Q: What is cloud migration?
+A: Cloud migration is the process of moving data, applications, or other business elements from an on-premises environment to the cloud.
+
+Q: What is a cloud-native application?
+A: A cloud-native application is designed specifically to run in a cloud environment, taking advantage of cloud computing features such as scalability, elasticity, and resilience.
+
+Q: What is virtualization in cloud computing?
+A: Virtualization in cloud computing refers to the creation of virtual versions of physical resources, such as servers, storage devices, and networks, to optimize resource utilization.
+
+Q: What is a virtual machine (VM)?
+A: A virtual machine is an emulation of a computer system that runs on a physical machine, allowing multiple VMs to share the same physical resources while operating independently.
+
+Q: What is containerization?
+A: Containerization is a method of packaging applications and their dependencies into containers, which can run consistently across different computing environments.
+
+Q: What is Kubernetes?
+A: Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.
+
+Q: What is a cloud orchestration tool?
+A: A cloud orchestration tool is software that automates the management, coordination, and deployment of cloud resources and services, often across multiple cloud environments.
+
+Q: What is cloud elasticity?
+A: Cloud elasticity is the ability of a cloud computing environment to dynamically allocate and deallocate resources as needed to meet changing demands.
+
+Q: What is cloud scalability?
+A: Cloud scalability is the capability of a cloud system to handle increased workload by adding resources, either vertically (adding more power to existing resources) or horizontally (adding more instances).
+
+Q: What is a cloud API?
+A: A cloud API is a set of programming interfaces that allow developers to interact with and manage cloud services programmatically.
+
+Q: What is cloud security?
+A: Cloud security refers to the set of policies, technologies, and controls deployed to protect cloud data, applications, and infrastructure from threats.
+
+Q: What is a cloud firewall?
+A: A cloud firewall is a security system that controls the incoming and outgoing network traffic to and from cloud environments, helping to protect against unauthorized access and attacks.
+
+Q: What is cloud monitoring?
+A: Cloud monitoring is the process of continuously observing cloud-based resources and applications to ensure they are operating optimally, securely, and cost-effectively.
+
+Q: What is a service-level agreement (SLA) in cloud computing?
+A: A service-level agreement is a contract between a cloud service provider and a customer that outlines the expected performance, availability, and responsibilities of the service.
+
+Q: What is disaster recovery in cloud computing?
+A: Disaster recovery in cloud computing is the process of planning, implementing, and managing the recovery of data and applications in the event of a cloud service failure or data loss.
+
+Q: What is cloud backup?
+A: Cloud backup is the process of copying and storing data in a cloud environment to protect against data loss and ensure data availability in case of system failures.
+
+Q: What is a cloud data center?
+A: A cloud data center is a facility used by cloud service providers to house the physical servers and storage systems that power cloud services.
+
+Q: What is a cloud access security broker (CASB)?
+A: A cloud access security broker is a security policy enforcement point placed between cloud service consumers and providers to ensure compliance with security policies and protect cloud services.
+
+Q: What is an edge cloud?
+A: Edge cloud refers to the deployment of cloud resources closer to the end-users or devices, reducing latency and improving performance for time-sensitive applications.
+
+Q: What is a cloud management platform (CMP)?
+A: A cloud management platform is a suite of tools that organizations use to manage and optimize their cloud resources, often providing features like cost management, governance, and automation.
+
+Q: What is a cloud workload?
+A: A cloud workload refers to a specific set of processes or tasks that consume cloud resources, such as running applications, managing databases, or processing data.
+
+Q: What is cloud bursting?
+A: Cloud bursting is a hybrid cloud strategy where an application runs in a private cloud but bursts into a public cloud to handle spikes in demand.
+
+Q: What is a cloud broker?
+A: A cloud broker is a third-party entity that manages the use, performance, and delivery of cloud services, often helping businesses choose the right cloud services and providers.
+
+Q: What is a cloud marketplace?
+A: A cloud marketplace is an online store where customers can find, buy, and deploy cloud-based software and services from various providers.
+
+Q: What is a cloud tenant?
+A: A cloud tenant is an entity that rents or leases cloud resources from a cloud service provider, often sharing physical resources with other tenants in a multi-tenant environment.
+
+Q: What is cloud automation?
+A: Cloud automation involves using tools and scripts to automate tasks related to cloud management, such as provisioning resources, deploying applications, and scaling infrastructure.
+
+Q: What is a cloud service catalog?
+A: A cloud service catalog is a list of available cloud services and products offered by a cloud service provider, often including details about pricing, features, and service levels.
+
+Q: What is cloud governance?
+A: Cloud governance refers to the policies, procedures, and controls that organizations implement to manage the use of cloud services and ensure compliance with regulatory and business requirements.
+
+Q: What is cloud cost optimization?
+A: Cloud cost optimization involves strategies and practices to reduce the cost of cloud services while maintaining or improving performance and service quality.
+
+Q: What is cloud bursting?
+A: Cloud bursting is a hybrid cloud strategy where an application runs in a private cloud but bursts into a public cloud to handle spikes in demand.
+
+Q: What is cloud tenancy?
+A: Cloud tenancy refers to the mode of deployment in a cloud environment, including single-tenancy (one customer per resource) and multi-tenancy (multiple customers sharing resources).
+
+Q: What is cloud sprawl?
+A: Cloud sprawl occurs when an organization’s cloud resources are spread across multiple environments and services without proper management, leading to inefficiencies and increased costs.
+
+Q: What is cloud bursting?
+A: Cloud bursting is a hybrid cloud strategy where an application runs in a private cloud but bursts into a public cloud to handle spikes in demand.
+
+Q: What is cloud portability?
+A: Cloud portability refers to the ability to move applications, data, and services between different cloud environments without significant changes or disruptions.
+
+Q: What is cloud-native architecture?
+A: Cloud-native architecture is a design approach that optimizes applications to fully leverage cloud environments, focusing on microservices, containerization, and continuous delivery.
+
+Q: What is cloud provisioning?
+A: Cloud provisioning is the process of setting up and managing cloud resources and services, often involving the allocation of virtual machines, storage, and network resources.
+
+Q: What is cloud orchestration?
+A: Cloud orchestration is the coordination and management of complex cloud operations, automating tasks like provisioning, scaling, and monitoring across multiple cloud environments.
+
+Q: What is cloud lock-in?
+A: Cloud lock-in occurs when a customer becomes dependent on a single cloud provider’s services, making it difficult to switch to another provider without significant costs or disruptions.
+
+Q: What is cloud bursting?
+A: Cloud bursting is a hybrid cloud strategy where an application runs in a private cloud but bursts into a public cloud to handle spikes in demand.
+
+Q: What is a cloud-based application?
+A: A cloud-based application is a software program that runs on cloud infrastructure, typically accessed through a web browser or a thin client.
+
+Q: What is cloud analytics?
+A: Cloud analytics refers to the use of cloud computing to perform data analysis and business intelligence tasks, leveraging the scalability and processing power of the cloud.
+
+Q: What is cloud integration?
+A: Cloud integration involves connecting different cloud services and on-premises systems to enable data sharing and streamline business processes.
+
+Q: What is a cloud-native database?
+A: A cloud-native database is a database system designed to run in cloud environments, offering features like automatic scaling, high availability, and multi-region support.
+
+Q: What is cloud latency?
+A: Cloud latency is the time it takes for data to travel from the source to its destination in a cloud computing environment, affecting the responsiveness of cloud services.
+
+Q: What is cloud resiliency?
+A: Cloud resiliency refers to the ability of a cloud system to recover quickly from failures and continue operating without significant downtime or data loss.
+
+Q: What is cloud load balancing?
+A: Cloud load balancing is the process of distributing incoming network traffic across multiple cloud servers to ensure optimal performance and avoid overloading any single server.
+
+Q: What is cloud bursting?
+A: Cloud bursting is a hybrid cloud strategy where an application runs in a private cloud but bursts into a public cloud to handle spikes in demand.
+
+Q: What is a cloud region?
+A: A cloud region is a geographic area where a cloud service provider has multiple data centers, allowing customers to deploy resources closer to their users for better performance.
+
+Q: What is a cloud availability zone?
+A: A cloud availability zone is a distinct location within a cloud region, offering independent power, cooling, and networking to ensure high availability and fault tolerance.
+
+Q: What is a cloud disaster recovery plan?
+A: A cloud disaster recovery plan is a strategy for recovering data and applications in the cloud in the event of a disaster, ensuring business continuity and minimal downtime.
+
+Q: What is a cloud sandbox?
+A: A cloud sandbox is an isolated environment within the cloud where developers can safely test and experiment with applications without affecting the production environment.
+
+Q: What is a cloud identity and access management (IAM)?
+A: Cloud IAM is a framework of policies and technologies used to manage users' identities and control their access to cloud resources, ensuring secure and compliant access.
+
+Q: What is cloud bursting?
+A: Cloud bursting is a hybrid cloud strategy where an application runs in a private cloud but bursts into a public cloud to handle spikes in demand.
+
+Q: What is a cloud-native microservices architecture?
+A: A cloud-native microservices architecture is an approach to software design that structures an application as a collection of loosely coupled services, each focused on a specific business function, to enable scalability and agility in cloud environments.
+
+Q: What is cloud automation?
+A: Cloud automation involves using tools and scripts to automate tasks related to cloud management, such as provisioning resources, deploying applications, and scaling infrastructure.
+
+Q: What is a cloud tenant?
+A: A cloud tenant is an entity that rents or leases cloud resources from a cloud service provider, often sharing physical resources with other tenants in a multi-tenant environment.
+
+Q: What is cloud sprawl?
+A: Cloud sprawl occurs when an organization’s cloud resources are spread across multiple environments and services without proper management, leading to inefficiencies and increased costs.
+
+Q: What is cloud bursting?
+A: Cloud bursting is a hybrid cloud strategy where an application runs in a private cloud but bursts into a public cloud to handle spikes in demand.
+
+Q: What is cloud portability?
+A: Cloud portability refers to the ability to move applications, data, and services between different cloud environments without significant changes or disruptions.
+
+Q: What is cloud-native architecture?
+A: Cloud-native architecture is a design approach that optimizes applications to fully leverage cloud environments, focusing on microservices, containerization, and continuous delivery.
+
+Q: What is cloud governance?
+A: Cloud governance refers to the policies, procedures, and controls that organizations implement to manage the use of cloud services and ensure compliance with regulatory and business requirements.
+
+Q: What is cloud cost optimization?
+A: Cloud cost optimization involves strategies and practices to reduce the cost of cloud services while maintaining or improving performance and service quality.
+
+Q: What is cloud-native application?
+A: A cloud-native application is designed specifically to run in a cloud environment, taking advantage of cloud computing features such as scalability, elasticity, and resilience.
+
+Q: What is cloud elasticity?
+A: Cloud elasticity is the ability of a cloud computing environment to dynamically allocate and deallocate resources as needed to meet changing demands.
+
+Q: What is a cloud region?
+A: A cloud region is a geographic area where a cloud service provider has multiple data centers, allowing customers to deploy resources closer to their users for better performance.
+
+Q: What is a cloud availability zone?
+A: A cloud availability zone is a distinct location within a cloud region, offering independent power, cooling, and networking to ensure high availability and fault tolerance.
+
+Q: What is cloud load balancing?
+A: Cloud load balancing is the process of distributing incoming network traffic across multiple cloud servers to ensure optimal performance and avoid overloading any single server.
+
+Q: What is cloud resiliency?
+A: Cloud resiliency refers to the ability of a cloud system to recover quickly from failures and continue operating without significant downtime or data loss.
+
+Q: What is a cloud identity and access management (IAM)?
+A: Cloud IAM is a framework of policies and technologies used to manage users' identities and control their access to cloud resources, ensuring secure and compliant access.
+
+Q: What is a cloud-native microservices architecture?
+A: A cloud-native microservices architecture is an approach to software design that structures an application as a collection of loosely coupled services, each focused on a specific business function, to enable scalability and agility in cloud environments.
+
+Q: What is cloud bursting?
+A: Cloud bursting is a hybrid cloud strategy where an application runs in a private cloud but bursts into a public cloud to handle spikes in demand.
+
+Q: What is cloud disaster recovery plan?
+A: A cloud disaster recovery plan is a strategy for recovering data and applications in the cloud in the event of a disaster, ensuring business continuity and minimal downtime.
+
+Q: What is a cloud-native database?
+A: A cloud-native database is a database system designed to run in cloud environments, offering features like automatic scaling, high availability, and multi-region support.
+
+Q: What is cloud analytics?
+A: Cloud analytics refers to the use of cloud computing to perform data analysis and business intelligence tasks, leveraging the scalability and processing power of the cloud.
+
+Q: What is cloud integration?
+A: Cloud integration involves connecting different cloud services and on-premises systems to enable data sharing and streamline business processes.
+
+Q: What is cloud provisioning?
+A: Cloud provisioning is the process of setting up and managing cloud resources and services, often involving the allocation of virtual machines, storage, and network resources.
+
+Q: What is cloud orchestration?
+A: Cloud orchestration is the coordination and management of complex cloud operations, automating tasks like provisioning, scaling, and monitoring across multiple cloud environments.
+
+Q: What is cloud lock-in?
+A: Cloud lock-in occurs when a customer becomes dependent on a single cloud provider’s services, making it difficult to switch to another provider without significant costs or disruptions.
+
+Q: What is cloud sandbox?
+A: A cloud sandbox is an isolated environment within the cloud where developers can safely test and experiment with applications without affecting the production environment.
+
+Q: What is cloud-native architecture?
+A: Cloud-native architecture is a design approach that optimizes applications to fully leverage cloud environments, focusing on microservices, containerization, and continuous delivery.
+
+Q: What is cloud automation?
+A: Cloud automation involves using tools and scripts to automate tasks related to cloud management, such as provisioning resources, deploying applications, and scaling infrastructure.
+
+Q: What is cloud portability?
+A: Cloud portability refers to the ability to move applications, data, and services between different cloud environments without significant changes or disruptions.

@@ -1,0 +1,440 @@
+Q: What is data visualization?
+A: Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and maps, data visualization tools provide an accessible way to see and understand trends, outliers, and patterns in data.
+
+Q: Why is data visualization important?
+A: Data visualization is important because it helps to make complex data more accessible, understandable, and usable. It allows users to quickly grasp patterns, trends, and anomalies in data, facilitating better decision-making.
+
+Q: What are some common types of data visualizations?
+A: Common types of data visualizations include bar charts, line charts, pie charts, scatter plots, histograms, heat maps, and geographic maps.
+
+Q: What is a bar chart used for?
+A: A bar chart is used to compare different categories or groups of data by displaying rectangular bars with lengths proportional to the values they represent.
+
+Q: How does a line chart differ from a bar chart?
+A: A line chart displays data points connected by lines, which is useful for showing trends over time, while a bar chart uses rectangular bars to compare quantities across different categories.
+
+Q: What is a pie chart, and when should it be used?
+A: A pie chart is a circular statistical graphic divided into slices to illustrate numerical proportions. It is best used to show relative percentages of a whole, especially when there are few categories.
+
+Q: What is a scatter plot used for?
+A: A scatter plot is used to determine relationships or correlations between two numerical variables by displaying data points on a Cartesian plane.
+
+Q: What is a histogram?
+A: A histogram is a type of bar chart that represents the distribution of a continuous variable by grouping data into bins or intervals and showing the frequency of data points in each bin.
+
+Q: What is a heat map?
+A: A heat map is a data visualization technique that uses color to represent values in a matrix or table, helping to identify patterns, correlations, and trends in the data.
+
+Q: What is a geographic map used for in data visualization?
+A: A geographic map is used to visualize data that has a geographic component, such as location-based data, to show spatial distribution and patterns across different regions.
+
+Q: What is the purpose of a legend in a chart?
+A: A legend explains the symbols, colors, or patterns used in a chart or graph, helping to identify what each visual element represents and ensuring clarity and understanding of the data.
+
+Q: How can you ensure a data visualization is effective?
+A: To ensure a data visualization is effective, it should be clear, accurate, and relevant, with appropriate use of colors, labels, and scales. It should also convey the intended message without misleading or confusing the audience.
+
+Q: What is data normalization, and why is it important for visualization?
+A: Data normalization is the process of scaling data to a common range or format. It is important for visualization because it ensures that comparisons between different datasets or variables are fair and meaningful.
+
+Q: What are some common tools used for data visualization?
+A: Common tools for data visualization include Tableau, Power BI, Excel, Google Data Studio, D3.js, Matplotlib, and Seaborn.
+
+Q: What is D3.js?
+A: D3.js is a JavaScript library for producing dynamic, interactive data visualizations in web browsers. It uses HTML, SVG, and CSS to create complex visualizations.
+
+Q: How does Matplotlib help with data visualization?
+A: Matplotlib is a Python library that provides a wide range of plotting options for creating static, animated, and interactive visualizations in Python, including line plots, scatter plots, and histograms.
+
+Q: What is the purpose of Seaborn in data visualization?
+A: Seaborn is a Python library built on top of Matplotlib that provides a high-level interface for drawing attractive and informative statistical graphics, such as heat maps and violin plots.
+
+Q: What is the difference between qualitative and quantitative data visualizations?
+A: Qualitative data visualizations represent non-numeric data, such as categories or text, while quantitative data visualizations represent numeric data and show measurements, counts, or other numerical values.
+
+Q: How can you visualize time series data?
+A: Time series data can be visualized using line charts, area charts, and time series plots, which display data points over time and help to identify trends, seasonality, and anomalies.
+
+Q: What is a bubble chart, and when is it useful?
+A: A bubble chart is a type of scatter plot where each data point is represented by a bubble, with the size of the bubble indicating an additional dimension of data. It is useful for visualizing relationships between three numeric variables.
+
+Q: What is a box plot?
+A: A box plot is a graphical representation of the distribution of a dataset through quartiles, highlighting the median, upper and lower quartiles, and potential outliers.
+
+Q: What are stacked bar charts used for?
+A: Stacked bar charts are used to show the composition of data across different categories, with each bar divided into segments representing sub-categories, allowing for comparison of both totals and parts.
+
+Q: How can you use color effectively in data visualization?
+A: Use color to highlight key information, differentiate categories, and convey meaning. Ensure sufficient contrast for readability and be mindful of colorblind accessibility.
+
+Q: What is a waterfall chart?
+A: A waterfall chart is a type of data visualization that shows the cumulative effect of sequentially occurring positive and negative values, helping to visualize changes in a variable over time.
+
+Q: What is a radar chart used for?
+A: A radar chart, also known as a spider or web chart, is used to display multivariate data on a two-dimensional plane, showing the relative strengths and weaknesses across multiple variables.
+
+Q: What is a Gantt chart?
+A: A Gantt chart is a type of bar chart used for project management, displaying the start and end dates of tasks or activities, along with their duration and dependencies.
+
+Q: How can you visualize hierarchical data?
+A: Hierarchical data can be visualized using tree maps, sunburst charts, or dendrograms, which display data in a hierarchical structure and show relationships between parent and child nodes.
+
+Q: What is a Pareto chart?
+A: A Pareto chart is a type of bar chart that represents the frequency of problems or defects in descending order, often used with a line graph showing the cumulative percentage, based on the Pareto principle.
+
+Q: What is a violin plot?
+A: A violin plot combines aspects of a box plot with a density plot, showing the distribution of data across different categories, including density and quartiles.
+
+Q: What is a heatmap matrix?
+A: A heatmap matrix is a grid-based data visualization where values are represented by colors, making it easy to identify patterns, correlations, and anomalies in a dataset.
+
+Q: What is the purpose of data aggregation in visualization?
+A: Data aggregation involves summarizing or combining data from multiple sources or categories to provide a higher-level view, making it easier to identify trends and patterns in large datasets.
+
+Q: How can you visualize survey data?
+A: Survey data can be visualized using bar charts, pie charts, stacked bar charts, or heat maps to show the distribution of responses, compare categories, and identify trends.
+
+Q: What is a control chart?
+A: A control chart is a type of line chart used in quality control to monitor the performance of a process over time, identifying variations that may indicate issues or require adjustments.
+
+Q: What are some best practices for designing effective data visualizations?
+A: Best practices include ensuring clarity and simplicity, using appropriate chart types, avoiding misleading visual elements, providing context and labels, and considering the audience’s needs.
+
+Q: How can you visualize hierarchical data structures?
+A: Hierarchical data structures can be visualized using tree diagrams, sunburst charts, or dendrograms, which show the relationships and levels of hierarchy within the data.
+
+Q: What is a streamgraph?
+A: A streamgraph is a type of stacked area chart that displays data flowing through time, showing changes in volume and trends across multiple categories or variables.
+
+Q: What is an area chart?
+A: An area chart is a variation of a line chart that fills the area below the line with color, used to show cumulative totals and visualize trends over time.
+
+Q: What is a chord diagram?
+A: A chord diagram is a circular visualization used to show relationships and flows between different categories or entities, with arcs connecting related items to highlight their interactions.
+
+Q: What is a network diagram?
+A: A network diagram visualizes relationships between nodes in a network, showing how entities are connected and how information or resources flow between them.
+
+Q: What is the purpose of an infographic?
+A: An infographic combines data visualizations with graphical elements to present information in a visually engaging and easily understandable format, often used for storytelling and summarizing complex topics.
+
+Q: How can you visualize geographic data?
+A: Geographic data can be visualized using maps, such as choropleth maps, bubble maps, or heat maps, to show spatial patterns and distributions across different locations.
+
+Q: What is a mosaic plot?
+A: A mosaic plot is a graphical representation of categorical data that displays proportions and relationships between categories, with each segment's size representing the frequency of occurrences.
+
+Q: What is a Sankey diagram?
+A: A Sankey diagram is used to visualize flow and distribution, showing the movement of quantities between different stages or categories with arrows of varying widths.
+
+Q: What is a box-and-whisker plot?
+A: A box-and-whisker plot shows the distribution of a dataset through its quartiles, with a box representing the interquartile range and whiskers extending to the minimum and maximum values.
+
+Q: What is a waterfall chart used for in finance?
+A: In finance, a waterfall chart is used to display incremental changes in financial metrics, such as revenue or profit, showing how each factor contributes to the final value.
+
+Q: What is a funnel chart?
+A: A funnel chart visualizes stages in a process or conversion, showing how data decreases or filters through different stages, often used in sales and marketing.
+
+Q: What is a treemap?
+A: A treemap is a visualization that displays hierarchical data as nested rectangles, with the size and color of each rectangle representing different aspects of the data.
+
+Q: What is a time series plot?
+A: A time series plot shows data points at successive time intervals, making it easy to visualize trends, seasonal patterns, and changes over time.
+
+Q: What is a lollipop chart?
+A: A lollipop chart is a variation of a bar chart where data points are represented by circles (lollipops) connected to a baseline with lines, useful for showing discrete values.
+
+Q: What is a radial chart?
+A: A radial chart, also known as a circular or spider chart, represents data in a circular layout, with axes radiating from a central point to visualize multivariate data.
+
+Q: What is a bullet chart?
+A: A bullet chart is used to compare performance against a target, displaying a single measure with qualitative ranges and a marker indicating the actual value.
+
+Q: How can you use tooltips in data visualization?
+A: Tooltips provide additional information when a user hovers over or clicks on a data point, helping to display details or context without cluttering the main visualization.
+
+Q: What is a 3D chart, and when should it be used?
+A: A 3D chart adds a third dimension to a standard chart type, providing a more immersive view of data. It should be used cautiously to avoid obscuring or distorting data.
+
+Q: What is the difference between static and interactive visualizations?
+A: Static visualizations are fixed images or charts that do not change, while interactive visualizations allow users to explore data through actions like zooming, filtering, or clicking.
+
+Q: What is a dot plot?
+A: A dot plot displays individual data points along a single axis, useful for visualizing the distribution and frequency of small datasets.
+
+Q: What is a candlestick chart?
+A: A candlestick chart is used in financial markets to show price movements over time, with each “candlestick” representing the open, high, low, and close prices within a specific period.
+
+Q: How can you handle missing data in visualizations?
+A: Missing data can be handled by using techniques such as imputation, interpolation, or displaying missing values with placeholders, depending on the context and impact on the visualization.
+
+Q: What is a Gantt chart used for in project management?
+A: A Gantt chart is used to plan and track project schedules, showing the start and end dates of tasks, their durations, and dependencies between tasks.
+
+Q: What is a violin plot used for?
+A: A violin plot combines a box plot with a density plot to show the distribution and probability density of a dataset, highlighting its distribution and spread.
+
+Q: How can you visualize correlation between two variables?
+A: Correlation between two variables can be visualized using scatter plots, which display data points and help to identify the strength and direction of the relationship.
+
+Q: What is a donut chart?
+A: A donut chart is a variation of a pie chart with a central hole, used to display data proportions with additional space for labels or other information.
+
+Q: What is a word cloud?
+A: A word cloud is a visualization where the size of each word represents its frequency or importance in a dataset, often used for textual data analysis.
+
+Q: How can you use color gradients in visualizations?
+A: Color gradients can represent continuous data values, with varying shades indicating different levels of intensity or magnitude, useful for heat maps and other visualizations.
+
+Q: What is a violin plot used for?
+A: A violin plot is used to visualize the distribution of a dataset across different categories, combining aspects of box plots and density plots to show data spread and density.
+
+Q: What is a pair plot?
+A: A pair plot, also known as a scatterplot matrix, visualizes relationships between multiple numerical variables by displaying scatter plots for each pair of variables.
+
+Q: How can you visualize hierarchical data effectively?
+A: Effective visualization of hierarchical data can be achieved using tree maps, sunburst charts, or dendrograms, which clearly represent parent-child relationships and hierarchical levels.
+
+Q: What is a geographic heat map?
+A: A geographic heat map visualizes data with geographical components by displaying color-coded intensity or density on a map, helping to identify spatial patterns.
+
+Q: What is a summary table in data visualization?
+A: A summary table presents aggregated data in a tabular format, providing an overview of key metrics and statistics, often used alongside visualizations for detailed insights.
+
+Q: What is a deviation chart?
+A: A deviation chart displays differences between actual values and a baseline or target, showing how values deviate from expectations or goals.
+
+Q: What is the purpose of an area chart?
+A: An area chart is used to show the cumulative magnitude of a variable over time or across categories, emphasizing the volume of data and overall trends.
+
+Q: How can you use annotations in data visualization?
+A: Annotations add explanatory notes or highlights to a visualization, helping to provide context, draw attention to key points, or clarify data.
+
+Q: What is a grouped bar chart?
+A: A grouped bar chart displays multiple bars for each category, allowing comparison of different groups or sub-categories within each main category.
+
+Q: How do you create a dashboard for data visualization?
+A: To create a dashboard, combine multiple visualizations and interactive elements on a single screen, providing a comprehensive view of key metrics and insights.
+
+Q: What is a 100% stacked bar chart?
+A: A 100% stacked bar chart shows the proportion of each category as a percentage of the total, with each bar representing 100% and segments indicating different components.
+
+Q: What is a network graph?
+A: A network graph visualizes relationships between entities or nodes, showing connections and interactions within a network to reveal patterns and clusters.
+
+Q: What is a dual-axis chart?
+A: A dual-axis chart displays two different types of data on separate y-axes, allowing comparison of datasets with different scales or units on the same x-axis.
+
+Q: How can you visualize text data effectively?
+A: Text data can be visualized using word clouds, bar charts, or frequency distributions to show the prominence or distribution of terms within the data.
+
+Q: What is a sparklines chart?
+A: A sparklines chart is a small, simplified chart used to show trends and patterns in data within a cell or limited space, often used in tables or reports.
+
+Q: How do you choose the right chart type for your data?
+A: Choose the right chart type based on the nature of the data, the story you want to tell, and the relationships you want to highlight, ensuring clarity and accuracy in representation.
+
+Q: What is a dot matrix plot?
+A: A dot matrix plot displays individual data points on a grid, showing the distribution and frequency of data values, often used for categorical or discrete data.
+
+Q: What is the purpose of a stacked area chart?
+A: A stacked area chart is used to show the cumulative total of different variables over time or categories, with areas stacked on top of each other to display the overall and component trends.
+
+Q: What is a 3D surface plot?
+A: A 3D surface plot represents data with three dimensions on a three-dimensional grid, showing the relationship between variables and helping to visualize complex surfaces.
+
+Q: What is a bubble map?
+A: A bubble map displays geographic data with circles or bubbles representing data points, where the size of each bubble indicates the magnitude of the data.
+
+Q: What is a calendar heat map?
+A: A calendar heat map shows data values across a calendar year, with colors representing intensity or frequency for each day or week, useful for identifying seasonal patterns.
+
+Q: What is a density plot?
+A: A density plot visualizes the distribution of data points over a continuous interval or time period, using color or shading to indicate areas of higher density.
+
+Q: How do you handle outliers in data visualization?
+A: Outliers can be handled by using techniques such as excluding them from visualizations, highlighting them for special attention, or transforming data to reduce their impact.
+
+Q: What is a slope chart?
+A: A slope chart compares changes in values between two points in time or categories, using lines to show the direction and magnitude of changes.
+
+Q: What is a population pyramid?
+A: A population pyramid is a bar chart used to show the distribution of different age groups within a population, typically divided by gender, to visualize demographic structures.
+
+Q: How can you visualize data with multiple variables?
+A: Visualize data with multiple variables using techniques like bubble charts, parallel coordinates, or heat maps, which can display complex relationships between variables.
+
+Q: What is a matrix plot?
+A: A matrix plot displays data in a grid format, where cells represent the relationship between two variables or categories, useful for identifying patterns and correlations.
+
+Q: What is a radar chart used for?
+A: A radar chart is used to display multivariate data on a two-dimensional plane, with multiple axes radiating from a central point to visualize the strengths and weaknesses across several dimensions.
+
+Q: How can you use small multiples in data visualization?
+A: Small multiples are a series of similar charts or plots arranged together to compare different datasets or time periods, providing a clear and consistent view of variations.
+
+Q: What is a heat map?
+A: A heat map visualizes data with color gradients, where colors represent different values or intensities, making it easy to identify patterns, trends, and outliers.
+
+Q: What is a column chart?
+A: A column chart displays data as vertical bars, with each bar representing a category or data point, useful for comparing different groups or values.
+
+Q: What is a stacked bar chart?
+A: A stacked bar chart shows the total of each category divided into sub-categories, with segments stacked on top of each other to represent the cumulative value.
+
+Q: What is a histogram used for?
+A: A histogram displays the frequency distribution of a continuous variable by grouping data into bins or intervals, showing the shape of the data distribution.
+
+Q: What is a box-and-whisker plot?
+A: A box-and-whisker plot summarizes the distribution of a dataset by showing the median, quartiles, and potential outliers, using a box and extending whiskers.
+
+Q: What is the purpose of a pie chart?
+A: A pie chart shows the proportion of different categories as slices of a circle, illustrating the relative sizes of each category within a whole.
+
+Q: How can you use color in data visualization?
+A: Color can be used to differentiate categories, highlight trends, indicate intensity, and make visualizations more engaging and easier to interpret.
+
+Q: What is a bar chart?
+A: A bar chart displays data with rectangular bars, where the length of each bar represents the value of a category, making it easy to compare different groups.
+
+Q: What is a Pareto chart?
+A: A Pareto chart is a type of bar chart that displays categories in descending order of frequency or impact, often combined with a line chart to show the cumulative total.
+
+Q: What is a scatter plot used for?
+A: A scatter plot displays individual data points to show the relationship or correlation between two numerical variables, revealing patterns or trends.
+
+Q: How can you use data labels in visualizations?
+A: Data labels provide specific values or information directly on the visualization elements, such as bars or points, to enhance readability and provide precise data.
+
+Q: What is a stacked column chart?
+A: A stacked column chart displays data as vertical bars divided into segments, with each segment representing a different sub-category or component of the total.
+
+Q: What is a line chart used for?
+A: A line chart shows data points connected by lines, used to visualize trends and changes over time or continuous data, highlighting patterns and fluctuations.
+
+Q: What is an interactive dashboard?
+A: An interactive dashboard allows users to interact with visualizations through filters, buttons, or other controls, enabling dynamic exploration and analysis of data.
+
+Q: How can you visualize multivariate data?
+A: Multivariate data can be visualized using techniques such as scatter plots with color or size encoding, parallel coordinates, or 3D plots to represent multiple dimensions.
+
+Q: What is a box plot?
+A: A box plot displays the distribution of a dataset through quartiles, showing the median, upper and lower quartiles, and potential outliers using a box and whiskers.
+
+Q: What is a cumulative chart?
+A: A cumulative chart shows the running total of a variable over time or categories, displaying how values accumulate or change incrementally.
+
+Q: What is a mosaic plot?
+A: A mosaic plot visualizes the relationship between two or more categorical variables, using rectangular tiles whose area represents the proportion of data in each category.
+
+Q: What is a contour plot?
+A: A contour plot displays three-dimensional data on a two-dimensional plane, with contour lines representing different levels of the third variable, useful for visualizing surfaces.
+
+Q: What is a slopegraph?
+A: A slopegraph is used to show changes in values between two points in time or between two categories, with lines connecting data points to highlight the direction and magnitude of change.
+
+Q: What is a dot plot?
+A: A dot plot visualizes individual data points along a single axis, representing frequency or distribution of discrete data and highlighting patterns or gaps.
+
+Q: What is a hexbin plot?
+A: A hexbin plot displays data density in a grid of hexagonal bins, where the color or size of each hexagon represents the number of data points, useful for large datasets.
+
+Q: What is a violin plot used for?
+A: A violin plot combines a box plot and density plot to show the distribution and density of a dataset, with the shape of the violin illustrating the distribution's spread.
+
+Q: What is a parallel coordinates plot?
+A: A parallel coordinates plot displays multivariate data by plotting each variable on parallel axes, connecting data points across axes to reveal relationships and patterns.
+
+Q: What is a radar chart used for?
+A: A radar chart displays multivariate data in a circular layout, with each axis representing a different variable, allowing for comparison of multiple dimensions simultaneously.
+
+Q: What is a heatmap matrix?
+A: A heatmap matrix visualizes data in a grid with color gradients representing values, useful for identifying patterns and correlations across multiple variables or categories.
+
+Q: What is a chord diagram?
+A: A chord diagram visualizes relationships between entities with arcs connecting them, where the thickness of each arc represents the strength or quantity of the relationship.
+
+Q: How can you visualize hierarchical relationships?
+A: Hierarchical relationships can be visualized using tree diagrams, dendrograms, or sunburst charts, which represent parent-child relationships and hierarchical structures.
+
+Q: What is a time-series heatmap?
+A: A time-series heatmap shows data over time with color gradients representing values, helping to visualize patterns, trends, and anomalies in temporal data.
+
+Q: What is a line plot?
+A: A line plot connects data points with lines to show trends or changes over time, highlighting patterns and fluctuations in continuous data.
+
+Q: What is a donut plot?
+A: A donut plot is similar to a pie chart but with a central hole, allowing for additional space for labels or other information, used to display proportions or percentages.
+
+Q: How can you visualize data distributions?
+A: Data distributions can be visualized using histograms, density plots, or box plots, which show the spread, central tendency, and variations within the data.
+
+Q: What is a 3D scatter plot?
+A: A 3D scatter plot displays data points in three dimensions, allowing for visualization of relationships and patterns among three numerical variables.
+
+Q: What is a correlation matrix?
+A: A correlation matrix displays the correlation coefficients between pairs of variables in a grid, helping to identify relationships and dependencies among multiple variables.
+
+Q: What is a summary plot?
+A: A summary plot aggregates and visualizes key metrics or statistics from a dataset, providing a high-level overview of important information and trends.
+
+Q: What is a heatmap in data visualization?
+A: A heatmap represents data with color gradients, where colors indicate different values or intensities, making it easy to identify patterns and variations.
+
+Q: How can you visualize trends over time?
+A: Trends over time can be visualized using line charts, area charts, or time series plots, which display changes and patterns in data across different time periods.
+
+Q: What is a tree map?
+A: A tree map displays hierarchical data as nested rectangles, with the size and color of each rectangle representing different aspects of the data.
+
+Q: How can you use annotations in charts?
+A: Annotations can be added to charts to provide additional context, highlight key data points, or explain specific trends or events, improving the clarity of the visualization.
+
+Q: What is a time-series line chart?
+A: A time-series line chart shows data points connected by lines over time, highlighting trends, patterns, and fluctuations in temporal data.
+
+Q: What is a mosaic plot?
+A: A mosaic plot visualizes relationships between categorical variables using tiles with areas proportional to the frequency or proportion of data in each category.
+
+Q: What is a cluster map?
+A: A cluster map visualizes data clusters on a geographical map, with color or size indicating cluster characteristics or densities, useful for spatial data analysis.
+
+Q: What is a surface plot?
+A: A surface plot represents data on a three-dimensional surface, displaying relationships between three variables and helping to visualize complex data structures.
+
+Q: What is a density heatmap?
+A: A density heatmap shows data density with color gradients, where colors represent the concentration of data points, useful for identifying areas of high and low density.
+
+Q: What is a calendar plot?
+A: A calendar plot visualizes data across calendar days or weeks, with color or size representing values or frequencies, helping to identify seasonal patterns.
+
+Q: What is a bullet chart?
+A: A bullet chart compares performance against a target with a horizontal bar representing actual values, qualitative ranges, and a marker indicating the target.
+
+Q: What is a stacked area plot?
+A: A stacked area plot shows cumulative totals over time or categories, with different areas stacked on top of each other to represent various components.
+
+Q: What is a boxplot?
+A: A boxplot displays the distribution of data through quartiles, showing the median, interquartile range, and potential outliers using a box and whiskers.
+
+Q: What is a radial bar chart?
+A: A radial bar chart represents data in a circular layout, with bars radiating from a central point, often used to show progress or proportions.
+
+Q: What is a heatmap matrix?
+A: A heatmap matrix visualizes data in a grid format with color gradients, where colors represent the magnitude of values, useful for identifying patterns and relationships.
+
+Q: What is a 3D line chart?
+A: A 3D line chart extends a traditional line chart into three dimensions, allowing for visualization of trends and relationships among three variables.
+
+Q: What is a population pyramid?
+A: A population pyramid displays the age and gender distribution of a population, with age groups on the vertical axis and population size on the horizontal axis.
+
+Q: What is a radar chart used for?
+A: A radar chart, also known as a spider or web chart, displays multiple variables on a radial grid, useful for comparing performance across different metrics.
+
+Q: What is a gantt chart?
+A: A Gantt chart is a type of bar chart used for project management, showing the start and end dates of tasks or phases, and their dependencies over time.
+
+Q: What is a histograma?
+A: A histogram is a graphical representation of the distribution of numerical data, with bins or intervals on the x-axis and frequencies on the y-axis.

@@ -1,0 +1,500 @@
+Q: What is data analysis?
+A: Data analysis is the process of inspecting, cleaning, transforming, and modeling data to discover useful information, draw conclusions, and support decision-making.
+
+Q: What are the main types of data analysis?
+A: The main types of data analysis are descriptive, diagnostic, predictive, and prescriptive analysis.
+
+Q: What is descriptive analysis?
+A: Descriptive analysis summarizes and describes the main features of a dataset, such as mean, median, mode, and standard deviation.
+
+Q: What is diagnostic analysis?
+A: Diagnostic analysis investigates the reasons behind past outcomes, helping to understand why something happened by exploring relationships between variables.
+
+Q: What is predictive analysis?
+A: Predictive analysis uses historical data and statistical techniques to forecast future trends and outcomes.
+
+Q: What is prescriptive analysis?
+A: Prescriptive analysis recommends actions to optimize outcomes based on data analysis, often using optimization and simulation techniques.
+
+Q: What is data cleaning?
+A: Data cleaning involves identifying and correcting errors, inconsistencies, and inaccuracies in a dataset to improve its quality and reliability.
+
+Q: Why is data normalization important?
+A: Data normalization standardizes the range of data values, making it easier to compare and analyze data from different sources.
+
+Q: What is exploratory data analysis (EDA)?
+A: EDA is an approach to analyzing data sets to summarize their main characteristics, often using visual methods to uncover patterns, anomalies, and relationships.
+
+Q: What are common techniques used in EDA?
+A: Common techniques include summary statistics, data visualization (e.g., histograms, scatter plots), and correlation analysis.
+
+Q: What is a correlation coefficient?
+A: A correlation coefficient measures the strength and direction of a linear relationship between two variables, ranging from -1 to 1.
+
+Q: What is the difference between correlation and causation?
+A: Correlation indicates a relationship between two variables, while causation implies that one variable directly affects the other.
+
+Q: What is a pivot table?
+A: A pivot table is a data processing tool that summarizes and analyzes data by arranging it into a table format, allowing for quick data aggregation and comparison.
+
+Q: What is hypothesis testing?
+A: Hypothesis testing is a statistical method used to determine if there is enough evidence to reject a null hypothesis in favor of an alternative hypothesis.
+
+Q: What is a p-value?
+A: A p-value is the probability of obtaining test results at least as extreme as the observed results, assuming that the null hypothesis is true.
+
+Q: What is a confidence interval?
+A: A confidence interval is a range of values that is likely to contain the true parameter value with a specified probability.
+
+Q: What is regression analysis?
+A: Regression analysis is a statistical technique used to model and analyze the relationship between a dependent variable and one or more independent variables.
+
+Q: What is linear regression?
+A: Linear regression is a type of regression analysis that models the relationship between a dependent variable and one or more independent variables using a straight line.
+
+Q: What is logistic regression?
+A: Logistic regression is used for binary classification problems, modeling the probability of a categorical outcome based on one or more predictor variables.
+
+Q: What is a decision tree?
+A: A decision tree is a flowchart-like model used to make decisions and predictions by splitting data into branches based on feature values.
+
+Q: What is clustering?
+A: Clustering is an unsupervised learning technique used to group similar data points into clusters based on their characteristics.
+
+Q: What is k-means clustering?
+A: K-means clustering is an algorithm that partitions data into k clusters by minimizing the variance within each cluster.
+
+Q: What is hierarchical clustering?
+A: Hierarchical clustering builds a hierarchy of clusters by either successively merging smaller clusters or dividing larger clusters.
+
+Q: What is dimensionality reduction?
+A: Dimensionality reduction reduces the number of features or variables in a dataset while retaining important information, using techniques like PCA or t-SNE.
+
+Q: What is Principal Component Analysis (PCA)?
+A: PCA is a dimensionality reduction technique that transforms data into a new coordinate system where the greatest variances are on the principal axes.
+
+Q: What is a confusion matrix?
+A: A confusion matrix is a table used to evaluate the performance of a classification model by showing the true and predicted classifications.
+
+Q: What are precision and recall?
+A: Precision is the ratio of true positive predictions to the total number of positive predictions, while recall is the ratio of true positive predictions to the total number of actual positives.
+
+Q: What is F1-score?
+A: The F1-score is the harmonic mean of precision and recall, providing a single metric that balances both aspects of a classification model's performance.
+
+Q: What is cross-validation?
+A: Cross-validation is a technique for assessing the performance of a model by partitioning the data into training and testing subsets multiple times.
+
+Q: What is an outlier?
+A: An outlier is a data point that significantly deviates from the rest of the data, potentially indicating a measurement error or a unique variation.
+
+Q: How can you handle missing data?
+A: Missing data can be handled by techniques such as imputation, where missing values are filled in based on other data, or by excluding incomplete cases.
+
+Q: What is data imputation?
+A: Data imputation is the process of filling in missing values in a dataset using statistical methods or algorithms to estimate the missing information.
+
+Q: What is feature selection?
+A: Feature selection involves choosing a subset of relevant features for model training, improving performance and reducing complexity.
+
+Q: What is a data histogram?
+A: A histogram is a graphical representation of the distribution of a dataset, with data divided into bins and frequencies represented as bars.
+
+Q: What is a box plot?
+A: A box plot displays the distribution of data through quartiles, showing the median, interquartile range, and potential outliers.
+
+Q: What is the difference between supervised and unsupervised learning?
+A: Supervised learning involves training models on labeled data to make predictions, while unsupervised learning involves finding patterns or structures in unlabeled data.
+
+Q: What is a data warehouse?
+A: A data warehouse is a centralized repository that stores large volumes of data from multiple sources, optimized for query and analysis.
+
+Q: What is ETL?
+A: ETL stands for Extract, Transform, Load, a process of extracting data from sources, transforming it into a suitable format, and loading it into a data warehouse.
+
+Q: What is data mining?
+A: Data mining involves discovering patterns, correlations, and insights from large datasets using statistical and computational techniques.
+
+Q: What is time series analysis?
+A: Time series analysis involves analyzing data points collected or recorded at successive time intervals to identify trends, seasonal patterns, and forecasts.
+
+Q: What is the difference between data analytics and data analysis?
+A: Data analytics is a broader field that encompasses various techniques for analyzing data to make informed decisions, while data analysis specifically refers to the process of inspecting and interpreting data.
+
+Q: What is A/B testing?
+A: A/B testing is a method of comparing two versions of a variable to determine which performs better by randomly assigning users to one of the two versions.
+
+Q: What is data wrangling?
+A: Data wrangling involves cleaning, transforming, and preparing data for analysis, making it suitable for further processing and modeling.
+
+Q: What is data visualization?
+A: Data visualization is the graphical representation of data to make complex information more understandable and accessible, using charts, graphs, and maps.
+
+Q: What is a data dashboard?
+A: A data dashboard is a visual interface that provides an overview of key metrics and performance indicators through charts, graphs, and tables.
+
+Q: What is the purpose of data exploration?
+A: Data exploration involves examining and analyzing data to understand its structure, patterns, and relationships, helping to inform subsequent analysis and modeling.
+
+Q: What is a scatter plot?
+A: A scatter plot displays individual data points on a Cartesian plane, used to visualize the relationship between two numerical variables.
+
+Q: What is a bubble chart?
+A: A bubble chart is a variation of a scatter plot where each data point is represented as a bubble, with size and color representing additional dimensions.
+
+Q: What is a funnel chart?
+A: A funnel chart visualizes a process with multiple stages, showing the drop-off or conversion rate between stages, often used in sales or marketing analysis.
+
+Q: What is a gantt chart?
+A: A Gantt chart is a project management tool that shows the schedule of tasks over time, with bars representing the start and end dates of each task.
+
+Q: What is a network diagram?
+A: A network diagram visualizes relationships between entities in a network, with nodes representing entities and edges representing connections or interactions.
+
+Q: What is a treemap?
+A: A treemap displays hierarchical data as nested rectangles, where the size and color of each rectangle represent different attributes or metrics.
+
+Q: What is a waterfall chart?
+A: A waterfall chart visualizes incremental changes to a value over time or categories, showing how an initial value is affected by positive or negative factors.
+
+Q: What is a stacked bar chart?
+A: A stacked bar chart shows the total value of a category divided into sub-categories, with segments stacked on top of each other to represent different components.
+
+Q: What is a data model?
+A: A data model is a conceptual framework that defines the structure, relationships, and constraints of data within a system, guiding data organization and storage.
+
+Q: What is a data dictionary?
+A: A data dictionary is a centralized repository that defines and describes the data elements, their meanings, and relationships within a database or system.
+
+Q: What is a data schema?
+A: A data schema is the blueprint of a database that defines its structure, including tables, fields, relationships, and constraints.
+
+Q: What is a SQL query?
+A: A SQL query is a statement written in Structured Query Language (SQL) used to retrieve, manipulate, and manage data in a relational database.
+
+Q: What is a JOIN operation in SQL?
+A: A JOIN operation in SQL combines rows from two or more tables based on a related column, allowing for complex queries and data retrieval.
+
+Q: What is a subquery in SQL?
+A: A subquery is a query nested inside another SQL query, used to provide intermediate results for the outer query.
+
+Q: What is a GROUP BY clause in SQL?
+A: The GROUP BY clause groups rows that have the same values in specified columns into summary rows, often used with aggregate functions like COUNT and SUM.
+
+Q: What is an aggregate function in SQL?
+A: Aggregate functions perform calculations on a set of values and return a single value, such as SUM, AVG, COUNT, MIN, and MAX.
+
+Q: What is a pivot table in Excel?
+A: A pivot table in Excel summarizes and analyzes data by organizing it into rows, columns, and values, allowing for dynamic data aggregation and analysis.
+
+Q: What is a VLOOKUP function in Excel?
+A: The VLOOKUP function in Excel searches for a value in the first column of a table and returns a value in the same row from a specified column.
+
+Q: What is data sampling?
+A: Data sampling involves selecting a subset of data from a larger dataset to estimate properties or make inferences about the entire population.
+
+Q: What is a hypothesis in data analysis?
+A: A hypothesis is a testable statement or prediction about the relationship between variables, used as the basis for statistical testing.
+
+Q: What is data aggregation?
+A: Data aggregation involves combining data from multiple sources or records to provide a summary or overview of key metrics and trends.
+
+Q: What is a data trend?
+A: A data trend is a general direction or pattern in data over time, indicating consistent changes or movements in a particular direction.
+
+Q: What is a data anomaly?
+A: A data anomaly is an unusual or unexpected data point that deviates significantly from the norm, often requiring further investigation.
+
+Q: What is the purpose of data transformation?
+A: Data transformation involves converting data from one format or structure to another to make it suitable for analysis, modeling, or integration.
+
+Q: What is a scatter plot matrix?
+A: A scatter plot matrix is a grid of scatter plots that displays pairwise relationships between multiple variables in a dataset.
+
+Q: What is a heatmap?
+A: A heatmap is a graphical representation of data where individual values are represented by colors, showing the intensity or magnitude of data points.
+
+Q: What is a summary statistic?
+A: A summary statistic provides a concise description of a dataset, including measures like mean, median, mode, and standard deviation.
+
+Q: What is a data drill-down?
+A: Data drill-down allows users to explore detailed levels of data by breaking down aggregated information into more specific components.
+
+Q: What is a data set?
+A: A data set is a collection of related data points or records organized in a structured format, used for analysis and interpretation.
+
+Q: What is data redundancy?
+A: Data redundancy occurs when the same data is stored in multiple places, potentially leading to inconsistencies and increased storage requirements.
+
+Q: What is a relational database?
+A: A relational database organizes data into tables with rows and columns, using relationships between tables to manage and retrieve data efficiently.
+
+Q: What is a primary key?
+A: A primary key is a unique identifier for each record in a database table, ensuring that each record can be uniquely distinguished.
+
+Q: What is a foreign key?
+A: A foreign key is a field in a database table that links to the primary key of another table, establishing a relationship between the two tables.
+
+Q: What is the purpose of data preprocessing?
+A: Data preprocessing involves preparing and cleaning data before analysis, including tasks such as handling missing values, normalizing data, and encoding categorical variables.
+
+Q: What is a box plot used for?
+A: A box plot visually summarizes the distribution of data, showing the median, quartiles, and potential outliers.
+
+Q: What is the difference between variance and standard deviation?
+A: Variance measures the dispersion of data points from the mean, while standard deviation is the square root of variance, providing a measure of spread in the same units as the data.
+
+Q: What is a time series?
+A: A time series is a sequence of data points collected or recorded at successive time intervals, used to analyze trends and patterns over time.
+
+Q: What is feature engineering?
+A: Feature engineering involves creating new features or modifying existing ones to improve the performance of machine learning models.
+
+Q: What is a confusion matrix used for?
+A: A confusion matrix evaluates the performance of a classification model by displaying true positives, false positives, true negatives, and false negatives.
+
+Q: What is a ROC curve?
+A: A ROC (Receiver Operating Characteristic) curve plots the true positive rate against the false positive rate, used to evaluate the performance of a binary classification model.
+
+Q: What is a precision-recall curve?
+A: A precision-recall curve plots precision against recall for different threshold values, providing insights into the performance of a classification model, especially with imbalanced datasets.
+
+Q: What is the purpose of data integration?
+A: Data integration combines data from different sources into a unified view, facilitating comprehensive analysis and decision-making.
+
+Q: What is a decision boundary?
+A: A decision boundary is a line or surface in a feature space that separates different classes in classification problems, used by algorithms to make predictions.
+
+Q: What is the difference between supervised and unsupervised learning?
+A: Supervised learning uses labeled data to train models for predictions, while unsupervised learning identifies patterns and relationships in unlabeled data.
+
+Q: What is a neural network?
+A: A neural network is a machine learning model inspired by the human brain, consisting of interconnected nodes (neurons) organized into layers to process and learn from data.
+
+Q: What is an ensemble method?
+A: An ensemble method combines predictions from multiple models to improve accuracy and robustness, using techniques like bagging, boosting, and stacking.
+
+Q: What is cross-validation used for?
+A: Cross-validation assesses a model's performance and generalization ability by dividing the data into training and validation sets multiple times.
+
+Q: What is a ROC-AUC score?
+A: The ROC-AUC (Receiver Operating Characteristic - Area Under the Curve) score measures the overall performance of a binary classification model, with higher values indicating better performance.
+
+Q: What is data normalization?
+A: Data normalization scales numerical data to a common range or distribution, often used to improve the performance of machine learning algorithms.
+
+Q: What is an anomaly detection?
+A: Anomaly detection identifies unusual or unexpected data points that deviate significantly from the norm, often indicating potential issues or outliers.
+
+Q: What is a bar chart?
+A: A bar chart displays categorical data with rectangular bars, where the length of each bar represents the value or frequency of the category.
+
+Q: What is a line chart?
+A: A line chart shows trends over time by connecting data points with a line, useful for visualizing continuous data and identifying patterns.
+
+Q: What is a pie chart?
+A: A pie chart represents data as slices of a circular pie, with each slice indicating the proportion of each category relative to the whole.
+
+Q: What is a stacked area chart?
+A: A stacked area chart displays the cumulative total of multiple categories over time, with areas stacked on top of each other to show the contribution of each category.
+
+Q: What is the purpose of data scaling?
+A: Data scaling transforms features to a common scale, improving the performance and stability of machine learning algorithms.
+
+Q: What is feature scaling?
+A: Feature scaling adjusts the range of feature values to a common scale, often using methods like min-max scaling or standardization.
+
+Q: What is the difference between mean and median?
+A: The mean is the average of all data points, while the median is the middle value when data points are ordered, providing a measure of central tendency.
+
+Q: What is a scatter plot used for?
+A: A scatter plot visualizes the relationship between two numerical variables, showing how one variable changes in relation to another.
+
+Q: What is a histogram used for?
+A: A histogram displays the distribution of numerical data by dividing it into bins and showing the frequency of data points within each bin.
+
+Q: What is a data trend line?
+A: A trend line is a line added to a scatter plot to represent the general direction or pattern of the data points.
+
+Q: What is data aggregation used for?
+A: Data aggregation combines and summarizes data from multiple sources or records, providing a higher-level view of key metrics and trends.
+
+Q: What is data transformation?
+A: Data transformation involves converting data from one format or structure to another, often to prepare it for analysis or integration.
+
+Q: What is a time series decomposition?
+A: Time series decomposition separates a time series into trend, seasonal, and residual components to analyze and forecast time-based data.
+
+Q: What is a data pipeline?
+A: A data pipeline is a series of data processing steps that extract, transform, and load data from sources to a destination for analysis.
+
+Q: What is an interactive visualization?
+A: An interactive visualization allows users to engage with and explore data dynamically, using tools like filters, zooming, and hovering.
+
+Q: What is a data mart?
+A: A data mart is a subset of a data warehouse, focused on a specific business area or department, providing tailored data for analysis and reporting.
+
+Q: What is data warehousing?
+A: Data warehousing involves collecting, storing, and managing large volumes of data from various sources, organized for efficient querying and reporting.
+
+Q: What is a data lake?
+A: A data lake is a storage repository that holds raw, unstructured data in its native format, allowing for flexible and scalable data processing.
+
+Q: What is the purpose of data validation?
+A: Data validation ensures that data meets specified criteria and is accurate, consistent, and reliable before use in analysis or processing.
+
+Q: What is data cleaning?
+A: Data cleaning involves identifying and correcting errors, inconsistencies, and inaccuracies in data to improve its quality and usability.
+
+Q: What is a data quality dimension?
+A: A data quality dimension refers to specific aspects of data quality, such as accuracy, completeness, consistency, timeliness, and reliability.
+
+Q: What is a data catalog?
+A: A data catalog is an organized inventory of data assets within an organization, including metadata and descriptions, to facilitate data discovery and management.
+
+Q: What is a business intelligence tool?
+A: A business intelligence tool provides analytical capabilities and visualizations to help organizations make data-driven decisions and gain insights.
+
+Q: What is a data visualization?
+A: Data visualization represents data in graphical or visual formats, such as charts, graphs, and maps, to help users understand and interpret complex information.
+
+Q: What is data mining?
+A: Data mining involves discovering patterns, correlations, and insights from large datasets using techniques like clustering, classification, and association analysis.
+
+Q: What is a correlation coefficient?
+A: A correlation coefficient measures the strength and direction of a linear relationship between two variables, with values ranging from -1 to 1.
+
+Q: What is a hypothesis test?
+A: A hypothesis test assesses whether there is enough evidence to support a specific hypothesis or claim about a population based on sample data.
+
+Q: What is an outlier in data analysis?
+A: An outlier is a data point that significantly deviates from the rest of the dataset, potentially indicating an error or a rare occurrence.
+
+Q: What is data enrichment?
+A: Data enrichment involves enhancing existing data by adding relevant information from external sources to provide a more comprehensive view.
+
+Q: What is a data dashboard?
+A: A data dashboard is a visual interface that displays key metrics and performance indicators in real-time, often used for monitoring and decision-making.
+
+Q: What is data correlation?
+A: Data correlation measures the degree to which two variables move in relation to each other, indicating the strength and direction of their relationship.
+
+Q: What is a data model?
+A: A data model is a conceptual representation of data structures and relationships within a system, used to design and manage databases and data systems.
+
+Q: What is data profiling?
+A: Data profiling involves analyzing and assessing the quality, structure, and content of data to understand its characteristics and improve data management.
+
+Q: What is a data lineage?
+A: Data lineage traces the origin, movement, and transformation of data through its lifecycle, providing transparency and understanding of data flows and dependencies.
+
+Q: What is the purpose of data reconciliation?
+A: Data reconciliation ensures consistency and accuracy between different data sources or systems by comparing and aligning data values.
+
+Q: What is a decision tree?
+A: A decision tree is a flowchart-like model used for decision-making and classification, where nodes represent decisions or outcomes, and branches represent possible actions or results.
+
+Q: What is k-means clustering?
+A: K-means clustering is an unsupervised learning algorithm that partitions data into k clusters, with each cluster having a centroid that represents the mean of the data points.
+
+Q: What is principal component analysis (PCA)?
+A: PCA is a dimensionality reduction technique that transforms data into a set of orthogonal components, capturing the most variance in the data with fewer dimensions.
+
+Q: What is a box plot?
+A: A box plot is a graphical representation of data that displays the median, quartiles, and potential outliers, providing insights into the distribution and spread of the data.
+
+Q: What is a normal distribution?
+A: A normal distribution is a probability distribution that is symmetric around the mean, with most data points clustering around the mean and fewer at the extremes.
+
+Q: What is a chi-square test?
+A: A chi-square test assesses the independence of categorical variables by comparing observed frequencies to expected frequencies in contingency tables.
+
+Q: What is Bayesian analysis?
+A: Bayesian analysis is a statistical approach that updates probabilities based on new evidence or data, using Bayes' theorem to incorporate prior knowledge.
+
+Q: What is a funnel analysis?
+A: Funnel analysis tracks user behavior through a series of stages or steps, identifying where users drop off or convert, often used in marketing and product analysis.
+
+Q: What is data-driven decision-making?
+A: Data-driven decision-making relies on analyzing data to inform and guide business decisions, rather than relying on intuition or subjective judgment.
+
+Q: What is a data visualization dashboard?
+A: A data visualization dashboard is an interactive tool that displays key data insights and metrics using various visual elements like charts, graphs, and maps.
+
+Q: What is text mining?
+A: Text mining involves extracting valuable information and patterns from unstructured text data using techniques like natural language processing (NLP) and machine learning.
+
+Q: What is a data integration layer?
+A: A data integration layer is a component of a data architecture that consolidates data from different sources, transforming and combining it for analysis and reporting.
+
+Q: What is a control chart?
+A: A control chart is a statistical tool used to monitor and analyze process variations over time, helping to identify trends, shifts, and out-of-control conditions.
+
+Q: What is survival analysis?
+A: Survival analysis examines the time until an event of interest occurs, often used in fields like medicine and engineering to study time-to-event data.
+
+Q: What is a data exploration technique?
+A: Data exploration techniques involve analyzing data through visualizations, summary statistics, and interactive tools to uncover patterns, trends, and insights.
+
+Q: What is a scatter plot matrix?
+A: A scatter plot matrix is a grid of scatter plots showing pairwise relationships between multiple variables, useful for identifying correlations and patterns.
+
+Q: What is the purpose of data standardization?
+A: Data standardization transforms data to a consistent format or scale, improving comparability and analysis across different datasets or systems.
+
+Q: What is a funnel chart?
+A: A funnel chart visualizes stages in a process or workflow, showing how data flows through each stage and highlighting where potential issues or bottlenecks occur.
+
+Q: What is predictive modeling?
+A: Predictive modeling uses statistical techniques and machine learning algorithms to forecast future outcomes based on historical data.
+
+Q: What is a data reconciliation process?
+A: A data reconciliation process ensures that data from different sources is consistent and accurate by comparing and aligning data values.
+
+Q: What is the purpose of data quality assessment?
+A: Data quality assessment evaluates the accuracy, completeness, consistency, and reliability of data to ensure it meets the required standards for analysis and decision-making.
+
+Q: What is a cohort analysis?
+A: Cohort analysis examines the behavior and performance of specific groups or cohorts over time, often used in marketing and customer analytics to track trends and outcomes.
+
+Q: What is a waterfall chart?
+A: A waterfall chart visualizes incremental changes in data, showing how an initial value is affected by positive and negative values to reach a final outcome.
+
+Q: What is an exploratory data analysis (EDA)?
+A: Exploratory data analysis (EDA) involves examining data sets to summarize their main characteristics, often using visualizations and summary statistics.
+
+Q: What is a data trend analysis?
+A: Data trend analysis identifies patterns and trends in data over time, helping to understand past performance and forecast future outcomes.
+
+Q: What is the purpose of data visualization?
+A: Data visualization presents data in graphical formats, making complex information more accessible and easier to understand, interpret, and communicate.
+
+Q: What is data wrangling?
+A: Data wrangling involves cleaning, transforming, and organizing raw data into a structured format suitable for analysis and reporting.
+
+Q: What is a Pareto chart?
+A: A Pareto chart is a bar chart that displays the relative importance of different factors, with bars representing frequency or impact and a line showing the cumulative total.
+
+Q: What is a data mining process?
+A: The data mining process involves extracting patterns, correlations, and insights from large datasets using techniques like classification, clustering, and association analysis.
+
+Q: What is a Gantt chart?
+A: A Gantt chart is a project management tool that visually represents the timeline of a project, showing tasks, durations, and dependencies.
+
+Q: What is a time series analysis?
+A: Time series analysis involves analyzing data points collected or recorded at successive time intervals to identify patterns, trends, and seasonal variations.
+
+Q: What is the purpose of data normalization?
+A: Data normalization adjusts the range of data values to a common scale, improving the performance and accuracy of machine learning models and algorithms.
+
+Q: What is a data transformation function?
+A: A data transformation function modifies data from one format or structure to another, often to prepare it for analysis, integration, or visualization.
+
+Q: What is a data cleaning process?
+A: Data cleaning involves identifying and correcting errors, inconsistencies, and inaccuracies in data to improve its quality and usability for analysis.
+
+Q: What is a data quality framework?
+A: A data quality framework provides a structured approach to managing and improving data quality, including metrics, processes, and best practices.
+
+Q: What is the purpose of data governance?
+A: Data governance establishes policies, procedures, and standards for managing data assets, ensuring data quality, security, and compliance within an organization.

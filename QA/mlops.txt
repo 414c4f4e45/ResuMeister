@@ -1,0 +1,239 @@
+Q: What is MLOps?
+A: MLOps (Machine Learning Operations) is a practice that combines machine learning (ML) with DevOps principles to automate and streamline the process of deploying, monitoring, and managing machine learning models in production.
+
+Q: Why is MLOps important?
+A: MLOps is important because it helps bridge the gap between data science and IT operations, ensuring that ML models can be reliably and efficiently deployed, monitored, and updated in production environments.
+
+Q: What are the key components of MLOps?
+A: The key components of MLOps include data management, model training, model deployment, model monitoring, and model governance.
+
+Q: What is the difference between DevOps and MLOps?
+A: DevOps focuses on software development and IT operations, while MLOps extends these practices to machine learning, addressing challenges specific to deploying and managing ML models.
+
+Q: What is continuous integration (CI) in MLOps?
+A: Continuous integration (CI) in MLOps involves automating the process of integrating code changes into a shared repository, along with running tests to ensure the quality of the ML pipeline.
+
+Q: What is continuous delivery (CD) in MLOps?
+A: Continuous delivery (CD) in MLOps involves automating the deployment of ML models to production environments, ensuring that models can be reliably and consistently delivered to users.
+
+Q: What is model versioning in MLOps?
+A: Model versioning in MLOps is the practice of tracking and managing different versions of an ML model, allowing teams to compare models, revert to previous versions, and maintain a history of changes.
+
+Q: What is a model registry?
+A: A model registry is a centralized repository that stores and manages different versions of ML models, along with metadata, performance metrics, and deployment history.
+
+Q: What is model drift?
+A: Model drift occurs when the performance of an ML model degrades over time due to changes in the underlying data or environment, requiring model retraining or updates.
+
+Q: What is data drift?
+A: Data drift refers to changes in the statistical properties of the input data over time, which can affect the performance of an ML model and may require retraining.
+
+Q: What is feature engineering in MLOps?
+A: Feature engineering is the process of selecting, transforming, and creating input variables (features) that improve the performance of an ML model.
+
+Q: What is a feature store?
+A: A feature store is a centralized repository for storing and managing features used in ML models, enabling feature reuse and consistent data preprocessing.
+
+Q: What is automated machine learning (AutoML)?
+A: AutoML refers to the use of automated tools and techniques to streamline the process of developing, selecting, and tuning ML models, often used in MLOps pipelines.
+
+Q: What is model monitoring in MLOps?
+A: Model monitoring involves tracking the performance of ML models in production, detecting issues such as model drift, data drift, and changes in prediction accuracy.
+
+Q: What is a deployment pipeline in MLOps?
+A: A deployment pipeline in MLOps is an automated process that takes an ML model from development to production, including stages like testing, validation, and deployment.
+
+Q: What is model explainability?
+A: Model explainability refers to the ability to understand and interpret the decisions made by an ML model, making it easier to trust, debug, and comply with regulations.
+
+Q: What is a model lifecycle?
+A: A model lifecycle refers to the stages an ML model goes through, from development and training to deployment, monitoring, and eventual retirement or retraining.
+
+Q: What is reproducibility in MLOps?
+A: Reproducibility in MLOps refers to the ability to consistently reproduce the results of an ML experiment, ensuring that models can be reliably tested, validated, and deployed.
+
+Q: What is hyperparameter tuning?
+A: Hyperparameter tuning is the process of optimizing the settings (hyperparameters) of an ML model to improve its performance on a specific task.
+
+Q: What is a CI/CD pipeline in MLOps?
+A: A CI/CD pipeline in MLOps is an automated workflow that integrates continuous integration (CI) and continuous delivery (CD) practices to streamline the deployment of ML models.
+
+Q: What is infrastructure as code (IaC) in MLOps?
+A: Infrastructure as code (IaC) in MLOps involves using code to define and manage the infrastructure required to deploy and run ML models, enabling automation and consistency.
+
+Q: What is a container in MLOps?
+A: A container in MLOps is a lightweight, portable environment that encapsulates an ML model and its dependencies, making it easier to deploy and run models consistently across different environments.
+
+Q: What is Kubernetes in MLOps?
+A: Kubernetes is an open-source platform for automating the deployment, scaling, and management of containerized applications, often used in MLOps for orchestrating ML models.
+
+Q: What is a data pipeline in MLOps?
+A: A data pipeline in MLOps is a series of automated steps that transform, clean, and preprocess data for use in training and deploying ML models.
+
+Q: What is a model pipeline?
+A: A model pipeline is a sequence of steps in the ML process, including data preprocessing, model training, validation, and deployment, often automated in MLOps.
+
+Q: What is model retraining?
+A: Model retraining involves updating an ML model with new data to improve its performance or adapt to changes in the underlying data distribution.
+
+Q: What is A/B testing in MLOps?
+A: A/B testing in MLOps involves deploying multiple versions of an ML model to compare their performance on real-world data and determine the best model for production.
+
+Q: What is shadow deployment?
+A: Shadow deployment is a technique where a new version of an ML model is deployed alongside the current version, receiving the same input data but not affecting production, to test its performance.
+
+Q: What is canary deployment?
+A: Canary deployment is a strategy where a new version of an ML model is gradually rolled out to a small subset of users before being fully deployed, allowing for risk mitigation.
+
+Q: What is rollback in MLOps?
+A: Rollback in MLOps refers to the process of reverting to a previous version of an ML model or pipeline if the current deployment causes issues or underperforms.
+
+Q: What is a data versioning tool in MLOps?
+A: A data versioning tool in MLOps is software that tracks and manages different versions of datasets used for training ML models, ensuring reproducibility and consistency.
+
+Q: What is model validation?
+A: Model validation is the process of evaluating an ML model's performance on a separate validation dataset to ensure that it generalizes well to new, unseen data.
+
+Q: What is model governance?
+A: Model governance involves the policies, procedures, and tools used to ensure that ML models are developed, deployed, and managed in compliance with legal, ethical, and organizational standards.
+
+Q: What is a model inference?
+A: Model inference refers to the process of making predictions using a trained ML model on new, unseen data in a production environment.
+
+Q: What is a pre-production environment in MLOps?
+A: A pre-production environment in MLOps is a testing environment that closely resembles the production environment, used to validate ML models before full deployment.
+
+Q: What is data labeling in MLOps?
+A: Data labeling is the process of annotating data with labels or tags that indicate the correct output, used to train supervised ML models.
+
+Q: What is a data lake in MLOps?
+A: A data lake is a centralized repository that stores large volumes of raw, unstructured, and structured data, often used as a source for training ML models.
+
+Q: What is model benchmarking?
+A: Model benchmarking involves comparing the performance of different ML models on standardized datasets or tasks to determine the best model for deployment.
+
+Q: What is a deployment artifact in MLOps?
+A: A deployment artifact in MLOps is a packaged version of an ML model, along with its dependencies and configuration, that can be deployed to production environments.
+
+Q: What is feature drift?
+A: Feature drift occurs when the distribution of input features changes over time, potentially affecting the performance of an ML model and requiring model retraining.
+
+Q: What is a hyperparameter?
+A: A hyperparameter is a parameter that is set before the training process of an ML model and controls the learning process, such as learning rate or batch size.
+
+Q: What is data preprocessing in MLOps?
+A: Data preprocessing involves cleaning, transforming, and normalizing raw data into a suitable format for training ML models.
+
+Q: What is a machine learning model pipeline?
+A: A machine learning model pipeline is an automated workflow that includes stages like data preprocessing, model training, validation, and deployment, often used in MLOps.
+
+Q: What is model deployment in MLOps?
+A: Model deployment is the process of making an ML model available in a production environment where it can be used to make predictions on new data.
+
+Q: What is an endpoint in MLOps?
+A: An endpoint in MLOps is a URL or API through which an ML model can be accessed in a production environment to make predictions.
+
+Q: What is a model artifact in MLOps?
+A: A model artifact in MLOps is a saved instance of an ML model, including its weights, architecture, and metadata, that can be loaded and used for inference.
+
+Q: What is data quality in MLOps?
+A: Data quality in MLOps refers to the accuracy, completeness, and consistency of data used for training and deploying ML models, which is crucial for model performance.
+
+Q: What is model lineage?
+A: Model lineage is the tracking of the history of an ML model, including the data, code, and processes used to create and update the model, ensuring transparency and reproducibility.
+
+Q: What is an ML pipeline?
+A: An ML pipeline is a sequence of automated steps that process data, train models, and deploy them to production, often orchestrated in an MLOps framework.
+
+Q: What is a pipeline orchestration tool in MLOps?
+A: A pipeline orchestration tool in MLOps is software that manages and automates the execution of different stages of an ML pipeline, such as Apache Airflow or Kubeflow.
+
+Q: What is model performance monitoring?
+A: Model performance monitoring involves tracking the accuracy, latency, and other metrics of an ML model in production to ensure it continues to perform as expected.
+
+Q: What is a blue-green deployment in MLOps?
+A: Blue-green deployment is a strategy where two identical environments (blue and green) are maintained, with one active and the other on standby, allowing for zero-downtime model updates.
+
+Q: What is rollback?
+A: Rollback in MLOps refers to reverting to a previous version of an ML model or pipeline if issues are detected after a new deployment.
+
+Q: What is the role of security in MLOps?
+A: Security in MLOps involves protecting ML models, data, and infrastructure from unauthorized access, tampering, and breaches, ensuring the integrity and privacy of the entire pipeline.
+
+Q: What is model explainability in MLOps?
+A: Model explainability in MLOps refers to the techniques used to make the predictions of an ML model understandable and interpretable by humans, which is essential for trust and compliance.
+
+Q: What is data bias in MLOps?
+A: Data bias in MLOps occurs when the training data contains biases that lead to unfair or skewed predictions by the ML model, requiring careful data curation and model evaluation.
+
+Q: What is a multi-model deployment in MLOps?
+A: Multi-model deployment in MLOps refers to deploying multiple versions of an ML model simultaneously, often for testing, comparison, or serving different user segments.
+
+Q: What is continuous training in MLOps?
+A: Continuous training in MLOps is the practice of automatically retraining ML models as new data becomes available, ensuring that models remain accurate and up-to-date.
+
+Q: What is a model card?
+A: A model card is a document that provides information about an ML model, including its intended use, performance metrics, limitations, and ethical considerations.
+
+Q: What is a model audit trail?
+A: A model audit trail is a record of the decisions, processes, and data used to develop, train, and deploy an ML model, ensuring transparency and accountability.
+
+Q: What is a microservice architecture in MLOps?
+A: Microservice architecture in MLOps involves breaking down the ML pipeline into smaller, independent services that can be developed, deployed, and scaled separately.
+
+Q: What is batch inference in MLOps?
+A: Batch inference in MLOps refers to making predictions on a large batch of data at once, often used for offline processing or periodic updates.
+
+Q: What is real-time inference in MLOps?
+A: Real-time inference in MLOps refers to making predictions on individual data points as they arrive, typically with low latency, used in applications like recommendation systems.
+
+Q: What is a serving infrastructure in MLOps?
+A: Serving infrastructure in MLOps is the hardware and software setup that hosts and serves ML models in production, ensuring they are available and scalable for user requests.
+
+Q: What is rollback?
+A: Rollback in MLOps refers to reverting to a previous version of an ML model or pipeline if issues are detected after a new deployment.
+
+Q: What is feature importance?
+A: Feature importance is a metric that indicates how much each feature contributes to the predictions made by an ML model, helping to understand and interpret the model.
+
+Q: What is concept drift?
+A: Concept drift occurs when the relationship between input data and target variables changes over time, affecting the accuracy of an ML model and requiring retraining.
+
+Q: What is an ML metadata store?
+A: An ML metadata store is a centralized database that tracks metadata related to ML experiments, models, datasets, and pipelines, aiding in reproducibility and governance.
+
+Q: What is data ingestion in MLOps?
+A: Data ingestion in MLOps is the process of collecting, importing, and processing data from various sources to be used for training and deploying ML models.
+
+Q: What is feature selection in MLOps?
+A: Feature selection in MLOps involves identifying the most relevant features from the dataset that contribute to the performance of an ML model, often done to reduce complexity and improve accuracy.
+
+Q: What is model lifecycle management?
+A: Model lifecycle management refers to the processes and tools used to manage the entire lifecycle of an ML model, from development and deployment to monitoring, retraining, and decommissioning.
+
+Q: What is data quality in MLOps?
+A: Data quality in MLOps refers to ensuring that the data used in ML pipelines is accurate, consistent, and free from errors, as poor data quality can lead to unreliable models.
+
+Q: What is model serving?
+A: Model serving is the process of deploying an ML model to a production environment where it can handle inference requests and make predictions in real-time or batch mode.
+
+Q: What is a feature transformation?
+A: Feature transformation involves altering the input features, such as scaling, normalizing, or encoding categorical variables, to improve the performance of an ML model.
+
+Q: What is an ML workflow?
+A: An ML workflow is a structured process that defines the sequence of steps required to develop, train, deploy, and maintain an ML model, often automated using MLOps tools.
+
+Q: What is A/B testing in MLOps?
+A: A/B testing in MLOps involves comparing two versions of an ML model by deploying them simultaneously to different user segments and evaluating their performance.
+
+Q: What is a pipeline in MLOps?
+A: A pipeline in MLOps is a sequence of automated steps that process data, train models, and deploy them to production, often orchestrated in an MLOps framework.
+
+Q: What is feature importance?
+A: Feature importance is a metric that indicates how much each feature contributes to the predictions made by an ML model, helping to understand and interpret the model.
+
+Q: What is a data pipeline in MLOps?
+A: A data pipeline in MLOps is a series of automated steps that transform, clean, and preprocess data for use in training and deploying ML models.
+
+Q: What is a hyperparameter?
+A: A hyperparameter is a parameter that is set before the training process of an ML model and controls the learning process, such as learning rate or batch size.

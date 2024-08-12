@@ -1,0 +1,446 @@
+Q: What is Unity?
+A: Unity is a cross-platform game engine developed by Unity Technologies, used for creating both two-dimensional (2D) and three-dimensional (3D) games and simulations.
+
+Q: What programming languages can you use in Unity?
+A: Unity primarily uses C# for scripting. Previously, Unity supported JavaScript and Boo, but these are no longer used.
+
+Q: What is a GameObject in Unity?
+A: A GameObject is a fundamental entity in Unity that can represent characters, props, scenery, cameras, lights, and more. It acts as a container for components.
+
+Q: What is a Component in Unity?
+A: A Component is a modular piece of functionality that can be attached to GameObjects to give them behavior, such as rendering, physics, or custom scripts.
+
+Q: How does Unity handle physics?
+A: Unity uses its built-in physics engines, such as NVIDIA's PhysX for 3D physics and Box2D for 2D physics, to simulate realistic physical interactions and behaviors.
+
+Q: What is a Prefab in Unity?
+A: A Prefab is a reusable GameObject template that can be instantiated multiple times in a scene, allowing for consistent and easily modifiable instances.
+
+Q: What is the Unity Asset Store?
+A: The Unity Asset Store is an online marketplace where developers can buy and sell assets, tools, and plugins that can be integrated into Unity projects.
+
+Q: What is the purpose of the Unity Editor?
+A: The Unity Editor is the primary development environment where developers can create, design, and manage their Unity projects, including scenes, assets, and scripts.
+
+Q: What are Scenes in Unity?
+A: Scenes are individual levels or sections within a Unity project, where GameObjects, lighting, and other elements are arranged to create the game's content.
+
+Q: What is the Unity scripting API?
+A: The Unity scripting API is a collection of classes, methods, and properties provided by Unity that developers use to interact with the engine and control gameplay and behavior.
+
+Q: What is the purpose of Unity's Physics.Raycast?
+A: Physics.Raycast is used to cast a ray into the scene and detect collisions with objects, useful for tasks like shooting, line-of-sight checks, and interaction detection.
+
+Q: What is the Unity AssetBundle?
+A: An AssetBundle is a collection of assets packed together that can be loaded at runtime, allowing for dynamic content loading and efficient asset management.
+
+Q: How do you create a new script in Unity?
+A: In Unity, you can create a new script by right-clicking in the Project window, selecting "Create" > "C# Script," and naming the script file.
+
+Q: What is Unity’s Animator component?
+A: The Animator component controls animations on a GameObject, allowing for complex animation transitions and state management using Animator Controllers.
+
+Q: How does Unity handle animations?
+A: Unity uses the Animator component and Animator Controllers to manage animations, including creating animation states, transitions, and blending animations.
+
+Q: What are Unity’s Layers used for?
+A: Layers are used to organize and manage GameObjects, control rendering, and set collision rules for different types of objects in a scene.
+
+Q: What is a ScriptableObject in Unity?
+A: A ScriptableObject is a class that allows developers to store data and create reusable asset types within Unity's project system, useful for managing game data.
+
+Q: How do you handle user input in Unity?
+A: User input in Unity is handled using the Input class, which provides methods for detecting keyboard, mouse, and controller inputs.
+
+Q: What is Unity's UI system used for?
+A: Unity’s UI system is used for creating and managing user interfaces, including elements like buttons, text, images, and panels.
+
+Q: How do you create a new scene in Unity?
+A: You can create a new scene by going to "File" > "New Scene" in the Unity Editor or by using the "Create" option in the Project window.
+
+Q: What is Unity's Physics2D used for?
+A: Unity’s Physics2D system is used for simulating 2D physics interactions, such as collisions, forces, and rigidbody behavior in 2D games.
+
+Q: What is a Rigidbody in Unity?
+A: A Rigidbody is a component that enables a GameObject to participate in the physics simulation, allowing it to respond to forces, gravity, and collisions.
+
+Q: How do you implement collision detection in Unity?
+A: Collision detection is implemented using colliders (e.g., BoxCollider, SphereCollider) and Rigidbody components. Unity detects collisions and triggers events based on these components.
+
+Q: What is a Coroutine in Unity?
+A: A Coroutine is a special type of method that allows you to execute code over multiple frames, useful for tasks like waiting, animation, or timed events.
+
+Q: How does Unity handle audio?
+A: Unity handles audio using the AudioSource and AudioListener components, allowing you to play sounds, manage audio playback, and adjust audio settings.
+
+Q: What are Unity’s Tags used for?
+A: Tags are used to label and categorize GameObjects, enabling easy identification and grouping for scripting and scene management.
+
+Q: How do you create and manage animations in Unity?
+A: Animations are created and managed using the Animation window, Animator Controller, and Animation Clips, which define how GameObjects animate over time.
+
+Q: What is Unity's NavMesh used for?
+A: Unity’s NavMesh is used for pathfinding and navigation, allowing AI agents to move and navigate through a scene by calculating walkable areas.
+
+Q: How do you use Unity’s Profiler?
+A: The Profiler provides detailed information about your game's performance, including CPU, GPU, memory, and rendering statistics, helping identify and optimize performance issues.
+
+Q: What is the purpose of Unity’s Debug class?
+A: The Debug class provides methods for logging messages, warnings, and errors to the console, useful for troubleshooting and debugging scripts.
+
+Q: How do you handle object pooling in Unity?
+A: Object pooling involves creating a pool of reusable GameObjects to optimize performance, reduce instantiation overhead, and manage frequent object creation and destruction.
+
+Q: What is a Singleton pattern in Unity?
+A: The Singleton pattern ensures that a class has only one instance and provides a global point of access to that instance, often used for managing game managers or services.
+
+Q: How do you use Unity’s Input System?
+A: Unity’s Input System allows you to handle input from various devices, including keyboards, mice, game controllers, and touch screens, providing flexibility and control.
+
+Q: What is Unity’s SceneManager used for?
+A: SceneManager provides methods for loading, unloading, and managing scenes within Unity, allowing for scene transitions and scene-based game management.
+
+Q: How do you create a custom shader in Unity?
+A: Custom shaders are created using Unity's ShaderLab language, HLSL, or Shader Graph, allowing you to define unique visual effects and rendering behaviors.
+
+Q: What are Unity’s Script Execution Order settings?
+A: Script Execution Order settings allow you to specify the order in which scripts are executed during the game’s initialization and update cycles.
+
+Q: How do you use Unity’s Lightmaps?
+A: Lightmaps are used to pre-compute and store lighting information for static objects in a scene, improving performance and visual quality by reducing real-time lighting calculations.
+
+Q: What is a Material in Unity?
+A: A Material defines the appearance of a surface by specifying how it interacts with light and texture, including properties like color, shader, and texture maps.
+
+Q: How do you use Unity’s Animator Controller?
+A: Animator Controller manages animation states, transitions, and blending, allowing you to create complex animation behaviors for GameObjects.
+
+Q: What is Unity’s Physics.IgnoreCollision used for?
+A: Physics.IgnoreCollision is used to prevent collisions between specified colliders, allowing for customized collision behavior.
+
+Q: How do you create a scriptable asset in Unity?
+A: Scriptable assets are created by deriving a class from ScriptableObject and then using the CreateAssetMenu attribute to create and manage instances via the Unity Editor.
+
+Q: What is Unity’s RenderTexture?
+A: RenderTexture is a special type of texture that allows rendering directly to it, useful for effects like real-time reflections, dynamic textures, or off-screen rendering.
+
+Q: How do you use Unity’s Physics2D.Raycast?
+A: Physics2D.Raycast casts a ray in 2D space to detect collisions with objects, useful for tasks like line-of-sight checks or interaction detection in 2D games.
+
+Q: What is Unity’s TagManager?
+A: TagManager allows you to define and manage tags in Unity, which can be used to categorize and identify GameObjects for scripting and scene management.
+
+Q: How do you use Unity’s Timeline?
+A: Unity’s Timeline is a visual tool for creating and managing cutscenes, animations, and complex sequences of events using a timeline-based approach.
+
+Q: What is Unity’s Cinemachine?
+A: Cinemachine is a suite of tools for creating and managing dynamic, cinematic camera systems, including camera rigs, transitions, and follow behaviors.
+
+Q: How do you use Unity’s AssetDatabase?
+A: AssetDatabase provides methods for managing and accessing assets within the Unity Editor, allowing for tasks like asset import, creation, and modification.
+
+Q: What is Unity’s Remote Config used for?
+A: Remote Config allows developers to modify game settings and configurations remotely without requiring updates to the application, enabling real-time adjustments and testing.
+
+Q: How do you create and use Unity’s Custom Editors?
+A: Custom Editors extend the Unity Inspector with custom UI for specific components or assets, providing a more tailored and efficient editing experience.
+
+Q: What is Unity’s Animator Override Controller?
+A: Animator Override Controller allows you to replace animations in an existing Animator Controller with new ones, useful for creating variations or different character animations.
+
+Q: How do you use Unity’s Addressables system?
+A: Addressables provides a way to manage and load assets asynchronously, improving memory management and runtime performance by dynamically loading assets as needed.
+
+Q: What is Unity’s Profiler used for?
+A: The Profiler provides detailed insights into the performance of your game, including CPU, GPU, memory usage, and rendering statistics, helping to identify and address performance bottlenecks.
+
+Q: How do you handle multiplayer networking in Unity?
+A: Multiplayer networking in Unity is typically handled using the Unity Multiplayer Networking (UNet) system or third-party solutions like Photon Unity Networking (PUN) or Mirror.
+
+Q: What is Unity’s Prefab Variants feature?
+A: Prefab Variants allow you to create variations of a base Prefab, inheriting its properties while allowing for overrides and modifications specific to each variant.
+
+Q: How do you use Unity’s NavMesh Agents?
+A: NavMesh Agents are components that enable AI characters to navigate and move through a scene based on the NavMesh, allowing for pathfinding and obstacle avoidance.
+
+Q: What is Unity’s LayerMask used for?
+A: LayerMask is used to include or exclude specific layers in queries and operations, such as raycasting or collision detection, helping to manage interactions between different object types.
+
+Q: How do you use Unity’s Custom Render Pipelines?
+A: Custom Render Pipelines allow you to define your own rendering logic and pipeline, giving you control over the rendering process and enabling unique visual effects and optimizations.
+
+Q: What is Unity’s Input Manager used for?
+A: Input Manager is used to define and manage input axes and buttons, allowing for custom configurations of controls and handling player input across different devices.
+
+Q: How do you create a new GameObject in Unity?
+A: You can create a new GameObject by right-clicking in the Hierarchy window, selecting "Create Empty" or choosing a specific GameObject type from the "Create" menu.
+
+Q: What is Unity’s SceneView used for?
+A: SceneView is a window in the Unity Editor that allows you to visually edit and interact with your scene, including placing, moving, and manipulating GameObjects.
+
+Q: How do you use Unity’s Quality Settings?
+A: Quality Settings allow you to define different quality levels for your game, including settings for graphics, shadows, and effects, providing options for performance and visual fidelity.
+
+Q: What is Unity’s Static Batching?
+A: Static Batching combines static GameObjects into a single mesh for rendering, reducing draw calls and improving performance for static elements in a scene.
+
+Q: How do you use Unity’s Shader Graph?
+A: Shader Graph is a visual tool for creating and editing shaders using a node-based interface, allowing for custom shader creation without writing code.
+
+Q: What is Unity’s Light Probe used for?
+A: Light Probes capture and store lighting information at specific points in a scene, improving lighting quality and consistency for dynamic objects that move through the scene.
+
+Q: How do you use Unity’s Occlusion Culling?
+A: Occlusion Culling is used to improve performance by not rendering objects that are blocked from view by other objects, reducing the number of draw calls and improving rendering efficiency.
+
+Q: What is Unity’s Sprite Renderer used for?
+A: Sprite Renderer is a component that displays 2D sprites in a scene, allowing you to render images and animations in 2D games and applications.
+
+Q: How do you handle asset serialization in Unity?
+A: Asset serialization is managed by Unity to save and load asset data, including scene files, Prefabs, and scriptable objects, ensuring consistent and reliable asset management.
+
+Q: What is Unity’s Graphics.DrawMesh used for?
+A: Graphics.DrawMesh is used to draw a mesh with a specified material, allowing for custom rendering of mesh data without needing a GameObject.
+
+Q: How do you use Unity’s Time.deltaTime?
+A: Time.deltaTime provides the time elapsed between the current and previous frame, useful for frame-rate-independent calculations and smooth animations.
+
+Q: What is Unity’s SceneManager.GetActiveScene used for?
+A: SceneManager.GetActiveScene returns the currently active scene, allowing you to access and manipulate the scene’s properties and contents.
+
+Q: How do you use Unity’s Particle System?
+A: The Particle System is used to create and manage particle effects, such as explosions, smoke, and fire, by configuring parameters like emission, lifetime, and size.
+
+Q: What is Unity’s ScriptableObject used for?
+A: ScriptableObject is used to create custom asset types that store data and settings, providing a way to organize and manage game data outside of scene objects.
+
+Q: How do you use Unity’s Gizmos?
+A: Gizmos are visual aids that help with debugging and scene editing, allowing you to draw custom shapes and markers in the Scene view to visualize data and components.
+
+Q: What is Unity’s Rigidbody2D?
+A: Rigidbody2D is a component used in 2D games to apply physics properties like gravity, forces, and collisions to 2D GameObjects.
+
+Q: How do you use Unity’s UI Layout Groups?
+A: UI Layout Groups (e.g., HorizontalLayoutGroup, VerticalLayoutGroup) automatically arrange and position UI elements within their parent container, providing responsive layouts.
+
+Q: What is Unity’s Canvas used for?
+A: Canvas is a component that acts as a container for all UI elements in Unity, handling the rendering and management of user interface components.
+
+Q: How do you use Unity’s Animation Rigging?
+A: Animation Rigging provides tools for creating and managing complex character rigs and animations, including inverse kinematics and procedural animation.
+
+Q: What is Unity’s Profiler used for?
+A: The Profiler is used to analyze the performance of your game, providing insights into CPU, GPU, memory usage, and other metrics to help optimize and debug performance issues.
+
+Q: How do you create a new asset in Unity?
+A: New assets can be created by right-clicking in the Project window, selecting "Create," and choosing the desired asset type, such as a script, texture, or material.
+
+Q: What is Unity’s Post-Processing Stack?
+A: The Post-Processing Stack is a collection of image effects that enhance the visual quality of a game, including effects like bloom, depth of field, and color grading.
+
+Q: How do you use Unity’s MeshCollider?
+A: MeshCollider is used to create a collider that matches the shape of a 3D mesh, allowing for more accurate and complex collision detection.
+
+Q: What is Unity’s Tag used for?
+A: Tags are used to categorize and identify GameObjects, allowing for efficient querying and manipulation in scripts.
+
+Q: How do you use Unity’s GameManager pattern?
+A: The GameManager pattern centralizes the management of game state, rules, and logic in a single class, often implemented as a singleton for easy access across scenes.
+
+Q: What is Unity’s Lightmapping?
+A: Lightmapping is the process of baking static lighting information into textures, improving performance by reducing real-time lighting calculations.
+
+Q: How do you use Unity’s Script Execution Order?
+A: Script Execution Order settings allow you to control the order in which scripts are executed during the game’s lifecycle, ensuring correct initialization and updates.
+
+Q: What is Unity’s AssetDatabase?
+A: AssetDatabase provides methods for managing assets in the Unity Editor, including creating, importing, and modifying assets programmatically.
+
+Q: How do you handle asset bundling in Unity?
+A: Asset bundling involves creating and managing AssetBundles to load assets dynamically at runtime, optimizing asset management and reducing build size.
+
+Q: What is Unity’s Profiler used for?
+A: The Profiler is a tool that helps analyze and optimize game performance, providing detailed metrics on CPU, GPU, memory, and rendering.
+
+Q: How do you use Unity’s Render Pipeline?
+A: The Render Pipeline controls the rendering process, allowing you to customize and extend rendering behavior using Unity’s Built-in Pipeline, Universal Render Pipeline (URP), or High Definition Render Pipeline (HDRP).
+
+Q: What is Unity’s Physics2D used for?
+A: Physics2D provides 2D physics simulation, including collision detection, rigidbody dynamics, and forces, tailored for 2D games.
+
+Q: How do you use Unity’s Asset Store?
+A: The Asset Store allows you to purchase and download assets, tools, and plugins to enhance your Unity projects, including models, scripts, and environments.
+
+Q: What is Unity’s EditorGUILayout used for?
+A: EditorGUILayout provides methods for creating custom editor layouts and controls in the Unity Editor, facilitating the development of custom inspectors and editor windows.
+
+Q: How do you use Unity’s SceneManager?
+A: SceneManager provides methods for loading, unloading, and managing scenes in Unity, allowing for scene transitions and dynamic scene changes.
+
+Q: What is Unity’s Reflection Probe used for?
+A: Reflection Probes capture and store environment reflections, enhancing the realism of reflective surfaces in a scene.
+
+Q: How do you use Unity’s Coroutines?
+A: Coroutines are used to perform operations over multiple frames, allowing for delays and asynchronous operations within Unity scripts.
+
+Q: What is Unity’s Addressables system?
+A: The Addressables system manages and loads assets asynchronously, improving memory usage and performance by allowing for dynamic asset loading and unloading.
+
+Q: How do you use Unity’s Animator Controller?
+A: The Animator Controller manages and transitions between different animation states, controlling how animations are played and blended for GameObjects.
+
+Q: What is Unity’s Post-Processing Stack used for?
+A: The Post-Processing Stack applies various image effects to enhance visual quality, such as bloom, color grading, and ambient occlusion.
+
+Q: How do you use Unity’s ScriptableObject?
+A: ScriptableObject is used to create custom data containers that can be saved as assets, useful for managing game data and settings outside of scene objects.
+
+Q: What is Unity’s MeshFilter used for?
+A: MeshFilter is a component that stores the mesh data for a GameObject, allowing the MeshRenderer to render the mesh in the scene.
+
+Q: How do you use Unity’s Player Settings?
+A: Player Settings configure build and runtime options for your game, including resolution, quality, and platform-specific settings.
+
+Q: What is Unity’s CanvasScaler used for?
+A: CanvasScaler adjusts the scaling of UI elements on different screen resolutions and sizes, ensuring consistent layout and appearance across devices.
+
+Q: How do you use Unity’s Layered Materials?
+A: Layered Materials involve using multiple materials with different shaders and textures to create complex visual effects, such as layered terrain or character skins.
+
+Q: What is Unity’s Physics.Raycast used for?
+A: Physics.Raycast performs a raycast to detect collisions with objects along a specified direction, useful for tasks like line-of-sight checks and shooting mechanics.
+
+Q: How do you use Unity’s Animation Curve?
+A: AnimationCurve allows you to define and manipulate curves for animating values over time, providing fine control over animation interpolation and keyframe values.
+
+Q: What is Unity’s Sprite Atlas used for?
+A: Sprite Atlas groups multiple sprites into a single texture atlas, optimizing rendering performance and reducing draw calls for 2D games.
+
+Q: How do you use Unity’s MeshRenderer?
+A: MeshRenderer is a component that renders the mesh assigned to a MeshFilter, allowing the GameObject to be visible in the scene.
+
+Q: What is Unity’s UI Layout system used for?
+A: Unity’s UI Layout system automates the arrangement and sizing of UI elements, using components like Layout Groups and Content Size Fitter to create responsive and adaptive interfaces.
+
+Q: How do you use Unity’s Pathfinding system?
+A: Unity’s Pathfinding system uses NavMesh to enable AI characters to navigate and find paths through a scene, avoiding obstacles and dynamically adapting to changes.
+
+Q: What is Unity’s LightProbeGroup used for?
+A: LightProbeGroup arranges light probes in a group to capture and provide ambient lighting information for dynamic objects in a scene.
+
+Q: How do you use Unity’s Editor Coroutines?
+A: Editor Coroutines are used to run asynchronous operations within the Unity Editor, such as loading or processing data without blocking the editor’s main thread.
+
+Q: What is Unity’s GameObject.Find used for?
+A: GameObject.Find searches for GameObjects in the scene by name, returning the first GameObject that matches the specified name.
+
+Q: How do you use Unity’s Custom Render Features?
+A: Custom Render Features extend the functionality of Unity’s Scriptable Render Pipeline by adding custom rendering effects and passes to the rendering process.
+
+Q: What is Unity’s Timeline used for?
+A: Timeline is a tool for creating and managing cinematic content and animations, providing a visual interface for sequencing animations, audio, and other events.
+
+Q: How do you use Unity’s Object Pooling?
+A: Object Pooling reuses and recycles GameObjects instead of instantiating and destroying them frequently, improving performance and reducing memory overhead.
+
+Q: What is Unity’s Transform component used for?
+A: Transform is a component that manages the position, rotation, and scale of a GameObject in the scene, controlling its spatial properties.
+
+Q: How do you use Unity’s ReflectionProbe?
+A: ReflectionProbe captures reflections from the environment and applies them to reflective surfaces, improving visual realism.
+
+Q: What is Unity’s Physics.IgnoreCollision used for?
+A: Physics.IgnoreCollision is used to prevent specific colliders from interacting with each other, useful for optimizing collision detection and interactions.
+
+Q: How do you use Unity’s Data-Driven Design?
+A: Data-Driven Design involves separating game data and logic, allowing for more flexible and scalable development by using external data sources and configuration files.
+
+Q: What is Unity’s Screen Space - Overlay used for?
+A: Screen Space - Overlay is a Canvas rendering mode that places UI elements directly on top of the screen, independent of the 3D world space.
+
+Q: How do you use Unity’s AudioMixer?
+A: AudioMixer allows for complex audio routing and mixing, enabling real-time adjustments of audio levels, effects, and spatialization in your game.
+
+Q: What is Unity’s Depth Texture used for?
+A: Depth Texture captures the distance of each pixel from the camera, used for effects like depth-based post-processing and rendering.
+
+Q: How do you use Unity’s AssetBundles?
+A: AssetBundles package assets for dynamic loading at runtime, allowing for efficient distribution and management of assets in large or modular projects.
+
+Q: What is Unity’s Layered Animation used for?
+A: Layered Animation allows you to combine multiple animation layers, each with its own set of animations and blending modes, to create complex character movements.
+
+Q: How do you use Unity’s EditorGUILayout?
+A: EditorGUILayout provides a range of methods for creating custom editor interfaces, including controls, fields, and layouts, for enhancing editor functionality.
+
+Q: What is Unity’s SpriteRenderer component used for?
+A: SpriteRenderer displays 2D sprites in the scene, rendering images and animations for 2D games and user interfaces.
+
+Q: How do you use Unity’s SceneView tools?
+A: SceneView tools include various handles and gizmos for manipulating GameObjects, visualizing data, and editing scenes in the Unity Editor.
+
+Q: What is Unity’s NavMeshObstacle used for?
+A: NavMeshObstacle is used to create dynamic obstacles that affect the NavMesh, allowing for real-time updates to pathfinding and navigation.
+
+Q: How do you use Unity’s EditorGUILayout.PropertyField?
+A: EditorGUILayout.PropertyField displays serialized fields in custom editors, providing an interface for editing serialized properties.
+
+Q: What is Unity’s Rigidbody used for?
+A: Rigidbody applies physics properties to 3D GameObjects, including forces, gravity, and collision detection, enabling realistic physical interactions.
+
+Q: How do you use Unity’s Render Texture?
+A: RenderTexture captures and stores the output of a camera or rendering process, allowing you to use it as a texture in materials or for effects like reflections.
+
+Q: What is Unity’s Post-Processing Volume?
+A: Post-Processing Volume applies post-processing effects to a specific area of the scene, enabling localized visual enhancements and adjustments.
+
+Q: How do you use Unity’s Render Pipeline Assets?
+A: Render Pipeline Assets configure and customize the rendering pipeline, including settings for lighting, shaders, and post-processing in Unity’s Scriptable Render Pipelines.
+
+Q: What is Unity’s Debug.Log used for?
+A: Debug.Log outputs messages to the Unity Console, useful for debugging and logging information during development and testing.
+
+Q: How do you use Unity’s Animator Override Controller?
+A: Animator Override Controller replaces animations in an Animator Controller with new ones, allowing for variations and customization of animations.
+
+Q: What is Unity’s EventSystem used for?
+A: EventSystem manages and handles input events for UI elements, including clicks, drags, and other interactions in the Unity UI system.
+
+Q: How do you use Unity’s Graphics.DrawMesh?
+A: Graphics.DrawMesh renders a mesh directly to the screen, bypassing the usual GameObject rendering pipeline and allowing for custom rendering.
+
+Q: What is Unity’s Debug.DrawRay used for?
+A: Debug.DrawRay visualizes a ray in the Scene view, useful for debugging and visualizing raycasts and directional checks.
+
+Q: How do you use Unity’s Custom Editor Tools?
+A: Custom Editor Tools involve creating custom inspectors and editor windows to enhance the Unity Editor’s functionality and streamline development workflows.
+
+Q: What is Unity’s Animation Rigging used for?
+A: Animation Rigging provides tools and components for creating advanced character rigs and animations, including constraints and control systems.
+
+Q: How do you use Unity’s Scriptable Render Pipeline (SRP)?
+A: SRP allows you to create and customize your rendering pipeline, enabling more control over rendering processes and visual effects.
+
+Q: What is Unity’s Timeline Asset used for?
+A: Timeline Asset creates and manages sequences of events and animations, used for cinematic content and complex animation scenarios.
+
+Q: How do you use Unity’s UnityWebRequest?
+A: UnityWebRequest handles HTTP requests and responses, useful for communicating with web servers, downloading data, and interacting with APIs.
+
+Q: What is Unity’s Lightmapping used for?
+A: Lightmapping pre-computes and stores lighting information, improving performance and visual quality by baking static lighting into textures.
+
+Q: How do you use Unity’s RaycastHit?
+A: RaycastHit stores information about the result of a raycast, including collision details, point of contact, and surface normal.
+
+Q: What is Unity’s LOD (Level of Detail) system used for?
+A: LOD adjusts the detail of 3D models based on distance from the camera, optimizing performance by reducing complexity for distant objects.
+
+Q: How do you use Unity’s Graphics.Blit?
+A: Graphics.Blit copies pixels from one texture to another, often used for post-processing effects and custom rendering operations.
+
+Q: What is Unity’s ScriptableObject used for?
+A: ScriptableObject provides a way to create and store data assets, allowing for flexible data management and separation from scene objects.
+
+Q: How do you use Unity’s MonoBehaviour?
+A: MonoBehaviour is the base class for scripts in Unity, providing access to event functions and lifecycle methods for GameObject behavior.

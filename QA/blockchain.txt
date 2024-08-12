@@ -1,0 +1,395 @@
+Q: What is blockchain technology?
+A: Blockchain technology is a decentralized digital ledger that records transactions across multiple computers so that the record cannot be altered retroactively, ensuring security and transparency.
+
+Q: How does blockchain work?
+A: Blockchain works by creating a chain of blocks, each containing a set of transactions. Each block is linked to the previous one using cryptographic hashes, creating an immutable and secure chain of data.
+
+Q: What is a block in a blockchain?
+A: A block in a blockchain is a data structure that contains a list of transactions and a reference to the previous block, along with a timestamp and a cryptographic hash.
+
+Q: What is a blockchain ledger?
+A: A blockchain ledger is a distributed database that maintains a continuous, sequential record of transactions across a network of computers, ensuring that all copies of the ledger are synchronized and immutable.
+
+Q: What is a smart contract?
+A: A smart contract is a self-executing contract with the terms of the agreement directly written into code, which automatically enforces and executes the contract when predefined conditions are met.
+
+Q: What is decentralization in blockchain?
+A: Decentralization in blockchain refers to the distribution of control and data across multiple nodes in a network, eliminating the need for a central authority and enhancing security and reliability.
+
+Q: What is a consensus mechanism?
+A: A consensus mechanism is a protocol used in blockchain networks to agree on the validity of transactions and ensure that all participants in the network have a consistent view of the ledger.
+
+Q: What are the common consensus mechanisms?
+A: Common consensus mechanisms include Proof of Work (PoW), Proof of Stake (PoS), Delegated Proof of Stake (DPoS), and Byzantine Fault Tolerance (BFT).
+
+Q: What is Proof of Work (PoW)?
+A: Proof of Work (PoW) is a consensus mechanism where participants (miners) solve complex mathematical problems to validate transactions and add new blocks to the blockchain, requiring significant computational power.
+
+Q: What is Proof of Stake (PoS)?
+A: Proof of Stake (PoS) is a consensus mechanism where validators are chosen to create new blocks and validate transactions based on the number of coins they hold and are willing to "stake" as collateral.
+
+Q: What is a hash function?
+A: A hash function is a cryptographic algorithm that converts an input (or message) into a fixed-size string of bytes, typically a hash value, which is used to ensure data integrity and security.
+
+Q: What is a public key?
+A: A public key is a cryptographic key used to encrypt data and verify digital signatures, which can be shared openly and is paired with a private key for decryption and signing.
+
+Q: What is a private key?
+A: A private key is a cryptographic key used to decrypt data and create digital signatures, which must be kept secret and secure, as it allows access to the associated public key data.
+
+Q: What is a cryptocurrency?
+A: A cryptocurrency is a digital or virtual currency that uses cryptography for security and operates independently of a central authority, often based on blockchain technology.
+
+Q: What is Bitcoin?
+A: Bitcoin is the first and most well-known cryptocurrency, created by an anonymous entity known as Satoshi Nakamoto, that allows peer-to-peer transactions without the need for intermediaries.
+
+Q: What is Ethereum?
+A: Ethereum is a blockchain platform that enables the creation and execution of smart contracts and decentralized applications (dApps), with its own cryptocurrency called Ether (ETH).
+
+Q: What is a token in blockchain?
+A: A token is a digital asset created and managed on a blockchain, often representing assets, rights, or utilities, and can be used for various purposes within a blockchain ecosystem.
+
+Q: What is an Initial Coin Offering (ICO)?
+A: An Initial Coin Offering (ICO) is a fundraising method where new cryptocurrency projects sell tokens to investors in exchange for established cryptocurrencies like Bitcoin or Ethereum.
+
+Q: What is a decentralized application (dApp)?
+A: A decentralized application (dApp) is a software application that runs on a blockchain network, utilizing smart contracts and decentralization to provide transparency and reduce reliance on a single entity.
+
+Q: What is a blockchain fork?
+A: A blockchain fork occurs when the blockchain protocol is updated or changed, resulting in two separate chains: one that follows the new protocol and another that continues with the old protocol.
+
+Q: What is a hard fork?
+A: A hard fork is a significant change to the blockchain protocol that is not backward-compatible, resulting in a split where nodes must upgrade to the new version or be left behind on the old chain.
+
+Q: What is a soft fork?
+A: A soft fork is a backward-compatible change to the blockchain protocol that allows nodes to continue operating with the old version while adopting new rules, potentially leading to a temporary divergence.
+
+Q: What is a blockchain explorer?
+A: A blockchain explorer is a web tool that allows users to view and search the blockchain's transaction history, blocks, addresses, and other data in real-time.
+
+Q: What is a Genesis block?
+A: The Genesis block, or Block 0, is the first block in a blockchain, which is hardcoded into the blockchain protocol and serves as the foundation for all subsequent blocks.
+
+Q: What is a blockchain node?
+A: A blockchain node is a computer or device that participates in the blockchain network by validating transactions, maintaining a copy of the ledger, and contributing to the consensus process.
+
+Q: What is the role of miners in a blockchain network?
+A: Miners are participants who use computational power to solve cryptographic puzzles, validate transactions, and create new blocks, earning rewards in the form of cryptocurrency for their efforts.
+
+Q: What is a 51% attack?
+A: A 51% attack occurs when a single entity or group controls more than 50% of the network’s computational power or stake, allowing them to manipulate transactions, double-spend coins, or disrupt the network.
+
+Q: What is double-spending in blockchain?
+A: Double-spending is a potential risk in digital currencies where the same coins are spent more than once due to a failure in the system’s ability to maintain a consistent ledger.
+
+Q: What is a blockchain consensus algorithm?
+A: A blockchain consensus algorithm is a protocol used to achieve agreement among distributed nodes on the validity of transactions and the state of the blockchain ledger.
+
+Q: What is a blockchain smart contract?
+A: A blockchain smart contract is a self-executing contract with its terms written in code, which automatically executes and enforces the contract's terms when predefined conditions are met.
+
+Q: What is a permissioned blockchain?
+A: A permissioned blockchain is a type of blockchain where access is restricted to authorized participants, and only approved entities can validate transactions and maintain the ledger.
+
+Q: What is a permissionless blockchain?
+A: A permissionless blockchain is a type of blockchain where anyone can participate, validate transactions, and maintain the ledger, promoting openness and decentralization.
+
+Q: What is a blockchain network?
+A: A blockchain network is a collection of nodes that communicate and work together to maintain a shared blockchain ledger, validating and recording transactions in a decentralized manner.
+
+Q: What is a decentralized autonomous organization (DAO)?
+A: A decentralized autonomous organization (DAO) is an organization represented by rules encoded as smart contracts on a blockchain, with decision-making and governance processes being decentralized and automated.
+
+Q: What is the Byzantine Generals Problem?
+A: The Byzantine Generals Problem is a theoretical problem that illustrates the difficulty of achieving consensus in a distributed network with unreliable or malicious participants, and is addressed by blockchain consensus mechanisms.
+
+Q: What is a blockchain hash?
+A: A blockchain hash is a cryptographic function that converts input data into a fixed-size string of characters, which uniquely represents the data and is used for securing and linking blocks in a blockchain.
+
+Q: What is blockchain scalability?
+A: Blockchain scalability refers to the ability of a blockchain network to handle an increasing number of transactions and users efficiently without compromising performance or security.
+
+Q: What is a Merkle tree?
+A: A Merkle tree is a data structure used in blockchain to efficiently and securely verify the integrity of large sets of data by hashing transactions and linking them in a tree-like structure.
+
+Q: What is a blockchain transaction?
+A: A blockchain transaction is a record of a transfer of value or information between participants in a blockchain network, which is validated, recorded, and stored in a block on the blockchain.
+
+Q: What is a cryptocurrency wallet?
+A: A cryptocurrency wallet is a digital tool that allows users to securely store, manage, and transact with their cryptocurrencies, typically using public and private keys for access and security.
+
+Q: What is a blockchain ledger?
+A: A blockchain ledger is a distributed database that maintains a continuous, sequential record of transactions across a network of computers, ensuring that all copies of the ledger are synchronized and immutable.
+
+Q: What is a node in blockchain?
+A: A node is a computer or device that participates in the blockchain network by maintaining a copy of the ledger, validating transactions, and contributing to the consensus process.
+
+Q: What is a blockchain protocol?
+A: A blockchain protocol is a set of rules and standards that govern how data is transmitted, validated, and recorded on the blockchain, ensuring consistent operation and communication across the network.
+
+Q: What is a blockchain transaction fee?
+A: A blockchain transaction fee is a small amount of cryptocurrency paid by users to incentivize miners or validators to process and confirm their transactions on the blockchain network.
+
+Q: What is a blockchain address?
+A: A blockchain address is a unique identifier that represents a destination for cryptocurrency transactions, allowing users to send and receive digital assets on the blockchain network.
+
+Q: What is a decentralized exchange (DEX)?
+A: A decentralized exchange (DEX) is a trading platform that operates without a central authority, allowing users to trade cryptocurrencies directly with one another through smart contracts and decentralized protocols.
+
+Q: What is a token standard?
+A: A token standard is a set of rules and guidelines for creating and managing tokens on a blockchain, ensuring compatibility and interoperability between different tokens and platforms.
+
+Q: What is an ERC-20 token?
+A: An ERC-20 token is a type of token standard on the Ethereum blockchain that defines a common set of rules for creating and managing tokens, enabling compatibility with Ethereum-based applications.
+
+Q: What is an NFT (Non-Fungible Token)?
+A: An NFT (Non-Fungible Token) is a unique digital asset that represents ownership of a specific item or piece of content on the blockchain, such as artwork, collectibles, or digital media.
+
+Q: What is a blockchain oracle?
+A: A blockchain oracle is a service that provides external data to smart contracts on the blockchain, allowing them to interact with real-world information and execute actions based on external events.
+
+Q: What is a sidechain?
+A: A sidechain is a separate blockchain that is linked to the main blockchain (mainnet), allowing assets and data to be transferred between them while enabling additional functionalities or improvements.
+
+Q: What is a blockchain validator?
+A: A blockchain validator is a participant in a blockchain network that is responsible for validating and confirming transactions, creating new blocks, and maintaining the integrity of the blockchain ledger.
+
+Q: What is a blockchain timestamp?
+A: A blockchain timestamp is a record of the date and time when a block was created and added to the blockchain, providing a chronological order of transactions and events.
+
+Q: What is the difference between a public and private blockchain?
+A: A public blockchain is open to anyone and operates in a decentralized manner, while a private blockchain is restricted to authorized participants and is often used for specific organizations or use cases.
+
+Q: What is the role of blockchain in supply chain management?
+A: Blockchain in supply chain management enhances transparency, traceability, and efficiency by providing an immutable and shared ledger of transactions, allowing stakeholders to track and verify the movement of goods.
+
+Q: What is a blockchain network's "Genesis Block"?
+A: The Genesis Block, also known as Block 0, is the first block in a blockchain network, serving as the foundation for all subsequent blocks and containing the initial data and transactions.
+
+Q: What is a blockchain fork?
+A: A blockchain fork occurs when there is a change or update to the blockchain protocol, leading to a split where nodes can either follow the new rules or continue with the old ones, resulting in separate chains.
+
+Q: What is the function of a blockchain's "Merkle Root"?
+A: The Merkle Root is a hash that represents the root of a Merkle Tree, used to verify the integrity of the transactions within a block and ensure that no data has been altered or tampered with.
+
+Q: What is a blockchain hash rate?
+A: The blockchain hash rate refers to the computational power used by miners to solve cryptographic puzzles and validate transactions, measured in hashes per second.
+
+Q: What is a "genesis block" in blockchain?
+A: The genesis block is the first block in a blockchain, serving as the foundation for all subsequent blocks and containing the initial set of transactions and data.
+
+Q: What is a blockchain ledger?
+A: A blockchain ledger is a digital record of transactions that is distributed across a network of computers, ensuring that all copies of the ledger are synchronized and immutable.
+
+Q: What is a distributed ledger?
+A: A distributed ledger is a decentralized database that is maintained across multiple locations or nodes, allowing participants to have a synchronized and tamper-resistant record of transactions.
+
+Q: What is a blockchain "node"?
+A: A blockchain node is a computer or device that participates in the blockchain network by maintaining a copy of the ledger, validating transactions, and contributing to the consensus process.
+
+Q: What is the purpose of a blockchain's "genesis block"?
+A: The purpose of the genesis block is to establish the foundation of a blockchain network, providing the starting point for all subsequent blocks and containing the initial transactions and data.
+
+Q: What is a blockchain "wallet"?
+A: A blockchain wallet is a digital tool that allows users to securely store, manage, and transact with their cryptocurrency assets, typically using public and private keys for access and security.
+
+Q: What is the significance of a blockchain "timestamp"?
+A: A blockchain timestamp provides a record of the date and time when a block was created and added to the blockchain, establishing a chronological order of transactions and events.
+
+Q: What is a blockchain "token"?
+A: A blockchain token is a digital asset created and managed on a blockchain, representing various forms of value, such as assets, rights, or utilities, within a specific blockchain ecosystem.
+
+Q: What is the role of "smart contracts" in blockchain?
+A: Smart contracts are self-executing contracts with terms written in code that automatically enforce and execute agreements when predefined conditions are met, enabling trustless and automated transactions.
+
+Q: What is the "Byzantine Fault Tolerance" in blockchain?
+A: Byzantine Fault Tolerance is a consensus mechanism designed to ensure that a blockchain network can continue to operate correctly even if some nodes act maliciously or fail, maintaining network integrity and consensus.
+
+Q: What is a "blockchain fork"?
+A: A blockchain fork occurs when there is a change or update to the blockchain protocol, resulting in a divergence where nodes either follow the new protocol (hard fork) or remain on the old protocol (soft fork).
+
+Q: What is the purpose of a "blockchain ledger"?
+A: The purpose of a blockchain ledger is to provide a decentralized and immutable record of transactions that is distributed across a network of nodes, ensuring transparency and security.
+
+Q: What is a "blockchain explorer"?
+A: A blockchain explorer is a web-based tool that allows users to view and search the blockchain's transaction history, blocks, addresses, and other data in real-time, providing transparency and access to blockchain information.
+
+Q: What is a "blockchain address"?
+A: A blockchain address is a unique identifier used to send and receive cryptocurrency transactions on the blockchain, representing a destination for digital assets and ensuring secure transfers.
+
+Q: What is the significance of "blockchain scalability"?
+A: Blockchain scalability refers to the ability of a blockchain network to handle an increasing volume of transactions and users efficiently, without compromising performance or security.
+
+Q: What is the "Byzantine Generals Problem"?
+A: The Byzantine Generals Problem is a theoretical problem that illustrates the challenge of achieving consensus in a distributed system with unreliable or malicious participants, which blockchain consensus mechanisms aim to solve.
+
+Q: What is a "decentralized autonomous organization (DAO)"?
+A: A decentralized autonomous organization (DAO) is an organization governed by smart contracts on a blockchain, with decision-making and management processes being decentralized and automated.
+
+Q: What is a "blockchain token standard"?
+A: A blockchain token standard is a set of rules and guidelines for creating and managing tokens on a blockchain, ensuring compatibility and interoperability between different tokens and platforms.
+
+Q: What is an "ERC-20 token"?
+A: An ERC-20 token is a type of token standard on the Ethereum blockchain that defines a common set of rules for creating and managing tokens, enabling compatibility with Ethereum-based applications.
+
+Q: What is a "non-fungible token (NFT)"?
+A: A non-fungible token (NFT) is a unique digital asset that represents ownership of a specific item or piece of content on the blockchain, such as artwork, collectibles, or digital media.
+
+Q: What is a "blockchain oracle"?
+A: A blockchain oracle is a service that provides external data to smart contracts on the blockchain, enabling them to interact with real-world information and execute actions based on external events.
+
+Q: What is a "sidechain"?
+A: A sidechain is a separate blockchain that is linked to the main blockchain (mainnet), allowing assets and data to be transferred between them while enabling additional functionalities or improvements.
+
+Q: What is a "blockchain validator"?
+A: A blockchain validator is a participant in a blockchain network that is responsible for validating and confirming transactions, creating new blocks, and maintaining the integrity of the blockchain ledger.
+
+Q: What is the role of "blockchain mining"?
+A: Blockchain mining involves using computational power to solve complex mathematical problems, validate transactions, and create new blocks, securing the network and earning rewards in the form of cryptocurrency.
+
+Q: What is a "blockchain hash rate"?
+A: A blockchain hash rate refers to the computational power used by miners to solve cryptographic puzzles and validate transactions, measured in hashes per second.
+
+Q: What is a "blockchain consensus algorithm"?
+A: A blockchain consensus algorithm is a protocol that ensures agreement and validation of transactions across a decentralized network, enabling secure and trustworthy operation of the blockchain.
+
+Q: What is a "blockchain protocol"?
+A: A blockchain protocol is a set of rules and standards that govern how data is transmitted, validated, and recorded on the blockchain, ensuring consistent operation and communication across the network.
+
+Q: What is the purpose of "blockchain smart contracts"?
+A: Blockchain smart contracts are self-executing contracts with the terms of the agreement directly written into code, automatically enforcing and executing the contract when predefined conditions are met.
+
+Q: What is the "blockchain trilemma"?
+A: The blockchain trilemma is the challenge of achieving a balance between decentralization, security, and scalability in a blockchain network, as improving one aspect often affects the others.
+
+Q: What is "blockchain scalability"?
+A: Blockchain scalability refers to the ability of a blockchain network to handle an increasing volume of transactions and users efficiently, without compromising performance or security.
+
+Q: What is a "blockchain explorer"?
+A: A blockchain explorer is a web-based tool that allows users to view and search the blockchain's transaction history, blocks, addresses, and other data in real-time, providing transparency and access to blockchain information.
+
+Q: What is the "blockchain consensus mechanism"?
+A: A blockchain consensus mechanism is a protocol that ensures all participants in a decentralized network agree on the state of the blockchain, validating and confirming transactions to maintain network integrity.
+
+Q: What is the role of a "blockchain node"?
+A: A blockchain node is a computer or device that participates in the blockchain network by maintaining a copy of the ledger, validating transactions, and contributing to the consensus process.
+
+Q: What is the "blockchain ledger"?
+A: The blockchain ledger is a decentralized and immutable digital record of all transactions that have occurred on the blockchain network, distributed across multiple nodes to ensure transparency and security.
+
+Q: What is a "blockchain fork"?
+A: A blockchain fork occurs when there is a change or update to the blockchain protocol, leading to a split where nodes can either follow the new rules (hard fork) or continue with the old rules (soft fork), resulting in separate chains.
+
+Q: What is a "blockchain timestamp"?
+A: A blockchain timestamp is a record of the date and time when a block was created and added to the blockchain, providing a chronological order of transactions and events.
+
+Q: What is a "blockchain address"?
+A: A blockchain address is a unique identifier that represents a destination for cryptocurrency transactions, allowing users to send and receive digital assets on the blockchain network.
+
+Q: What is the purpose of a "blockchain wallet"?
+A: The purpose of a blockchain wallet is to securely store, manage, and transact with cryptocurrency assets, using public and private keys to ensure the security and accessibility of digital funds.
+
+Q: What is a "blockchain validator"?
+A: A blockchain validator is a participant in the blockchain network responsible for validating and confirming transactions, creating new blocks, and maintaining the integrity of the blockchain ledger.
+
+Q: What is a "blockchain sidechain"?
+A: A blockchain sidechain is a separate blockchain that is linked to the main blockchain (mainnet), enabling the transfer of assets and data between them while allowing for additional functionalities or improvements.
+
+Q: What is a "blockchain token"?
+A: A blockchain token is a digital asset created and managed on a blockchain, representing various forms of value, such as assets, rights, or utilities, within a specific blockchain ecosystem.
+
+Q: What is a "blockchain smart contract"?
+A: A blockchain smart contract is a self-executing contract with terms written in code that automatically enforces and executes agreements when predefined conditions are met, enabling trustless and automated transactions.
+
+Q: What is the "Byzantine Fault Tolerance" in blockchain?
+A: Byzantine Fault Tolerance is a consensus mechanism designed to ensure that a blockchain network can continue to operate correctly even if some nodes act maliciously or fail, maintaining network integrity and consensus.
+
+Q: What is a "blockchain oracle"?
+A: A blockchain oracle is a service that provides external data to smart contracts on the blockchain, enabling them to interact with real-world information and execute actions based on external events.
+
+Q: What is a "blockchain token standard"?
+A: A blockchain token standard is a set of rules and guidelines for creating and managing tokens on a blockchain, ensuring compatibility and interoperability between different tokens and platforms.
+
+Q: What is an "ERC-20 token"?
+A: An ERC-20 token is a type of token standard on the Ethereum blockchain that defines a common set of rules for creating and managing tokens, enabling compatibility with Ethereum-based applications.
+
+Q: What is a "non-fungible token (NFT)"?
+A: A non-fungible token (NFT) is a unique digital asset that represents ownership of a specific item or piece of content on the blockchain, such as artwork, collectibles, or digital media.
+
+Q: What is the purpose of "blockchain mining"?
+A: Blockchain mining involves using computational power to solve complex mathematical problems, validate transactions, and create new blocks, securing the network and earning rewards in the form of cryptocurrency.
+
+Q: What is a "blockchain consensus algorithm"?
+A: A blockchain consensus algorithm is a protocol that ensures agreement and validation of transactions across a decentralized network, enabling secure and trustworthy operation of the blockchain.
+
+Q: What is a "blockchain protocol"?
+A: A blockchain protocol is a set of rules and standards that govern how data is transmitted, validated, and recorded on the blockchain, ensuring consistent operation and communication across the network.
+
+Q: What is a "blockchain ledger"?
+A: A blockchain ledger is a digital record of transactions that is distributed across a network of computers, ensuring that all copies of the ledger are synchronized and immutable.
+
+Q: What is a "blockchain sidechain"?
+A: A blockchain sidechain is a separate blockchain that is linked to the main blockchain (mainnet), allowing assets and data to be transferred between them while enabling additional functionalities or improvements.
+
+Q: What is the "blockchain trilemma"?
+A: The blockchain trilemma is the challenge of achieving a balance between decentralization, security, and scalability in a blockchain network, as improving one aspect often affects the others.
+
+Q: What is a "blockchain smart contract"?
+A: A blockchain smart contract is a self-executing contract with the terms of the agreement written directly into code, automatically enforcing and executing when predefined conditions are met.
+
+Q: What is a "blockchain address"?
+A: A blockchain address is a unique identifier used to send and receive cryptocurrency transactions on the blockchain, representing a destination for digital assets.
+
+Q: What is a "blockchain wallet"?
+A: A blockchain wallet is a digital tool that allows users to securely store, manage, and transact with their cryptocurrency assets, typically using public and private keys for access and security.
+
+Q: What is a "blockchain validator"?
+A: A blockchain validator is a participant in a blockchain network responsible for validating and confirming transactions, creating new blocks, and maintaining the integrity of the blockchain ledger.
+
+Q: What is a "blockchain oracle"?
+A: A blockchain oracle is a service that provides external data to smart contracts on the blockchain, allowing them to interact with real-world information and execute actions based on external events.
+
+Q: What is a "blockchain sidechain"?
+A: A blockchain sidechain is a separate blockchain that is linked to the main blockchain (mainnet), allowing assets and data to be transferred between them while enabling additional functionalities or improvements.
+
+Q: What is the "blockchain trilemma"?
+A: The blockchain trilemma is the challenge of achieving a balance between decentralization, security, and scalability in a blockchain network, as improving one aspect often affects the others.
+
+Q: What is a "blockchain consensus mechanism"?
+A: A blockchain consensus mechanism is a protocol that ensures all participants in a decentralized network agree on the state of the blockchain, validating and confirming transactions to maintain network integrity.
+
+Q: What is the role of "blockchain smart contracts"?
+A: Blockchain smart contracts are self-executing contracts with the terms of the agreement directly written into code, automatically enforcing and executing the contract when predefined conditions are met.
+
+Q: What is a "blockchain explorer"?
+A: A blockchain explorer is a web-based tool that allows users to view and search the blockchain's transaction history, blocks, addresses, and other data in real-time, providing transparency and access to blockchain information.
+
+Q: What is the "blockchain ledger"?
+A: The blockchain ledger is a decentralized and immutable digital record of all transactions that have occurred on the blockchain network, distributed across multiple nodes to ensure transparency and security.
+
+Q: What is a "blockchain address"?
+A: A blockchain address is a unique identifier that represents a destination for cryptocurrency transactions, allowing users to send and receive digital assets on the blockchain network.
+
+Q: What is a "blockchain wallet"?
+A: A blockchain wallet is a digital tool used to securely store, manage, and transact with cryptocurrency assets, using public and private keys to ensure the security and accessibility of digital funds.
+
+Q: What is the purpose of "blockchain mining"?
+A: Blockchain mining involves using computational power to solve complex mathematical problems, validate transactions, and create new blocks, securing the network and earning rewards in the form of cryptocurrency.
+
+Q: What is a "blockchain node"?
+A: A blockchain node is a computer or device that participates in the blockchain network by maintaining a copy of the ledger, validating transactions, and contributing to the consensus process.
+
+Q: What is a "blockchain timestamp"?
+A: A blockchain timestamp is a record of the date and time when a block was created and added to the blockchain, providing a chronological order of transactions and events.
+
+Q: What is the "Byzantine Fault Tolerance" in blockchain?
+A: Byzantine Fault Tolerance is a consensus mechanism designed to ensure that a blockchain network can continue to operate correctly even if some nodes act maliciously or fail, maintaining network integrity and consensus.
+
+Q: What is a "blockchain token standard"?
+A: A blockchain token standard is a set of rules and guidelines for creating and managing tokens on a blockchain, ensuring compatibility and interoperability between different tokens and platforms.
+
+Q: What is an "ERC-20 token"?
+A: An ERC-20 token is a type of token standard on the Ethereum blockchain that defines a common set of rules for creating and managing tokens, enabling compatibility with Ethereum-based applications.
+
+Q: What is a "non-fungible token (NFT)"?
+A: A non-fungible token (NFT) is a unique digital asset that represents ownership of a specific item or piece of content on the blockchain, such as artwork, collectibles, or digital media.

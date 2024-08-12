@@ -1,0 +1,266 @@
+Q: What is an API?
+A: An API (Application Programming Interface) is a set of rules and protocols that allows different software applications to communicate with each other.
+
+Q: What are the different types of APIs?
+A: The different types of APIs include REST, SOAP, GraphQL, and RPC (Remote Procedure Call).
+
+Q: What is a REST API?
+A: REST (Representational State Transfer) API is an architectural style that uses standard HTTP methods to interact with resources, typically returning data in JSON or XML format.
+
+Q: What is a SOAP API?
+A: SOAP (Simple Object Access Protocol) API is a protocol for exchanging structured information in web services using XML.
+
+Q: What is GraphQL?
+A: GraphQL is a query language for APIs that allows clients to request exactly the data they need, making it more flexible than traditional REST APIs.
+
+Q: What is an endpoint in an API?
+A: An endpoint is a specific URL where an API can access the resources it needs to perform its function, often corresponding to a specific function or service.
+
+Q: What is an API key?
+A: An API key is a unique identifier used to authenticate a user or application making API requests.
+
+Q: What is OAuth?
+A: OAuth is an open standard for access delegation commonly used for token-based authentication in APIs, allowing users to grant third-party access to their resources without sharing their credentials.
+
+Q: What is a web service?
+A: A web service is a software system that supports interoperable machine-to-machine interaction over a network, typically using APIs to communicate.
+
+Q: What is JSON?
+A: JSON (JavaScript Object Notation) is a lightweight data-interchange format that is easy for humans to read and write, and easy for machines to parse and generate.
+
+Q: What is XML?
+A: XML (eXtensible Markup Language) is a markup language used to encode documents in a format that is both human-readable and machine-readable.
+
+Q: What is API documentation?
+A: API documentation is a reference manual that outlines how to use an API, including details about its endpoints, request parameters, response formats, and error codes.
+
+Q: What is an API rate limit?
+A: An API rate limit is a restriction placed on the number of API calls a user or application can make in a certain time period to prevent abuse or overuse of the API.
+
+Q: What is an API gateway?
+A: An API gateway is a server that acts as an API front-end, handling tasks like request routing, authentication, rate limiting, and logging.
+
+Q: What is a RESTful API?
+A: A RESTful API is an API that adheres to the principles of REST, using standard HTTP methods, stateless communication, and resource-based URLs.
+
+Q: What is idempotence in the context of APIs?
+A: Idempotence in APIs means that multiple identical requests have the same effect as a single request, ensuring that the operation is safe to repeat.
+
+Q: What is API versioning?
+A: API versioning is the practice of maintaining multiple versions of an API to ensure backward compatibility while allowing for the introduction of new features and changes.
+
+Q: What is a public API?
+A: A public API, also known as an open API, is an API that is available to external developers and users, often requiring registration or an API key for access.
+
+Q: What is a private API?
+A: A private API is an API that is only accessible within a specific organization or group, often used for internal purposes.
+
+Q: What is a partner API?
+A: A partner API is an API shared with specific business partners, usually under a formal agreement, to enable integration between systems.
+
+Q: What is a CRUD operation?
+A: CRUD stands for Create, Read, Update, and Delete, which are the four basic functions of persistent storage in API operations.
+
+Q: What is an HTTP request method?
+A: An HTTP request method defines the action to be performed on a resource, with common methods including GET, POST, PUT, DELETE, PATCH, and OPTIONS.
+
+Q: What is a GET request?
+A: A GET request is an HTTP method used to retrieve data from a server at a specified resource.
+
+Q: What is a POST request?
+A: A POST request is an HTTP method used to submit data to a server, often causing a change in state or side effects on the server.
+
+Q: What is a PUT request?
+A: A PUT request is an HTTP method used to update an existing resource or create a new resource at a specified URL.
+
+Q: What is a DELETE request?
+A: A DELETE request is an HTTP method used to remove a resource from a server.
+
+Q: What is a PATCH request?
+A: A PATCH request is an HTTP method used to apply partial modifications to a resource.
+
+Q: What is an OPTIONS request?
+A: An OPTIONS request is an HTTP method used to describe the communication options available for a specific resource or endpoint.
+
+Q: What is an API response?
+A: An API response is the data returned by a server after processing an API request, often in JSON or XML format, including status codes and data.
+
+Q: What are HTTP status codes?
+A: HTTP status codes are standardized codes that indicate the result of an HTTP request, with codes like 200 (OK), 404 (Not Found), and 500 (Internal Server Error).
+
+Q: What is CORS in the context of APIs?
+A: CORS (Cross-Origin Resource Sharing) is a security feature that allows or restricts resources on a web page to be requested from another domain outside the domain from which the resource originated.
+
+Q: What is API throttling?
+A: API throttling is the process of controlling the rate at which an API can be accessed by users to prevent overuse and ensure stability.
+
+Q: What is a microservices architecture?
+A: A microservices architecture is a design pattern where applications are composed of small, independent services that communicate through APIs.
+
+Q: What is a webhook?
+A: A webhook is a way for an application to provide real-time information to other applications via an API, typically by sending an HTTP POST request to a specified URL.
+
+Q: What is an API contract?
+A: An API contract is a formal agreement between the API provider and the API consumer, outlining the expectations, functionalities, and responsibilities.
+
+Q: What is API testing?
+A: API testing involves validating that an API meets its expected functionality, performance, reliability, and security requirements, often using tools like Postman or JUnit.
+
+Q: What is API mocking?
+A: API mocking is the practice of simulating an API's behavior and responses without invoking the actual API, often used in testing and development.
+
+Q: What is API management?
+A: API management involves the creation, publication, monitoring, and maintenance of APIs, often using platforms like Apigee, AWS API Gateway, or Azure API Management.
+
+Q: What is an API schema?
+A: An API schema is a blueprint or specification that defines the structure and behavior of an API, often written in formats like OpenAPI or RAML.
+
+Q: What is API serialization?
+A: API serialization is the process of converting data structures or objects into a format that can be easily transmitted and reconstructed, often in JSON or XML.
+
+Q: What is an API client?
+A: An API client is a tool or library that allows developers to interact with an API, sending requests and receiving responses.
+
+Q: What is an API server?
+A: An API server is a system that hosts the API, processing incoming requests, executing the required logic, and returning responses.
+
+Q: What is an API gateway?
+A: An API gateway is a server that acts as an API front-end, handling tasks like request routing, authentication, rate limiting, and logging.
+
+Q: What is an API rate limit?
+A: An API rate limit is a restriction placed on the number of API calls a user or application can make in a certain time period to prevent abuse or overuse of the API.
+
+Q: What is API versioning?
+A: API versioning is the practice of maintaining multiple versions of an API to ensure backward compatibility while allowing for the introduction of new features and changes.
+
+Q: What is a RESTful API?
+A: A RESTful API is an API that adheres to the principles of REST, using standard HTTP methods, stateless communication, and resource-based URLs.
+
+Q: What is a SOAP API?
+A: SOAP (Simple Object Access Protocol) API is a protocol for exchanging structured information in web services using XML.
+
+Q: What is GraphQL?
+A: GraphQL is a query language for APIs that allows clients to request exactly the data they need, making it more flexible than traditional REST APIs.
+
+Q: What is API security?
+A: API security involves protecting the API from malicious attacks, unauthorized access, and other threats through methods like encryption, authentication, and rate limiting.
+
+Q: What is OAuth?
+A: OAuth is an open standard for access delegation commonly used for token-based authentication in APIs, allowing users to grant third-party access to their resources without sharing their credentials.
+
+Q: What is a JWT token?
+A: A JWT (JSON Web Token) token is a compact, URL-safe means of representing claims to be transferred between two parties, commonly used in API authentication and authorization.
+
+Q: What is an API gateway?
+A: An API gateway is a server that acts as an API front-end, handling tasks like request routing, authentication, rate limiting, and logging.
+
+Q: What is API latency?
+A: API latency is the time it takes for an API request to travel from the client to the server and back, affecting the performance and responsiveness of the API.
+
+Q: What is an API response time?
+A: API response time is the duration between sending an API request and receiving a response, including network delays and processing time.
+
+Q: What is an API callback?
+A: An API callback is a mechanism where the API sends a response or triggers an action after the original request has been processed, often used in asynchronous operations.
+
+Q: What is an API endpoint?
+A: An API endpoint is a specific URL where an API can access the resources it needs to perform its function, often corresponding to a specific function or service.
+
+Q: What is an API query parameter?
+A: An API query parameter is a key-value pair appended to the endpoint URL, allowing clients to specify filters, sort options, or other preferences in the request.
+
+Q: What is an API path parameter?
+A: An API path parameter is a variable part of the URL that is used to identify a specific resource, often indicated by curly braces in the endpoint URL.
+
+Q: What is a payload in API?
+A: A payload in API refers to the data that is sent in the body of an HTTP request or response, typically used in POST, PUT, and PATCH requests.
+
+Q: What is an API header?
+A: An API header is a key-value pair sent in the request or response that provides additional information about the request or response, such as content type, authorization, or caching directives.
+
+Q: What is API pagination?
+A: API pagination is a technique used to divide large sets of data into smaller, manageable chunks, allowing clients to retrieve data in increments rather than all at once.
+
+Q: What is an API rate limit?
+A: An API rate limit is a restriction placed on the number of API calls a user or application can make in a certain time period to prevent abuse or overuse of the API.
+
+Q: What is an API sandbox?
+A: An API sandbox is a testing environment that allows developers to interact with the API in a controlled setting, simulating real-world scenarios without affecting live data.
+
+Q: What is API monitoring?
+A: API monitoring involves tracking the performance, availability, and usage of an API to ensure it is functioning as expected, often using tools like New Relic or Datadog.
+
+Q: What is API observability?
+A: API observability refers to the ability to gain insights into the internal state and performance of an API, often using logs, metrics, and traces.
+
+Q: What is an API token?
+A: An API token is a unique identifier used for authentication and authorization when making API requests, often used in place of traditional username and password authentication.
+
+Q: What is API caching?
+A: API caching involves storing copies of API responses in a temporary storage to reduce load on the server and improve performance for subsequent requests.
+
+Q: What is API logging?
+A: API logging involves recording details about API requests and responses, such as timestamps, status codes, and payloads, for monitoring, debugging, and auditing purposes.
+
+Q: What is API versioning?
+A: API versioning is the practice of maintaining multiple versions of an API to ensure backward compatibility while allowing for the introduction of new features and changes.
+
+Q: What is an API throttling policy?
+A: An API throttling policy is a set of rules that control the rate at which users can make API requests, helping to prevent abuse and ensure fair usage.
+
+Q: What is an API facade?
+A: An API facade is a design pattern that abstracts the underlying complexity of an API, providing a simplified interface for clients to interact with.
+
+Q: What is an API product?
+A: An API product is a package of API services and features offered to developers, often with pricing, access controls, and usage limits.
+
+Q: What is an API monetization strategy?
+A: An API monetization strategy is a business model for generating revenue from an API, such as charging for access, offering premium features, or using a freemium model.
+
+Q: What is API discovery?
+A: API discovery is the process of finding and exploring available APIs, often using tools like API directories, marketplaces, or developer portals.
+
+Q: What is an API integration?
+A: API integration is the process of connecting two or more applications or systems using APIs, enabling them to work together and share data.
+
+Q: What is an API schema validation?
+A: API schema validation is the process of ensuring that the data sent and received by an API adheres to the predefined schema, preventing errors and ensuring consistency.
+
+Q: What is an API specification?
+A: An API specification is a detailed description of an API's functionality, including its endpoints, request and response formats, authentication methods, and error handling.
+
+Q: What is API documentation?
+A: API documentation is a reference manual that outlines how to use an API, including details about its endpoints, request parameters, response formats, and error codes.
+
+Q: What is an API lifecycle?
+A: The API lifecycle refers to the stages an API goes through, from design and development to deployment, maintenance, and retirement.
+
+Q: What is API-first development?
+A: API-first development is an approach where APIs are designed and built before the underlying application, ensuring that the API is a central part of the architecture.
+
+Q: What is API orchestration?
+A: API orchestration involves coordinating multiple API calls into a single, cohesive workflow, often used to combine data from different sources or perform complex operations.
+
+Q: What is an API catalog?
+A: An API catalog is a centralized repository of APIs available within an organization, providing a searchable index for developers to find and use APIs.
+
+Q: What is an API sandbox environment?
+A: An API sandbox environment is a testing environment that allows developers to interact with the API in a controlled setting, simulating real-world scenarios without affecting live data.
+
+Q: What is an API registry?
+A: An API registry is a centralized database that stores information about APIs, including their versions, documentation, and usage policies.
+
+Q: What is an API observability platform?
+A: An API observability platform is a tool or service that provides insights into the performance, reliability, and usage of APIs, often through metrics, logs, and traces.
+
+Q: What is API design?
+A: API design is the process of defining the structure, endpoints, data formats, and behaviors of an API to ensure it meets the needs of its users.
+
+Q: What is API mocking?
+A: API mocking is the practice of simulating an API's behavior and responses without invoking the actual API, often used in testing and development.
+
+Q: What is API management?
+A: API management involves the creation, publication, monitoring, and maintenance of APIs, often using platforms like Apigee, AWS API Gateway, or Azure API Management.
+
+Q: What is an API schema?
+A: An API schema is a blueprint or specification that defines the structure and behavior of an API, often written in formats like OpenAPI or RAML.

@@ -1,0 +1,713 @@
+Q: What is Kotlin?
+A: Kotlin is a modern, statically typed programming language developed by JetBrains. It is fully interoperable with Java and is officially supported for Android development.
+
+Q: How do you declare a variable in Kotlin?
+A: Use val for immutable variables and var for mutable variables. Example: val x: Int = 10 and var y: String = "Hello".
+
+Q: What is the difference between val and var in Kotlin?
+A: val declares a read-only (immutable) variable, while var declares a mutable variable that can be changed after initialization.
+
+Q: How do you define a function in Kotlin?
+A: Use the fun keyword. Example: fun add(a: Int, b: Int): Int { return a + b }.
+
+Q: What is a data class in Kotlin?
+A: A data class is a class specifically designed to hold data. It automatically generates useful methods such as equals(), hashCode(), and toString().
+
+Q: How do you create a data class in Kotlin?
+A: Use the data keyword before the class definition. Example: data class Person(val name: String, val age: Int).
+
+Q: What is a sealed class in Kotlin?
+A: A sealed class is a class that can have a limited set of subclasses. It is used to represent restricted class hierarchies.
+
+Q: How do you use a sealed class in Kotlin?
+A: Define a sealed class and its subclasses within the same file. Example:
+
+kotlin
+Copy code
+sealed class Result
+data class Success(val data: String) : Result()
+data class Error(val error: String) : Result()
+Q: What is an extension function in Kotlin?
+A: An extension function allows you to add new functions to existing classes without modifying their source code.
+
+Q: How do you define an extension function in Kotlin?
+A: Use the fun keyword with the class type as a receiver. Example:
+
+kotlin
+Copy code
+fun String.isNullOrEmpty(): Boolean {
+    return this == null || this.isEmpty()
+}
+Q: What is the purpose of the !! operator in Kotlin?
+A: The !! operator asserts that a value is non-null and throws a NullPointerException if it is null.
+
+Q: How do you handle nullability in Kotlin?
+A: Use nullable types with ?, safe calls with ?., and the Elvis operator ?: to provide default values.
+
+Q: What is the let function in Kotlin?
+A: The let function is a scope function that allows you to execute a block of code with the result of the expression as an argument.
+
+Q: How do you use the let function?
+A: Example: val length = "Hello".let { it.length }.
+
+Q: What is the apply function in Kotlin?
+A: The apply function is a scope function that applies changes to an object and returns the object itself.
+
+Q: How do you use the apply function?
+A: Example:
+
+kotlin
+Copy code
+val person = Person("John", 25).apply {
+    name = "Jane"
+    age = 30
+}
+Q: What is the with function in Kotlin?
+A: The with function is a scope function that allows you to execute multiple operations on an object without repeating its reference.
+
+Q: How do you use the with function?
+A: Example:
+
+kotlin
+Copy code
+val person = Person("John", 25)
+with(person) {
+    name = "Jane"
+    age = 30
+}
+Q: What is the run function in Kotlin?
+A: The run function is a scope function that executes a block of code and returns the result of the last expression.
+
+Q: How do you use the run function?
+A: Example:
+
+kotlin
+Copy code
+val length = "Hello".run {
+    this.length
+}
+Q: What is a companion object in Kotlin?
+A: A companion object is an object declared within a class that allows for defining static methods and properties.
+
+Q: How do you define a companion object?
+A: Example:
+
+kotlin
+Copy code
+class MyClass {
+    companion object {
+        val CONSTANT = 42
+        fun staticMethod() {}
+    }
+}
+Q: What is the when expression in Kotlin?
+A: The when expression is used as a replacement for the switch statement in other languages. It can be used to execute different code based on the value of an expression.
+
+Q: How do you use the when expression?
+A: Example:
+
+kotlin
+Copy code
+when (x) {
+    1 -> println("One")
+    2 -> println("Two")
+    else -> println("Other")
+}
+Q: What is the in operator in Kotlin?
+A: The in operator checks if a value is within a specified range or collection.
+
+Q: How do you use the in operator?
+A: Example: if (x in 1..10) { println("x is between 1 and 10") }.
+
+Q: What is the out keyword in Kotlin?
+A: The out keyword is used to specify that a type parameter is covariant, meaning it can only be used as a return type.
+
+Q: What is the in keyword in Kotlin?
+A: The in keyword specifies that a type parameter is contravariant, meaning it can only be used as an input type.
+
+Q: What is the difference between out and in variance in Kotlin?
+A: out allows a type parameter to be used as a return type, while in allows it to be used as an argument type.
+
+Q: What is the lateinit modifier in Kotlin?
+A: The lateinit modifier is used to initialize a variable later, after its declaration, for non-nullable properties.
+
+Q: How do you use the lateinit modifier?
+A: Example:
+
+kotlin
+Copy code
+lateinit var name: String
+fun initialize() {
+    name = "John"
+}
+Q: What is the by keyword used for in Kotlin?
+A: The by keyword is used for delegation, allowing one object to delegate its implementation to another.
+
+Q: How do you use the by keyword for property delegation?
+A: Example:
+
+kotlin
+Copy code
+class Delegate {
+    operator fun getValue(thisRef: Any?, property: KProperty<*>): String {
+        return "Hello"
+    }
+}
+class MyClass {
+    val prop: String by Delegate()
+}
+Q: What is a lambda expression in Kotlin?
+A: A lambda expression is an anonymous function that can be used to pass code blocks as parameters.
+
+Q: How do you define a lambda expression in Kotlin?
+A: Example: { x: Int, y: Int -> x + y }.
+
+Q: What is a type alias in Kotlin?
+A: A type alias allows you to create an alternative name for a type.
+
+Q: How do you define a type alias?
+A: Example: typealias StringList = List<String>.
+
+Q: What is a higher-order function in Kotlin?
+A: A higher-order function is a function that takes other functions as parameters or returns a function.
+
+Q: How do you define a higher-order function?
+A: Example:
+
+kotlin
+Copy code
+fun operate(x: Int, operation: (Int) -> Int): Int {
+    return operation(x)
+}
+Q: What is the suspend keyword in Kotlin?
+A: The suspend keyword is used to define a coroutine function that can be paused and resumed.
+
+Q: How do you define a suspend function?
+A: Example: suspend fun fetchData(): String { /*...*/ }.
+
+Q: What is a coroutine in Kotlin?
+A: A coroutine is a lightweight thread-like construct that allows for asynchronous programming.
+
+Q: How do you launch a coroutine in Kotlin?
+A: Use the launch function from the kotlinx.coroutines package. Example: GlobalScope.launch { /* code */ }.
+
+Q: What is CoroutineScope in Kotlin?
+A: CoroutineScope is an interface that defines a scope for launching coroutines and managing their lifecycle.
+
+Q: How do you use CoroutineScope?
+A: Example:
+
+kotlin
+Copy code
+class MyClass : CoroutineScope {
+    override val coroutineContext = Job() + Dispatchers.Default
+}
+Q: What is Dispatchers in Kotlin coroutines?
+A: Dispatchers is an object that provides different coroutine dispatchers, such as Dispatchers.IO and Dispatchers.Main.
+
+Q: How do you use Dispatchers?
+A: Example: withContext(Dispatchers.IO) { /* code */ }.
+
+Q: What is withContext in Kotlin coroutines?
+A: withContext is a function that changes the context in which a coroutine is executed.
+
+Q: How do you use withContext?
+A: Example:
+
+kotlin
+Copy code
+withContext(Dispatchers.IO) {
+    // perform IO operations
+}
+Q: What is the @JvmStatic annotation in Kotlin?
+A: The @JvmStatic annotation is used to mark a method or property in a companion object to be static in the JVM bytecode.
+
+Q: How do you use the @JvmStatic annotation?
+A: Example:
+
+kotlin
+Copy code
+class MyClass {
+    companion object {
+        @JvmStatic
+        fun staticMethod() {}
+    }
+}
+Q: What is @JvmOverloads in Kotlin?
+A: The @JvmOverloads annotation generates overloads for functions with default parameters for Java interoperability.
+
+Q: How do you use the @JvmOverloads annotation?
+A: Example:
+
+kotlin
+Copy code
+class MyClass {
+    @JvmOverloads
+    fun greet(message: String = "Hello") {}
+}
+Q: What is the @Inject annotation in Kotlin?
+A: The @Inject annotation is used for dependency injection, marking a constructor, field, or method for injection.
+
+Q: How do you use the @Inject annotation?
+A: Example:
+
+kotlin
+Copy code
+class MyService @Inject constructor() { }
+Q: What is Kotlinx.serialization?
+A: Kotlinx.serialization is a Kotlin library for serializing and deserializing data in various formats, such as JSON.
+
+Q: How do you use Kotlinx.serialization?
+A: Example:
+
+kotlin
+Copy code
+@Serializable
+data class Person(val name: String, val age: Int)
+val json = Json.encodeToString(Person("John", 25))
+val person = Json.decodeFromString<Person>(json)
+Q: What is the @Serializable annotation in Kotlin?
+A: The @Serializable annotation marks a class as serializable with Kotlinx.serialization.
+
+Q: How do you use the @Serializable annotation?
+A: Example:
+
+kotlin
+Copy code
+@Serializable
+data class User(val id: Int, val name: String)
+Q: What is the @Throws annotation in Kotlin?
+A: The @Throws annotation specifies which exceptions a function can throw, useful for Java interoperability.
+
+Q: How do you use the @Throws annotation?
+A: Example:
+
+kotlin
+Copy code
+@Throws(IOException::class)
+fun readFile(path: String) { /*...*/ }
+Q: What is a type parameter in Kotlin?
+A: A type parameter is a placeholder for a type that is specified when a class, interface, or function is used.
+
+Q: How do you define a generic class in Kotlin?
+A: Example:
+
+kotlin
+Copy code
+class Box<T>(val value: T)
+Q: What is a reified type parameter in Kotlin?
+A: A reified type parameter allows you to access the type of a generic parameter at runtime.
+
+Q: How do you use a reified type parameter?
+A: Example:
+
+kotlin
+Copy code
+inline fun <reified T> isString(value: Any): Boolean {
+    return value is T
+}
+Q: What is the inline keyword in Kotlin?
+A: The inline keyword marks a function to be inlined at the call site, reducing the overhead of function calls.
+
+Q: How do you define an inline function in Kotlin?
+A: Example:
+
+kotlin
+Copy code
+inline fun runBlock(block: () -> Unit) {
+    block()
+}
+Q: What is object in Kotlin?
+A: The object keyword defines a singleton instance of a class.
+
+Q: How do you use object in Kotlin?
+A: Example:
+
+kotlin
+Copy code
+object Singleton {
+    fun doSomething() { }
+}
+Q: What is a companion object in Kotlin?
+A: A companion object allows for defining static members and methods in a class.
+
+Q: How do you access a companion object member?
+A: Example:
+
+kotlin
+Copy code
+class MyClass {
+    companion object {
+        fun doSomething() { }
+    }
+}
+MyClass.doSomething()
+Q: What is a delegate in Kotlin?
+A: A delegate is an object that handles property access or method calls on behalf of another object.
+
+Q: How do you use delegation in Kotlin?
+A: Example:
+
+kotlin
+Copy code
+class Delegate {
+    operator fun getValue(thisRef: Any?, property: KProperty<*>): String {
+        return "Delegated Value"
+    }
+}
+class MyClass {
+    val prop: String by Delegate()
+}
+Q: What is a lambda function in Kotlin?
+A: A lambda function is an anonymous function that can be defined and passed around as a value.
+
+Q: How do you create a lambda function in Kotlin?
+A: Example: { x: Int, y: Int -> x + y }.
+
+Q: What is the filter function in Kotlin collections?
+A: The filter function creates a new collection containing only elements that match a given predicate.
+
+Q: How do you use the filter function?
+A: Example: val evenNumbers = numbers.filter { it % 2 == 0 }.
+
+Q: What is map in Kotlin collections?
+A: The map function transforms each element of a collection according to a given function.
+
+Q: How do you use the map function?
+A: Example: val lengths = words.map { it.length }.
+
+Q: What is reduce in Kotlin collections?
+A: The reduce function applies a binary operation to elements of a collection, accumulating a result.
+
+Q: How do you use the reduce function?
+A: Example: val sum = numbers.reduce { acc, num -> acc + num }.
+
+Q: What is flatMap in Kotlin collections?
+A: The flatMap function maps each element to a collection and then flattens the result into a single collection.
+
+Q: How do you use the flatMap function?
+A: Example: val combined = lists.flatMap { it }.
+
+Q: What is fold in Kotlin collections?
+A: The fold function accumulates a value starting with an initial value and applying a function to each element.
+
+Q: How do you use the fold function?
+A: Example: val product = numbers.fold(1) { acc, num -> acc * num }.
+
+Q: What is let in Kotlin?
+A: The let function is a scope function that executes a block of code on a non-null value and returns the result.
+
+Q: How do you use let with nullability?
+A: Example: "Hello".let { it.length }.
+
+Q: What is apply in Kotlin?
+A: The apply function is a scope function that applies changes to an object and returns the object itself.
+
+Q: How do you use apply?
+A: Example:
+
+kotlin
+Copy code
+val person = Person().apply {
+    name = "John"
+    age = 30
+}
+Q: What is run in Kotlin?
+A: The run function is a scope function that executes a block of code and returns the result of the last expression.
+
+Q: How do you use run?
+A: Example: val length = "Hello".run { length }.
+
+Q: What is also in Kotlin?
+A: The also function is a scope function that performs an action on an object and returns the object itself.
+
+Q: How do you use also?
+A: Example:
+
+kotlin
+Copy code
+val person = Person().also {
+    it.name = "John"
+    it.age = 30
+}
+Q: What is with in Kotlin?
+A: The with function allows you to call multiple methods on an object within a block of code.
+
+Q: How do you use with?
+A: Example:
+
+kotlin
+Copy code
+with(person) {
+    name = "John"
+    age = 30
+}
+Q: What is Kotlinx.coroutines?
+A: Kotlinx.coroutines is a library for asynchronous programming using coroutines, which simplifies concurrent programming.
+
+Q: How do you define a coroutine in Kotlin?
+A: Example: GlobalScope.launch { /* coroutine code */ }.
+
+Q: What is CoroutineScope?
+A: CoroutineScope is an interface that defines a scope for coroutines, providing context and managing their lifecycle.
+
+Q: How do you use CoroutineScope?
+A: Example:
+
+kotlin
+Copy code
+class MyScope : CoroutineScope by MainScope() {
+    fun startCoroutine() {
+        launch { /* coroutine code */ }
+    }
+}
+Q: What is suspend in Kotlin?
+A: The suspend keyword marks a function that can be suspended and resumed later, allowing it to be called from coroutines.
+
+Q: How do you define a suspend function?
+A: Example:
+
+kotlin
+Copy code
+suspend fun fetchData(): String {
+    // suspend function code
+}
+Q: What is launch in Kotlin coroutines?
+A: launch is a coroutine builder that starts a new coroutine in a given scope.
+
+Q: How do you use launch?
+A: Example:
+
+kotlin
+Copy code
+GlobalScope.launch {
+    // coroutine code
+}
+Q: What is async in Kotlin coroutines?
+A: async is a coroutine builder that starts a coroutine and returns a Deferred result, which can be awaited.
+
+Q: How do you use async?
+A: Example:
+
+kotlin
+Copy code
+val deferred = GlobalScope.async { /* coroutine code */ }
+val result = deferred.await()
+Q: What is Deferred in Kotlin coroutines?
+A: Deferred is a non-blocking future that represents a result that will be available in the future.
+
+Q: How do you use Deferred?
+A: Example: val result = deferred.await().
+
+Q: What is Job in Kotlin coroutines?
+A: Job is a handle to a coroutine, used to manage its lifecycle and control its execution.
+
+Q: How do you use Job?
+A: Example:
+
+kotlin
+Copy code
+val job = GlobalScope.launch { /* coroutine code */ }
+job.cancel()
+Q: What is CoroutineScope.launch?
+A: CoroutineScope.launch starts a new coroutine in the given scope.
+
+Q: How do you use CoroutineScope.launch?
+A: Example: scope.launch { /* coroutine code */ }.
+
+Q: What is CoroutineScope.async?
+A: CoroutineScope.async starts a new coroutine and returns a Deferred result.
+
+Q: How do you use CoroutineScope.async?
+A: Example: val deferred = scope.async { /* coroutine code */ }.
+
+Q: What is CoroutineContext?
+A: CoroutineContext is a set of elements used to configure coroutines, such as the dispatcher and job.
+
+Q: How do you use CoroutineContext?
+A: Example:
+
+kotlin
+Copy code
+val context = Dispatchers.IO + Job()
+Q: What is Dispatchers.IO?
+A: Dispatchers.IO is a coroutine dispatcher optimized for I/O operations.
+
+Q: What is Dispatchers.Main?
+A: Dispatchers.Main is a coroutine dispatcher that runs coroutines on the main thread.
+
+Q: How do you switch between dispatchers in coroutines?
+A: Example:
+
+kotlin
+Copy code
+withContext(Dispatchers.IO) {
+    // perform IO operations
+}
+Q: What is CoroutineExceptionHandler?
+A: CoroutineExceptionHandler is an interface for handling exceptions thrown in coroutines.
+
+Q: How do you use CoroutineExceptionHandler?
+A: Example:
+
+kotlin
+Copy code
+val handler = CoroutineExceptionHandler { _, exception ->
+    println("Exception: $exception")
+}
+Q: What is Flow in Kotlin coroutines?
+A: Flow is a cold stream of data that can be collected asynchronously.
+
+Q: How do you create a Flow?
+A: Example:
+
+kotlin
+Copy code
+val flow = flow {
+    emit(1)
+    emit(2)
+    emit(3)
+}
+Q: What is collect in Kotlin Flow?
+A: collect is a terminal operator that collects and processes values from a Flow.
+
+Q: How do you use collect?
+A: Example:
+
+kotlin
+Copy code
+flow.collect { value ->
+    println(value)
+}
+Q: What is stateIn in Kotlin Flow?
+A: stateIn is an operator that converts a Flow into a StateFlow, which maintains and emits the latest value.
+
+Q: How do you use stateIn?
+A: Example:
+
+kotlin
+Copy code
+val stateFlow = flow.stateIn(scope, SharingStarted.Lazily, initialValue = 0)
+Q: What is SharedFlow?
+A: SharedFlow is a hot stream of data that can be collected by multiple collectors.
+
+Q: How do you create a SharedFlow?
+A: Example:
+
+kotlin
+Copy code
+val sharedFlow = MutableSharedFlow<Int>()
+Q: What is collectLatest in Kotlin Flow?
+A: collectLatest collects the latest value from a Flow, canceling the previous collector if a new value arrives.
+
+Q: How do you use collectLatest?
+A: Example:
+
+kotlin
+Copy code
+flow.collectLatest { value ->
+    // handle latest value
+}
+Q: What is combine in Kotlin Flow?
+A: combine combines multiple Flow sources into a single Flow by applying a transformation function.
+
+Q: How do you use combine?
+A: Example:
+
+kotlin
+Copy code
+combine(flow1, flow2) { a, b ->
+    a + b
+}.collect { result ->
+    println(result)
+}
+Q: What is flatMapConcat in Kotlin Flow?
+A: flatMapConcat flattens and concatenates multiple Flow sources into a single Flow.
+
+Q: How do you use flatMapConcat?
+A: Example:
+
+kotlin
+Copy code
+flow.flatMapConcat { value ->
+    flowOf(value * 2)
+}.collect { result ->
+    println(result)
+}
+Q: What is flatMapMerge in Kotlin Flow?
+A: flatMapMerge merges multiple Flow sources into a single Flow, allowing concurrent collection.
+
+Q: How do you use flatMapMerge?
+A: Example:
+
+kotlin
+Copy code
+flow.flatMapMerge { value ->
+    flowOf(value * 2)
+}.collect { result ->
+    println(result)
+}
+Q: What is flatMapLatest in Kotlin Flow?
+A: flatMapLatest flattens and collects the latest value from multiple Flow sources.
+
+Q: How do you use flatMapLatest?
+A: Example:
+
+kotlin
+Copy code
+flow.flatMapLatest { value ->
+    flowOf(value * 2)
+}.collect { result ->
+    println(result)
+}
+Q: What is take in Kotlin Flow?
+A: take limits the number of items emitted by a Flow to a specified count.
+
+Q: How do you use take?
+A: Example: flow.take(3).collect { value -> println(value) }.
+
+Q: What is drop in Kotlin Flow?
+A: drop skips a specified number of items from the beginning of a Flow.
+
+Q: How do you use drop?
+A: Example: flow.drop(2).collect { value -> println(value) }.
+
+Q: What is distinctUntilChanged in Kotlin Flow?
+A: distinctUntilChanged ensures that only distinct values are emitted consecutively.
+
+Q: How do you use distinctUntilChanged?
+A: Example: flow.distinctUntilChanged().collect { value -> println(value) }.
+
+Q: What is debounce in Kotlin Flow?
+A: debounce delays emissions from a Flow until a specified time has passed without new values.
+
+Q: How do you use debounce?
+A: Example: flow.debounce(500).collect { value -> println(value) }.
+
+Q: What is throttleFirst in Kotlin Flow?
+A: throttleFirst limits the rate of emissions to one value per specified interval.
+
+Q: How do you use throttleFirst?
+A: Example: flow.throttleFirst(500).collect { value -> println(value) }.
+
+Q: What is retry in Kotlin Flow?
+A: retry retries collecting from a Flow if an exception occurs.
+
+Q: How do you use retry?
+A: Example: flow.retry(3).collect { value -> println(value) }.
+
+Q: What is catch in Kotlin Flow?
+A: catch handles exceptions emitted by a Flow.
+
+Q: How do you use catch?
+A: Example:
+
+kotlin
+Copy code
+flow.catch { e -> println("Error: $e") }
+     .collect { value -> println(value) }
+Q: What is onEach in Kotlin Flow?
+A: onEach performs an action on each item emitted by a Flow.
+
+Q: How do you use onEach?
+A: Example: flow.onEach { value -> println(value) }.collect().
