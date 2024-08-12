@@ -142,4 +142,3 @@ if uploaded_file is not None:
         st.error("Extraction failed. Please try again.")
         if st.button("Retry"):
             run_extraction()
-
