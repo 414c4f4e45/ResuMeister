@@ -1,0 +1,158 @@
+{"question": "What is Git?", "answer": "Git is a distributed version control system used to track changes in source code during software development. It allows multiple developers to collaborate on the same project efficiently."}
+{"question": "What is a repository in Git?", "answer": "A repository (or repo) is a storage space where your project\u2019s files and the history of changes to those files are stored. It can be local or remote."}
+{"question": "What is the difference between a local and a remote repository?", "answer": "A local repository is on your local machine, while a remote repository is hosted on a server or a service like GitHub, GitLab, or Bitbucket."}
+{"question": "What is a commit in Git?", "answer": "A commit is a snapshot of the changes made to the files in a repository. It represents a point in the project's history and includes a commit message describing the changes."}
+{"question": "How do you create a new Git repository?", "answer": "You create a new Git repository by running git init in the directory where you want to initialize the repository."}
+{"question": "What is the git clone command used for?", "answer": "The git clone command is used to create a copy of an existing remote repository on your local machine."}
+{"question": "What does the git add command do?", "answer": "The git add command stages changes made to files in your working directory, preparing them to be committed."}
+{"question": "What is the purpose of the git commit command?", "answer": "The git commit command saves the staged changes to the repository's history with a descriptive message."}
+{"question": "What does the git status command do?", "answer": "The git status command shows the status of changes in the working directory and staging area, including which files are modified, staged, or untracked."}
+{"question": "What is a branch in Git?", "answer": "A branch in Git is a separate line of development that allows you to work on different features or fixes without affecting the main codebase."}
+{"question": "How do you create a new branch in Git?", "answer": "You create a new branch using the command git branch branch-name."}
+{"question": "How do you switch between branches in Git?", "answer": "You switch between branches using the command git checkout branch-name."}
+{"question": "What does the git merge command do?", "answer": "The git merge command combines changes from one branch into another, integrating the changes into the target branch."}
+{"question": "What is a pull request?", "answer": "A pull request is a request to merge changes from one branch into another, often used in collaborative workflows to review and discuss changes before merging."}
+{"question": "What does git fetch do?", "answer": "The git fetch command downloads changes from a remote repository without merging them into your local repository."}
+{"question": "What is the purpose of the git pull command?", "answer": "The git pull command fetches changes from a remote repository and merges them into your current branch."}
+{"question": "How do you delete a branch in Git?", "answer": "You delete a branch using the command git branch -d branch-name for a local branch or git push origin --delete branch-name for a remote branch."}
+{"question": "What is a Git tag?", "answer": "A Git tag is a reference to a specific commit, often used to mark release points or important milestones in a project."}
+{"question": "How do you create a new Git tag?", "answer": "You create a new Git tag using the command git tag tag-name."}
+{"question": "What is the git log command used for?", "answer": "The git log command displays the commit history of the current branch, including commit messages, author information, and commit IDs."}
+{"question": "What does git diff do?", "answer": "The git diff command shows the differences between files or commits, helping you understand what changes have been made."}
+{"question": "How do you undo changes in Git?", "answer": "You can undo changes using commands like git checkout -- file to discard changes in the working directory or git reset to unstage changes."}
+{"question": "What is the git stash command?", "answer": "The git stash command temporarily saves changes that are not yet committed, allowing you to work on a different task without losing your progress."}
+{"question": "How do you apply stashed changes in Git?", "answer": "You apply stashed changes using the command git stash apply."}
+{"question": "What does the git reset command do?", "answer": "The git reset command resets the current branch's history to a specific commit, and optionally updates the working directory and staging area."}
+{"question": "What is the difference between git reset and git revert?", "answer": "git reset changes the commit history and can affect the working directory, while git revert creates a new commit that undoes changes made by a previous commit."}
+{"question": "What is a merge conflict?", "answer": "A merge conflict occurs when Git cannot automatically resolve differences between branches during a merge, requiring manual intervention to resolve."}
+{"question": "How do you resolve a merge conflict?", "answer": "You resolve a merge conflict by editing the conflicted files, choosing which changes to keep, and then committing the resolved changes."}
+{"question": "What is a fork in Git?", "answer": "A fork is a copy of a repository that allows you to make changes independently of the original repository, often used in open-source projects for contributions."}
+{"question": "How do you contribute to a repository using Git?", "answer": "You contribute to a repository by forking it, making changes on your fork, and then submitting a pull request to merge your changes into the original repository."}
+{"question": "What is the purpose of the .gitignore file?", "answer": "The .gitignore file specifies which files or directories Git should ignore and not track in the repository."}
+{"question": "How do you view the commit history of a file?", "answer": "You view the commit history of a file using the command git log -- file."}
+{"question": "What is a remote in Git?", "answer": "A remote is a version of your repository that is hosted on a server or service, allowing collaboration and synchronization between different machines."}
+{"question": "How do you add a remote repository in Git?", "answer": "You add a remote repository using the command git remote add remote-name repository-url."}
+{"question": "What does the git remote -v command do?", "answer": "The git remote -v command displays the URLs of the remote repositories associated with your local repository."}
+{"question": "What is the git config command used for?", "answer": "The git config command is used to set and manage Git configuration options, such as user name, email, and repository settings."}
+{"question": "How do you view the current Git configuration?", "answer": "You view the current Git configuration using the command git config --list."}
+{"question": "What is a Git alias?", "answer": "A Git alias is a shorthand command that you can define to simplify frequently used Git commands."}
+{"question": "How do you create a Git alias?", "answer": "You create a Git alias using the command git config --global alias.alias-name command."}
+{"question": "What is git rebase used for?", "answer": "The git rebase command is used to reapply commits from one branch onto another, often used to maintain a clean project history."}
+{"question": "What is the difference between git rebase and git merge?", "answer": "git rebase re-applies commits on top of another branch, changing commit history, while git merge combines branches without altering commit history."}
+{"question": "What does git cherry-pick do?", "answer": "The git cherry-pick command applies changes from a specific commit to the current branch, allowing you to incorporate individual commits from other branches."}
+{"question": "What is a submodule in Git?", "answer": "A submodule is a Git repository embedded within another Git repository, allowing you to manage dependencies and external libraries."}
+{"question": "How do you add a submodule to a Git repository?", "answer": "You add a submodule using the command git submodule add repository-url path."}
+{"question": "What does git submodule update do?", "answer": "The git submodule update command initializes and updates submodules to match the commit specified in the superproject."}
+{"question": "How do you remove a submodule from a Git repository?", "answer": "You remove a submodule by deleting its entry from .gitmodules, removing its directory, and then running git rm --cached path/to/submodule."}
+{"question": "What is Git LFS?", "answer": "Git Large File Storage (LFS) is an extension for Git that handles large files by replacing them with text pointers and storing the actual file contents in a separate location."}
+{"question": "How do you install Git LFS?", "answer": "You install Git LFS by downloading and installing the Git LFS binary from the official website and then initializing it with git lfs install."}
+{"question": "What is the purpose of the git tag command?", "answer": "The git tag command is used to create, list, delete, or verify tags in a Git repository, often used to mark important points in the repository's history."}
+{"question": "How do you list all tags in a Git repository?", "answer": "You list all tags using the command git tag."}
+{"question": "What is git bisect used for?", "answer": "The git bisect command is used to identify the commit that introduced a bug by performing a binary search through the commit history."}
+{"question": "What is the git blame command used for?", "answer": "The git blame command shows who made changes to each line of a file, along with the commit hash and timestamp, helping to track the origin of changes."}
+{"question": "How do you view the differences between two commits?", "answer": "You view the differences between two commits using the command git diff commit1 commit2."}
+{"question": "What is the purpose of the git rebase -i command?", "answer": "The git rebase -i (interactive rebase) command allows you to edit, reorder, or squash commits in your branch, giving you control over the commit history."}
+{"question": "What does the git reflog command do?", "answer": "The git reflog command shows a log of all changes to the tip of branches and other references, including commits and operations like rebase or reset."}
+{"question": "How do you undo a commit but keep the changes in your working directory?", "answer": "You undo a commit but keep the changes using the command git reset --soft HEAD~1."}
+{"question": "What does the git clean command do?", "answer": "The git clean command removes untracked files and directories from the working directory, helping to clean up your project."}
+{"question": "How do you view the configuration for a specific Git repository?", "answer": "You view the configuration for a specific repository using the command git config --get-regexp."}
+{"question": "What is the purpose of the git worktree command?", "answer": "The git worktree command allows you to work with multiple working directories attached to a single repository, useful for working on multiple branches simultaneously."}
+{"question": "How do you add a file to the Git index (staging area)?", "answer": "You add a file to the Git index using the command git add file."}
+{"question": "What is the purpose of the .git directory?", "answer": "The .git directory contains all the metadata and configuration files for a Git repository, including information about commits, branches, and history."}
+{"question": "How do you check the remote URL of your Git repository?", "answer": "You check the remote URL using the command git remote -v."}
+{"question": "What does git pull --rebase do?", "answer": "The git pull --rebase command fetches changes from a remote repository and re-applies your local commits on top of the fetched changes, maintaining a linear history."}
+{"question": "What is the git merge --no-ff option used for?", "answer": "The git merge --no-ff option forces a merge commit to be created, even if the merge could be fast-forwarded, preserving the history of the branch."}
+{"question": "What is the purpose of the git ls-files command?", "answer": "The git ls-files command lists all files that are currently tracked by Git in the working directory."}
+{"question": "How do you view the differences between staged and unstaged changes?", "answer": "You view the differences between staged and unstaged changes using the command git diff for unstaged changes and git diff --cached for staged changes."}
+{"question": "What is the purpose of the git gc command?", "answer": "The git gc (garbage collect) command cleans up unnecessary files and optimizes the local repository to improve performance."}
+{"question": "How do you create a Git patch file?", "answer": "You create a Git patch file using the command git diff > patch-file.patch for uncommitted changes or git format-patch for commits."}
+{"question": "What is the purpose of the git tag -a option?", "answer": "The git tag -a option creates an annotated tag with a message and additional metadata, providing more context than a lightweight tag."}
+{"question": "How do you delete a local Git tag?", "answer": "You delete a local Git tag using the command git tag -d tag-name."}
+{"question": "What does the git tag -d option do?", "answer": "The git tag -d option deletes a tag from the local repository."}
+{"question": "What is a git hook?", "answer": "A Git hook is a script that Git executes automatically at certain points in the workflow, allowing you to customize and automate tasks like pre-commit checks or post-merge actions."}
+{"question": "How do you set up a Git hook?", "answer": "You set up a Git hook by placing a script in the .git/hooks directory and making it executable."}
+{"question": "What is the purpose of the git config --global option?", "answer": "The git config --global option sets configuration values for all repositories on your system, such as user name and email."}
+{"question": "How do you view detailed information about a specific commit?", "answer": "You view detailed information about a specific commit using the command git show commit-id."}
+{"question": "What does the git diff --name-only command do?", "answer": "The git diff --name-only command lists only the names of files that have been changed between commits or between the working directory and the index."}
+{"question": "What is a rebase conflict?", "answer": "A rebase conflict occurs when Git cannot automatically reapply commits during a rebase, requiring manual resolution of conflicts before continuing."}
+{"question": "How do you resolve a rebase conflict?", "answer": "You resolve a rebase conflict by editing the conflicted files, choosing the correct changes, and then continuing the rebase with git rebase --continue."}
+{"question": "What does the git diff --staged command do?", "answer": "The git diff --staged command shows the differences between the staged changes and the last commit."}
+{"question": "How do you remove a file from the staging area?", "answer": "You remove a file from the staging area using the command git reset file."}
+{"question": "What is the git mv command used for?", "answer": "The git mv command renames or moves files in the repository, updating the index to reflect the changes."}
+{"question": "How do you show a graphical representation of your Git repository\u2019s history?", "answer": "You show a graphical representation of your Git repository\u2019s history using the command git log --graph."}
+{"question": "What is the git branch -a command used for?", "answer": "The git branch -a command lists all branches, including both local and remote branches."}
+{"question": "How do you create an empty Git repository?", "answer": "You create an empty Git repository with no initial files using the command git init --bare."}
+{"question": "What is a bare repository?", "answer": "A bare repository is a Git repository that does not have a working directory and is typically used as a central repository for collaboration."}
+{"question": "How do you initialize a Git repository with a README file?", "answer": "You initialize a Git repository with a README file using the command git init followed by echo \"# Project\" > README.md and git add README.md and git commit -m \"initial commit\"."}
+{"question": "What does the git ls-tree command do?", "answer": "The git ls-tree command displays the contents of a tree object, showing the files and directories in a commit."}
+{"question": "What is the purpose of the git archive command?", "answer": "The git archive command creates a compressed archive file of files in a Git repository, useful for distributing a snapshot of the project."}
+{"question": "How do you view a commit\u2019s content without checking out the commit?", "answer": "You view a commit\u2019s content without checking out the commit using the command git show commit-id."}
+{"question": "What does the git status --short command do?", "answer": "The git status --short command provides a concise summary of the working directory and staging area status."}
+{"question": "How do you undo the last commit but keep the changes in the staging area?", "answer": "You undo the last commit but keep the changes in the staging area using the command git reset --soft HEAD~1."}
+{"question": "What is the purpose of the git remote set-url command?", "answer": "The git remote set-url command changes the URL of a remote repository, useful for updating the repository location."}
+{"question": "How do you check for differences between the local and remote repository?", "answer": "You check for differences between the local and remote repository using the command git fetch followed by git diff origin/branch-name."}
+{"question": "What does the git commit --amend command do?", "answer": "The git commit --amend command modifies the most recent commit, allowing you to change the commit message or add additional changes."}
+{"question": "How do you view the commit history with a specific number of commits?", "answer": "You view the commit history with a specific number of commits using the command git log -n number."}
+{"question": "What is the purpose of the git clean -fd command?", "answer": "The git clean -fd command removes untracked files and directories from the working directory, forcing the removal without prompting."}
+{"question": "How do you view the commit history for a specific file?", "answer": "You view the commit history for a specific file using the command git log -- file."}
+{"question": "What does the git diff --color-words command do?", "answer": "The git diff --color-words command shows the differences between files with color highlighting for added and removed words."}
+{"question": "How do you create a patch from a specific commit?", "answer": "You create a patch from a specific commit using the command git format-patch commit-id."}
+{"question": "What is the git grep command used for?", "answer": "The git grep command searches for a specific pattern in the files tracked by Git."}
+{"question": "How do you squash multiple commits into a single commit?", "answer": "You squash multiple commits into a single commit using the interactive rebase command git rebase -i HEAD~n and then combining the commits."}
+{"question": "What does the git submodule command do?", "answer": "The git submodule command manages external repositories within a Git repository, allowing you to include other projects as submodules."}
+{"question": "How do you update a submodule to the latest commit?", "answer": "You update a submodule to the latest commit using the commands git submodule update --remote and git add submodule-directory."}
+{"question": "What does the git diff --stat command do?", "answer": "The git diff --stat command shows a summary of changes with a summary of the number of lines added and removed."}
+{"question": "How do you create a Git alias?", "answer": "You create a Git alias using the command git config --global alias.alias-name 'command', where alias-name is the name of the alias and command is the Git command."}
+{"question": "What is the purpose of the git commit --allow-empty command?", "answer": "The git commit --allow-empty command creates a commit with no changes, useful for making a commit with a message or to trigger hooks."}
+{"question": "How do you get a list of all branches, including remote ones, with their last commit messages?", "answer": "You get a list of all branches with their last commit messages using the command git branch -v or git for-each-ref --format '%(refname:short) %(objectname) %(contents:subject)' refs/heads/."}
+{"question": "What does the git blame command do?", "answer": "The git blame command shows who last modified each line of a file and when the modification was made."}
+{"question": "How do you create a Git repository with a specific branch as default?", "answer": "You create a Git repository with a specific branch as default using git init -b branch-name."}
+{"question": "What is the purpose of the git cherry-pick command?", "answer": "The git cherry-pick command applies the changes from a specific commit to the current branch, allowing you to include specific commits without merging."}
+{"question": "How do you view the logs of a specific branch in a Git repository?", "answer": "You view the logs of a specific branch using the command git log branch-name."}
+{"question": "What does the git reflog expire command do?", "answer": "The git reflog expire command cleans up older reflog entries, helping to free up space and maintain repository performance."}
+{"question": "How do you switch to a new branch and create it in one command?", "answer": "You switch to a new branch and create it in one command using git checkout -b branch-name."}
+{"question": "What is the git stash pop command used for?", "answer": "The git stash pop command re-applies the most recent stashed changes and removes them from the stash list."}
+{"question": "How do you show a specific commit\u2019s details in a graphical format?", "answer": "You show a specific commit\u2019s details in a graphical format using git log --graph --oneline commit-id."}
+{"question": "What is the purpose of the git remote rename command?", "answer": "The git remote rename command changes the name of a remote repository, useful for reorganizing remote names."}
+{"question": "How do you check out a remote branch?", "answer": "You check out a remote branch using git checkout -b branch-name origin/branch-name."}
+{"question": "What is the purpose of the git reset --hard command?", "answer": "The git reset --hard command resets the working directory and index to match the specified commit, discarding all changes."}
+{"question": "How do you list all Git aliases?", "answer": "You list all Git aliases using the command git config --get-regexp alias."}
+{"question": "What does the git stash list command do?", "answer": "The git stash list command shows a list of all stashed changes."}
+{"question": "How do you create a new Git repository from an existing one?", "answer": "You create a new Git repository from an existing one using git clone followed by the URL or path to the existing repository."}
+{"question": "What is the git fetch command used for?", "answer": "The git fetch command retrieves new commits and updates from a remote repository without merging them into the current branch."}
+{"question": "How do you remove all local branches that have been merged into the current branch?", "answer": "You remove all local branches that have been merged into the current branch using git branch --merged | grep -v '\\*' | xargs git branch -d."}
+{"question": "What does the git shortlog command do?", "answer": "The git shortlog command provides a summary of commits grouped by author, showing the number of commits and the commit messages."}
+{"question": "How do you rename a Git branch?", "answer": "You rename a Git branch using git branch -m old-branch-name new-branch-name."}
+{"question": "What is the purpose of the git describe command?", "answer": "The git describe command gives a human-readable name to a commit by describing it relative to the most recent tag."}
+{"question": "How do you view the history of a file?", "answer": "You view the history of a file using git log -- file."}
+{"question": "What does the git diff --word-diff command do?", "answer": "The git diff --word-diff command shows changes between files word-by-word rather than line-by-line."}
+{"question": "How do you resolve a conflict that has been marked as resolved but still shows up in git status?", "answer": "You resolve a conflict that has been marked as resolved by running git add on the conflicted files and then completing the merge or rebase process."}
+{"question": "What does the git merge --abort command do?", "answer": "The git merge --abort command aborts a merge operation and returns the repository to its state before the merge began."}
+{"question": "How do you delete a remote branch?", "answer": "You delete a remote branch using git push origin --delete branch-name."}
+{"question": "What is the purpose of the git config --list command?", "answer": "The git config --list command lists all configuration settings for the current Git repository or global Git configuration."}
+{"question": "How do you add a file to the Git ignore list?", "answer": "You add a file to the Git ignore list by adding its name or pattern to the .gitignore file."}
+{"question": "What does the git remote show command do?", "answer": "The git remote show command displays detailed information about a remote repository, including its URL and branch tracking details."}
+{"question": "How do you set the default push behavior in Git?", "answer": "You set the default push behavior using git config --global push.default behavior, where behavior can be matching, simple, or current."}
+{"question": "What does the git diff --no-index command do?", "answer": "The git diff --no-index command compares two files or directories outside of the Git repository, ignoring Git\u2019s index."}
+{"question": "How do you create a new branch and switch to it in one command?", "answer": "You create a new branch and switch to it in one command using git checkout -b branch-name."}
+{"question": "What is the git init command used for?", "answer": "The git init command initializes a new Git repository in the current directory, creating a .git directory."}
+{"question": "How do you revert a specific file to its state in a previous commit?", "answer": "You revert a specific file to its state in a previous commit using git checkout commit-id -- file."}
+{"question": "What does the git cherry command do?", "answer": "The git cherry command shows which commits in your branch are not in the upstream branch, useful for finding commits that need to be applied."}
+{"question": "How do you view all commits that are not yet in the remote repository?", "answer": "You view all commits that are not yet in the remote repository using git log origin/branch-name..branch-name."}
+{"question": "What is the purpose of the git commit --no-verify command?", "answer": "The git commit --no-verify command bypasses pre-commit and commit-msg hooks, allowing you to commit changes without running these checks."}
+{"question": "How do you view the commit history for a specific author?", "answer": "You view the commit history for a specific author using git log --author=\"author-name\"."}
+{"question": "What does the git ls-tree -r HEAD command do?", "answer": "The git ls-tree -r HEAD command lists all files and directories in the working directory at the current HEAD commit."}
+{"question": "How do you undo the last commit and delete the changes from the working directory?", "answer": "You undo the last commit and delete the changes from the working directory using git reset --hard HEAD~1."}
+{"question": "What does the git stash apply command do?", "answer": "The git stash apply command re-applies stashed changes to your working directory without removing them from the stash list."}
+{"question": "How do you list all remote branches in a Git repository?", "answer": "You list all remote branches using git branch -r."}
+{"question": "What is the git rebase --interactive command used for?", "answer": "The git rebase --interactive command allows you to interactively rebase commits, offering options to edit, squash, or reorder commits."}
+{"question": "How do you show the difference between two branches?", "answer": "You show the difference between two branches using git diff branch1..branch2."}
+{"question": "What does the git config --global core.editor command do?", "answer": "The git config --global core.editor command sets the default text editor for Git commands that require text input, like commit messages."}
+{"question": "How do you remove untracked files from the working directory?", "answer": "You remove untracked files from the working directory using git clean -f."}
+{"question": "What does the git log --oneline command do?", "answer": "The git log --oneline command displays the commit history in a concise format with each commit on a single line."}
+{"question": "How do you check out a file from a specific commit without changing branches?", "answer": "You check out a file from a specific commit using git checkout commit-id -- file."}
+{"question": "What is the purpose of the git tag command?", "answer": "The git tag command is used to create, list, or delete tags in the repository, which are often used to mark specific points in the commit history."}
+{"question": "How do you merge a branch into the current branch?", "answer": "You merge a branch into the current branch using git merge branch-name."}
+{"question": "What does the git stash drop command do?", "answer": "The git stash drop command removes a specific stash from the stash list."}
+{"question": "How do you show the commit history in a graphical format?", "answer": "You show the commit history in a graphical format using git log --graph."}
+{"question": "What does the git log --pretty=format:\"%h %s\" command do?", "answer": "The git log --pretty=format:\"%h %s\" command displays the commit history with abbreviated commit hashes and commit messages."}

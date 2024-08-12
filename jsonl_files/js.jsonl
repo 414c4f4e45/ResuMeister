@@ -1,0 +1,227 @@
+{"question": "What is JavaScript?", "answer": "JavaScript is a high-level, interpreted programming language commonly used for adding interactive features to web pages."}
+{"question": "How do you declare a variable in JavaScript?", "answer": "You can declare a variable using var, let, or const. For example, let x = 10; or const y = 20;."}
+{"question": "What is the difference between let and const?", "answer": "let allows variable reassignment, while const creates a constant variable that cannot be reassigned."}
+{"question": "How do you create a function in JavaScript?", "answer": "You can create a function using the function keyword, e.g., function myFunction() { console.log(\"Hello\"); }."}
+{"question": "What is a JavaScript closure?", "answer": "A closure is a function that retains access to its lexical scope even when the function is executed outside that scope."}
+{"question": "How do you add an event listener to an element?", "answer": "Use the addEventListener method, e.g., element.addEventListener('click', function() { alert('Clicked!'); });."}
+{"question": "What is the purpose of the this keyword in JavaScript?", "answer": "The this keyword refers to the object that is currently executing the code, often used within methods to refer to the object itself."}
+{"question": "How do you create an object in JavaScript?", "answer": "You can create an object using object literals, e.g., let obj = { name: \"John\", age: 30 };."}
+{"question": "What are JavaScript prototypes?", "answer": "Prototypes are objects that other objects inherit properties and methods from. Each JavaScript object has a prototype."}
+{"question": "What is the difference between == and === in JavaScript?", "answer": "== performs type coercion before comparison, while === checks both value and type without coercion."}
+{"question": "How do you convert a string to a number in JavaScript?", "answer": "Use parseInt() for integers, parseFloat() for floating-point numbers, or the Number() function."}
+{"question": "What is an immediately-invoked function expression (IIFE)?", "answer": "An IIFE is a function that is defined and executed immediately, e.g., (function() { console.log(\"I am an IIFE\"); })();."}
+{"question": "How do you handle errors in JavaScript?", "answer": "Use try...catch blocks to handle exceptions, e.g., try { // code } catch (error) { console.error(error); }."}
+{"question": "What is JSON in JavaScript?", "answer": "JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write, and easy for machines to parse and generate."}
+{"question": "How do you parse JSON data in JavaScript?", "answer": "Use JSON.parse(), e.g., let obj = JSON.parse('{\"name\":\"John\",\"age\":30}');."}
+{"question": "How do you stringify a JavaScript object into JSON?", "answer": "Use JSON.stringify(), e.g., let jsonString = JSON.stringify({ name: \"John\", age: 30 });."}
+{"question": "What is a callback function in JavaScript?", "answer": "A callback function is a function passed into another function as an argument, which is executed after the first function completes."}
+{"question": "How do you create a promise in JavaScript?", "answer": "Use the Promise constructor, e.g., let promise = new Promise((resolve, reject) => { /* code */ });."}
+{"question": "What is async/await in JavaScript?", "answer": "async/await is syntactic sugar for handling asynchronous operations in a more readable way compared to promises. Functions declared with async return a promise, and await pauses execution until the promise is resolved."}
+{"question": "How do you create a class in JavaScript?", "answer": "Use the class keyword, e.g., class Person { constructor(name) { this.name = name; } }."}
+{"question": "What is the typeof operator used for?", "answer": "The typeof operator returns a string indicating the type of a variable, e.g., typeof \"Hello\" returns \"string\"."}
+{"question": "How do you check if an object is an array?", "answer": "Use Array.isArray(), e.g., Array.isArray([1, 2, 3]) returns true."}
+{"question": "What is the map() method in JavaScript?", "answer": "The map() method creates a new array with the results of calling a provided function on every element in the calling array."}
+{"question": "What is the filter() method used for in JavaScript?", "answer": "The filter() method creates a new array with all elements that pass a test implemented by the provided function."}
+{"question": "How do you find the index of an element in an array?", "answer": "Use the indexOf() method, e.g., let index = array.indexOf(element);."}
+{"question": "What is the reduce() method in JavaScript?", "answer": "The reduce() method executes a reducer function on each element of the array, resulting in a single output value."}
+{"question": "How do you create an empty array in JavaScript?", "answer": "Use array literal syntax, e.g., let arr = [];."}
+{"question": "What is the difference between null and undefined in JavaScript?", "answer": "null represents the intentional absence of any object value, while undefined indicates that a variable has not been assigned a value."}
+{"question": "How do you clone an object in JavaScript?", "answer": "Use Object.assign() or spread syntax, e.g., let clone = { ...original };."}
+{"question": "What is the arguments object in JavaScript functions?", "answer": "The arguments object is an array-like object provided to all non-arrow functions, containing the values of the arguments passed to the function."}
+{"question": "What is event delegation in JavaScript?", "answer": "Event delegation involves using a single event listener on a parent element to manage events for its child elements, often using event bubbling."}
+{"question": "How do you access the DOM in JavaScript?", "answer": "Use methods like document.getElementById(), document.querySelector(), or document.getElementsByClassName()."}
+{"question": "What is the this keyword in an event handler?", "answer": "In an event handler, this refers to the element that triggered the event."}
+{"question": "How do you prevent the default action of an event in JavaScript?", "answer": "Use event.preventDefault() within the event handler function."}
+{"question": "What is a higher-order function in JavaScript?", "answer": "A higher-order function is a function that takes other functions as arguments or returns a function as its result."}
+{"question": "How do you use the setTimeout() function?", "answer": "setTimeout() executes a function after a specified delay, e.g., setTimeout(() => { console.log(\"Hello\"); }, 1000);."}
+{"question": "How do you use the setInterval() function?", "answer": "setInterval() repeatedly executes a function at specified intervals, e.g., setInterval(() => { console.log(\"Hello\"); }, 1000);."}
+{"question": "What is the parseInt() function used for in JavaScript?", "answer": "The parseInt() function parses a string argument and returns an integer of the specified radix, e.g., parseInt(\"10\", 10) returns 10."}
+{"question": "How do you compare two objects in JavaScript?", "answer": "Direct comparison of objects checks reference equality, not deep equality. To compare values deeply, you may need a library or custom function."}
+{"question": "What is the call() method in JavaScript?", "answer": "The call() method calls a function with a given this value and arguments provided individually, e.g., func.call(thisArg, arg1, arg2)."}
+{"question": "What is the apply() method in JavaScript?", "answer": "The apply() method calls a function with a given this value and arguments provided as an array, e.g., func.apply(thisArg, [arg1, arg2])."}
+{"question": "How do you create a new object that inherits from another object?", "answer": "Use Object.create(), e.g., let newObj = Object.create(protoObj);."}
+{"question": "What is the bind() method in JavaScript?", "answer": "The bind() method creates a new function with a specific this value and initial arguments, e.g., func.bind(thisArg, arg1)."}
+{"question": "How do you create a private variable in JavaScript?", "answer": "Use closures to create private variables, e.g., function createCounter() { let count = 0; return function() { return count++; }; }."}
+{"question": "What is the spread operator used for in JavaScript?", "answer": "The spread operator (...) expands an array or object into individual elements or properties, e.g., let arr = [1, 2, 3]; let newArr = [...arr, 4, 5];."}
+{"question": "What is the rest parameter in JavaScript functions?", "answer": "The rest parameter (...) collects all remaining arguments into an array, e.g., function sum(...numbers) { return numbers.reduce((a, b) => a + b, 0); }."}
+{"question": "How do you implement inheritance in JavaScript?", "answer": "Use prototypes or classes. With classes, use the extends keyword, e.g., class Animal { } class Dog extends Animal { }."}
+{"question": "What is the typeof operator in JavaScript?", "answer": "The typeof operator returns a string indicating the type of a variable or expression, e.g., typeof 42 returns \"number\"."}
+{"question": "What is the instanceof operator used for?", "answer": "The instanceof operator tests whether an object is an instance of a specific constructor or class, e.g., obj instanceof Array."}
+{"question": "How do you handle asynchronous code in JavaScript?", "answer": "Use promises with then() and catch(), or async/await syntax for cleaner and more readable code."}
+{"question": "What is a JavaScript module?", "answer": "A JavaScript module is a file that exports functions, objects, or values, which can then be imported into other modules using import and export statements."}
+{"question": "How do you export functions or variables from a module?", "answer": "Use the export keyword, e.g., export function myFunction() { } or export default myFunction;."}
+{"question": "How do you import functions or variables from a module?", "answer": "Use the import keyword, e.g., import { myFunction } from './module.js'; or import myFunction from './module.js';."}
+{"question": "What is event bubbling in JavaScript?", "answer": "Event bubbling is a mechanism where an event starts at the most specific element and bubbles up to the least specific element, usually the document."}
+{"question": "How do you stop event bubbling in JavaScript?", "answer": "Use event.stopPropagation() to prevent the event from bubbling up to parent elements."}
+{"question": "What is the Object.assign() method used for?", "answer": "Object.assign() copies the values of all enumerable own properties from one or more source objects to a target object."}
+{"question": "What are JavaScript template literals?", "answer": "Template literals are string literals that allow embedded expressions and multi-line strings, using backticks (`)."}
+{"question": "How do you use template literals for string interpolation?", "answer": "Embed expressions within ${} inside backticks, e.g., `Hello, ${name}!`."}
+{"question": "What is the Date object in JavaScript?", "answer": "The Date object represents dates and times, allowing for operations like getting the current date and time or manipulating date values."}
+{"question": "How do you create a new Date object?", "answer": "Use the Date constructor, e.g., let now = new Date();."}
+{"question": "How do you format a date in JavaScript?", "answer": "Use methods like toLocaleDateString(), toDateString(), or use libraries like moment.js for more advanced formatting."}
+{"question": "What is the Array.prototype.forEach() method?", "answer": "forEach() executes a provided function once for each array element, e.g., arr.forEach(item => console.log(item));."}
+{"question": "What is the Array.prototype.find() method?", "answer": "find() returns the first element in the array that satisfies the provided testing function, e.g., arr.find(item => item > 10);."}
+{"question": "How do you concatenate arrays in JavaScript?", "answer": "Use the concat() method or the spread operator, e.g., let combined = arr1.concat(arr2); or let combined = [...arr1, ...arr2];."}
+{"question": "What is the Object.keys() method used for?", "answer": "Object.keys() returns an array of a given object's property names, e.g., Object.keys({ a: 1, b: 2 }) returns [\"a\", \"b\"]."}
+{"question": "What is the Object.values() method used for?", "answer": "Object.values() returns an array of a given object's property values, e.g., Object.values({ a: 1, b: 2 }) returns [1, 2]."}
+{"question": "What is the Object.entries() method used for?", "answer": "Object.entries() returns an array of a given object's own enumerable string-keyed property [key, value] pairs."}
+{"question": "What is the window object in JavaScript?", "answer": "The window object represents the browser's window and provides access to the browser's features, such as the document, history, and location."}
+{"question": "How do you access the current URL in JavaScript?", "answer": "Use window.location.href, e.g., let url = window.location.href;."}
+{"question": "What is the navigator object used for in JavaScript?", "answer": "The navigator object provides information about the browser and operating system, such as navigator.userAgent."}
+{"question": "How do you change the content of an HTML element using JavaScript?", "answer": "Use the innerHTML property, e.g., element.innerHTML = \"New Content\";."}
+{"question": "How do you remove an element from the DOM using JavaScript?", "answer": "Use the remove() method on the element, e.g., element.remove();."}
+{"question": "What is the querySelector() method?", "answer": "querySelector() returns the first element that matches a specified CSS selector, e.g., document.querySelector('.class');."}
+{"question": "What is the querySelectorAll() method?", "answer": "querySelectorAll() returns all elements that match a specified CSS selector, e.g., document.querySelectorAll('div');."}
+{"question": "What is the localStorage object?", "answer": "localStorage allows you to store data in the browser with no expiration time, e.g., localStorage.setItem('key', 'value');."}
+{"question": "What is the sessionStorage object?", "answer": "sessionStorage allows you to store data in the browser for the duration of the page session, e.g., sessionStorage.setItem('key', 'value');."}
+{"question": "How do you clear all data from localStorage?", "answer": "Use localStorage.clear(), e.g., localStorage.clear();."}
+{"question": "How do you retrieve an item from localStorage?", "answer": "Use localStorage.getItem(), e.g., let value = localStorage.getItem('key');."}
+{"question": "How do you set a cookie in JavaScript?", "answer": "Use document.cookie, e.g., document.cookie = \"username=John; expires=Fri, 31 Dec 2024 23:59:59 GMT\";."}
+{"question": "How do you retrieve a cookie value in JavaScript?", "answer": "Parse document.cookie, e.g., let cookieValue = document.cookie.split('; ').find(row => row.startsWith('username=')).split('=')[1];."}
+{"question": "What is the fetch API used for in JavaScript?", "answer": "The fetch API is used for making network requests to servers, e.g., fetch(url).then(response => response.json());."}
+{"question": "How do you handle the response of a fetch request?", "answer": "Use .then() to handle the response, e.g., fetch(url).then(response => response.json()).then(data => console.log(data));."}
+{"question": "What is the async function in JavaScript?", "answer": "An async function always returns a promise and allows the use of await to pause execution until the promise is resolved."}
+{"question": "How do you use await in JavaScript?", "answer": "await pauses the execution of an async function until the promise is resolved, e.g., let result = await fetch(url);."}
+{"question": "What is the Event object in JavaScript?", "answer": "The Event object represents an event that occurs in the DOM, providing properties and methods for handling and responding to the event."}
+{"question": "How do you listen for changes on an input element?", "answer": "Use the input event, e.g., input.addEventListener('input', function() { console.log(this.value); });."}
+{"question": "What is the classList property used for in JavaScript?", "answer": "The classList property provides methods to add, remove, and toggle classes on an element, e.g., element.classList.add('new-class');."}
+{"question": "How do you add a class to an element using JavaScript?", "answer": "Use the classList.add() method, e.g., element.classList.add('my-class');."}
+{"question": "How do you remove a class from an element using JavaScript?", "answer": "Use the classList.remove() method, e.g., element.classList.remove('my-class');."}
+{"question": "What is the DOMContentLoaded event?", "answer": "The DOMContentLoaded event fires when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets or images."}
+{"question": "How do you execute code after the page has fully loaded?", "answer": "Use the window.onload event, e.g., window.onload = function() { console.log('Page loaded'); };."}
+{"question": "How do you stop an event from propagating?", "answer": "Use event.stopPropagation() to prevent further propagation of the event in the event bubbling phase."}
+{"question": "What is the addEventListener() method used for?", "answer": "addEventListener() attaches an event handler to an element, allowing you to specify the event type and callback function."}
+{"question": "How do you access the value of an input element?", "answer": "Use the value property of the input element, e.g., let value = inputElement.value;."}
+{"question": "What is the Math object in JavaScript?", "answer": "The Math object provides mathematical constants and functions, such as Math.PI and Math.sqrt()."}
+{"question": "How do you generate a random number in JavaScript?", "answer": "Use Math.random(), e.g., let randomNumber = Math.random();."}
+{"question": "How do you round a number to the nearest integer in JavaScript?", "answer": "Use Math.round(), e.g., let rounded = Math.round(4.7);."}
+{"question": "What is a closure in JavaScript?", "answer": "A closure is a function that retains access to its lexical scope even after the function has finished executing."}
+{"question": "How do you create a closure in JavaScript?", "answer": "Define a function inside another function and access the outer function's variables from the inner function."}
+{"question": "What is the this keyword in JavaScript?", "answer": "The this keyword refers to the object that is currently executing the code or calling the function."}
+{"question": "How do you bind a specific context to a function using this?", "answer": "Use the bind() method to create a new function with a specific this value, e.g., let boundFunction = func.bind(thisValue);."}
+{"question": "What is the bind() method in JavaScript?", "answer": "The bind() method creates a new function with a specific this value and arguments, e.g., let boundFunction = func.bind(thisValue, arg1, arg2);."}
+{"question": "How do you define a getter method in a JavaScript class?", "answer": "Use the get keyword, e.g., get myProperty() { return this._myProperty; }."}
+{"question": "How do you define a setter method in a JavaScript class?", "answer": "Use the set keyword, e.g., set myProperty(value) { this._myProperty = value; }."}
+{"question": "What is a Promise in JavaScript?", "answer": "A Promise is an object representing the eventual completion (or failure) of an asynchronous operation and its resulting value."}
+{"question": "How do you create a new Promise?", "answer": "Use the Promise constructor, e.g., let promise = new Promise((resolve, reject) => { /* async operation */ });."}
+{"question": "How do you handle errors in a Promise chain?", "answer": "Use the .catch() method to handle errors, e.g., promise.then(result => { /* success */ }).catch(error => { /* handle error */ });."}
+{"question": "What is async/await syntax in JavaScript?", "answer": "async/await is a syntax for working with promises that makes asynchronous code look and behave like synchronous code."}
+{"question": "How do you handle multiple promises in JavaScript?", "answer": "Use Promise.all() to run multiple promises in parallel and wait for all to complete, e.g., Promise.all([promise1, promise2])."}
+{"question": "What is the EventTarget interface?", "answer": "EventTarget is an interface implemented by objects that can receive events and may have listeners for them, such as DOM elements and window."}
+{"question": "What is the difference between == and === in JavaScript?", "answer": "== performs type coercion and compares values for equality, while === compares both value and type for equality."}
+{"question": "How do you perform type conversion in JavaScript?", "answer": "Use functions like Number(), String(), and Boolean(), or use methods like toString() and parseInt()."}
+{"question": "What is the null value in JavaScript?", "answer": "null is a special value representing the intentional absence of any object value, often used to indicate \"no value\" or \"empty.\""}
+{"question": "What is the undefined value in JavaScript?", "answer": "undefined is a special value indicating that a variable has been declared but has not yet been assigned a value."}
+{"question": "What is a JavaScript function?", "answer": "A function is a block of code designed to perform a particular task, which can be executed when called."}
+{"question": "How do you define a function in JavaScript?", "answer": "Use the function keyword, e.g., function myFunction() { /* code */ }."}
+{"question": "What is the arguments object in JavaScript?", "answer": "The arguments object is an array-like object available inside functions that contains the values of the arguments passed to the function."}
+{"question": "How do you create an arrow function in JavaScript?", "answer": "Use the => syntax, e.g., const add = (a, b) => a + b;."}
+{"question": "What is the difference between var, let, and const in JavaScript?", "answer": "var declares variables with function scope, let and const declare block-scoped variables. const creates a read-only reference."}
+{"question": "What is hoisting in JavaScript?", "answer": "Hoisting is the behavior where variable and function declarations are moved to the top of their containing scope during compilation."}
+{"question": "How do you handle exceptions in JavaScript?", "answer": "Use try...catch blocks to handle exceptions and finally to execute code regardless of whether an error occurred."}
+{"question": "What is the Array.prototype.map() method?", "answer": "map() creates a new array with the results of applying a provided function to every element in the original array."}
+{"question": "How do you use Array.prototype.reduce()?", "answer": "reduce() executes a reducer function on each element of the array, resulting in a single output value, e.g., arr.reduce((acc, curr) => acc + curr, 0);."}
+{"question": "What is the Array.prototype.filter() method?", "answer": "filter() creates a new array with all elements that pass the test implemented by the provided function."}
+{"question": "How do you create a new object in JavaScript?", "answer": "Use object literals, e.g., let obj = { key: 'value' };, or use the new Object() constructor."}
+{"question": "What is a Set in JavaScript?", "answer": "A Set is a collection of unique values, allowing for the storage of non-duplicate values of any type."}
+{"question": "How do you add items to a Set?", "answer": "Use the add() method, e.g., mySet.add('item');."}
+{"question": "How do you remove items from a Set?", "answer": "Use the delete() method, e.g., mySet.delete('item');."}
+{"question": "What is a WeakMap in JavaScript?", "answer": "A WeakMap is a collection of key-value pairs where keys are objects and are weakly referenced, meaning they can be garbage collected."}
+{"question": "What is a WeakSet in JavaScript?", "answer": "A WeakSet is a collection of objects where objects are weakly referenced, allowing for garbage collection."}
+{"question": "What is the Proxy object in JavaScript?", "answer": "The Proxy object allows you to create a handler for an object to define custom behavior for fundamental operations (e.g., property lookup, assignment)."}
+{"question": "How do you create a new Proxy object?", "answer": "Use the Proxy constructor, e.g., let proxy = new Proxy(target, handler);."}
+{"question": "What is the Reflect object in JavaScript?", "answer": "The Reflect object provides methods for interceptable JavaScript operations, complementing Proxy objects for object manipulation."}
+{"question": "What is JSON in JavaScript?", "answer": "JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate."}
+{"question": "How do you parse a JSON string in JavaScript?", "answer": "Use JSON.parse(), e.g., let obj = JSON.parse('{\"key\": \"value\"}');."}
+{"question": "How do you stringify a JavaScript object to JSON?", "answer": "Use JSON.stringify(), e.g., let jsonString = JSON.stringify({ key: 'value' });."}
+{"question": "What is the Function constructor in JavaScript?", "answer": "The Function constructor creates a new function object from a string of code, e.g., let func = new Function('a', 'b', 'return a + b;');."}
+{"question": "What is the eval() function in JavaScript?", "answer": "The eval() function evaluates a string as JavaScript code and executes it, which can be a security risk if not used cautiously."}
+{"question": "What is a generator function in JavaScript?", "answer": "A generator function is a function that can be paused and resumed, yielding multiple values over time using the yield keyword."}
+{"question": "How do you create a generator function?", "answer": "Use the function* syntax, e.g., function* myGenerator() { yield 1; yield 2; }."}
+{"question": "How do you call a generator function?", "answer": "Invoke it to get an iterator, e.g., let gen = myGenerator();."}
+{"question": "What is the yield keyword in JavaScript?", "answer": "yield pauses the generator function and returns a value to the caller, resuming from the pause point on the next call."}
+{"question": "How do you resume a generator function after a yield?", "answer": "Call the next() method on the generator object, e.g., gen.next();."}
+{"question": "What is JavaScript's event loop?", "answer": "The event loop is a mechanism that handles asynchronous operations by processing events and executing callbacks in a single-threaded environment."}
+{"question": "What are Promises in the context of the event loop?", "answer": "Promises are objects representing the eventual completion or failure of asynchronous operations, processed in the microtask queue by the event loop."}
+{"question": "What is the microtask queue?", "answer": "The microtask queue holds callbacks from resolved promises and MutationObserver callbacks, processed before the next event loop iteration."}
+{"question": "What is the macrotask queue?", "answer": "The macrotask queue holds tasks like setTimeout and setInterval callbacks, processed after the microtask queue in the event loop."}
+{"question": "How do you handle asynchronous operations using callbacks?", "answer": "Pass a callback function to be executed once the asynchronous operation completes, e.g., fetch(url, (data) => { /* handle data */ });."}
+{"question": "What is a callback hell?", "answer": "Callback hell refers to the difficulty of managing nested callbacks in asynchronous code, leading to complex and hard-to-read code."}
+{"question": "How can you avoid callback hell?", "answer": "Use Promises, async/await, or modularize code to manage asynchronous operations more effectively and improve readability."}
+{"question": "What is event delegation in JavaScript?", "answer": "Event delegation is a technique of attaching a single event listener to a parent element to manage events for its child elements, improving performance and memory usage."}
+{"question": "What is the addEventListener method?", "answer": "addEventListener adds an event handler to an element, allowing you to specify the event type and callback function, e.g., element.addEventListener('click', handler);."}
+{"question": "What is the removeEventListener method?", "answer": "removeEventListener removes an event handler from an element, allowing you to stop listening for specific events, e.g., element.removeEventListener('click', handler);."}
+{"question": "What are data attributes in HTML?", "answer": "Data attributes are custom attributes added to HTML elements that store extra information, accessible via JavaScript, e.g., data-* attributes."}
+{"question": "How do you access data attributes in JavaScript?", "answer": "Use dataset property, e.g., let value = element.dataset.attributeName;."}
+{"question": "What is the DOMContentLoaded event?", "answer": "DOMContentLoaded is an event that fires when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading."}
+{"question": "How do you handle the DOMContentLoaded event?", "answer": "Attach an event listener to the document object, e.g., document.addEventListener('DOMContentLoaded', () => { /* code */ });."}
+{"question": "What is localStorage in JavaScript?", "answer": "localStorage is a web storage API that allows you to store key-value pairs persistently in the browser with no expiration time."}
+{"question": "How do you set an item in localStorage?", "answer": "Use the setItem() method, e.g., localStorage.setItem('key', 'value');."}
+{"question": "How do you get an item from localStorage?", "answer": "Use the getItem() method, e.g., let value = localStorage.getItem('key');."}
+{"question": "How do you remove an item from localStorage?", "answer": "Use the removeItem() method, e.g., localStorage.removeItem('key');."}
+{"question": "What is sessionStorage in JavaScript?", "answer": "sessionStorage is a web storage API that stores key-value pairs for the duration of the page session, which lasts as long as the page is open in the browser tab."}
+{"question": "How do you set an item in sessionStorage?", "answer": "Use the setItem() method, e.g., sessionStorage.setItem('key', 'value');."}
+{"question": "How do you get an item from sessionStorage?", "answer": "Use the getItem() method, e.g., let value = sessionStorage.getItem('key');."}
+{"question": "How do you remove an item from sessionStorage?", "answer": "Use the removeItem() method, e.g., sessionStorage.removeItem('key');."}
+{"question": "What is fetch in JavaScript?", "answer": "fetch is a modern API for making network requests, returning a Promise that resolves with the Response object representing the response to the request."}
+{"question": "How do you make a GET request using fetch?", "answer": "Use fetch(url), e.g., fetch('https://api.example.com/data').then(response => response.json()).then(data => { /* handle data */ });."}
+{"question": "How do you handle response errors with fetch?", "answer": "Check the response.ok property or use .catch() for handling network errors, e.g., fetch(url).then(response => { if (!response.ok) throw new Error('Network response was not ok.'); return response.json(); }).catch(error => { /* handle error */ });."}
+{"question": "What is URLSearchParams in JavaScript?", "answer": "URLSearchParams is a built-in object that provides methods to work with query string parameters in URLs, making it easy to parse and construct query strings."}
+{"question": "How do you create a URLSearchParams object?", "answer": "Use the URLSearchParams constructor, e.g., let params = new URLSearchParams('key=value&key2=value2');."}
+{"question": "How do you get the value of a query parameter using URLSearchParams?", "answer": "Use the get() method, e.g., let value = params.get('key');."}
+{"question": "How do you set a query parameter using URLSearchParams?", "answer": "Use the set() method, e.g., params.set('key', 'newValue');."}
+{"question": "What is the navigator object in JavaScript?", "answer": "The navigator object provides information about the browser and operating system, such as the user agent, platform, and online status."}
+{"question": "How do you get the user agent string in JavaScript?", "answer": "Use navigator.userAgent, e.g., let userAgent = navigator.userAgent;."}
+{"question": "What is the window object in JavaScript?", "answer": "The window object represents the browser's window and provides methods and properties to interact with it, including managing the document, history, and location."}
+{"question": "How do you open a new browser window in JavaScript?", "answer": "Use window.open(), e.g., window.open('https://example.com', '_blank');."}
+{"question": "What is the document object in JavaScript?", "answer": "The document object represents the HTML document loaded in the browser and provides methods to access and manipulate the content and structure of the document."}
+{"question": "How do you select an HTML element by its ID in JavaScript?", "answer": "Use document.getElementById(), e.g., let element = document.getElementById('myId');."}
+{"question": "How do you create a new HTML element in JavaScript?", "answer": "Use document.createElement(), e.g., let newElement = document.createElement('div');."}
+{"question": "How do you append a new element to the DOM?", "answer": "Use appendChild(), e.g., parentElement.appendChild(newElement);."}
+{"question": "How do you remove an element from the DOM?", "answer": "Use removeChild() on the parent element, e.g., parentElement.removeChild(childElement);."}
+{"question": "What is document.querySelector()?", "answer": "document.querySelector() returns the first element that matches a specified CSS selector, e.g., let element = document.querySelector('.myClass');."}
+{"question": "What is document.querySelectorAll()?", "answer": "document.querySelectorAll() returns a static NodeList of all elements that match a specified CSS selector, e.g., let elements = document.querySelectorAll('div.myClass');."}
+{"question": "How do you set the text content of an HTML element?", "answer": "Use the textContent property, e.g., element.textContent = 'New text';."}
+{"question": "How do you set the HTML content of an element?", "answer": "Use the innerHTML property, e.g., element.innerHTML = '<p>New HTML content</p>';."}
+{"question": "What is event bubbling in JavaScript?", "answer": "Event bubbling is the process where an event starts from the target element and bubbles up to the root of the DOM tree, triggering event handlers on parent elements."}
+{"question": "What is event capturing in JavaScript?", "answer": "Event capturing is the process where an event is captured from the root of the DOM tree down to the target element before reaching the target."}
+{"question": "How do you prevent an event from bubbling up in JavaScript?", "answer": "Use the stopPropagation() method on the event object, e.g., event.stopPropagation();."}
+{"question": "How do you prevent the default action of an event in JavaScript?", "answer": "Use the preventDefault() method on the event object, e.g., event.preventDefault();."}
+{"question": "What is setTimeout() in JavaScript?", "answer": "setTimeout() is a function that executes a specified function or code after a delay in milliseconds, e.g., setTimeout(() => { /* code */ }, 1000);."}
+{"question": "What is setInterval() in JavaScript?", "answer": "setInterval() is a function that repeatedly executes a specified function or code at fixed intervals in milliseconds, e.g., setInterval(() => { /* code */ }, 1000);."}
+{"question": "What is clearTimeout() in JavaScript?", "answer": "clearTimeout() is a function that cancels a timeout previously established by setTimeout(), e.g., clearTimeout(timeoutId);."}
+{"question": "What is clearInterval() in JavaScript?", "answer": "clearInterval() is a function that cancels an interval previously established by setInterval(), e.g., clearInterval(intervalId);."}
+{"question": "What is the location object in JavaScript?", "answer": "The location object provides information about the current URL and methods to manipulate it, such as changing the location or reloading the page."}
+{"question": "How do you get the current URL in JavaScript?", "answer": "Use window.location.href, e.g., let currentUrl = window.location.href;."}
+{"question": "How do you change the URL in JavaScript?", "answer": "Set window.location.href to the new URL, e.g., window.location.href = 'https://example.com';."}
+{"question": "What is history in JavaScript?", "answer": "The history object provides methods to manipulate the browser's history, such as navigating backward or forward in the history list."}
+{"question": "How do you go back to the previous page in JavaScript?", "answer": "Use window.history.back(), e.g., window.history.back();."}
+{"question": "How do you go forward to the next page in JavaScript?", "answer": "Use window.history.forward(), e.g., window.history.forward();."}
+{"question": "How do you push a new state onto the history stack?", "answer": "Use window.history.pushState() with the state object, title, and URL, e.g., window.history.pushState(state, title, 'newUrl');."}
+{"question": "How do you replace the current state in the history stack?", "answer": "Use window.history.replaceState() with the state object, title, and URL, e.g., window.history.replaceState(state, title, 'newUrl');."}
+{"question": "What is window.navigator?", "answer": "window.navigator provides information about the browser and the operating system, including capabilities like online status and geolocation."}
+{"question": "What is window.performance?", "answer": "window.performance provides access to performance-related information about the browser and the webpage, including timing and memory usage."}
+{"question": "What is window.alert()?", "answer": "window.alert() displays an alert dialog with a specified message and an OK button, e.g., window.alert('This is an alert!');."}
+{"question": "What is window.confirm()?", "answer": "window.confirm() displays a dialog with a specified message, an OK button, and a Cancel button, and returns a boolean indicating the user's choice, e.g., let result = window.confirm('Are you sure?');."}
+{"question": "What is window.prompt()?", "answer": "window.prompt() displays a dialog with a specified message and an input field, and returns the user's input, e.g., let userInput = window.prompt('Enter your name:');."}
+{"question": "What is window.open()?", "answer": "window.open() opens a new browser window or tab with a specified URL, e.g., window.open('https://example.com', '_blank');."}
+{"question": "How do you close a window using JavaScript?", "answer": "Use window.close(), but it only works on windows opened by window.open(), e.g., window.close();."}
+{"question": "What is the window.onload event?", "answer": "The window.onload event fires when the entire page, including its content (images, scripts, etc.), has fully loaded."}
+{"question": "How do you set an event handler for the window.onload event?", "answer": "Assign a function to window.onload, e.g., window.onload = () => { /* code */ };."}
+{"question": "What is the window.onbeforeunload event?", "answer": "The window.onbeforeunload event fires when the user is about to leave the page, allowing you to prompt them with a confirmation dialog."}
+{"question": "How do you set an event handler for the window.onbeforeunload event?", "answer": "Assign a function to window.onbeforeunload, e.g., window.onbeforeunload = (event) => { event.returnValue = 'Are you sure you want to leave?'; };."}
+{"question": "What is document.cookie in JavaScript?", "answer": "document.cookie provides a way to read and write cookies associated with the current document."}
+{"question": "How do you set a cookie in JavaScript?", "answer": "Assign a string to document.cookie with key-value pairs and optional attributes, e.g., document.cookie = 'key=value; expires=Wed, 01 Jan 2025 00:00:00 GMT; path=/';."}
+{"question": "How do you get a cookie value in JavaScript?", "answer": "Parse document.cookie to find the desired key-value pair, e.g., let value = document.cookie.split('; ').find(row => row.startsWith('key=')).split('=')[1];."}
+{"question": "How do you delete a cookie in JavaScript?", "answer": "Set the cookie's expiration date to a past date, e.g., document.cookie = 'key=value; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/';."}
+{"question": "What is document.querySelectorAll()?", "answer": "document.querySelectorAll() returns a NodeList of all elements that match the specified CSS selector."}
+{"question": "What is the window.getComputedStyle() method?", "answer": "window.getComputedStyle() returns an object containing the computed style properties of an element, e.g., let style = window.getComputedStyle(element);."}
+{"question": "How do you get the value of a computed style property?", "answer": "Use the getPropertyValue() method on the object returned by window.getComputedStyle(), e.g., let color = style.getPropertyValue('color');."}
+{"question": "What is document.createDocumentFragment()?", "answer": "document.createDocumentFragment() creates a lightweight, minimal document object that can be used to group and manipulate DOM nodes before inserting them into the DOM."}
+{"question": "What is the MutationObserver object?", "answer": "The MutationObserver object provides a way to watch for changes to the DOM tree, such as additions or removals of nodes, and respond to those changes."}
+{"question": "How do you create a MutationObserver?", "answer": "Instantiate it with a callback function to handle mutations, e.g., let observer = new MutationObserver(callback);."}
+{"question": "How do you start observing for mutations using MutationObserver?", "answer": "Call the observe() method on the observer instance, specifying the target element and options for what mutations to observe, e.g., observer.observe(target, { attributes: true, childList: true });."}
+{"question": "How do you stop observing for mutations using MutationObserver?", "answer": "Call the disconnect() method on the observer instance, e.g., observer.disconnect();."}
+{"question": "What is window.matchMedia()?", "answer": "window.matchMedia() evaluates a media query string and returns a MediaQueryList object that can be used to determine if the query matches the current viewport."}
+{"question": "How do you use window.matchMedia() to listen for media query changes?", "answer": "Use the addListener() method on the MediaQueryList object, e.g., let mqList = window.matchMedia('(max-width: 600px)'); mqList.addListener(e => { /* handle changes */ });."}
+{"question": "How do you get the result of a media query using window.matchMedia()?", "answer": "Access the matches property of the MediaQueryList object, e.g., let isMatch = mqList.matches;."}

@@ -1,0 +1,100 @@
+{"question": "What is C++?", "answer": "C++ is a general-purpose programming language developed by Bjarne Stroustrup as an extension of C. It supports both procedural and object-oriented programming paradigms."}
+{"question": "What are the basic data types in C++?", "answer": "The basic data types in C++ include int, char, float, double, and bool."}
+{"question": "What is a class in C++?", "answer": "A class is a blueprint for creating objects in C++. It encapsulates data members (variables) and member functions (methods) into a single unit."}
+{"question": "What is an object in C++?", "answer": "An object is an instance of a class. It represents a specific entity in a program that has a state and behavior."}
+{"question": "What is inheritance in C++?", "answer": "Inheritance is a mechanism where a new class (derived class) inherits properties and behaviors from an existing class (base class)."}
+{"question": "What is polymorphism in C++?", "answer": "Polymorphism allows functions or methods to process objects differently depending on their data type or class. It can be achieved through function overloading, operator overloading, and inheritance."}
+{"question": "What is encapsulation in C++?", "answer": "Encapsulation is the concept of bundling data and methods that operate on the data into a single unit (class), and restricting access to some of the object's components."}
+{"question": "What is abstraction in C++?", "answer": "Abstraction is the process of hiding the implementation details and showing only the essential features of the object."}
+{"question": "What is a constructor in C++?", "answer": "A constructor is a special member function of a class that initializes objects of the class. It has the same name as the class and does not have a return type."}
+{"question": "What is a destructor in C++?", "answer": "A destructor is a special member function that is called when an object goes out of scope or is explicitly deleted. It has the same name as the class, preceded by a tilde (~), and does not have a return type."}
+{"question": "What is operator overloading in C++?", "answer": "Operator overloading allows you to define the behavior of operators (like +, -, *, etc.) for user-defined data types."}
+{"question": "What is function overloading in C++?", "answer": "Function overloading allows multiple functions with the same name to be defined, as long as they differ in the number or types of their parameters."}
+{"question": "What is the difference between a pointer and a reference in C++?", "answer": "A pointer is a variable that holds the memory address of another variable, while a reference is an alias for another variable."}
+{"question": "What is the purpose of the this pointer in C++?", "answer": "The this pointer is used within a class to refer to the current instance of the object."}
+{"question": "What is a virtual function in C++?", "answer": "A virtual function is a function that can be overridden in a derived class to provide polymorphic behavior."}
+{"question": "What is the difference between new and malloc?", "answer": "new is a C++ operator that allocates memory and calls the constructor, while malloc is a C function that only allocates memory and returns a void pointer."}
+{"question": "What is the delete operator in C++?", "answer": "The delete operator is used to free memory allocated by the new operator and calls the destructor for the object."}
+{"question": "What is an abstract class in C++?", "answer": "An abstract class is a class that cannot be instantiated and usually contains at least one pure virtual function."}
+{"question": "What is a pure virtual function?", "answer": "A pure virtual function is a function with no implementation that must be overridden in a derived class. It is declared by assigning 0 in its declaration."}
+{"question": "What is multiple inheritance in C++?", "answer": "Multiple inheritance is a feature of C++ where a class can inherit from more than one base class."}
+{"question": "What is a template in C++?", "answer": "A template allows functions and classes to operate with generic types, enabling code reuse for any data type."}
+{"question": "What is the Standard Template Library (STL)?", "answer": "The STL is a powerful set of C++ template classes to provide general-purpose classes and functions with templates that implement many popular and commonly used algorithms and data structures like vectors, lists, queues, and stacks."}
+{"question": "What is the difference between std::vector and std::array?", "answer": "std::vector is a dynamic array that can resize itself automatically, while std::array is a fixed-size array that does not change in size once initialized."}
+{"question": "What is a namespace in C++?", "answer": "A namespace is a declarative region that provides a scope to the identifiers (the names of types, functions, variables, etc.) inside it."}
+{"question": "What is exception handling in C++?", "answer": "Exception handling is a mechanism to handle runtime errors, allowing the program to continue or exit gracefully. It is done using try, catch, and throw keywords."}
+{"question": "What is the difference between throw and throws in C++?", "answer": "C++ uses only throw to raise exceptions. throws is not used in C++ (it is used in Java)."}
+{"question": "What are static variables and functions in C++?", "answer": "static variables are variables that maintain their value between function calls. static functions are functions that cannot be accessed outside their source file or outside their class."}
+{"question": "What is a const member function?", "answer": "A const member function is a function that does not modify any member variables of the class and can be called on const objects."}
+{"question": "What is a friend function in C++?", "answer": "A friend function is a function that is not a member of a class but still has access to the class's private and protected members."}
+{"question": "What is dynamic polymorphism?", "answer": "Dynamic polymorphism is achieved using virtual functions and is resolved at runtime rather than compile-time."}
+{"question": "What is static polymorphism?", "answer": "Static polymorphism is achieved using function overloading or operator overloading and is resolved at compile-time."}
+{"question": "What is the difference between struct and class?", "answer": "In struct, members are public by default, while in class, members are private by default."}
+{"question": "What is the difference between public, protected, and private access specifiers?", "answer": "public members are accessible from anywhere, protected members are accessible within the class and derived classes, and private members are accessible only within the class."}
+{"question": "What is a copy constructor?", "answer": "A copy constructor is a special constructor in C++ used to create a new object as a copy of an existing object."}
+{"question": "What is an assignment operator in C++?", "answer": "The assignment operator (=) is used to assign the value of one object to another existing object of the same class."}
+{"question": "What is deep copy and shallow copy in C++?", "answer": "A deep copy duplicates all objects, while a shallow copy duplicates as little as possible, typically only the references to objects."}
+{"question": "What is the purpose of the mutable keyword in C++?", "answer": "The mutable keyword allows a member of an object to be modified even if the object is declared as const."}
+{"question": "What are access specifiers in C++?", "answer": "Access specifiers define the access level for class members: public, protected, and private."}
+{"question": "What is a virtual destructor in C++?", "answer": "A virtual destructor ensures that the destructor of a derived class is called when an object is deleted through a pointer to the base class."}
+{"question": "What is the difference between delete and delete[]?", "answer": "delete is used to deallocate memory allocated for a single object, while delete[] is used to deallocate memory allocated for an array of objects."}
+{"question": "What is a friend class in C++?", "answer": "A friend class can access private and protected members of another class."}
+{"question": "What is the difference between malloc and calloc?", "answer": "malloc allocates a single block of memory, while calloc allocates multiple blocks of memory and initializes them to zero."}
+{"question": "What is a reference variable in C++?", "answer": "A reference variable is an alias for another variable. It is created using the & operator."}
+{"question": "What is the difference between ++i and i++?", "answer": "++i increments the value of i before its use, while i++ increments the value after its use."}
+{"question": "What is the use of the sizeof operator?", "answer": "The sizeof operator returns the size, in bytes, of a data type or object."}
+{"question": "What is a bitwise operator in C++?", "answer": "Bitwise operators perform operations on the binary representations of numbers. Examples include &, |, ^, ~, <<, and >>."}
+{"question": "What is the scope resolution operator in C++?", "answer": "The scope resolution operator (::) is used to define a function outside a class or to access a global variable when there is a local variable with the same name."}
+{"question": "What is a ternary operator in C++?", "answer": "The ternary operator (?:) is a shorthand for the if-else statement. It takes three operands: a condition, a result for true, and a result for false."}
+{"question": "What is a pointer to a function in C++?", "answer": "A pointer to a function stores the address of a function and can be used to invoke the function."}
+{"question": "What is the difference between exit() and return in C++?", "answer": "exit() terminates the program immediately, while return exits from the current function and can pass a value back to the caller."}
+{"question": "What is an enumeration in C++?", "answer": "An enumeration (enum) is a user-defined data type that consists of integral constants, representing a set of named values."}
+{"question": "What is a static_cast in C++?", "answer": "static_cast is a type of casting operator used to convert one data type to another with compile-time checking."}
+{"question": "What is an explicit keyword in C++?", "answer": "The explicit keyword prevents the compiler from performing implicit type conversions with constructors."}
+{"question": "What is a lambda expression in C++?", "answer": "A lambda expression is an anonymous function that can capture variables from its surrounding scope."}
+{"question": "What is RAII in C++?", "answer": "RAII (Resource Acquisition Is Initialization) is a programming idiom where resource allocation is tied to the lifetime of objects, ensuring that resources are properly released."}
+{"question": "What is a nullptr in C++?", "answer": "nullptr is a keyword representing a null pointer, introduced in C++11 to replace the older NULL."}
+{"question": "What is move semantics in C++?", "answer": "Move semantics allow resources to be moved from one object to another rather than copied, improving performance by avoiding unnecessary deep copies."}
+{"question": "What is a std::unique_ptr?", "answer": "std::unique_ptr is a smart pointer that owns and manages a dynamically allocated object, ensuring that it is deleted when the unique_ptr goes out of scope."}
+{"question": "What is a std::shared_ptr?", "answer": "std::shared_ptr is a smart pointer that allows multiple shared_ptr instances to share ownership of the same dynamically allocated object."}
+{"question": "What is the difference between std::vector and std::list?", "answer": "std::vector is a dynamic array, providing fast random access, while std::list is a doubly linked list, providing fast insertions and deletions."}
+{"question": "What is an iterator in C++?", "answer": "An iterator is an object that allows traversal through the elements of a container, such as std::vector or std::list."}
+{"question": "What is a function pointer in C++?", "answer": "A function pointer is a pointer that points to the address of a function, allowing the function to be called indirectly."}
+{"question": "What is a std::map in C++?", "answer": "std::map is an associative container that stores elements in key-value pairs, automatically sorting them by the key."}
+{"question": "What is a std::set in C++?", "answer": "std::set is an associative container that stores unique elements in a sorted order."}
+{"question": "What is a std::pair in C++?", "answer": "std::pair is a container that holds two values of potentially different types as a single unit."}
+{"question": "What is a std::tuple in C++?", "answer": "std::tuple is a fixed-size collection of values of different types, providing a way to return multiple values from a function."}
+{"question": "What is the purpose of the friend keyword?", "answer": "The friend keyword allows a non-member function or another class to access the private and protected members of a class."}
+{"question": "What is the difference between private and protected inheritance?", "answer": "In private inheritance, all public and protected members of the base class become private members in the derived class. In protected inheritance, they become protected members in the derived class."}
+{"question": "What is a forward declaration in C++?", "answer": "A forward declaration is a declaration of a class or function before its full definition, allowing its use in other parts of the code."}
+{"question": "What is a vtable in C++?", "answer": "A vtable (virtual table) is a table of pointers to virtual functions used in dynamic polymorphism to resolve function calls at runtime."}
+{"question": "What is the difference between std::string and char*?", "answer": "std::string is a C++ standard library class that handles strings more safely and conveniently than char*, which is a pointer to a C-style null-terminated string."}
+{"question": "What is the difference between cin and cout in C++?", "answer": "cin is an input stream used for input operations, while cout is an output stream used for output operations."}
+{"question": "What is a preprocessor directive in C++?", "answer": "Preprocessor directives, such as #include and #define, are instructions processed by the preprocessor before compilation begins."}
+{"question": "What is the difference between #include <filename> and #include \"filename\"?", "answer": "#include <filename> is used for standard library headers, while #include \"filename\" is used for user-defined headers."}
+{"question": "What is a template specialization?", "answer": "Template specialization allows a template to be customized for a specific data type."}
+{"question": "What is inline function in C++?", "answer": "An inline function is a function that suggests to the compiler to insert the function\u2019s body wherever the function is called, potentially improving performance by reducing function call overhead."}
+{"question": "What is a virtual destructor?", "answer": "A virtual destructor ensures that the destructor of the derived class is called when an object is deleted through a pointer to the base class."}
+{"question": "What is dynamic_cast in C++?", "answer": "dynamic_cast is used to safely convert pointers and references to classes up and down the inheritance hierarchy, checking at runtime whether the cast is valid."}
+{"question": "What is reinterpret_cast in C++?", "answer": "reinterpret_cast is used to cast one type to another, potentially unrelated type. It is used for low-level operations and should be used with caution."}
+{"question": "What is const_cast in C++?", "answer": "const_cast is used to add or remove the const qualifier from a variable."}
+{"question": "What is the difference between std::list and std::deque?", "answer": "std::list is a doubly linked list, while std::deque (double-ended queue) is a dynamic array that allows fast insertion and deletion from both ends."}
+{"question": "What is the difference between ++i and i++?", "answer": "++i increments the value of i before its use, while i++ increments the value after its use."}
+{"question": "What is the difference between endl and \\n?", "answer": "Both are used to insert a newline, but endl also flushes the output buffer, whereas \\n does not."}
+{"question": "What is a function prototype in C++?", "answer": "A function prototype declares a function and specifies its return type and parameters, but it does not define the function\u2019s body."}
+{"question": "What is the difference between struct and class in C++?", "answer": "The main difference is that in struct, members are public by default, whereas in class, they are private by default."}
+{"question": "What is a pure virtual function in C++?", "answer": "A pure virtual function is a function declared in a base class that must be overridden in derived classes. It is specified with = 0 in the declaration."}
+{"question": "What is this pointer in C++?", "answer": "The this pointer is an implicit pointer that points to the object for which a non-static member function is called."}
+{"question": "What is std::move in C++?", "answer": "std::move is a standard library function that enables move semantics by converting an object into an rvalue, allowing its resources to be moved instead of copied."}
+{"question": "What is std::forward in C++?", "answer": "std::forward is used to forward arguments while preserving their value category (lvalue or rvalue), often used in template code for perfect forwarding."}
+{"question": "What is the use of decltype in C++?", "answer": "decltype is a keyword that returns the type of an expression, allowing you to deduce the type of a variable at compile time."}
+{"question": "What is the difference between std::array and std::vector?", "answer": "std::array is a fixed-size array, while std::vector is a dynamic array that can resize itself automatically."}
+{"question": "What is emplace_back in C++?", "answer": "emplace_back is a member function of std::vector and other containers that constructs an element in place at the end of the container, potentially avoiding unnecessary copies."}
+{"question": "What is std::unique in C++?", "answer": "std::unique is an algorithm that removes consecutive duplicate elements in a range, effectively making all elements in the range unique."}
+{"question": "What is std::accumulate in C++?", "answer": "std::accumulate is an algorithm that calculates the sum (or other operations) of a range of elements, taking an initial value and a binary operation as arguments."}
+{"question": "What is std::transform in C++?", "answer": "std::transform is an algorithm that applies a function to each element in a range and stores the result in another range."}
+{"question": "What is std::for_each in C++?", "answer": "std::for_each is an algorithm that applies a function to each element in a range."}
+{"question": "What is a std::priority_queue in C++?", "answer": "std::priority_queue is a container adapter that provides constant time access to the largest (by default) element and logarithmic time insertion."}
+{"question": "What is a std::stack in C++?", "answer": "std::stack is a container adapter that provides LIFO (Last In, First Out) access to elements."}
+{"question": "What is std::queue in C++?", "answer": "std::queue is a container adapter that provides FIFO (First In, First Out) access to elements."}
+{"question": "What is std::bitset in C++?", "answer": "std::queue is a container adapter that provides FIFO (First In, First Out) access to elements."}

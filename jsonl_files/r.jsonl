@@ -1,0 +1,150 @@
+{"question": "What is R?", "answer": "R is a programming language and software environment for statistical computing and graphics. It is widely used for data analysis, statistical modeling, and visualization."}
+{"question": "How do you install R?", "answer": "R can be installed by downloading the installer from the CRAN website and following the installation instructions for your operating system."}
+{"question": "How do you check the version of R you are using?", "answer": "Use the command version or R.version in the R console to check the version of R you are using."}
+{"question": "What is an R script?", "answer": "An R script is a text file containing a sequence of R commands that can be executed as a batch to perform a set of tasks or analysis."}
+{"question": "How do you create a new R script in RStudio?", "answer": "In RStudio, you can create a new R script by going to File > New File > R Script."}
+{"question": "What is a data frame in R?", "answer": "A data frame is a table-like structure in R that stores data in rows and columns, where each column can contain different types of data."}
+{"question": "How do you create a data frame in R?", "answer": "Create a data frame using the data.frame() function. Example: df <- data.frame(Name = c(\"John\", \"Jane\"), Age = c(23, 25))."}
+{"question": "How do you read a CSV file into R?", "answer": "Use the read.csv() function to read a CSV file into a data frame. Example: data <- read.csv(\"file.csv\")."}
+{"question": "How do you write a data frame to a CSV file in R?", "answer": "Use the write.csv() function to write a data frame to a CSV file. Example: write.csv(data, \"file.csv\")."}
+{"question": "How do you install a package in R?", "answer": "Use the install.packages() function to install a package. Example: install.packages(\"ggplot2\")."}
+{"question": "How do you load a package in R?", "answer": "Load a package using the library() function. Example: library(ggplot2)."}
+{"question": "How do you list all installed packages in R?", "answer": "Use the installed.packages() function to list all installed packages."}
+{"question": "What is the ggplot2 package used for in R?", "answer": "The ggplot2 package is used for creating static graphics and visualizations based on the Grammar of Graphics."}
+{"question": "How do you create a simple scatter plot using ggplot2?", "answer": "Use ggplot() with geom_point(). Example: ggplot(data, aes(x = xvar, y = yvar)) + geom_point()."}
+{"question": "What is the dplyr package used for in R?", "answer": "The dplyr package is used for data manipulation, providing functions for filtering, selecting, grouping, and summarizing data."}
+{"question": "How do you filter rows in a data frame using dplyr?", "answer": "Use the filter() function. Example: filter(data, Age > 30)."}
+{"question": "How do you select specific columns in a data frame using dplyr?", "answer": "Use the select() function. Example: select(data, Name, Age)."}
+{"question": "What is the tidyr package used for in R?", "answer": "The tidyr package is used for tidying and reshaping data, including functions for pivoting and handling missing values."}
+{"question": "How do you reshape data from wide to long format using tidyr?", "answer": "Use the pivot_longer() function. Example: pivot_longer(data, cols = c(col1, col2), names_to = \"variable\", values_to = \"value\")."}
+{"question": "How do you handle missing values in R?", "answer": "Use functions like na.omit() to remove rows with missing values or is.na() to identify and handle missing values."}
+{"question": "How do you calculate the mean of a numeric vector in R?", "answer": "Use the mean() function. Example: mean(c(1, 2, 3, 4, 5))."}
+{"question": "How do you calculate the standard deviation of a numeric vector in R?", "answer": "Use the sd() function. Example: sd(c(1, 2, 3, 4, 5))."}
+{"question": "How do you create a histogram in R?", "answer": "Use the hist() function. Example: hist(data$column)."}
+{"question": "How do you create a boxplot in R?", "answer": "Use the boxplot() function. Example: boxplot(data$column)."}
+{"question": "How do you perform a linear regression in R?", "answer": "Use the lm() function to fit a linear model. Example: model <- lm(y ~ x, data = data)."}
+{"question": "How do you summarize a linear model in R?", "answer": "Use the summary() function on the model object. Example: summary(model)."}
+{"question": "What is the purpose of the apply() function in R?", "answer": "The apply() function is used to apply a function to the margins of an array or matrix, such as rows or columns."}
+{"question": "How do you apply a function to each row of a data frame in R?", "answer": "Use the apply() function with MARGIN = 1. Example: apply(data, 1, function(x) sum(x))."}
+{"question": "What is the sapply() function in R?", "answer": "The sapply() function applies a function to each element of a list or vector and simplifies the result to a vector or matrix."}
+{"question": "How do you concatenate two vectors in R?", "answer": "Use the c() function. Example: c(vector1, vector2)."}
+{"question": "How do you create a sequence of numbers in R?", "answer": "Use the seq() function. Example: seq(1, 10, by = 2)."}
+{"question": "How do you create a vector of repeated values in R?", "answer": "Use the rep() function. Example: rep(1:3, times = 3)."}
+{"question": "What is the for loop used for in R?", "answer": "The for loop is used to iterate over a sequence or vector, performing operations for each element."}
+{"question": "How do you write a for loop in R?", "answer": "Example: for(i in 1:5) { print(i) }."}
+{"question": "What is the while loop used for in R?", "answer": "The while loop is used to execute a block of code repeatedly as long as a specified condition is true."}
+{"question": "How do you write a while loop in R?", "answer": "Example: i <- 1; while(i <= 5) { print(i); i <- i + 1 }."}
+{"question": "What is a function in R?", "answer": "A function in R is a block of code designed to perform a specific task, defined using the function() keyword."}
+{"question": "How do you define a function in R?", "answer": "Define a function using the function() keyword. Example: my_function <- function(x) { x + 1 }."}
+{"question": "How do you call a function in R?", "answer": "Call a function by using its name followed by parentheses. Example: my_function(5)."}
+{"question": "What are R's vectorized operations?", "answer": "Vectorized operations in R allow for performing operations on entire vectors or matrices without explicit loops, improving performance and readability."}
+{"question": "How do you use if statements in R?", "answer": "Use if statements for conditional execution. Example: if (x > 0) { print(\"Positive\") } else { print(\"Non-positive\") }."}
+{"question": "How do you use else if in R?", "answer": "Use else if for multiple conditions. Example: if (x > 0) { print(\"Positive\") } else if (x < 0) { print(\"Negative\") } else { print(\"Zero\") }."}
+{"question": "What is the switch() function in R?", "answer": "The switch() function selects one of several alternatives based on the value of an expression."}
+{"question": "How do you use the switch() function in R?", "answer": "Example: switch(expression, case1 = result1, case2 = result2)."}
+{"question": "What is the purpose of the return() function in R?", "answer": "The return() function is used to return a value from a function."}
+{"question": "How do you handle missing data in R?", "answer": "Handle missing data using functions like na.omit(), na.rm = TRUE, or by imputing missing values."}
+{"question": "How do you install a package from GitHub in R?", "answer": "Use the devtools package with install_github(). Example: devtools::install_github(\"user/repo\")."}
+{"question": "How do you check the documentation for a function in R?", "answer": "Use the ? operator or help() function. Example: ?mean or help(mean)."}
+{"question": "What is an R Markdown document?", "answer": "An R Markdown document is a file that combines R code with Markdown to create dynamic reports that include text, code, and results."}
+{"question": "How do you create an R Markdown document in RStudio?", "answer": "Go to File > New File > R Markdown and follow the prompts."}
+{"question": "How do you render an R Markdown document?", "answer": "Use the rmarkdown::render() function or click the \"Knit\" button in RStudio."}
+{"question": "What is the shiny package used for in R?", "answer": "The shiny package is used to build interactive web applications directly from R."}
+{"question": "How do you create a basic Shiny app?", "answer": "Define a UI and server function and use shinyApp(). Example: shinyApp(ui = fluidPage(\"Hello\"), server = function(input, output) {})."}
+{"question": "What is the plotly package used for in R?", "answer": "The plotly package is used for creating interactive plots and dashboards in R."}
+{"question": "How do you create an interactive plot using plotly?", "answer": "Use plot_ly() to create interactive plots. Example: plot_ly(data, x = ~xvar, y = ~yvar, type = 'scatter', mode = 'markers')."}
+{"question": "What is the data.table package used for in R?", "answer": "The data.table package provides an enhanced version of data frames, offering fast aggregation, filtering, and data manipulation."}
+{"question": "How do you create a data.table object?", "answer": "Use the data.table() function. Example: dt <- data.table(Name = c(\"John\", \"Jane\"), Age = c(23, 25))."}
+{"question": "How do you subset rows in a data.table?", "answer": "Use square brackets [ ] with conditions. Example: dt[Age > 23]."}
+{"question": "How do you perform group-wise operations in data.table?", "answer": "Use the by argument in square brackets. Example: dt[, .(mean_age = mean(Age)), by = Name]."}
+{"question": "What is the lubridate package used for in R?", "answer": "The lubridate package simplifies date and time manipulation and parsing."}
+{"question": "How do you parse dates using lubridate?", "answer": "Use functions like ymd(), mdy(), dmy(). Example: ymd(\"2024-08-01\")."}
+{"question": "How do you extract the year from a date in R?", "answer": "Use format() or lubridate::year(). Example: format(date, \"%Y\") or year(date)."}
+{"question": "What is the purpose of the stringr package in R?", "answer": "The stringr package provides functions for string manipulation and regular expressions."}
+{"question": "How do you detect patterns in strings using stringr?", "answer": "Use functions like str_detect(). Example: str_detect(string, \"pattern\")."}
+{"question": "How do you replace substrings in a string using stringr?", "answer": "Use the str_replace() function. Example: str_replace(string, \"old\", \"new\")."}
+{"question": "What is the caret package used for in R?", "answer": "The caret package is used for training and evaluating machine learning models, including data splitting, preprocessing, and model tuning."}
+{"question": "How do you split data into training and test sets using caret?", "answer": "Use the createDataPartition() function. Example: trainIndex <- createDataPartition(data$target, p = .8, list = FALSE)."}
+{"question": "What is the purpose of the randomForest package in R?", "answer": "The randomForest package is used for building and evaluating random forest models for classification and regression tasks."}
+{"question": "How do you fit a random forest model using randomForest?", "answer": "Use the randomForest() function. Example: model <- randomForest(target ~ ., data = training_data)."}
+{"question": "What is the xgboost package used for in R?", "answer": "The xgboost package is used for creating and tuning gradient boosting models."}
+{"question": "How do you train an XGBoost model using xgboost?", "answer": "Use the xgboost() function with parameters for boosting. Example: model <- xgboost(data = dtrain, label = y, nrounds = 100)."}
+{"question": "What is the Rcpp package used for in R?", "answer": "The Rcpp package facilitates the integration of R with C++ code, allowing for high-performance computing."}
+{"question": "How do you use Rcpp to call C++ code from R?", "answer": "Write C++ functions in a source file, use Rcpp::sourceCpp() to compile, and call the functions directly from R."}
+{"question": "How do you use apply() to calculate row means in a matrix?", "answer": "Example: apply(matrix, 1, mean)."}
+{"question": "How do you install packages in R from a local source file?", "answer": "Use the install.packages() function with the repos = NULL argument. Example: install.packages(\"path/to/package.tar.gz\", repos = NULL, type = \"source\")."}
+{"question": "What is the knitr package used for in R?", "answer": "The knitr package is used for dynamic report generation in R, including embedding R code in Markdown and LaTeX documents."}
+{"question": "How do you create a dynamic report using knitr?", "answer": "Write R code chunks in an R Markdown document and use knit() to generate a report in the desired format."}
+{"question": "What is the RSQLite package used for in R?", "answer": "The RSQLite package provides an interface to SQLite databases, allowing R to interact with SQLite databases for data manipulation and queries."}
+{"question": "How do you connect to an SQLite database using RSQLite?", "answer": "Use dbConnect() from the DBI package with RSQLite::SQLite(). Example: conn <- dbConnect(RSQLite::SQLite(), \"database.sqlite\")."}
+{"question": "How do you execute a SQL query in R using RSQLite?", "answer": "Use dbSendQuery() and dbFetch(). Example: query <- dbSendQuery(conn, \"SELECT * FROM table\"); data <- dbFetch(query)."}
+{"question": "What is the datawizard package used for in R?", "answer": "The datawizard package provides tools for data preprocessing, such as transforming and visualizing data."}
+{"question": "How do you scale numeric data using datawizard?", "answer": "Use the scale() function. Example: scaled_data <- scale(data)."}
+{"question": "What is the forcats package used for in R?", "answer": "The forcats package provides tools for working with categorical variables (factors) in R."}
+{"question": "How do you reorder levels of a factor using forcats?", "answer": "Use fct_reorder(). Example: fct_reorder(factor, numeric_variable)."}
+{"question": "How do you deal with categorical variables in regression models?", "answer": "Convert categorical variables to factors and use them in regression models, or use dummy variables if needed."}
+{"question": "How do you install a package from CRAN in R?", "answer": "Use the install.packages() function. Example: install.packages(\"package_name\")."}
+{"question": "How do you update all packages in R?", "answer": "Use the update.packages() function."}
+{"question": "What is the profvis package used for in R?", "answer": "The profvis package is used for profiling R code to identify performance bottlenecks and optimize code execution."}
+{"question": "How do you use profvis to profile your R code?", "answer": "Use the profvis() function. Example: profvis({ # Your code here })."}
+{"question": "What is the rmarkdown package used for in R?", "answer": "The rmarkdown package provides tools for creating dynamic reports and documents with embedded R code."}
+{"question": "How do you create a PDF report using rmarkdown?", "answer": "Write an R Markdown document with PDF output format and knit it to generate a PDF report."}
+{"question": "What is the httr package used for in R?", "answer": "The httr package provides tools for working with HTTP requests and APIs in R."}
+{"question": "How do you make a GET request using httr?", "answer": "Use GET(). Example: response <- GET(\"https://api.example.com/data\")."}
+{"question": "What is the ggplot2 package used for in R?", "answer": "The ggplot2 package is used for creating static, complex plots and visualizations based on the grammar of graphics."}
+{"question": "How do you create a scatter plot using ggplot2?", "answer": "Use ggplot() with geom_point(). Example: ggplot(data, aes(x = xvar, y = yvar)) + geom_point()."}
+{"question": "How do you customize the appearance of plots in ggplot2?", "answer": "Use functions like theme(), labs(), and scale_*_manual(). Example: ggplot(data, aes(x = xvar, y = yvar)) + geom_point() + theme_minimal()."}
+{"question": "What is the gtools package used for in R?", "answer": "The gtools package provides various tools for data manipulation, including functions for ordering, summarizing, and transforming data."}
+{"question": "How do you find unique values in a vector using gtools?", "answer": "Use unique(). Example: unique(vector)."}
+{"question": "What is the magrittr package used for in R?", "answer": "The magrittr package provides the pipe operator %>% for chaining commands and improving code readability."}
+{"question": "How do you use the pipe operator in R?", "answer": "Use %>% to pass the result of one function as the input to another. Example: data %>% filter(x > 10) %>% summarize(mean_x = mean(x))."}
+{"question": "What is the kableExtra package used for in R?", "answer": "The kableExtra package provides additional functionalities to enhance tables created with the knitr::kable() function."}
+{"question": "How do you create a styled table using kableExtra?", "answer": "Use functions like kable() and kable_styling(). Example: kable(data) %>% kable_styling(bootstrap_options = c(\"striped\", \"hover\"))."}
+{"question": "What is the plotly package used for in R?", "answer": "The plotly package provides interactive plotting capabilities for R."}
+{"question": "How do you add a title to a plotly plot?", "answer": "Use the layout() function. Example: plot_ly(data, x = ~xvar, y = ~yvar) %>% layout(title = \"Plot Title\")."}
+{"question": "How do you create a time series plot using ggplot2?", "answer": "Use geom_line() with ggplot(). Example: ggplot(data, aes(x = date, y = value)) + geom_line()."}
+{"question": "How do you perform a t-test in R?", "answer": "Use the t.test() function. Example: t.test(x = sample1, y = sample2)."}
+{"question": "How do you perform a chi-squared test in R?", "answer": "Use the chisq.test() function. Example: chisq.test(table(data$variable))."}
+{"question": "How do you create a boxplot in R?", "answer": "Use boxplot(). Example: boxplot(data$variable)."}
+{"question": "What is the dplyr package used for in R?", "answer": "The dplyr package provides functions for data manipulation, including filtering, summarizing, and arranging data."}
+{"question": "How do you filter rows using dplyr?", "answer": "Use filter(). Example: data %>% filter(variable > 10)."}
+{"question": "How do you summarize data using dplyr?", "answer": "Use summarize(). Example: data %>% summarize(mean_value = mean(variable))."}
+{"question": "What is the reshape2 package used for in R?", "answer": "The reshape2 package is used for reshaping and aggregating data, including melting and casting data frames."}
+{"question": "How do you reshape data from wide to long format using reshape2?", "answer": "Use melt(). Example: melt(data, id.vars = \"id\")."}
+{"question": "How do you reshape data from long to wide format using reshape2?", "answer": "Use dcast(). Example: dcast(data, id ~ variable, value.var = \"value\")."}
+{"question": "What is the rpart package used for in R?", "answer": "The rpart package provides functions for building recursive partitioning and regression trees."}
+{"question": "How do you build a decision tree using rpart?", "answer": "Use the rpart() function. Example: tree <- rpart(target ~ ., data = training_data)."}
+{"question": "What is the knitr package used for in R?", "answer": "The knitr package is used for dynamic report generation by integrating R code and output into various formats."}
+{"question": "How do you include R code in a LaTeX document using knitr?", "answer": "Write R code chunks in a R Markdown file with latex output format and knit to generate a LaTeX document."}
+{"question": "What is the survival package used for in R?", "answer": "The survival package provides functions for analyzing survival data, including Kaplan-Meier curves and Cox proportional hazards models."}
+{"question": "How do you fit a Cox proportional hazards model using survival?", "answer": "Use coxph(). Example: model <- coxph(Surv(time, status) ~ predictor, data = dataset)."}
+{"question": "What is the forecast package used for in R?", "answer": "The forecast package provides tools for time series forecasting, including various models and accuracy measures."}
+{"question": "How do you fit an ARIMA model using forecast?", "answer": "Use auto.arima(). Example: model <- auto.arima(time_series)."}
+{"question": "What is the foreach package used for in R?", "answer": "The foreach package is used for parallel processing by providing a loop construct that works with parallel backends."}
+{"question": "How do you use foreach for parallel processing?", "answer": "Use foreach() with %dopar% to execute iterations in parallel. Example: foreach(i = 1:10) %dopar% { # Code here }."}
+{"question": "What is the highcharter package used for in R?", "answer": "The highcharter package provides an interface to the Highcharts JavaScript library for creating interactive charts."}
+{"question": "How do you create a line chart using highcharter?", "answer": "Use hc_add_series() with hc_chart(). Example: highchart() %>% hc_add_series(data = data, type = \"line\")."}
+{"question": "What is the Hmisc package used for in R?", "answer": "The Hmisc package provides functions for data analysis, including data manipulation, statistical analysis, and graphics."}
+{"question": "How do you summarize data using Hmisc?", "answer": "Use describe(). Example: describe(data)."}
+{"question": "How do you handle missing values in R?", "answer": "Use functions like na.omit(), na.rm = TRUE in summary functions, or imputation techniques."}
+{"question": "How do you install packages in R from GitHub?", "answer": "Use the devtools package with install_github(). Example: devtools::install_github(\"user/repo\")."}
+{"question": "How do you check the version of an installed package?", "answer": "Use packageVersion(). Example: packageVersion(\"ggplot2\")."}
+{"question": "How do you create a factor variable in R?", "answer": "Use factor(). Example: factor_variable <- factor(c(\"low\", \"medium\", \"high\"))."}
+{"question": "How do you convert a factor to numeric in R?", "answer": "Use as.numeric(), but be careful of factor levels. Example: as.numeric(as.character(factor_variable))."}
+{"question": "How do you calculate correlations between variables in R?", "answer": "Use cor(). Example: cor(data$var1, data$var2)."}
+{"question": "How do you fit a linear regression model in R?", "answer": "Use lm(). Example: model <- lm(y ~ x, data = dataset)."}
+{"question": "How do you extract model coefficients from a linear model in R?", "answer": "Use coef(). Example: coef(model)."}
+{"question": "How do you perform a linear model diagnostic in R?", "answer": "Use functions like plot() on the model object. Example: plot(model)."}
+{"question": "How do you visualize model residuals in R?", "answer": "Use plot() with residuals(). Example: plot(residuals(model))."}
+{"question": "What is the data.table package used for in R?", "answer": "The data.table package provides an enhanced data frame for fast and efficient data manipulation."}
+{"question": "How do you read a CSV file using data.table?", "answer": "Use fread(). Example: data <- fread(\"file.csv\")."}
+{"question": "How do you perform data aggregation using data.table?", "answer": "Use data.table syntax with by. Example: data[, .(mean_value = mean(variable)), by = group]."}
+{"question": "How do you use ggplot2 to create a bar plot?", "answer": "Use geom_bar(). Example: ggplot(data, aes(x = category)) + geom_bar()."}
+{"question": "What is the leaflet package used for in R?", "answer": "The leaflet package provides an interface to the Leaflet JavaScript library for creating interactive maps."}
+{"question": "How do you create a map using leaflet?", "answer": "Use leaflet() and addTiles(). Example: leaflet() %>% addTiles() %>% addMarkers(lng = -122.5, lat = 37.7, popup = \"San Francisco\")."}
+{"question": "What is the lubridate package used for in R?", "answer": "The lubridate package provides functions for working with dates and times."}
+{"question": "How do you parse a date using lubridate?", "answer": "Use ymd(), dmy(), or similar functions. Example: ymd(\"2024-08-12\")."}
+{"question": "How do you extract the year from a date using lubridate?", "answer": "Use year(). Example: year(date_variable)."}
+{"question": "What is the shiny package used for in R?", "answer": "The shiny package is used for building interactive web applications directly from R."}
+{"question": "How do you create a simple Shiny app?", "answer": "Define ui and server functions, and run the app with shinyApp(). Example:"}
+{"question": "How do you deploy a Shiny app to the web?", "answer": "Use Shinyapps.io or deploy via a Shiny server."}
