@@ -24,11 +24,11 @@ if not os.path.isdir(fine_tuned_model_dir):
 tokenizer = GPT2Tokenizer.from_pretrained(fine_tuned_model_dir)
 gpt2_model = GPT2LMHeadModel.from_pretrained(fine_tuned_model_dir)
 
-def generate_follow_up_question(answer_text, resume_text, asked_questions, asked_topics):
+def generate_follow_up_question(answer_text, resume_text, asked_questions):
     # Create a context snippet based on key details from the resume
     snippet = create_context_snippet(resume_text)
     
-    prompt = f"Based on the following resume snippet and the answer given, generate a relevant and professional follow-up question. The question should be closely related to the user's response and should avoid being generic or irrelevant. Ensure to switch topics if the user has expressed frustration or requested a topic change.\nResume Snippet: {snippet}\nAnswer: {answer_text}\nPrevious Questions: {'; '.join(asked_questions)}\nAsked Topics: {'; '.join(asked_topics)}\nFollow-up Question:"
+    prompt = f"Based on the following resume snippet and the answer given, generate a relevant and professional follow-up question. The question should be closely related to the user's response and should avoid being generic or irrelevant.\nResume Snippet: {snippet}\nAnswer: {answer_text}\nPrevious Questions: {'; '.join(asked_questions)}\nFollow-up Question:"
     inputs = tokenizer.encode(prompt, return_tensors="pt")
     
     # Generate follow-up question
@@ -36,7 +36,7 @@ def generate_follow_up_question(answer_text, resume_text, asked_questions, asked
         inputs,
         max_new_tokens=50,
         num_return_sequences=1,
-        temperature=0.6,
+        temperature=0.7,
         top_p=0.9,
         top_k=50,
         pad_token_id=tokenizer.eos_token_id,
@@ -55,11 +55,11 @@ def generate_follow_up_question(answer_text, resume_text, asked_questions, asked
 
     # Check if the question is too generic or irrelevant
     if "resume" in question.lower() or "job" in question.lower() or len(question.split()) < 4:
-        question = generate_fallback_question(asked_questions, asked_topics)
+        question = generate_fallback_question(asked_questions)
 
     # If the generated question is similar to a previous one, return a fallback question
     if question in asked_questions:
-        question = generate_fallback_question(asked_questions, asked_topics)
+        question = generate_fallback_question(asked_questions)
 
     return question if question else "Can you provide more details?"
 
@@ -70,29 +70,25 @@ def create_context_snippet(resume_text):
     snippet = " ".join(keywords[:200])  # Create a snippet with the first 200 words
     return snippet
 
-def generate_fallback_question(asked_questions, asked_topics):
+def generate_fallback_question(asked_questions):
     fallback_questions = [
-        "Can you tell me more about your experience",
+        "Can you tell me more about your experience with AI?",
         "What projects are you most proud of?",
         "How do you stay updated with the latest trends in your field?",
         "Can you describe a challenging problem you've solved?",
-        "What are your career goals?",
-        "What programming languages are you familiar with?",
-        "Can you explain a recent project you worked on?",
-        "How do you approach problem-solving in your projects?"
+        "What are your career goals?"
     ]
-    
-    # Define topics to ensure diversity
-    topics = ["AI", "ML", "Deep Learning", "Computer Vision", "Data Science", "Python", "Java"]
-    
-    # Check if the fallback questions are related to any of the asked topics
+    # Select a fallback question that hasn't been asked yet
     remaining_questions = [q for q in fallback_questions if q not in asked_questions]
     if remaining_questions:
         return random.choice(remaining_questions)
     else:
-        # Select a new topic and generate a question from that topic
-        new_topic = random.choice([t for t in topics if t not in asked_topics])
-        return f"Can you describe your experience with {new_topic}?"
+        return "What else can you share about your background?"
+
+# Function to get the answer to a question
+def ask_question(resume_text, question):
+    result = qa_pipeline(question=question, context=resume_text)
+    return result['answer']
 
 # Streamlit app
 st.title("AI Interviewer")
@@ -109,8 +105,6 @@ if "conversation" not in st.session_state:
     st.session_state.conversation = []
 if "asked_questions" not in st.session_state:
     st.session_state.asked_questions = []
-if "asked_topics" not in st.session_state:
-    st.session_state.asked_topics = []
 if "user_answer" not in st.session_state:
     st.session_state.user_answer = ""
 
@@ -137,9 +131,6 @@ if st.session_state.resume_text:
                 "answer": ""
             })
             st.session_state.asked_questions.append(st.session_state.current_question)
-            # Add a topic based on the initial question
-            topic = "Technical Skills" if "skills" in st.session_state.current_question.lower() else "General"
-            st.session_state.asked_topics.append(topic)
 
     # Display the current question
     if st.session_state.current_question:
@@ -156,18 +147,13 @@ if st.session_state.resume_text:
                     st.session_state.conversation[-1]["answer"] = user_answer
 
                     # Generate the next question based on the user's answer and resume text
-                    follow_up_question = generate_follow_up_question(user_answer, st.session_state.resume_text, st.session_state.asked_questions, st.session_state.asked_topics)
+                    follow_up_question = generate_follow_up_question(user_answer, st.session_state.resume_text, st.session_state.asked_questions)
                     st.session_state.current_question = follow_up_question
                     st.session_state.conversation.append({
                         "question": follow_up_question,
                         "answer": ""
                     })
                     st.session_state.asked_questions.append(follow_up_question)
-
-                    # Add a topic based on the new question
-                    new_topic = "Technical Skills" if "skills" in follow_up_question.lower() else "General"
-                    if new_topic not in st.session_state.asked_topics:
-                        st.session_state.asked_topics.append(new_topic)
 
                     # Clear the input box by re-running the script
                     st.rerun()
