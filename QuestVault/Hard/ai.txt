@@ -1,0 +1,203 @@
+Q: What is the difference between supervised and unsupervised learning in machine learning?
+A: Supervised learning involves training a model on a labeled dataset, meaning each training example is paired with an output label. The model learns to map inputs to the correct output based on this data. In contrast, unsupervised learning deals with unlabeled data. The model tries to identify patterns, such as clustering similar data points together or finding hidden structures in the data without any predefined labels.
+
+Q: What is the purpose of dropout in neural networks?
+A: Dropout is a regularization technique used to prevent overfitting in neural networks. During training, dropout randomly deactivates a fraction of neurons in each layer at each iteration. This forces the network to learn more robust features that are not reliant on specific neurons, which improves generalization and reduces the risk of overfitting to the training data.
+
+Q: How does a convolutional neural network (CNN) work?
+A: A CNN is designed to automatically and adaptively learn spatial hierarchies of features from input images. It uses convolutional layers to apply filters (kernels) that slide over the image to detect patterns like edges and textures. These features are then pooled to reduce dimensionality, and fully connected layers at the end make the final classification or prediction based on the extracted features.
+
+Q: What is the Vanishing Gradient Problem?
+A: The Vanishing Gradient Problem occurs in deep neural networks when gradients of the loss function with respect to the weights become very small as they are propagated backward through the network. This issue makes it difficult for the network to learn and update weights effectively, especially in very deep networks, leading to poor performance in training.
+
+Q: Explain the concept of 'bias-variance tradeoff' in machine learning.
+A: The bias-variance tradeoff is a fundamental concept in machine learning that describes the balance between model complexity and its performance. Bias refers to the error introduced by approximating a real-world problem with a simplified model, while variance refers to the error introduced by sensitivity to fluctuations in the training dataset. A model with high bias is too simple and may underfit the data, whereas a model with high variance is too complex and may overfit the data. The goal is to find a model that minimizes both bias and variance to achieve optimal performance.
+
+Q: What is reinforcement learning and how does it differ from supervised learning?
+A: Reinforcement learning (RL) is a type of machine learning where an agent learns to make decisions by performing actions in an environment to maximize cumulative reward. Unlike supervised learning, which relies on labeled data and predefined outputs, RL involves learning from interactions with the environment and receiving feedback in the form of rewards or penalties, allowing the agent to improve its behavior over time.
+
+Q: What is the purpose of the activation function in a neural network?
+A: The activation function introduces non-linearity into the neural network model, allowing it to learn and represent complex patterns in the data. Without an activation function, the network would only be able to model linear relationships, limiting its capacity to solve more complex problems. Common activation functions include ReLU, sigmoid, and tanh.
+
+Q: Describe the 'Attention Mechanism' in neural networks.
+A: The attention mechanism allows neural networks to focus on specific parts of the input data when making predictions, similar to how humans pay attention to relevant information. It assigns different weights to different parts of the input sequence, allowing the model to emphasize important features and improve performance on tasks such as machine translation and text summarization.
+
+Q: What is Transfer Learning?
+A: Transfer learning involves taking a pre-trained model on a large dataset and fine-tuning it on a smaller, domain-specific dataset. This approach leverages the knowledge gained from the initial training to improve performance on a new but related task, reducing the need for large amounts of data and computational resources for training from scratch.
+
+Q: Explain the concept of 'Gradient Descent' and its variants.
+A: Gradient Descent is an optimization algorithm used to minimize the loss function of a machine learning model by iteratively adjusting the model's parameters in the direction of the negative gradient. Variants of Gradient Descent include Stochastic Gradient Descent (SGD), which updates parameters using a single training example, and Mini-batch Gradient Descent, which uses a subset of training examples. These variants help balance computational efficiency and convergence speed.
+
+Q: What are Generative Adversarial Networks (GANs) and how do they work?
+A: GANs consist of two neural networks, a generator and a discriminator, that compete against each other in a game-theoretic framework. The generator creates synthetic data samples, while the discriminator attempts to distinguish between real and generated samples. Through this adversarial process, the generator improves its ability to produce realistic data, leading to high-quality generative models.
+
+Q: What is overfitting, and how can it be prevented?
+A: Overfitting occurs when a model learns the training data too well, capturing noise and details specific to the training set rather than generalizing to new data. It can be prevented by using techniques such as cross-validation, regularization methods (e.g., L1/L2 regularization), dropout, and early stopping, which help ensure the model performs well on unseen data.
+
+Q: What is the difference between bagging and boosting in ensemble methods?
+A: Bagging (Bootstrap Aggregating) involves training multiple models independently on different subsets of the data and combining their predictions to improve accuracy and reduce variance. Boosting, on the other hand, trains models sequentially, with each model focusing on correcting the errors of the previous ones, which helps reduce both bias and variance and often improves overall model performance.
+
+Q: What is the role of hyperparameters in machine learning models?
+A: Hyperparameters are external configurations of a machine learning model that are set before training begins and are not learned from the data. They control various aspects of the learning process, such as the learning rate, number of layers, and regularization strength. Tuning hyperparameters is crucial for optimizing model performance and achieving the best results on a given task.
+
+Q: Explain the concept of 'Reinforcement Learning' and its components.
+A: Reinforcement Learning (RL) is a type of machine learning where an agent learns to make decisions by interacting with an environment to maximize cumulative rewards. Key components of RL include the agent (which makes decisions), the environment (where the agent operates), states (representations of the environment's condition), actions (choices the agent can make), and rewards (feedback received after actions).
+
+Q: How does a Support Vector Machine (SVM) work?
+A: An SVM is a supervised learning model used for classification and regression tasks. It works by finding the optimal hyperplane that separates data points of different classes with the maximum margin. The goal is to minimize classification errors while maximizing the distance between the hyperplane and the nearest data points from each class, known as support vectors.
+
+Q: What is a confusion matrix and how is it used in classification tasks?
+A: A confusion matrix is a table used to evaluate the performance of a classification model by comparing predicted labels with true labels. It provides counts of true positives, true negatives, false positives, and false negatives, allowing the calculation of metrics such as accuracy, precision, recall, and F1 score to assess the model's effectiveness.
+
+Q: What are the key differences between LSTM and GRU networks?
+A: Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU) are both types of recurrent neural networks designed to handle long-term dependencies in sequential data. LSTMs use a more complex architecture with separate memory cells and gating mechanisms, while GRUs simplify this by combining the cell state and hidden state into a single vector and using fewer gates. GRUs are often computationally more efficient than LSTMs but may offer slightly less expressive power.
+
+Q: What is the purpose of normalization and standardization in data preprocessing?
+A: Normalization and standardization are techniques used to preprocess data to improve the performance of machine learning models. Normalization scales features to a specific range, typically [0, 1], while standardization transforms features to have a mean of 0 and a standard deviation of 1. These methods help ensure that features contribute equally to the model's learning process and improve convergence during training.
+
+Q: What is the concept of 'Embeddings' in Natural Language Processing (NLP)?
+A: In NLP, embeddings are numerical representations of words or phrases that capture semantic relationships and meanings. These dense vector representations are learned from large text corpora and allow the model to understand and process textual data by mapping similar words to nearby points in the vector space, facilitating various NLP tasks such as sentiment analysis and machine translation.
+
+Q: How do decision trees work and what are their advantages?
+A: Decision trees are a type of supervised learning model that splits data into subsets based on feature values, creating a tree-like structure of decisions. Each internal node represents a feature test, each branch represents an outcome of the test, and each leaf node represents a class label or value. Advantages of decision trees include their interpretability, ability to handle both numerical and categorical data, and the capability to capture non-linear relationships.
+
+Q: What is the purpose of cross-validation in model evaluation?
+A: Cross-validation is a technique used to assess the performance and generalizability of a machine learning model. It involves splitting the dataset into multiple folds, training the model on a subset of these folds, and evaluating it on the remaining fold. This process is repeated several times with different folds, providing a more reliable estimate of the model's performance and helping to identify potential issues such as overfitting.
+
+Q: What is the difference between a generative model and a discriminative model?
+A: Generative models learn to generate new data samples from the same distribution as the training data and can model the joint probability distribution of the features and labels. Discriminative models, on the other hand, focus on learning the boundary between different classes by modeling the conditional probability distribution of the labels given the features. Generative models are used for tasks like data generation, while discriminative models are used for classification and regression.
+
+Q: How does the k-means clustering algorithm work?
+A: The k-means clustering algorithm partitions data into k clusters by iteratively assigning data points to the nearest cluster centroid and then updating the centroids based on the mean of the points in each cluster. This process continues until the cluster assignments no longer change or a maximum number of iterations is reached, aiming to minimize the within-cluster variance.
+
+Q: What is the role of a loss function in machine learning?
+A: A loss function quantifies the difference between the predicted outputs of a machine learning model and the actual target values. It provides a measure of how well the model performs and guides the optimization process by indicating how to adjust the model's parameters to minimize the error and improve its predictions.
+
+Q: Describe the concept of 'Feature Engineering' in machine learning.
+A: Feature engineering involves creating new features or transforming existing ones to improve the performance of a machine learning model. This process includes selecting relevant features, combining or modifying features, and encoding categorical variables, with the goal of providing the model with informative and meaningful input data that enhances its ability to make accurate predictions.
+
+Q: What is 'Data Augmentation' and why is it important?
+A: Data augmentation is a technique used to increase the size and diversity of a training dataset by creating modified versions of existing data samples. This can involve transformations such as rotation, scaling, or cropping for images, or synonym replacement for text. Data augmentation helps improve model generalization, especially when the original dataset is small, and reduces the risk of overfitting.
+
+Q: What are 'Hyperparameters' in machine learning, and how are they tuned?
+A: Hyperparameters are configuration settings used to control the training process and structure of a machine learning model, such as the learning rate, number of layers, and batch size. They are not learned from the data but are set before training begins. Hyperparameter tuning involves systematically searching for the best combination of hyperparameters using techniques such as grid search, random search, or Bayesian optimization to optimize model performance.
+
+Q: How does the 'Backpropagation' algorithm work in neural networks?
+A: Backpropagation is an optimization algorithm used to train neural networks by updating weights through gradient descent. It involves computing the gradient of the loss function with respect to each weight by applying the chain rule of calculus, propagating the error backward through the network from the output layer to the input layer. This process allows the network to adjust its weights to minimize the loss and improve performance.
+
+Q: What is the 'Curse of Dimensionality' and how does it affect machine learning models?
+A: The Curse of Dimensionality refers to the various challenges and inefficiencies that arise when working with high-dimensional data. As the number of features increases, the volume of the space grows exponentially, leading to sparse data and increased computational requirements. This can negatively impact model performance and make it difficult to identify meaningful patterns, often requiring dimensionality reduction techniques to address the issue.
+
+Q: Explain the concept of 'Dimensionality Reduction' and its techniques.
+A: Dimensionality reduction involves reducing the number of features in a dataset while retaining its essential characteristics. Techniques such as Principal Component Analysis (PCA) and t-Distributed Stochastic Neighbor Embedding (t-SNE) are commonly used to transform high-dimensional data into lower dimensions, making it easier to visualize, process, and analyze while mitigating the effects of the curse of dimensionality.
+
+Q: What are 'Autoencoders' and how are they used in machine learning?
+A: Autoencoders are neural network architectures designed to learn efficient representations of input data by compressing it into a lower-dimensional latent space and then reconstructing it back to the original form. They are used for tasks such as dimensionality reduction, denoising, and anomaly detection, as they can capture the underlying structure of the data and remove noise or reconstruct missing information.
+
+Q: What is 'Feature Selection' and why is it important?
+A: Feature selection is the process of identifying and selecting the most relevant features from a dataset to improve model performance and reduce computational complexity. By removing irrelevant or redundant features, feature selection helps enhance model accuracy, interpretability, and training efficiency, and can prevent overfitting by focusing on the most informative aspects of the data.
+
+Q: How does the 'Naive Bayes' classifier work and when is it used?
+A: The Naive Bayes classifier is a probabilistic model based on Bayes' theorem that assumes independence between features given the class label. It calculates the posterior probability of a class given the input features and assigns the class with the highest probability to the input. Despite its simplifying assumption of feature independence, it performs well in many classification tasks, especially with text data and large datasets.
+
+Q: What is 'Gradient Boosting' and how does it differ from traditional boosting methods?
+A: Gradient Boosting is an ensemble learning technique that builds models sequentially, with each new model correcting the errors of the previous ones by fitting to the residuals of the predictions. Unlike traditional boosting methods, which focus on improving accuracy by adding weak learners, Gradient Boosting uses gradient descent to minimize the loss function, making it highly effective for complex regression and classification tasks.
+
+Q: What are 'Recurrent Neural Networks' (RNNs) and their applications?
+A: Recurrent Neural Networks (RNNs) are a class of neural networks designed to handle sequential data by maintaining a hidden state that captures information from previous time steps. They are particularly useful for tasks involving time-series data, natural language processing, and speech recognition, where the context and order of the input sequences are important for making predictions.
+
+Q: What is 'Batch Normalization' and why is it used?
+A: Batch Normalization is a technique used to normalize the inputs of each layer in a neural network to improve training stability and accelerate convergence. It involves adjusting and scaling activations using the mean and variance of the batch, which helps mitigate issues related to internal covariate shift and allows for higher learning rates, resulting in faster and more reliable model training.
+
+Q: What is the difference between 'Precision' and 'Recall' in classification tasks?
+A: Precision and recall are performance metrics used to evaluate classification models. Precision measures the proportion of true positive predictions among all positive predictions made by the model, while recall measures the proportion of true positive predictions among all actual positive instances. Precision focuses on the accuracy of positive predictions, while recall emphasizes the model's ability to identify all relevant positive instances.
+
+Q: What is the purpose of the 'K-fold Cross-Validation' technique?
+A: K-fold Cross-Validation is a model validation technique that involves partitioning the dataset into k equally sized folds. The model is trained on k-1 folds and validated on the remaining fold. This process is repeated k times, with each fold serving as the validation set once. The technique helps provide a more reliable estimate of the model's performance and reduces the variance associated with a single train-test split.
+
+Q: What are 'Hyperparameter Optimization' techniques and why are they important?
+A: Hyperparameter optimization techniques are used to search for the best set of hyperparameters that optimize the performance of a machine learning model. Techniques such as grid search, random search, and Bayesian optimization systematically explore different hyperparameter configurations to find the optimal combination. Proper hyperparameter tuning is crucial for achieving the best possible model performance and ensuring effective learning.
+
+Q: What is 'Principal Component Analysis' (PCA) and how does it work?
+A: Principal Component Analysis (PCA) is a dimensionality reduction technique that transforms data into a new coordinate system where the greatest variance is captured along the principal components. PCA works by calculating the eigenvectors and eigenvalues of the data's covariance matrix, and projecting the data onto the eigenvectors corresponding to the largest eigenvalues. This process reduces the number of features while preserving as much variance as possible.
+
+Q: How do 'Ensemble Methods' improve model performance?
+A: Ensemble methods combine predictions from multiple models to improve overall performance and robustness. Techniques such as bagging, boosting, and stacking aggregate the outputs of various models to reduce errors, increase accuracy, and enhance generalization. By leveraging the strengths of different models and averaging or weighting their predictions, ensemble methods often achieve better results than individual models.
+
+Q: What is 'Transfer Learning' and how is it applied in deep learning?
+A: Transfer Learning involves leveraging a pre-trained model on a large dataset and adapting it to a new, related task with a smaller dataset. In deep learning, transfer learning typically involves using pre-trained models for feature extraction or fine-tuning on a new dataset. This approach saves computational resources and time, and often leads to better performance on the new task by utilizing the knowledge gained from the initial training.
+
+Q: What is 'Model Overfitting' and how can it be addressed?
+A: Model overfitting occurs when a machine learning model learns the training data too well, including its noise and outliers, leading to poor generalization to new data. It can be addressed by using techniques such as regularization, cross-validation, and pruning. Regularization methods, like L1 and L2 regularization, penalize large weights to reduce complexity, while cross-validation helps ensure the model performs well on unseen data.
+
+Q: How does the 'Support Vector Machine' (SVM) algorithm work?
+A: The Support Vector Machine (SVM) algorithm constructs a hyperplane in a high-dimensional space that maximizes the margin between different class labels. It seeks the optimal hyperplane that separates data points of different classes with the largest possible margin. SVMs can handle non-linear boundaries by using kernel functions to map the data into higher dimensions where it becomes linearly separable.
+
+Q: What is the 'Activation Function' and why is it crucial in neural networks?
+A: An activation function introduces non-linearity into a neural network, allowing it to learn and represent complex patterns and relationships in the data. It determines whether a neuron should be activated or not based on its input. Common activation functions include ReLU, sigmoid, and tanh. Without activation functions, neural networks would be limited to learning linear relationships, reducing their expressive power.
+
+Q: What is 'Regularization' in the context of machine learning models?
+A: Regularization is a technique used to prevent overfitting by adding a penalty to the loss function based on the complexity of the model. It discourages the model from learning overly complex patterns that may not generalize well to new data. Common regularization methods include L1 and L2 regularization, which penalize large weights, and dropout, which randomly omits neurons during training to promote robustness.
+
+Q: How does 'Reinforcement Learning' differ from supervised learning?
+A: Reinforcement Learning (RL) differs from supervised learning in that it involves training an agent to make decisions by interacting with an environment and receiving feedback in the form of rewards or penalties. In RL, the agent learns to maximize cumulative rewards through exploration and exploitation, whereas supervised learning involves training a model on labeled data with predefined input-output pairs.
+
+Q: What is 'Natural Language Processing' (NLP) and its main applications?
+A: Natural Language Processing (NLP) is a subfield of artificial intelligence focused on enabling machines to understand, interpret, and generate human language. Key applications of NLP include sentiment analysis, machine translation, text summarization, and named entity recognition. NLP techniques help bridge the gap between human communication and computer processing, making interactions with technology more intuitive.
+
+Q: Explain the concept of 'Hyperparameter Tuning' and its significance in model performance.
+A: Hyperparameter tuning involves selecting the best set of hyperparameters for a machine learning model to optimize its performance. Hyperparameters are configuration settings that control the training process and model structure. Effective hyperparameter tuning, achieved through techniques like grid search or random search, is crucial for enhancing model accuracy, preventing overfitting, and improving generalization to new data.
+
+Q: What is 'Cross-Validation' and how does it improve model evaluation?
+A: Cross-validation is a technique used to assess the performance of a machine learning model by dividing the data into multiple subsets or folds. The model is trained on some folds and tested on the remaining fold. This process is repeated several times with different folds, providing a more reliable estimate of the model's performance and helping to identify potential issues such as overfitting.
+
+Q: How does the 'k-Nearest Neighbors' (k-NN) algorithm work?
+A: The k-Nearest Neighbors (k-NN) algorithm classifies data points based on the majority class among their k closest neighbors in the feature space. It computes the distance between a new data point and the training samples, and assigns the class that is most common among the k nearest neighbors. k-NN is simple and effective for various classification tasks but can be computationally intensive for large datasets.
+
+Q: What is the 'Confusion Matrix' and how is it used in model evaluation?
+A: A confusion matrix is a table used to evaluate the performance of a classification model by comparing predicted and actual class labels. It displays the number of true positives, true negatives, false positives, and false negatives, providing insights into the model's accuracy, precision, recall, and overall effectiveness. The matrix helps diagnose model performance issues and guide improvements.
+
+Q: How does 'Feature Scaling' impact machine learning algorithms?
+A: Feature scaling involves normalizing or standardizing features to ensure they are on a similar scale, which improves the performance and convergence speed of machine learning algorithms. Scaling techniques, such as Min-Max normalization and Z-score standardization, prevent features with larger ranges from dominating the learning process and help algorithms like gradient descent and distance-based methods perform more effectively.
+
+Q: What is 'Dropout' and how does it help in training neural networks?
+A: Dropout is a regularization technique used in neural networks to prevent overfitting by randomly omitting a fraction of neurons during each training iteration. This forces the network to learn more robust features by preventing reliance on any specific subset of neurons. Dropout helps improve generalization and enhances the model's ability to perform well on unseen data.
+
+Q: Explain the concept of 'Learning Rate' in the context of gradient descent.
+A: The learning rate is a hyperparameter that controls the size of the steps taken during gradient descent to minimize the loss function. A high learning rate can lead to faster convergence but may overshoot the optimal solution, while a low learning rate results in slower convergence but provides more precise updates. Properly tuning the learning rate is essential for achieving efficient and effective training.
+
+Q: What is the 'Bias-Variance Tradeoff' in machine learning?
+A: The Bias-Variance Tradeoff refers to the balance between bias and variance when training a machine learning model. Bias represents the error due to overly simplistic assumptions, leading to underfitting, while variance refers to the error due to excessive sensitivity to training data, leading to overfitting. The goal is to find a model that minimizes both bias and variance to achieve optimal performance.
+
+Q: How does 'Dimensionality Reduction' improve machine learning models?
+A: Dimensionality reduction reduces the number of features in a dataset while retaining essential information, which helps improve model performance and efficiency. By simplifying the data, dimensionality reduction techniques, such as PCA or t-SNE, mitigate the effects of the curse of dimensionality, reduce computational costs, and enhance the interpretability of the model.
+
+Q: What is 'Ensemble Learning' and how does it benefit model performance?
+A: Ensemble learning combines predictions from multiple models to create a stronger overall model. Techniques such as bagging, boosting, and stacking aggregate the outputs of various models to reduce errors and increase accuracy. By leveraging the strengths and compensating for the weaknesses of individual models, ensemble learning often achieves better performance and robustness.
+
+Q: What is the 'Elbow Method' in the context of clustering?
+A: The Elbow Method is a heuristic used to determine the optimal number of clusters in k-means clustering. It involves plotting the sum of squared distances between data points and their corresponding cluster centroids against the number of clusters. The point where the plot shows a distinct 'elbow' indicates the optimal number of clusters, balancing between underfitting and overfitting.
+
+Q: Explain 'Gradient Descent' and its variants used in optimization.
+A: Gradient Descent is an optimization algorithm used to minimize a loss function by iteratively adjusting model parameters in the direction of the steepest decrease in the gradient. Variants include Batch Gradient Descent, which uses the entire dataset to compute gradients, Stochastic Gradient Descent (SGD), which updates parameters using a single data point, and Mini-Batch Gradient Descent, which uses a subset of the data. Each variant offers different trade-offs in terms of convergence speed and computational efficiency.
+
+Q: What is 'Cross-Entropy Loss' and how is it used in classification tasks?
+A: Cross-Entropy Loss, also known as log loss, is a loss function used for classification tasks that measures the difference between the predicted probability distribution and the actual class labels. It penalizes incorrect classifications by assigning a higher loss to predictions that deviate significantly from the true labels. Cross-Entropy Loss is commonly used in logistic regression and neural network classification tasks to optimize model performance.
+
+Q: How does 'ReLU' (Rectified Linear Unit) function in neural networks?
+A: ReLU (Rectified Linear Unit) is an activation function used in neural networks that outputs the input value if it is positive, and zero otherwise. It introduces non-linearity into the network and helps address the vanishing gradient problem by allowing gradients to flow through the network more effectively during backpropagation. ReLU accelerates training and improves convergence by enabling faster learning and more efficient representation of features.
+
+Q: What is the 'F1 Score' and how is it calculated?
+A: The F1 Score is a metric that combines precision and recall into a single measure of model performance, particularly useful for imbalanced datasets. It is the harmonic mean of precision and recall, calculated as 2 * (Precision * Recall) / (Precision + Recall). The F1 Score provides a balanced assessment of a model's ability to correctly identify positive instances while minimizing false positives and false negatives.
+
+Q: What is 'Word Embedding' and how is it used in NLP?
+A: Word Embedding is a technique in natural language processing that represents words as dense, continuous vectors in a high-dimensional space. These embeddings capture semantic relationships between words, allowing models to understand context and meaning. Popular methods for generating word embeddings include Word2Vec, GloVe, and FastText, which help improve the performance of NLP tasks such as text classification and machine translation.
+
+Q: Explain the concept of 'Batch Normalization' and its benefits.
+A: Batch Normalization is a technique used to stabilize and accelerate the training of deep neural networks by normalizing the activations of each layer across mini-batches. It reduces internal covariate shift by ensuring that the distribution of activations remains consistent throughout training. Batch Normalization helps improve convergence, reduces the dependence on initialization, and can act as a form of regularization.
+
+Q: What is 'Principal Component Analysis' (PCA) and its purpose?
+A: Principal Component Analysis (PCA) is a dimensionality reduction technique that transforms high-dimensional data into a lower-dimensional space while preserving as much variance as possible. It identifies the principal components, or directions of maximum variance, in the data and projects the data onto these components. PCA is used for feature extraction, data visualization, and noise reduction.
+
+Q: How does 'Data Augmentation' help in improving model performance?
+A: Data Augmentation involves generating additional training samples by applying transformations such as rotation, scaling, or flipping to existing data. This increases the diversity of the training set and helps the model generalize better to new data by exposing it to a wider range of variations. Data augmentation is particularly useful in tasks like image classification to enhance model robustness and reduce overfitting.
