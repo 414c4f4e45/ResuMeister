@@ -1,0 +1,362 @@
+Q: What is data science?
+A: Data science is an interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract insights and knowledge from structured and unstructured data. It combines techniques from statistics, machine learning, and data analysis to make data-driven decisions and predictions.
+
+Q: What is the difference between data science and data analytics?
+A: Data science involves using advanced techniques like machine learning and predictive modeling to generate insights from data and solve complex problems, while data analytics focuses on analyzing historical data to uncover trends and patterns for decision-making.
+
+Q: What is a dataset?
+A: A dataset is a collection of data, usually organized in tabular form with rows and columns, that contains related information. It serves as the basis for analysis, where each row represents an individual record and each column represents a feature or variable.
+
+Q: What is the purpose of data cleaning?
+A: Data cleaning involves identifying and correcting errors or inconsistencies in a dataset to ensure its accuracy and reliability. It includes tasks such as removing duplicates, handling missing values, and correcting data entry mistakes to improve the quality of the data.
+
+Q: What is exploratory data analysis (EDA)?
+A: Exploratory data analysis (EDA) is an approach to analyzing datasets to summarize their main characteristics and uncover patterns or anomalies. It involves using statistical graphics and plots, such as histograms and scatter plots, to gain insights before applying more complex modeling techniques.
+
+Q: What is a feature in data science?
+A: A feature is an individual measurable property or characteristic of a dataset. In machine learning, features are the inputs used by algorithms to make predictions or classifications, representing the variables that influence the outcome.
+
+Q: What is the role of a data scientist?
+A: A data scientist's role involves analyzing and interpreting complex data to help organizations make informed decisions. They use statistical methods, machine learning algorithms, and data visualization techniques to uncover patterns, build predictive models, and communicate insights to stakeholders.
+
+Q: What is a machine learning model?
+A: A machine learning model is an algorithm trained on data to make predictions or decisions based on new input. It learns patterns from historical data and applies them to unseen data to generate outputs, such as classifications or numerical predictions.
+
+Q: What is supervised learning?
+A: Supervised learning is a type of machine learning where the model is trained on labeled data, meaning the input data comes with known output values. The model learns to map inputs to outputs and can then predict the output for new, unseen data.
+
+Q: What is unsupervised learning?
+A: Unsupervised learning is a type of machine learning where the model is trained on data without labeled responses. The goal is to identify patterns or structures in the data, such as clustering similar data points or reducing dimensionality.
+
+Q: What is overfitting in machine learning?
+A: Overfitting occurs when a machine learning model learns the noise or random fluctuations in the training data rather than the underlying patterns. This results in high accuracy on the training set but poor generalization to new, unseen data.
+
+Q: What is cross-validation?
+A: Cross-validation is a technique used to assess the performance of a machine learning model by partitioning the dataset into multiple subsets. The model is trained on some subsets and tested on others to ensure it generalizes well and to prevent overfitting.
+
+Q: What is a confusion matrix?
+A: A confusion matrix is a table used to evaluate the performance of a classification model. It shows the number of correct and incorrect predictions for each class, allowing metrics such as accuracy, precision, recall, and F1-score to be calculated.
+
+Q: What is the purpose of data normalization?
+A: Data normalization involves scaling features to a common range or distribution to ensure that they contribute equally to the analysis. It helps improve the performance of machine learning algorithms by avoiding issues related to varying feature scales.
+
+Q: What is feature engineering?
+A: Feature engineering is the process of creating new features or modifying existing ones to improve the performance of machine learning models. It involves selecting, transforming, or combining features to enhance the model's ability to learn from the data.
+
+Q: What is a decision tree?
+A: A decision tree is a machine learning algorithm used for classification and regression tasks. It splits the data into subsets based on feature values, creating a tree-like structure where each node represents a decision rule and each leaf represents a predicted outcome.
+
+Q: What is clustering?
+A: Clustering is an unsupervised learning technique used to group similar data points together based on their features. It aims to find inherent structures or patterns in the data, with common algorithms including K-means and hierarchical clustering.
+
+Q: What is regression analysis?
+A: Regression analysis is a statistical technique used to model and analyze the relationship between a dependent variable and one or more independent variables. It helps predict the value of the dependent variable based on the values of the independent variables.
+
+Q: What is a histogram?
+A: A histogram is a graphical representation of the distribution of a dataset. It displays the frequency of data points within specified ranges, or bins, providing insights into the shape, spread, and central tendencies of the data.
+
+Q: What is a p-value?
+A: A p-value is a statistical measure that indicates the probability of obtaining a result at least as extreme as the one observed, assuming the null hypothesis is true. It helps determine the significance of the results in hypothesis testing.
+
+Q: What is a random forest?
+A: A random forest is an ensemble learning method that combines multiple decision trees to improve predictive accuracy and control overfitting. Each tree is trained on a random subset of the data and features, and the final prediction is based on the majority vote of the trees.
+
+Q: What is principal component analysis (PCA)?
+A: Principal component analysis (PCA) is a dimensionality reduction technique that transforms data into a new coordinate system where the greatest variance is captured by the first few principal components. It helps simplify complex datasets while retaining essential information.
+
+Q: What is a bias-variance tradeoff?
+A: The bias-variance tradeoff is the balance between a model's ability to generalize to new data (low variance) and its accuracy on the training data (low bias). A model with high bias may be too simplistic, while high variance may lead to overfitting.
+
+Q: What is a hypothesis test?
+A: A hypothesis test is a statistical method used to determine whether there is enough evidence to reject a null hypothesis in favor of an alternative hypothesis. It involves calculating test statistics and p-values to assess the significance of the observed results.
+
+Q: What is data wrangling?
+A: Data wrangling, also known as data munging, is the process of cleaning, transforming, and organizing raw data into a structured format suitable for analysis. It includes tasks like handling missing values, merging datasets, and reshaping data.
+
+Q: What is a scatter plot?
+A: A scatter plot is a graphical representation that shows the relationship between two continuous variables. Each point on the plot represents an observation, allowing for the visualization of correlations, trends, or patterns between the variables.
+
+Q: What is the difference between mean and median?
+A: The mean is the average value of a dataset, calculated by summing all values and dividing by the number of values. The median is the middle value when the dataset is sorted in ascending order, providing a measure of central tendency that is less affected by outliers.
+
+Q: What is a ROC curve?
+A: A ROC (Receiver Operating Characteristic) curve is a graphical representation of a classification model's performance across different thresholds. It plots the true positive rate against the false positive rate, helping to assess the model's sensitivity and specificity.
+
+Q: What is a time series analysis?
+A: Time series analysis involves examining data points collected or recorded at successive time intervals. It aims to identify patterns, trends, and seasonal variations over time, and is often used for forecasting and predicting future values based on historical data.
+
+Q: What is a SQL query?
+A: A SQL (Structured Query Language) query is a statement used to interact with a database, allowing for the retrieval, manipulation, and management of data. Common SQL queries include SELECT for data retrieval, INSERT for adding records, and UPDATE for modifying existing records.
+
+Q: What is A/B testing?
+A: A/B testing is a method used to compare two versions of a variable (A and B) to determine which performs better. It involves splitting a sample into two groups, applying different treatments, and analyzing the results to identify the more effective option.
+
+Q: What is a machine learning pipeline?
+A: A machine learning pipeline is a sequence of data processing and modeling steps that automate the workflow from raw data to predictions. It typically includes stages for data preprocessing, feature extraction, model training, and evaluation.
+
+Q: What is data augmentation?
+A: Data augmentation is a technique used to increase the diversity of training data by applying transformations such as rotation, scaling, or flipping. It helps improve the robustness and generalization of machine learning models by providing more varied examples.
+
+Q: What is the purpose of feature selection?
+A: Feature selection involves choosing the most relevant features from a dataset to improve model performance and reduce complexity. It helps in reducing overfitting, improving accuracy, and decreasing computational costs by focusing on the most important variables.
+
+Q: What is a neural network?
+A: A neural network is a machine learning model inspired by the human brain's structure, consisting of interconnected layers of nodes or neurons. It processes input data through multiple layers to learn patterns and make predictions or classifications.
+
+Q: What is the K-means algorithm?
+A: The K-means algorithm is a clustering technique that partitions data into K distinct clusters based on feature similarity. It iteratively assigns data points to the nearest cluster centroid and updates the centroids until convergence, minimizing the within-cluster variance.
+
+Q: What is a data mart?
+A: A data mart is a subset of a data warehouse that focuses on a specific business area or department. It provides a targeted and optimized view of data for reporting and analysis, tailored to the needs of a particular group or function.
+
+Q: What is deep learning?
+A: Deep learning is a subset of machine learning that involves training neural networks with multiple layers to learn complex patterns and representations from large datasets. It is commonly used for tasks such as image recognition, natural language processing, and speech recognition.
+
+Q: What is a SQL join?
+A: A SQL join is an operation that combines records from two or more tables based on a related column. Common types of joins include INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN, each defining how matching records from the tables are included in the result.
+
+Q: What is ensemble learning?
+A: Ensemble learning is a machine learning technique that combines multiple models to improve overall performance and robustness. By aggregating the predictions of several models, ensemble methods such as bagging and boosting can enhance accuracy and reduce overfitting.
+
+Q: What is the purpose of feature scaling?
+A: Feature scaling is the process of standardizing or normalizing features to ensure they have similar ranges or distributions. It improves the performance and convergence of machine learning algorithms, especially those sensitive to the scale of input features.
+
+Q: What is data visualization?
+A: Data visualization is the graphical representation of data to help communicate insights, patterns, and trends effectively. It uses charts, graphs, and plots to present complex information in a visually intuitive manner, aiding in data analysis and decision-making.
+
+Q: What is a SQL subquery?
+A: A SQL subquery is a query nested within another SQL query. It is used to retrieve intermediate results that are then utilized by the outer query for further processing, such as filtering, aggregating, or joining data.
+
+Q: What is a data warehouse?
+A: A data warehouse is a centralized repository that stores large volumes of historical data from various sources. It is designed for efficient querying and analysis, supporting business intelligence and decision-making processes by integrating and organizing data.
+
+Q: What is a decision boundary?
+A: A decision boundary is a surface that separates different classes in a classification problem. It is determined by the model and represents the threshold where the model's predictions switch from one class to another based on the input features.
+
+Q: What is logistic regression?
+A: Logistic regression is a statistical method used for binary classification tasks. It models the probability of a binary outcome based on one or more predictor variables and uses the logistic function to output probabilities between 0 and 1.
+
+Q: What is the purpose of data normalization?
+A: Data normalization transforms data into a common scale without distorting differences in range or distribution. It helps in improving the performance of machine learning algorithms by ensuring that all features contribute equally to the model.
+
+Q: What is a ROC curve?
+A: A ROC (Receiver Operating Characteristic) curve is a graphical tool used to evaluate the performance of a classification model. It plots the true positive rate against the false positive rate at various threshold settings, helping to determine the model's trade-offs between sensitivity and specificity.
+
+Q: What is the difference between classification and regression?
+A: Classification is a type of supervised learning that predicts categorical outcomes, while regression predicts continuous outcomes. Classification assigns data to predefined classes, whereas regression estimates a numerical value based on input features.
+
+Q: What is a time series dataset?
+A: A time series dataset consists of observations recorded at successive time intervals. It is used to analyze and model temporal patterns, trends, and seasonality, allowing for forecasting and understanding of temporal dynamics.
+
+Q: What is the purpose of cross-validation?
+A: Cross-validation is used to assess a model's performance and ensure it generalizes well to unseen data. It involves partitioning the data into multiple subsets, training and validating the model on different subsets, and averaging the results to evaluate accuracy.
+
+Q: What is data imputation?
+A: Data imputation is the process of filling in missing or incomplete data values with estimated or predicted values. It helps maintain dataset integrity and ensures that analysis and modeling can proceed without the bias or loss of information caused by missing data.
+
+Q: What is a feature in a dataset?
+A: A feature is an individual measurable property or characteristic of the data. In a dataset, features are the columns or attributes used by machine learning models to make predictions or classifications based on their values.
+
+Q: What is a linear regression model?
+A: A linear regression model is a statistical technique used to predict a continuous outcome based on one or more independent variables. It establishes a linear relationship between the dependent variable and the predictors, aiming to minimize the difference between observed and predicted values.
+
+Q: What is the purpose of exploratory data analysis (EDA)?
+A: Exploratory data analysis (EDA) aims to summarize and visualize the main characteristics of a dataset before applying more complex statistical methods or machine learning models. It helps identify patterns, detect anomalies, and understand the underlying structure of the data.
+
+Q: What is the importance of data preprocessing?
+A: Data preprocessing is crucial for preparing raw data for analysis by cleaning, transforming, and organizing it into a suitable format. It addresses issues like missing values, outliers, and inconsistencies, ensuring that the data is accurate, reliable, and ready for modeling.
+
+Q: What is the difference between supervised and unsupervised learning?
+A: Supervised learning involves training a model on labeled data, where the input and output are known, to make predictions or classifications. Unsupervised learning, on the other hand, deals with unlabeled data, focusing on discovering hidden patterns or structures without predefined outcomes.
+
+Q: What is a confusion matrix used for?
+A: A confusion matrix is used to evaluate the performance of a classification model by showing the number of true positive, true negative, false positive, and false negative predictions. It helps calculate performance metrics such as accuracy, precision, recall, and F1-score.
+
+Q: What is data transformation?
+A: Data transformation involves converting data from its original format or structure into a format that is more suitable for analysis. This process may include normalization, aggregation, or encoding, and is essential for preparing data for machine learning models.
+
+Q: What is a variable in data science?
+A: A variable is a feature or attribute in a dataset that can hold different values. Variables can be classified into different types, such as categorical or numerical, and are used by machine learning models to make predictions or perform analyses.
+
+Q: What is a decision tree?
+A: A decision tree is a flowchart-like structure used for classification and regression tasks. It splits the data into subsets based on feature values, with each node representing a decision rule and each leaf representing a predicted outcome.
+
+Q: What is the purpose of feature scaling?
+A: Feature scaling is the process of adjusting the range of feature values to ensure that no single feature dominates the model due to its scale. This helps in improving the convergence and performance of machine learning algorithms, especially those sensitive to feature magnitudes.
+
+Q: What is the importance of data visualization?
+A: Data visualization is essential for communicating complex data insights in an intuitive and understandable manner. It helps identify trends, patterns, and outliers, facilitating data exploration and decision-making by presenting information through charts, graphs, and plots.
+
+Q: What is a model evaluation metric?
+A: A model evaluation metric is a measure used to assess the performance of a machine learning model. Common metrics include accuracy, precision, recall, F1-score, and area under the ROC curve (AUC), which help determine how well the model performs on given tasks.
+
+Q: What is a feature vector?
+A: A feature vector is a numerical representation of an object's characteristics or attributes in a dataset. It is a one-dimensional array where each element corresponds to a feature, and it is used as input to machine learning models for training and prediction.
+
+Q: What is an outlier?
+A: An outlier is an observation that lies significantly outside the typical range of values in a dataset. Outliers can result from measurement errors, data entry mistakes, or genuine variability, and they can impact the results of statistical analyses and machine learning models.
+
+Q: What is a hypothesis in data science?
+A: A hypothesis in data science is a proposed explanation or prediction about a dataset that can be tested through analysis. It is used to guide the investigation, allowing data scientists to validate or refute assumptions based on statistical evidence.
+
+Q: What is the difference between mean squared error (MSE) and mean absolute error (MAE)?
+A: Mean squared error (MSE) measures the average of the squared differences between predicted and actual values, giving more weight to larger errors. Mean absolute error (MAE) measures the average of the absolute differences, treating all errors equally without squaring them.
+
+Q: What is the purpose of dimensionality reduction?
+A: Dimensionality reduction is used to reduce the number of features in a dataset while retaining its essential information. It helps simplify models, improve performance, and mitigate issues related to the curse of dimensionality, making data analysis more efficient.
+
+Q: What is a baseline model?
+A: A baseline model is a simple, often intuitive model used as a reference point for evaluating more complex models. It provides a benchmark against which the performance of advanced models can be compared to assess whether they offer significant improvements.
+
+Q: What is data integrity?
+A: Data integrity refers to the accuracy, consistency, and reliability of data throughout its lifecycle. It ensures that data is correctly stored, retrieved, and maintained, and that it remains unaltered or protected from unauthorized changes or corruption.
+
+Q: What is a data pipeline?
+A: A data pipeline is a series of automated processes that collect, process, and transport data from various sources to a destination, such as a data warehouse or analytical tool. It streamlines data management and ensures that data is clean, transformed, and ready for analysis.
+
+Q: What is the purpose of data wrangling?
+A: Data wrangling is the process of cleaning, restructuring, and organizing raw data into a usable format for analysis. It involves handling missing values, correcting inconsistencies, and transforming data to make it suitable for generating insights or building models.
+
+Q: What is the role of a data scientist?
+A: A data scientist is responsible for analyzing and interpreting complex data to help organizations make informed decisions. They use statistical methods, machine learning, and data visualization techniques to extract insights, build predictive models, and solve business problems.
+
+Q: What is a scatter plot?
+A: A scatter plot is a graphical representation of two variables, where each point on the plot corresponds to a pair of values. It helps visualize the relationship, correlation, and distribution between the variables, making it easier to identify trends and patterns.
+
+Q: What is a data feature?
+A: A data feature is an individual attribute or column in a dataset that provides information about the data points. Features are used as inputs to machine learning models, influencing their predictions and analyses based on their values and relationships.
+
+Q: What is clustering in data science?
+A: Clustering is an unsupervised learning technique used to group similar data points into clusters based on their features. It helps identify natural groupings within a dataset, enabling better understanding and segmentation of the data.
+
+Q: What is model overfitting?
+A: Model overfitting occurs when a machine learning model learns the noise or random fluctuations in the training data rather than the underlying pattern. This results in high accuracy on the training set but poor generalization to new, unseen data.
+
+Q: What is a time series analysis?
+A: Time series analysis involves examining data points collected or recorded at specific time intervals to identify trends, seasonal patterns, and cyclical behaviors. It is used for forecasting future values based on historical data and understanding temporal dynamics.
+
+Q: What is a correlation coefficient?
+A: A correlation coefficient is a statistical measure that quantifies the strength and direction of the linear relationship between two variables. Values range from -1 to 1, where -1 indicates a perfect negative correlation, 1 indicates a perfect positive correlation, and 0 indicates no correlation.
+
+Q: What is the difference between accuracy and precision?
+A: Accuracy refers to the overall correctness of a model's predictions, while precision measures the proportion of true positive predictions among all positive predictions. Accuracy evaluates the model's general performance, while precision focuses on the relevance of positive results.
+
+Q: What is the purpose of feature extraction?
+A: Feature extraction involves transforming raw data into a set of relevant features that can be used by machine learning models. It aims to reduce the dimensionality of the data and capture important information while discarding irrelevant or redundant attributes.
+
+Q: What is a data dictionary?
+A: A data dictionary is a documentation tool that provides detailed information about the data elements in a dataset. It includes descriptions of data fields, their formats, relationships, and constraints, helping users understand and work with the data effectively.
+
+Q: What is the role of hypothesis testing?
+A: Hypothesis testing is a statistical method used to determine whether there is enough evidence to support or reject a proposed hypothesis. It involves analyzing sample data to make inferences about a population and assess the validity of claims based on statistical significance.
+
+Q: What is cross-validation?
+A: Cross-validation is a technique used to evaluate the performance of a machine learning model by partitioning the data into multiple subsets or folds. The model is trained and tested on different combinations of these folds to assess its ability to generalize to unseen data.
+
+Q: What is a model hyperparameter?
+A: A model hyperparameter is a parameter set before the training process begins and controls the behavior and performance of a machine learning model. Examples include learning rate, number of hidden layers, and regularization strength, which influence how the model learns from the data.
+
+Q: What is the difference between bagging and boosting?
+A: Bagging (Bootstrap Aggregating) involves training multiple models independently on different subsets of the data and combining their predictions to reduce variance. Boosting involves sequentially training models, each correcting the errors of its predecessor, to improve accuracy and reduce bias.
+
+Q: What is data aggregation?
+A: Data aggregation is the process of summarizing and combining data from multiple sources or records into a single dataset. It involves calculating metrics such as sums, averages, or counts to provide a consolidated view of the information.
+
+Q: What is a k-means algorithm?
+A: The k-means algorithm is a clustering technique that partitions data into k distinct clusters by minimizing the variance within each cluster. It iteratively assigns data points to the nearest cluster centroid and updates the centroids until convergence.
+
+Q: What is a data lake?
+A: A data lake is a storage repository that holds vast amounts of raw, unstructured, and structured data in its native format. It enables the storage and processing of diverse data types and is used for big data analytics and machine learning.
+
+Q: What is the purpose of feature engineering?
+A: Feature engineering involves creating new features or modifying existing ones to improve the performance of machine learning models. It includes techniques such as encoding categorical variables, generating interaction terms, and selecting relevant features.
+
+Q: What is a logistic function?
+A: The logistic function is a sigmoid-shaped curve used in logistic regression to model binary outcomes. It transforms a linear combination of input features into a probability score between 0 and 1, facilitating classification tasks.
+
+Q: What is a data schema?
+A: A data schema defines the structure and organization of data in a database or dataset. It includes the arrangement of tables, fields, relationships, and constraints, providing a blueprint for how data is stored, managed, and accessed.
+
+Q: What is a data source?
+A: A data source is an origin or repository from which data is collected or retrieved. It can be a database, file, API, or external system, and serves as the basis for analysis, reporting, and decision-making.
+
+Q: What is an anomaly detection?
+A: Anomaly detection involves identifying data points or patterns that deviate significantly from the norm. It is used to detect outliers or unusual behavior that may indicate errors, fraud, or other significant events in the dataset.
+
+Q: What is a supervised learning algorithm?
+A: A supervised learning algorithm is a type of machine learning model that is trained on labeled data, where both input features and target outcomes are known. It learns to predict the target outcomes based on the input data, making it suitable for classification and regression tasks.
+
+Q: What is a histogram?
+A: A histogram is a graphical representation of the distribution of numerical data. It uses bars to show the frequency or count of data points within specified intervals or bins, allowing for an easy visualization of the data's distribution and spread.
+
+Q: What is a decision boundary in classification?
+A: A decision boundary in classification is a line or surface that separates different classes in the feature space. It represents the threshold where the classification model's predictions change from one class to another based on the input features.
+
+Q: What is data enrichment?
+A: Data enrichment is the process of enhancing existing data by adding relevant external information or context. It improves the quality and completeness of the data, providing more insights and enabling better decision-making.
+
+Q: What is the purpose of a model evaluation?
+A: The purpose of model evaluation is to assess the performance and effectiveness of a machine learning model. It involves using metrics and validation techniques to determine how well the model performs on new or unseen data and ensures that it meets the desired objectives.
+
+Q: What is a time series model?
+A: A time series model is a statistical or machine learning model designed to analyze and forecast data that is collected over time. It accounts for temporal dependencies, trends, and seasonality to predict future values based on historical patterns.
+
+Q: What is the importance of data sampling?
+A: Data sampling is important for selecting a representative subset of data from a larger population, enabling efficient analysis and model training. It helps manage large datasets, reduce computational costs, and ensure that models are trained on diverse and relevant data.
+
+Q: What is an ordinal variable?
+A: An ordinal variable is a categorical variable with a meaningful order or ranking between its categories. Unlike nominal variables, ordinal variables have a clear sequence or hierarchy, such as levels of education or customer satisfaction ratings.
+
+Q: What is a confusion matrix?
+A: A confusion matrix is a table used to evaluate the performance of a classification model by showing the counts of true positive, true negative, false positive, and false negative predictions. It helps in calculating performance metrics such as accuracy, precision, recall, and F1-score.
+
+Q: What is the purpose of a regression analysis?
+A: Regression analysis is used to examine the relationship between a dependent variable and one or more independent variables. It helps predict or explain the dependent variable based on the values of the independent variables, and assess the strength and nature of their relationships.
+
+Q: What is a data warehouse?
+A: A data warehouse is a centralized repository that stores integrated data from multiple sources. It is designed for querying and analysis, providing a unified view of historical data to support business intelligence and decision-making.
+
+Q: What is a time series decomposition?
+A: Time series decomposition is the process of breaking down a time series dataset into its component parts, typically trend, seasonality, and residuals. It helps to understand the underlying patterns and improve forecasting accuracy by analyzing each component separately.
+
+Q: What is a dummy variable?
+A: A dummy variable is a binary variable used in regression analysis to represent categorical data with two or more levels. It takes the value of 0 or 1 to indicate the presence or absence of a particular category, allowing for the inclusion of categorical features in the model.
+
+Q: What is a ROC curve?
+A: A ROC (Receiver Operating Characteristic) curve is a graphical representation of a classification model's performance across different threshold values. It plots the true positive rate against the false positive rate, helping to evaluate the model's ability to discriminate between classes.
+
+Q: What is data normalization?
+A: Data normalization is the process of scaling data to a standard range or distribution, typically between 0 and 1 or -1 and 1. It helps to improve the performance and stability of machine learning algorithms by ensuring that features have similar scales.
+
+Q: What is a feature importance?
+A: Feature importance is a measure of how much each feature contributes to the predictive power of a machine learning model. It helps identify which features have the most influence on the model's predictions and can be used for feature selection and model interpretation.
+
+Q: What is a box plot?
+A: A box plot is a graphical representation of the distribution of a dataset, showing the median, quartiles, and potential outliers. It provides a summary of the data's spread, central tendency, and variability, making it useful for identifying patterns and anomalies.
+
+Q: What is an ensemble method?
+A: An ensemble method combines multiple machine learning models to improve overall performance and robustness. Techniques such as bagging, boosting, and stacking aggregate predictions from different models to reduce variance, bias, and enhance generalization.
+
+Q: What is data partitioning?
+A: Data partitioning involves dividing a dataset into separate subsets for training, validation, and testing. It ensures that models are trained on one subset and evaluated on another, helping to assess their performance and generalizability.
+
+Q: What is a heatmap?
+A: A heatmap is a data visualization technique that displays values in a matrix format using color gradients. It helps to identify patterns, correlations, and anomalies by representing data intensity and relationships between variables visually.
+
+Q: What is a random forest algorithm?
+A: The random forest algorithm is an ensemble learning method that combines multiple decision trees to improve classification and regression performance. It uses bagging to create diverse trees and aggregates their predictions to enhance accuracy and reduce overfitting.
+
+Q: What is a z-score?
+A: A z-score is a statistical measure that indicates how many standard deviations a data point is from the mean of its distribution. It is used to standardize data, detect outliers, and compare scores across different distributions.
+
+Q: What is a precision-recall curve?
+A: A precision-recall curve is a graphical representation of a classification model's performance, plotting precision against recall for different threshold values. It helps evaluate the trade-off between precision and recall and is especially useful for imbalanced datasets.
+
+Q: What is a principal component in PCA?
+A: In Principal Component Analysis (PCA), a principal component is a new variable created by transforming the original features. Each principal component represents a direction of maximum variance in the data, allowing for dimensionality reduction while preserving important information.
+
+Q: What is a data pipeline?
+A: A data pipeline is a series of data processing steps that automate the collection, transformation, and storage of data from various sources. It ensures that data is efficiently moved through different stages, enabling seamless integration and analysis.
+
+Q: What is cross-entropy loss?
+A: Cross-entropy loss, also known as log loss, is a loss function used in classification problems to measure the difference between predicted probabilities and actual class labels. It quantifies the performance of a model by penalizing incorrect predictions and is commonly used in logistic regression and neural networks.

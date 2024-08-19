@@ -1,0 +1,380 @@
+Q: What is a DBMS?
+A: A Database Management System (DBMS) is a software system that facilitates the creation, manipulation, and administration of databases. It allows users to store, retrieve, and manage data efficiently, providing features like data security, backup, and concurrent access control.
+
+Q: What is the difference between a database and a DBMS?
+A: A database is a structured collection of data stored electronically, while a DBMS is the software that manages and interacts with the database. The DBMS provides tools and interfaces for data manipulation, queries, and administration.
+
+Q: What is SQL?
+A: SQL (Structured Query Language) is a standard programming language used to manage and manipulate relational databases. It includes commands for querying, updating, inserting, and deleting data, as well as for defining database structures.
+
+Q: What is a relational database?
+A: A relational database is a type of database that stores data in tables with rows and columns. Relationships between tables are established using keys, allowing data to be efficiently retrieved and manipulated through SQL queries.
+
+Q: What is a primary key?
+A: A primary key is a unique identifier for each record in a database table. It ensures that each record can be uniquely identified and prevents duplicate entries within the table.
+
+Q: What is a foreign key?
+A: A foreign key is a field in one table that uniquely identifies a record in another table. It establishes a link between the two tables, allowing for referential integrity and the creation of relationships between related data.
+
+Q: What is normalization?
+A: Normalization is the process of organizing a database to minimize redundancy and improve data integrity. It involves dividing data into related tables and ensuring that each table adheres to certain normal forms to avoid anomalies.
+
+Q: What is a join operation in SQL?
+A: A join operation in SQL is used to combine rows from two or more tables based on a related column. It allows for the retrieval of data that spans multiple tables, such as inner joins, left joins, right joins, and full outer joins.
+
+Q: What is an index in a database?
+A: An index is a database object that improves the speed of data retrieval operations by creating a sorted structure on one or more columns. It allows the database to quickly locate and access data without scanning the entire table.
+
+Q: What is a view in SQL?
+A: A view is a virtual table in SQL that provides a way to present data from one or more tables in a specific format. It is defined by a query and does not store data itself but provides a way to simplify complex queries and enhance security.
+
+Q: What is a transaction in DBMS?
+A: A transaction is a sequence of operations performed as a single logical unit of work. It ensures data consistency and integrity by following the ACID properties: Atomicity, Consistency, Isolation, and Durability.
+
+Q: What is the ACID property?
+A: ACID stands for Atomicity, Consistency, Isolation, and Durability. These properties ensure that database transactions are processed reliably and that the database remains in a consistent state even in the event of failures.
+
+Q: What is a schema in a database?
+A: A schema is the structure or blueprint of a database that defines how data is organized, including the tables, columns, data types, and relationships. It provides a framework for storing and retrieving data in the database.
+
+Q: What is a stored procedure?
+A: A stored procedure is a precompiled collection of SQL statements and optional control-flow statements that are stored as a single unit in the database. It can be executed to perform a specific task, such as querying or updating data.
+
+Q: What is a trigger in a database?
+A: A trigger is a special type of stored procedure that automatically executes in response to certain events, such as INSERT, UPDATE, or DELETE operations. It allows for automated enforcement of business rules and data validation.
+
+Q: What is a data dictionary?
+A: A data dictionary is a metadata repository that contains information about the database's structure, including definitions of tables, columns, data types, relationships, and constraints. It helps manage and maintain the database schema.
+
+Q: What is a data model?
+A: A data model is an abstract representation of the data and its relationships within a database. It defines the structure of data, how it is stored, and how different data elements interact with each other.
+
+Q: What is denormalization?
+A: Denormalization is the process of intentionally introducing redundancy into a database to improve performance by reducing the number of joins required for queries. It can speed up read operations but may increase complexity and storage requirements.
+
+Q: What is a database cursor?
+A: A database cursor is a database object used to retrieve and manipulate rows from a result set one at a time. It allows for row-by-row processing of query results, often used in stored procedures and complex data retrieval tasks.
+
+Q: What is a backup in DBMS?
+A: A backup is a copy of the database data and its structure, created to protect against data loss or corruption. It can be used to restore the database to a previous state in case of hardware failures, data corruption, or accidental deletion.
+
+Q: What is a rollback in DBMS?
+A: A rollback is the process of undoing changes made during a transaction to restore the database to its previous state. It is used to maintain data integrity and ensure that partial or erroneous changes are not committed.
+
+Q: What is a commit in DBMS?
+A: A commit is the process of making all changes made during a transaction permanent in the database. Once a transaction is committed, the changes are saved and visible to other users, ensuring data consistency.
+
+Q: What is a relational model?
+A: The relational model is a database model that represents data in tables with rows and columns. It uses keys to establish relationships between tables and provides a framework for querying and manipulating data using SQL.
+
+Q: What is a table in a database?
+A: A table is a fundamental database object that organizes data into rows and columns. Each row represents a single record, and each column represents a specific attribute or field of the data.
+
+Q: What is a column in a table?
+A: A column in a table represents a specific attribute or field of the data stored in that table. Each column has a defined data type and constraints, determining the kind of data it can hold.
+
+Q: What is a row in a table?
+A: A row in a table represents a single record or entry in the table. It consists of a set of values corresponding to each column, with each row being uniquely identifiable by the primary key.
+
+Q: What is a composite key?
+A: A composite key is a primary key that consists of two or more columns used together to uniquely identify a record in a table. It is used when a single column is not sufficient to ensure uniqueness.
+
+Q: What is a candidate key?
+A: A candidate key is a column or a set of columns that can uniquely identify a record in a table. Each table may have multiple candidate keys, but one is chosen as the primary key.
+
+Q: What is a surrogate key?
+A: A surrogate key is a unique identifier for a record that is not derived from the data itself. It is typically an artificial key, such as an auto-incremented number, used to uniquely identify records in a table.
+
+Q: What is a natural key?
+A: A natural key is a key that is derived from the data itself and is used to uniquely identify records in a table. It is based on attributes that have real-world significance, such as a Social Security number or email address.
+
+Q: What is data integrity?
+A: Data integrity refers to the accuracy, consistency, and reliability of data stored in a database. It is maintained through constraints, validation rules, and data management practices to ensure data is correct and reliable.
+
+Q: What is referential integrity?
+A: Referential integrity is a property of a database that ensures that relationships between tables are maintained correctly. It ensures that foreign key values correspond to valid primary key values in related tables.
+
+Q: What is a schema diagram?
+A: A schema diagram is a graphical representation of the database schema, showing the tables, columns, relationships, and constraints. It helps visualize the structure and organization of the database and its components.
+
+Q: What is an entity in a database?
+A: An entity in a database represents a real-world object or concept that is stored as a table. Each entity has attributes that describe its characteristics and relationships with other entities.
+
+Q: What is an attribute in a database?
+A: An attribute is a property or characteristic of an entity represented by a column in a database table. Attributes define the data elements that are stored for each record in the table.
+
+Q: What is a constraint in a database?
+A: A constraint is a rule applied to columns or tables to enforce data integrity and consistency. Common constraints include primary keys, foreign keys, unique constraints, and check constraints.
+
+Q: What is a unique constraint?
+A: A unique constraint ensures that all values in a column or a set of columns are distinct and not duplicated. It helps maintain data integrity by preventing duplicate entries in the specified column(s).
+
+Q: What is a check constraint?
+A: A check constraint is a rule applied to a column or a set of columns to ensure that the values meet specific conditions or criteria. It helps enforce data validity by restricting the types of values that can be entered.
+
+Q: What is a default value in a database?
+A: A default value is a pre-defined value automatically assigned to a column when no value is explicitly provided during data insertion. It helps maintain consistency and reduce the need for manual input.
+
+Q: What is a data type in a database?
+A: A data type defines the kind of data that can be stored in a column, such as integer, varchar, date, or boolean. It specifies the format and constraints for the data in that column.
+
+Q: What is a database normalization?
+A: Database normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. It involves dividing tables into smaller tables and establishing relationships to minimize duplication.
+
+Q: What is an entity-relationship diagram (ERD)?
+A: An entity-relationship diagram (ERD) is a visual representation of the entities, attributes, and relationships within a database. It helps design and understand the database structure and how different entities interact.
+
+Q: What is the purpose of indexing?
+A: The purpose of indexing is to improve the speed and efficiency of data retrieval operations by creating a data structure that allows for quick access to specific records. Indexes reduce the amount of data that needs to be scanned during queries.
+
+Q: What is a deadlock in a database?
+A: A deadlock is a situation in which two or more database transactions are unable to proceed because each is waiting for the other to release locks on resources. It results in a standstill that requires intervention to resolve.
+
+Q: What is a rollback segment?
+A: A rollback segment is a database component that stores old versions of data to support rollback operations. It allows for undoing changes and recovering data to a previous state in the event of a transaction failure.
+
+Q: What is a database partitioning?
+A: Database partitioning is the process of dividing a large database into smaller, more manageable pieces called partitions. It improves performance and manageability by distributing data across multiple storage locations.
+
+Q: What is a database log?
+A: A database log is a file that records all changes made to the database, including transaction details and operations. It is used for recovery and auditing purposes, allowing the database to be restored to a consistent state.
+
+Q: What is data warehousing?
+A: Data warehousing is the process of collecting, storing, and managing large volumes of data from multiple sources in a central repository. It supports data analysis, reporting, and decision-making by providing a consolidated view of data.
+
+Q: What is OLAP?
+A: OLAP (Online Analytical Processing) is a category of data processing that enables complex queries and analysis on multidimensional data. It allows users to perform data analysis and generate reports quickly for decision-making.
+
+Q: What is OLTP?
+A: OLTP (Online Transaction Processing) is a category of data processing that focuses on managing and processing transactional data in real-time. It supports day-to-day operations, such as order processing and inventory management.
+
+Q: What is a database cluster?
+A: A database cluster is a group of database servers that work together to provide high availability, scalability, and load balancing. Clustering helps ensure continuous operation and improve performance by distributing the workload.
+
+Q: What is sharding?
+A: Sharding is a database architecture pattern that involves breaking up a large database into smaller, more manageable pieces called shards. Each shard contains a subset of the data, which helps distribute the load and improve performance.
+
+Q: What is a data mart?
+A: A data mart is a subset of a data warehouse that focuses on a specific business area or department. It provides users with access to relevant data for analysis and reporting within a particular domain, such as sales or finance.
+
+Q: What is a logical database design?
+A: Logical database design is the process of defining the structure and organization of data without considering physical storage details. It involves creating tables, defining relationships, and specifying constraints based on business requirements.
+
+Q: What is a physical database design?
+A: Physical database design involves translating the logical database design into a physical structure that considers storage details, indexing, and performance optimization. It focuses on how data is stored and accessed on the storage media.
+
+Q: What is a materialized view?
+A: A materialized view is a database object that stores the results of a query as a physical table. It improves query performance by pre-computing and storing the data, allowing for faster access compared to recalculating the results each time.
+
+Q: What is a database trigger?
+A: A database trigger is a set of instructions that automatically execute in response to specific events, such as data modifications or schema changes. Triggers help enforce business rules, validate data, and automate tasks.
+
+Q: What is a database cursor used for?
+A: A database cursor is used to retrieve and manipulate rows from a result set one at a time. It allows for row-by-row processing of query results, which is useful for handling complex data retrieval tasks.
+
+Q: What is a join clause in SQL?
+A: A join clause in SQL is used to combine rows from two or more tables based on a related column. It enables the retrieval of data that spans multiple tables, allowing for comprehensive analysis and reporting.
+
+Q: What is a database transaction?
+A: A database transaction is a sequence of operations performed as a single logical unit of work. It ensures that either all operations are completed successfully or none are applied, maintaining data consistency and integrity.
+
+Q: What is a view in SQL?
+A: A view in SQL is a virtual table created by a query that selects data from one or more tables. It provides a way to simplify complex queries, present data in a specific format, and restrict access to sensitive information.
+
+Q: What is a schema in a database?
+A: A schema is a blueprint that defines the structure of a database, including tables, columns, relationships, and constraints. It provides a framework for organizing and managing data within the database.
+
+Q: What is a relational schema?
+A: A relational schema is a representation of the logical structure of a relational database. It includes the tables, columns, data types, and relationships between tables, defining how data is organized and related.
+
+Q: What is data normalization?
+A: Data normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. It involves dividing tables into smaller tables and defining relationships to minimize duplication and ensure consistency.
+
+Q: What is a database index?
+A: A database index is a data structure that improves the speed of data retrieval operations by providing a fast lookup for specific values. It helps to quickly locate and access data without scanning the entire table.
+
+Q: What is a foreign key constraint?
+A: A foreign key constraint is a rule that ensures the values in a column or set of columns match the values in the primary key of another table. It enforces referential integrity between related tables.
+
+Q: What is a primary key constraint?
+A: A primary key constraint is a rule that uniquely identifies each record in a database table. It ensures that each record has a unique identifier and prevents duplicate entries in the primary key column.
+
+Q: What is a default constraint?
+A: A default constraint is a rule that automatically assigns a default value to a column when no explicit value is provided during data insertion. It helps maintain consistency and reduces manual data entry.
+
+Q: What is a check constraint?
+A: A check constraint is a rule applied to a column or a set of columns to ensure that the data meets specific conditions or criteria. It helps maintain data validity by restricting the types of values that can be entered.
+
+Q: What is a unique constraint?
+A: A unique constraint is a rule that ensures that all values in a column or set of columns are distinct and not duplicated. It helps maintain data integrity by preventing duplicate entries.
+
+Q: What is a composite index?
+A: A composite index is an index that is created on multiple columns in a table. It improves query performance by allowing efficient retrieval of data based on a combination of columns, rather than a single column.
+
+Q: What is data integrity?
+A: Data integrity refers to the accuracy, consistency, and reliability of data stored in a database. It is maintained through constraints, validation rules, and proper data management practices to ensure that data remains correct and trustworthy.
+
+Q: What is a database constraint?
+A: A database constraint is a rule applied to columns or tables to enforce data integrity and consistency. Constraints include primary keys, foreign keys, unique constraints, and check constraints, helping to maintain accurate and valid data.
+
+Q: What is a database management system (DBMS)?
+A: A database management system (DBMS) is a software application that manages the creation, storage, and retrieval of data in a database. It provides tools for data manipulation, query execution, and database administration.
+
+Q: What is a database transaction?
+A: A database transaction is a sequence of operations executed as a single logical unit of work. Transactions ensure that all operations are completed successfully or none are applied, preserving data consistency and integrity.
+
+Q: What is a relational database model?
+A: A relational database model organizes data into tables with rows and columns, where each table represents an entity and columns represent attributes. It uses relationships and keys to link related data across tables.
+
+Q: What is a surrogate key?
+A: A surrogate key is an artificially created key used to uniquely identify a record in a table. It is not derived from the data itself and is typically an auto-incremented number or system-generated identifier.
+
+Q: What is a natural key?
+A: A natural key is a key derived from the data itself, used to uniquely identify records in a table. It is based on real-world attributes with inherent meaning, such as an email address or Social Security number.
+
+Q: What is data warehousing?
+A: Data warehousing is the process of collecting and storing large volumes of data from multiple sources in a central repository. It supports data analysis, reporting, and decision-making by providing a consolidated view of data.
+
+Q: What is a database cluster?
+A: A database cluster is a group of database servers that work together to provide high availability, scalability, and load balancing. Clustering helps ensure continuous operation and improve performance by distributing the workload.
+
+Q: What is the difference between a database and a data warehouse?
+A: A database is designed for real-time transaction processing and is optimized for CRUD (Create, Read, Update, Delete) operations, while a data warehouse is designed for analytical processing and large-scale data analysis, focusing on historical data.
+
+Q: What is a database schema?
+A: A database schema is the structure that defines the organization of data in a database. It includes the tables, columns, relationships, and constraints, providing a blueprint for how data is stored and managed.
+
+Q: What is a database view?
+A: A database view is a virtual table created by a query that selects data from one or more tables. It simplifies complex queries, presents data in a specific format, and can provide security by restricting access to sensitive information.
+
+Q: What is a database join?
+A: A database join is an operation that combines rows from two or more tables based on a related column. It enables the retrieval of data that spans multiple tables, facilitating comprehensive data analysis and reporting.
+
+Q: What is a database trigger?
+A: A database trigger is a set of instructions that automatically execute in response to specific events, such as data modifications or schema changes. Triggers help enforce business rules, validate data, and automate tasks.
+
+Q: What is an aggregate function?
+A: An aggregate function is a SQL function that performs a calculation on a set of values and returns a single result. Examples include COUNT, SUM, AVG, MIN, and MAX, which summarize or analyze data in a table.
+
+Q: What is a database transaction log?
+A: A database transaction log is a file that records all changes made to the database, including transaction details and operations. It is used for recovery and auditing purposes, allowing the database to be restored to a consistent state.
+
+Q: What is a denormalization?
+A: Denormalization is the process of intentionally introducing redundancy into a database to improve query performance. It involves combining tables or adding redundant data to reduce the complexity of joins and speed up data retrieval.
+
+Q: What is a data model?
+A: A data model is an abstract representation of the data structures and relationships within a database. It defines how data is organized, stored, and accessed, providing a framework for designing and managing databases.
+
+Q: What is a data dictionary?
+A: A data dictionary is a repository of metadata that describes the structure, constraints, and properties of the data within a database. It provides information about tables, columns, data types, and relationships.
+
+Q: What is a star schema?
+A: A star schema is a type of database schema used in data warehousing, where a central fact table is surrounded by dimension tables. It simplifies querying and reporting by organizing data into a clear, star-like structure.
+
+Q: What is a snowflake schema?
+A: A snowflake schema is a type of database schema used in data warehousing, where dimension tables are normalized into multiple related tables. It creates a more complex structure than a star schema but can reduce data redundancy.
+
+Q: What is the difference between a table and a view?
+A: A table is a physical structure in a database that stores data, whereas a view is a virtual table created by a query that presents data from one or more tables. Views simplify complex queries and provide a way to restrict data access.
+
+Q: What is a data definition language (DDL)?
+A: A data definition language (DDL) is a subset of SQL used to define and manage database structures. It includes commands such as CREATE, ALTER, and DROP, which are used to create, modify, or delete database objects.
+
+Q: What is a data manipulation language (DML)?
+A: A data manipulation language (DML) is a subset of SQL used to retrieve, insert, update, and delete data in a database. It includes commands such as SELECT, INSERT, UPDATE, and DELETE, which are used to manage data.
+
+Q: What is a database constraint?
+A: A database constraint is a rule applied to columns or tables to enforce data integrity and consistency. Constraints include primary keys, foreign keys, unique constraints, and check constraints, helping to maintain accurate and valid data.
+
+Q: What is an inner join?
+A: An inner join is a type of join that returns only the rows that have matching values in both tables being joined. It combines rows from two or more tables based on a related column and excludes rows with no match.
+
+Q: What is an outer join?
+A: An outer join is a type of join that returns all rows from one table and the matching rows from another table. It includes rows with no matching values by filling in NULLs for columns from the non-matching table.
+
+Q: What is a cross join?
+A: A cross join, also known as a Cartesian join, returns the Cartesian product of two tables, combining every row from the first table with every row from the second table. It results in a large number of rows and is used infrequently.
+
+Q: What is the difference between UNION and UNION ALL?
+A: UNION combines the results of two or more queries and removes duplicate rows, while UNION ALL combines the results and includes all rows, including duplicates. UNION is used when distinct results are needed, while UNION ALL is used for including duplicates.
+
+Q: What is a subquery?
+A: A subquery is a query nested inside another query. It is used to perform operations based on the results of the outer query, allowing for more complex and flexible data retrieval.
+
+Q: What is a self-join?
+A: A self-join is a type of join where a table is joined with itself. It is used to combine rows within the same table based on related columns, often to find relationships or comparisons between records.
+
+Q: What is a default value in SQL?
+A: A default value in SQL is a value automatically assigned to a column when no explicit value is provided during data insertion. It ensures that the column has a meaningful value if no data is specified.
+
+Q: What is a composite key?
+A: A composite key is a primary key that consists of two or more columns used together to uniquely identify a record in a table. It is used when a single column is not sufficient to ensure uniqueness.
+
+Q: What is a database transaction?
+A: A database transaction is a sequence of operations performed as a single logical unit of work. Transactions ensure that either all operations are completed successfully or none are applied, maintaining data consistency and integrity.
+
+Q: What is a read-only database?
+A: A read-only database is a database that allows users to view and query data but prevents any modifications or updates. It is often used for reporting and analysis purposes where data integrity needs to be maintained.
+
+Q: What is a database snapshot?
+A: A database snapshot is a read-only, static view of a database at a specific point in time. It allows users to access the database's state as it was at the moment of the snapshot, useful for reporting and backup purposes.
+
+Q: What is database replication?
+A: Database replication is the process of copying and maintaining database objects and data across multiple databases or servers. It ensures data availability and consistency by synchronizing changes between the primary and replica databases.
+
+Q: What is a table alias?
+A: A table alias is a temporary name given to a table within a query to simplify referencing. It is used to shorten table names, especially in complex queries involving multiple tables.
+
+Q: What is an SQL injection?
+A: SQL injection is a security vulnerability where an attacker can execute malicious SQL code by inserting it into a query. It can lead to unauthorized access, data manipulation, or data leakage if not properly prevented.
+
+Q: What is a stored procedure?
+A: A stored procedure is a precompiled collection of SQL statements that can be executed as a single unit. It is stored in the database and allows for reusable, modular code, improving performance and maintainability.
+
+Q: What is a function in SQL?
+A: A function in SQL is a stored routine that performs a specific operation and returns a result. Functions can be used to encapsulate logic, perform calculations, and return values within SQL queries.
+
+Q: What is an index in SQL?
+A: An index in SQL is a data structure that enhances the speed of data retrieval operations by providing quick access to specific rows. Indexes improve query performance by reducing the amount of data that needs to be scanned.
+
+Q: What is a trigger in SQL?
+A: A trigger in SQL is a set of instructions that automatically execute in response to specific events on a table, such as insertions, updates, or deletions. Triggers help enforce rules and automate tasks within the database.
+
+Q: What is a join condition?
+A: A join condition is a criterion used to specify how rows from two or more tables should be matched in a join operation. It defines the relationship between columns in the joined tables to combine data accurately.
+
+Q: What is an aggregate function in SQL?
+A: An aggregate function in SQL performs a calculation on a set of values and returns a single result. Examples include COUNT, SUM, AVG, MIN, and MAX, which summarize data from multiple rows into a single value.
+
+Q: What is a SQL query?
+A: A SQL query is a request for data or information from a database. It is written using SQL (Structured Query Language) and includes commands such as SELECT, INSERT, UPDATE, and DELETE to interact with the database.
+
+Q: What is a data model in DBMS?
+A: A data model in DBMS is an abstract representation of the data structures and relationships within a database. It defines how data is organized, stored, and accessed, guiding the design and implementation of the database.
+
+Q: What is an OLAP cube?
+A: An OLAP (Online Analytical Processing) cube is a multidimensional data structure used for fast and interactive analysis of data. It organizes data into dimensions and measures, allowing users to perform complex queries and data analysis.
+
+Q: What is data normalization?
+A: Data normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. It involves dividing data into related tables and defining relationships between them to eliminate duplication.
+
+Q: What is a data warehouse?
+A: A data warehouse is a specialized database designed for the storage, retrieval, and analysis of large volumes of historical data. It supports complex queries and reporting, enabling data analysis and decision-making.
+
+Q: What is data mining?
+A: Data mining is the process of discovering patterns, trends, and insights from large datasets using techniques such as statistical analysis, machine learning, and data visualization. It helps extract valuable information for decision-making.
+
+Q: What is a relational database?
+A: A relational database is a type of database that stores data in tables with rows and columns. It uses relationships between tables to organize and manage data, enabling complex queries and data manipulation.
+
+Q: What is a database management system (DBMS)?
+A: A database management system (DBMS) is software that provides an interface for interacting with a database. It manages data storage, retrieval, and manipulation, ensuring data integrity and security.
+
+Q: What is data integrity?
+A: Data integrity refers to the accuracy, consistency, and reliability of data within a database. It ensures that data is stored correctly and remains unaltered during processing, maintaining its quality and trustworthiness.
+
+Q: What is a primary key in SQL?
+A: A primary key in SQL is a unique identifier for each record in a table. It ensures that each row has a distinct and non-null value, maintaining data integrity and allowing efficient retrieval of records.
+
+Q: What is a foreign key in SQL?
+A: A foreign key in SQL is a column or set of columns in one table that references the primary key of another table. It establishes a relationship between tables and enforces referential integrity by ensuring consistent data linkage.

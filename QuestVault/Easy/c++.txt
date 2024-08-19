@@ -1,0 +1,284 @@
+Q: What is C++?
+A: C++ is a high-level, general-purpose programming language that extends the C programming language by adding object-oriented features, such as classes and inheritance. It allows for both low-level memory manipulation and high-level abstractions, making it suitable for a wide range of applications, from system software to game development.
+
+Q: What are the basic data types in C++?
+A: The basic data types in C++ include int for integers, float for single-precision floating-point numbers, double for double-precision floating-point numbers, char for characters, and bool for boolean values. These types are used to define variables and manipulate data in C++ programs.
+
+Q: What is a class in C++?
+A: A class in C++ is a user-defined data type that represents a blueprint for creating objects. It encapsulates data members (variables) and member functions (methods) that operate on the data. Classes are fundamental to object-oriented programming, allowing for the creation of reusable and modular code.
+
+Q: What is an object in C++?
+A: An object in C++ is an instance of a class. It represents a specific realization of the class and has its own unique state and behavior based on the class definition. Objects interact with each other by calling methods and accessing data members defined in their class.
+
+Q: What is inheritance in C++?
+A: Inheritance in C++ is a mechanism that allows a new class (derived class) to inherit properties and behaviors from an existing class (base class). It promotes code reusability and establishes a hierarchical relationship between classes, where the derived class can extend or override the base class's functionality.
+
+Q: What is polymorphism in C++?
+A: Polymorphism in C++ is a concept that allows objects of different classes to be treated as objects of a common base class. It enables methods to be called on objects of different derived classes through a base class pointer or reference, allowing for dynamic method resolution and code flexibility.
+
+Q: What is encapsulation in C++?
+A: Encapsulation in C++ is the practice of bundling data and methods that operate on the data within a class and restricting access to some of the object's components. It helps protect the internal state of the object from unintended interference and misuse, promoting modularity and maintainability.
+
+Q: What is abstraction in C++?
+A: Abstraction in C++ is the concept of hiding complex implementation details and showing only the necessary features of an object. It allows developers to focus on high-level functionalities while concealing low-level details, making the code easier to understand and manage.
+
+Q: What is the difference between struct and class in C++?
+A: In C++, both struct and class are used to define custom data types. The main difference is that members of a struct are public by default, while members of a class are private by default. Both struct and class support encapsulation, inheritance, and polymorphism.
+
+Q: What are constructors in C++?
+A: Constructors in C++ are special member functions that are automatically called when an object of a class is created. They are used to initialize objects and can be overloaded to provide different ways of initializing objects with various parameters.
+
+Q: What is a destructor in C++?
+A: A destructor in C++ is a special member function that is automatically called when an object is destroyed. It is used to release resources, such as memory or file handles, that were acquired during the object's lifetime. Destructors have the same name as the class but with a tilde (~) prefix.
+
+Q: What is operator overloading in C++?
+A: Operator overloading in C++ allows developers to define custom behaviors for standard operators (e.g., +, -, *) when used with user-defined types. By overloading operators, you can specify how operators should work with objects of your classes, making the code more intuitive and expressive.
+
+Q: What is a template in C++?
+A: A template in C++ is a feature that allows you to write generic and reusable code that works with different data types. Templates enable you to create functions and classes that can operate on any data type without knowing the specific type at compile time, promoting code reusability and flexibility.
+
+Q: What is the purpose of the main function in C++?
+A: The main function in C++ is the entry point of a program. It is where execution starts, and it is required for every C++ program. The main function can return an integer value to the operating system, typically 0 to indicate successful execution.
+
+Q: What are access specifiers in C++?
+A: Access specifiers in C++ are keywords that define the visibility of class members. The three primary access specifiers are public, protected, and private. Public members are accessible from outside the class, protected members are accessible only within the class and its derived classes, and private members are accessible only within the class.
+
+Q: What is a virtual function in C++?
+A: A virtual function in C++ is a member function declared with the virtual keyword in a base class. It allows derived classes to override the function and provides a mechanism for dynamic polymorphism. When a virtual function is called on a base class pointer or reference, the derived class's version of the function is executed if it is overridden.
+
+Q: What is a pure virtual function in C++?
+A: A pure virtual function in C++ is a virtual function that is declared with the = 0 syntax in a base class. It does not have an implementation in the base class and must be overridden by derived classes. A class containing pure virtual functions is considered an abstract class and cannot be instantiated directly.
+
+Q: What is a static member in C++?
+A: A static member in C++ is a class member that is shared among all instances of the class rather than being specific to individual objects. Static members are declared with the static keyword and can be accessed using the class name or through instances of the class.
+
+Q: What is a friend function in C++?
+A: A friend function in C++ is a non-member function that has access to the private and protected members of a class. Friend functions are declared inside a class with the friend keyword and are useful for operations that require access to the internal state of a class without being a member function.
+
+Q: What is the difference between new and malloc in C++?
+A: In C++, new and malloc are used for dynamic memory allocation, but they differ in several ways. new is an operator that initializes the allocated memory and calls the constructor for objects, while malloc is a C library function that allocates raw memory without initialization or object construction. new throws an exception on failure, whereas malloc returns NULL.
+
+Q: What is a reference in C++?
+A: A reference in C++ is an alias for an existing variable, allowing you to refer to that variable using a different name. References are created using the & symbol and must be initialized when declared. They provide a way to pass variables to functions without copying, improving performance and efficiency.
+
+Q: What is the const keyword used for in C++?
+A: The const keyword in C++ is used to define variables, pointers, and member functions that cannot be modified. It can be applied to data members to make them read-only, to pointers to prevent changing the address they point to, or to member functions to indicate that they do not modify the object’s state.
+
+Q: What is an exception in C++?
+A: An exception in C++ is a mechanism for handling runtime errors and abnormal conditions in a program. Exceptions are objects that represent error conditions and can be thrown using the throw keyword and caught using try and catch blocks, allowing for graceful error handling and recovery.
+
+Q: What is a namespace in C++?
+A: A namespace in C++ is a container that groups related identifiers, such as variables, functions, and classes, to avoid naming conflicts. Namespaces help organize code and prevent collisions between names in different parts of a program or between different libraries.
+
+Q: What is the this pointer in C++?
+A: The this pointer in C++ is a special pointer that points to the current object instance within a member function. It allows access to the calling object's data members and member functions, enabling self-reference and differentiation between member variables and parameters with the same name.
+
+Q: What is the difference between private and protected inheritance in C++?
+A: In C++, private inheritance means that the public and protected members of the base class become private members in the derived class, and are not accessible from outside the derived class. Protected inheritance means that the public and protected members of the base class become protected members in the derived class, and are accessible within the derived class and its further derived classes.
+
+Q: What is the static_cast operator in C++?
+A: The static_cast operator in C++ is used for type conversion between compatible types at compile time. It provides a safe and explicit way to convert between types, such as converting an int to a float, or between pointer types, ensuring type safety and correctness.
+
+Q: What is dynamic memory allocation in C++?
+A: Dynamic memory allocation in C++ refers to the process of allocating memory at runtime using operators such as new and delete. This allows for the creation of variables and objects whose size and lifetime are determined during program execution, providing flexibility in managing memory.
+
+Q: What is a dynamic_cast operator in C++?
+A: The dynamic_cast operator in C++ is used for safely downcasting or cross-casting between polymorphic types, primarily when working with inheritance hierarchies. It performs runtime type checking and returns a null pointer if the cast is invalid, ensuring type safety in complex class hierarchies.
+
+Q: What is a virtual destructor in C++?
+A: A virtual destructor in C++ is a destructor declared with the virtual keyword in a base class. It ensures that the correct destructor for the derived class is called when an object is deleted through a base class pointer, preventing resource leaks and undefined behavior in polymorphic scenarios.
+
+Q: What is a friend class in C++?
+A: A friend class in C++ is a class that has access to the private and protected members of another class. Friend classes are declared using the friend keyword inside the class whose members need to be accessed, facilitating close cooperation between classes and encapsulation management.
+
+Q: What is RAII (Resource Acquisition Is Initialization) in C++?
+A: RAII (Resource Acquisition Is Initialization) in C++ is a programming idiom where resources are acquired and released using object lifetime. By tying resource management to object creation and destruction, RAII ensures that resources such as memory or file handles are properly cleaned up when objects go out of scope.
+
+Q: What is the override keyword in C++?
+A: The override keyword in C++ is used to indicate that a member function in a derived class is intended to override a virtual function in the base class. It provides compile-time checking to ensure that the function correctly overrides a base class function, reducing the risk of errors in polymorphic code.
+
+Q: What is typedef in C++?
+A: typedef in C++ is a keyword used to create an alias for an existing data type, making code more readable and manageable. It allows developers to define new names for complex or frequently used types, simplifying type declarations and improving code clarity.
+
+Q: What is a std::vector in C++?
+A: std::vector in C++ is a dynamic array provided by the Standard Template Library (STL) that can grow and shrink in size as needed. It allows for efficient random access, insertion, and deletion of elements, making it a versatile container for managing sequences of data.
+
+Q: What is the std::string class in C++?
+A: The std::string class in C++ is part of the Standard Template Library (STL) and provides a flexible and easy-to-use way to handle sequences of characters. It supports various operations such as concatenation, substring extraction, and comparison, and manages memory automatically.
+
+Q: What is a nullptr in C++?
+A: nullptr in C++ is a keyword introduced in C++11 that represents a null pointer constant. It provides a type-safe way to indicate that a pointer does not point to any valid memory location, replacing the traditional NULL macro and improving code clarity and correctness.
+
+Q: What is a const_cast operator in C++?
+A: The const_cast operator in C++ is used to add or remove the const qualifier from a variable or pointer. It allows modification of const-qualified data when necessary, but should be used with caution to avoid undefined behavior and maintain code safety.
+
+Q: What is the difference between public and private access specifiers in C++?
+A: In C++, public access specifier allows members of a class to be accessible from outside the class, providing unrestricted access. Private access specifier restricts access to members within the class only, protecting the internal state and implementation details from external code.
+
+Q: What is a namespace used for in C++?
+A: A namespace in C++ is used to group related classes, functions, and variables together to avoid name conflicts and organize code logically. It allows developers to create distinct scopes for identifiers, preventing naming collisions between different parts of a program or between different libraries.
+
+Q: What is a static function in C++?
+A: A static function in C++ is a member function of a class that is associated with the class itself rather than with any particular object. It can be called without creating an instance of the class and can only access other static members of the class.
+
+Q: What are member functions in C++?
+A: Member functions in C++ are functions that are defined within a class and operate on the data members of the class. They provide the functionality for objects of the class and can be public, protected, or private, depending on their intended access level.
+
+Q: What is type casting in C++?
+A: Type casting in C++ is the process of converting a variable from one data type to another. C++ supports several types of casting, including static_cast, dynamic_cast, const_cast, and reinterpret_cast, each serving different purposes for safe and explicit type conversions.
+
+Q: What is a default constructor in C++?
+A: A default constructor in C++ is a constructor that can be called without any arguments. If no constructor is explicitly defined, the compiler provides a default constructor that initializes members with default values. It ensures that objects are properly initialized when created.
+
+Q: What is a copy constructor in C++?
+A: A copy constructor in C++ is a special constructor that initializes a new object as a copy of an existing object. It takes a reference to another object of the same class as its parameter and performs a member-wise copy of the object's data members.
+
+Q: What is a move constructor in C++?
+A: A move constructor in C++ is a special constructor that transfers ownership of resources from a temporary or rvalue object to a new object. It helps optimize performance by avoiding unnecessary deep copies of resources and is defined to efficiently handle resource management.
+
+Q: What is a virtual destructor in C++?
+A: A virtual destructor in C++ ensures that when an object is deleted through a base class pointer, the derived class's destructor is called. This prevents resource leaks and ensures that all necessary cleanup is performed when an object is removed from memory.
+
+Q: What is a dynamic array in C++?
+A: A dynamic array in C++ is an array whose size can be changed at runtime using dynamic memory allocation. Unlike static arrays, dynamic arrays are allocated on the heap using operators like new and can grow or shrink as needed during program execution.
+
+Q: What is dynamic memory allocation in C++?
+A: Dynamic memory allocation in C++ refers to the process of allocating memory during program execution using operators like new and delete. This allows for flexible management of memory based on runtime requirements, as opposed to static allocation which is fixed at compile time.
+
+Q: What is a destructor used for in C++?
+A: A destructor in C++ is a special member function that is called automatically when an object is destroyed. It is used to release resources acquired by the object, such as memory or file handles, ensuring proper cleanup and preventing resource leaks.
+
+Q: What is function overloading in C++?
+A: Function overloading in C++ allows multiple functions to have the same name but differ in the number or type of their parameters. The appropriate function is called based on the arguments passed, providing a way to define similar operations with different inputs.
+
+Q: What is operator overloading in C++?
+A: Operator overloading in C++ allows you to define custom behaviors for operators (e.g., +, -, *) when applied to user-defined types. By overloading operators, you can specify how they should work with objects of your classes, making your code more intuitive and readable.
+
+Q: What is the size() function in C++?
+A: The size() function in C++ is commonly used with containers like std::vector, std::list, and std::string to return the number of elements or characters contained in the object. It provides a way to determine the current size or length of the container.
+
+Q: What is the push_back() function in C++?
+A: The push_back() function in C++ is used with containers like std::vector and std::deque to add an element to the end of the container. It increases the container's size by one and places the new element at the last position.
+
+Q: What is a function template in C++?
+A: A function template in C++ is a blueprint for creating functions that can operate on different data types. By using template parameters, you can define a single function that works with various types, improving code reusability and type safety.
+
+Q: What is a class template in C++?
+A: A class template in C++ is a template that defines a class with generic data types. It allows the creation of classes that can operate with any data type specified at compile time, enabling the development of flexible and reusable class definitions.
+
+Q: What is a header file in C++?
+A: A header file in C++ is a file with the .h or .hpp extension that contains declarations of functions, classes, and variables. Header files are included in source files using the #include directive and help organize code by separating declarations from definitions.
+
+Q: What is std::cout used for in C++?
+A: std::cout in C++ is an object of the ostream class used for outputting data to the standard output stream, typically the console. It is part of the C++ Standard Library and supports various operators and functions for formatting and displaying output.
+
+Q: What is std::cin used for in C++?
+A: std::cin in C++ is an object of the istream class used for inputting data from the standard input stream, typically the keyboard. It allows reading various data types and supports extraction operators for input operations.
+
+Q: What is the this pointer in C++?
+A: The this pointer in C++ is an implicit pointer available inside non-static member functions that points to the current object of the class. It allows access to the object's members and is used to differentiate between member variables and parameters with the same name.
+
+Q: What is a static variable in C++?
+A: A static variable in C++ is a variable that retains its value between function calls or across all instances of a class. Declared with the static keyword, it has a single memory location shared by all instances of the class or across function invocations.
+
+Q: What is a static member in C++?
+A: A static member in C++ is a class member that is shared by all instances of the class, rather than having a separate copy for each object. Static members are declared with the static keyword and can be accessed using the class name or an object of the class.
+
+Q: What is the new operator in C++?
+A: The new operator in C++ is used to allocate memory dynamically on the heap for a specified type or object. It returns a pointer to the allocated memory, allowing for flexible and runtime-based memory management.
+
+Q: What is the delete operator in C++?
+A: The delete operator in C++ is used to deallocate memory that was previously allocated with new. It frees the allocated memory and ensures proper cleanup, preventing memory leaks and managing resources effectively.
+
+Q: What is a reference in C++?
+A: A reference in C++ is an alias for another variable, created using the & symbol. It allows you to access and modify the original variable through the reference, providing a way to pass variables to functions efficiently without copying.
+
+Q: What is the & symbol used for in C++?
+A: In C++, the & symbol is used to declare reference variables and to perform bitwise AND operations. When used in variable declarations, it signifies a reference to another variable, while in expressions, it represents the bitwise AND operator.
+
+Q: What is a nullptr_t in C++?
+A: nullptr_t in C++ is a type that represents the type of the nullptr keyword. It is used in function overloading and template specialization to work with nullptr, ensuring type safety when dealing with null pointers.
+
+Q: What is a namespace in C++?
+A: A namespace in C++ is a feature that allows you to group related code into separate logical units to avoid name conflicts. It helps organize code and manage identifier names by providing distinct scopes for different parts of a program.
+
+Q: What is std::map in C++?
+A: std::map in C++ is a standard library container that stores key-value pairs in a sorted order. It provides efficient searching, insertion, and deletion operations based on the key, with each key being unique and associated with a specific value.
+
+Q: What is std::set in C++?
+A: std::set in C++ is a standard library container that stores unique elements in a sorted order. It allows for efficient searching, insertion, and deletion of elements while ensuring that no duplicate values are present in the set.
+
+Q: What is std::unordered_map in C++?
+A: std::unordered_map in C++ is a standard library container that stores key-value pairs in an unordered fashion using a hash table. It provides average constant-time complexity for insertion, deletion, and lookup operations based on the key.
+
+Q: What is std::unordered_set in C++?
+A: std::unordered_set in C++ is a standard library container that stores unique elements in an unordered fashion using a hash table. It allows for efficient insertion, deletion, and lookup operations with average constant-time complexity.
+
+Q: What is std::queue in C++?
+A: std::queue in C++ is a standard library container adaptor that provides a FIFO (First-In-First-Out) data structure. It supports enqueue and dequeue operations, allowing elements to be added at the back and removed from the front.
+
+Q: What is std::stack in C++?
+A: std::stack in C++ is a standard library container adaptor that provides a LIFO (Last-In-First-Out) data structure. It supports push and pop operations, allowing elements to be added to and removed from the top of the stack.
+
+Q: What is std::priority_queue in C++?
+A: std::priority_queue in C++ is a standard library container adaptor that provides a data structure where elements are accessed based on priority. It supports efficient insertion and removal of the highest-priority element.
+
+Q: What is std::pair in C++?
+A: std::pair in C++ is a standard library utility that allows you to store two heterogeneous values together as a single object. It provides a simple way to group and access two related values, often used in conjunction with associative containers.
+
+Q: What is the auto keyword in C++?
+A: The auto keyword in C++ allows the compiler to automatically deduce the type of a variable from its initializer. It simplifies variable declarations and makes code more readable by letting the compiler infer the type based on the assigned value.
+
+Q: What is the decltype keyword in C++?
+A: The decltype keyword in C++ is used to query the type of an expression at compile time. It allows you to declare variables or functions with types that depend on the result of an expression, enabling more flexible and type-safe code.
+
+Q: What is the explicit keyword in C++?
+A: The explicit keyword in C++ is used to prevent implicit conversions that could occur with constructors or conversion operators. It ensures that such conversions are only performed when explicitly requested, avoiding unexpected type conversions and improving code safety.
+
+Q: What is std::array in C++?
+A: std::array in C++ is a standard library container that encapsulates fixed-size arrays with additional functionalities. It provides a convenient and safe way to handle arrays with a fixed size known at compile time, offering support for various container operations.
+
+Q: What is a lambda expression in C++?
+A: A lambda expression in C++ is an anonymous function object that allows you to define inline functions with capture lists. It provides a concise way to create function objects for use in algorithms and callbacks without needing to define a separate named function.
+
+Q: What is a move assignment operator in C++?
+A: A move assignment operator in C++ is a special member function that transfers ownership of resources from one object to another using move semantics. It is defined to efficiently handle resource management and avoid unnecessary copying of data.
+
+Q: What is the volatile keyword in C++?
+A: The volatile keyword in C++ is used to indicate that a variable's value may be changed by external factors, such as hardware or concurrent threads. It prevents the compiler from optimizing out accesses to the variable, ensuring accurate and up-to-date values.
+
+Q: What is std::unique_ptr in C++?
+A: std::unique_ptr in C++ is a smart pointer that manages the lifetime of a dynamically allocated object, ensuring exclusive ownership. It automatically deallocates the object when the unique_ptr goes out of scope, preventing memory leaks and simplifying resource management.
+
+Q: What is std::shared_ptr in C++?
+A: std::shared_ptr in C++ is a smart pointer that manages the lifetime of a dynamically allocated object through reference counting. Multiple shared_ptr instances can own the same object, and the object is automatically deallocated when the last shared_ptr is destroyed.
+
+Q: What is std::weak_ptr in C++?
+A: std::weak_ptr in C++ is a smart pointer that provides a non-owning, weak reference to an object managed by std::shared_ptr. It helps avoid circular references and allows checking if the object is still valid without affecting its reference count.
+
+Q: What is the try-catch block in C++?
+A: The try-catch block in C++ is used for exception handling, allowing you to catch and handle runtime errors or exceptional conditions. Code that may throw exceptions is placed in the try block, and the catch blocks handle specific types of exceptions thrown.
+
+Q: What is the throw keyword in C++?
+A: The throw keyword in C++ is used to raise an exception and transfer control to the nearest catch block that can handle the exception. It is used to signal errors or unusual conditions during program execution, enabling structured error handling.
+
+Q: What is the difference between throw and throw() in C++?
+A: In C++, throw is used to raise an exception, while throw() specifies an exception specification that indicates a function does not throw exceptions. The throw() syntax is deprecated in C++11 and removed in C++17, with noexcept used for similar purposes.
+
+Q: What is noexcept in C++?
+A: noexcept in C++ is a keyword used to specify that a function does not throw exceptions. It can be applied to functions to indicate that they are guaranteed not to throw, enabling optimizations and providing stronger exception safety guarantees.
+
+Q: What is the mutable keyword in C++?
+A: The mutable keyword in C++ is used to indicate that a member variable of a class can be modified even if the object is declared as const. It allows certain data members to be changed without affecting the const correctness of the object.
+
+Q: What is the override keyword in C++?
+A: The override keyword in C++ is used to indicate that a member function is intended to override a virtual function in a base class. It provides compile-time checking to ensure that the function correctly overrides a virtual function from the base class.
+
+Q: What is the final keyword in C++?
+A: The final keyword in C++ is used to indicate that a class cannot be inherited from or that a virtual function cannot be overridden in derived classes. It helps enforce class and function hierarchies and prevent unintended inheritance or overriding.
+
+Q: What is RAII in C++?
+A: RAII (Resource Acquisition Is Initialization) in C++ is a programming idiom where resource management is tied to object lifetime. Resources such as memory or file handles are acquired during object construction and released during object destruction, ensuring proper resource management.
+
+Q: What is a smart pointer in C++?
+A: A smart pointer in C++ is a class template that provides automatic memory management for dynamically allocated objects. It helps manage the object's lifetime, prevent memory leaks, and simplify resource handling by automatically deallocating the object when no longer needed.

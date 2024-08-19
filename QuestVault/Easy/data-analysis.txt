@@ -1,0 +1,359 @@
+Q: What is data analysis?
+A: Data analysis is the process of inspecting, cleansing, transforming, and modeling data to discover useful information, draw conclusions, and support decision-making. It involves various techniques and tools to make sense of complex data sets and extract meaningful insights.
+
+Q: What is the difference between structured and unstructured data?
+A: Structured data is organized and easily searchable, typically found in databases or spreadsheets, and follows a predefined format. Unstructured data, on the other hand, lacks a specific format and includes data such as text, images, and videos, which requires more complex methods for analysis.
+
+Q: What is a data set?
+A: A data set is a collection of related data organized in a structured format, usually as rows and columns. Each row represents a record, while each column represents a variable or attribute. Data sets are used for analysis and can be found in spreadsheets, databases, or data warehouses.
+
+Q: What is exploratory data analysis (EDA)?
+A: Exploratory data analysis (EDA) is an approach to analyzing data sets to summarize their main characteristics, often with visual methods. EDA helps in understanding the underlying patterns, spotting anomalies, and formulating hypotheses before performing more formal statistical analysis.
+
+Q: What is data cleaning?
+A: Data cleaning is the process of identifying and correcting errors or inconsistencies in data to improve its quality and accuracy. This involves removing duplicate entries, fixing incorrect values, handling missing data, and standardizing data formats.
+
+Q: What is a correlation?
+A: Correlation is a statistical measure that describes the extent to which two variables are related. It indicates whether an increase or decrease in one variable corresponds to an increase or decrease in another variable. Correlation values range from -1 to 1.
+
+Q: What is a pivot table?
+A: A pivot table is a data summarization tool used in spreadsheets and data analysis software. It allows users to reorganize and aggregate data dynamically, providing a way to summarize large data sets, perform calculations, and generate reports.
+
+Q: What is a histogram?
+A: A histogram is a graphical representation of the distribution of numerical data. It consists of bars that represent the frequency or count of data points falling within specified ranges or bins, helping to visualize the shape and spread of the data.
+
+Q: What is a mean?
+A: The mean, also known as the average, is a measure of central tendency calculated by summing all the values in a data set and dividing by the number of values. It provides an overall indication of the typical value in the data set.
+
+Q: What is a median?
+A: The median is a measure of central tendency that represents the middle value in a data set when the values are sorted in ascending or descending order. It is less affected by outliers and skewed data compared to the mean.
+
+Q: What is a mode?
+A: The mode is the value that occurs most frequently in a data set. Unlike the mean and median, which are measures of central tendency, the mode provides insight into the most common or popular value within the data.
+
+Q: What is standard deviation?
+A: Standard deviation is a measure of the amount of variation or dispersion in a data set. It quantifies how much individual data points deviate from the mean, providing an understanding of the spread or variability of the data.
+
+Q: What is data normalization?
+A: Data normalization is the process of scaling data to fit within a specific range, usually between 0 and 1, or transforming it to have a mean of 0 and a standard deviation of 1. It helps to ensure that different variables contribute equally to the analysis.
+
+Q: What is a scatter plot?
+A: A scatter plot is a type of graph used to display the relationship between two numerical variables. It consists of points plotted on a Cartesian plane, where each point represents an observation in the data set, allowing for the visualization of correlations and trends.
+
+Q: What is regression analysis?
+A: Regression analysis is a statistical technique used to model and analyze the relationships between a dependent variable and one or more independent variables. It helps to understand how changes in the independent variables affect the dependent variable and predict future outcomes.
+
+Q: What is a data query?
+A: A data query is a request for information from a database or data set. It is used to retrieve specific data based on certain criteria or conditions, allowing users to extract relevant information for analysis or reporting.
+
+Q: What is data visualization?
+A: Data visualization is the graphical representation of data to help users understand and interpret complex information. It involves creating charts, graphs, maps, and other visual tools to make data more accessible and actionable.
+
+Q: What is a box plot?
+A: A box plot is a graphical representation of the distribution of a data set. It shows the median, quartiles, and potential outliers, providing a visual summary of the data's central tendency, variability, and skewness.
+
+Q: What is an outlier?
+A: An outlier is a data point that differs significantly from other observations in a data set. It may indicate variability in the data, measurement errors, or other anomalies that can affect the results of the analysis.
+
+Q: What is a data warehouse?
+A: A data warehouse is a centralized repository that stores large volumes of data from multiple sources. It is designed for query and analysis, providing a platform for reporting, data mining, and business intelligence activities.
+
+Q: What is a data lake?
+A: A data lake is a large, scalable storage system that holds raw, unprocessed data from various sources. Unlike a data warehouse, which stores structured data, a data lake can handle structured, semi-structured, and unstructured data, enabling flexible analysis and exploration.
+
+Q: What is data mining?
+A: Data mining is the process of discovering patterns, correlations, and insights from large data sets using statistical and computational techniques. It involves analyzing data to extract valuable information and support decision-making.
+
+Q: What is a SQL query?
+A: A SQL query is a request written in Structured Query Language (SQL) used to interact with a relational database. It allows users to perform operations such as selecting, inserting, updating, and deleting data from tables.
+
+Q: What is a data trend?
+A: A data trend is a general direction or pattern observed in a data set over time. Identifying trends helps in understanding how variables change and can be used for forecasting and making informed decisions.
+
+Q: What is a data dashboard?
+A: A data dashboard is a visual interface that displays key performance indicators (KPIs), metrics, and other relevant data in an easily accessible format. It provides real-time insights and helps users monitor and analyze data effectively.
+
+Q: What is a data model?
+A: A data model is a conceptual framework that defines the structure, relationships, and constraints of data within a system. It helps in organizing and representing data for analysis, storage, and retrieval.
+
+Q: What is data integration?
+A: Data integration is the process of combining data from different sources into a unified view. It involves aggregating and harmonizing data to provide a comprehensive and consistent representation for analysis and reporting.
+
+Q: What is a data analysis tool?
+A: A data analysis tool is software or an application used to process, analyze, and visualize data. Examples include Excel, Tableau, Power BI, and R, which help users perform tasks such as statistical analysis, data manipulation, and creating visualizations.
+
+Q: What is a data field?
+A: A data field is a specific piece of information within a data record, often represented as a column in a database or spreadsheet. Each field contains a particular type of data, such as a name, date, or numeric value.
+
+Q: What is data aggregation?
+A: Data aggregation is the process of collecting and summarizing data from multiple sources or records to provide a consolidated view. It involves combining individual data points into meaningful metrics or summaries for analysis.
+
+Q: What is an anomaly in data analysis?
+A: An anomaly, or outlier, is a data point that deviates significantly from the expected pattern or trend in a data set. Identifying anomalies helps in detecting errors, unusual events, or potential areas for further investigation.
+
+Q: What is a time series analysis?
+A: Time series analysis involves analyzing data points collected or recorded at specific time intervals. It helps in identifying trends, seasonal patterns, and forecasting future values based on historical data.
+
+Q: What is a data hypothesis?
+A: A data hypothesis is an educated guess or prediction about the relationship between variables in a data set. It is used as a starting point for analysis and testing to determine if there is evidence to support or refute the hypothesis.
+
+Q: What is a data pipeline?
+A: A data pipeline is a series of processes or stages that automate the movement and transformation of data from its source to a destination, such as a data warehouse or analysis tool. It ensures that data is collected, processed, and available for analysis efficiently.
+
+Q: What is a data schema?
+A: A data schema is a blueprint that defines the structure and organization of data within a database or data model. It includes details about tables, fields, relationships, and constraints, helping to ensure data consistency and integrity.
+
+Q: What is a data warehouse schema?
+A: A data warehouse schema is a structured layout of how data is organized and stored within a data warehouse. Common schemas include star schema and snowflake schema, which define how tables and dimensions are related for efficient querying and reporting.
+
+Q: What is data sampling?
+A: Data sampling is the process of selecting a representative subset of data from a larger population to conduct analysis. It helps in reducing the volume of data to manage and allows for faster and more cost-effective analysis.
+
+Q: What is a data mart?
+A: A data mart is a subset of a data warehouse, focused on a specific business area or department. It provides a more targeted view of data, enabling users to access and analyze information relevant to their particular needs.
+
+Q: What is a SQL JOIN?
+A: A SQL JOIN is an operation used to combine data from two or more tables based on a related column. It allows users to retrieve and analyze related data from multiple tables in a single query result.
+
+Q: What is a data model relationship?
+A: A data model relationship defines how different entities or tables in a database are related to each other. Common relationships include one-to-one, one-to-many, and many-to-many, which help in organizing and linking data effectively.
+
+Q: What is a data dictionary?
+A: A data dictionary is a centralized repository that provides detailed information about the data elements within a database or system. It includes descriptions, data types, formats, and relationships, helping users understand and manage the data.
+
+Q: What is data enrichment?
+A: Data enrichment is the process of enhancing existing data by adding additional information from external sources. It helps in improving the quality and completeness of data, providing a more comprehensive view for analysis and decision-making.
+
+Q: What is a data export?
+A: A data export is the process of transferring data from one system or format to another. It involves extracting data from a source, such as a database or spreadsheet, and converting it into a format suitable for use in another application or system.
+
+Q: What is data mining classification?
+A: Data mining classification is a technique used to categorize data into predefined classes or groups based on its attributes. It involves training a model on labeled data to predict the class of new, unseen data points.
+
+Q: What is data transformation?
+A: Data transformation is the process of converting data from one format or structure to another. It includes operations such as data cleaning, aggregation, normalization, and encoding, making data suitable for analysis or integration with other systems.
+
+Q: What is a data entry error?
+A: A data entry error is a mistake made during the input of data into a system, such as typographical errors, incorrect values, or missing information. Data entry errors can affect the accuracy and reliability of the data, leading to incorrect analysis or decisions.
+
+Q: What is a data report?
+A: A data report is a document or presentation that summarizes and presents data findings, often including charts, graphs, and tables. It is used to communicate insights, trends, and results to stakeholders for informed decision-making.
+
+Q: What is a data analysis technique?
+A: A data analysis technique refers to a specific method or approach used to analyze data and extract insights. Techniques include statistical analysis, regression, clustering, and hypothesis testing, each suited to different types of data and objectives.
+
+Q: What is a data trend line?
+A: A data trend line is a line drawn on a graph to represent the general direction or pattern of data points over time. It helps in visualizing trends and making predictions based on historical data.
+
+Q: What is a data visualization tool?
+A: A data visualization tool is software or an application designed to create visual representations of data, such as charts, graphs, and dashboards. Examples include Tableau, Power BI, and Google Data Studio, which help in presenting data insights effectively.
+
+Q: What is data profiling?
+A: Data profiling is the process of analyzing and assessing the quality, completeness, and consistency of data within a system. It involves examining data characteristics and metadata to identify issues and improve data management practices.
+
+Q: What is a data frame?
+A: A data frame is a data structure used in programming languages like Python and R to store and manipulate tabular data. It organizes data in rows and columns, similar to a spreadsheet or database table, and allows for easy data manipulation and analysis.
+
+Q: What is a data set's primary key?
+A: A primary key is a unique identifier for a record in a database table. It ensures that each record can be uniquely identified and helps establish relationships between tables by providing a way to reference specific data.
+
+Q: What is the difference between a data lake and a data warehouse?
+A: A data lake is a large repository that stores raw, unprocessed data from various sources, allowing for flexible analysis. A data warehouse, on the other hand, stores structured and processed data optimized for querying and reporting.
+
+Q: What is a summary statistic?
+A: A summary statistic is a numerical value that provides a concise description of a data set, such as the mean, median, mode, range, or standard deviation. It helps in understanding the central tendency, dispersion, and overall characteristics of the data.
+
+Q: What is data cleaning software?
+A: Data cleaning software is a tool designed to automate and facilitate the process of identifying and correcting data quality issues. It helps in detecting errors, inconsistencies, and duplicates, improving the accuracy and reliability of data.
+
+Q: What is data consistency?
+A: Data consistency refers to the accuracy and uniformity of data across a system or between multiple systems. Consistent data adheres to defined formats, rules, and constraints, ensuring reliable and meaningful analysis.
+
+Q: What is a data schema diagram?
+A: A data schema diagram is a visual representation of the structure and relationships within a database or data model. It illustrates tables, fields, and their interconnections, helping users understand the organization and flow of data.
+
+Q: What is data visualization best practice?
+A: Data visualization best practices involve creating clear, accurate, and effective visual representations of data. This includes choosing appropriate chart types, using labels and legends, maintaining consistency, and focusing on the key insights to enhance understanding.
+
+Q: What is data aggregation function?
+A: A data aggregation function performs operations such as summing, averaging, or counting data to provide a summary or overview. Aggregation functions are commonly used in queries and reports to consolidate and analyze large data sets.
+
+Q: What is a cross-tabulation?
+A: Cross-tabulation is a technique used to analyze the relationship between two or more categorical variables by creating a matrix or table that displays the frequency distribution of variables. It helps in identifying patterns and associations between variables.
+
+Q: What is a data query language?
+A: A data query language is a programming language used to make requests and retrieve data from databases. SQL (Structured Query Language) is the most commonly used query language, allowing users to perform operations such as selection, insertion, and updates.
+
+Q: What is data correlation analysis?
+A: Data correlation analysis examines the strength and direction of the relationship between two or more variables. It helps in understanding how changes in one variable may be related to changes in another, providing insights into potential dependencies.
+
+Q: What is a data outlier detection method?
+A: A data outlier detection method identifies data points that significantly differ from the majority of the data set. Common methods include statistical techniques such as Z-scores, interquartile range (IQR), and visual methods like box plots.
+
+Q: What is a data set's mean absolute deviation?
+A: Mean absolute deviation is a measure of dispersion that calculates the average of the absolute differences between each data point and the mean of the data set. It provides an indication of the spread of data values around the mean.
+
+Q: What is a data dashboard's KPI?
+A: A Key Performance Indicator (KPI) is a measurable value that assesses how effectively an organization is achieving key business objectives. KPIs are often displayed on data dashboards to provide a quick overview of performance metrics and progress.
+
+Q: What is data wrangling?
+A: Data wrangling, also known as data munging, is the process of cleaning, transforming, and preparing raw data for analysis. It involves various tasks such as merging data sources, handling missing values, and reshaping data to make it suitable for analysis.
+
+Q: What is a time series forecast?
+A: A time series forecast involves predicting future values based on historical data recorded at regular intervals. Forecasting methods analyze past trends, patterns, and seasonal variations to estimate future outcomes and support decision-making.
+
+Q: What is a data-driven decision?
+A: A data-driven decision is a choice made based on the analysis of data rather than intuition or subjective judgment. Data-driven decisions rely on objective insights and evidence derived from data to guide business strategies and actions.
+
+Q: What is a data aggregation query?
+A: A data aggregation query is a type of SQL query used to summarize and consolidate data by performing operations such as COUNT, SUM, AVG, MIN, and MAX. It helps in generating summary statistics and insights from large data sets.
+
+Q: What is a data analysis report?
+A: A data analysis report is a document that presents the results of data analysis, including key findings, visualizations, and interpretations. It provides an overview of the data, highlights trends and patterns, and offers recommendations based on the analysis.
+
+Q: What is a data mining algorithm?
+A: A data mining algorithm is a computational method used to discover patterns, relationships, and insights from large data sets. Examples include clustering algorithms, classification algorithms, and association rule mining, which help in extracting valuable information from data.
+
+Q: What is a data quality dimension?
+A: A data quality dimension refers to a specific aspect of data quality, such as accuracy, completeness, consistency, and timeliness. Assessing data quality dimensions helps in evaluating the reliability and usefulness of data for analysis and decision-making.
+
+Q: What is data enrichment in analytics?
+A: Data enrichment in analytics involves enhancing existing data by adding relevant information from external sources. It improves the depth and breadth of data, providing more comprehensive insights and supporting more informed decision-making.
+
+Q: What is data standardization?
+A: Data standardization is the process of converting data into a consistent format or structure. It involves normalizing data values, ensuring uniform units of measurement, and applying consistent rules, which helps in improving data quality and comparability.
+
+Q: What is a data histogram?
+A: A data histogram is a graphical representation of the distribution of numerical data. It displays the frequency of data points within specified ranges or bins, helping in visualizing the shape and spread of the data distribution.
+
+Q: What is a data profiling tool?
+A: A data profiling tool is software that analyzes and assesses data quality and structure within a database. It provides insights into data patterns, inconsistencies, and anomalies, assisting in data management and quality improvement.
+
+Q: What is a data analysis technique?
+A: A data analysis technique refers to a specific method or approach used to analyze and interpret data. Techniques can include descriptive statistics, inferential statistics, data mining, and machine learning, depending on the nature and goals of the analysis.
+
+Q: What is data validation?
+A: Data validation is the process of ensuring that data entered into a system meets specified criteria or rules. It involves checking for accuracy, completeness, and adherence to predefined formats or constraints, helping to maintain data integrity.
+
+Q: What is a data outlier?
+A: A data outlier is an observation or data point that significantly differs from the majority of the data set. Outliers can indicate anomalies or errors in the data and may require further investigation to understand their cause and impact.
+
+Q: What is a data extraction process?
+A: The data extraction process involves retrieving specific data from a source system or database for use in analysis or reporting. It includes selecting, filtering, and transferring relevant data to ensure it meets the requirements of the intended analysis.
+
+Q: What is a data normalization process?
+A: Data normalization is the process of adjusting data values to a common scale or format. It involves techniques such as scaling, transformation, and encoding to ensure that data is consistent and comparable across different sources or units of measurement.
+
+Q: What is a data pivot table?
+A: A data pivot table is an interactive table used in spreadsheet software to summarize and analyze data. It allows users to reorganize and aggregate data dynamically, providing different views and insights based on selected criteria and dimensions.
+
+Q: What is data aggregation in SQL?
+A: Data aggregation in SQL refers to the use of aggregate functions to summarize and combine data from multiple rows into a single value. Functions such as COUNT, SUM, AVG, MIN, and MAX are used to perform calculations and generate summary reports.
+
+Q: What is a data set's mode?
+A: The mode of a data set is the value that appears most frequently within the data. It is a measure of central tendency that helps identify the most common value or category in a data set.
+
+Q: What is data analysis reporting?
+A: Data analysis reporting involves creating and presenting reports that summarize the results of data analysis. Reports include key findings, visualizations, and insights, helping stakeholders understand and act on the analyzed data.
+
+Q: What is data imputation?
+A: Data imputation is the process of replacing missing or incomplete data with estimated values. Techniques such as mean imputation, median imputation, or model-based imputation are used to fill in gaps and improve the completeness of the data set.
+
+Q: What is a data set's median?
+A: The median of a data set is the middle value when the data points are arranged in ascending or descending order. It divides the data into two equal halves, providing a measure of central tendency that is less affected by outliers.
+
+Q: What is a data extraction tool?
+A: A data extraction tool is software designed to retrieve data from various sources, such as databases, spreadsheets, or web pages. It helps in automating the process of data retrieval and preparing data for further analysis or integration.
+
+Q: What is a data correlation coefficient?
+A: A data correlation coefficient is a statistical measure that quantifies the strength and direction of the relationship between two variables. It ranges from -1 to 1, with positive values indicating a positive relationship and negative values indicating a negative relationship.
+
+Q: What is data segmentation?
+A: Data segmentation involves dividing a data set into distinct groups or segments based on specific criteria. This process helps in analyzing subsets of data separately, enabling targeted insights and more precise decision-making.
+
+Q: What is a data distribution?
+A: Data distribution refers to the way in which data values are spread or arranged across different categories or ranges. It provides insights into the frequency and pattern of data points, helping to understand the overall structure of the data set.
+
+Q: What is data reconciliation?
+A: Data reconciliation is the process of comparing and aligning data from different sources to ensure consistency and accuracy. It involves identifying and resolving discrepancies, ensuring that data across systems or reports is accurate and up-to-date.
+
+Q: What is a data query optimization?
+A: Data query optimization involves improving the performance and efficiency of database queries. Techniques include indexing, query rewriting, and optimizing database schema to reduce query execution time and enhance overall system performance.
+
+Q: What is a data trend analysis?
+A: Data trend analysis involves examining historical data to identify patterns, trends, and changes over time. It helps in understanding long-term behavior and forecasting future trends based on historical data.
+
+Q: What is data quality assessment?
+A: Data quality assessment is the process of evaluating the accuracy, completeness, consistency, and reliability of data. It involves analyzing data against predefined quality criteria to identify and address any issues or deficiencies.
+
+Q: What is data source integration?
+A: Data source integration involves combining data from multiple sources into a unified view or database. It includes processes such as data extraction, transformation, and loading (ETL) to ensure that data from different sources is harmonized and accessible.
+
+Q: What is a data relationship diagram?
+A: A data relationship diagram is a visual representation of the relationships between different entities or tables in a database. It illustrates how data elements are connected and helps in understanding the database structure and design.
+
+Q: What is data filtering?
+A: Data filtering is the process of selecting specific data from a larger data set based on predefined criteria. It involves applying conditions to include or exclude data points, helping in focusing analysis on relevant information.
+
+Q: What is a data matrix?
+A: A data matrix is a two-dimensional array or table that organizes data into rows and columns. It is commonly used in statistical analysis and data mining to represent and analyze data sets in a structured format.
+
+Q: What is data pattern recognition?
+A: Data pattern recognition involves identifying regularities or trends within a data set. It helps in uncovering underlying patterns or anomalies that can provide insights and guide decision-making.
+
+Q: What is a data trend chart?
+A: A data trend chart is a graphical representation that displays how data values change over time. It helps in visualizing trends, patterns, and fluctuations in data, facilitating better understanding and analysis.
+
+Q: What is data aggregation in Excel?
+A: Data aggregation in Excel involves using functions such as SUM, AVERAGE, COUNT, and others to consolidate and summarize data from multiple cells or ranges. It helps in creating summary statistics and reports within spreadsheets.
+
+Q: What is a data visualization chart?
+A: A data visualization chart is a graphical representation of data, such as bar charts, line charts, pie charts, and scatter plots. It helps in presenting data insights in a visually appealing and easily interpretable manner.
+
+Q: What is a data quality framework?
+A: A data quality framework is a structured approach to managing and improving data quality. It includes guidelines, standards, and best practices for ensuring data accuracy, consistency, and reliability across an organization.
+
+Q: What is a data dimension in analytics?
+A: A data dimension is a structural attribute used to categorize and analyze data in analytics. Dimensions are used to organize and filter data, such as time, location, or product categories, facilitating detailed analysis and reporting.
+
+Q: What is data sampling?
+A: Data sampling is the process of selecting a subset of data from a larger data set for analysis. It helps in making inferences or drawing conclusions about the entire data set without analyzing all data points.
+
+Q: What is data extraction in ETL?
+A: Data extraction in ETL (Extract, Transform, Load) is the initial step where data is retrieved from various source systems. It involves accessing and collecting data to be transformed and loaded into a target system or data warehouse.
+
+Q: What is a data visualization dashboard?
+A: A data visualization dashboard is a user interface that displays multiple visualizations, such as charts and graphs, on a single screen. It provides a comprehensive view of key metrics and performance indicators for quick analysis and decision-making.
+
+Q: What is a data cleaning technique?
+A: A data cleaning technique involves methods for identifying and correcting errors, inconsistencies, and inaccuracies in data. Techniques include removing duplicates, correcting misspellings, and standardizing data formats to ensure data quality.
+
+Q: What is data migration?
+A: Data migration is the process of transferring data from one system, format, or storage location to another. It involves planning, extracting, transforming, and loading data to ensure a smooth transition and minimal disruption.
+
+Q: What is a data set's range?
+A: The range of a data set is the difference between the maximum and minimum values in the set. It provides a measure of the spread or dispersion of the data points, indicating the extent of variability within the data.
+
+Q: What is a data entry form?
+A: A data entry form is a structured interface used to input and capture data into a system or database. It includes fields and controls for entering information, ensuring that data is recorded accurately and consistently.
+
+Q: What is data trend prediction?
+A: Data trend prediction involves using historical data to forecast future trends and outcomes. Techniques such as time series analysis and regression modeling help in making predictions based on observed patterns and trends.
+
+Q: What is data consolidation?
+A: Data consolidation is the process of combining data from different sources or systems into a single, unified view. It involves integrating and aggregating data to provide a comprehensive and cohesive representation.
+
+Q: What is a data repository?
+A: A data repository is a centralized storage location for collecting and managing data. It can include databases, data warehouses, or data lakes, and serves as a source for accessing and analyzing data.
+
+Q: What is a data profiling report?
+A: A data profiling report provides an analysis of the characteristics and quality of data within a system. It includes metrics and insights on data distribution, completeness, consistency, and accuracy.
+
+Q: What is a data quality dimension?
+A: A data quality dimension is a specific aspect or attribute of data quality, such as accuracy, completeness, consistency, or timeliness. Dimensions help in evaluating and measuring different facets of data quality.
+
+Q: What is a data summary report?
+A: A data summary report provides a concise overview of key findings and insights from data analysis. It includes summaries of data trends, metrics, and visualizations to communicate important information effectively.
+
+Q: What is a data cleansing process?
+A: A data cleansing process involves identifying and rectifying errors, inconsistencies, and inaccuracies in data. It includes steps such as validation, correction, and standardization to improve the quality and reliability of the data.

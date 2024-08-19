@@ -1,0 +1,308 @@
+Q: What is Computer Vision?
+A: Computer Vision is a field of artificial intelligence that enables computers to interpret and understand visual information from the world, such as images and videos. It involves developing algorithms and models to process, analyze, and make decisions based on visual data, aiming to enable machines to "see" and understand the visual world in a way similar to humans.
+
+Q: What are the main applications of Computer Vision?
+A: Computer Vision applications include image and video recognition, object detection, facial recognition, autonomous vehicles, medical imaging, augmented reality, and scene understanding. These applications help in automating tasks that require visual interpretation and decision-making.
+
+Q: What is image classification in Computer Vision?
+A: Image classification is the process of assigning a label or category to an entire image based on its content. For example, a model might classify an image as a cat or a dog by analyzing its features and patterns. This is often achieved using machine learning algorithms like Convolutional Neural Networks (CNNs).
+
+Q: What is object detection?
+A: Object detection is a Computer Vision task that involves identifying and locating objects within an image. Unlike image classification, which assigns a single label to an image, object detection provides bounding boxes around each detected object and assigns a label to each box.
+
+Q: What is a Convolutional Neural Network (CNN)?
+A: A Convolutional Neural Network (CNN) is a type of deep learning model specifically designed for processing grid-like data such as images. CNNs use convolutional layers to automatically and adaptively learn spatial hierarchies of features from input images, making them highly effective for image classification and object detection tasks.
+
+Q: What is the purpose of pooling layers in CNNs?
+A: Pooling layers in Convolutional Neural Networks (CNNs) reduce the spatial dimensions of feature maps, which decreases the computational load and helps prevent overfitting. They summarize the features in a region by taking the maximum or average value, thus retaining important information while reducing the size of the data.
+
+Q: What is image segmentation?
+A: Image segmentation is the process of dividing an image into multiple segments or regions to simplify its analysis. Each segment represents a different object or part of the image, making it easier to analyze and understand the contents. Techniques include thresholding, clustering, and deep learning-based methods.
+
+Q: What is the difference between semantic segmentation and instance segmentation?
+A: Semantic segmentation assigns a label to each pixel in an image, grouping pixels into categories without distinguishing between different instances of the same category. Instance segmentation, on the other hand, not only segments the image into different categories but also differentiates between individual instances of objects within those categories.
+
+Q: What is a feature in the context of Computer Vision?
+A: In Computer Vision, a feature is a measurable property or characteristic of an image that helps in identifying or describing objects within it. Features can include edges, textures, shapes, or patterns that are used to recognize and differentiate between different parts or objects in the image.
+
+Q: What is image preprocessing?
+A: Image preprocessing involves techniques applied to raw image data to enhance its quality and make it suitable for analysis. Common preprocessing steps include resizing, normalization, denoising, and contrast adjustment, which help improve the performance of Computer Vision models.
+
+Q: What is an edge detection algorithm?
+A: An edge detection algorithm identifies boundaries or edges within an image where there is a significant change in intensity or color. Common edge detection methods include the Canny edge detector, Sobel operator, and Prewitt operator, which help in detecting the outlines of objects and structures.
+
+Q: What are histogram equalization techniques used for?
+A: Histogram equalization techniques are used to enhance the contrast of an image by redistributing the intensity levels across the histogram. This process improves the visibility of features in images with poor contrast, making it easier to analyze and interpret the visual data.
+
+Q: What is image normalization?
+A: Image normalization is the process of adjusting the pixel values in an image to a common scale or range. This helps in standardizing the input data, improving the performance and convergence of machine learning models by ensuring consistency in the data used for training and inference.
+
+Q: What is the role of data augmentation in Computer Vision?
+A: Data augmentation involves creating variations of the original training data by applying transformations such as rotation, scaling, flipping, and cropping. This increases the diversity of the training data, helps improve the generalization of the model, and reduces overfitting.
+
+Q: What is the difference between supervised and unsupervised learning in Computer Vision?
+A: In supervised learning, models are trained on labeled data where each image has a corresponding label or annotation. In unsupervised learning, models are trained on unlabeled data, and the goal is to identify patterns, structures, or clusters within the data without predefined labels.
+
+Q: What is an image descriptor?
+A: An image descriptor is a feature vector that represents the characteristics or attributes of an image. Descriptors are used to capture important information about the image, such as texture, color, and shape, and are often employed in tasks like image matching and retrieval.
+
+Q: What is the purpose of the Rectified Linear Unit (ReLU) activation function in CNNs?
+A: The Rectified Linear Unit (ReLU) activation function introduces non-linearity into the CNN by replacing negative pixel values with zero and keeping positive values unchanged. This helps the network learn complex patterns and features while accelerating the training process by reducing computational complexity.
+
+Q: What are keypoints in Computer Vision?
+A: Keypoints are distinctive and stable points in an image that are used for tasks such as object recognition and matching. They are often used to describe unique features or corners in an image, which can be detected and matched across different images.
+
+Q: What is the Hough Transform used for?
+A: The Hough Transform is a technique used to detect geometric shapes, such as lines, circles, and ellipses, in images. It works by mapping points in the image space to parameter space and identifying patterns that correspond to the shapes being detected.
+
+Q: What is the difference between a local feature and a global feature?
+A: Local features describe specific, localized aspects of an image, such as keypoints or texture patches, which are useful for tasks like object recognition and matching. Global features capture overall characteristics of the entire image, such as color histograms or shape descriptors, which are used for image classification and scene understanding.
+
+Q: What is optical flow in Computer Vision?
+A: Optical flow refers to the pattern of apparent motion of objects, surfaces, and edges in a visual scene, caused by the relative motion between the camera and the scene. It is used to estimate the velocity of moving objects and is commonly employed in video analysis and tracking.
+
+Q: What are convolutional filters in a CNN?
+A: Convolutional filters, or kernels, are small matrices used to convolve with the input image to extract features such as edges, textures, and patterns. Each filter detects specific features in the image, which are then used to create feature maps for further processing in the network.
+
+Q: What is transfer learning in the context of Computer Vision?
+A: Transfer learning involves using a pre-trained model on a related task as a starting point for a new task. By leveraging the knowledge and features learned from the pre-trained model, transfer learning can improve performance and reduce training time for the new task.
+
+Q: What is the purpose of pooling layers in a CNN?
+A: Pooling layers reduce the spatial dimensions of feature maps, which helps in lowering computational cost and controlling overfitting. They summarize the presence of features in a region by applying operations like max pooling or average pooling, retaining the most important information.
+
+Q: What is the concept of "bounding boxes" in object detection?
+A: Bounding boxes are rectangular regions drawn around detected objects in an image. They specify the location and size of the object, allowing for classification and localization of multiple objects within the image.
+
+Q: What is data annotation in Computer Vision?
+A: Data annotation involves labeling or tagging images with relevant information such as object classes, bounding boxes, or segmentation masks. It provides the necessary ground truth for training and evaluating Computer Vision models.
+
+Q: What are the common evaluation metrics for object detection?
+A: Common evaluation metrics for object detection include Precision, Recall, Average Precision (AP), and Intersection over Union (IoU). These metrics assess the accuracy and quality of object localization and classification in the detected results.
+
+Q: What is the purpose of the softmax function in a neural network?
+A: The softmax function converts raw output scores from the neural network into probabilities for classification tasks. It ensures that the sum of the probabilities for all classes equals 1, allowing for the selection of the class with the highest probability as the predicted label.
+
+Q: What is an ROI (Region of Interest) in Computer Vision?
+A: An ROI is a specific area within an image that is selected for detailed analysis or processing. It is used to focus on a particular region of interest, such as detecting objects or performing image segmentation within that area.
+
+Q: What is the role of activation functions in neural networks?
+A: Activation functions introduce non-linearity into neural networks, enabling them to learn and model complex patterns in data. They transform the output of neurons and help in capturing intricate relationships between input and output.
+
+Q: What is a feature map in the context of CNNs?
+A: A feature map is an output of a convolutional layer in a CNN, representing the detected features from the input image. It highlights regions with specific characteristics, such as edges or textures, which are used for further processing and learning in the network.
+
+Q: What is the purpose of normalization techniques like Batch Normalization?
+A: Normalization techniques like Batch Normalization stabilize and accelerate the training of neural networks by normalizing the inputs to each layer. This helps in reducing internal covariate shift, improving convergence speed, and allowing for higher learning rates.
+
+Q: What is the significance of the learning rate in training neural networks?
+A: The learning rate determines the size of the steps taken during the optimization process while updating model weights. A suitable learning rate is crucial for effective training; too high can lead to overshooting, while too low can result in slow convergence.
+
+Q: What is an anchor box in object detection?
+A: An anchor box is a predefined bounding box with a specific size and aspect ratio used in object detection algorithms to match with ground truth boxes. Anchor boxes help in predicting the location and size of objects by providing reference boxes for comparison.
+
+Q: What is image denoising?
+A: Image denoising is the process of removing unwanted noise from an image to enhance its quality and clarity. Techniques for denoising include filtering methods, such as Gaussian or median filters, and advanced methods like denoising autoencoders and deep learning models.
+
+Q: What are Generative Adversarial Networks (GANs)?
+A: Generative Adversarial Networks (GANs) are a type of deep learning model consisting of two neural networks—a generator and a discriminator—that compete against each other. The generator creates synthetic data, while the discriminator evaluates its authenticity, leading to improved data generation.
+
+Q: What is image stitching in Computer Vision?
+A: Image stitching is the process of combining multiple images to create a single panoramic or wide-angle image. Techniques involve aligning and blending images to produce a seamless and continuous view of the scene.
+
+Q: What is semantic segmentation?
+A: Semantic segmentation assigns a label to each pixel in an image based on its category, effectively dividing the image into regions that correspond to different objects or classes. It provides detailed understanding of the scene by categorizing each pixel.
+
+Q: What is feature extraction?
+A: Feature extraction involves identifying and extracting relevant features or characteristics from raw image data to simplify the analysis. These features, such as edges or textures, are used for further processing, such as classification or object detection.
+
+Q: What is the purpose of data augmentation in training Computer Vision models?
+A: Data augmentation artificially increases the size of the training dataset by applying transformations like rotation, scaling, and flipping. This helps in improving the model's generalization ability and robustness by exposing it to varied data.
+
+Q: What is the role of the convolution operation in a CNN?
+A: The convolution operation in a CNN applies a filter or kernel to the input image to produce feature maps. It detects specific patterns or features in the image by sliding the filter across the input and computing dot products.
+
+Q: What is a VGG network?
+A: VGG (Visual Geometry Group) networks are a type of Convolutional Neural Network (CNN) architecture known for their simplicity and depth. They use small 3x3 convolutional filters and have a deep network structure, which helps in achieving high performance in image classification tasks.
+
+Q: What is the purpose of dropout in neural networks?
+A: Dropout is a regularization technique used in neural networks to prevent overfitting. During training, dropout randomly deactivates a fraction of neurons, which helps in ensuring that the network does not rely too heavily on any single neuron and improves generalization.
+
+Q: What is a saliency map?
+A: A saliency map highlights the regions of an image that are most important for a model's prediction. It shows which parts of the image contribute the most to the model's decision, helping in understanding the model's focus and interpretability.
+
+Q: What is an image pyramid?
+A: An image pyramid is a multi-scale representation of an image where each level corresponds to a different resolution. It is used in various Computer Vision tasks, such as object detection and image matching, to handle objects at different scales.
+
+Q: What is a descriptor in the context of feature matching?
+A: A descriptor is a numerical representation of a keypoint's local appearance in an image. It captures the distinctive features around the keypoint and is used to match keypoints between different images by comparing their descriptors.
+
+Q: What are contour detection techniques?
+A: Contour detection techniques identify the boundaries or edges of objects within an image. Common methods include the Canny edge detector and the Suzuki algorithm, which help in detecting shapes and objects by finding continuous curves.
+
+Q: What is the difference between object tracking and object detection?
+A: Object detection involves identifying and locating objects within an image, whereas object tracking follows the movement of detected objects across a sequence of frames in a video. Tracking maintains the identity and position of objects over time.
+
+Q: What is a deep learning model in Computer Vision?
+A: A deep learning model is a type of neural network with multiple layers that learns hierarchical features from raw data. In Computer Vision, deep learning models, such as CNNs, are used for tasks like image classification, object detection, and segmentation by learning complex patterns from large datasets.
+
+Q: What is the use of edge detection filters?
+A: Edge detection filters are used to identify the boundaries or edges within an image where there is a significant change in intensity. They help in highlighting the shapes and structures in the image, which are useful for various Computer Vision tasks.
+
+Q: What is image registration?
+A: Image registration is the process of aligning and mapping multiple images into a common coordinate system. It is used to combine images taken from different viewpoints or at different times, ensuring that corresponding features are correctly aligned.
+
+Q: What is the purpose of activation functions in neural networks?
+A: Activation functions introduce non-linearity into neural networks, allowing them to learn and model complex relationships in the data. They determine the output of neurons and help in capturing intricate patterns necessary for tasks like classification and regression.
+
+Q: What is object recognition?
+A: Object recognition is a Computer Vision task that involves identifying and classifying objects within an image. It often includes detecting the object’s location and categorizing it based on learned features and patterns.
+
+Q: What is a sliding window technique?
+A: The sliding window technique involves moving a fixed-size window across an image to perform tasks such as object detection. At each position, the window extracts a region of interest for analysis, allowing for the detection of objects at various locations within the image.
+
+Q: What is the role of feature maps in CNNs?
+A: Feature maps in Convolutional Neural Networks (CNNs) represent the output of applying convolutional filters to the input image. They capture different aspects of the image, such as edges and textures, and are used for further processing and learning in the network.
+
+Q: What is the purpose of image resizing?
+A: Image resizing involves changing the dimensions of an image to fit specific requirements, such as adjusting to a standard input size for a neural network or improving processing efficiency. It helps in maintaining consistency and optimizing the performance of Computer Vision models.
+
+Q: What is a spatial filter?
+A: A spatial filter is used to modify the appearance of an image by applying mathematical operations on its pixel values. It helps in tasks such as blurring, sharpening, and edge detection by altering the image’s spatial characteristics.
+
+Q: What is a feature vector?
+A: A feature vector is a numerical representation of an image or its parts, capturing important attributes and characteristics. It is used for various tasks like image classification and matching by comparing these vectors to identify similarities and differences.
+
+Q: What is an object proposal?
+A: An object proposal is a region of an image that is likely to contain an object. These regions are generated using algorithms and are used in object detection tasks to focus on specific areas for further classification and refinement.
+
+Q: What is the purpose of the cv2.imread() function in OpenCV?
+A: The cv2.imread() function in OpenCV is used to read an image from a file and load it into memory as an array. It allows for various image processing operations by providing access to the image data.
+
+Q: What is the significance of the cv2.cvtColor() function in OpenCV?
+A: The cv2.cvtColor() function in OpenCV converts an image from one color space to another, such as from RGB to grayscale or HSV. This is essential for preprocessing images and performing color-based analysis.
+
+Q: What is the role of the cv2.GaussianBlur() function in OpenCV?
+A: The cv2.GaussianBlur() function applies a Gaussian filter to an image to reduce noise and smooth out details. It helps in preprocessing images by blurring them, which can enhance the performance of subsequent image processing tasks.
+
+Q: What is a heatmap in Computer Vision?
+A: A heatmap is a graphical representation of data where values are depicted with colors. In Computer Vision, heatmaps are used to visualize the intensity of certain features or regions, such as the output of object detection models or activation maps in CNNs.
+
+Q: What is feature matching?
+A: Feature matching involves comparing and identifying corresponding features between different images. Techniques like SIFT, SURF, and ORB are used to detect and match keypoints, enabling tasks such as image stitching and object recognition.
+
+Q: What is the purpose of morphological operations in image processing?
+A: Morphological operations, such as erosion and dilation, are used to process and analyze the structure of objects within binary or grayscale images. They help in tasks like noise removal, shape extraction, and object segmentation.
+
+Q: What is the role of the cv2.findContours() function in OpenCV?
+A: The cv2.findContours() function in OpenCV detects and retrieves contours or boundaries of objects in a binary image. It is used for tasks like shape analysis, object detection, and image segmentation.
+
+Q: What is the concept of image gradients?
+A: Image gradients represent the change in intensity or color values across an image. They are used to detect edges and transitions in image content by calculating the rate of change in pixel values, aiding in edge detection and feature extraction.
+
+Q: What is a convolutional kernel?
+A: A convolutional kernel, or filter, is a small matrix used to perform convolution operations on an image. It slides over the input image to produce feature maps by applying mathematical operations, such as dot products, to capture specific patterns.
+
+Q: What is the difference between supervised and unsupervised learning in Computer Vision?
+A: Supervised learning involves training models on labeled data with known outcomes, allowing the model to learn from examples. Unsupervised learning deals with unlabeled data and focuses on discovering hidden patterns or structures without predefined labels.
+
+Q: What is image classification?
+A: Image classification is a Computer Vision task that involves categorizing an image into predefined classes or categories based on its content. The model learns to recognize and differentiate between different classes by analyzing features extracted from images.
+
+Q: What is a bounding box?
+A: A bounding box is a rectangular box used to define the location and extent of an object within an image. It is commonly used in object detection tasks to localize and highlight objects by specifying their coordinates and dimensions.
+
+Q: What is object localization?
+A: Object localization involves identifying the position of an object within an image and marking it with a bounding box. It provides information about where the object is located, which is crucial for tasks like object detection and tracking.
+
+Q: What is the role of pooling layers in CNNs?
+A: Pooling layers in Convolutional Neural Networks (CNNs) reduce the spatial dimensions of feature maps by summarizing information within local regions. They help in reducing computational complexity and controlling overfitting by retaining important features.
+
+Q: What is the difference between object detection and image segmentation?
+A: Object detection involves identifying and locating objects within an image using bounding boxes, while image segmentation involves partitioning an image into distinct regions or segments based on pixel-level labels, providing a more detailed understanding of the scene.
+
+Q: What is the purpose of the cv2.threshold() function in OpenCV?
+A: The cv2.threshold() function in OpenCV converts grayscale images into binary images by applying a threshold value. It helps in segmenting objects from the background by distinguishing pixels based on their intensity values.
+
+Q: What is a feature pyramid network (FPN)?
+A: A Feature Pyramid Network (FPN) is a type of neural network architecture that enhances object detection by constructing feature pyramids at multiple scales. It helps in detecting objects of various sizes and improving performance in tasks involving multi-scale analysis.
+
+Q: What is data normalization in Computer Vision?
+A: Data normalization involves scaling image pixel values to a standard range, such as [0, 1], to ensure consistent input for neural networks. It helps in speeding up convergence and improving the performance of image processing models.
+
+Q: What is image compression?
+A: Image compression reduces the file size of an image while preserving its quality as much as possible. Techniques include lossy methods, such as JPEG, and lossless methods, such as PNG, used to decrease storage requirements and transmission bandwidth.
+
+Q: What is the role of the cv2.drawContours() function in OpenCV?
+A: The cv2.drawContours() function in OpenCV is used to draw detected contours on an image, allowing for visualization and analysis of object boundaries. It helps in illustrating and validating the results of contour detection algorithms.
+
+Q: What is image augmentation?
+A: Image augmentation involves applying transformations, such as rotations, shifts, and flips, to training images to increase dataset variability. This helps in improving the robustness and generalization of Computer Vision models by exposing them to diverse data.
+
+Q: What is the significance of the receptive field in CNNs?
+A: The receptive field in Convolutional Neural Networks (CNNs) represents the region of the input image that a neuron in a feature map is sensitive to. It defines the extent of the input data that influences the neuron’s activation, affecting the network’s ability to capture contextual information.
+
+Q: What is a Region of Interest (ROI) in image processing?
+A: A Region of Interest (ROI) is a specific part of an image that is selected for analysis or processing. By focusing on the ROI, models can concentrate on relevant areas of an image, improving performance and efficiency in tasks such as object detection and tracking.
+
+Q: What is the difference between batch normalization and layer normalization?
+A: Batch normalization normalizes the inputs of a layer across the batch dimension, while layer normalization normalizes inputs across the feature dimension for each individual example. Batch normalization helps in stabilizing training by reducing internal covariate shift, while layer normalization improves model performance and convergence by normalizing feature activations.
+
+Q: What is a convolution operation in image processing?
+A: A convolution operation involves applying a filter or kernel to an image to produce a feature map. It captures local patterns, such as edges or textures, by computing the weighted sum of pixel values in the region covered by the filter.
+
+Q: What is the significance of the activation function in CNNs?
+A: The activation function in Convolutional Neural Networks (CNNs) introduces non-linearity into the model, allowing it to learn and represent complex patterns in the data. It determines the output of neurons and helps in capturing intricate relationships necessary for accurate image analysis.
+
+Q: What is image segmentation?
+A: Image segmentation is the process of dividing an image into multiple segments or regions, each corresponding to different objects or parts of interest. It provides detailed information about the image content, enabling tasks such as object recognition and scene understanding.
+
+Q: What is an object detection algorithm?
+A: An object detection algorithm identifies and locates objects within an image by predicting bounding boxes and class labels. Popular algorithms include YOLO, Faster R-CNN, and SSD, which utilize various techniques to detect objects with high accuracy and efficiency.
+
+Q: What is the role of the cv2.imshow() function in OpenCV?
+A: The cv2.imshow() function in OpenCV displays an image in a window. It is used for visualizing images and results during image processing and computer vision tasks, allowing users to inspect and debug their image data and processing outcomes.
+
+Q: What is image thresholding?
+A: Image thresholding is a technique that converts grayscale images into binary images by setting a threshold value. Pixels with intensity values above the threshold are set to one value (usually white), while those below are set to another value (usually black), aiding in image segmentation and object detection.
+
+Q: What is the significance of data augmentation in training deep learning models?
+A: Data augmentation artificially increases the diversity of the training dataset by applying transformations such as rotations, shifts, and flips. This helps in improving the model’s generalization ability and robustness by exposing it to a wider range of variations in the data.
+
+Q: What is a heatmap in object detection?
+A: A heatmap in object detection is a visual representation that indicates the likelihood or intensity of an object being present in different areas of an image. It helps in identifying regions with high probability of containing objects, facilitating accurate localization and detection.
+
+Q: What is the purpose of using a pre-trained model in Computer Vision?
+A: Using a pre-trained model allows leveraging previously learned features and patterns from large datasets, which can improve performance and reduce training time for new tasks. Pre-trained models serve as a starting point and can be fine-tuned for specific applications.
+
+Q: What is a bounding box regression in object detection?
+A: Bounding box regression is a technique used in object detection to refine the coordinates of predicted bounding boxes to better match the ground truth. It adjusts the box's position, size, and aspect ratio to improve localization accuracy.
+
+Q: What is a deep residual network (ResNet)?
+A: A deep residual network (ResNet) is a type of Convolutional Neural Network (CNN) that includes residual connections or skip connections. These connections help in training very deep networks by allowing gradients to flow more easily through the layers, mitigating the vanishing gradient problem.
+
+Q: What is the purpose of pooling layers in Convolutional Neural Networks?
+A: Pooling layers reduce the spatial dimensions of feature maps in Convolutional Neural Networks by summarizing information within local regions. This helps in decreasing computational load, reducing overfitting, and preserving important features for subsequent layers.
+
+Q: What is object tracking in Computer Vision?
+A: Object tracking involves following the movement of objects across a sequence of frames in a video. It maintains the object's identity and position over time, enabling applications such as surveillance, video analysis, and autonomous driving.
+
+Q: What is the purpose of using a loss function in training neural networks?
+A: A loss function quantifies the difference between the predicted output and the actual target values. It provides a measure of the model's performance and guides the optimization process by indicating how well the model is learning and where adjustments are needed.
+
+Q: What is the role of data preprocessing in Computer Vision?
+A: Data preprocessing involves preparing and cleaning image data before feeding it into a model. This includes tasks such as resizing, normalization, and augmentation, which help in improving model performance and ensuring that the data is suitable for training.
+
+Q: What is a deep learning framework?
+A: A deep learning framework is a software library or toolkit that provides tools and functions for building, training, and evaluating deep learning models. Examples include TensorFlow, PyTorch, and Keras, which simplify the implementation of complex neural network architectures and algorithms.
+
+Q: What is the concept of class imbalance in Computer Vision datasets?
+A: Class imbalance occurs when certain classes in a dataset are significantly underrepresented compared to others. This can lead to biased models that perform poorly on minority classes, requiring techniques like resampling or reweighting to address the imbalance and improve model performance.
+
+Q: What is a feature map in Convolutional Neural Networks?
+A: A feature map is the output of a convolutional layer in a Convolutional Neural Network (CNN). It represents the presence of specific features, such as edges or textures, detected by the convolutional filters as they slide over the input image.
+
+Q: What is the purpose of a dropout layer in neural networks?
+A: A dropout layer is used to prevent overfitting in neural networks by randomly setting a fraction of the input units to zero during training. This forces the network to learn redundant representations and improves generalization by reducing reliance on specific neurons.
+
+Q: What is a convolutional neural network (CNN)?
+A: A Convolutional Neural Network (CNN) is a type of deep learning architecture designed for processing grid-like data, such as images. It uses convolutional layers to automatically learn and extract features from images, followed by pooling and fully connected layers to perform classification or other tasks.

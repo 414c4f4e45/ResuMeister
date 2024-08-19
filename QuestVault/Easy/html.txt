@@ -1,0 +1,302 @@
+Q: What is HTML?
+A: HTML stands for HyperText Markup Language. It is the standard language used to create and design web pages. HTML provides the basic structure of a webpage using elements like headings, paragraphs, links, images, and other types of content.
+
+Q: What is the purpose of the <!DOCTYPE html> declaration?
+A: The <!DOCTYPE html> declaration is used to specify the document type and version of HTML being used. It helps the web browser render the page correctly by defining that the document is written in HTML5.
+
+Q: What does the <head> element contain?
+A: The <head> element in an HTML document contains metadata about the document, such as the title, character encoding, links to stylesheets, scripts, and other information that is not displayed directly on the webpage.
+
+Q: How do you define a hyperlink in HTML?
+A: A hyperlink in HTML is defined using the <a> (anchor) tag. The href attribute specifies the URL of the page the link goes to. For example, <a href="https://example.com">Visit Example</a> creates a link to "https://example.com."
+
+Q: What is the role of the <title> tag in HTML?
+A: The <title> tag is used to specify the title of an HTML document. This title is displayed in the browser's title bar or tab and is important for search engine optimization and user navigation.
+
+Q: How can you insert an image into a webpage?
+A: You can insert an image into a webpage using the <img> tag. The src attribute specifies the path to the image file, and the alt attribute provides alternative text if the image cannot be displayed. For example, <img src="image.jpg" alt="Description of image">.
+
+Q: What is the difference between <div> and <span> tags?
+A: The <div> tag is a block-level element used to group and style larger sections of content, while the <span> tag is an inline element used to apply styles to small sections of text or other inline elements. <div> creates a new line, whereas <span> does not.
+
+Q: How do you create a table in HTML?
+A: To create a table in HTML, use the <table> element. Inside it, use <tr> to define rows, <th> for table headers, and <td> for table data cells. For example, <table><tr><th>Header</th></tr><tr><td>Data</td></tr></table>.
+
+Q: What is the purpose of the <form> element?
+A: The <form> element is used to create interactive forms that allow users to input data, which can then be submitted to a server. Forms can include various input types such as text fields, checkboxes, and buttons.
+
+Q: How do you create an unordered list in HTML?
+A: To create an unordered list in HTML, use the <ul> element to define the list, and the <li> element to define each list item. For example, <ul><li>Item 1</li><li>Item 2</li></ul> creates a bulleted list.
+
+Q: What is the function of the <meta> tag?
+A: The <meta> tag provides metadata about the HTML document, such as character encoding, author, description, and keywords. It is placed within the <head> element and helps search engines and browsers understand the content of the page.
+
+Q: How can you include a CSS stylesheet in an HTML document?
+A: To include a CSS stylesheet in an HTML document, use the <link> tag within the <head> element. The rel attribute specifies the relationship as "stylesheet," and the href attribute provides the path to the CSS file. For example, <link rel="stylesheet" href="styles.css">.
+
+Q: What does the alt attribute do in an <img> tag?
+A: The alt attribute in an <img> tag provides alternative text for an image if it cannot be displayed. This text is used by screen readers for accessibility and appears if the image fails to load.
+
+Q: How do you make a list item appear with a number?
+A: To create a numbered list, use the <ol> (ordered list) tag, which automatically numbers the list items. Each item is defined using the <li> (list item) tag. For example, <ol><li>First</li><li>Second</li></ol> creates a numbered list.
+
+Q: What is the <link> tag used for in HTML?
+A: The <link> tag is used to link external resources to the HTML document, such as stylesheets or icons. It is placed within the <head> section and is commonly used to include CSS files.
+
+Q: How do you create a text area in a form?
+A: To create a text area in a form, use the <textarea> tag. It allows users to input multiple lines of text. The rows and cols attributes can be used to define the size of the text area. For example, <textarea rows="4" cols="50"></textarea>.
+
+Q: What does the target attribute do in a link?
+A: The target attribute in an <a> tag specifies where to open the linked document. For example, target="_blank" opens the link in a new tab or window, while target="_self" opens it in the same frame or window.
+
+Q: How can you create a radio button in HTML?
+A: To create a radio button in HTML, use the <input> tag with the type attribute set to "radio." Each radio button should have the same name attribute to group them together, allowing only one to be selected at a time. For example, <input type="radio" name="group1" value="Option1">.
+
+Q: What is the purpose of the <script> tag in HTML?
+A: The <script> tag is used to include and execute JavaScript code in an HTML document. It can be placed in the <head> or <body> sections and can reference external JavaScript files using the src attribute or include inline JavaScript code.
+
+Q: How do you specify the language of an HTML document?
+A: The language of an HTML document is specified using the lang attribute in the <html> tag. For example, <html lang="en"> indicates that the document is in English.
+
+Q: What is the href attribute used for?
+A: The href attribute in an <a> tag specifies the URL of the page the link goes to. It stands for "hypertext reference" and defines the destination of the hyperlink.
+
+Q: How do you create a dropdown menu in HTML?
+A: To create a dropdown menu, use the <select> tag, and the <option> tag for each item in the dropdown list. For example, <select><option>Option 1</option><option>Option 2</option></select> creates a simple dropdown menu.
+
+Q: What is the action attribute in a form?
+A: The action attribute in a <form> tag specifies the URL where the form data should be sent when the form is submitted. It defines the destination for the form's data.
+
+Q: How do you define a table header in HTML?
+A: A table header in HTML is defined using the <th> tag within a <tr> (table row) tag. The <th> tag is used to represent header cells, which are bold and centered by default. For example, <tr><th>Header 1</th></tr>.
+
+Q: What does the <meta charset="UTF-8"> tag do?
+A: The <meta charset="UTF-8"> tag specifies the character encoding for the HTML document. UTF-8 is a character encoding capable of encoding all possible characters and is widely used for web documents.
+
+Q: How do you add comments in HTML?
+A: Comments in HTML are added using the <!-- --> syntax. Anything between <!-- and --> is treated as a comment and will not be displayed on the webpage. For example, <!-- This is a comment -->.
+
+Q: What is the purpose of the <body> tag?
+A: The <body> tag defines the main content of an HTML document. It contains all the visible elements of the page, such as text, images, links, and other HTML elements.
+
+Q: How do you create a hyperlink that opens in a new window?
+A: To create a hyperlink that opens in a new window, use the target="_blank" attribute in the <a> tag. For example, <a href="https://example.com" target="_blank">Open in New Window</a>.
+
+Q: What is the purpose of the <footer> tag in HTML?
+A: The <footer> tag is used to define the footer section of a webpage or section of content. It typically contains information like the author, copyright notice, contact details, or related links.
+
+Q: How do you use the id attribute in HTML?
+A: The id attribute in HTML is used to uniquely identify an element within a document. It can be used for styling with CSS, targeting with JavaScript, or linking within the document using anchor links. Each id must be unique within a page.
+
+Q: What is the purpose of the <meta name="viewport" content="width=device-width"> tag?
+A: The <meta name="viewport" content="width=device-width"> tag controls the layout on mobile browsers by setting the viewport width to the device's width. It helps ensure that the webpage is responsive and scales correctly on different devices.
+
+Q: How can you create a checkbox in HTML?
+A: To create a checkbox in HTML, use the <input> tag with the type attribute set to "checkbox." For example, <input type="checkbox" name="accept" value="yes"> creates a single checkbox that users can check or uncheck.
+
+Q: What is the difference between <strong> and <b> tags?
+A: The <strong> tag is used to indicate that text is of strong importance, which typically results in bold text, and also provides semantic meaning. The <b> tag simply styles the text in bold without any semantic meaning.
+
+Q: How do you add a comment in HTML?
+A: Comments in HTML are added using the <!-- comment --> syntax. Comments can be used to leave notes or explanations in the HTML code that are not visible in the browser.
+
+Q: What does the <iframe> tag do?
+A: The <iframe> tag is used to embed another HTML document within the current document. It creates an inline frame, which allows you to display content from another webpage or resource within a specified area of the page.
+
+Q: How do you define a section in HTML?
+A: To define a section in HTML, use the <section> tag. It represents a standalone section of content that can be treated as an independent unit within a document. Sections are often used to group related content together.
+
+Q: What is the purpose of the <nav> tag?
+A: The <nav> tag is used to define a navigation block within an HTML document. It is intended for grouping navigational links and menus, providing a semantic way to mark up navigation elements.
+
+Q: How do you add a background color to an HTML element?
+A: To add a background color to an HTML element, use the style attribute with CSS. For example, <div style="background-color: lightblue;">Content</div> sets the background color of the div element to light blue.
+
+Q: What is the <section> tag used for?
+A: The <section> tag is used to define a thematic grouping of content within a webpage. It can be used to separate and organize content into sections, often with headings and related content.
+
+Q: How do you add a link to an email address in HTML?
+A: To add a link to an email address, use the <a> tag with the href attribute set to mailto:email@example.com. For example, <a href="mailto:someone@example.com">Send Email</a> creates a link that opens the default email client to send an email.
+
+Q: What does the rel attribute do in the <link> tag?
+A: The rel attribute in the <link> tag specifies the relationship between the current document and the linked resource. For example, rel="stylesheet" indicates that the linked file is a CSS stylesheet.
+
+Q: How do you create a form input field for text?
+A: To create a text input field in a form, use the <input> tag with the type attribute set to "text." For example, <input type="text" name="username"> creates a single-line text input field.
+
+Q: What is the role of the <header> tag?
+A: The <header> tag is used to define the introductory content or navigational links of a section or the entire webpage. It typically contains elements like headings, logos, and navigation menus.
+
+Q: How do you specify a default value for an input field?
+A: To specify a default value for an input field, use the value attribute within the <input> tag. For example, <input type="text" name="username" value="DefaultName"> sets "DefaultName" as the initial value displayed in the text field.
+
+Q: What is the purpose of the <article> tag?
+A: The <article> tag is used to represent a self-contained piece of content that could be distributed or reused independently, such as a news article, blog post, or user comment.
+
+Q: How do you create a dropdown list with default selected option?
+A: To create a dropdown list with a default selected option, use the <select> tag and the <option> tag, adding the selected attribute to the option you want to display by default. For example, <select><option>Option 1</option><option selected>Option 2</option></select>.
+
+Q: What does the type attribute do in the <input> tag?
+A: The type attribute in the <input> tag specifies the type of input control to display, such as "text," "password," "checkbox," or "radio." It determines the kind of input field rendered in the form.
+
+Q: How do you add a line break in HTML?
+A: To add a line break in HTML, use the <br> tag. This self-closing tag inserts a line break, creating a new line within text content or other inline elements.
+
+Q: What is the purpose of the <aside> tag?
+A: The <aside> tag is used to define content that is tangentially related to the content around it, such as sidebars or pull quotes. It is often used for additional information or related links.
+
+Q: How do you create a clickable button in HTML?
+A: To create a clickable button in HTML, use the <button> tag. You can specify button text and optionally include attributes like type to define the button's behavior. For example, <button type="button">Click Me</button>.
+
+Q: What is the <bdo> tag used for?
+A: The <bdo> tag stands for "bidirectional override." It is used to control the direction of text within an element, allowing you to override the default text direction, which is particularly useful for languages written in different directions.
+
+Q: How do you add an icon to a webpage?
+A: To add an icon to a webpage, you can use the <img> tag to insert an image file or use the <link> tag to include an icon font or SVG file. For example, <link rel="icon" href="icon.png" type="image/png"> sets an image as the favicon.
+
+Q: What is the purpose of the <data> tag?
+A: The <data> tag is used to associate a machine-readable value with content that is presented to users. It can be used to provide additional data for scripts or other applications while displaying human-readable content.
+
+Q: How do you create a file upload input field in HTML?
+A: To create a file upload input field, use the <input> tag with the type attribute set to "file." For example, <input type="file" name="fileUpload"> allows users to select files to upload.
+
+Q: What is the function of the name attribute in form elements?
+A: The name attribute in form elements specifies the name of the input control, which is used to identify and access the data when the form is submitted. It is essential for server-side processing.
+
+Q: How do you use the <abbr> tag in HTML?
+A: The <abbr> tag is used to define an abbreviation or acronym. It can include the title attribute to provide a full expansion of the abbreviation. For example, <abbr title="Hypertext Markup Language">HTML</abbr>.
+
+Q: What does the <colgroup> tag do in an HTML table?
+A: The <colgroup> tag is used to group one or more <col> elements to apply styles or attributes to entire columns of a table. It helps manage column-specific styling and layout.
+
+Q: How do you create a meta tag for specifying the character set?
+A: To specify the character set for an HTML document, use the <meta> tag with the charset attribute. For example, <meta charset="UTF-8"> sets the character encoding to UTF-8.
+
+Q: What is the <base> tag used for?
+A: The <base> tag is used to specify a base URL for relative links in an HTML document. It is placed within the <head> element and affects how relative URLs are resolved.
+
+Q: How do you create a tooltip for an element?
+A: To create a tooltip for an element, use the title attribute within the HTML tag. When users hover over the element, the text provided in the title attribute appears as a tooltip. For example, <button title="Click me to submit">Submit</button>.
+
+Q: What is the <fieldset> tag used for in forms?
+A: The <fieldset> tag is used to group related elements within a form, often with a <legend> tag to provide a label for the group. It helps organize form content and improve accessibility.
+
+Q: How do you add a comment to an HTML document?
+A: To add a comment to an HTML document, use the <!-- comment --> syntax. Comments are not visible in the rendered webpage but can be used to add notes or explanations in the code.
+
+Q: What does the disabled attribute do in form elements?
+A: The disabled attribute in form elements makes the element unmodifiable and prevents it from being submitted with the form. It is used to indicate that the element is not interactive.
+
+Q: How do you create an empty space between elements in HTML?
+A: To create empty space between elements in HTML, you can use CSS properties like margin or padding. For example, <div style="margin-bottom: 10px;">Content</div> adds space below the div.
+
+Q: What is the difference between the <div> and <span> tags?
+A: The <div> tag is a block-level element used to group and style large sections of content, while the <span> tag is an inline element used to style smaller portions of text or other inline elements.
+
+Q: How do you specify a language for an HTML document?
+A: To specify the language for an HTML document, use the lang attribute in the <html> tag. For example, <html lang="en"> indicates that the document is in English.
+
+Q: What is the purpose of the <figcaption> tag?
+A: The <figcaption> tag is used to provide a caption or description for a <figure> element, which can contain images, diagrams, or other media. It helps provide context or explanation for the content within the <figure>.
+
+Q: How do you define a hyperlink that opens in a new tab?
+A: To define a hyperlink that opens in a new tab, use the target attribute with the value _blank in the <a> tag. For example, <a href="https://example.com" target="_blank">Visit Example</a> opens the link in a new tab.
+
+Q: What is the purpose of the placeholder attribute in form inputs?
+A: The placeholder attribute provides a short hint or description inside an input field that disappears when the user starts typing. It helps guide users on what to enter in the field.
+
+Q: How do you create a table header in HTML?
+A: To create a table header, use the <th> tag within a <tr> (table row) tag inside a <table>. For example, <table><tr><th>Header 1</th><th>Header 2</th></tr></table> creates a row with two header cells.
+
+Q: What is the <mark> tag used for?
+A: The <mark> tag is used to highlight or emphasize text that is relevant to the current context. It typically renders the text with a yellow background.
+
+Q: How do you create a list with bullet points in HTML?
+A: To create a list with bullet points, use the <ul> (unordered list) tag and <li> (list item) tags. For example, <ul><li>Item 1</li><li>Item 2</li></ul> creates a bulleted list with two items.
+
+Q: What is the purpose of the <meta> tag in HTML?
+A: The <meta> tag provides metadata about the HTML document, such as character encoding, viewport settings, and page descriptions. It is placed within the <head> section and helps define how the document should be interpreted and displayed.
+
+Q: How do you create an ordered list in HTML?
+A: To create an ordered list, use the <ol> (ordered list) tag and <li> (list item) tags. For example, <ol><li>First item</li><li>Second item</li></ol> creates a numbered list with two items.
+
+Q: What does the autocomplete attribute do in form elements?
+A: The autocomplete attribute in form elements specifies whether the browser should automatically complete input values based on previously entered data. It can be set to "on" or "off."
+
+Q: How do you include external CSS in an HTML document?
+A: To include external CSS, use the <link> tag in the <head> section of the HTML document, with the rel attribute set to "stylesheet" and the href attribute pointing to the CSS file. For example, <link rel="stylesheet" href="styles.css">.
+
+Q: What is the role of the <footer> tag?
+A: The <footer> tag is used to define the footer of a section or the entire webpage. It typically contains information like copyright notices, contact details, or links to related documents.
+
+Q: How do you create a radio button in HTML?
+A: To create a radio button, use the <input> tag with the type attribute set to "radio." Each radio button should have the same name attribute to group them together. For example, <input type="radio" name="group1" value="option1"> Option 1.
+
+Q: What is the <address> tag used for?
+A: The <address> tag is used to provide contact information for the author or owner of the document. It typically includes details like email addresses, physical addresses, and phone numbers.
+
+Q: How do you add a comment to a section of HTML code?
+A: To add a comment to a section of HTML code, use the <!-- comment --> syntax. This comment will not be visible in the browser but can help explain or annotate sections of your code.
+
+Q: What does the <small> tag do?
+A: The <small> tag is used to display text in a smaller font size compared to the surrounding text. It is often used for fine print or secondary information.
+
+Q: How do you create a form with multiple input fields?
+A: To create a form with multiple input fields, use the <form> tag and include various <input> elements within it. For example, <form><input type="text" name="name"><input type="email" name="email"><input type="submit" value="Submit"></form>.
+
+Q: What is the <caption> tag used for in HTML tables?
+A: The <caption> tag is used to provide a caption or title for an HTML table. It is placed immediately after the <table> tag and helps describe the table's content.
+
+Q: How do you create a hyperlink to another webpage?
+A: To create a hyperlink to another webpage, use the <a> tag with the href attribute set to the URL of the target page. For example, <a href="https://example.com">Visit Example</a> creates a link to "https://example.com."
+
+Q: What does the src attribute do in the <img> tag?
+A: The src attribute in the <img> tag specifies the URL of the image to be displayed. For example, <img src="image.jpg" alt="Description"> sets "image.jpg" as the source of the image.
+
+Q: How do you include JavaScript code in an HTML document?
+A: To include JavaScript code in an HTML document, use the <script> tag. You can include JavaScript directly within the <script> tag or link to an external JavaScript file using the src attribute. For example, <script src="script.js"></script> includes an external JavaScript file.
+
+Q: What is the <body> tag used for?
+A: The <body> tag is used to define the main content area of an HTML document. It contains all the visible elements such as text, images, links, and other content displayed in the browser.
+
+Q: How do you define a hyperlink with an anchor point on the same page?
+A: To define a hyperlink with an anchor point on the same page, use the id attribute on the target element and the href attribute with a # followed by the id value in the <a> tag. For example, <a href="#section1">Go to Section 1</a> links to an element with id="section1".
+
+Q: What is the <em> tag used for?
+A: The <em> tag is used to emphasize text, typically rendering it in italics. It also adds semantic meaning to the text, indicating that it should be stressed or given emphasis.
+
+Q: How do you create a table row in HTML?
+A: To create a table row in HTML, use the <tr> (table row) tag within a <table>. Each row can contain one or more <td> (table data) or <th> (table header) tags. For example, <tr><td>Data 1</td><td>Data 2</td></tr> creates a row with two cells.
+
+Q: What is the <time> tag used for in HTML?
+A: The <time> tag is used to represent a specific time or date. It can include attributes like datetime to provide a machine-readable date or time format, helping to improve accessibility and search engine optimization.
+
+Q: How do you specify a form's action attribute?
+A: The action attribute in a <form> tag specifies the URL where the form's data will be sent when submitted. For example, <form action="/submit"> directs the form data to "/submit" on the server.
+
+Q: What is the <meta> tag used for in the <head> section?
+A: The <meta> tag in the <head> section provides metadata about the HTML document, such as character encoding, viewport settings, and page descriptions, which helps control how the document is interpreted and displayed by browsers.
+
+Q: How do you create an HTML document with a title?
+A: To create an HTML document with a title, include the <title> tag within the <head> section. For example, <title>Page Title</title> sets "Page Title" as the title of the document that appears in the browser's title bar or tab.
+
+Q: What does the alt attribute do in the <img> tag?
+A: The alt attribute in the <img> tag provides alternative text for an image if it cannot be displayed. It improves accessibility for screen readers and helps describe the image's content.
+
+Q: How do you include comments in an HTML document?
+A: To include comments in an HTML document, use the <!-- comment --> syntax. Comments are not displayed in the browser but can help annotate or explain sections of the code.
+
+Q: What is the purpose of the <strong> tag?
+A: The <strong> tag is used to give text strong emphasis, typically rendering it in bold. It also adds semantic meaning to the text, indicating that it is of greater importance.
+
+Q: How do you define a form input field for entering a password?
+A: To define a form input field for entering a password, use the <input> tag with the type attribute set to "password." For example, <input type="password" name="password"> creates a password field where input characters are masked.
+
+Q: What is the <section> tag used for?
+A: The <section> tag is used to define a thematic grouping of content within an HTML document, typically representing a distinct section with its own heading. It helps organize and structure the content into meaningful sections.
+
+Q: How do you add a comment to HTML code?
+A: To add a comment to HTML code, use the <!-- comment --> syntax. The comment text will not be displayed in the browser but can help explain or annotate the code for developers.
+
+Q: What is the <form> tag used for in HTML?
+A: The <form> tag is used to define an HTML form that collects user input. It can contain various form elements like input fields, checkboxes, radio buttons, and submit buttons, and it sends the data to a server when submitted.

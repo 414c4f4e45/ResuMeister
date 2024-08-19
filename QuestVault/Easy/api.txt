@@ -1,0 +1,374 @@
+Q: What is an API?
+A: An API (Application Programming Interface) is a set of rules and protocols that allows different software applications to communicate with each other. It defines methods and data structures for accessing the functionality of a service or application, enabling integration and interaction between systems.
+
+Q: What is REST in the context of APIs?
+A: REST (Representational State Transfer) is an architectural style for designing networked applications. It uses standard HTTP methods like GET, POST, PUT, and DELETE to perform operations on resources, typically represented in formats such as JSON or XML, allowing for scalable and stateless interactions.
+
+Q: What is an endpoint in an API?
+A: An endpoint in an API is a specific URL or URI where a particular resource or service can be accessed. Each endpoint represents a specific function or piece of data that the API provides, allowing clients to interact with and retrieve information from the API.
+
+Q: What is JSON and why is it commonly used in APIs?
+A: JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate. It is commonly used in APIs due to its simplicity and compatibility with various programming languages, making it an ideal choice for data exchange.
+
+Q: What is the purpose of an API key?
+A: An API key is a unique identifier used to authenticate and authorize requests to an API. It helps to control access to the API by verifying the identity of the client and ensuring that only authorized users can access the API's resources and services.
+
+Q: What is the difference between GET and POST methods in APIs?
+A: The GET method is used to retrieve data from an API without making changes to the server, while the POST method is used to send data to the server to create or update a resource. GET requests are typically used for fetching information, whereas POST requests are used for submitting data.
+
+Q: What is an API request and response?
+A: An API request is a call made by a client to an API endpoint to perform an action or retrieve data. The API responds with an API response, which includes the requested data or the outcome of the operation. The response usually contains a status code, headers, and a body with the relevant information.
+
+Q: What is API rate limiting?
+A: API rate limiting is a technique used to control the number of requests a client can make to an API within a specified time period. It helps prevent abuse, ensures fair usage, and maintains the performance and reliability of the API by limiting the frequency of requests.
+
+Q: What is OAuth in the context of APIs?
+A: OAuth (Open Authorization) is an authorization framework that allows third-party applications to access user data without exposing user credentials. It provides a secure way for applications to obtain access tokens from an authorization server, enabling them to perform actions on behalf of users.
+
+Q: What is the purpose of API documentation?
+A: API documentation provides detailed information about an API's endpoints, methods, request parameters, and response formats. It serves as a guide for developers, helping them understand how to use the API, integrate it into their applications, and troubleshoot any issues.
+
+Q: What is a RESTful API?
+A: A RESTful API is an API that adheres to the principles of REST architecture. It uses standard HTTP methods and status codes, operates in a stateless manner, and represents resources in a format like JSON or XML. RESTful APIs are designed for simplicity, scalability, and ease of use.
+
+Q: What is an API endpoint?
+A: An API endpoint is a specific path or URL within an API where a particular resource or service can be accessed. Each endpoint corresponds to a specific function or piece of data that the API provides, allowing clients to interact with the API by making requests to these endpoints.
+
+Q: What is the difference between synchronous and asynchronous API calls?
+A: Synchronous API calls require the client to wait for the server to process the request and return a response before proceeding. Asynchronous API calls, on the other hand, allow the client to continue processing while waiting for the server's response, enabling more efficient and responsive interactions.
+
+Q: What is an API callback?
+A: An API callback is a mechanism that allows a server to send data or notifications to a client asynchronously. The client provides a callback URL or function, and the server invokes it when certain events occur or when the requested data is available, enabling real-time updates.
+
+Q: What is an API endpoint path?
+A: An API endpoint path is the specific part of the URL that identifies the resource or service being accessed. It typically includes the base URL followed by a series of segments that specify the resource's location and any parameters required for the request.
+
+Q: What are HTTP status codes and how are they used in APIs?
+A: HTTP status codes are three-digit numbers returned by a server in response to an API request. They indicate the outcome of the request, such as success (200), client errors (400), or server errors (500). Status codes help clients understand the result of their request and handle responses appropriately.
+
+Q: What is the purpose of the PUT method in APIs?
+A: The PUT method is used in APIs to update an existing resource or create a new resource at a specified endpoint. It sends data to the server, which replaces the current representation of the resource with the new data provided in the request body.
+
+Q: What is the PATCH method in APIs?
+A: The PATCH method is used to partially update an existing resource in an API. Unlike PUT, which replaces the entire resource, PATCH allows clients to send only the changes or modifications, reducing the amount of data sent and making updates more efficient.
+
+Q: What is the role of API versioning?
+A: API versioning is the practice of managing different versions of an API to ensure backward compatibility and support for existing clients while introducing new features or changes. It helps maintain stability and allows developers to evolve the API without breaking existing integrations.
+
+Q: What is a JSON Web Token (JWT)?
+A: A JSON Web Token (JWT) is a compact, URL-safe token used to securely transmit information between parties. It contains claims or data encoded in JSON format and is commonly used for authentication and authorization purposes, allowing clients to access protected resources.
+
+Q: What is the purpose of the DELETE method in APIs?
+A: The DELETE method is used in APIs to remove a resource from the server. When a client sends a DELETE request to an API endpoint, the server deletes the specified resource and typically responds with a status code indicating the success or failure of the operation.
+
+Q: What is API testing?
+A: API testing is the process of verifying that an API functions correctly and meets its specifications. It involves testing various aspects of the API, such as endpoints, methods, request parameters, and responses, to ensure that it performs as expected and handles different scenarios and edge cases.
+
+Q: What is the role of API authentication?
+A: API authentication ensures that only authorized users or applications can access an API's resources and services. It involves verifying the identity of clients using methods such as API keys, OAuth tokens, or other credentials, protecting the API from unauthorized access and misuse.
+
+Q: What is the purpose of a rate limit header in API responses?
+A: A rate limit header in API responses provides information about the current usage of the API and any limits imposed on the number of requests. It helps clients manage their request rates, avoid exceeding limits, and understand when they can make additional requests.
+
+Q: What is the purpose of CORS in APIs?
+A: CORS (Cross-Origin Resource Sharing) is a security feature that allows servers to specify which domains are permitted to access their resources via APIs. It helps prevent unauthorized access and protects user data by controlling which websites can make cross-origin requests to the server.
+
+Q: What is a RESTful resource?
+A: A RESTful resource is an entity or object that is represented and manipulated via a RESTful API. Resources are identified by URIs and can be accessed and manipulated using standard HTTP methods like GET, POST, PUT, and DELETE, representing various operations on the resource.
+
+Q: What is an API gateway?
+A: An API gateway is a server that acts as an intermediary between clients and backend services. It manages requests, handles routing, performs authentication and authorization, and may provide additional features like load balancing, caching, and monitoring for APIs.
+
+Q: What is a web API?
+A: A web API is an API that provides access to web-based services and resources over the internet using standard web protocols, such as HTTP. It allows clients to interact with web services by sending requests and receiving responses, typically in formats like JSON or XML.
+
+Q: What is API throttling?
+A: API throttling is the practice of controlling the rate at which clients can make requests to an API. It helps prevent abuse, manage server load, and ensure fair usage by limiting the number of requests a client can make within a specific time period.
+
+Q: What is a query parameter in an API request?
+A: A query parameter is a key-value pair included in the URL of an API request that provides additional information or filters for the request. Query parameters are used to modify the behavior of the request, such as specifying search criteria or pagination options.
+
+Q: What is API versioning and why is it important?
+A: API versioning is the practice of maintaining different versions of an API to accommodate changes and updates without disrupting existing clients. It allows developers to introduce new features and improvements while ensuring backward compatibility for users relying on older versions.
+
+Q: What is a mock API?
+A: A mock API is a simulated version of an API used for testing and development purposes. It mimics the behavior of a real API by providing predefined responses to requests, allowing developers to test their integrations and applications without relying on a live API.
+
+Q: What is an API endpoint URL?
+A: An API endpoint URL is the full address used to access a specific resource or service within an API. It includes the base URL of the API along with the path or endpoint that identifies the resource, such as https://api.example.com/users/123.
+
+Q: What is a SOAP API?
+A: A SOAP (Simple Object Access Protocol) API is a protocol for exchanging structured information in web services using XML. It defines a set of rules for request and response messages, typically over HTTP, and includes features like security and transactions.
+
+Q: What is the difference between SOAP and REST APIs?
+A: SOAP APIs use XML for messaging and rely on a strict protocol for request and response, while REST APIs use standard HTTP methods and can use various formats like JSON or XML. REST APIs are typically more lightweight and flexible, while SOAP provides more built-in features for security and transactions.
+
+Q: What is an API request body?
+A: An API request body is the data sent along with an API request, typically in formats like JSON or XML. It contains the information or parameters needed by the server to process the request and perform the desired operation, such as creating or updating a resource.
+
+Q: What is a status code in an API response?
+A: A status code in an API response is a three-digit number that indicates the outcome of the request. It provides information about the success or failure of the request, with codes like 200 for success, 404 for not found, and 500 for server errors.
+
+Q: What is API pagination?
+A: API pagination is a technique used to divide large sets of data into smaller, manageable chunks or pages. It allows clients to request and retrieve subsets of data from an API, making it easier to handle large datasets and improve performance.
+
+Q: What is an API rate limit?
+A: An API rate limit is a restriction imposed on the number of requests a client can make to an API within a specified time period. It helps prevent abuse, manage server load, and ensure fair usage by controlling the frequency of requests.
+
+Q: What is API documentation and why is it important?
+A: API documentation provides detailed information about an API's endpoints, methods, parameters, and response formats. It is crucial for developers as it guides them on how to use the API, integrate it into their applications, and understand its functionality and requirements.
+
+Q: What is a webhook in the context of APIs?
+A: A webhook is a mechanism that allows an API to send real-time notifications or updates to a client by making HTTP POST requests to a specified URL. It enables event-driven communication, where the server pushes data to the client when certain events occur.
+
+Q: What is a REST API resource?
+A: A REST API resource is an object or entity that is represented and manipulated through a RESTful API. Resources are identified by URIs and can be accessed and managed using standard HTTP methods such as GET, POST, PUT, and DELETE.
+
+Q: What is the purpose of API testing?
+A: API testing is conducted to ensure that an API functions correctly and meets its specifications. It involves validating the API's endpoints, methods, request parameters, and responses to verify that it performs as expected and handles various scenarios and edge cases.
+
+Q: What is the difference between synchronous and asynchronous API requests?
+A: Synchronous API requests require the client to wait for the server to process the request and return a response before continuing. Asynchronous API requests allow the client to proceed with other tasks while waiting for the server's response, improving efficiency and responsiveness.
+
+Q: What is an API proxy?
+A: An API proxy is an intermediary server that acts as a gateway between clients and backend services. It handles API requests, performs tasks such as authentication, rate limiting, and caching, and forwards requests to the appropriate backend service, providing additional layers of security and management.
+
+Q: What is the difference between a public and a private API?
+A: A public API is accessible to external developers and the general public, allowing them to integrate with and use the API's services. A private API is restricted to internal use within an organization, providing access to resources and functionality for internal applications and services only.
+
+Q: What is API authentication and why is it important?
+A: API authentication is the process of verifying the identity of clients accessing an API. It is important for ensuring that only authorized users or applications can access the API's resources, protecting sensitive data and preventing unauthorized access or abuse.
+
+Q: What is a response header in an API response?
+A: A response header in an API response contains metadata about the response, such as content type, caching information, and server details. It provides additional context and information about the response, helping clients handle the data appropriately.
+
+Q: What is the purpose of API versioning?
+A: API versioning allows developers to introduce new features, improvements, or changes to an API while maintaining compatibility with existing clients. It ensures that updates do not break existing integrations and provides a way to manage and support different versions of the API.
+
+Q: What is an API request method?
+A: An API request method refers to the HTTP method used to interact with an API endpoint, such as GET, POST, PUT, DELETE, or PATCH. Each method corresponds to a specific action or operation on the resource, such as retrieving, creating, updating, or deleting data.
+
+Q: What is the purpose of a content-type header in an API request?
+A: The content-type header in an API request specifies the format of the data being sent in the request body, such as JSON or XML. It informs the server of the data format, enabling it to correctly parse and process the request.
+
+Q: What is a mock server in API development?
+A: A mock server is a simulated server used to test and develop APIs without relying on a live backend. It provides predefined responses to API requests, allowing developers to test integrations, debug issues, and develop applications while the actual API is being built or is unavailable.
+
+Q: What is an API contract?
+A: An API contract is an agreement or specification that defines the structure, behavior, and interactions of an API. It includes details such as endpoints, methods, request and response formats, and error handling, ensuring that both clients and servers adhere to the agreed-upon API design.
+
+Q: What is a CORS policy?
+A: A CORS (Cross-Origin Resource Sharing) policy is a security mechanism that controls how web resources are shared across different origins or domains. It defines which domains are allowed to access resources on a server, preventing unauthorized cross-origin requests and protecting user data.
+
+Q: What is the purpose of the HEAD method in APIs?
+A: The HEAD method is used in APIs to retrieve metadata about a resource without fetching the resource's body. It returns the same headers as a GET request but without the response body, allowing clients to obtain information such as content type or content length.
+
+Q: What is a resource identifier in an API?
+A: A resource identifier is a unique value or URI used to locate and access a specific resource within an API. It helps identify individual resources or objects, allowing clients to perform operations such as retrieving, updating, or deleting them.
+
+Q: What is the purpose of the OPTIONS method in APIs?
+A: The OPTIONS method is used in APIs to retrieve information about the allowed methods and features supported by an endpoint. It provides details about the capabilities of the server, such as which HTTP methods can be used and any additional requirements or constraints.
+
+Q: What is API orchestration?
+A: API orchestration is the process of coordinating and managing multiple API calls to achieve a specific goal or workflow. It involves integrating different APIs and services, handling their interactions, and ensuring that the data flows correctly between them to deliver a cohesive result.
+
+Q: What is the purpose of a query string in an API request?
+A: A query string is a part of the URL in an API request that includes key-value pairs used to pass parameters or filters to the server. It allows clients to specify additional options or criteria for the request, such as search terms or pagination settings.
+
+Q: What is an API rate limit?
+A: An API rate limit is a restriction imposed by an API provider to control the number of requests that can be made within a given time period. It helps manage server load, prevent abuse, and ensure fair access to the API's resources by limiting the request frequency.
+
+Q: What is the purpose of an API key?
+A: An API key is a unique identifier used to authenticate and authorize requests to an API. It helps verify the identity of the client making the request, ensuring that only authorized users or applications can access the API's resources and services.
+
+Q: What is an API endpoint path?
+A: An API endpoint path is the specific segment of a URL that identifies the resource or service being accessed in an API. It follows the base URL and includes additional segments or parameters to specify the resource location and any required information.
+
+Q: What is a response body in an API response?
+A: A response body in an API response contains the data or content returned by the server in response to a client's request. It typically includes the requested resource or the outcome of the operation, formatted in a structure such as JSON or XML.
+
+Q: What is a rate limit header in an API response?
+A: A rate limit header in an API response provides information about the current usage of the API and any limits imposed on the number of requests. It includes details such as the number of requests remaining, the reset time, and the total request limit.
+
+Q: What is the purpose of the PATCH method in APIs?
+A: The PATCH method is used to apply partial updates to a resource in an API. Unlike the PUT method, which replaces the entire resource, PATCH allows clients to send only the changes or modifications, making updates more efficient and minimizing the amount of data sent.
+
+Q: What is an API consumer?
+A: An API consumer is an application, service, or developer that uses or interacts with an API to access its resources or functionality. The consumer sends requests to the API and processes the responses to integrate the API's features into their own systems or applications.
+
+Q: What is the purpose of API error handling?
+A: API error handling involves managing and responding to errors or exceptions that occur during API interactions. It ensures that clients receive meaningful error messages, helps identify and diagnose issues, and maintains a smooth user experience even in the presence of errors.
+
+Q: What is the difference between a query parameter and a path parameter in an API request?
+A: A query parameter is included in the URL after a question mark and is used to pass additional information or filters to the server. A path parameter is part of the URL path and identifies a specific resource or location within the API. Both are used to customize API requests but are located in different parts of the URL.
+
+Q: What is API throttling?
+A: API throttling is the process of controlling the rate at which clients can make requests to an API. It involves setting limits on the number of requests allowed within a given time frame to prevent abuse, manage server load, and ensure fair usage of API resources.
+
+Q: What is a client library in API development?
+A: A client library is a set of code or software components that facilitate interaction with an API. It provides pre-built functions, classes, or methods for making API requests and handling responses, simplifying the integration process and improving developer productivity.
+
+Q: What is a JSON Web Token (JWT)?
+A: A JSON Web Token (JWT) is a compact, URL-safe token used for securely transmitting information between parties. It is often used in API authentication and authorization to represent claims or user identity in a self-contained format that can be verified and decoded.
+
+Q: What is the purpose of a CORS header in an API response?
+A: A CORS (Cross-Origin Resource Sharing) header in an API response specifies which domains are allowed to access resources on the server. It helps control cross-origin requests, ensuring that only authorized domains can interact with the API and protecting against security risks.
+
+Q: What is a RESTful API?
+A: A RESTful API (Representational State Transfer) is an architectural style for designing networked applications. It uses standard HTTP methods and status codes, relies on stateless communication, and represents resources using URIs. RESTful APIs are designed to be simple, scalable, and easy to use.
+
+Q: What is an API gateway?
+A: An API gateway is a server or service that acts as an entry point for API requests. It handles tasks such as request routing, load balancing, authentication, and caching, and provides a unified interface for accessing multiple backend services or APIs.
+
+Q: What is the purpose of the DELETE method in APIs?
+A: The DELETE method is used in APIs to remove or delete a specified resource. When a client sends a DELETE request to an endpoint, the server processes the request and deletes the resource identified by the URL, typically returning a status code indicating the outcome.
+
+Q: What is a response status message in an API response?
+A: A response status message in an API response provides a textual description of the status code returned by the server. It helps convey the outcome of the request, such as "OK" for a successful request or "Not Found" for a missing resource, providing additional context for the client.
+
+Q: What is an API client?
+A: An API client is a software application or tool that interacts with an API to make requests and process responses. It can be a web application, mobile app, or command-line tool used to consume API services and integrate them into various systems or workflows.
+
+Q: What is a resource method in an API?
+A: A resource method in an API refers to the HTTP method used to perform an operation on a resource, such as GET, POST, PUT, DELETE, or PATCH. Each method corresponds to a specific action, such as retrieving, creating, updating, or deleting a resource.
+
+Q: What is a query parameter in an API request?
+A: A query parameter is a key-value pair included in the URL of an API request, following the question mark. It is used to pass additional data or options to the server, such as search filters or pagination settings, to customize the request and influence the response.
+
+Q: What is the purpose of a request timeout in API communication?
+A: A request timeout in API communication specifies the maximum amount of time a client will wait for a response from the server before aborting the request. It helps manage response delays, prevent hanging requests, and ensure that the client does not wait indefinitely for a server response.
+
+Q: What is the difference between PUT and POST methods in APIs?
+A: The PUT method is used to update or replace an existing resource with a new representation, while the POST method is used to create a new resource. PUT requests are idempotent, meaning repeated requests have the same effect, while POST requests may result in different outcomes each time they are sent.
+
+Q: What is an API mock service?
+A: An API mock service simulates the behavior of an API by providing predefined responses to requests, allowing developers to test and develop applications without relying on a live backend. It helps in development and testing phases by mimicking the API's functionality.
+
+Q: What is a bearer token in API authentication?
+A: A bearer token is a type of access token used in API authentication to grant access to resources. It is included in the Authorization header of API requests and provides proof that the client is authorized to access the requested resource.
+
+Q: What is the purpose of an API response cache?
+A: An API response cache stores previously retrieved responses to reduce the need for repeated requests to the server. It improves performance by serving cached data quickly and reducing server load, especially for frequently requested resources.
+
+Q: What is an API version header?
+A: An API version header is a custom header included in API requests to specify the version of the API being used. It allows clients to indicate which version they want to interact with, ensuring compatibility and enabling smooth transitions between different API versions.
+
+Q: What is a request parameter in an API request?
+A: A request parameter is a piece of data included in an API request to provide additional information or modify the request's behavior. It can be part of the URL path, query string, or request body, and is used to specify filters, options, or details needed by the server.
+
+Q: What is the purpose of the PUT method in APIs?
+A: The PUT method is used in APIs to update or replace an existing resource with a new representation provided in the request body. It typically requires the client to send the complete resource data, and the server updates the resource accordingly.
+
+Q: What is an API documentation tool?
+A: An API documentation tool is a software or service used to create, manage, and publish documentation for APIs. It helps developers generate user-friendly documentation that describes the API's endpoints, methods, parameters, and responses, making it easier for users to understand and integrate with the API.
+
+Q: What is the difference between an API call and an API request?
+A: An API call and an API request refer to the same action: making a request to an API to retrieve or send data. The term "API call" often emphasizes the act of invoking the API, while "API request" focuses on the request being sent to the server for processing.
+
+Q: What is a rate limit reset?
+A: A rate limit reset is the point in time when an API's rate limit counters are refreshed or reset. It indicates when the client can start making new requests after reaching the limit, allowing the client to continue using the API without hitting the rate limit.
+
+Q: What is the purpose of an API status endpoint?
+A: An API status endpoint provides information about the current status of the API or its services. It can be used to check if the API is operational, report on performance metrics, and provide details about any ongoing issues or outages.
+
+Q: What is the purpose of the DELETE method in APIs?
+A: The DELETE method is used to request the removal of a specified resource from the server. It allows clients to delete resources identified by the URL, and the server processes the request by removing the resource and returning a response indicating the outcome.
+
+Q: What is a response payload in an API response?
+A: A response payload is the actual data or content returned by the server in an API response. It contains the result of the API request, such as resource data or operation results, and is typically formatted in JSON or XML.
+
+Q: What is an API service level agreement (SLA)?
+A: An API service level agreement (SLA) is a contract between the API provider and the consumer that defines the expected level of service, including uptime guarantees, response times, and support commitments. It ensures that the provider meets agreed-upon performance and reliability standards.
+
+Q: What is the purpose of a custom header in API requests?
+A: A custom header in API requests is used to send additional metadata or information beyond standard headers. It can be used for various purposes, such as providing authentication tokens, specifying client preferences, or including application-specific data.
+
+Q: What is a POST request in API communication?
+A: A POST request is used in API communication to submit data to the server to create a new resource or perform an action. It includes the data in the request body, and the server processes the data to create or modify the resource and returns a response indicating the result.
+
+Q: What is an API key rotation?
+A: API key rotation is the process of periodically updating or replacing API keys to enhance security. It helps prevent unauthorized access and mitigate risks associated with compromised keys by ensuring that keys are changed regularly and old keys are deactivated.
+
+Q: What is an API gateway?
+A: An API gateway is a server that acts as an intermediary between clients and backend services. It manages API requests, handles routing, load balancing, and security, and provides a unified interface for accessing multiple APIs or services.
+
+Q: What is an API schema?
+A: An API schema is a formal definition or specification of an API's structure and behavior. It includes details such as endpoints, request and response formats, data types, and validation rules, serving as a blueprint for how the API should be used and understood.
+
+Q: What is a resource in an API?
+A: A resource in an API refers to a specific piece of data or entity that the API manages or exposes. Resources are typically identified by unique URIs and can include objects such as users, products, or orders, which can be accessed, created, updated, or deleted through API requests.
+
+Q: What is an API health check?
+A: An API health check is a routine check or monitoring process to ensure that an API is functioning correctly and is available for use. It involves testing the API's endpoints to verify that they respond as expected, providing an indication of the API's operational status.
+
+Q: What is an API versioning strategy?
+A: An API versioning strategy is a method for managing changes to an API over time while maintaining compatibility with existing clients. It involves defining and implementing versioning schemes, such as URL versioning or header versioning, to handle updates and modifications without disrupting current users.
+
+Q: What is the purpose of a response code in an API response?
+A: A response code in an API response indicates the outcome of the API request, providing information about the success or failure of the operation. It helps clients understand the result of their request, such as whether it was successful, encountered an error, or requires further action.
+
+Q: What is an API rate limit?
+A: An API rate limit is a restriction imposed by the API provider on the number of requests a client can make within a specific time period. It helps manage server load, prevent abuse, and ensure fair access to the API for all users.
+
+Q: What is an API documentation generator?
+A: An API documentation generator is a tool that automatically creates documentation for an API based on its code or specifications. It helps developers produce accurate and up-to-date documentation quickly, providing details about API endpoints, methods, parameters, and responses.
+
+Q: What is a request body in an API request?
+A: A request body in an API request is the part of the request that contains the data sent to the server. It is used in methods like POST or PUT to include information that the server needs to process the request, such as resource data or parameters.
+
+Q: What is the purpose of a CORS (Cross-Origin Resource Sharing) header in an API response?
+A: A CORS header in an API response specifies which origins are permitted to access the resources of the server. It is used to control cross-origin requests and prevent security risks by defining which domains are allowed to interact with the API.
+
+Q: What is an API rate limit?
+A: An API rate limit is a restriction on the number of API requests a client can make within a specified time frame. It helps prevent abuse, manage server load, and ensure fair usage of the API by all clients.
+
+Q: What is an API endpoint?
+A: An API endpoint is a specific URL or URI that represents a resource or a service in an API. It defines where requests should be directed and what operations can be performed on the resource, such as retrieving, creating, updating, or deleting data.
+
+Q: What is a response status code in an API response?
+A: A response status code is a numerical code returned by the server in an API response to indicate the result of the request. It helps clients understand the outcome, such as success (200), client error (400), or server error (500), and guides further actions.
+
+Q: What is an API middleware?
+A: API middleware is software that sits between the client and server, processing requests and responses. It can handle tasks such as authentication, logging, error handling, and request modification, providing additional functionality and enhancing API management.
+
+Q: What is the purpose of a status code 404 in an API response?
+A: A status code 404 in an API response indicates that the requested resource was not found on the server. It signifies that the client requested a URL or endpoint that does not exist or is unavailable.
+
+Q: What is an API rate limit?
+A: An API rate limit is a restriction on the number of requests a client can make to an API within a specified time period. It helps prevent excessive usage, ensure fair access, and manage server load.
+
+Q: What is a PUT request in API communication?
+A: A PUT request is used to update or replace an existing resource on the server with a new representation provided in the request body. It is typically used for modifying resource data and is idempotent, meaning multiple requests have the same effect.
+
+Q: What is an API client library?
+A: An API client library is a collection of pre-built code and functions that simplify the process of interacting with an API. It provides a convenient way for developers to make requests, handle responses, and integrate API services into their applications.
+
+Q: What is an API schema?
+A: An API schema is a formal definition of an API's structure, including its endpoints, methods, parameters, and data formats. It serves as a blueprint for how the API operates and provides documentation and validation for developers.
+
+Q: What is an API authentication token?
+A: An API authentication token is a credential used to verify the identity of a client making an API request. It is included in the request headers and provides proof that the client has permission to access the requested resource.
+
+Q: What is a response payload in an API response?
+A: A response payload is the data or content returned by the server in an API response. It contains the result of the API request, such as resource data or operation outcomes, and is typically formatted in JSON or XML.
+
+Q: What is an API endpoint?
+A: An API endpoint is a specific URL or URI that represents a resource or service in an API. It defines where requests should be directed and what operations can be performed, such as retrieving or modifying data.
+
+Q: What is an API throttling?
+A: API throttling is the practice of controlling the rate at which clients can make requests to an API. It involves setting limits on the number of requests allowed within a specific time frame to prevent abuse, manage server load, and ensure fair usage.
+
+Q: What is a JSON Web Token (JWT)?
+A: A JSON Web Token (JWT) is a compact, URL-safe token used for securely transmitting information between parties. It is often used in API authentication and authorization to represent claims or user identity in a self-contained format that can be verified and decoded.
+
+Q: What is an API response header?
+A: An API response header is a piece of metadata included in the response from the server. It provides additional information about the response, such as content type, caching policies, or authentication details.
+
+Q: What is a RESTful API?
+A: A RESTful API (Representational State Transfer) is an architectural style for designing networked applications. It uses standard HTTP methods and status codes, relies on stateless communication, and represents resources using URIs. RESTful APIs are designed to be simple, scalable, and easy to use.
+
+Q: What is an API gateway?
+A: An API gateway is a server or service that acts as an intermediary between clients and backend services. It manages tasks such as request routing, load balancing, authentication, and caching, providing a unified interface for accessing multiple APIs or services.
+
+Q: What is an API status code?
+A: An API status code is a numerical code returned in the response to indicate the result of an API request. It helps clients understand the outcome of their request, such as success (200), client error (400), or server error (500), and provides guidance for further actions.

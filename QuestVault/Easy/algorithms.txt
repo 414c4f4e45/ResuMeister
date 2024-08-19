@@ -1,0 +1,284 @@
+Q: What is an algorithm?
+A: An algorithm is a step-by-step procedure or set of rules designed to perform a specific task or solve a particular problem. It takes input, processes it through a sequence of instructions, and produces an output. Algorithms are fundamental in computer science for designing efficient solutions to computational problems.
+
+Q: What is the purpose of sorting algorithms?
+A: Sorting algorithms are used to arrange elements in a specific order, such as ascending or descending. They help in organizing data, which makes searching, merging, and other operations more efficient. Common sorting algorithms include quicksort, mergesort, and bubblesort.
+
+Q: What is a linear search?
+A: A linear search is a basic search algorithm that checks each element in a list sequentially until the desired element is found or the end of the list is reached. It is simple to implement but can be inefficient for large lists, as it may require checking every element.
+
+Q: What is a binary search?
+A: A binary search is an efficient algorithm for finding an item in a sorted list by repeatedly dividing the search interval in half. It compares the target value to the middle element, and if they are not equal, it eliminates half of the remaining elements from consideration, thus reducing the search space quickly.
+
+Q: What is the difference between iterative and recursive algorithms?
+A: Iterative algorithms use loops to repeat a set of instructions until a condition is met, while recursive algorithms solve problems by calling themselves with a modified input until a base condition is satisfied. Recursion can simplify complex problems but may use more memory due to function calls.
+
+Q: What is the bubble sort algorithm?
+A: The bubble sort algorithm is a simple sorting technique that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The process continues until the list is sorted. Although easy to understand, bubble sort is inefficient for large datasets.
+
+Q: What is the selection sort algorithm?
+A: The selection sort algorithm sorts a list by repeatedly finding the minimum element from the unsorted portion and moving it to the beginning. It improves efficiency by reducing the number of comparisons needed, but still performs poorly on large lists compared to more advanced sorting algorithms.
+
+Q: What is the insertion sort algorithm?
+A: The insertion sort algorithm sorts a list by building a sorted portion one element at a time. It picks elements from the unsorted portion and inserts them into their correct position within the sorted portion. It is efficient for small or nearly sorted datasets but less so for large, unsorted lists.
+
+Q: What is quicksort?
+A: Quicksort is a divide-and-conquer sorting algorithm that works by selecting a 'pivot' element and partitioning the list into elements less than and greater than the pivot. It recursively sorts the sublists. Quicksort is known for its efficiency and average-case performance but can be less predictable in certain scenarios.
+
+Q: What is mergesort?
+A: Mergesort is a divide-and-conquer sorting algorithm that divides the list into smaller sublists, recursively sorts them, and then merges the sorted sublists back together. It is known for its stable sort and predictable performance, especially with large datasets.
+
+Q: What is a greedy algorithm?
+A: A greedy algorithm makes a series of choices, each of which looks best at the moment, with the hope of finding a globally optimal solution. It is used in problems where local optimization leads to a global solution, such as in finding the shortest path in weighted graphs using Dijkstra's algorithm.
+
+Q: What is dynamic programming?
+A: Dynamic programming is a method for solving complex problems by breaking them down into simpler subproblems and storing the results of subproblems to avoid redundant computations. It is particularly useful for optimization problems where overlapping subproblems and optimal substructure are present.
+
+Q: What is a divide-and-conquer algorithm?
+A: Divide-and-conquer algorithms solve problems by recursively dividing them into smaller subproblems, solving each subproblem independently, and then combining their solutions to solve the original problem. Examples include mergesort and quicksort, which use this strategy to achieve efficient sorting.
+
+Q: What is the time complexity of linear search?
+A: The time complexity of a linear search is O(n), where n is the number of elements in the list. This is because, in the worst case, the algorithm may need to check each element until the target is found or the end of the list is reached.
+
+Q: What is the time complexity of binary search?
+A: The time complexity of binary search is O(log n), where n is the number of elements in the sorted list. This is due to the algorithm’s ability to halve the search space with each comparison, significantly reducing the number of elements to be checked.
+
+Q: What is the time complexity of bubble sort?
+A: The time complexity of bubble sort is O(n^2), where n is the number of elements to be sorted. This quadratic time complexity arises from the need to repeatedly compare and swap adjacent elements, making bubble sort inefficient for large datasets.
+
+Q: What is the time complexity of quicksort?
+A: The time complexity of quicksort is O(n log n) on average, where n is the number of elements. In the worst case, it can degrade to O(n^2) if the pivot selection is poor. However, with good pivot selection strategies, quicksort performs efficiently on large datasets.
+
+Q: What is the time complexity of mergesort?
+A: The time complexity of mergesort is O(n log n), where n is the number of elements. This complexity is due to the algorithm’s divide-and-conquer approach, which divides the list into smaller sublists, sorts them, and then merges them, resulting in a consistent and efficient sorting method.
+
+Q: What is the purpose of the Dijkstra algorithm?
+A: The Dijkstra algorithm is used to find the shortest path from a source vertex to all other vertices in a weighted graph with non-negative edge weights. It efficiently computes the minimum distance to each vertex using a priority queue, making it useful in various applications like routing and network optimization.
+
+Q: What is a depth-first search (DFS) algorithm?
+A: Depth-first search (DFS) is a graph traversal algorithm that explores as far as possible along each branch before backtracking. It uses a stack to keep track of the vertices to be visited, enabling it to traverse deep into the graph before exploring other paths.
+
+Q: What is a breadth-first search (BFS) algorithm?
+A: Breadth-first search (BFS) is a graph traversal algorithm that explores all nodes at the present depth level before moving on to nodes at the next depth level. It uses a queue to keep track of nodes, ensuring that vertices are visited in the order of their distance from the starting node.
+
+Q: What is the A* search algorithm?
+A: The A* search algorithm is an informed search algorithm that finds the shortest path between nodes in a graph. It combines the benefits of Dijkstra's algorithm and greedy search by using a heuristic function to estimate the cost to the goal, allowing it to efficiently navigate towards the most promising paths.
+
+Q: What is the Knapsack problem?
+A: The Knapsack problem is a combinatorial optimization problem where the goal is to select a subset of items with given weights and values to maximize the total value without exceeding a maximum weight capacity. It is commonly solved using dynamic programming techniques for efficient solutions.
+
+Q: What is a backtracking algorithm?
+A: A backtracking algorithm is a problem-solving technique that incrementally builds candidates for solutions and abandons them if they are not valid. It systematically searches for a solution by trying out different possibilities and "backtracking" when a constraint is violated or a dead end is reached.
+
+Q: What is the difference between a stable and an unstable sort?
+A: A stable sort maintains the relative order of equal elements, meaning if two elements are equal, their original order is preserved in the sorted output. An unstable sort does not guarantee this order preservation, which can affect the results if the order of equal elements is significant.
+
+Q: What is the purpose of the Floyd-Warshall algorithm?
+A: The Floyd-Warshall algorithm is used to find the shortest paths between all pairs of vertices in a weighted graph. It is an efficient algorithm for computing the shortest paths in graphs with positive or negative edge weights and is especially useful for dense graphs.
+
+Q: What is a topological sort?
+A: A topological sort is an ordering of vertices in a directed acyclic graph (DAG) where for every directed edge u → v, vertex u appears before vertex v in the ordering. It is used in scenarios like task scheduling and resolving dependencies where a specific order is required.
+
+Q: What is a heuristic function in search algorithms?
+A: A heuristic function is used in search algorithms to estimate the cost or distance from a given state to the goal state. It helps in guiding the search process towards the most promising paths, improving efficiency by focusing on likely solutions and reducing the search space.
+
+Q: What is a stable sort?
+A: A stable sort is a sorting algorithm that preserves the relative order of records with equal keys. This means that if two elements have the same value, their original order is maintained in the sorted result. Examples of stable sorting algorithms include mergesort and bubblesort.
+
+Q: What is an unstable sort?
+A: An unstable sort is a sorting algorithm that does not guarantee the preservation of the relative order of records with equal keys. This means that elements with equal values might not retain their original order in the sorted output. Examples include quicksort and selection sort.
+
+Q: What is the time complexity of insertion sort?
+A: The time complexity of insertion sort is O(n^2) in the worst-case scenario, where n is the number of elements. This quadratic complexity arises because the algorithm may require multiple comparisons and shifts for each element to insert it into the correct position in the sorted portion.
+
+Q: What is the time complexity of selection sort?
+A: The time complexity of selection sort is O(n^2), where n is the number of elements. This quadratic complexity results from the algorithm’s need to repeatedly find the minimum element from the unsorted portion and move it to the beginning, leading to multiple comparisons.
+
+Q: What is the time complexity of mergesort?
+A: The time complexity of mergesort is O(n log n), where n is the number of elements. This efficient time complexity is due to the algorithm’s divide-and-conquer strategy of splitting the list into smaller parts, sorting them, and then merging them, ensuring a consistent performance.
+
+Q: What is the time complexity of quicksort?
+A: The time complexity of quicksort is O(n log n) on average, where n is the number of elements. However, in the worst-case scenario, it can degrade to O(n^2) if poor pivot choices are made. Despite this, quicksort is generally efficient and widely used for sorting large datasets.
+
+Q: What is the purpose of a priority queue?
+A: A priority queue is a data structure that supports operations to insert elements, remove the element with the highest (or lowest) priority, and access the element with the highest priority efficiently. It is used in various algorithms like Dijkstra’s and Huffman coding to manage and prioritize tasks or data.
+
+Q: What is the difference between a priority queue and a regular queue?
+A: A priority queue differs from a regular queue in that it organizes elements based on their priority rather than their order of insertion. In a priority queue, elements with higher priority are served before those with lower priority, whereas in a regular queue, elements are served in the order they were added (FIFO).
+
+Q: What is the time complexity of heap operations?
+A: The time complexity of heap operations, such as insertion and extraction, is O(log n), where n is the number of elements in the heap. This logarithmic complexity arises from the need to maintain the heap property, which involves traversing the height of the heap structure.
+
+Q: What is the difference between a max-heap and a min-heap?
+A: A max-heap is a binary heap where each node’s value is greater than or equal to its children’s values, ensuring the maximum value is at the root. A min-heap is the opposite, where each node’s value is less than or equal to its children’s values, ensuring the minimum value is at the root.
+
+Q: What is a radix sort algorithm?
+A: Radix sort is a non-comparative integer sorting algorithm that sorts numbers digit by digit starting from the least significant digit to the most significant digit. It uses a stable sorting algorithm as a subroutine, like counting sort, to ensure that digits are sorted correctly.
+
+Q: What is the purpose of the KMP algorithm?
+A: The Knuth-Morris-Pratt (KMP) algorithm is used for pattern matching within a text. It efficiently searches for occurrences of a pattern in a string by preprocessing the pattern to create a partial match table, which helps in avoiding redundant comparisons and improving search performance.
+
+Q: What is the Boyer-Moore algorithm?
+A: The Boyer-Moore algorithm is an efficient string searching algorithm that skips sections of the text to be searched based on mismatches between the pattern and text. It uses heuristics to shift the pattern efficiently, reducing the number of character comparisons needed.
+
+Q: What is the purpose of the Rabin-Karp algorithm?
+A: The Rabin-Karp algorithm is used for multiple pattern matching in a string by using hashing to find all occurrences of a pattern within a text. It computes hash values for substrings of the text and the pattern, enabling efficient comparison and detection of matches.
+
+Q: What is a binomial heap?
+A: A binomial heap is a type of heap data structure that supports efficient merge operations. It consists of a collection of binomial trees, where each tree follows the binomial heap properties. Binomial heaps are used to implement priority queues and are known for their efficient union operation.
+
+Q: What is a Fibonacci heap?
+A: A Fibonacci heap is a type of heap data structure that supports a set of priority queue operations with amortized time complexities that are better than those of other heaps. It allows for efficient decrease-key and delete operations, making it suitable for algorithms like Dijkstra’s.
+
+Q: What is a disjoint-set data structure?
+A: A disjoint-set data structure, also known as a union-find data structure, manages a partition of a set into disjoint subsets. It supports operations to determine the set a particular element belongs to and to merge two sets. It is commonly used in algorithms that involve grouping or connected components.
+
+Q: What is the union-find algorithm?
+A: The union-find algorithm is used to manage and merge disjoint sets efficiently. It supports two primary operations: union, which merges two sets, and find, which identifies the set containing a particular element. It is useful in algorithms for network connectivity and clustering.
+
+Q: What is a Greedy algorithm?
+A: A Greedy algorithm is a problem-solving approach that builds up a solution piece by piece, making the locally optimal choice at each step with the hope of finding a global optimum. It is used in optimization problems where local choices lead to an overall optimal solution.
+
+Q: What is a randomized algorithm?
+A: A randomized algorithm uses randomization as a key component in its logic to solve problems. It can provide good average-case performance and simplicity, often used in scenarios where deterministic algorithms are too complex or inefficient. Examples include randomized quicksort and Monte Carlo methods.
+
+Q: What is the purpose of memoization in dynamic programming?
+A: Memoization is a technique used in dynamic programming to improve efficiency by storing the results of expensive function calls and reusing these results when the same inputs occur again. This avoids redundant calculations and speeds up the algorithm by reducing the number of computations.
+
+Q: What is the difference between top-down and bottom-up dynamic programming?
+A: Top-down dynamic programming involves solving a problem recursively and using memoization to store intermediate results. Bottom-up dynamic programming starts by solving the smallest subproblems and iteratively builds up to the solution of the overall problem, typically using a table to store results.
+
+Q: What is the purpose of the Bellman-Ford algorithm?
+A: The Bellman-Ford algorithm is used to find the shortest paths from a single source vertex to all other vertices in a graph, including those with negative edge weights. It is capable of detecting negative weight cycles and is useful in scenarios where edge weights are not strictly positive.
+
+Q: What is the purpose of the Floyd-Warshall algorithm?
+A: The Floyd-Warshall algorithm is used to compute shortest paths between all pairs of vertices in a weighted graph. It can handle negative edge weights and is particularly useful for dense graphs, providing a way to find shortest paths between every pair of nodes.
+
+Q: What is a stable sort?
+A: A stable sort is a sorting algorithm that maintains the relative order of equal elements in the sorted output. This means that if two elements are equal, their original order from the input is preserved in the sorted result. Examples include mergesort and insertion sort.
+
+Q: What is the purpose of a permutation algorithm?
+A: A permutation algorithm generates all possible arrangements of a given set of elements. It is used in problems that require exploring all possible configurations or sequences, such as in combinatorial problems, puzzle solving, and testing.
+
+Q: What is a bubble sort?
+A: Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The process continues until the list is sorted. It is easy to implement but inefficient for large lists.
+
+Q: What is a quicksort?
+A: Quicksort is an efficient, divide-and-conquer sorting algorithm that works by selecting a 'pivot' element, partitioning the array into elements less than and greater than the pivot, and recursively sorting the subarrays. It is known for its average-case efficiency but can be less predictable in certain scenarios.
+
+Q: What is a mergesort?
+A: Mergesort is a divide-and-conquer sorting algorithm that divides the list into smaller sublists, recursively sorts them, and then merges them to produce a sorted list. It is known for its stable sort and predictable time complexity of O(n log n), making it suitable for large datasets.
+
+Q: What is a shell sort?
+A: Shell sort is an in-place comparison-based sorting algorithm that generalizes insertion sort to allow the exchange of items that are far apart. It works by sorting elements at a certain interval and then progressively reducing the interval, which helps to improve the efficiency compared to simple insertion sort.
+
+Q: What is the purpose of the Sieve of Eratosthenes algorithm?
+A: The Sieve of Eratosthenes is an efficient algorithm for finding all prime numbers up to a given limit. It works by iteratively marking the multiples of each prime number starting from 2, ensuring that only primes remain unmarked, making it a simple and effective method for prime number generation.
+
+Q: What is the purpose of the Boyer-Moore algorithm?
+A: The Boyer-Moore algorithm is an efficient string searching algorithm that skips sections of the text to be searched based on mismatches between the pattern and text. It uses heuristics to shift the pattern efficiently, reducing the number of character comparisons needed.
+
+Q: What is the time complexity of heap sort?
+A: The time complexity of heap sort is O(n log n), where n is the number of elements. This efficiency arises because the algorithm first builds a heap from the elements and then repeatedly extracts the maximum element, ensuring the sorted output.
+
+Q: What is a depth-first search (DFS) algorithm?
+A: Depth-first search (DFS) is a graph traversal algorithm that explores as far down a branch as possible before backtracking. It uses a stack (or recursion) to keep track of the vertices to visit next, making it useful for tasks such as pathfinding and topological sorting.
+
+Q: What is a breadth-first search (BFS) algorithm?
+A: Breadth-first search (BFS) is a graph traversal algorithm that explores all neighbors of a vertex before moving on to the next level of vertices. It uses a queue to manage the vertices to visit, and is useful for finding the shortest path in unweighted graphs and exploring all possible paths.
+
+Q: What is a topological sort?
+A: Topological sort is an ordering of the vertices in a directed acyclic graph (DAG) such that for every directed edge from vertex u to vertex v, vertex u comes before vertex v in the ordering. It is used in scenarios like scheduling tasks where some tasks must precede others.
+
+Q: What is a graph traversal?
+A: Graph traversal refers to the process of visiting all the nodes in a graph in a systematic way. Common methods of traversal include depth-first search (DFS) and breadth-first search (BFS), which are used to explore nodes, find paths, and solve various graph-related problems.
+
+Q: What is a cycle detection in a graph?
+A: Cycle detection is the process of determining whether a graph contains any cycles, which are paths that start and end at the same vertex without repeating any edges. It is important in various applications like dependency resolution and network analysis, and can be achieved using algorithms such as DFS.
+
+Q: What is a spanning tree?
+A: A spanning tree of a graph is a subset of its edges that forms a tree and connects all the vertices of the graph without any cycles. It ensures all vertices are reachable from any other vertex, and algorithms like Kruskal's and Prim's are used to find minimum spanning trees.
+
+Q: What is the purpose of Dijkstra's algorithm?
+A: Dijkstra's algorithm finds the shortest path from a single source vertex to all other vertices in a weighted graph with non-negative edge weights. It uses a priority queue to efficiently determine the shortest paths and is widely used in network routing and map navigation.
+
+Q: What is Prim’s algorithm?
+A: Prim's algorithm finds the minimum spanning tree of a connected, undirected graph. It works by starting with an arbitrary vertex and repeatedly adding the smallest edge that connects a vertex in the tree to a vertex outside the tree, ensuring all vertices are connected with the minimum total edge weight.
+
+Q: What is Kruskal’s algorithm?
+A: Kruskal's algorithm is used to find the minimum spanning tree of a connected, undirected graph by sorting all the edges in increasing order of weight and adding them one by one, ensuring no cycles are formed. It uses a disjoint-set data structure to manage and merge sets of vertices.
+
+Q: What is a dynamic programming algorithm?
+A: Dynamic programming is a method for solving complex problems by breaking them down into simpler overlapping subproblems and storing their solutions to avoid redundant work. It is commonly used for optimization problems, such as finding the shortest path or the optimal way to solve a problem.
+
+Q: What is a greedy algorithm?
+A: A greedy algorithm is a problem-solving approach that makes the locally optimal choice at each step with the hope of finding a global optimum. It is used in various optimization problems where making the best choice at each step leads to an overall optimal solution.
+
+Q: What is the time complexity of insertion sort?
+A: The time complexity of insertion sort is O(n^2), where n is the number of elements. This quadratic complexity arises because the algorithm may require multiple comparisons and shifts for each element to insert it into the correct position in the sorted portion.
+
+Q: What is the time complexity of selection sort?
+A: The time complexity of selection sort is O(n^2), where n is the number of elements. This quadratic complexity results from the algorithm’s need to repeatedly find the minimum element from the unsorted portion and move it to the beginning, leading to multiple comparisons.
+
+Q: What is the time complexity of mergesort?
+A: The time complexity of mergesort is O(n log n), where n is the number of elements. This efficient time complexity is due to the algorithm’s divide-and-conquer strategy of splitting the list into smaller parts, sorting them, and then merging them, ensuring a consistent performance.
+
+Q: What is the time complexity of quicksort?
+A: The time complexity of quicksort is O(n log n) on average, where n is the number of elements. However, in the worst-case scenario, it can degrade to O(n^2) if poor pivot choices are made. Despite this, quicksort is generally efficient and widely used for sorting large datasets.
+
+Q: What is the purpose of a priority queue?
+A: A priority queue is a data structure that supports operations to insert elements, remove the element with the highest (or lowest) priority, and access the element with the highest priority efficiently. It is used in various algorithms like Dijkstra’s and Huffman coding to manage and prioritize tasks or data.
+
+Q: What is the difference between a priority queue and a regular queue?
+A: A priority queue differs from a regular queue in that it organizes elements based on their priority rather than their order of insertion. In a priority queue, elements with higher priority are served before those with lower priority, whereas in a regular queue, elements are served in the order they were added (FIFO).
+
+Q: What is the time complexity of heap operations?
+A: The time complexity of heap operations, such as insertion and extraction, is O(log n), where n is the number of elements in the heap. This logarithmic complexity arises from the need to maintain the heap property, which involves traversing the height of the heap structure.
+
+Q: What is the difference between a max-heap and a min-heap?
+A: A max-heap is a binary heap where each node’s value is greater than or equal to its children’s values, ensuring the maximum value is at the root. A min-heap is the opposite, where each node’s value is less than or equal to its children’s values, ensuring the minimum value is at the root.
+
+Q: What is a radix sort algorithm?
+A: Radix sort is a non-comparative integer sorting algorithm that sorts numbers digit by digit starting from the least significant digit to the most significant digit. It uses a stable sorting algorithm as a subroutine, like counting sort, to ensure that digits are sorted correctly.
+
+Q: What is the purpose of the KMP algorithm?
+A: The Knuth-Morris-Pratt (KMP) algorithm is used for pattern matching within a text. It efficiently searches for occurrences of a pattern in a string by preprocessing the pattern to create a partial match table, which helps in avoiding redundant comparisons and improving search performance.
+
+Q: What is the Boyer-Moore algorithm?
+A: The Boyer-Moore algorithm is an efficient string searching algorithm that skips sections of the text to be searched based on mismatches between the pattern and text. It uses heuristics to shift the pattern efficiently, reducing the number of character comparisons needed.
+
+Q: What is the purpose of the Rabin-Karp algorithm?
+A: The Rabin-Karp algorithm is used for multiple pattern matching in a string by using hashing to find all occurrences of a pattern within a text. It computes hash values for substrings of the text and the pattern, enabling efficient comparison and detection of matches.
+
+Q: What is a binomial heap?
+A: A binomial heap is a type of heap data structure that supports efficient merge operations. It consists of a collection of binomial trees, where each tree follows the binomial heap properties. Binomial heaps are used to implement priority queues and are known for their efficient union operation.
+
+Q: What is a Fibonacci heap?
+A: A Fibonacci heap is a type of heap data structure that supports a set of priority queue operations with amortized time complexities that are better than those of other heaps. It allows for efficient decrease-key and delete operations, making it suitable for algorithms like Dijkstra’s.
+
+Q: What is a disjoint-set data structure?
+A: A disjoint-set data structure, also known as a union-find data structure, manages a partition of a set into disjoint subsets. It supports operations to determine the set a particular element belongs to and to merge two sets. It is commonly used in algorithms that involve grouping or connected components.
+
+Q: What is the union-find algorithm?
+A: The union-find algorithm is used to manage and merge disjoint sets efficiently. It supports two primary operations: union, which merges two sets, and find, which identifies the set containing a particular element. It is useful in algorithms for network connectivity and clustering.
+
+Q: What is a Greedy algorithm?
+A: A Greedy algorithm is a problem-solving approach that builds up a solution piece by piece, making the locally optimal choice at each step with the hope of finding a global optimum. It is used in optimization problems where local choices lead to an overall optimal solution.
+
+Q: What is a randomized algorithm?
+A: A randomized algorithm uses randomization as a key component in its logic to solve problems. It can provide good average-case performance and simplicity, often used in scenarios where deterministic algorithms are too complex or inefficient. Examples include randomized quicksort and Monte Carlo methods.
+
+Q: What is the purpose of memoization in dynamic programming?
+A: Memoization is a technique used in dynamic programming to improve efficiency by storing the results of expensive function calls and reusing these results when the same inputs occur again. This avoids redundant calculations and reduces the overall time complexity of the algorithm.
+
+Q: What is a hash table?
+A: A hash table is a data structure that implements an associative array, a structure that maps keys to values. It uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found. Hash tables provide efficient access to data with average-case constant time complexity.
+
+Q: What is a collision in a hash table?
+A: A collision in a hash table occurs when two or more keys hash to the same index in the table. This situation requires a collision resolution strategy, such as chaining (where each slot in the table points to a linked list of entries) or open addressing (where alternative slots are tried).
+
+Q: What is open addressing in a hash table?
+A: Open addressing is a collision resolution technique in hash tables where, upon a collision, the algorithm searches for the next available slot within the table based on a predefined probing sequence. Common probing methods include linear probing, quadratic probing, and double hashing.
+
+Q: What is chaining in a hash table?
+A: Chaining is a collision resolution method in hash tables where each slot in the table holds a linked list of entries. When a collision occurs, the new entry is added to the linked list at the corresponding slot, allowing multiple entries to be stored at the same index.

@@ -1,0 +1,665 @@
+Q: What is JavaScript?
+A: JavaScript is a high-level, interpreted programming language primarily used for adding interactivity and dynamic content to web pages. It runs in the browser, allowing developers to create responsive and interactive user interfaces, handle events, and manipulate the Document Object Model (DOM).
+
+Q: What is the difference between let, const, and var?
+A: var is function-scoped and can be redeclared within the same scope. let is block-scoped and cannot be redeclared within the same block. const is also block-scoped like let, but it is used to declare variables whose values cannot be reassigned after initialization.
+
+Q: What are JavaScript data types?
+A: JavaScript data types include primitive types such as number, string, boolean, undefined, null, and symbol, as well as complex types like object and function. Primitives are immutable, while objects and functions are mutable and can hold multiple values.
+
+Q: What is a closure in JavaScript?
+A: A closure is a feature in JavaScript where a function retains access to its lexical scope, even when the function is executed outside its original scope. This allows for the creation of private variables and functions, as well as maintaining state across function calls.
+
+Q: What is the difference between == and ===?
+A: == is the equality operator that performs type coercion before comparing values, meaning it converts operands to the same type before making the comparison. === is the strict equality operator that compares both value and type, ensuring no type conversion occurs.
+
+Q: What is the purpose of the this keyword in JavaScript?
+A: The this keyword refers to the context in which a function is called. It allows access to the properties and methods of the object that is currently executing the code. Its value is determined by how a function is invoked, not where it is defined.
+
+Q: What is a JavaScript prototype?
+A: A prototype is an object from which other objects inherit properties and methods. In JavaScript, every function and object has a prototype property that allows objects to share properties and methods, enabling inheritance and method reuse.
+
+Q: What is event delegation in JavaScript?
+A: Event delegation is a technique where a single event listener is added to a parent element instead of multiple listeners on child elements. This takes advantage of event bubbling, where events propagate up the DOM tree, reducing memory usage and improving performance.
+
+Q: What is the Document Object Model (DOM)?
+A: The DOM is a programming interface for HTML and XML documents that represents the page structure as a tree of objects. It allows JavaScript to manipulate the content, structure, and style of web pages dynamically by accessing and modifying the elements of the document.
+
+Q: What are JavaScript promises?
+A: JavaScript promises are objects representing the eventual completion or failure of an asynchronous operation. They provide a way to handle asynchronous code by chaining .then() and .catch() methods to specify actions to be performed upon success or error.
+
+Q: What is the fetch API?
+A: The fetch API is a modern JavaScript API for making HTTP requests. It returns a promise that resolves to the response of the request, allowing for a more streamlined approach to handling network requests compared to older methods like XMLHttpRequest.
+
+Q: What is the difference between null and undefined?
+A: null is a special value that explicitly represents the absence of any object value. undefined is a primitive value automatically assigned to variables that have been declared but not yet initialized. null is often used as an intentional placeholder, while undefined indicates a variable has not been assigned a value.
+
+Q: What is a callback function?
+A: A callback function is a function passed as an argument to another function, which is then executed inside the outer function. Callbacks are commonly used for handling asynchronous operations and ensuring certain code runs after an operation completes.
+
+Q: What is async and await in JavaScript?
+A: async and await are keywords used to simplify handling asynchronous operations. async is used to declare a function that returns a promise, while await is used inside an async function to pause execution until a promise is resolved or rejected, making asynchronous code easier to read and write.
+
+Q: What is the difference between call() and apply() methods?
+A: Both call() and apply() methods are used to invoke a function with a specific this value and arguments. The main difference is that call() takes arguments individually, while apply() takes arguments as an array. Both methods allow for altering the this context of a function.
+
+Q: What is a JavaScript arrow function?
+A: An arrow function is a concise way to write functions in JavaScript using the => syntax. Arrow functions do not have their own this context and are often used for short, anonymous functions. They inherit the this value from their surrounding lexical context.
+
+Q: What is the purpose of the bind() method?
+A: The bind() method creates a new function with a specific this value and optional initial arguments. It is useful for ensuring that a function is always called with the desired this context, especially when passing methods as callbacks.
+
+Q: What are JavaScript events?
+A: JavaScript events are actions or occurrences that happen in the browser, such as user interactions (clicks, key presses) or browser actions (loading a page). JavaScript allows developers to respond to these events using event listeners and handlers to create interactive web experiences.
+
+Q: What is the localStorage object?
+A: The localStorage object is part of the Web Storage API that provides a way to store key-value pairs in a web browser persistently. Data stored in localStorage remains available even after the browser is closed and reopened, and it is accessible only from the same origin.
+
+Q: What is the sessionStorage object?
+A: The sessionStorage object is similar to localStorage but is designed to store data for the duration of the page session. Data stored in sessionStorage is available only while the browser tab or window is open and is cleared when the session ends.
+
+Q: What is the difference between localStorage and sessionStorage?
+A: The main difference between localStorage and sessionStorage is their scope and persistence. localStorage persists data across browser sessions, while sessionStorage only persists data for the duration of the current browser session. Both provide storage for key-value pairs, but sessionStorage is cleared when the browser tab or window is closed.
+
+Q: What is a JavaScript object?
+A: A JavaScript object is a collection of key-value pairs where keys are strings (or Symbols) and values can be any data type. Objects are used to store and manage related data and functionality, allowing for the organization of properties and methods.
+
+Q: What is a JavaScript array?
+A: A JavaScript array is an ordered collection of elements, which can be of any data type. Arrays are indexed by numeric keys and provide methods for manipulating and accessing elements, such as push(), pop(), shift(), and unshift().
+
+Q: What is the purpose of the typeof operator?
+A: The typeof operator is used to determine the type of a given operand. It returns a string indicating the type of the operand, such as "number", "string", "boolean", "object", "undefined", or "function", helping in type checking and debugging.
+
+Q: What is NaN in JavaScript?
+A: NaN stands for "Not-a-Number" and is a special value that represents the result of an invalid or undefined mathematical operation. It is of type number and is used to indicate that a value is not a valid number, often resulting from operations like dividing zero by zero.
+
+Q: What is the purpose of the map() method in JavaScript?
+A: The map() method is used to create a new array by applying a provided function to each element of an existing array. It transforms the elements of the array and returns a new array with the modified values, leaving the original array unchanged.
+
+Q: What is the filter() method in JavaScript?
+A: The filter() method creates a new array containing elements that pass a specified test function. It filters out elements based on a condition and returns a new array with only the elements that meet the criteria, without modifying the original array.
+
+Q: What is the reduce() method in JavaScript?
+A: The reduce() method processes an array and accumulates a single result by applying a provided function to each element, along with an optional initial value. It is useful for performing operations like summing values or concatenating elements into a single output.
+
+Q: What is the find() method in JavaScript?
+A: The find() method returns the first element in an array that satisfies a provided test function. It searches through the array and returns the first matching element or undefined if no element matches the condition.
+
+Q: What is the some() method in JavaScript?
+A: The some() method tests whether at least one element in an array passes a provided test function. It returns true if any element meets the condition and false if none do, allowing for quick checks of conditions across array elements.
+
+Q: What is the every() method in JavaScript?
+A: The every() method tests whether all elements in an array pass a provided test function. It returns true if every element meets the condition and false if at least one element does not, making it useful for validating uniformity across array elements.
+
+Q: What is the forEach() method in JavaScript?
+A: The forEach() method executes a provided function once for each element in an array. It is used to iterate over array elements and perform actions on each element, but it does not return a new array or value.
+
+Q: What is an immediately invoked function expression (IIFE)?
+A: An immediately invoked function expression (IIFE) is a function that is defined and executed immediately after its creation. It is enclosed in parentheses to create a function expression and then followed by another set of parentheses to invoke it, often used for creating isolated scopes.
+
+Q: What is the eval() function in JavaScript?
+A: The eval() function evaluates a string of JavaScript code and executes it. It can execute code dynamically at runtime, but it is generally discouraged due to security risks and potential performance issues. It should be avoided in favor of safer alternatives.
+
+Q: What is the with statement in JavaScript?
+A: The with statement extends the scope chain for a block of code, allowing properties of an object to be accessed without needing to specify the object name. It is deprecated and generally avoided because it can lead to code that is difficult to debug and understand.
+
+Q: What are JavaScript template literals?
+A: JavaScript template literals are string literals enclosed in backticks (`) that allow for embedded expressions and multi-line strings. They support placeholders using ${expression}, making it easy to include variables and expressions within strings.
+
+Q: What is the JSON object in JavaScript?
+A: The JSON object provides methods for working with JSON (JavaScript Object Notation) data, which is a lightweight format for data interchange. It includes JSON.stringify() for converting JavaScript objects to JSON strings and JSON.parse() for converting JSON strings back to JavaScript objects.
+
+Q: What is undefined in JavaScript?
+A: undefined is a primitive value that represents a variable that has been declared but not yet assigned a value. It is also the default return value of functions that do not explicitly return anything, indicating the absence of a defined value.
+
+Q: What is the window object in JavaScript?
+A: The window object represents the browser's window and serves as the global object in the browser environment. It provides access to properties and methods for manipulating the browser window, handling events, and interacting with the document.
+
+Q: What is the document object in JavaScript?
+A: The document object represents the HTML or XML document loaded into the browser and provides methods and properties for interacting with the document's content and structure. It allows developers to manipulate elements, access document properties, and handle events.
+
+Q: What is the navigator object in JavaScript?
+A: The navigator object provides information about the browser and the environment in which the JavaScript code is running. It includes properties such as userAgent, platform, and language, which can be used to detect browser details and user preferences.
+
+Q: What is the location object in JavaScript?
+A: The location object represents the current URL of the browser and provides methods and properties for manipulating and accessing URL components. It allows for navigation to different pages, querying URL parameters, and obtaining the current URL.
+
+Q: What is the history object in JavaScript?
+A: The history object provides access to the browser's session history and allows for navigating through the user's browsing history. It includes methods like back(), forward(), and go() for controlling navigation within the session.
+
+Q: What is setTimeout() in JavaScript?
+A: The setTimeout() function schedules a function or code snippet to be executed after a specified delay in milliseconds. It returns a unique identifier for the timeout, which can be used with clearTimeout() to cancel the scheduled execution.
+
+Q: What is setInterval() in JavaScript?
+A: The setInterval() function repeatedly executes a function or code snippet at specified intervals in milliseconds. It returns a unique identifier for the interval, which can be used with clearInterval() to stop the repeated execution.
+
+Q: What is clearTimeout() in JavaScript?
+A: The clearTimeout() function cancels a previously scheduled timeout that was set using setTimeout(). It takes the timeout ID returned by setTimeout() as an argument, preventing the scheduled function from being executed.
+
+Q: What is clearInterval() in JavaScript?
+A: The clearInterval() function stops a previously scheduled interval that was set using setInterval(). It takes the interval ID returned by setInterval() as an argument, preventing further executions of the scheduled function.
+
+Q: What is the onload event in JavaScript?
+A: The onload event is triggered when a web page, image, or other resource has finished loading. It is often used to execute JavaScript code after the page or resource has been fully loaded, ensuring that all elements are available for manipulation.
+
+Q: What is the onclick event in JavaScript?
+A: The onclick event is triggered when an element is clicked by the user. It can be used to execute JavaScript code in response to a mouse click on an element, such as buttons, links, or other interactive elements.
+
+Q: What is preventDefault() in JavaScript?
+A: The preventDefault() method is used to prevent the default action of an event from occurring. It is commonly used in event handlers to stop the browser's default behavior, such as preventing a form from submitting or a link from navigating to a new page.
+
+Q: What is stopPropagation() in JavaScript?
+A: The stopPropagation() method stops the event from propagating up the DOM tree. It is used in event handlers to prevent an event from triggering additional handlers on parent elements, allowing for more controlled event handling.
+
+Q: What is the addEventListener() method?
+A: The addEventListener() method attaches an event handler to a specified event on an element. It allows for multiple handlers to be added to the same event and provides options for specifying event phases (capturing or bubbling).
+
+Q: What is innerHTML in JavaScript?
+A: The innerHTML property allows for getting or setting the HTML content of an element. It can be used to insert or modify HTML markup within an element, affecting its display and structure.
+
+Q: What is textContent in JavaScript?
+A: The textContent property retrieves or sets the text content of an element, excluding any HTML markup. It is used for manipulating plain text within elements without affecting the underlying HTML structure.
+
+Q: What is classList in JavaScript?
+A: The classList property provides access to the list of classes applied to an element. It offers methods for adding, removing, and toggling CSS classes, allowing for dynamic manipulation of element styling and class names.
+
+Q: What is querySelector() in JavaScript?
+A: The querySelector() method returns the first element that matches a specified CSS selector. It is used for selecting elements in the DOM using a variety of selector syntax, such as class names, IDs, and attribute selectors.
+
+Q: What is querySelectorAll() in JavaScript?
+A: The querySelectorAll() method returns a NodeList of all elements that match a specified CSS selector. It allows for selecting multiple elements at once based on complex CSS selectors and is useful for handling groups of elements.
+
+Q: What is createElement() in JavaScript?
+A: The createElement() method creates a new HTML element specified by a tag name. It allows for dynamically generating elements and adding them to the DOM, enabling the creation of new content programmatically.
+
+Q: What is appendChild() in JavaScript?
+A: The appendChild() method adds a new child node to the end of an existing element's list of children. It is used to insert elements into the DOM and can be applied to various types of nodes, including text nodes and other elements.
+
+Q: What is removeChild() in JavaScript?
+A: The removeChild() method removes a specified child node from its parent element. It is used to delete elements from the DOM, and it requires a reference to the child node to be removed.
+
+Q: What is replaceChild() in JavaScript?
+A: The replaceChild() method replaces a child node with a new node within an element. It requires two arguments: the new node to be inserted and the existing child node to be replaced, allowing for efficient updates to the DOM.
+
+Q: What is insertBefore() in JavaScript?
+A: The insertBefore() method inserts a new node before a specified reference node within an element. It allows for adding new elements in a specific position relative to an existing node, useful for reorganizing content in the DOM.
+
+Q: What is cloneNode() in JavaScript?
+A: The cloneNode() method creates a copy of a specified node. It can clone an element with or without its child nodes, depending on the deep parameter, allowing for the duplication of DOM elements for various purposes.
+
+Q: What is dataset in JavaScript?
+A: The dataset property provides access to custom data attributes of an element. It allows for storing and retrieving data associated with an element using attributes prefixed with data-, providing a way to attach additional information to DOM elements.
+
+Q: What is localStorage in JavaScript?
+A: The localStorage object provides a way to store key-value pairs in a web browser with no expiration time. Data stored in localStorage persists across browser sessions and can be used for storing user preferences, application state, and other persistent data.
+
+Q: What is sessionStorage in JavaScript?
+A: The sessionStorage object allows for storing key-value pairs in a web browser for the duration of a page session. Data stored in sessionStorage is available only for the duration of the page session and is cleared when the page is closed or refreshed.
+
+Q: What is the difference between localStorage and sessionStorage?
+A: The primary difference between localStorage and sessionStorage is their persistence. localStorage data persists across browser sessions, while sessionStorage data is only available during a single page session and is cleared when the page is closed or refreshed.
+
+Q: What is a JavaScript promise?
+A: A JavaScript promise represents the eventual completion (or failure) of an asynchronous operation and its resulting value. It provides a way to handle asynchronous results by chaining then() and catch() methods to manage successful outcomes and errors.
+
+Q: What is async/await in JavaScript?
+A: async/await is a syntax for working with promises in a more readable and synchronous-looking manner. An async function returns a promise, and the await keyword pauses execution until the promise is resolved, allowing for more straightforward asynchronous code.
+
+Q: What is the fetch() function in JavaScript?
+A: The fetch() function is used to make network requests and retrieve resources from the server. It returns a promise that resolves to the Response object representing the response to the request, allowing for handling network operations and data retrieval.
+
+Q: What is Object.keys() in JavaScript?
+A: The Object.keys() method returns an array of a given object's own enumerable property names. It is useful for iterating over object properties and extracting their keys as an array for further processing.
+
+Q: What is Object.values() in JavaScript?
+A: The Object.values() method returns an array of a given object's own enumerable property values. It provides a way to retrieve the values of an object’s properties as an array, which can be used for iteration and data manipulation.
+
+Q: What is Object.entries() in JavaScript?
+A: The Object.entries() method returns an array of a given object's own enumerable property [key, value] pairs. It allows for iterating over both keys and values of an object in a convenient array format.
+
+Q: What is Object.assign() in JavaScript?
+A: The Object.assign() method copies the properties of one or more source objects to a target object. It is used for merging objects, cloning objects, or extending an object with properties from other objects.
+
+Q: What is the Symbol data type in JavaScript?
+A: The Symbol data type represents a unique and immutable value often used as object property keys. Symbols are created using the Symbol() function and are guaranteed to be unique, providing a way to add properties without risking name collisions.
+
+Q: What is a closure in JavaScript?
+A: A closure is a feature in JavaScript where a function retains access to its lexical scope even after the function has finished executing. It allows functions to have private variables and maintain state across multiple invocations.
+
+Q: What is event delegation in JavaScript?
+A: Event delegation is a technique of handling events by attaching a single event listener to a parent element rather than multiple listeners to child elements. It leverages event propagation (bubbling) to handle events for dynamically added or existing child elements.
+
+Q: What is the difference between == and === in JavaScript?
+A: The == operator performs type coercion when comparing values, meaning it converts values to a common type before comparison. The === operator, known as the strict equality operator, checks for both value and type equality without type coercion.
+
+Q: What is a JavaScript callback function?
+A: A callback function is a function passed as an argument to another function and is executed after the completion of the containing function's task. It is used to handle asynchronous operations, manage event handling, or perform operations upon completion.
+
+Q: What is a JavaScript function constructor?
+A: A function constructor is a way to create a function dynamically using the Function constructor. It takes one or more string arguments where the last argument represents the function body, and the preceding arguments are the function parameters.
+
+Q: What is the this keyword in JavaScript?
+A: The this keyword refers to the context in which a function is executed. It represents the object that is currently invoking the function, and its value can change depending on how the function is called (e.g., as a method, constructor, or in a global context).
+
+Q: What is the prototype property in JavaScript?
+A: The prototype property allows for defining methods and properties that can be shared across all instances of a constructor function. It is used for adding functionality to objects created by constructor functions, enabling inheritance and method sharing.
+
+Q: What is method chaining in JavaScript?
+A: Method chaining is a programming technique where multiple methods are called on the same object sequentially, with each method returning the object itself. This allows for more concise and readable code, particularly in libraries and APIs that support this style.
+
+Q: What is the Array.prototype.reduce() method in JavaScript?
+A: The Array.prototype.reduce() method executes a reducer function (that you provide) on each element of the array, resulting in a single output value. It can be used for accumulating results, such as summing values or concatenating strings.
+
+Q: What is the Array.prototype.map() method in JavaScript?
+A: The Array.prototype.map() method creates a new array with the results of calling a provided function on every element in the original array. It is used for transforming array elements without modifying the original array.
+
+Q: What is the Array.prototype.filter() method in JavaScript?
+A: The Array.prototype.filter() method creates a new array with all elements that pass a test provided by a function. It is used to selectively include elements based on a condition, resulting in a subset of the original array.
+
+Q: What is Array.prototype.find() in JavaScript?
+A: The Array.prototype.find() method returns the first element in an array that satisfies a provided testing function. It is useful for searching through arrays and retrieving the first matching element.
+
+Q: What is Array.prototype.some() in JavaScript?
+A: The Array.prototype.some() method tests whether at least one element in an array passes a provided test function. It returns true if any element meets the condition and false otherwise, making it useful for checking if any items meet a criteria.
+
+Q: What is Array.prototype.every() in JavaScript?
+A: The Array.prototype.every() method tests whether all elements in an array pass a provided test function. It returns true if every element meets the condition and false if at least one element does not, making it useful for validating uniformity across array elements.
+
+Q: What is the Array.prototype.flat() method in JavaScript?
+A: The Array.prototype.flat() method creates a new array with all sub-array elements concatenated into it recursively up to a specified depth. It simplifies working with nested arrays by flattening their structure.
+
+Q: What is the Array.prototype.flatMap() method in JavaScript?
+A: The Array.prototype.flatMap() method first maps each element using a mapping function and then flattens the result into a new array. It combines the functionality of map() and flat() in a single operation.
+
+Q: What is Array.prototype.includes() in JavaScript?
+A: The Array.prototype.includes() method determines whether an array contains a certain element, returning true if the element is found and false otherwise. It performs a simple check for the presence of a value within the array.
+
+Q: What is the Array.prototype.concat() method in JavaScript?
+A: The Array.prototype.concat() method is used to merge two or more arrays into a single array. It creates a new array that includes all elements from the original arrays, without modifying the existing arrays.
+
+Q: What is Array.prototype.splice() in JavaScript?
+A: The Array.prototype.splice() method changes the contents of an array by removing, replacing, or adding elements at a specified index. It modifies the original array and returns an array containing the removed elements.
+
+Q: What is Array.prototype.slice() in JavaScript?
+A: The Array.prototype.slice() method returns a shallow copy of a portion of an array into a new array object, selected from start to end (end not included). It does not modify the original array and is used for extracting subarrays.
+
+Q: What is Array.prototype.sort() in JavaScript?
+A: The Array.prototype.sort() method sorts the elements of an array in place and returns the sorted array. It converts elements to strings for comparison by default but can be customized with a comparison function.
+
+Q: What is the Array.prototype.reverse() method in JavaScript?
+A: The Array.prototype.reverse() method reverses the elements of an array in place, changing the original array. It returns the reversed array, with the first element becoming the last and vice versa.
+
+Q: What is the String.prototype.trim() method in JavaScript?
+A: The String.prototype.trim() method removes whitespace from both ends of a string, returning a new string with the whitespace removed. It does not affect the original string and is used for cleaning up user input or formatting text.
+
+Q: What is the String.prototype.toLowerCase() method in JavaScript?
+A: The String.prototype.toLowerCase() method returns a new string with all the characters converted to lowercase. It does not change the original string and is useful for case-insensitive comparisons or standardizing text.
+
+Q: What is the String.prototype.toUpperCase() method in JavaScript?
+A: The String.prototype.toUpperCase() method returns a new string with all the characters converted to uppercase. It does not alter the original string and is used for making text uniform in terms of capitalization.
+
+Q: What is the String.prototype.includes() method in JavaScript?
+A: The String.prototype.includes() method checks if a string contains a specified substring, returning true if it does and false otherwise. It is useful for determining the presence of specific content within a string.
+
+Q: What is the String.prototype.indexOf() method in JavaScript?
+A: The String.prototype.indexOf() method returns the index of the first occurrence of a specified substring within a string. It returns -1 if the substring is not found and can be used for locating the position of text within a string.
+
+Q: What is String.prototype.replace() in JavaScript?
+A: The String.prototype.replace() method returns a new string with some or all matches of a pattern replaced by a replacement value. It can be used with strings or regular expressions to perform substitutions.
+
+Q: What is String.prototype.split() in JavaScript?
+A: The String.prototype.split() method splits a string into an array of substrings based on a specified separator. It returns the array of substrings and can be used to break down text into manageable parts.
+
+Q: What is String.prototype.charAt() in JavaScript?
+A: The String.prototype.charAt() method returns the character at a specified index in a string. If the index is out of range, it returns an empty string. It is useful for accessing individual characters within a string.
+
+Q: What is the String.prototype.match() method in JavaScript?
+A: The String.prototype.match() method retrieves the matches of a string against a regular expression. It returns an array of matched results or null if no matches are found, allowing for pattern-based text searches.
+
+Q: What is the String.prototype.search() method in JavaScript?
+A: The String.prototype.search() method searches for a match between a string and a regular expression, returning the index of the first match. It returns -1 if no match is found and is useful for locating patterns in text.
+
+Q: What is String.prototype.concat() in JavaScript?
+A: The String.prototype.concat() method joins two or more strings into a single string. It returns the concatenated result without modifying the original strings and is used for combining text.
+
+Q: What is the String.prototype.slice() method in JavaScript?
+A: The String.prototype.slice() method extracts a section of a string and returns it as a new string. It takes two arguments: the start index and the end index, and does not modify the original string.
+
+Q: What is the String.prototype.substr() method in JavaScript?
+A: The String.prototype.substr() method returns a portion of a string based on a starting index and an optional length. It extracts characters from the start index up to the specified length and does not change the original string.
+
+Q: What is String.prototype.repeat() in JavaScript?
+A: The String.prototype.repeat() method returns a new string that is the result of repeating the original string a specified number of times. It is useful for generating repeated patterns or concatenating strings.
+
+Q: What is the Number.isNaN() method in JavaScript?
+A: The Number.isNaN() method determines whether the provided value is NaN (Not-a-Number) and of the type Number. It is used for checking if a value is truly NaN rather than a string representation of NaN.
+
+Q: What is the Number.isFinite() method in JavaScript?
+A: The Number.isFinite() method determines whether a value is a finite number. It returns true if the value is a finite number and false otherwise, making it useful for checking numerical values in mathematical operations.
+
+Q: What is the Number.parseInt() method in JavaScript?
+A: The Number.parseInt() method parses a string argument and returns an integer. It converts the string to an integer based on the specified radix (base) and can be used for parsing numeric values from strings.
+
+Q: What is the Number.parseFloat() method in JavaScript?
+A: The Number.parseFloat() method parses a string argument and returns a floating-point number. It converts the string to a number with decimal points and is used for parsing numeric values from strings with floating-point precision.
+
+Q: What is Math.random() in JavaScript?
+A: The Math.random() method returns a pseudo-random floating-point number between 0 (inclusive) and 1 (exclusive). It is used for generating random values, such as in games or simulations.
+
+Q: What is Math.floor() in JavaScript?
+A: The Math.floor() method returns the largest integer less than or equal to a given number. It is used for rounding down numerical values to the nearest whole number.
+
+Q: What is Math.ceil() in JavaScript?
+A: The Math.ceil() method returns the smallest integer greater than or equal to a given number. It is used for rounding up numerical values to the nearest whole number.
+
+Q: What is Math.round() in JavaScript?
+A: The Math.round() method returns the value of a number rounded to the nearest integer. It rounds to the nearest whole number based on decimal values, with values .5 and above rounding up.
+
+Q: What is the Date object in JavaScript?
+A: The Date object represents dates and times in JavaScript. It provides methods for creating, manipulating, and formatting dates and times, and can be used for various date-related operations and calculations.
+
+Q: What is the Date.now() method in JavaScript?
+A: The Date.now() method returns the number of milliseconds elapsed since January 1, 1970, 00:00:00 UTC. It is useful for getting the current timestamp and measuring time intervals.
+
+Q: What is JSON.parse() in JavaScript?
+A: The JSON.parse() method parses a JSON-formatted string and converts it into a JavaScript object. It is used for converting JSON data received from a server into an object for manipulation within the application.
+
+Q: What is JSON.stringify() in JavaScript?
+A: The JSON.stringify() method converts a JavaScript object or value into a JSON-formatted string. It is used for serializing data to be sent to a server or stored in a format suitable for JSON handling.
+
+Q: What is a JavaScript module?
+A: A JavaScript module is a file containing code that is exported and imported between different files. Modules allow for code organization, encapsulation, and reusability by separating code into logical units that can be imported and used where needed.
+
+Q: What is the import statement in JavaScript?
+A: The import statement is used to import functions, objects, or primitives from other modules into the current module. It allows for using code defined in other files and modules, promoting modular and maintainable code.
+
+Q: What is the export statement in JavaScript?
+A: The export statement is used to export functions, objects, or primitives from a module so they can be imported and used in other modules. It facilitates sharing code between different parts of an application.
+
+Q: What is a JavaScript generator function?
+A: A JavaScript generator function is a special type of function that can be paused and resumed, allowing for the generation of a sequence of values over time. It uses the function* syntax and the yield keyword to produce values on demand.
+
+Q: What is the yield keyword in JavaScript?
+A: The yield keyword is used within a generator function to pause execution and return a value to the caller. The generator function can be resumed later to continue execution from where it was paused, allowing for iterative value generation.
+
+Q: What is a JavaScript proxy?
+A: A JavaScript proxy is an object that allows for custom behavior to be defined for fundamental operations (e.g., property access, assignment, and function calls). It is created using the Proxy constructor and can be used to intercept and modify interactions with objects.
+
+Q: What is Reflect in JavaScript?
+A: The Reflect object provides methods for performing operations on objects similar to those available through the Proxy object. It is used to simplify common tasks such as property access, method invocation, and object manipulation.
+
+Q: What is Object.defineProperty() in JavaScript?
+A: The Object.defineProperty() method defines a new property or modifies an existing property on an object, allowing for the specification of property attributes such as value, writable, enumerable, and configurable.
+
+Q: What is the Object.freeze() method in JavaScript?
+A: The Object.freeze() method prevents modifications to an object, including adding, deleting, or changing properties. It makes the object immutable by making its properties read-only and unchangeable.
+
+Q: What is the Object.seal() method in JavaScript?
+A: The Object.seal() method prevents the addition or removal of properties from an object but allows modification of existing properties. It makes the object sealed, meaning its structure cannot be changed, but its properties can still be updated.
+
+Q: What is Object.assign() in JavaScript?
+A: The Object.assign() method copies values from one or more source objects to a target object, merging properties into the target. It is used for object cloning, merging, and assigning properties between objects.
+
+Q: What is a JavaScript callback function?
+A: A JavaScript callback function is a function passed as an argument to another function, to be executed after the completion of a specific task or event. It is commonly used for handling asynchronous operations, event handling, and custom functionality.
+
+Q: What is an arrow function in JavaScript?
+A: An arrow function is a concise way to write functions using the => syntax. It provides a shorter syntax for function expressions and has lexical scoping for the this keyword, making it easier to work with functions and object methods.
+
+Q: What is a JavaScript promise?
+A: A JavaScript promise represents the eventual completion (or failure) of an asynchronous operation and its resulting value. It provides methods for handling asynchronous results, such as .then(), .catch(), and .finally().
+
+Q: What is async/await in JavaScript?
+A: async/await is syntax introduced to simplify working with promises and asynchronous code. An async function returns a promise, and the await keyword is used within async functions to pause execution until the promise is resolved.
+
+Q: What is event delegation in JavaScript?
+A: Event delegation is a technique of handling events by attaching a single event listener to a parent element that listens for events bubbling up from child elements. It is efficient for managing events on dynamically added elements or reducing the number of event listeners.
+
+Q: What is the DOM (Document Object Model) in JavaScript?
+A: The DOM is a programming interface for web documents that represents the structure of a webpage as a tree of objects. It allows JavaScript to interact with and manipulate HTML and XML documents, enabling dynamic content and interaction.
+
+Q: What is the document.getElementById() method in JavaScript?
+A: The document.getElementById() method returns the element with the specified id attribute value from the document. It is used for accessing and manipulating elements with a unique identifier.
+
+Q: What is the document.querySelector() method in JavaScript?
+A: The document.querySelector() method returns the first element that matches a specified CSS selector. It is used for selecting and manipulating elements based on their class, id, or other attributes.
+
+Q: What is the addEventListener() method in JavaScript?
+A: The addEventListener() method attaches an event handler to a specified element, allowing for the execution of a function when a particular event occurs. It supports various event types and provides a way to manage user interactions and other events.
+
+Q: What is localStorage in JavaScript?
+A: localStorage is a Web Storage API feature that allows for storing data in the browser's local storage, persisting even when the browser is closed. It provides a way to save key-value pairs and retrieve them across browser sessions.
+
+Q: What is sessionStorage in JavaScript?
+A: sessionStorage is a Web Storage API feature that allows for storing data in the browser's session storage, which is cleared when the page session ends. It provides a way to save key-value pairs for the duration of a page session.
+
+Q: What is the fetch() method in JavaScript?
+A: The fetch() method provides a modern way to make network requests and handle responses. It returns a promise that resolves to the Response object representing the response to the request, allowing for easier handling of asynchronous HTTP operations.
+
+Q: What is the Promise.all() method in JavaScript?
+A: The Promise.all() method takes an iterable of promises and returns a single promise that resolves when all of the promises in the iterable have resolved, or rejects if any of the promises reject. It is used for handling multiple asynchronous operations in parallel.
+
+Q: What is a JavaScript closure?
+A: A JavaScript closure is a feature where an inner function has access to the outer function's variables, even after the outer function has finished executing. Closures are useful for creating private variables and encapsulating state.
+
+Q: What is a JavaScript prototype?
+A: A JavaScript prototype is an object associated with every function and object that allows for inheritance of properties and methods. It provides a mechanism for sharing properties and methods across instances of objects.
+
+Q: What is this in JavaScript?
+A: In JavaScript, this is a special keyword that refers to the context in which a function is executed. Its value depends on how the function is called, representing the object that is currently being operated on or the global object in non-method calls.
+
+Q: What is the call() method in JavaScript?
+A: The call() method allows a function to be called with a specified this value and arguments provided individually. It is used for borrowing methods from other objects and explicitly setting the context for function execution.
+
+Q: What is the apply() method in JavaScript?
+A: The apply() method is similar to call(), but it accepts an array of arguments instead of individual arguments. It allows for setting the this value and passing arguments to a function, useful for dynamic argument handling.
+
+Q: What is Object.create() in JavaScript?
+A: The Object.create() method creates a new object with the specified prototype object and properties. It allows for creating objects with a specific prototype, enabling inheritance and object customization.
+
+Q: What is the Object.keys() method in JavaScript?
+A: The Object.keys() method returns an array of a given object's own enumerable property names. It is used for iterating over object properties and retrieving property names as an array.
+
+Q: What is the Object.values() method in JavaScript?
+A: The Object.values() method returns an array of a given object's own enumerable property values. It is used for retrieving the values associated with an object's properties.
+
+Q: What is the Object.entries() method in JavaScript?
+A: The Object.entries() method returns an array of a given object's own enumerable string-keyed property [key, value] pairs. It is used for iterating over object properties and their values.
+
+Q: What is Array.isArray() in JavaScript?
+A: The Array.isArray() method determines whether a given value is an array. It returns true if the value is an array and false otherwise, providing a reliable way to check for array instances.
+
+Q: What is the Array.prototype.forEach() method in JavaScript?
+A: The Array.prototype.forEach() method executes a provided function once for each array element. It is used for iterating over arrays and performing operations on each element.
+
+Q: What is the Array.prototype.map() method in JavaScript?
+A: The Array.prototype.map() method creates a new array with the results of applying a provided function to each element of the original array. It is used for transforming array elements and generating a new array.
+
+Q: What is the Array.prototype.filter() method in JavaScript?
+A: The Array.prototype.filter() method creates a new array with all elements that pass a provided test function. It is used for filtering array elements based on a condition.
+
+Q: What is the Array.prototype.reduce() method in JavaScript?
+A: The Array.prototype.reduce() method executes a provided function for each array element, accumulating a single result. It is used for reducing an array to a single value, such as summing elements or combining data.
+
+Q: What is the Array.prototype.find() method in JavaScript?
+A: The Array.prototype.find() method returns the first element in an array that satisfies a provided testing function. It is used for locating an element based on a condition and returns undefined if no element matches.
+
+Q: What is the Array.prototype.some() method in JavaScript?
+A: The Array.prototype.some() method tests whether at least one element in the array passes a provided testing function. It returns true if any element satisfies the condition and false otherwise.
+
+Q: What is the Array.prototype.every() method in JavaScript?
+A: The Array.prototype.every() method tests whether all elements in the array pass a provided testing function. It returns true if every element satisfies the condition and false otherwise.
+
+Q: What is the Array.prototype.sort() method in JavaScript?
+A: The Array.prototype.sort() method sorts the elements of an array in place and returns the sorted array. It can be used with or without a comparator function to control the sort order.
+
+Q: What is the Array.prototype.concat() method in JavaScript?
+A: The Array.prototype.concat() method creates a new array by merging two or more arrays. It does not modify the original arrays and is used for combining array elements into a single array.
+
+Q: What is the Array.prototype.slice() method in JavaScript?
+A: The Array.prototype.slice() method extracts a portion of an array and returns it as a new array. It takes two arguments: the start index and the end index, and does not modify the original array.
+
+Q: What is the Array.prototype.splice() method in JavaScript?
+A: The Array.prototype.splice() method changes the contents of an array by removing, replacing, or adding elements. It modifies the original array and returns an array of the removed elements.
+
+Q: What is the Array.prototype.join() method in JavaScript?
+A: The Array.prototype.join() method joins all elements of an array into a single string, with a specified separator between elements. It is used for converting arrays into strings with customizable delimiters.
+
+Q: What is JSON.stringify() in JavaScript?
+A: The JSON.stringify() method converts a JavaScript object or value to a JSON string. It is used for serializing objects into a format that can be transmitted or stored as text.
+
+Q: What is JSON.parse() in JavaScript?
+A: The JSON.parse() method parses a JSON string and converts it into a JavaScript object. It is used for deserializing JSON data into an object that can be manipulated in JavaScript.
+
+Q: What is document.createElement() in JavaScript?
+A: The document.createElement() method creates a new HTML element with a specified tag name. It is used for dynamically creating and adding elements to the DOM.
+
+Q: What is document.appendChild() in JavaScript?
+A: The document.appendChild() method appends a new child node to a specified parent node in the DOM. It is used for adding newly created elements or nodes to the DOM hierarchy.
+
+Q: What is the window.onload event in JavaScript?
+A: The window.onload event is triggered when the entire page, including all dependent resources such as images and stylesheets, has finished loading. It is used for executing code after the page has fully loaded.
+
+Q: What is the window.onerror event in JavaScript?
+A: The window.onerror event is triggered when an uncaught error occurs in the JavaScript code. It provides information about the error and its location, allowing for custom error handling and logging.
+
+Q: What is setTimeout() in JavaScript?
+A: The setTimeout() function executes a specified function or code snippet after a delay, measured in milliseconds. It is used for scheduling code execution at a later time.
+
+Q: What is setInterval() in JavaScript?
+A: The setInterval() function repeatedly executes a specified function or code snippet at fixed intervals, measured in milliseconds. It is used for running code periodically.
+
+Q: What is clearTimeout() in JavaScript?
+A: The clearTimeout() function cancels a timeout previously established by setTimeout(). It is used for stopping the execution of code scheduled by setTimeout() before it runs.
+
+Q: What is clearInterval() in JavaScript?
+A: The clearInterval() function cancels an interval previously established by setInterval(). It is used for stopping the repeated execution of code scheduled by setInterval().
+
+Q: What is the fetch() API used for in JavaScript?
+A: The fetch() API is used for making network requests and handling responses in a modern way. It returns a promise that resolves to the Response object representing the response to the request.
+
+Q: What is the XMLHttpRequest object in JavaScript?
+A: The XMLHttpRequest object is used for making asynchronous HTTP requests to a server. It allows for sending and receiving data without reloading the webpage, commonly used for AJAX operations.
+
+Q: What is the difference between == and === in JavaScript?
+A: == is the equality operator that performs type coercion before comparing values, while === is the strict equality operator that compares both value and type without coercion. === is generally preferred to avoid unexpected type conversions.
+
+Q: What is the debugger statement in JavaScript?
+A: The debugger statement pauses the execution of code and invokes any available debugging functionality. It is used for setting breakpoints and inspecting code during development.
+
+Q: What is a JavaScript module?
+A: A JavaScript module is a file containing code that is encapsulated and can export or import functions, objects, or variables. Modules help in organizing code into reusable components and managing dependencies between files.
+
+Q: What is the import statement in JavaScript?
+A: The import statement is used to import functions, objects, or variables from other modules into the current module. It is part of the ES6 module system and allows for modular code organization.
+
+Q: What is the export statement in JavaScript?
+A: The export statement is used to export functions, objects, or variables from a module, making them available for import in other modules. It helps in sharing and reusing code across different files.
+
+Q: What is the default export in JavaScript?
+A: The default export allows a module to export a single value, function, or object as the default export. It simplifies the import syntax and enables easier consumption of module content.
+
+Q: What is a JavaScript generator function?
+A: A JavaScript generator function is a function defined with the function* syntax that can be paused and resumed. It returns an iterator object with a next() method for producing values on demand.
+
+Q: What is yield in JavaScript?
+A: The yield keyword is used within a generator function to pause its execution and return a value to the caller. It allows for producing values one at a time and resuming execution later.
+
+Q: What is the Symbol type in JavaScript?
+A: The Symbol type is a primitive data type introduced in ES6 that represents a unique and immutable identifier. Symbols are often used as object property keys to avoid naming collisions and ensure uniqueness.
+
+Q: What is WeakMap in JavaScript?
+A: WeakMap is a collection of key-value pairs where keys are objects and values can be any data type. It allows for garbage collection of keys when there are no other references to them, preventing memory leaks.
+
+Q: What is WeakSet in JavaScript?
+A: WeakSet is a collection of unique objects where objects can be added and removed. It allows for garbage collection of objects when there are no other references to them, helping manage memory more effectively.
+
+Q: What is the Proxy object in JavaScript?
+A: The Proxy object allows for creating a wrapper around another object, intercepting and customizing operations such as property access, assignment, and function invocation. It provides a way to define custom behavior for objects.
+
+Q: What is Reflect in JavaScript?
+A: The Reflect object provides methods for intercepting and manipulating object operations, such as property access and method calls. It is used in conjunction with Proxy to handle operations in a more controlled manner.
+
+Q: What is Object.freeze() in JavaScript?
+A: The Object.freeze() method prevents the modification of an object's properties, making it immutable. It ensures that properties cannot be added, deleted, or modified, creating a read-only object.
+
+Q: What is Object.seal() in JavaScript?
+A: The Object.seal() method prevents the addition or removal of properties from an object but allows modifications to existing properties. It seals the object, preventing structural changes while permitting property updates.
+
+Q: What is the instanceof operator in JavaScript?
+A: The instanceof operator tests whether an object is an instance of a specific constructor or class. It checks the presence of the constructor's prototype in the object's prototype chain.
+
+Q: What is Object.getPrototypeOf() in JavaScript?
+A: The Object.getPrototypeOf() method returns the prototype of a specified object. It is used to retrieve the internal prototype (i.e., the [[Prototype]] property) of an object.
+
+Q: What is Object.setPrototypeOf() in JavaScript?
+A: The Object.setPrototypeOf() method sets the prototype of a specified object to another object. It allows for modifying the prototype chain of an object, enabling changes to inheritance.
+
+Q: What is Object.defineProperty() in JavaScript?
+A: The Object.defineProperty() method defines a new property or modifies an existing property on an object. It allows for configuring property attributes, such as writable, enumerable, and configurable.
+
+Q: What is Object.defineProperties() in JavaScript?
+A: The Object.defineProperties() method defines multiple properties on an object or modifies existing properties. It takes an object of property descriptors, allowing for batch configuration of properties.
+
+Q: What is the toString() method in JavaScript?
+A: The toString() method returns a string representation of an object. It is used for converting objects to strings and can be overridden to provide custom string representations.
+
+Q: What is the valueOf() method in JavaScript?
+A: The valueOf() method returns the primitive value of an object. It is used for converting objects to their primitive equivalents and can be overridden to provide custom primitive values.
+
+Q: What is JSON.stringify() in JavaScript?
+A: The JSON.stringify() method converts a JavaScript object or value to a JSON string. It is used for serializing objects into a format that can be transmitted or stored as text.
+
+Q: What is JSON.parse() in JavaScript?
+A: The JSON.parse() method parses a JSON string and converts it into a JavaScript object. It is used for deserializing JSON data into an object that can be manipulated in JavaScript.
+
+Q: What is Object.prototype.hasOwnProperty() in JavaScript?
+A: The Object.prototype.hasOwnProperty() method checks whether an object has a specified property as its own (not inherited). It returns true if the object has the property, and false otherwise.
+
+Q: What is Object.prototype.toString() in JavaScript?
+A: The Object.prototype.toString() method returns a string representing the object. It is commonly used to determine the type of an object and can be overridden for custom string representations.
+
+Q: What is Array.prototype.slice() in JavaScript?
+A: The Array.prototype.slice() method returns a shallow copy of a portion of an array into a new array object. It can be used to extract a segment of an array without modifying the original array.
+
+Q: What is Array.prototype.splice() in JavaScript?
+A: The Array.prototype.splice() method changes the contents of an array by removing, replacing, or adding elements. It modifies the array in place and returns an array of the removed elements.
+
+Q: What is the Array.prototype.reduce() method in JavaScript?
+A: The Array.prototype.reduce() method applies a function against an accumulator and each element of the array (from left to right) to reduce it to a single value. It is commonly used for accumulating or aggregating values.
+
+Q: What is Array.prototype.map() in JavaScript?
+A: The Array.prototype.map() method creates a new array populated with the results of calling a provided function on every element in the original array. It is used for transforming array elements.
+
+Q: What is Array.prototype.filter() in JavaScript?
+A: The Array.prototype.filter() method creates a new array with all elements that pass the test implemented by the provided function. It is used for filtering out elements based on a condition.
+
+Q: What is Array.prototype.forEach() in JavaScript?
+A: The Array.prototype.forEach() method executes a provided function once for each array element. It is used for iterating over array elements and performing side effects without returning a value.
+
+Q: What is Array.prototype.find() in JavaScript?
+A: The Array.prototype.find() method returns the first element in the array that satisfies the provided testing function. It is used for finding elements that match a specific condition.
+
+Q: What is Array.prototype.includes() in JavaScript?
+A: The Array.prototype.includes() method determines whether an array contains a certain value among its entries. It returns true if the value is present, and false otherwise.
+
+Q: What is Array.prototype.indexOf() in JavaScript?
+A: The Array.prototype.indexOf() method returns the first index at which a given element can be found in the array, or -1 if it is not present. It is used for finding the position of an element in an array.
+
+Q: What is Array.prototype.concat() in JavaScript?
+A: The Array.prototype.concat() method creates a new array by combining multiple arrays or values. It does not modify the original arrays and returns a new array with the combined elements.
+
+Q: What is Array.prototype.sort() in JavaScript?
+A: The Array.prototype.sort() method sorts the elements of an array in place and returns the sorted array. It can sort elements as strings by default or use a custom comparator function.
+
+Q: What is Array.prototype.reverse() in JavaScript?
+A: The Array.prototype.reverse() method reverses the elements of an array in place and returns the reversed array. It modifies the original array and changes the order of its elements.
+
+Q: What is Array.prototype.join() in JavaScript?
+A: The Array.prototype.join() method joins all elements of an array into a single string, with a specified separator between elements. It is used for converting arrays into strings with customizable delimiters.
+
+Q: What is Array.prototype.slice() in JavaScript?
+A: The Array.prototype.slice() method returns a shallow copy of a portion of an array into a new array object. It can be used to extract a segment of an array without modifying the original array.
+
+Q: What is Array.prototype.reduce() in JavaScript?
+A: The Array.prototype.reduce() method applies a function against an accumulator and each element of the array (from left to right) to reduce it to a single value. It is commonly used for accumulating or aggregating values.
