@@ -105,4 +105,19 @@ class smallpdf:
             list_items = heading.find_elements(By.XPATH, 'following-sibling::ul[1]//p')
             paragraphs = [item.text for item in list_items]
             self.experience[title] = paragraphs
+    
+	def extract_job_desc(self,text):
+        job_desc=text.replace('\n','')
+        div_input = WebDriverWait(self.driver,10).until(EC.presence_of_element_located((By.XPATH,"//input[@type='text' and @placeholder='Hey! Ask me anything about your PDF.']")))
+        #prompt for extracting job_desc
+        div_input.send_keys("fgiven the job description:{job_desc} Extract the skills, programming languages, libraries/softwares/frameworks,past experiences/education/qualification required for this job role")
+        div_button_submit.click()
 
+        result3 = {}
+        headings = job_ext.find_elements(By.XPATH, ".//h1")
+        for heading in headings:
+            title = heading.text
+            list_items = heading.find_elements(By.XPATH, 'following-sibling::ul[1]//p')
+            paragraphs = [item.text for item in list_items]
+            result3[title] = paragraphs
+        return result3
