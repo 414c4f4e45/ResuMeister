@@ -6,7 +6,7 @@ import random
 import re
 import os
 
-from smallpdf import smallpdf
+from smallpdf import SmallPDF
 from transformers import GPT2LMHeadModel, GPT2Tokenizer, pipeline
 from sentence_transformers import SentenceTransformer, util
 from PyPDF2 import PdfReader
@@ -32,7 +32,8 @@ def get_sentiment_score(text):
 
 # Streamlit app
 st.title("PDF Uploader")
-
+job_role = st.text_area("Enter the Job Title/Role", height=40) 
+job = st.text_area("Enter the Job Description", height=200)
 uploaded_file = st.file_uploader("Upload your PDF file", type="pdf")
 
 if uploaded_file is not None and "uploaded_file_name" in st.session_state:
@@ -66,13 +67,15 @@ if "last_input" not in st.session_state:
     st.session_state.last_input = ""
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
-    st.session_state.chat_history.append({"role": "assistant", "content": "Which role?"})
+    st.session_state.chat_history.append({"role": "assistant", "content": "What role are you aiming for, and how does it align with your career goals?"})
 if "sentiment_score" not in st.session_state:
     st.session_state.sentiment_score = None
 if "asked_questions" not in st.session_state:
     st.session_state.asked_questions = []
 if "asked_topics" not in st.session_state:
     st.session_state.asked_topics = []
+if "resume_extract" not in st.session_state:
+	st.session_state.resume_extract = ""
 
 
 def extract_text_from_pdf(pdf_file):
@@ -85,36 +88,36 @@ def extract_text_from_pdf(pdf_file):
 def run_extraction():
     try:
         # Initialize and run the smallpdf extraction
-        st.session_state.extract = smallpdf(st.session_state.temp_file_path)
+        st.session_state.extract = SmallPDF(st.session_state.temp_file_path,f"{job_role}: {job}")
         st.session_state.extract.run()
         st.session_state.extracted = True
         st.session_state.error_occurred = False
+		# Formatting skills
+        skills_data = "Skills:\n"
+        for key, values in st.session_state.extract.skills.items():
+            skills_data += f"{key}\n"
+            skills_data += ','.join(values) + "\n"
+
+        experience_data = "Experience:\n"
+        # Assuming 'experience' is a dictionary similar to 'skills'
+        for key, values in st.session_state.extract.experience.items():
+            experience_data += f"{key}\n"
+            for value in values:
+                experience_data += f"{value}\n"
+
+        # Combining both strings
+        st.session_state.resume_extract = skills_data + experience_data
+
     except Exception as e:
         st.session_state.extracted = False
         st.session_state.error_occurred = True
         st.error(f"An error occurred: {e}")
 
 def generate_follow_up_question(answer_text, resume_text, asked_questions, asked_topics, job_description, skills):
-    # Formatting skills
-    skills_data = "Skills:\n"
-    for key, values in st.session_state.extract.skills.items():
-        skills_data += f"{key}\n"
-        skills_data += ','.join(values) + "\n"
-
-    experience_data = "Experience:\n"
-    # Assuming 'experience' is a dictionary similar to 'skills'
-    for key, values in st.session_state.extract.experience.items():
-        experience_data += f"{key}\n"
-        for value in values:
-            experience_data += f"{value}\n"
-
-    # Combining both strings
-    combined_str = skills_data + experience_data
-
     #print("-----\n", combined_str, "\n------")
     prompt = (f"Based on the following resume snippet and the answer given, generate a relevant and professional follow-up question. "
               f"The question should be closely related to the user's response and should align with the job description provided.\n"
-              f"Resume Snippet: {combined_str}\nAnswer: {answer_text}\nPrevious Questions: {'; '.join(asked_questions)}\n"
+              f"Resume Snippet: {resume_text}\nAnswer: {answer_text}\nPrevious Questions: {'; '.join(asked_questions)}\n"
               f"Asked Topics: {'; '.join(asked_topics)}\nJob Description: {job_description}\nSkills: {', '.join(skills)}\nFollow-up Question:")
     
     inputs = tokenizer.encode(prompt, return_tensors="pt")
@@ -181,58 +184,57 @@ def generate_fallback_question(asked_questions, asked_topics):
         return f"Can you describe your experience with {new_topic}?"
 
 if uploaded_file is not None:
-	job_role = st.text_area("Enter the Job Title/Role", height=80) 
-	job = st.text_area("Enter the Job Description", height=200)
-    if st.session_state.temp_file_path is None:
-        with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as temp_file:
-            shutil.copyfileobj(uploaded_file, temp_file)
-            st.session_state.temp_file_path = temp_file.name
+	if st.session_state.temp_file_path is None:
+		with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as temp_file:
+			shutil.copyfileobj(uploaded_file, temp_file)
+			st.session_state.temp_file_path = temp_file.name
 
-    st.write("Thank you for uploading the PDF!")
-    st.write(f"File saved at: {st.session_state.temp_file_path}")
+	st.write("Thank you for uploading the PDF!")
+	st.write(f"File saved at: {st.session_state.temp_file_path}")
 
-    if st.session_state.extract is None or st.session_state.error_occurred:
-        run_extraction()
+	if st.session_state.extract is None or st.session_state.error_occurred:
+		run_extraction()
+	if st.session_state.extracted:
+		st.write("Extraction successful!")
+		st.write(f"Your Resume Score: {st.session_state.extract.score['Score'][0]}")
+		job_desc = st.session_state.extract.job_desc
+		job_req = "Requirements: "+';'.join(k+':'+', '.join(v) for k,v in job_desc.items())
 
-    if st.session_state.extracted:
-        st.write("Extraction successful!")
-		job_desc = st.session_state.extract.extract_job_desc(job)
-        job_req = "Requirements: "+';'.join(k+':'+', '.join(v) for k,v in job_desc.items())
-        def chat_actions():
-            user_input = st.session_state["chat_input"]
+		def chat_actions():
+			user_input = st.session_state["chat_input"]
 
-            sentiment, confidence = get_sentiment_score(user_input)
-            st.session_state.sentiment_score = {"sentiment": sentiment, "confidence": confidence}
+			sentiment, confidence = get_sentiment_score(user_input)
+			st.session_state.sentiment_score = {"sentiment": sentiment, "confidence": confidence}
 
-            st.session_state["chat_history"].append({"role": "user", "content": user_input, "sentiment": sentiment})
+			st.session_state["chat_history"].append({"role": "user", "content": user_input, "sentiment": sentiment})
 
-            follow_up_question = generate_follow_up_question(
-                answer_text=user_input,
-                resume_text=st.session_state.extract,
-                asked_questions=[entry["content"] for entry in st.session_state["chat_history"] if entry["role"] == "assistant"],
-                asked_topics=[],
-                job_description=job_role + ': ' + job_req,
-                skills=[]
-            )
-            st.session_state.asked_questions.append(follow_up_question)
-            follow_up_question_lower = follow_up_question.lower()
-            # Check if any value in the dictionary is in the follow-up question
+			follow_up_question = generate_follow_up_question(
+				answer_text=user_input,
+				resume_text=st.session_state.resume_extract,
+				asked_questions=[entry["content"] for entry in st.session_state["chat_history"] if entry["role"] == "assistant"],
+				asked_topics=[],
+				job_description=job_role + ': ' + job_req,
+				skills=[]
+			)
+			st.session_state.asked_questions.append(follow_up_question)
+			follow_up_question_lower = follow_up_question.lower()
+			# Check if any value in the dictionary is in the follow-up question
 
-            if any(value.lower() in follow_up_question_lower for value in flat_list):
-                topic = "Technical Skills"
-            else:
-                topic = "General"
-            st.session_state.asked_topics.append(topic)
-            st.session_state["chat_history"].append({"role": "assistant", "content": follow_up_question})
+			if any(value.lower() in follow_up_question_lower for value in st.session_state.resume_extract):
+				topic = "Technical Skills"
+			else:
+				topic = "General"
+			st.session_state.asked_topics.append(topic)
+			st.session_state["chat_history"].append({"role": "assistant", "content": follow_up_question})
 
-        st.chat_input("Enter your message", on_submit=chat_actions, key="chat_input")
+		st.chat_input("Enter your message", on_submit=chat_actions, key="chat_input")
 
-        for i in st.session_state["chat_history"]:
-            with st.chat_message(name=i["role"]):
-                st.write(i["content"])
+		for i in st.session_state["chat_history"]:
+			with st.chat_message(name=i["role"]):
+				st.write(i["content"])
 
-    else:
-        st.error("Extraction failed. Please try again.")
-        if st.button("Retry"):
-            run_extraction()
+	else:
+		st.error("Extraction failed. Please try again.")
+		if st.button("Retry"):
+			run_extraction()
 
