@@ -190,7 +190,6 @@ if uploaded_file is not None:
 			st.session_state.temp_file_path = temp_file.name
 
 	st.write("Thank you for uploading the PDF!")
-	st.write(f"File saved at: {st.session_state.temp_file_path}")
 
 	if st.session_state.extract is None or st.session_state.error_occurred:
 		run_extraction()
