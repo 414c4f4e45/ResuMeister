@@ -115,10 +115,7 @@ def run_extraction():
 
 def generate_follow_up_question(answer_text, resume_text, asked_questions, asked_topics, job_description, skills):
     #print("-----\n", combined_str, "\n------")
-    prompt = (f"Based on the following resume snippet and the answer given, generate a relevant and professional follow-up question. "
-              f"The question should be closely related to the user's response and should align with the job description provided.\n"
-              f"Resume Snippet: {resume_text}\nAnswer: {answer_text}\nPrevious Questions: {'; '.join(asked_questions)}\n"
-              f"Asked Topics: {'; '.join(asked_topics)}\nJob Description: {job_description}\nSkills: {', '.join(skills)}\nFollow-up Question:")
+    prompt = f"Based on the following resume snippet and the answer given, generate a relevant and professional follow-up question. The question should be closely related to the user's response and should align with the job description provided. Resume Snippet: {resume_text} Answer: {answer_text} Previous Questions: {'; '.join(asked_questions)} Asked Topics: {'; '.join(asked_topics)} Job Description: {job_description} Skills: {', '.join(skills)} Follow-up Question:"
     
     inputs = tokenizer.encode(prompt, return_tensors="pt")
     
