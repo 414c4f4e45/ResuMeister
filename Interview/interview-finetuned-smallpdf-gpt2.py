@@ -138,7 +138,7 @@ def generate_follow_up_question(answer_text, resume_text, asked_questions, asked
 
     question = re.split(r'[?.!]', question)[0].strip() + '?'
 
-    if "resume" in question.lower() or "job" in question.lower() or len(question.split()) < 4:
+    if "resume" in question.lower() or "job" in question.lower() or len(question.split()) < 4 or (st.session_state.sentiment_score!= None and st.session_state.sentiment_score['sentiment']=='Negative'):
         question = generate_fallback_question(asked_questions, asked_topics)
 
     if question in asked_questions:
@@ -200,6 +200,7 @@ if uploaded_file is not None:
 			user_input = st.session_state["chat_input"]
 
 			sentiment, confidence = get_sentiment_score(user_input)
+			#print(f"{sentiment=}|{confidence=}")
 			st.session_state.sentiment_score = {"sentiment": sentiment, "confidence": confidence}
 
 			st.session_state["chat_history"].append({"role": "user", "content": user_input, "sentiment": sentiment})
