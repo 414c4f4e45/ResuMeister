@@ -31,7 +31,7 @@ def get_sentiment_score(text):
 
 
 # Streamlit app
-st.title("PDF Uploader")
+st.title("ResuMeister")
 job_role = st.text_area("Enter the Job Title/Role", height=40) 
 job = st.text_area("Enter the Job Description", height=200)
 uploaded_file = st.file_uploader("Upload your PDF file", type="pdf")
@@ -233,4 +233,3 @@ if uploaded_file is not None:
 		st.error("Extraction failed. Please try again.")
 		if st.button("Retry"):
 			run_extraction()
-
